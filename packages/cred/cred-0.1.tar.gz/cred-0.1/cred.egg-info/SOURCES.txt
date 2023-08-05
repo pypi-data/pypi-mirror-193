@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+cred/__init__.py
+cred/main.py
+cred.egg-info/PKG-INFO
+cred.egg-info/SOURCES.txt
+cred.egg-info/dependency_links.txt
+cred.egg-info/entry_points.txt
+cred.egg-info/requires.txt
+cred.egg-info/top_level.txt

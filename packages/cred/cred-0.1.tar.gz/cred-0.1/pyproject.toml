@@ -1,0 +1,24 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'cred'
+version = '0.1'
+authors = [
+  {name = 'Henrique do Val'},
+  {email = 'henrique.val@hotmail.com'}
+]
+description = 'Local password safe. Simple Python wrapper for Windows Credentials API'
+readme = {file = "README.md", content-type = 'text/markdown'}
+requires-python = '>=3.6'
+license = {text = 'MIT'}
+dependencies = [
+  'pyperclip>=1.8.2',
+]
+
+[project.urls]
+Home-page = "https://github.com/HenriquedoVal/cred"
+
+[project.scripts]
+cred = 'cred.main:main'
