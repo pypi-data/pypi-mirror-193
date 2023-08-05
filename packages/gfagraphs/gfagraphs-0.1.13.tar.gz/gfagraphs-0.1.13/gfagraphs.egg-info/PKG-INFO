@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: gfagraphs
+Version: 0.1.13
+Summary: Package that packs some utility functions.
+Home-page: https://github.com/Tharos-ux/gfatypes
+Author: Tharos
+Author-email: Tharos <dubois.siegfried@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Tharos-ux/gfatypes
+Project-URL: Bug Tracker, https://github.com/Tharos-ux/gfatypes/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gfagraph
+
+This package aims to be an abstraction layer for GFA file format.
+
+
