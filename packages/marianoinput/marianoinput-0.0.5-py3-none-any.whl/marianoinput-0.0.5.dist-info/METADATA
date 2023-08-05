@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: marianoinput
+Version: 0.0.5
+Summary: marianoinput
+Author: Mariano Rico
+Author-email: <marstab4@gmail.com>
+Keywords: python,input
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+easily get valid input from user
