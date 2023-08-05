@@ -1,0 +1,39 @@
+{% extends "admin/index.html" %} {% load static %} {% block extrastyle %}
+<style>
+  #form-wrapper {
+    width: 100vh;
+    display: flex;
+  }
+  #input {
+    width: 50%;
+  }
+  #output {
+    width: 50%;
+  }
+</style>
+{% endblock %} {% block page_header %}Database Schema Visualizer{% endblock %}
+{% block nav-sidebar %}{% endblock %} {% block content %}
+<div id="form-wrapper">
+  <div id="input">
+    <form method="post">
+      {% csrf_token %} {{ form }}
+      <input type="submit" class="button" value="Show database schema" />
+      <a
+        class="button"
+        href="data:image/svg+xml;utf8,{{ svg }}"
+        download="db_schema.svg"
+      >
+        Download as SVG
+      </a>
+    </form>
+  </div>
+  <div id="output">
+    <object
+      id="db-schema"
+      class="fitvidsignore"
+      type="image/svg+xml"
+      data="data:image/svg+xml;utf8,{{ svg }}"
+    ></object>
+  </div>
+</div>
+{% endblock %} {% block sidebar %} {% endblock %}

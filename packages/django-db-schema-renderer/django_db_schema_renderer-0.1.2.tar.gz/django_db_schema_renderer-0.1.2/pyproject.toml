@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-db-schema-renderer"
+version = "0.1.2"
+description = "Django app to render ER diagram"
+authors = ["Oleksandr Korol <oleksandr.korol@coaxsoft.com>"]
+readme = "README.md"
+packages = [{include = "django_db_schema_renderer"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+Django = ">=3.2"
+django-extensions = "^3.2.1"
+pygraphviz = "^1.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+ruff = "^0.0.211"
+
+[build-system]
+requires = ['setuptools>=40.8.0', 'wheel']
+build-backend = 'setuptools.build_meta:__legacy__'
+
