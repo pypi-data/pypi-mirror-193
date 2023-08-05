@@ -1,0 +1,14 @@
+README.md
+setup.py
+airflow_hop/__init__.py
+airflow_hop/hooks.py
+airflow_hop/operators.py
+airflow_hop/plugin.py
+airflow_hop/xml.py
+airflow_hop_plugin_custom.egg-info/PKG-INFO
+airflow_hop_plugin_custom.egg-info/SOURCES.txt
+airflow_hop_plugin_custom.egg-info/dependency_links.txt
+airflow_hop_plugin_custom.egg-info/entry_points.txt
+airflow_hop_plugin_custom.egg-info/not-zip-safe
+airflow_hop_plugin_custom.egg-info/requires.txt
+airflow_hop_plugin_custom.egg-info/top_level.txt

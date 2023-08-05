@@ -1,0 +1,3 @@
+[airflow.plugins]
+airflow_hop = airflow_hop.plugin:HopPlugin
+
