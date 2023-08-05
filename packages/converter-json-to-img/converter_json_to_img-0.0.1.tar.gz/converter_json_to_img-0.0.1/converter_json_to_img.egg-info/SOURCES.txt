@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+converter_json_to_img.egg-info/PKG-INFO
+converter_json_to_img.egg-info/SOURCES.txt
+converter_json_to_img.egg-info/dependency_links.txt
+converter_json_to_img.egg-info/top_level.txt
