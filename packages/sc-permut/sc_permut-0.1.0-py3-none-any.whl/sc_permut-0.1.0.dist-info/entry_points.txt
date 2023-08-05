@@ -1,0 +1,3 @@
+[console_scripts]
+sc_permut=sc_permut.__main__:main
+
