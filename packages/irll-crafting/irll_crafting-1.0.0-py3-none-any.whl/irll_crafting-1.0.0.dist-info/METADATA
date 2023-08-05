@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: irll-crafting
+Version: 1.0.0
+Summary: Lightweight environments to study hierarchical reasoning
+Author: Mathïs Fédérico
+Author-email: Mathïs Fédérico <mathfederico@gmail.com>
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Source, https://github.com/IRLL/Crafting
+Keywords: gym,crafting,minecraft,hierachical,reinforcement,learning
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: networkx (>=2.5.1)
+Requires-Dist: matplotlib
+Requires-Dist: hebg (>=0.2.3)
+Provides-Extra: all
+Requires-Dist: gym (>=0.17.3) ; extra == 'all'
+Requires-Dist: pygame (>=2.1.0) ; extra == 'all'
+Requires-Dist: pygame-menu (>=4.2.8) ; extra == 'all'
+Provides-Extra: gui
+Requires-Dist: pygame (>=2.1.0) ; extra == 'gui'
+Requires-Dist: pygame-menu (>=4.2.8) ; extra == 'gui'
+Provides-Extra: gym
+Requires-Dist: gym (>=0.17.3) ; extra == 'gym'
+
