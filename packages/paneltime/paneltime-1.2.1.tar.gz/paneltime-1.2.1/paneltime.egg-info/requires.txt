@@ -1,0 +1,8 @@
+numpy>=1.11
+matplotlib
+pymysql
+pandas
+psutil
+
+[linux]
+gcc
