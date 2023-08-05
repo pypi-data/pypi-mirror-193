@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sentry-cronjob-monitoring
+Version: 0.0.2
+Summary: A small package with a class and a decorator to integrate with Sentrys Cron Monitoring
+Home-page: https://github.com/johanalmquist/sentry_cronjob_monitoring
+Author: Johan Almquist
+Author-email: johan.almquist@aranya.se
+Project-URL: Bug Tracker, https://github.com/johanalmquist/sentry_cronjob_monitoring/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sentry_cronjob_monitoring
