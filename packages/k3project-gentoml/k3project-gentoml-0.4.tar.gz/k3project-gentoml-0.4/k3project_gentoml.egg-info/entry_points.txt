@@ -1,0 +1,2 @@
+[console_scripts]
+k3project-gentmol = k3project_generator.main.generate_project:main
