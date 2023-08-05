@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mquery-query-lib
+Version: 0.0.1
+Summary: Library code used within mquery for query manipulation.
+License: AGPL 3.0
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: yaramod
+
