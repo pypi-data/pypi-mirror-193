@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name="sliders_themad"
+version="0.0.1"
+authors = [
+{name="Themadpunter", email="themadpunter10@gmail.cpm"}
+]
+description="Non-GUI IDE for Python."
+readme="README.md"
+requires-python=">3.5"

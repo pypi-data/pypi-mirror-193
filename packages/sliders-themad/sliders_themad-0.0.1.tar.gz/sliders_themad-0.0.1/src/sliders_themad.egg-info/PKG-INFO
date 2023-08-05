@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sliders-themad
+Version: 0.0.1
+Summary: Non-GUI IDE for Python.
+Author-email: Themadpunter <themadpunter10@gmail.cpm>
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
