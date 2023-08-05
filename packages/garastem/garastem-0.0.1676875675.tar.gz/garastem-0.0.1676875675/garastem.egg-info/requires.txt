@@ -1,0 +1,5 @@
+bleak
+termcolor
+requests
+umsgpack
+json
