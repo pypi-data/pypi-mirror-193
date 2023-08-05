@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: s3-crud
+Version: 0.2
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: os
+Requires-Dist: logging
+Requires-Dist: robot.libraries.BuiltIn
+Requires-Dist: dotenv
+
