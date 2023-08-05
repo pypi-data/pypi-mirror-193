@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "logmixin"
+version = "0.1.0"
+description = "Defines a mixin class allowing classes to get a logger with the name of the module, class and method it was called from."
+authors = ["Sam Mathias <samuel.mathias@childrens.harvard.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
