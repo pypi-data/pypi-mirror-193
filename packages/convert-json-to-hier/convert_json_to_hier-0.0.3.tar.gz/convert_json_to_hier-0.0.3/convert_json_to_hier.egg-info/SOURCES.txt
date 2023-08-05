@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+convert_json_to_hier.egg-info/PKG-INFO
+convert_json_to_hier.egg-info/SOURCES.txt
+convert_json_to_hier.egg-info/dependency_links.txt
+convert_json_to_hier.egg-info/top_level.txt
