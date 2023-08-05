@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wlpypiTest
+Version: 1.5
+Summary: test
+Home-page: http://www.baidu.com
+Author: wanglie
+Author-email: lie_wangxy@163.com
+License: MIT
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+test
