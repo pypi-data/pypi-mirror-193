@@ -1,0 +1,111 @@
+
+
+# Nike CA
+
+
+This package was developed informally for the Commercial Analytics Team at Nike
+
+Before trying to use this package ensure that you have the proper access (This can be found under the "Usage" Section below)
+
+This is a start to see about developing package to facilitate, standardize, and automate repetitive tasks
+
+## Installation
+
+Run the following to install:
+
+```
+$ python pip install NikeCA
+```
+
+
+
+## Usage
+
+To use this package ensure that you have the following Snowflake Information:
+
+* #### Username
+* #### Warehouse Name
+* #### Role Name
+
+
+## Modules:
+
+
+#### snowflake_pull:
+
+pulls snowflake data
+
+Dependencies:
+* pandas
+* snowflake.connector
+* time
+* Datetime.datetime
+
+### Parameters: 
+
+#### query: 
+
+* Type: str
+* Description: SQL query to run on Snowflake
+* e.g. 
+
+```
+          query = "SELECT * FROM NGP_DA_PROD.POS.TO_DATE_AGG_CHANNEL_CY"
+```
+
+#### username:
+* Type: str
+* Description: Nike Snowflake Username
+* e.g. "USERNAME"
+
+#### database:
+* Type: str
+* Default: 'NA'
+* Description: Name of the Database
+
+#### warehouse:
+* Type: str
+* Description: Name of the Warehouse
+* e.g. "DA_DSM_SCANALYTICS_REPORTING_PROD"
+
+#### role:
+* Type: str
+* Description: Name of the role under which you are running Snowflake
+* e.g. "DF_*****"
+
+#### sample_table: 
+* Type: bool
+* Default: False
+* Description: True = pull 500 records from table
+
+#### sample_val:
+* Type: bool 
+* Default: False
+
+#### table_sample:
+* Type: dictionary
+* Default: None
+* Notes: The below code is built within the Module
+```
+if table_sample = None:
+	table_sample = {'db': None, 'schema': None, 'table': None, 'col': None}
+```
+
+#### dtypes_conv:
+* default: None
+
+### return: 
+* pandas.DataFrame
+
+#### Run the following in python to generate a sample query
+```
+from SnowflakeData import snowflake_pull
+
+username = [Your Username]
+warehouse = [The Name of the Warehouse]
+role = [Name of Your Role]
+
+query = 'SELECT TOP 2 * FROM  NGP_DA_PROD.POS.TO_DATE_AGG_CHANNEL_CY'
+
+print(snowflake_pull(query=query, username=username, warehouse=warehouse, role=role))
+```
