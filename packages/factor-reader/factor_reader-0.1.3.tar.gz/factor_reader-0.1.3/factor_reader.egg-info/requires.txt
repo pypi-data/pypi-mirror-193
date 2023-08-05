@@ -1,0 +1,11 @@
+numpy
+pandas
+loguru
+tqdm
+deeplake
+flask
+humbug
+numcodecs
+requests
+
+[dev]
