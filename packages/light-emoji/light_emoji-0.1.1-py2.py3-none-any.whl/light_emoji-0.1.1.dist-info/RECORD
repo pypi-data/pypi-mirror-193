@@ -1,0 +1,10 @@
+light_emoji/__init__.py,sha256=sa9vipwX2okj-2FtLv8VrAOI5ak9Wq1Z3uG6OvWKgAc,292
+light_emoji/_version.py,sha256=3ngZz3_QoERdhI7hz4p3JzJ6Msem0N5631SEIjary1M,93
+light_emoji/common.py,sha256=gIfHfo_tcnvQzmqzjrCSvqn2zidWQV1ZSyQfJnzUX5o,3411
+light_emoji/emojis.py,sha256=NDZv4LlyNJWKj_qRhvUh0bLi8bEMbXxrPFVQq2Xwchg,30190
+light_emoji-0.1.1.dist-info/AUTHORS.rst,sha256=ROrEuLM7jAJnyn4FKyYG8vfwtw5hcpdBOwWnnBRzWTM,509
+light_emoji-0.1.1.dist-info/LICENSE.txt,sha256=rSHOzPVXt1AVxjo4Km6MTCx-PVi7mYLSKDnM_cSz4ys,1121
+light_emoji-0.1.1.dist-info/METADATA,sha256=dfXcJknLtPZSuHo56mZazQvpYocjsl_uuv54UVQeag0,4030
+light_emoji-0.1.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+light_emoji-0.1.1.dist-info/top_level.txt,sha256=3fXLiQIPDkfKxVniO-AYPiyDfdrEvSgnX5sN5rR7TJY,12
+light_emoji-0.1.1.dist-info/RECORD,,
