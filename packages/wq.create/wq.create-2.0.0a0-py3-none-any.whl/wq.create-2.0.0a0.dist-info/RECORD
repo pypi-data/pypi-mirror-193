@@ -1,0 +1,12 @@
+wq.create-2.0.0a0-nspkg.pth,sha256=ua-2EJERg9kSYy1qYQN4xTjIuAEwUspQuZvCVZdHltE,519
+wq/create/__init__.py,sha256=WnKyHvLNfyL2IDS7AZrx1xm_Z7v0tJvV67W0dH97hA8,89
+wq/create/forms.py,sha256=6h6eEN8S-uIc47KD1g42mtOU2zSzpvgwYqf_qxTcV-c,7796
+wq/create/projects.py,sha256=Nc0CZnT5sW-DPH3aPqNOj3YlB5ZoZiB5EMy1xEYqwAk,5814
+wq/create/version.py,sha256=V5wkG5lyJvXwK_g_3RMib6wngaODvI5QHx7FeReGv5s,174
+wq.create-2.0.0a0.dist-info/LICENSE,sha256=BrB02x5Zo6wDy3xO3IWxLjm3HIO-NiIAFw5W3i00FN8,1083
+wq.create-2.0.0a0.dist-info/METADATA,sha256=nWE9Gf7FfJOG1q3a-ctQ5ijqKU8fVbfPBu8xXzT6sLs,3234
+wq.create-2.0.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wq.create-2.0.0a0.dist-info/entry_points.txt,sha256=cBAgBeftdkjdEe8Yj0nVHWWLkjeA1GdIKOBhOKLYgx8,26
+wq.create-2.0.0a0.dist-info/namespace_packages.txt,sha256=bqmWhzQt96OfmGVAtU_WrU45j9ZdF5VZyt22VviNUO8,3
+wq.create-2.0.0a0.dist-info/top_level.txt,sha256=bqmWhzQt96OfmGVAtU_WrU45j9ZdF5VZyt22VviNUO8,3
+wq.create-2.0.0a0.dist-info/RECORD,,
