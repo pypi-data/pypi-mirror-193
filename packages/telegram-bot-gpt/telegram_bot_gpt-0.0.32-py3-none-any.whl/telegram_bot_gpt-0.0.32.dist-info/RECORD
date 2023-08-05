@@ -1,0 +1,9 @@
+bot_gpt/__init__.py,sha256=nf6QIvtqrbYoW3hKHCw9a3_1udjslxrw58mYYPBv44w,17564
+bot_gpt/disclaimer.txt,sha256=XDxktH95BOJabL0-o5r9aP2NYQLYe-TwQ7Qf5Hzwsvg,521
+bot_gpt/help_bot.txt,sha256=2NLlxHKmlJOfz452_RzyPrS-gazNIO5kfS-oJ9cWjKI,341
+bot_gpt/help_dev.txt,sha256=tGtOYzdIiBNgOFXjOkUHSiUXvYJWhP--qx-DXNJcfjk,501
+telegram_bot_gpt-0.0.32.dist-info/LICENSE,sha256=NxGb3XVVPFUqzbmrcT3sypwnKnY2l5ZZGrwBpJ5exUw,1080
+telegram_bot_gpt-0.0.32.dist-info/METADATA,sha256=KF2Bu9YsQYBdLKyciBtaW1yPU-TU5NvhUYGcNZ16Qr4,4287
+telegram_bot_gpt-0.0.32.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+telegram_bot_gpt-0.0.32.dist-info/top_level.txt,sha256=aPx3DPT-BhKwyV39RDogCLKkyzGWFr87iK8EB18GEy8,8
+telegram_bot_gpt-0.0.32.dist-info/RECORD,,
