@@ -1,0 +1,9 @@
+spacesay/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacesay/location.py,sha256=96ZHtdSju7MAqKByaRCYcfff7jZuuDXJgtdRmSILSYA,1783
+spacesay/main.py,sha256=nptDLactr-dpckPngv35xcmVP5KyWhqAP9n8tg_yw5g,1758
+spacesay/speech.py,sha256=vBMnNN6292noLN0iPculcHb7c8pJmDVjKbshv6dHW-4,952
+spacesay-0.1.1.dist-info/LICENSE.md,sha256=Bhr78OFLXnABiB7DQ8sbgkdnJY2JmHiyEfkrqmd9mT8,1062
+spacesay-0.1.1.dist-info/METADATA,sha256=mByeW-0cdTqDTWftlBgQyf_fPpazOGhwNNkeTiBXxu8,628
+spacesay-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+spacesay-0.1.1.dist-info/entry_points.txt,sha256=J1eHwWAyPncG1h4uGjcQVMPr7oqFoTlF5pbxcFzmocg,46
+spacesay-0.1.1.dist-info/RECORD,,
