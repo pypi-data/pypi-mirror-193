@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sphinx-github-style
+Version: 0.0.1b5
+Summary: Sphinx Github Integration and Github Dark Theme Pygments Style
+Home-page: https://github.com/tdkorn/sphinx-github-style
+Author: Adam Korn
+Author-email: hello@dailykitten.net
+License: MIT License
+Download-URL: https://github.com/TDKorn/sphinx-github-style/tarball/master
+Keywords: sphinx,sphinx-extension,sphinx-theme,pygments,pygments-style,github,linkcode
+Platform: UNKNOWN
+Classifier: Framework :: Sphinx :: Extension
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
