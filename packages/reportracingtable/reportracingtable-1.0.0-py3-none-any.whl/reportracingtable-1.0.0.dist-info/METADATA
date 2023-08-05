@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: reportracingtable
+Version: 1.0.0
+Summary: Generate Monaco Racing report
+Home-page: UNKNOWN
+Author: Dihtiar Vadym
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: texttable (==1.6.7)
+
+# reportracingtable Package
+
+#### - package for build Monaco Racing report
+#### - use `report` command from command line
+
+## Installation
+### Using PIP
+```bash
+pip install reportracingtable
+```
+
+## Usage in scripts
+`script_name.py`
+```python
+from reportracingtable import main
+
+if __name__ == '__main__':
+    data = main()
+```
+
+## Usage from command line
+```bash
+$ python script_name.py --folder "/path/to/file"
+$ python script_name.py --driver "Driver Name"
+$ python script_name.py --decs True
+```
+
+## Usage from command line without imports
+```bash
+$ report --folder "/path/to/file"
+$ report --driver "Driver Name"
+$ report --string --decs True
+```
+
+## License
+`reportracingtable` is licensed (MIT license).
+
+
