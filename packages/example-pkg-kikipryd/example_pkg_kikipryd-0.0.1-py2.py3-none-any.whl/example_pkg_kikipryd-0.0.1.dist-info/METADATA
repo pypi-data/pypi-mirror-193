@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: example-pkg-kikipryd
+Version: 0.0.1
+Summary: A small example package
+Author: Kiki Prayudi
+Author-email: Kiki Prayudi <kikipryd@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=45.0)
+
