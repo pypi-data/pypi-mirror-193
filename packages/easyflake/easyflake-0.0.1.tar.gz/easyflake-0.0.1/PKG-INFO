@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: easyflake
+Version: 0.0.1
+Summary: 
+Author: tsuperis
+Author-email: tsuperis@gmail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# EasyFlake
+
+An unique ID Generator
+
