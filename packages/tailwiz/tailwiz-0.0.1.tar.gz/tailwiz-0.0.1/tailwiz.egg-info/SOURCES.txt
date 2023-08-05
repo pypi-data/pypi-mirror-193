@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tailwiz.egg-info/PKG-INFO
+tailwiz.egg-info/SOURCES.txt
+tailwiz.egg-info/dependency_links.txt
+tailwiz.egg-info/requires.txt
+tailwiz.egg-info/top_level.txt
