@@ -1,0 +1,3 @@
+[console_scripts]
+package-udf = ksqldb_udf.wheel:main
+
