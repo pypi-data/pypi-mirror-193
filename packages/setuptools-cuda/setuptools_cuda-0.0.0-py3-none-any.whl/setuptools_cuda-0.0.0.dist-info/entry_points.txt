@@ -1,0 +1,2 @@
+[distutils.setup_keywords]
+cuda_extensions = setuptools_cuda.setuptools_ext:cuda_extensions
