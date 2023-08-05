@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+JsrBotsIG/__init__.py
+JsrBotsIG.egg-info/PKG-INFO
+JsrBotsIG.egg-info/SOURCES.txt
+JsrBotsIG.egg-info/dependency_links.txt
+JsrBotsIG.egg-info/requires.txt
+JsrBotsIG.egg-info/top_level.txt
