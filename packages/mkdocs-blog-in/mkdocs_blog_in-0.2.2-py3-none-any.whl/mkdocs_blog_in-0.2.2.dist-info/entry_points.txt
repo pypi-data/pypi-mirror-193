@@ -1,0 +1,6 @@
+[console_scripts]
+mkdocs-blog-in=src.cli.command:app
+
+[mkdocs.plugins]
+blog=src.mkdocs-blog-in.blog:BlogInPlugin
+
