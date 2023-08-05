@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/PPVD/__init__.py
+src/PPVD/parsing.py
+src/PPVD/style.py
+src/PPVD/validation.py
+src/PPVD.egg-info/PKG-INFO
+src/PPVD.egg-info/SOURCES.txt
+src/PPVD.egg-info/dependency_links.txt
+src/PPVD.egg-info/top_level.txt
+tests/test_a_install.py
