@@ -1,0 +1,11 @@
+setuptools_cuda/__init__.py,sha256=vJ8pgnGd5SN1PwvOD_6K42_W7MLSZOmiz94ZsW36pG0,118
+setuptools_cuda/build.py,sha256=k3yaQK0_gu5K2NKm6jzrEgmNvuOZFsKZFpIU9_3AvKQ,229
+setuptools_cuda/compiler_customization.py,sha256=VJJ3nHkztq17h3i0bitcUkU1EpTr6-r3bgTtF-2NwSM,1029
+setuptools_cuda/extension.py,sha256=DvRq082AYUcxBptpIruNrIaD0L5qoYVAOp0ERX6zV2A,440
+setuptools_cuda/inspections.py,sha256=DxzDUrFE3kIC1jD-W58kRp6CIFBxHO6mTvt3hFeE_6Q,701
+setuptools_cuda/setuptools_ext.py,sha256=qQRQsKhd1O1-GiYxbfu0t9QtgFpsMTmm1N3H_Li0qFQ,1833
+setuptools_cuda-0.0.5.dist-info/METADATA,sha256=HUGddQ1HpyR6bdM2u5Sap5jrCLXjj-hLqiMG1Co9r2A,3859
+setuptools_cuda-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+setuptools_cuda-0.0.5.dist-info/entry_points.txt,sha256=SYGhQhRVTgfvO9ewPv8_jltc02CvDphFvk9HXsQEe30,92
+setuptools_cuda-0.0.5.dist-info/top_level.txt,sha256=oW8A1QGgJrzqV2oQf6JVIjrEv3ZEnPckUWko1Vf36aQ,16
+setuptools_cuda-0.0.5.dist-info/RECORD,,
