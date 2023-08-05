@@ -1,0 +1,8 @@
+gitlabci_lint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitlabci_lint/validate.py,sha256=VxfPLgHyAwTcqWmmntndHXqHnTEIInq_AEPNNub3yDM,7898
+pre_commit_gitlabci_lint-1.2.0.dist-info/LICENSE,sha256=H_X5fL4d1SCUPUKhcXxVb_EzBQRC_KgNKtSLty26FVU,1084
+pre_commit_gitlabci_lint-1.2.0.dist-info/METADATA,sha256=8XE2bCOJ14lfV-srdzkg1X9o4J6LVnK0YnWZ4yWmn3o,3254
+pre_commit_gitlabci_lint-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pre_commit_gitlabci_lint-1.2.0.dist-info/entry_points.txt,sha256=jUCdBjv8RMJBfT4MmTp3fZ14gwPpp2p9Nhb8zIvh28A,61
+pre_commit_gitlabci_lint-1.2.0.dist-info/top_level.txt,sha256=UDmUR2FhSNGROpkcqYYVwMEJlk4FXCut9KM8qQE0P5I,14
+pre_commit_gitlabci_lint-1.2.0.dist-info/RECORD,,
