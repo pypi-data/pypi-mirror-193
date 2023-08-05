@@ -1,0 +1,9 @@
+setup.py
+redbayes_higueros/__init__.py
+redbayes_higueros/network.py
+redbayes_higueros/node.py
+redbayes_higueros.egg-info/PKG-INFO
+redbayes_higueros.egg-info/SOURCES.txt
+redbayes_higueros.egg-info/dependency_links.txt
+redbayes_higueros.egg-info/requires.txt
+redbayes_higueros.egg-info/top_level.txt
