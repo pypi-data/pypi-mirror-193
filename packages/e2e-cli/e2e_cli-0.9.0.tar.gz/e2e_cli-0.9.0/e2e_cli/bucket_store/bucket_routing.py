@@ -1,0 +1,38 @@
+import subprocess
+
+from e2e_cli.bucket_store.bucket_storage import bucketCrud
+
+class BucketRouting:
+    def __init__(self, arguments):
+        self.arguments = arguments
+        
+        
+    def route(self):
+        if self.arguments.bucket_commands is None:
+            subprocess.call(['e2e_cli', 'bucket', '-h'])
+
+        elif self.arguments.bucket_commands == 'add':
+            bucket_operations = bucketCrud(alias=self.arguments.alias )
+            if(bucket_operations.possible):
+                        try:
+                            bucket_operations.add_bucket()
+                        except KeyboardInterrupt:
+                            print("\n")
+
+        elif self.arguments.bucket_commands == 'delete':
+            bucket_operations = bucketCrud(alias=self.arguments.alias)
+            if(bucket_operations.possible):
+                        try:
+                            bucket_operations.delete_bucket()
+                        except KeyboardInterrupt:
+                            print("\n")
+        
+        elif self.arguments.bucket_commands == 'list':
+            bucket_operations = bucketCrud(alias=self.arguments.alias)
+            if(bucket_operations.possible):
+                        try:
+                            bucket_operations.list_bucket()
+                        except KeyboardInterrupt:
+                            print("\n")
+
+
