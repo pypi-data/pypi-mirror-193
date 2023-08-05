@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+converterJson/__init__.py
+converterJson/converterJson.py
+converterjson.egg-info/PKG-INFO
+converterjson.egg-info/SOURCES.txt
+converterjson.egg-info/dependency_links.txt
+converterjson.egg-info/top_level.txt
