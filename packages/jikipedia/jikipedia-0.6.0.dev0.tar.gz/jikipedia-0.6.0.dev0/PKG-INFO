@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jikipedia
+Version: 0.6.0.dev0
+Summary: 小鸡词典API
+Home-page: https://github.com/daizihan233/jikipedia
+Author: HanTools
+Author-email: hantools@foxmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+鸡典没了……
