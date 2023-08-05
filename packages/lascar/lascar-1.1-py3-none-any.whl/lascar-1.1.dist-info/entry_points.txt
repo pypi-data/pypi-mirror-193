@@ -1,0 +1,2 @@
+[console_scripts]
+lascarctl = scripts.lascarctl:main
