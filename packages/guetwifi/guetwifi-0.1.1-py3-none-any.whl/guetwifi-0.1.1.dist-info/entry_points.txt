@@ -1,0 +1,3 @@
+[console_scripts]
+guetwifi=guetwifi.cli:main
+
