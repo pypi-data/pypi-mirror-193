@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: thenamelisttool
+Version: 1.3.0
+Summary: Provides command line tools useful to work with namelists or pack of namelists.
+Author-email: The Vortex Team <vortex.support@meteo.fr>
+License: CECILL-C
+Project-URL: repository, https://github.com/meunierlf/thenamelisttool
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: CeCILL-C Free Software License Agreement (CECILL-C)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE-en.txt
+License-File: LICENSE.txt
+Requires-Dist: pyyaml
+Requires-Dist: bronx
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pyyaml ; extra == 'tests'
+
+# thenamelisttool
+
+[![Custom CI](https://github.com/UMR-CNRM/thenamelisttool/actions/workflows/lint_test_and_doc.yml/badge.svg)](https://github.com/UMR-CNRM/thenamelisttool/actions/workflows/lint_test_and_doc.yml)
+[![Documentation Status](https://readthedocs.org/projects/thenamelisttool/badge/?version=latest)](https://thenamelisttool.readthedocs.io/)
+[![PyPI version](https://badge.fury.io/py/thenamelisttool.svg)](https://badge.fury.io/py/thenamelisttool)
+
+The main objectives of this package is to provide command line tools useful to
+work with namelists or pack of namelists (update them, compare them, ...).
+
+Originally, it has been developed as part of the *Vortex* project. Recently
+the code has been extracted from the *Vortex* code base. It is now presented
+as an independent Python package.
+
+## Contributing
+
+Please review [CONTRIBUTING.md](CONTRIBUTING.md) for details on our
+development process.
