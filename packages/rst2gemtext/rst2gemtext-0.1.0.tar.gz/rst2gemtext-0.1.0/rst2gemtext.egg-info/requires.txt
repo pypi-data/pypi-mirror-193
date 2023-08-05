@@ -1,0 +1,8 @@
+docutils
+pygments
+
+[dev]
+black
+flake8
+nox
+pytest
