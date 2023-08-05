@@ -1,0 +1,11 @@
+InputXML/InputXML.py,sha256=XsS_ICqBS0Xp4T2nvywD3u0cDqmG0BzkY6F10A09e3A,8771
+QDinput/inpxml.py,sha256=ISACpG30ov2DDeXgeXJ7XmTFibi5J0CWoS7AyKQZ_Tw,8880
+Units/AUnits.py,sha256=dmyDspUgaOGTyNjMlvLwm5aBvrkIBRJuXwGaSF4HHB8,993
+UnitsCvt/AUnits.py,sha256=dmyDspUgaOGTyNjMlvLwm5aBvrkIBRJuXwGaSF4HHB8,993
+pqinput/__init__.py,sha256=yWfRmBfMoq68iPv8RPYcnhh_lHkfy2upjVgLWlaZNKs,107
+pqinput/inpxml.py,sha256=vqn4-e-lk58H4qb0NyyIN8Y87VgWsg982tVUIPlzUKA,11237
+pqinput-0.0.2.dist-info/LICENSE.txt,sha256=jl50WOgyp9Tx-n5guejvtG2hF8G8OXirsOKjg6uO2Pk,1075
+pqinput-0.0.2.dist-info/METADATA,sha256=jCWAvpSLgFaeebodo7ekHXeo-jKr8X1iVDLXevf5DvE,1573
+pqinput-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pqinput-0.0.2.dist-info/top_level.txt,sha256=6dGvtdHsx00qjocmhXyfpKvT3ZqYXrySMCm0vTDhkIo,8
+pqinput-0.0.2.dist-info/RECORD,,
