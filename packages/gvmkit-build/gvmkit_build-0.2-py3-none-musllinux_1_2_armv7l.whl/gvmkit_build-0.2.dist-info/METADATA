@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gvmkit-build
+Version: 0.2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Summary: Golem VM Image builder.
+Keywords: Golem
+Author: Golem Factory <contact@golem.network>
+Author-email: Golem Factory <contact@golem.network>
+License: GPL-3.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/golemfactory/gvmkit-build-rs
+
+# gvmkit-build
+
+Golem VM Image builder.
+
+
