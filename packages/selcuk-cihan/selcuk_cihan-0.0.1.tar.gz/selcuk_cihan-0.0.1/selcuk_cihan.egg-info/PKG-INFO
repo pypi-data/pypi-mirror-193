@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: selcuk-cihan
+Version: 0.0.1
+Summary: Selcuk Cihan
+Author: Selcuk Cihan
+Requires-Python: >=3.7
+Provides-Extra: tests
