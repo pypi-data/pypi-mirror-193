@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: sentry-cronjob-monitoring-johanalmquist
+Version: 0.0.3
+Summary: A package for use Sentrys Cronjob Monitor Module
+Home-page: https://github.com/johanalmquist/sentry_cronjob_monitoring
+Author: Johan Almquist
+Author-email: Johan Almquist <johan.almquist@aranya.se>
+Project-URL: Homepage, https://github.com/johanalmquist/sentry_cronjob_monitoring
+Project-URL: Bug Tracker, https://github.com/johanalmquist/sentry_cronjob_monitoring/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sentry_cronjob_monitoring
+
+A small package with a class and a decorator to integrate with Sentrys Cron Monitoring
+
+## Example usage
+
+By class
+
+```python
+from sentry_cronjob_monitoring import Monitor
+import typer
+
+monitor = Monitor(
+    dsn="https://examplePublicKey@o0.ingest.sentry.io/0",
+    monitor_id="monitor-id-123",
+    org_slug="example-org",
+)
+def main(times: str):
+    monitor.checkin()
+    sleep_times = times.split(",")
+    sleep_time = int(random.choice(sleep_times))
+    logger.info(f"will sleep for {sleep_time} seconds")
+    sleep(sleep_time)
+    logger.info("Done with my sleep")
+    monitor.checkout()
+
+if __name__ == "__main__":
+    typer.run(main)
+```
+
+By decorator
+
+```python
+from sentry_cronjob_monitoring import with_monitoring
+
+@with_monitoring(
+    dsn="https://examplePublicKey@o0.ingest.sentry.io/0",
+    monitor_id="monitor-id-123",
+    org_slug="example-org",
+)
+def run():
+    logger.info("will sleep for 10 seconds")
+    sleep(10)
+    logger.info("Done with my sleep")
+
+if __name__ == "__main__":
+    run()
+```
