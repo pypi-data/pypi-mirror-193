@@ -1,0 +1,14 @@
+django>=4.0
+ariadne>=0.16.0
+ariadne-relay>=0.1.0a8
+pillow>=9.4.0
+
+[dev]
+python-lsp-server[autopep8,mccabe,pycodestyle,pyflakes,rope]
+pylsp-rope
+
+[test]
+pytest
+pytest-cov
+pytest-mock
+pytest-django
