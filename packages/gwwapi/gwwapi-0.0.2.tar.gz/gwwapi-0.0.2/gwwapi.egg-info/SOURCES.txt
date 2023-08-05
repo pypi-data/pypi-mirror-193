@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+gwwapi/__init__.py
+gwwapi/client.py
+gwwapi/utils.py
+gwwapi.egg-info/PKG-INFO
+gwwapi.egg-info/SOURCES.txt
+gwwapi.egg-info/dependency_links.txt
+gwwapi.egg-info/requires.txt
+gwwapi.egg-info/top_level.txt
+tests/test_pytest.py
