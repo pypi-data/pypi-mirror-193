@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: selcuk-cihan
+Version: 0.0.1
+Summary: Selcuk Cihan
+Author: Selcuk Cihan
+Requires-Python: >=3.7
+Requires-Dist: requests (>=2.28.2)
+Requires-Dist: strenum (>=0.4.9)
+Requires-Dist: typing-extensions (>=4.4)
+Provides-Extra: tests
+Requires-Dist: black (>=22.12) ; extra == 'tests'
+Requires-Dist: pytest (>=7.2) ; extra == 'tests'
+Requires-Dist: ruff (>=0.0.199) ; extra == 'tests'
+
