@@ -1,0 +1,4 @@
+bleak
+termcolor
+requests
+umsgpack
