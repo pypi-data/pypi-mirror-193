@@ -1,0 +1,6 @@
+setuptools
+collective.quickupload
+plone.api
+
+[test]
+plone.app.testing
