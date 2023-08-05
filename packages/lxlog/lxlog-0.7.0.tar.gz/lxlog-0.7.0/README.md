@@ -1,0 +1,45 @@
+
+
+----------
+
+# lxlog
+
+**lxlog** is a Python package that provides a simple interface to extract and format Linux logs. It uses the `journalctl` command-line tool and the pandas and prettytable libraries to extract log data for a given process name and time range, and format it into a table that can be displayed in the terminal.
+
+## Features
+
+-   Extract Linux logs for a given process name and time range
+-   Format log data into a table using the prettytable library
+-   Display the table in the terminal.
+-   Easy-to-use command-line interface.
+
+## Installation
+
+You can install **lxlog** using pip, the Python package manager:
+
+`pip install lxlog` 
+
+## Usage
+
+To use **lxlog** in your Python code, you can import the `log_analysis()` function from the `lxlog` package and call it with the desired parameters:
+
+**python**
+
+    from lxlog import log_analysis
+    start_date = input("Enter start date (YYYY-MM-DD): ")
+    end_date = input("Enter end date (YYYY-MM-DD): ")
+    process_name = input("Enter process name: ")
+    
+    result = log_analysis(start_date, end_date, process_name)
+    print(result)
+
+This will print the log data as a formatted table in the terminal.
+
+
+
+
+
+
+
+
+
