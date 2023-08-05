@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "splink_graph"
+version = "0.8.2"
+description = "a small set of graph functions to be used from pySpark on top of networkx and graphframes"
+authors = ["Theodore Manassis <theodore.manassis@digital.justice.gov.uk>"]
+keywords = ["graph theory", "graph metrics"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/moj-analytical-services/splink_graph"
+repository = "https://github.com/moj-analytical-services/splink_graph"
+include = [
+    "LICENSE","jars/*.jar","notebooks/data/df_e.snappy.parquet","notebooks/graphframes_splink_graph_demo.ipynb"
+]
+[tool.poetry.dependencies]
+python = ">=3.8"
+networkx = "~2.7.1"
+numpy = ">=1.20"
+scipy = ">=1.8"
+gensim = "<4.1.0"
+node2vec = "0.4.3"
+graphframes = ">=0.8.2"
+[tool.poetry.dev-dependencies]
+[build-system]
+requires = ["setuptools", "poetry_core>=1.0"]
+build-backend = "poetry.core.masonry.api"
