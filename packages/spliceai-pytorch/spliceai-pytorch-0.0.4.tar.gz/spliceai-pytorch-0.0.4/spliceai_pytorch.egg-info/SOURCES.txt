@@ -1,0 +1,11 @@
+README.md
+setup.py
+spliceai_pytorch/__init__.py
+spliceai_pytorch/data.py
+spliceai_pytorch/spliceai_pytorch.py
+spliceai_pytorch/train.py
+spliceai_pytorch.egg-info/PKG-INFO
+spliceai_pytorch.egg-info/SOURCES.txt
+spliceai_pytorch.egg-info/dependency_links.txt
+spliceai_pytorch.egg-info/requires.txt
+spliceai_pytorch.egg-info/top_level.txt
