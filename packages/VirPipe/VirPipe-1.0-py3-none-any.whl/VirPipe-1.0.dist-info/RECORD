@@ -1,0 +1,13 @@
+virpipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virpipe/__main__.py,sha256=dlgj_pD2jtMwz4CT4g2FqlAaePIvVU6GmOtntpB30EY,421
+virpipe/arguments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virpipe/arguments/parser.py,sha256=nTm-16itzjLQNE-lbV9_wh7ziEDfDfdpCrwhtpzkdbk,8133
+virpipe/arguments/validation.py,sha256=qVA5lB2OzTBjD67qTkfmUOXr4p3yuB2j76WlIyg-ZjQ,8247
+virpipe/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virpipe/command/nextflow.py,sha256=j2AC7w1xY0A_cv958E0ntkDhgxWoO6RdgVdLPcrsRDk,3544
+virpipe/command/run_docker.py,sha256=s282cKwvRsYtDpPpxuPBxB719kB1-YTeowmI4jHAxxM,3770
+VirPipe-1.0.dist-info/METADATA,sha256=CWnUpDXs_gjgUc7DDxwZ1OPScYKc63Yb7y6VitXBndY,330
+VirPipe-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+VirPipe-1.0.dist-info/entry_points.txt,sha256=8Nfa21CexCgMoRv8tu4L2NNkH9gq6odaNtyzS4ftzJs,50
+VirPipe-1.0.dist-info/top_level.txt,sha256=mfp-jK5b_uEtMuvbZomVyq1fIwjd-EzLco2jBVkuB-g,8
+VirPipe-1.0.dist-info/RECORD,,
