@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: monacoreportwoo
+Version: 1.7
+Summary: Generate Monaco Racing report
+Home-page: UNKNOWN
+Author: Dihtiar Vadym
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: texttable (==1.6.7)
+Requires-Dist: pytest (==7.2.1)
+
+# Racingreport Package
+
+#### - Package for build Monaco Racing report
+#### - `report` for use from command line
+
+## Installation
+### Using PIP
+```bash
+pip install monacoreportwoo
+```
+
+## Usage in scripts
+`script_name.py`
+```python
+from monacoreport import main
+
+if __name__ == '__main__':
+    data = main()
+```
+
+## Usage from command line
+```bash
+$ python script_name.py --folder "/path/to/file"
+$ python script_name.py --driver "Driver Name"
+$ python script_name.py --decs True
+```
+
+## Usage from command line without imports
+```bash
+$ report --folder "/path/to/file"
+$ report --driver "Driver Name"
+$ report --string --decs True
+```
+
+## License
+`racingreport` is licensed (MIT license).
+
+
