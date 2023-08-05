@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PPVD"
+version = "0.0.3"
+description = "A collection parametrized parsing and validation decorators for python metaprogramming. Self-contained to avoid dependency clashing."
+readme = "README.md"
+requires-python = ">=3.7, <4"
+license = {file = "LICENSE"}
+keywords = ["python", "parameterized", "parsing", "typing", "validation", "metaprogramming"]
+authors = [
+  {name = "Darik A. O'Neil"}
+]
+maintainers = [
+    {name = "Darik A. O'Neil"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python"
+]
+
+dependencies = [
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "-s",
+    "--color=yes",
+    "--show-progress",
+]
+testpaths = "tests"
+console_output_style = "progress"
