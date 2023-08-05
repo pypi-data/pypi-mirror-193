@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+mdc/__init__.py
+mdc/main.py
+mdc/functions/__init__.py
+mdc/functions/image.py
+mdc/functions/video.py
+mdc/utilities/__init__.py
+mdc/utilities/kmeans.py
+mdcolors.egg-info/PKG-INFO
+mdcolors.egg-info/SOURCES.txt
+mdcolors.egg-info/dependency_links.txt
+mdcolors.egg-info/entry_points.txt
+mdcolors.egg-info/requires.txt
+mdcolors.egg-info/top_level.txt
