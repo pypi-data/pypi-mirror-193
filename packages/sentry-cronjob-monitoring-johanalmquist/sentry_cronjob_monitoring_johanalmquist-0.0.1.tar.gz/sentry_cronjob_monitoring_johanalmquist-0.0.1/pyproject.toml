@@ -1,0 +1,22 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentry_cronjob_monitoring_johanalmquist"
+version = "0.0.1"
+authors = [
+  { name="Johan Almquist", email="johan.almquist@aranya.se" },
+]
+description = "A package for use Sentrys Cronjob Monitor Module"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/johanalmquist/sentry_cronjob_monitoring"
+"Bug Tracker" = "https://github.com/johanalmquist/sentry_cronjob_monitoring/issues"
