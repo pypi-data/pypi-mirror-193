@@ -1,0 +1,16 @@
+{
+    "ExampleTable": [
+        {
+            "name": "Text_ID",
+            "required": false,
+            "dc:description": "The larger discourse context in which this record was uttered.",
+            "datatype": "string"
+        },
+        {
+            "name": "Record_Number",
+            "required": false,
+            "dc:description": "The positions of this record in the text.",
+            "datatype": "integer"
+        }
+    ]
+}
