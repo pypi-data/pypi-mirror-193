@@ -1,0 +1,9 @@
+biopython>=1.78
+cutadapt
+future>=0.18.2
+joblib>=0.15.1
+matplotlib>=3.2.1
+pandas
+reportlab>=3.5.42
+scikit-learn
+scipy>=1.4.1
