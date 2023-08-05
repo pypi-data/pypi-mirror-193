@@ -1,0 +1,10 @@
+README.md
+setup.py
+C:/Users/Amine Lahouani/Desktop/infomineo_web_scraping_tool_v3/ScrapeAvito.py
+C:/Users/Amine Lahouani/Desktop/infomineo_web_scraping_tool_v3/__init__.py
+ScrapeAvito.egg-info/PKG-INFO
+ScrapeAvito.egg-info/SOURCES.txt
+ScrapeAvito.egg-info/dependency_links.txt
+ScrapeAvito.egg-info/entry_points.txt
+ScrapeAvito.egg-info/requires.txt
+ScrapeAvito.egg-info/top_level.txt
