@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/SnowflakeData.py
+src/NikeCA.egg-info/PKG-INFO
+src/NikeCA.egg-info/SOURCES.txt
+src/NikeCA.egg-info/dependency_links.txt
+src/NikeCA.egg-info/requires.txt
+src/NikeCA.egg-info/top_level.txt
