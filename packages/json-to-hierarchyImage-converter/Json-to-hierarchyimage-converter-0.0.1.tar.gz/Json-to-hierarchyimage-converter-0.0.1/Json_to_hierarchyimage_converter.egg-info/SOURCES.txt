@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Json_to_hierarchyimage_converter.egg-info/PKG-INFO
+Json_to_hierarchyimage_converter.egg-info/SOURCES.txt
+Json_to_hierarchyimage_converter.egg-info/dependency_links.txt
+Json_to_hierarchyimage_converter.egg-info/requires.txt
+Json_to_hierarchyimage_converter.egg-info/top_level.txt

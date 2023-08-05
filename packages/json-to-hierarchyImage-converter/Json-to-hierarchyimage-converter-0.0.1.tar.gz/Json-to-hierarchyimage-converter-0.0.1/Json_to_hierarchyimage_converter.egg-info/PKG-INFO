@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Json-to-hierarchyimage-converter
+Version: 0.0.1
+Summary: Json to tree Hierarchy converter
+Home-page: UNKNOWN
+Author: Pavan
+Author-email: pppawar124@gmail.com
+License: UNKNOWN
+Keywords: json,graph,nodeId,child,name
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package to perform arithmetic operations
+
