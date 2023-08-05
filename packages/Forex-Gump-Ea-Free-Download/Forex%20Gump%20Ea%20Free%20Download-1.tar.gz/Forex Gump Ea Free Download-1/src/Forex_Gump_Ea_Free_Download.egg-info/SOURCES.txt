@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/Forex_Gump_Ea_Free_Download.egg-info/PKG-INFO
+src/Forex_Gump_Ea_Free_Download.egg-info/SOURCES.txt
+src/Forex_Gump_Ea_Free_Download.egg-info/dependency_links.txt
+src/Forex_Gump_Ea_Free_Download.egg-info/requires.txt
+src/Forex_Gump_Ea_Free_Download.egg-info/top_level.txt
