@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: graph2topictm
+Version: 1.2
+Summary: Graph2Topic is a topic model based on PLMs and community detections. more details in https://github.com/lunar-moon/Graph2Topic.git
+Author: ljp
+Author-email: 313446266@qq.com
+License-File: license.txt
+
