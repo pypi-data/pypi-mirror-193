@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lushalytics
+Version: 1.0.2
+Summary: a small package with quality of life unilities to data analysis with pyspark
+Home-page: https://github.com/username/demopackage
+Author: moran_reznik
+Author-email: moran.reznik@lusha.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+a small package with quality of life unilities to data analysis with pyspark
