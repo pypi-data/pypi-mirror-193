@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "owoi-audiotoclip"
+version = "1.1.0"
+description = "Package to convert audio to video with google speech to text and google image search"
+authors = ["Pierre-Louis Sergent <papa.louis59@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "owoi_audio_to_clip"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-cloud-speech = "^2.16.2"
+google-cloud-storage = "^2.5.0"
+moviepy = "^1.0.3"
+black = "^22.10.0"
+Google-Images-Search = "^1.4.6"
+imageio = {extras = ["opencv"], version = "^2.25.1"}
+pytube = "^12.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
