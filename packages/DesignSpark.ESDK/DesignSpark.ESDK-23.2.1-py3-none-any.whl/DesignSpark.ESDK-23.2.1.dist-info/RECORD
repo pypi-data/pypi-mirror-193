@@ -1,0 +1,17 @@
+DesignSpark.ESDK-23.2.1-py3.10-nspkg.pth,sha256=5dqQDydto32QXM8Hkhb3FP17zNmTXS_ntSgLPAxhBF8,565
+DesignSpark/ESDK/AppLogger.py,sha256=kPhUpuUm07AfoXNzPZyI-CqCvEcR00If4WzE67PkKbA,2791
+DesignSpark/ESDK/CO2.py,sha256=pl-akN8Eng9Opj_cZeHYarxz4dUAlviVtrU-m_0XRb8,3903
+DesignSpark/ESDK/DFRobot_SGP40_VOCAlgorithm.py,sha256=C0TMWgV1K9ibFPv6MJJ-XRPikfpUk2Rra4-TQ3z1Azs,27647
+DesignSpark/ESDK/FDH.py,sha256=ynJVC2XwJfENp4ZnxQB9tlPjKWub-_fkrEr7inZLmmM,1834
+DesignSpark/ESDK/MAIN.py,sha256=WXjOcDqkvpt_HHYncbVL5wUtR5krlLF3-5xu2TfEgok,15023
+DesignSpark/ESDK/NO2.py,sha256=SWoPDjCCJIbHcmOXiZ4oTGsEBzh0jJ5l4I0EczE_YAo,7326
+DesignSpark/ESDK/NRD.py,sha256=tgbHLxsAOFT7vccOrBxl_JkzYjpmlR4wIkMEHjnufJg,4534
+DesignSpark/ESDK/PM2.py,sha256=QBDitJjdj3QOupbJiVGXmABFT0yoxdEUL3VrEV0wZF4,4857
+DesignSpark/ESDK/THV.py,sha256=R9ryksPnMjuz0qIo9Xt_xQWTgS7ijQl8hZBD_vRw6c0,6169
+DesignSpark/ESDK/__init__.py,sha256=NWn3aJvY0GzdW_z7mGGW-he2MnFxTDwTFcTseP8MpJA,197
+DesignSpark.ESDK-23.2.1.dist-info/LICENSE.rst,sha256=rWtijpIjCdLa0K--tK2MMYXntKebUcaTRAnDpdgkhJw,1110
+DesignSpark.ESDK-23.2.1.dist-info/METADATA,sha256=Evun3kM36zU8dZiByHsLliUyoUO9J2wvrW7mKUnQxZ0,2086
+DesignSpark.ESDK-23.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+DesignSpark.ESDK-23.2.1.dist-info/namespace_packages.txt,sha256=3EdTiKB3LlJ0GqPSPjSWhlVhGclG8dUzgPVKlXSkPEY,12
+DesignSpark.ESDK-23.2.1.dist-info/top_level.txt,sha256=3EdTiKB3LlJ0GqPSPjSWhlVhGclG8dUzgPVKlXSkPEY,12
+DesignSpark.ESDK-23.2.1.dist-info/RECORD,,
