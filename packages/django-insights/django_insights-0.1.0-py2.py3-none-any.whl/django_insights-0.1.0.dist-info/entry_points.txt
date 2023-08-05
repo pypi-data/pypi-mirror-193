@@ -1,0 +1,3 @@
+[console_scripts]
+care4=insights.cli:cli
+
