@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dbt-models-explorer
+Version: 0.1.0
+Summary: DBT models explorer with output generator to check, analyze and document
+Home-page: https://github.com/catapimbas/dbt-models-explorer
+License: MIT
+Author: Rodrigo Cristiano
+Author-email: rcristianofv@hotmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Project-URL: Repository, https://github.com/catapimbas/dbt-models-explorer
+Description-Content-Type: text/markdown
+
+# dbt-models-explorer
+
+DBT models explorer with output generator to check, analyze and document
+
+## Features
+
+- Read DBT Models Yml to objectcts and make relationships Analysis
+- Rich Console Output
+- Export to CSV Format
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/catapimbas/dbt-models-explorer.git
+```
+
+Go to the project directory
+
+```bash
+  cd dbt-models-explorer
+```
+
+Install dependencies
+
+```bash
+  poetry install
+```
+
+Run
+
+```bash
+  poetry run dbt-models-explorer [<path-to-yml-models> <options>]
+```
+
+## Usage/Examples
+
+### Rich outupt, default
+
+```bash
+poetry run dbt-models-explorer <path-to-yml-models>
+```
+
+### CSV outupt
+
+```bash
+poetry run dbt-models-explorer <path-to-yml-models> --format csv <filename>
+```
+
