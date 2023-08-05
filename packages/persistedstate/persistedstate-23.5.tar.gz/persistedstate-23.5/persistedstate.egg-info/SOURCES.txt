@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+persistedstate/__init__.py
+persistedstate/py.typed
+persistedstate.egg-info/PKG-INFO
+persistedstate.egg-info/SOURCES.txt
+persistedstate.egg-info/dependency_links.txt
+persistedstate.egg-info/requires.txt
+persistedstate.egg-info/top_level.txt
