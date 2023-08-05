@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mailguppy
+Version: 0.3
+Requires-Dist: google-auth
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-api-python-client
+Requires-Dist: boto3
+
