@@ -1,0 +1,10 @@
+mydstools/__init__.py,sha256=ZGPfGGxN7WCGWawMaR5b7u5k0OkKInnHKGNACcBIXFI,111
+mydstools/cleaning.py,sha256=cbXMskFOoc6yaq3BQWApgYQ138I0NLyfyCgNt_rfMYI,6354
+mydstools/connectors/__init__.py,sha256=htijYG4p7sMI4VWkVYtHClFsICpgBXGUAkE1-n86xK0,38
+mydstools/connectors/salesforce.py,sha256=xSDYRoGcY9QTl-NuVNl5TzpE1kRHxskCMZWJqF4kIW0,1035
+mydstools/eda.py,sha256=WQgRAlgXhOlUMF1dkqH_9mCYBQyIxBTsLLXFzjfuEJU,7192
+mydstools/feature_engineering.py,sha256=Dzbjw8IG9LE5KE7PYv9cl7uE8JYfUNX5P8jiLQevEW0,636
+mydstools-0.1.4.dist-info/LICENSE,sha256=wpvI7-NYcLPo3XleW9lbFXydNm-F6rJL7J5N_6igOzk,1097
+mydstools-0.1.4.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+mydstools-0.1.4.dist-info/METADATA,sha256=fEibqKE6SopHPx83IIz4tttME48MTxpFd6US6fwqEZI,1507
+mydstools-0.1.4.dist-info/RECORD,,
