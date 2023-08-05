@@ -1,0 +1,9 @@
+pyproject.toml
+readme.md
+mquery_query_lib/__init__.py
+mquery_query_lib/yaraparse.py
+mquery_query_lib.egg-info/PKG-INFO
+mquery_query_lib.egg-info/SOURCES.txt
+mquery_query_lib.egg-info/dependency_links.txt
+mquery_query_lib.egg-info/requires.txt
+mquery_query_lib.egg-info/top_level.txt
