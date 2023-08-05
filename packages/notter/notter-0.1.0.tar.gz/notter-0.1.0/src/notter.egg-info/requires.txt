@@ -1,0 +1,14 @@
+click
+pygments
+
+[dev]
+black
+flake8
+isort
+mypy
+coverage
+pytest
+
+[test]
+coverage
+pytest
