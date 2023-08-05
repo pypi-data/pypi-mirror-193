@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+straw_machine/__init__.py
+straw_machine.egg-info/PKG-INFO
+straw_machine.egg-info/SOURCES.txt
+straw_machine.egg-info/dependency_links.txt
+straw_machine.egg-info/requires.txt
+straw_machine.egg-info/top_level.txt
+straw_machine/dataclass/__init__.py
+straw_machine/dataclass/_estimator.py
+straw_machine/dataclass/_transformer.py
+straw_machine/util/__init__.py
+straw_machine/util/_generate.py
