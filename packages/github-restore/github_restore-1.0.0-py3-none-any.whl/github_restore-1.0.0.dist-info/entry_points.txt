@@ -1,0 +1,3 @@
+[console_scripts]
+github-restore=github_restore.main:main
+
