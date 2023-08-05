@@ -1,0 +1,16 @@
+.vscode
+dist
+nasasync.egg-info
+
+demo/__pycache__/*
+nasa/__pycache__/*
+nasa/_types/__pycache__/*
+nasa/.env
+
+test.py
+image.png
+async_image.png
+
+docs/_build
+docs/_build/html
+docs/build
