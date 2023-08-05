@@ -1,0 +1,2 @@
+[console_scripts]
+docx-live-reload = docx_live_reload.main:main
