@@ -1,0 +1,5 @@
+setup.py
+voilite.egg-info/PKG-INFO
+voilite.egg-info/SOURCES.txt
+voilite.egg-info/dependency_links.txt
+voilite.egg-info/top_level.txt
