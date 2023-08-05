@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+RPG_text_engine.egg-info/PKG-INFO
+RPG_text_engine.egg-info/SOURCES.txt
+RPG_text_engine.egg-info/dependency_links.txt
+RPG_text_engine.egg-info/requires.txt
+RPG_text_engine.egg-info/top_level.txt
+RPGtext/__init__.py
