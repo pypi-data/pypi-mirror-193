@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/svada.egg-info/PKG-INFO
+src/svada.egg-info/SOURCES.txt
+src/svada.egg-info/dependency_links.txt
+src/svada.egg-info/top_level.txt
+src/svd/__init__.py
+src/svd/parsing.py
+src/svd/peripheral.py
+src/svd/util.py
