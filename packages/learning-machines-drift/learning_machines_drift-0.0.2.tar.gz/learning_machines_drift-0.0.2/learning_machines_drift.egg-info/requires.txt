@@ -1,0 +1,9 @@
+python>=3.9
+pydantic==1.9.1
+pygments==2.11.2
+numpy==1.22.4
+scipy==1.8.1
+matplotlib==3.5.2
+sdmetrics==0.8.0
+tabulate==0.8.10
+pandas==1.5
