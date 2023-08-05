@@ -1,0 +1,12 @@
+Flask
+Flask_APScheduler
+Flask_RESTful
+markdown
+openpyxl
+pytest
+jmespath
+paramiko
+robotframework
+kazoo
+requests
+pyyaml
