@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: exitcode
+Version: 0.1.0
+Summary: Preferred system exit codes as defined by sysexits.h
+Home-page: https://github.com/rumpelsepp/exitcode
+License: MIT
+Author: Stefan Tatschner
+Author-email: stefan@rumpelsepp.org
+Maintainer: Stefan Tatschner
+Maintainer-email: stefan@rumpelsepp.org
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/rumpelsepp/exitcode
+Description-Content-Type: text/markdown
+
+# exitcode
+
+Preferred system exit codes as defined by [`sysexits.h`](https://man.openbsd.org/sysexits).
+This library is inspired by this [rust library](https://docs.rs/exitcode).
+
+## Example
+
+All constants from the manpage [sysexits(3)](https://man.openbsd.org/sysexits) are available without the `EX_` prefix.
+
+``` python
+import exitcode
+import sys
+
+sys.exit(exitcode.OK)
+```
