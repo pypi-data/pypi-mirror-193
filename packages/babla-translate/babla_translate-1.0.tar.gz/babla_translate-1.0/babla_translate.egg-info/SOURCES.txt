@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+babla_translate/__init__.py
+babla_translate/babla.py
+babla_translate.egg-info/PKG-INFO
+babla_translate.egg-info/SOURCES.txt
+babla_translate.egg-info/dependency_links.txt
+babla_translate.egg-info/requires.txt
+babla_translate.egg-info/top_level.txt
