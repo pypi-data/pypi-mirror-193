@@ -1,0 +1,9 @@
+hypothesis_rdkit/__init__.py,sha256=zQSmHhHNnMTZ3J4PxoqGdAOQA9O32vUHgDw-9WIwEuc,24
+hypothesis_rdkit/fragments.smi,sha256=ufIgUOEfuk89BzQMgS8D9eVfcrhajxE7IozRFr_yWJQ,441809
+hypothesis_rdkit/hook.py,sha256=GlQfJ-aLHD0-OVtIJZpTf2isTFqCnTGF7XeZhPoxzns,199
+hypothesis_rdkit/strategy.py,sha256=qcIPgZuSxSGrES6Sm-IpJmUEXQue-GKHyww6XZPY1tY,6131
+hypothesis_rdkit-0.1.dist-info/METADATA,sha256=cfHUvzfEEDqEzTh_ZlTeFP545gI8EhxWTDLWC2NSP_Q,1316
+hypothesis_rdkit-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hypothesis_rdkit-0.1.dist-info/entry_points.txt,sha256=bQFOoxzM2DaYdK_RAvnC04905QDZNqCy4MkR8oQI0G0,62
+hypothesis_rdkit-0.1.dist-info/top_level.txt,sha256=XGatx1Wbx1sQpXq-hh2RgJrLwIIguxhS2ZAYt8ozH5Y,17
+hypothesis_rdkit-0.1.dist-info/RECORD,,
