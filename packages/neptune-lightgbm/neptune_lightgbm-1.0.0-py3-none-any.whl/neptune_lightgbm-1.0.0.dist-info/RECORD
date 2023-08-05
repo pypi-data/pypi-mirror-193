@@ -1,0 +1,8 @@
+CHANGELOG.md,sha256=TF9h5G0KLFCvS2Y9rcVorSbVgQ6o3OiXJXnET6VgaaM,1610
+neptune_lightgbm/__init__.py,sha256=tJT4YsxKD-d8k8385Z1baIQueiCaobpxSaTabrhCooc,787
+neptune_lightgbm/impl/__init__.py,sha256=nAlzoKKaLEe3sIn77r35H3huU4ZybNM34khXIfNO4Ok,16794
+neptune_lightgbm/impl/version.py,sha256=5Mm-VEqM6AiKqa_bTcFdaAJB3WfnNDbyKRHg10Sei14,377
+neptune_lightgbm-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neptune_lightgbm-1.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+neptune_lightgbm-1.0.0.dist-info/METADATA,sha256=9tJ8NYt2opDqUhpiS6uZHqSCL3p3v-K6oRSFHJ-hauI,4844
+neptune_lightgbm-1.0.0.dist-info/RECORD,,
