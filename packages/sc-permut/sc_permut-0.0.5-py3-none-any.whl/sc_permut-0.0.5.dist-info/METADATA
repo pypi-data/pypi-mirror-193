@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: sc-permut
+Version: 0.0.5
+Summary: Deep learning annotation of cell-types with permutation inforced autoencoder
+Home-page: https://sc_permut.readthedocs.io/
+License: MIT
+Author: becavin-lab
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: keras (==2.4.3)
+Requires-Dist: kopt (==0.1.0)
+Requires-Dist: py4j (>=0.10.9.7,<0.11.0.0)
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: scanpy (==1.6.0)
+Requires-Dist: tensorflow (==2.3.1)
+Project-URL: Repository, https://github.com/becavin-lab/sc_permut/
+Description-Content-Type: text/markdown
+
+# sc_permut
+Deep learning annotation of cell-types with permutation inforced autoencoder
+
+
+
+## Summary
+
+### Parse Scanpy, Seurat and CellRanger objects
+
+Fast crawl through your folder and detect Seurat (.rds), Scanpy (.h5ad) or cellranger (.h5) atlas files.
+
+## Usage
+
+The one liner way to run checkatlas is the following: 
+
+```bash
+$ cd your_search_folder/
+$ python -m sc_permut .
+#or
+$ checkatlas .
+```
+
+Or run it inside your python workflow.
+
+```py
+from sc_permut import sc_permut
+sc_permut.run(path, atlas_list, multithread, n_cpus)
+```
+
+
+## Development
+
+Read the [CONTRIBUTING.md](docs/contributing.md) file.
