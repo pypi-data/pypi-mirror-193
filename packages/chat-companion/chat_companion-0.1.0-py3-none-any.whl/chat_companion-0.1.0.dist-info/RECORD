@@ -1,0 +1,9 @@
+chat_companion/.gitignore,sha256=OC0kC7IuH8QMNCfB6YwXx-uU8tcOcGepRxzgTTIxBsA,1829
+chat_companion/companion.py,sha256=JxXSC1lnMrrclf8Mo5sryXVX2mOBUUMUjkGEBQiCIEs,9242
+chat_companion/toolbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chat_companion/toolbox/companion_logger.py,sha256=Ykx_-iaygbkxYhO92vqaXR6kItN1Fr0po4bAKIp7Pc8,860
+chat_companion/toolbox/prompt_tools.py,sha256=sUjTWBSAQ0fUbpZr6AKGh8q5DtjITR4sHHEf675rd8I,249
+chat_companion-0.1.0.dist-info/METADATA,sha256=WyLdOqa5EAoY_eDVccG32zEEHDxictxp9F37HGV01Os,1357
+chat_companion-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+chat_companion-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+chat_companion-0.1.0.dist-info/RECORD,,
