@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nerva
+Version: 0.0.1
+Summary: A stub for the Nerva neural network package
+Author-email: Wieger Wesselink <j.w.wesselink@tue.nl>
+Project-URL: Homepage, https://github.com/wiegerw/nerva_stub
+Project-URL: Bug Tracker, https://github.com/wiegerw/nerva_stub/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Nerva
+Stub for the Nerva package
