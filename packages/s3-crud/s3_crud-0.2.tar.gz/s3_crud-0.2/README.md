@@ -1,0 +1,2 @@
+Integrating Listener Module which will interact with the AWS S3 Bucket and perform CRUD operation during the Suite Start and end suite.
+To run the test case Run the Demo.sh file or run this command : robot --listener s3_crud.pyn --loglevel TRACE DemoS3.robot
