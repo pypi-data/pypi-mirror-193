@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/jw_lensegua/__init__.py
+src/jw_lensegua/cam.py
+src/jw_lensegua/lensegua.py
+src/jw_lensegua/results_model.py
+src/jw_lensegua/solutions.py
+src/jw_lensegua.egg-info/PKG-INFO
+src/jw_lensegua.egg-info/SOURCES.txt
+src/jw_lensegua.egg-info/dependency_links.txt
+src/jw_lensegua.egg-info/top_level.txt
+src/jw_lensegua/tests/__init__.py
+src/jw_lensegua/tests/test_solution.py
