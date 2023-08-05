@@ -1,0 +1,6 @@
+[flake8.extension]
+CEM=flake8_custom_error_messages.plugin:Plugin
+
+[flake8.report]
+custom_error_messages=flake8_custom_error_messages.plugin:Formatter
+
