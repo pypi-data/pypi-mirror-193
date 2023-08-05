@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/labdevices/__init__.py
+src/labdevices/exceptions.py
+src/labdevices/functiongenerator.py
+src/labdevices/gcodedevice.py
+src/labdevices/oscilloscope.py
+src/labdevices/powersupply.py
+src/labdevices/serialringbuffer.py
+src/pylabdevs_tspspi.egg-info/PKG-INFO
+src/pylabdevs_tspspi.egg-info/SOURCES.txt
+src/pylabdevs_tspspi.egg-info/dependency_links.txt
+src/pylabdevs_tspspi.egg-info/requires.txt
+src/pylabdevs_tspspi.egg-info/top_level.txt
