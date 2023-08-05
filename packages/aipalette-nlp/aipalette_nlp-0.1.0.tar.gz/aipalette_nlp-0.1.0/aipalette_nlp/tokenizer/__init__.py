@@ -1,0 +1,1 @@
+from ._word_tokenize import word_tokenize
