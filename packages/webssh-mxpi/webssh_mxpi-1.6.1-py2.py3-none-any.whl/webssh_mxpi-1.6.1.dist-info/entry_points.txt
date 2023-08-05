@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    wssh-mxpi = webssh.main:main
+    
