@@ -1,0 +1,8 @@
+*HELP for {self.name}*
+
+`Interact with the bot by sending messages and the bot should reply it properly most of the time.`
+
+`In cases where the response reflects a failure to understand the given text, please repeat the sentence with more clarity of the context.`
+
+:: Powered by Telegram-Bot-GPT ver {self.ver}
+:: Read our /disclaimer
