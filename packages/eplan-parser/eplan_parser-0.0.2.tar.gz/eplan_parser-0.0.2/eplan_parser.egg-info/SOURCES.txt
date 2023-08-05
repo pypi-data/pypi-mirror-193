@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+eplan_parser/__init__.py
+eplan_parser/output_parser.py
+eplan_parser.egg-info/PKG-INFO
+eplan_parser.egg-info/SOURCES.txt
+eplan_parser.egg-info/dependency_links.txt
+eplan_parser.egg-info/entry_points.txt
+eplan_parser.egg-info/top_level.txt
