@@ -1,0 +1,12 @@
+click
+numpy>=1.17
+h5py
+matplotlib
+vispy
+scikit-learn
+scipy
+keras
+progressbar2
+pytest
+numba
+psutil
