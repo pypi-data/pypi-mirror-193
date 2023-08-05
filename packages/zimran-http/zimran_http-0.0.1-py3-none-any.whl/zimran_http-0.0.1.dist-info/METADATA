@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: zimran-http
+Version: 0.0.1
+Summary: HTTP clients for communication between services
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+
+## Installation
+
+```bash
+pip install zimran-http
+```
+
+## Usage
+
+```python
+from zimran.http import AsyncHttpClient, HttpClient
+
+# async
+async with AsyncHttpClient(service='...') as client:
+    response = await client.get('/endpoint')
+
+# sync
+client = HttpClient(service='...')
+response = client.get('/endpoint')
+```

@@ -1,0 +1,8 @@
+zimran/http/__init__.py,sha256=uIeFiAvzu-yLZ6G3MptfC5QKlqkxtuTBwxz2erwBtmk,156
+zimran/http/_base.py,sha256=xgE6xfWpYWBjFMnr3BQY8qp8m8fXRnC8ZOfcptWjmaE,141
+zimran/http/async_http_client.py,sha256=ibrR6ECzoXKAKEuFtg_7cQC4AblUR9nomA_SMeLo0qY,130
+zimran/http/http_client.py,sha256=ax5GibYWY-D4NYQFQtiEBvPu_CZJUR_RmCm-z1xKSM4,115
+zimran_http-0.0.1.dist-info/METADATA,sha256=EDW3XF2XM1Ql2nVWtEh5SOSFLun27868rjp5H0uqaio,513
+zimran_http-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zimran_http-0.0.1.dist-info/top_level.txt,sha256=wEbj1t2srFVWHr4mBLP4dOY_Q3LmE3dgR8dKrJV_N_Q,7
+zimran_http-0.0.1.dist-info/RECORD,,
