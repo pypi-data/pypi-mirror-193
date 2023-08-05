@@ -1,0 +1,9 @@
+odoo/addons/somalimentacio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/somalimentacio/__manifest__.py,sha256=HUmeW1Q1t2vxqinHLVlXE4Za-X1y9LnTsjJy8Hqsmog,390
+odoo/addons/somalimentacio/i18n/ca_ES.po,sha256=O57zLZR0PTKV_JglWUm_ubLTTfzpZhd7iORnC-o-Zfs,3037
+odoo/addons/somalimentacio/i18n/es.po,sha256=70gIGSLJ8pImVkTNlW76fKyMsAx6JRj0YeQ-LcueCKM,3039
+odoo/addons/somalimentacio/views/subscription_template.xml,sha256=hhy3Bb7DGRtVdHN7XPZp22IKju6oFJpgo2anoKsJYFQ,1454
+odoo12_addon_somalimentacio-12.0.0.0.1.99.dev1.dist-info/METADATA,sha256=vZ3o3RVbEWd9yIZofDg6J6djlelWHo_nsE2VAfPCL9c,560
+odoo12_addon_somalimentacio-12.0.0.0.1.99.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_somalimentacio-12.0.0.0.1.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_somalimentacio-12.0.0.0.1.99.dev1.dist-info/RECORD,,
