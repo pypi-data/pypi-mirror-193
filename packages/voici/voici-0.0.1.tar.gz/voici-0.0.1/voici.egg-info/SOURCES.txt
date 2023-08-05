@@ -1,0 +1,5 @@
+setup.py
+voici.egg-info/PKG-INFO
+voici.egg-info/SOURCES.txt
+voici.egg-info/dependency_links.txt
+voici.egg-info/top_level.txt
