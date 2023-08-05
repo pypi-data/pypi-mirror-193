@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: guetwifi
+Version: 0.1.5
+Summary: GUET WiFi Monitor
+Home-page: https://github.com/andPuQing/guetwifi
+License: MIT
+Author: PuQing
+Author-email: me@puqing.work
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Networking
+Requires-Dist: click (>=8.0.0,<9.0.0)
+Requires-Dist: psutil (>=5.7.2,<6.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Project-URL: Repository, https://github.com/andPuQing/guetwifi.git
+Description-Content-Type: text/markdown
+
+# guetwifi
+
+This is a simple script to connect to the GUET-WIFI and keep it alive!!!!!!.
+
+## Usage
+
+### Installation
+
+```bash
+pip install guetwifi
+```
+
+### help
+
+```bash
+guetwifi --help
+```
+
+```bash
+Usage: guetwifi [OPTIONS] COMMAND [ARGS]...
+
+  GuetWifi is a command line tool for GUET-WIFI login
+
+Options:
+  --debug / --no-debug
+  --help                Show this message and exit.
+
+Commands:
+  config   Config your GUET-WIFI account and password
+  log      Show guetwifi log
+  restart  Restart guetwifi
+  start    Start guetwifi
+  status   Check guetwifi status
+  stop     Stop guetwifi
+  version  Show guetwifi version
+```
+
+### config
+
+```bash
+guetwifi config --help
+```
+
+```bash
+guetwifi config -a <account> -p <password>
+```
+
+you can set the isp to `cmcc` or `telecom` and `unicom` using `-i` option.
+
+```bash
+guetwifi config -a <account> -p <password> -i <isp>
+```
+
+### start
+
+```bash
+guetwifi start
+```
+
+### stop
+
+```bash
+guetwifi stop
+```
+
+### status
+
+```bash
+guetwifi status
+```
+
+### log
+
+```bash
+guetwifi log
+```
+
