@@ -1,0 +1,3 @@
+include randomlib/preprocess/*.txt
+include randomlib/config.py
+include LICENSE
