@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyflo-lib
+Version: 2.0.9
+Summary: Python FLO library
+Home-page: https://github.com/ranchimall/pyflo
+Author: Ranchi Mall
+Author-email: ranchimallfze@gmail.com
+License: GPL-3.0
+Keywords: flo
+License-File: LICENSE
+Requires-Dist: secp256k1
+
