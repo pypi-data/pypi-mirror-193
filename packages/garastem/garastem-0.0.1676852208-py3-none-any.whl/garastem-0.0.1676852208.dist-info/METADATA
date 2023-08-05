@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: garastem
+Version: 0.0.1676852208
+Summary: GaraSTEM Library
+Home-page: https://github.com/curlyz/garastem
+Download-URL: https://pypi.org/project/garastem/
+Author: Curly Nguyen
+Author-email: curly.saigonese@gmail.com
+License: MIT
+Keywords: GaraSTEM,GRobot,GIoT
+Requires-Dist: bleak
+Requires-Dist: termcolor
+Requires-Dist: requests
+Requires-Dist: umsgpack
+Requires-Dist: json
+
