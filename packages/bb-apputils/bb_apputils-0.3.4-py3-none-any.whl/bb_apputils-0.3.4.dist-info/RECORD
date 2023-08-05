@@ -1,0 +1,10 @@
+bbappdirs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bbappdirs/appdirs.py,sha256=43nFM36UEh_ftRuw3pCIcZI1jbvlBNzutzK0-4rQWNg,15926
+bbargparser/__init__.py,sha256=1JjKmQiZKIiR7J1ExUp5xhy0H3EZtdZZ6Zo4ApsAS-s,60
+bbargparser/argparser.py,sha256=dcBQb9r5Gg4P8cHQyu4t4oAT2Qc8jwKCjpnfFzm-_4Y,11659
+bblogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bblogger/logger.py,sha256=z4zozDlOpXXhzjWn2ubQdmixrlVbSp5gikfKhIhVjuQ,18171
+bblogger/texttools.py,sha256=DCi2XRM7T-vlxcbSaTOf9zrJ2lVYbbL7_GKFqDBT8Eg,11757
+bb_apputils-0.3.4.dist-info/METADATA,sha256=gBPp1qsOCeK9upDUXnyOaqW8VTqGReS_KglKqZQ1oBo,12841
+bb_apputils-0.3.4.dist-info/WHEEL,sha256=UTbu2d3PIo7FtACOQrq825bNtQhldwLx2SG2oh0Fl8Q,88
+bb_apputils-0.3.4.dist-info/RECORD,,
