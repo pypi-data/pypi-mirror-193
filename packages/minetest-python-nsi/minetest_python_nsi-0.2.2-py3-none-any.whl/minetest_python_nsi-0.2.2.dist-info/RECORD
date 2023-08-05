@@ -1,0 +1,10 @@
+minetest_python_nsi/__init__.py,sha256=iK_9AxQT-ij_ViAmrZ0FGVqtfYQWHl6t0vlPBCpmQZc,59
+minetest_python_nsi/blocs.py,sha256=ocJSLMyJRb5sDp_ylZTHEDLJFyc6rX1lLwK_3Xycy4k,10688
+minetest_python_nsi/connection.py,sha256=VBNcEGtglux-n77JKBNp3sHsEEUSbpqcTQS57Z7coiQ,4360
+minetest_python_nsi/main.py,sha256=WmjOYqsR4nR-awB8JUBLu6YmIC4KRWhJmRiJFGO3CBw,8926
+minetest_python_nsi/minetest_python_nsi.py,sha256=IHDvaA7uU9g4bEbUAydTsYdUZCuUPUX-pkyPYF4cjGQ,9022
+minetest_python_nsi/util.py,sha256=hxITRhEhtlH4ilU69zFn1-RD7HH0ujErXsfyr16OiMY,415
+minetest_python_nsi-0.2.2.dist-info/METADATA,sha256=S2GMjNE8TgdZCXubbxe71YqxGruf954OslgUTortaXQ,2476
+minetest_python_nsi-0.2.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+minetest_python_nsi-0.2.2.dist-info/top_level.txt,sha256=9dsuizwQ6OsmoaXIs4HjfybNMGJKkM14reF4t4wCvZc,20
+minetest_python_nsi-0.2.2.dist-info/RECORD,,
