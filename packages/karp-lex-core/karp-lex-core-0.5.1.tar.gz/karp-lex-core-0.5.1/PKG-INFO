@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: karp-lex-core
+Version: 0.5.1
+Summary: The core of karp-lex
+Home-page: https://spraakbanken.gu.se
+License: MIT
+Author: Språkbanken at the University of Gothenburg
+Author-email: sb-info@svenska.gu.se
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pydantic (>=1.10.4,<2.0.0)
+Requires-Dist: ulid-py (>=1.1.0,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/spraakbanken/karp-backend/issues
+Project-URL: Documentation, https://github.com/spraakbanken/karp-backend
+Project-URL: Repository, https://github.com/spraakbanken/karp-backend
+Description-Content-Type: text/markdown
+
+# karp-lex-core
+
+- **karp-lex-core** [![PyPI version](https://badge.fury.io/py/karp-lex-core.svg)](https://badge.fury.io/py/karp-lex-core)
+
+The core for karp-lex
+
+Contains commands, entry_dto and unique_id for `karp.lex` in `karp.backend`.
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## Latest Changes
+
+## 0.4.0
+### Added
+* Added Generic Commands. PR [#224](https://github.com/spraakbanken/karp-backend/pull/224) by [@kod-kristoff](https://github.com/kod-kristoff).
+* Added cmdtype tags. PR [#223](https://github.com/spraakbanken/karp-backend/pull/223) by [@kod-kristoff](https://github.com/kod-kristoff).
+
+## 0.3.2
+
+* Repo move to https://github/spraakbanken/karp-backend from https://github/spraakbanken/karp-lex-core
