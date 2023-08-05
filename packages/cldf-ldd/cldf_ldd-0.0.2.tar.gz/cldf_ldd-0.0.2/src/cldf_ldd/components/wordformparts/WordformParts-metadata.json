@@ -1,0 +1,48 @@
+{
+    "url": "wordformparts.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "ID",
+                "required": true,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                "datatype": {
+                    "base": "string",
+                    "format": "[a-zA-Z0-9_\\-]+"
+                }
+            },
+            {
+                "name": "Wordform_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "The involved wordform. References WordformTable (wordforms.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Morph_ID",
+                "required": false,
+                "dc:extent": "singlevalued",
+                "dc:description": "The involved morph. References MorphTable (morphs.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Index",
+                "required": false,
+                "dc:description": "Specifies the position of a morph in a wordform.",
+                "dc:extent": "singlevalued",
+                "datatype": {
+                    "base": "string",
+                    "format": "\\d+(:\\d+)?"
+                }
+            },
+            {
+                "name": "Gloss_ID",
+                "required": true,
+                "dc:extent": "multivalued",
+                "separator": ",",
+                "dc:description": "The gloss the morph has in the wordform. References GlossTable (glosses.csv)",
+                "datatype": "string"
+            }
+        ]
+    }
+}

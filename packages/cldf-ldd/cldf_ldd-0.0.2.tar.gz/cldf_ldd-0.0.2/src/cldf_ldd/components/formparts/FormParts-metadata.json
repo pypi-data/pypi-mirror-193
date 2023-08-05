@@ -1,0 +1,40 @@
+{
+    "url": "formparts.csv",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "ID",
+                "required": true,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                "datatype": {
+                    "base": "string",
+                    "format": "[a-zA-Z0-9_\\-]+"
+                }
+            },
+            {
+                "name": "Form_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "Blablabla. References FormTable (forms.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Wordform_ID",
+                "required": true,
+                "dc:extent": "singlevalued",
+                "dc:description": "Blablabla. References WordformTable (wordforms.csv)",
+                "datatype": "string"
+            },
+            {
+                "name": "Index",
+                "required": true,
+                "dc:description": "Specifies the position of an XXX in a form.",
+                "dc:extent": "singlevalued",
+                "datatype": {
+                    "base": "string",
+                    "format": "\\d+(:\\d+)?"
+                }
+            }
+        ]
+    }
+}
