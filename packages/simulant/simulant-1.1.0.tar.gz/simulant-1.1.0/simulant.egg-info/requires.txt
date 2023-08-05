@@ -1,0 +1,3 @@
+Xlib
+numpy
+opencv-python
