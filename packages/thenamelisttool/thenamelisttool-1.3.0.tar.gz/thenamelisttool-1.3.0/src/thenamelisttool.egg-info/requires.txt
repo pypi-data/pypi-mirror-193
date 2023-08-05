@@ -1,0 +1,8 @@
+pyyaml
+bronx
+
+[docs]
+sphinx
+
+[tests]
+pyyaml

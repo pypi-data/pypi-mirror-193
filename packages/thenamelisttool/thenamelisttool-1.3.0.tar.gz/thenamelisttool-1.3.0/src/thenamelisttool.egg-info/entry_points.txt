@@ -1,0 +1,6 @@
+[console_scripts]
+tnt.py = thenamelisttool.entrypoints.tnt:main
+tntcompose.py = thenamelisttool.entrypoints.tntcompose:main
+tntdiff.py = thenamelisttool.entrypoints.tntdiff:main
+tntdiffpack.py = thenamelisttool.entrypoints.tntdiffpack:main
+tntstack.py = thenamelisttool.entrypoints.tntstack:main
