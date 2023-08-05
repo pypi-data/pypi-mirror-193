@@ -1,0 +1,6 @@
+aws_request_signer/__init__.py,sha256=IrvITDs77gqolbmtahpe11Y7ZmNusckI35EFXJTuHKU,11990
+aws_request_signer/requests.py,sha256=V5CXargGggxcxpN3VLKRFPhgpJ064NE4Ro09inRQ2BY,1650
+aws_request_signer-1.2.0.dist-info/LICENSE,sha256=XcpqXyXuHPxSX01fyYldoHNkhirLjy8KOXl-k75IlNM,1105
+aws_request_signer-1.2.0.dist-info/METADATA,sha256=GTTcsS_3DLR4rFF0BZ0ygl8lAVDnsUwhiFmOIhi-v_Q,4363
+aws_request_signer-1.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+aws_request_signer-1.2.0.dist-info/RECORD,,
