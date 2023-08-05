@@ -1,0 +1,7 @@
+setup.py
+src/examples/__init__.py
+src/examples/options.py
+src/misteriouespip.egg-info/PKG-INFO
+src/misteriouespip.egg-info/SOURCES.txt
+src/misteriouespip.egg-info/dependency_links.txt
+src/misteriouespip.egg-info/top_level.txt
