@@ -1,0 +1,44 @@
+[project]
+name = "jboc"
+dynamic = ["version"]
+description = "No dependencies, no paradigm - Just a Bunch Of Code"
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+keywords = ["utils", "misc"]
+authors = [
+    { name = "Max", email = "maxs987@gmail.com" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/maxme1/jboc"
+"Bug Tracker" = "https://github.com/maxme1/jboc/issues"
+"Source" = "https://github.com/maxme1/jboc"
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["jboc"]
+
+[tool.setuptools.package-data]
+jboc = [
+    "py.typed",
+]
+
+[tool.setuptools.dynamic]
+version = { attr = "jboc.__version__.__version__" }
