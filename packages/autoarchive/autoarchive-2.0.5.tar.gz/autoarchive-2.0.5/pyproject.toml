@@ -1,0 +1,12 @@
+# pyproject.toml
+#
+# Project: AutoArchive
+# License: GNU GPLv3
+#
+# Copyright (C) 2003 - 2022 Róbert Čerňanský
+
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

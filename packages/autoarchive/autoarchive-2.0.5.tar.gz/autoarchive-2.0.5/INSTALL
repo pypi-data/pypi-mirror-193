@@ -1,0 +1,19 @@
+AutoArchive installation instructions
+=====================================
+
+
+To install latest version of AutoArchive from online package repository run:
+'pip install autoarchive'.
+
+To install AutoArchive from a local copy of the distribution package run:
+'pip install <path_to_distribution_package>'.
+
+
+
+Dependencies
+------------
+
+As AutoArchive is written in Python language, it requires a Python interpreter.
+
+Optional but recommended is GNU tar and compression programs that can be used
+with GNU tar, namely gzip, bzip2, xz, etc.
