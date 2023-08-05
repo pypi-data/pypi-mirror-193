@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "main",
+			"type": "python",
+			"request": "launch",
+			"module": "pgssret",
+			"cwd": "${workspaceFolder}/src",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			"args": [
+				"-f",
+				"debug.yaml"
+			]
+		}
+	]
+}

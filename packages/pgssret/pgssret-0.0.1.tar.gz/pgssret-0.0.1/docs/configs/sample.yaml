@@ -1,0 +1,34 @@
+pgss-ret:
+  auth:
+    username: USERNAME
+    password: PASSWORD
+  dir:
+    cache: cache
+    tmp: tmp
+  limits:
+    eml-size: 5242880 # 5 MiB
+    nb-attachments: 20
+  # Initial start up behaviour
+  #   0: Attach only one latest pay slip only (recommended)
+  #   1: Don't email. Pay slips will be sent on the subsequent launches
+  #   2: Email all the pay slips obtainable. A large quantities of pay slips
+  #      will be sent in multiple mails
+  init-mode: 0
+  post:
+    subject: Pay Slip from Compass Group
+    body: See attached.
+    backend: smtplib
+    params:
+      proto: smtp # or 'smtps' or 'lmtp'
+      # from: from@example.com
+      # Allow use of unencrypted session. Set to true if using localhost
+      # allow-plaintext: false
+      # host: smtp.example.com
+      # port:
+      # tlscert:
+      # tlskey:
+      # cred: # smtp auth credentials
+      #   username:
+      #   password:
+    recipients:
+      # - person@example.com

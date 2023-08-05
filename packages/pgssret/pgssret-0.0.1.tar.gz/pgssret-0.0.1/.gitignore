@@ -1,0 +1,7 @@
+__pycache__
+
+/dist
+/src/cache
+/src/tmp
+/src/debug.yaml
+/src/debug.yml
