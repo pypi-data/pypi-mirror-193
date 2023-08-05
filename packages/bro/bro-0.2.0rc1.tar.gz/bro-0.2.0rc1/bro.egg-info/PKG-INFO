@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bro
+Version: 0.2.0rc1
+Summary: Open source python library for accessing BRO API
+Home-page: https://github.com/viktor-platform/bro
+Author: VIKTOR
+Author-email: support@viktor.ai
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+this is a long description
