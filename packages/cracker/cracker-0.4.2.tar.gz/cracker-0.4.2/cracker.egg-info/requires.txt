@@ -1,0 +1,15 @@
+boto3==1.24.*
+python-vlc==3.*
+pyqt5==5.15.*
+pynput==1.7.*
+google-cloud-texttospeech==2.5.*
+
+[build]
+setuptools>=61
+build
+twine
+
+[dev]
+black
+isort
+pycodestyle
