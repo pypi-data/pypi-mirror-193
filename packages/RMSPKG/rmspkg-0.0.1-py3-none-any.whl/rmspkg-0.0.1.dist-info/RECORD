@@ -1,0 +1,5 @@
+src/firstpkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rmspkg-0.0.1.dist-info/METADATA,sha256=Tvd21_LMdaHv2V7cufjNKb46r5wBNIKyeiwF5Ed0MuE,397
+rmspkg-0.0.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+rmspkg-0.0.1.dist-info/licenses/LICENSE,sha256=AFWQ31uw1PNYDgwmuR_DayoUayAfLGu9BYEKXwN395A,1067
+rmspkg-0.0.1.dist-info/RECORD,,
