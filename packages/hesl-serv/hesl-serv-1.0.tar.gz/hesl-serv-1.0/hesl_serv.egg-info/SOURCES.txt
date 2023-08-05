@@ -1,0 +1,12 @@
+MANIFEST.in
+README.txt
+setup.py
+hesl_serv.egg-info/PKG-INFO
+hesl_serv.egg-info/SOURCES.txt
+hesl_serv.egg-info/dependency_links.txt
+hesl_serv.egg-info/entry_points.txt
+hesl_serv.egg-info/requires.txt
+hesl_serv.egg-info/top_level.txt
+heslserv/__init__.py
+heslserv/server.py
+heslserv/templates/index.html
