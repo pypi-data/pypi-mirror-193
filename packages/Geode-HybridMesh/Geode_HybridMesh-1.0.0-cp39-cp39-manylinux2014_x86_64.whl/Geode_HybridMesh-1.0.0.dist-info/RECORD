@@ -1,0 +1,8 @@
+geode_hybridmesh/__init__.py,sha256=kw6hkRr3uRtqEc06js2tiBuJtkPVsQWBM2lAkUFsyr0,91
+geode_hybridmesh/brep.py,sha256=hS8BYBuHN9UmHphloc3lqmENtpyspGzkhyf2ZkVdPU8,187
+geode_hybridmesh/geode_hybridmesh_py_brep.cpython-39-x86_64-linux-gnu.so,sha256=o1yqnvDyJHuhEY1hYPceR1aSE5Voo8AiV78lR_U3MMo,118112
+geode_hybridmesh/libGeode-HybridMesh_brep.so,sha256=bTWZyxLmNSG7hNCx18qsvlxCGvZwEeZYC9YIu8oWra4,240832
+Geode_HybridMesh-1.0.0.dist-info/METADATA,sha256=VtdM_YwKctipxblcRn3l1UQ6LHCqYdg6_Pr_4SEYvVM,2145
+Geode_HybridMesh-1.0.0.dist-info/WHEEL,sha256=3oXbtF4vYwmQyf0LQIagKtl0VO3gP86556qKiLb0bDc,103
+Geode_HybridMesh-1.0.0.dist-info/top_level.txt,sha256=x7qqFy29lTLBlSEGi9wWGfUylSpUu3Cfr19bK9o9poQ,17
+Geode_HybridMesh-1.0.0.dist-info/RECORD,,
