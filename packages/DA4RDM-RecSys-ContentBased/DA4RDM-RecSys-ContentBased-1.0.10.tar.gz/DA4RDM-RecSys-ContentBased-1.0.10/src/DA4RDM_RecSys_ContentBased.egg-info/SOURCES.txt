@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/DA4RDM_RecSys_ContentBased/__init__.py
+src/DA4RDM_RecSys_ContentBased/distance_similarity_calculator.py
+src/DA4RDM_RecSys_ContentBased/preprocessor.py
+src/DA4RDM_RecSys_ContentBased.egg-info/PKG-INFO
+src/DA4RDM_RecSys_ContentBased.egg-info/SOURCES.txt
+src/DA4RDM_RecSys_ContentBased.egg-info/dependency_links.txt
+src/DA4RDM_RecSys_ContentBased.egg-info/requires.txt
+src/DA4RDM_RecSys_ContentBased.egg-info/top_level.txt
