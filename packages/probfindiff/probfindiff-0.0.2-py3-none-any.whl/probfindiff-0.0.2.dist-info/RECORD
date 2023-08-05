@@ -1,0 +1,16 @@
+probfindiff/__init__.py,sha256=Bh9-5JEEZqtWV0V4h5yNynrLqp3ypBweX9-svlOuAm4,428
+probfindiff/_toplevel_api.py,sha256=A_znw1XPJpWg3x7_FzOoBwuZ6gvpCiblfJ3uVn57pOU,6675
+probfindiff/_version.py,sha256=YHIFcuaaSgU0N2VGZyU1WL9M152sU3zWSCtbTVk_lC8,136
+probfindiff/collocation.py,sha256=4nTD-TtamSRQu2rNVlCpIPLx7UXpHzhph5K9geyM-Wo,3941
+probfindiff/defaults.py,sha256=yOlq3LaHVrY4MfKipPL7UqpaXFMWVE7IxeAhbB8hxFg,603
+probfindiff/stencil.py,sha256=lFopPVfYNlUWCcQ4o1E9a4sDIkcXP0FRQAmqfpho2EA,6301
+probfindiff/typing.py,sha256=aqoNyQU8TaonHp2MnX9hhRP6ziOGj6E1gsall4qsOzo,576
+probfindiff/utils/__init__.py,sha256=m4Mzz9ruiBEBZhJXGRq11Uusui4HKBcrQaJ7nAXg2tA,37
+probfindiff/utils/autodiff.py,sha256=uDlYWbw9WYvWBiJRcDo9auaOzgqglH-QA_e1j6K_Vtw,1978
+probfindiff/utils/kernel.py,sha256=7wCoSjwZOIr5di4123mILEIegj_wIPLSvZrPzBl87Dc,1481
+probfindiff/utils/kernel_zoo.py,sha256=Bze0Hpp5Tr04wRhnDPVmERnwHINl_6mwAFt4UuqB3Gc,1446
+probfindiff-0.0.2.dist-info/LICENSE,sha256=09PPdXekWnLVZjvKO7vZ4U06KHTN3Hp2kc_FxhUfe_A,1073
+probfindiff-0.0.2.dist-info/METADATA,sha256=2wKyv8gZP-V9wwAItd8wlpNxOoU0VsWG_4u6hYLOviA,5958
+probfindiff-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+probfindiff-0.0.2.dist-info/top_level.txt,sha256=J-Ygn9-wIBxVRCb5jc2i-xmfhfTAJ4dDY2tcCvixkH8,12
+probfindiff-0.0.2.dist-info/RECORD,,
