@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/zyte_api/__init__.py
+src/zyte_api/convertor.py
+src/zyte_api_convertor.egg-info/PKG-INFO
+src/zyte_api_convertor.egg-info/SOURCES.txt
+src/zyte_api_convertor.egg-info/dependency_links.txt
+src/zyte_api_convertor.egg-info/entry_points.txt
+src/zyte_api_convertor.egg-info/requires.txt
+src/zyte_api_convertor.egg-info/top_level.txt

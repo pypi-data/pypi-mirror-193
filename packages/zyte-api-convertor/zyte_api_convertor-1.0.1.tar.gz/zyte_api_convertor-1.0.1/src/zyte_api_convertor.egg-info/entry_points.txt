@@ -1,0 +1,2 @@
+[console_scripts]
+zyte-api-convertor = zyte_api.convertor:main
