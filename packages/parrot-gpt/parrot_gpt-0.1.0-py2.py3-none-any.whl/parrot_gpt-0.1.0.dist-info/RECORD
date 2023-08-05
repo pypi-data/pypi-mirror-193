@@ -1,0 +1,12 @@
+parrot_gpt/__init__.py,sha256=-P_fi8lnrsq7sfjj3qyZh6RntMyFh4hqx0cX0nZu6KM,165
+parrot_gpt/cli.py,sha256=jgMdyULNWQnwsjJ5-5FVcKfWfAHWMt3oMMNhCASznAE,844
+parrot_gpt/exceptions.py,sha256=WSfQn0azh0V0HCLEKpVHkZs3AwnUhi3M8g1kdbnRX-4,147
+parrot_gpt/parrot_gpt.py,sha256=KsGM0zOvkoA4VLeIbeTr5T5tDCcrS1caagpT2GiZ_4o,2628
+parrot_gpt/prompts.py,sha256=sDpTPzV8zhvbcC6ADtnkMFpn1bcIzjNlltsblarLmhM,10489
+parrot_gpt-0.1.0.dist-info/AUTHORS.rst,sha256=RvFJFuvlBSjNhW3mEm1LRJdHYojUhjrU8tzAO3X3ZQU,158
+parrot_gpt-0.1.0.dist-info/LICENSE,sha256=Jf1qYldwPYNShd9FtfJ7VaTu4jkESPMw9nQX053GW8c,1073
+parrot_gpt-0.1.0.dist-info/METADATA,sha256=7eugv0vJi0MAhonR6JsAs5UOerrUjvAJPox9y9clMM8,2737
+parrot_gpt-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+parrot_gpt-0.1.0.dist-info/entry_points.txt,sha256=W1j21sTdpsN0lJS6_s_clqMrFzurm54AQsJU3aRRqn0,51
+parrot_gpt-0.1.0.dist-info/top_level.txt,sha256=0p2vwsiXI-TpjCaQtkTNU-QDOxeqW5SBUobk-LZWvvk,11
+parrot_gpt-0.1.0.dist-info/RECORD,,
