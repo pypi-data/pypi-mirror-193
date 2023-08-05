@@ -1,0 +1,2 @@
+[datasette]
+mutable_downloads = datasette_mutable_downloads
