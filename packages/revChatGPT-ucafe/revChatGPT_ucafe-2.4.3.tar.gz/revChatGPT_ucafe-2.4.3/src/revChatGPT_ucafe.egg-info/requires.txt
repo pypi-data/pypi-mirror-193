@@ -1,0 +1,10 @@
+OpenAIAuth==0.3.2
+requests
+revChatGPT
+
+[unofficial]
+requests
+requests
+selenium
+tls_client
+undetected_chromedriver
