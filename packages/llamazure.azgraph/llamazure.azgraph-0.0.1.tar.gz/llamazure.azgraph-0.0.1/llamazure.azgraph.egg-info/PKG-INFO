@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: llamazure.azgraph
+Version: 0.0.1
+Summary: Azure Resources Graph client
+Author: Daniel Goldman
+License: Round Robin 2.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet :: Log Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
