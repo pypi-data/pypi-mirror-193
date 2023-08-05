@@ -1,0 +1,7 @@
+README.md
+setup.py
+mailguppy.egg-info/PKG-INFO
+mailguppy.egg-info/SOURCES.txt
+mailguppy.egg-info/dependency_links.txt
+mailguppy.egg-info/requires.txt
+mailguppy.egg-info/top_level.txt
