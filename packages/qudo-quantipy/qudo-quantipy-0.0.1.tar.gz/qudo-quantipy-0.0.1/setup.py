@@ -1,0 +1,50 @@
+import sys
+from setuptools import setup, find_packages
+
+versions = dict(numpy='1.22.1',
+                scipy='1.7.3',
+                pandas='1.4.0',
+                ftfy='6.0.3',
+                pyreadstat='1.1.4')
+
+precisions = dict(numpy='==',
+                  scipy='==',
+                  pandas='==',
+                  ftfy='==',
+                  pyreadstat='==')
+
+libs = ['numpy',
+        'scipy',
+        'pandas',
+        'ftfy',
+        'xmltodict',
+        'lxml',
+        'xlsxwriter',
+        # 'pillow',
+        'prettytable',
+        'decorator',
+        #'watchdog',
+        'requests',
+        'python-pptx',
+        'pyreadstat']
+
+
+def version_libs(libs, precisions, versions):
+    return [lib + precisions[lib] + versions[lib]
+            if lib in versions.keys() else lib
+            for lib in libs]
+
+
+if sys.platform == 'win32':
+    INSTALL_REQUIRES = version_libs(libs[2:], precisions, versions)
+else:
+    INSTALL_REQUIRES = version_libs(libs, precisions, versions)
+
+setup(
+    name="qudo-quantipy",
+    version="0.0.1",
+    author="Constance Maurer",
+    description="A reduced and adapted version of quantipy3 package by author Geir Freysson.",
+    packages=find_packages(exclude=['tests']),
+    install_requires=INSTALL_REQUIRES
+)

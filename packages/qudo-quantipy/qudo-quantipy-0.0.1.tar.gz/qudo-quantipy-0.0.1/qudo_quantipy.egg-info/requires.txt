@@ -1,0 +1,12 @@
+numpy==1.22.1
+scipy==1.7.3
+pandas==1.4.0
+ftfy==6.0.3
+xmltodict
+lxml
+xlsxwriter
+prettytable
+decorator
+requests
+python-pptx
+pyreadstat==1.1.4
