@@ -1,0 +1,12 @@
+dagster_stitch/__init__.py,sha256=adVk9OFqNnm-ZQ_RJ9elkqLZvFc2OWOWAJbiuQsLOAs,342
+dagster_stitch/asset_defs.py,sha256=_ZhVZ3Xwfjljhs09yGPi8pzdVBVZXNwd17F1eGxpWbw,4512
+dagster_stitch/ops.py,sha256=kuNQPOAcifS4AjSBCSnbUKcj52ZQbua_I34l5BA8lF4,2595
+dagster_stitch/resources.py,sha256=GMiuDa7YKZzCZCVO9oxXHvQSXXYoVuX7OksPK4oqhF4,18022
+dagster_stitch/types.py,sha256=_xOL83rd3XF5TfCaUyo9kHsfeOraIywfT54eWtO41Qs,1608
+dagster_stitch/utils.py,sha256=bkIsC1Sk-UNI8mWrkoBvNx3AEKp9tD6GOj7OEwiKAyI,2963
+dagster_stitch/version.py,sha256=zJqpDCTjOK_8UUTArYG8Z1_m1MefgAGZk1YNGY1V3U0,24
+dagster_stitch-0.1.0.dist-info/LICENSE,sha256=-gtoVIAZYUHYmNHISZg982FI4Oh19mV1nxgTVW8eCB8,11344
+dagster_stitch-0.1.0.dist-info/METADATA,sha256=6p4EukDYLZYQHhDZvaPOudRMO5GFsX-5X_sfwyNfDO4,2230
+dagster_stitch-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dagster_stitch-0.1.0.dist-info/top_level.txt,sha256=sSI29NorP5F_CymNpp7qDT-viMHwqtq1JRJ-NXzB9lE,15
+dagster_stitch-0.1.0.dist-info/RECORD,,
