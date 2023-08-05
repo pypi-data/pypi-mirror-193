@@ -1,0 +1,16 @@
+hirezapi/HirezAPI.py,sha256=fgp5GLn0TGfJB74wqumP59YvXuSCGe9DHxMa0BMaIGA,27
+hirezapi/PaladinsAPI.py,sha256=wKUvi96vPKxmeoU3cxKJn8OCmEqNSvHMVNgDthwG5aY,70
+hirezapi/RealmsAPI.py,sha256=4jT4yEfFE386tbS2N2fggMRz2xgd3aP9Id20CR6iJvE,68
+hirezapi/SmiteAPI.py,sha256=rTH-3Fo2Pi-pny2Vu2ZHLn6qt6KKgIR2mudatTROa6w,67
+hirezapi/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+hirezapi/__main__.py,sha256=aLTv7bRbnu2ZDwrOW3Bq-EjY6GUU3Xzn78OWlPfLWvI,385
+hirezapi/cli.py,sha256=Xt70FrEUDhObQ0spbSOyNJORDLSvciGXLQ4bn-BRqus,813
+hirezapi/enums/endpoints.py,sha256=wzuS_w4L8tKQcr7FdOcRomo-lFgJ4EXq9Zhrk2VKlTc,310
+hirezapi/enums/languages.py,sha256=agtetcbcYOg6imYXxLIoV7p4OddmHJFPnWp0l91xaGA,225
+hirezapi-0.0.1.dist-info/AUTHORS.rst,sha256=3O8nltlEOJBGlai84FnbbwG3cScuJaiDythk7c4OsWA,67
+hirezapi-0.0.1.dist-info/LICENSE,sha256=IC6enF61O-4jVnZ1XaJRZdvcu2fpUig_MeFLfvuwZaA,1102
+hirezapi-0.0.1.dist-info/METADATA,sha256=U-KhJvcJiLWmB294u9Kx5k8HsissDxgdkiMM3U_eH3A,2338
+hirezapi-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hirezapi-0.0.1.dist-info/entry_points.txt,sha256=DFMEVNhKkJElbRhkE-6TohpoZ0v-fE0hnQFfYgIoPms,47
+hirezapi-0.0.1.dist-info/top_level.txt,sha256=0CTSYEy7SliVhEkT4r0FS1TZtOFNuSxT4Ftmz3lqpqg,9
+hirezapi-0.0.1.dist-info/RECORD,,
