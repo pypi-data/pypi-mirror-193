@@ -1,0 +1,446 @@
+{
+    "characters": [
+        {
+            "index": "albedo",
+            "illustrations": {
+                "all": 4655,
+                "r18": 306
+            }
+        },
+        {
+            "index": "alhaitham",
+            "illustrations": {
+                "all": 2237,
+                "r18": 318
+            }
+        },
+        {
+            "index": "aloy",
+            "illustrations": {
+                "all": 66,
+                "r18": 0
+            }
+        },
+        {
+            "index": "amber",
+            "illustrations": {
+                "all": 7781,
+                "r18": 2041
+            }
+        },
+        {
+            "index": "arataki_itto",
+            "illustrations": {
+                "all": 2069,
+                "r18": 451
+            }
+        },
+        {
+            "index": "barbara",
+            "illustrations": {
+                "all": 9806,
+                "r18": 3089
+            }
+        },
+        {
+            "index": "beidou",
+            "illustrations": {
+                "all": 3179,
+                "r18": 927
+            }
+        },
+        {
+            "index": "bennett",
+            "illustrations": {
+                "all": 1559,
+                "r18": 339
+            }
+        },
+        {
+            "index": "candace",
+            "illustrations": {
+                "all": 932,
+                "r18": 358
+            }
+        },
+        {
+            "index": "chongyun",
+            "illustrations": {
+                "all": 3578,
+                "r18": 396
+            }
+        },
+        {
+            "index": "collei",
+            "illustrations": {
+                "all": 1623,
+                "r18": 351
+            }
+        },
+        {
+            "index": "cyno",
+            "illustrations": {
+                "all": 1640,
+                "r18": 197
+            }
+        },
+        {
+            "index": "diluc",
+            "illustrations": {
+                "all": 6360,
+                "r18": 701
+            }
+        },
+        {
+            "index": "diona",
+            "illustrations": {
+                "all": 3231,
+                "r18": 782
+            }
+        },
+        {
+            "index": "dori",
+            "illustrations": {
+                "all": 594,
+                "r18": 150
+            }
+        },
+        {
+            "index": "eula",
+            "illustrations": {
+                "all": 10460,
+                "r18": 3406
+            }
+        },
+        {
+            "index": "faruzan",
+            "illustrations": {
+                "all": 1104,
+                "r18": 279
+            }
+        },
+        {
+            "index": "fischl",
+            "illustrations": {
+                "all": 7201,
+                "r18": 1617
+            }
+        },
+        {
+            "index": "ganyu",
+            "illustrations": {
+                "all": 32943,
+                "r18": 9092
+            }
+        },
+        {
+            "index": "gorou",
+            "illustrations": {
+                "all": 2688,
+                "r18": 615
+            }
+        },
+        {
+            "index": "hu_tao",
+            "illustrations": {
+                "all": 23735,
+                "r18": 4274
+            }
+        },
+        {
+            "index": "jean",
+            "illustrations": {
+                "all": 7112,
+                "r18": 2766
+            }
+        },
+        {
+            "index": "kaedehara_kazuha",
+            "illustrations": {
+                "all": 5418,
+                "r18": 341
+            }
+        },
+        {
+            "index": "kaeya",
+            "illustrations": {
+                "all": 5117,
+                "r18": 613
+            }
+        },
+        {
+            "index": "kamisato_ayaka",
+            "illustrations": {
+                "all": 15282,
+                "r18": 3842
+            }
+        },
+        {
+            "index": "kamisato_ayato",
+            "illustrations": {
+                "all": 3591,
+                "r18": 410
+            }
+        },
+        {
+            "index": "keqing",
+            "illustrations": {
+                "all": 15959,
+                "r18": 4249
+            }
+        },
+        {
+            "index": "klee",
+            "illustrations": {
+                "all": 11670,
+                "r18": 1892
+            }
+        },
+        {
+            "index": "kujou_sara",
+            "illustrations": {
+                "all": 3374,
+                "r18": 1096
+            }
+        },
+        {
+            "index": "kuki_shinobu",
+            "illustrations": {
+                "all": 2020,
+                "r18": 624
+            }
+        },
+        {
+            "index": "layla",
+            "illustrations": {
+                "all": 1482,
+                "r18": 268
+            }
+        },
+        {
+            "index": "lisa",
+            "illustrations": {
+                "all": 4698,
+                "r18": 2158
+            }
+        },
+        {
+            "index": "mona",
+            "illustrations": {
+                "all": 14112,
+                "r18": 4501
+            }
+        },
+        {
+            "index": "nahida",
+            "illustrations": {
+                "all": 11170,
+                "r18": 3127
+            }
+        },
+        {
+            "index": "nilou",
+            "illustrations": {
+                "all": 5709,
+                "r18": 1436
+            }
+        },
+        {
+            "index": "ningguang",
+            "illustrations": {
+                "all": 4135,
+                "r18": 1236
+            }
+        },
+        {
+            "index": "noelle",
+            "illustrations": {
+                "all": 5154,
+                "r18": 1284
+            }
+        },
+        {
+            "index": "qiqi",
+            "illustrations": {
+                "all": 6154,
+                "r18": 982
+            }
+        },
+        {
+            "index": "raiden_shogun",
+            "illustrations": {
+                "all": 25237,
+                "r18": 8438
+            }
+        },
+        {
+            "index": "razor",
+            "illustrations": {
+                "all": 2074,
+                "r18": 284
+            }
+        },
+        {
+            "index": "rosaria",
+            "illustrations": {
+                "all": 3093,
+                "r18": 1027
+            }
+        },
+        {
+            "index": "sangonomiya_kokomi",
+            "illustrations": {
+                "all": 6770,
+                "r18": 1406
+            }
+        },
+        {
+            "index": "sayu",
+            "illustrations": {
+                "all": 1905,
+                "r18": 419
+            }
+        },
+        {
+            "index": "shenhe",
+            "illustrations": {
+                "all": 7764,
+                "r18": 2210
+            }
+        },
+        {
+            "index": "shikanoin_heizou",
+            "illustrations": {
+                "all": 1644,
+                "r18": 172
+            }
+        },
+        {
+            "index": "sucrose",
+            "illustrations": {
+                "all": 3135,
+                "r18": 712
+            }
+        },
+        {
+            "index": "tartaglia",
+            "illustrations": {
+                "all": 10629,
+                "r18": 1430
+            }
+        },
+        {
+            "index": "thoma",
+            "illustrations": {
+                "all": 2017,
+                "r18": 355
+            }
+        },
+        {
+            "index": "tighnari",
+            "illustrations": {
+                "all": 2625,
+                "r18": 210
+            }
+        },
+        {
+            "index": "traveler",
+            "illustrations": {
+                "all": 1981,
+                "r18": 347
+            }
+        },
+        {
+            "index": "venti",
+            "illustrations": {
+                "all": 10240,
+                "r18": 1620
+            }
+        },
+        {
+            "index": "wanderer",
+            "illustrations": {
+                "all": 3014,
+                "r18": 203
+            }
+        },
+        {
+            "index": "xiangling",
+            "illustrations": {
+                "all": 3007,
+                "r18": 556
+            }
+        },
+        {
+            "index": "xiao",
+            "illustrations": {
+                "all": 9611,
+                "r18": 566
+            }
+        },
+        {
+            "index": "xingqiu",
+            "illustrations": {
+                "all": 3766,
+                "r18": 455
+            }
+        },
+        {
+            "index": "xinyan",
+            "illustrations": {
+                "all": 1008,
+                "r18": 218
+            }
+        },
+        {
+            "index": "yae_miko",
+            "illustrations": {
+                "all": 17500,
+                "r18": 4876
+            }
+        },
+        {
+            "index": "yanfei",
+            "illustrations": {
+                "all": 3511,
+                "r18": 531
+            }
+        },
+        {
+            "index": "yaoyao",
+            "illustrations": {
+                "all": 1318,
+                "r18": 215
+            }
+        },
+        {
+            "index": "yelan",
+            "illustrations": {
+                "all": 6492,
+                "r18": 1949
+            }
+        },
+        {
+            "index": "yoimiya",
+            "illustrations": {
+                "all": 6236,
+                "r18": 1304
+            }
+        },
+        {
+            "index": "yun_jin",
+            "illustrations": {
+                "all": 1997,
+                "r18": 379
+            }
+        },
+        {
+            "index": "zhongli",
+            "illustrations": {
+                "all": 12013,
+                "r18": 1393
+            }
+        }
+    ],
+    "last_updated": 1676840448.5348027
+}
