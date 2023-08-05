@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: likeapp
+Version: 0.1
+Summary: The library for management events
+Project-URL: Homepage, https://github.com/liketapi/likeapp
+Project-URL: Bug Tracker, https://github.com/liketapi/likeapp/issues
+Author-email: liketapi <seryumed@gmail.com>
+License-File: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# likeapp
