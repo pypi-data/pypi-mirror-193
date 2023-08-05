@@ -1,0 +1,15 @@
+
+[docs]
+sphinx
+numpy
+scipy
+matplotlib
+pyyaml
+netCDF4
+Pillow
+
+[tests]
+numpy
+scipy
+pyyaml
+netCDF4
