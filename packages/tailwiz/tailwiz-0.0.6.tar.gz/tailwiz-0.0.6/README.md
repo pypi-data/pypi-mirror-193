@@ -1,0 +1,105 @@
+# Text Labeling AI Wizard (tailwiz)
+
+`tailwiz` is an AI-powered tool for labeling text. It has three main capabilties: classifying text (`tailwiz.classify`), parsing text given context and prompts (`tailwiz.parse`), and generating text given prompts (`tailwiz.generate`).
+
+## Installation
+
+Install `tailwiz` through `pip`:
+
+```
+python -m pip install tailwiz
+```
+
+## Usage
+
+In this section, we outline the three main functions of `tailwiz` and provide example workflows.
+
+
+### <code>tailwiz.classify<i>(text_to_label, prelabeled_text=None, output_metrics=False)</i></code>
+
+Given text, classify the text.
+#### Parameters:
+- `text_to_label` : _pandas.DataFrame, List[str]]_. Data structures containing text to classify. If in a pandas DataFrame, the column name must be `text`.
+- `prelabeled_text` : _pandas.DataFrame, List[List[str, Union[str, int]]], default None_. Pre-labeled text to enhance the performance of the classification task. If in a pandas DataFrame, the text column must be named `text` and the label column must be named `label`.
+- `output_metrics` : _bool, default False_. Whether to output `performance_estimate` together with results in a tuple.
+
+#### Returns:
+- `results` : _List[List[str, Union[str, int]]_. Classification results.
+- `performance_estimate` : _Dict[str, float]_. Dictionary of metric name to metric value mappings. Included together with results in a tuple if output_metrics is True. Uses prelabeled_text to give an estimate of the accuracy of the classification. One vs. all metrics are given for multiclass classification.
+
+#### Example:
+
+```
+>>> import tailwiz
+>>> results = tailwiz.classify(
+...     text_to_label=['You are the best!', 'You make me sick'],
+...     prelabeled_text=[
+...         ['Love you to the moon', 'nice'],
+...         ['I hate you', 'mean'],
+...         ['Have a great day', 'nice']
+...     ]
+... )
+>>> results
+['nice', 'mean']
+```
+
+### <code>tailwiz.parse<i>(text_to_label, prelabeled_text=None, output_metrics=False)</i></code>
+
+Given a prompt and a context, parse the answer from the context.
+#### Parameters:
+- `text_to_label` : _pandas.DataFrame, List[List[str, str]]_. Data containing prompts and contexts from which answers will be parsed. If in a pandas DataFrame, the context column name must be `context` and the prompt column name must be `prompt`.
+- `prelabeled_text` : _pandas.DataFrame, List[List[str, str, str]], default None_. Pre-labeled tuples to enhance the performance of the parsing task. If in a pandas DataFrame, the context column name must be `context`, the prompt column name must be `prompt`, and the label column must be `label`.
+- `output_metrics` : _bool, default False_. Whether to output `performance_estimate` together with results in a tuple.
+
+#### Returns:
+- `results` : _List[List[str, str, str]]_. Parsed results.
+- `performance_estimate` : _Dict[str, float]_. Dictionary of metric name to metric value mappings. Included together with results in a tuple if output_metrics is True. Uses prelabeled_text to give an estimate of the accuracy of the parsing job.
+
+#### Example:
+```
+>>> import tailwiz
+>>> results = tailwiz.parse(
+...     text_to_label=[['Extract the number.', 'figure 8']],
+...     prelabeled_text=[
+...         ['Extract the number.', 'Noon is twelve oclock', 'twelve'],
+...         ['Extract the number.', '10 jumping jacks', '10'],
+...         ['Extract the number.', 'I have 3 eggs', '3'],
+...     ]
+... )
+>>> results
+['8']
+```
+
+
+### <code>tailwiz.generate<i>(text_to_label, prelabeled_text=None, output_metrics=False)</i></code>
+
+Given a prompt, generate an answer.
+#### Parameters:
+- `text_to_label` : _pandas.DataFrame, List[str]]_. Data structures containing prompts for which answers will be generated. If in a pandas DataFrame, the prompt column name must be `prompt`.
+- `prelabeled_text` : _pandas.DataFrame, List[List[str, str, int]], default None_. Pre-labeled text to enhance the performance of the text generation task. If in a pandas DataFrame, the prompt column must be named `prompt` and the label column must be named `label`.
+- `output_metrics` : _bool, default False_. Whether to output `performance_estimate` together with results in a tuple.
+
+#### Returns:
+- `results` : _List[List[str, Union[str, int]]_. Generated prompt results.
+- `performance_estimate` : _Dict[str, float]_. Dictionary of metric name to metric value mappings. Included together with results in a tuple if output_metrics is True. Uses prelabeled_text to give an estimate of the accuracy of the text generation job.
+
+#### Example:
+```
+>>> import tailwiz
+>>> results = tailwiz.generate(
+...     text_to_label=['Is this sentence Happy or Sad? I am crying my eyes out.'],
+...     prelabeled_text=[
+...         ['Is this sentence Happy or Sad? I love puppies!', 'Happy'],
+...         ['Is this sentence Happy or Sad? I do not like you at all.', 'Sad'],
+...     ]
+... )
+>>> results
+['Sad']
+```
+
+## Templates (Notebooks)
+
+Use these Jupyter Notebook examples as templates to help load your data and run any of the three `tailwiz` functions:
+- For an example of `tailwiz.classify`, see [`examples/classify.ipynb`](https://github.com/timothydai/tailwiz/blob/main/examples/classify.ipynb)
+- For an example of `tailwiz.parse`, see [`examples/parse.ipynb`](https://github.com/timothydai/tailwiz/blob/main/examples/parse.ipynb)
+- For an example of `tailwiz.generate`, see [`examples/generate.ipynb`](https://github.com/timothydai/tailwiz/blob/main/examples/generate.ipynb)
