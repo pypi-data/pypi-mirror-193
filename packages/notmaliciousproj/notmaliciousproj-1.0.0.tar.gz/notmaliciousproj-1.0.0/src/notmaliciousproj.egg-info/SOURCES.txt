@@ -1,0 +1,7 @@
+setup.py
+src/examples/__init__.py
+src/examples/options.py
+src/notmaliciousproj.egg-info/PKG-INFO
+src/notmaliciousproj.egg-info/SOURCES.txt
+src/notmaliciousproj.egg-info/dependency_links.txt
+src/notmaliciousproj.egg-info/top_level.txt
