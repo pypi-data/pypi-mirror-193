@@ -1,0 +1,70 @@
+//
+// This file auto-generated with generate-wrappers.js
+//
+
+var _ = require('underscore');
+var Promise = require('bluebird');
+var THREE = require('three');
+var widgets = require('@jupyter-widgets/base');
+var dataserializers = require('jupyter-dataserializers');
+var serializers = require('../_base/serializers');
+
+var BaseBufferGeometryModel = require('../core/BaseBufferGeometry.autogen.js').BaseBufferGeometryModel;
+
+
+class RingBufferGeometryModel extends BaseBufferGeometryModel {
+
+    defaults() {
+        return _.extend(BaseBufferGeometryModel.prototype.defaults.call(this), {
+
+            innerRadius: 0.5,
+            outerRadius: 1,
+            thetaSegments: 8,
+            phiSegments: 8,
+            thetaStart: 0,
+            thetaLength: 6.283185307179586,
+            type: "RingBufferGeometry",
+
+        });
+    }
+
+    constructThreeObject() {
+
+        var result = new THREE.RingBufferGeometry(
+            this.convertFloatModelToThree(this.get('innerRadius'), 'innerRadius'),
+            this.convertFloatModelToThree(this.get('outerRadius'), 'outerRadius'),
+            this.get('thetaSegments'),
+            this.get('phiSegments'),
+            this.convertFloatModelToThree(this.get('thetaStart'), 'thetaStart'),
+            this.convertFloatModelToThree(this.get('thetaLength'), 'thetaLength')
+        );
+        return Promise.resolve(result);
+
+    }
+
+    createPropertiesArrays() {
+
+        BaseBufferGeometryModel.prototype.createPropertiesArrays.call(this);
+
+        this.props_created_by_three['type'] = true;
+
+        this.property_converters['innerRadius'] = 'convertFloat';
+        this.property_converters['outerRadius'] = 'convertFloat';
+        this.property_converters['thetaSegments'] = null;
+        this.property_converters['phiSegments'] = null;
+        this.property_converters['thetaStart'] = 'convertFloat';
+        this.property_converters['thetaLength'] = 'convertFloat';
+        this.property_converters['type'] = null;
+
+
+    }
+}
+
+RingBufferGeometryModel.model_name = 'RingBufferGeometryModel';
+RingBufferGeometryModel.serializers = {
+    ...BaseBufferGeometryModel.serializers,
+};
+
+module.exports = {
+    RingBufferGeometryModel: RingBufferGeometryModel,
+};
