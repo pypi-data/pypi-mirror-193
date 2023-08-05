@@ -1,0 +1,80 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "flake8-custom-error-messages"
+keywords = [
+    "flake8",
+    "flake8 plugin",
+    "custom error messages",
+]
+authors = [{ name = "Ghazi Abbassi" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dynamic = ["version", "description"]
+requires-python = ">=3.8"
+dependencies = ["flake8"]
+
+[project.optional-dependencies]
+dev = ["pre-commit"]
+release = ["flit", "keyring", "tbump"]
+
+[project.urls]
+Code = "https://github.com/ghazi-git/flake8-custom-error-messages"
+Issues = "https://github.com/ghazi-git/flake8-custom-error-messages/issues"
+Changelog = "https://github.com/ghazi-git/flake8-custom-error-messages/releases"
+
+[project.entry-points."flake8.extension"]
+CEM = "flake8_custom_error_messages.plugin:Plugin"
+
+[project.entry-points."flake8.report"]
+custom_error_messages = "flake8_custom_error_messages.plugin:Formatter"
+
+[tool.flit.module]
+name = "flake8_custom_error_messages"
+
+[tool.tbump]
+
+[tool.tbump.version]
+current = "0.1.1"
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  '''
+
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "v{new_version}"
+
+[[tool.tbump.file]]
+src = "flake8_custom_error_messages/__init__.py"
+search = '__version__ = "{current_version}"'
+
+[[tool.tbump.file]]
+src = "flake8_custom_error_messages/plugin.py"
+search = 'version = "{current_version}"'
+
+[[tool.tbump.file]]
+src = "README.md"
+search = 'flake8-custom-error-messages=={current_version}'
+
+[[tool.tbump.before_commit]]
+name = "Update the changelog"
+cmd = "python release/update_changelog.py --new-version {new_version}"
+
+[[tool.tbump.after_push]]
+name = "Publish to PyPI"
+cmd = "flit publish"
