@@ -1,0 +1,3 @@
+include bot_gpt/help_dev.txt
+include bot_gpt/help_bot.txt
+include bot_gpt/disclaimer.txt
