@@ -1,0 +1,29 @@
+from enum import Enum
+
+
+class PaymentPaymentStatusesItem(str, Enum):
+    SCREENING_REQ = "SCREENING_REQ"
+    PENDING_FOR_FUNDS = "PENDING_FOR_FUNDS"
+    HELD = "HELD"
+    ER_GENERAL = "ER_GENERAL"
+    VALIDATED = "VALIDATED"
+    ER_BATCH = "ER_BATCH"
+    CANCELLED = "CANCELLED"
+    ER_INVALID = "ER_INVALID"
+    EXT_PROC = "EXT_PROC"
+    SUBMITTED = "SUBMITTED"
+    EXT_SENT = "EXT_SENT"
+    ER_EXPIRED = "ER_EXPIRED"
+    ER_EXTCONN = "ER_EXTCONN"
+    ER_EXTSYS = "ER_EXTSYS"
+    CLEARING = "CLEARING"
+    PENDING_FOR_DATE = "PENDING_FOR_DATE"
+    RETURNED = "RETURNED"
+    PROCESSED = "PROCESSED"
+    UNALLOCATED = "UNALLOCATED"
+    REPROCESSING = "REPROCESSING"
+    VOID = "VOID"
+    RECONCILED = "RECONCILED"
+
+    def __str__(self) -> str:
+        return str(self.value)
