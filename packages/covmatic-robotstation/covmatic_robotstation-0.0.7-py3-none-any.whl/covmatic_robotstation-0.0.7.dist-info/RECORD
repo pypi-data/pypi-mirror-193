@@ -1,0 +1,7 @@
+covmatic_robotstation/__init__.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+covmatic_robotstation/robot.py,sha256=sg2dm2tHJma5S_VxNscXTPRzZ8LLz8Xo38ZD6LDFIHk,2418
+covmatic_robotstation/robot_api.py,sha256=kQ04Sd3mSWLfI8BFMZ73-xf6cXvGuJYD1CvQb3JaQ4M,3345
+covmatic_robotstation/robot_station.py,sha256=Zm_01OWESG5rikD5VKYXGUaWN66XER_vqv_ROcmCFi8,1151
+covmatic_robotstation-0.0.7.dist-info/METADATA,sha256=-2uRWgdUSkZA0tuJDd5a_es-AohzluVb3Ai9xJw1OEA,773
+covmatic_robotstation-0.0.7.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+covmatic_robotstation-0.0.7.dist-info/RECORD,,
