@@ -1,0 +1,8 @@
+gwwapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwwapi/client.py,sha256=v0ibXkD3c9fkbdx9P1W3uCJE3e8YUGC5aY9ELv6VHpI,4586
+gwwapi/utils.py,sha256=Xv3yZsPVLks1bwJph6VYWp5JDjHwK2IWcvcLCr7tHvM,792
+gwwapi-0.0.2.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+gwwapi-0.0.2.dist-info/METADATA,sha256=AcJghhZ1hCX4F4A1SxG87qkLKpNCLNasqYTIH-jN4c0,1236
+gwwapi-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gwwapi-0.0.2.dist-info/top_level.txt,sha256=WCzdEXLpjlPX5aNBl6Um73l1jo_DAetrNlWNfUmm3yM,7
+gwwapi-0.0.2.dist-info/RECORD,,
