@@ -1,0 +1,8 @@
+heslserv/__init__.py,sha256=fKXTUF-e7ofECXH9YbXo3a6RNQjPINHPeLiFYkuyirU,21
+heslserv/server.py,sha256=2zptzbxbiKvrCDbrGqGOfd94fFPIWw-1-ev63Z2_2FA,169
+heslserv/templates/index.html,sha256=c4k9h3pDjHdKZPUcBUnwEqbqvYsvHgUrxN7RZd1Pm1g,21
+hesl_serv-1.0.dist-info/METADATA,sha256=bFP9WoX1CuqS2tW_O1rAqxglsrFa-TBsxBXwaWz89go,133
+hesl_serv-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hesl_serv-1.0.dist-info/entry_points.txt,sha256=gCXTUqj4HyjfmcrpTNg3ZuILVuCMmHaXVuNyLsuKHvk,54
+hesl_serv-1.0.dist-info/top_level.txt,sha256=iNJ1JzaLg3Si0CJ5Xbmwb6AwBOxEDhegZzh9Qluas8k,9
+hesl_serv-1.0.dist-info/RECORD,,

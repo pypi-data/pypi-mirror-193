@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hesl-serv
+Version: 1.0
+Author: LowLevelCoder
+Author-email: flat.assembly@gmail.com
+Requires-Dist: Flask
+
