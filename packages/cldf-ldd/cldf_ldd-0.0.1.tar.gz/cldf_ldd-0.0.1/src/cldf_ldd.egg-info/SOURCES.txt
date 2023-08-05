@@ -1,0 +1,16 @@
+CITATION.cff
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cldf_ldd/__init__.py
+src/cldf_ldd/cldf.py
+src/cldf_ldd.egg-info/PKG-INFO
+src/cldf_ldd.egg-info/SOURCES.txt
+src/cldf_ldd.egg-info/dependency_links.txt
+src/cldf_ldd.egg-info/not-zip-safe
+src/cldf_ldd.egg-info/requires.txt
+src/cldf_ldd.egg-info/top_level.txt
+src/cldf_ldd/components/__init__.py
