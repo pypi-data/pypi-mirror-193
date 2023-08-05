@@ -1,0 +1,3 @@
+asyncio
+tls-client>=0.1.8
+websockets>=10.4

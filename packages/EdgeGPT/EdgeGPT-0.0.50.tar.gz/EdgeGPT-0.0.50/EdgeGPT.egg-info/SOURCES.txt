@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+EdgeGPT.egg-info/PKG-INFO
+EdgeGPT.egg-info/SOURCES.txt
+EdgeGPT.egg-info/dependency_links.txt
+EdgeGPT.egg-info/requires.txt
+EdgeGPT.egg-info/top_level.txt
