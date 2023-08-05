@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: voilite
+Version: 0.0.1
+Home-page: https://github.com/voila-dashboards/voilite
+Author: QuantStack dev team
+Maintainer: QuantStack dev team
+License: BSD 3-Clause
+Platform: any
+Requires-Python: >=3.6
+
