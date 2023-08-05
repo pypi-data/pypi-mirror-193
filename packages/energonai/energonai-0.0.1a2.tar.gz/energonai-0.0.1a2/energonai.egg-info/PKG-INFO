@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: energonai
+Version: 0.0.1a2
+Summary: EnergonAI: An Inference System for 10-100 Billion Parameter Transformer Models
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache Software License 2.0
+Description: 
+        Energon-AI
+        ***************************************************************************************************************************************************
+        
+        A service framework for large-scale model inference, Energon-AI has the following characteristics:
+        
+        - **Parallelism for Large-scale Models:** With tensor parallel operations, pipeline parallel wrapper, distributed checkpoint loading, and customized CUDA kernel, EnergonAI can enable efficient parallel inference for larges-scale models.
+        - **Pre-built large models:** There are pre-built implementation for popular models, such as OPT. It supports the cache technique for the generation task and distributed parameter loading.
+        - **Engine encapsulation：** There has an abstraction layer called engine. It encapsulates the single instance multiple devices (SIMD) execution with the remote procedure call, making it acts as the single instance single device (SISD) execution.
+        - **An online service system:** Based on FastAPI, users can launch a web service of the distributed infernce quickly. The online service makes special optimizations for the generation task. It adopts both left padding and bucket batching techniques for improving the efficiency.
+        
+        For models trained by `Colossal-AI <https://github.com/hpcaitech/ColossalAI>`__, they can be easily transferred to Energon-AI.
+        For single-device models, they require manual coding works to introduce tensor parallelism and pipeline parallelism.
+        
+        Installation
+        ------------------------------------------------------------------------------------------
+        
+        .. code:: bash
+        
+           pip install energonai
+           
+        
+        Github Repo
+        ---------------------------------------------------------------------------------------
+        
+        `https://github.com/hpcaitech/EnergonAI <https://github.com/hpcaitech/EnergonAI>`__ 
+        
+        
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
