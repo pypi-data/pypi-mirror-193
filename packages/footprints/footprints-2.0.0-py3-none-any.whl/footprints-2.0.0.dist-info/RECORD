@@ -1,0 +1,17 @@
+footprints/__init__.py,sha256=z0zduEV5Jjuykpt5nl17fSMMlGypCg1CSIyRsNN5XJU,44868
+footprints/access.py,sha256=nzEnfQxyQUA0KCgxH3ZjuxaJlNVRE-JpW0Z3lU8BBa4,4211
+footprints/collectors.py,sha256=VoSmeuRuU9A-_L-yB_Vsdm-C4VIKtYRH8Gexsru0Itw,21902
+footprints/config.py,sha256=c-aEloA_FRzqE5u3wtI7TlsUYVlfwIVj5jWDp6HCWvM,4878
+footprints/doc.py,sha256=eFe-sq9-0AZQS-YooQztFfT-tDTyXLpNCsuOyKXBarw,5365
+footprints/loggers.py,sha256=r_tQVdJeolEG9KJOVY3uQIpVa56RUk7XByfRBZH-nTA,1212
+footprints/priorities.py,sha256=aKDVFTJaVyYFeXIogdo-MyW6u-k56b1DbY703jGdZKA,7335
+footprints/proxies.py,sha256=QATK57MrY9b2uvbVIhiy2bZbaEEV-uepbPWBha1xOPc,2619
+footprints/reporting.py,sha256=yO4zPN5Ks7DkoIeW5Zk4lYd_6pGwEbputmpTZvQqqAQ,19396
+footprints/stdtypes.py,sha256=t0aKO7KQzwty8DgV-2yA8Efz3OxYSDyIlS6t48v4cLs,2228
+footprints/util.py,sha256=1L7zPADoRqht35Q0-jj8i20rZLrSPKg8t7V-MMUfAIc,11259
+footprints-2.0.0.dist-info/LICENSE-en.txt,sha256=bQQvT1YQudN6zO6hj_hId_XUf4ZBrMWTldu6VI3Up-c,21865
+footprints-2.0.0.dist-info/LICENSE.txt,sha256=4yjdqa5nh_IjZGYsKFdK8FmQVqE4G1x5jCdLY6TkVfQ,22756
+footprints-2.0.0.dist-info/METADATA,sha256=5mc0u2ml8vvrcLZ4i8vWzqIP16QMYvBhxhbn_ZA0qdU,1481
+footprints-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+footprints-2.0.0.dist-info/top_level.txt,sha256=NFQEsg0X1HdN67wkmGo0IubFidc3-12UtdwnAzyTsHE,11
+footprints-2.0.0.dist-info/RECORD,,
