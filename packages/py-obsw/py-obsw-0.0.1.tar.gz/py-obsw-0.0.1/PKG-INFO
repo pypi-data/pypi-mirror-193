@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py-obsw
+Version: 0.0.1
+Summary: A small example package
+Author-email: Mohd Bilal <author@example.com>
+Project-URL: Homepage, https://gitlab.com/mohd.bilal.unibw/py-obsw
+Project-URL: Bug Tracker, https://gitlab.com/mohd.bilal.unibw/py-obsw/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# py-obsw
+
+Py-OBSW is a Python based software for developing service based applications. Py-OBSW can be used to perform
+on-ground tests and quick prototyping for Spacecraft Onboard Software.
