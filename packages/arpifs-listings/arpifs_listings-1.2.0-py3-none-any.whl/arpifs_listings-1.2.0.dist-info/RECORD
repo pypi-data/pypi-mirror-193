@@ -1,0 +1,16 @@
+arpifs_listings/TLAD.py,sha256=HRPLUIF-pRU5ESJ3GWKECUmoZPFXiLhrtFilB4u9B-w,8502
+arpifs_listings/__init__.py,sha256=32xZomB0_QeR2D65hl-gzKFeUZFS3xrHj4Ro920eMEQ,2904
+arpifs_listings/cost_functions.py,sha256=7jmDfO-1m9Zinmm9LVlWxsaBLCyuDimC-A4nDNsSqA0,7361
+arpifs_listings/jo_tables.py,sha256=-IAAntHJhjoycfxdMHFk7QRNVVHyj4MZhoM-omViZKM,23037
+arpifs_listings/listings.py,sha256=cSxXVYws2GjLwYnXQ-gLLsb7c8SV5FgX8g0RafwJPcY,12328
+arpifs_listings/norms.py,sha256=9cu9rFZjgHFL3uUh0Qw5jIm7BZ6b1iuPYfWpK8ZPJcM,26067
+arpifs_listings/util.py,sha256=1wkIZtF5dxunYWwPWuF0yaYqKlz55QY64OtP3cDGOAU,6615
+arpifs_listings/entrypoints/__init__.py,sha256=tC2vIYVUzirhxpKxWvYqEyGfXLMKibMjIzUauQWfh0g,79
+arpifs_listings/entrypoints/compare_listings.py,sha256=h71Kjj-DuhY2U1fUsEfoEVHGE5qRHWjSCxoh4Pyzctg,3724
+arpifs_listings-1.2.0.dist-info/LICENSE-en.txt,sha256=bQQvT1YQudN6zO6hj_hId_XUf4ZBrMWTldu6VI3Up-c,21865
+arpifs_listings-1.2.0.dist-info/LICENSE.txt,sha256=4yjdqa5nh_IjZGYsKFdK8FmQVqE4G1x5jCdLY6TkVfQ,22756
+arpifs_listings-1.2.0.dist-info/METADATA,sha256=IrxENPHuE95HS2mTdkP7fTioGjJbeJb9Cl_0VUPbAqs,1596
+arpifs_listings-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+arpifs_listings-1.2.0.dist-info/entry_points.txt,sha256=Np_KxipXpWFalR_wm41wmpgAUg1p1yVM-_3gy99mJZk,90
+arpifs_listings-1.2.0.dist-info/top_level.txt,sha256=I923QlMqTkrfIFgMmKqSfuWRlWNBmjkJiBL5riXOI1Y,16
+arpifs_listings-1.2.0.dist-info/RECORD,,
