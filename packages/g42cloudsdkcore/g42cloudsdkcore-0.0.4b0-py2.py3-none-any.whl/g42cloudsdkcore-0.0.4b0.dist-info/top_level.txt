@@ -1,0 +1,2 @@
+g42cloudsdkcore
+tests
