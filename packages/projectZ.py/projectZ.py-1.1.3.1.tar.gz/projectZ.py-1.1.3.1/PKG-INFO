@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: projectZ.py
+Version: 1.1.3.1
+Summary: Library for creating projectZ bots and scripts.
+Home-page: https://github.com/xXxCLOTIxXx/projectZ.py
+Author: Xsarz
+Author-email: xsarzy@gmail.com
+License: MIT
+Download-URL: https://github.com/xXxCLOTIxXx/projectZ.py/archive/refs/heads/main.zip
+Description: Library for working with projectZ. Write your chat bots, PR bots and more!
+Keywords: projectZ.py,projectZ,projectZ-py,projectZ-bot,api,python,python3,python3.x,xsarz,official
+Platform: UNKNOWN
