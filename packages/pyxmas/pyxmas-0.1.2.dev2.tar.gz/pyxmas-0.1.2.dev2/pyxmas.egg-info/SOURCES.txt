@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+requirements.txt
+setup.py
+pyxmas/__init__.py
+pyxmas/__main__.py
+pyxmas/_logging.py
+pyxmas.egg-info/PKG-INFO
+pyxmas.egg-info/SOURCES.txt
+pyxmas.egg-info/dependency_links.txt
+pyxmas.egg-info/not-zip-safe
+pyxmas.egg-info/requires.txt
+pyxmas.egg-info/top_level.txt
