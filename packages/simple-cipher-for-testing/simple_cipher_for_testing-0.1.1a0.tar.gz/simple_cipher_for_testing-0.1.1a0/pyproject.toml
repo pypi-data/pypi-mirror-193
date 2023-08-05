@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "simple-cipher-for-testing"
+version = "0.1.1a0"
+description = ""
+authors = ["Vladimir Makhanov <makhanov.vladimir@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simple_cipher"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
