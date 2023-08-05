@@ -1,0 +1,4 @@
+[console_scripts]
+nrp-cli = oarepo_cli.cli.cli:run
+oarepo-cli = oarepo_cli.cli.cli:run
+oarepo-initialize = oarepo_cli.initialize.cli:run
