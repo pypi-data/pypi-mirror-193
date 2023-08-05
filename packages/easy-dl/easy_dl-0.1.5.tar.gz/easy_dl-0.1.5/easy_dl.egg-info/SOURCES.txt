@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+easy_dl/__init__.py
+easy_dl.egg-info/PKG-INFO
+easy_dl.egg-info/SOURCES.txt
+easy_dl.egg-info/dependency_links.txt
+easy_dl.egg-info/top_level.txt
+easy_dl/config/__init__.py
+easy_dl/config/basic_config.py
+easy_dl/config/config_parse.py
+easy_dl/logger/__init__.py
+easy_dl/logger/basic_logger.py
+easy_dl/logger/tensorboard_logger.py
