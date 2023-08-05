@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+CnkiSpider/__init__.py
+CnkiSpider/function.py
+CnkiSpider/para.py
+CnkiSpider.egg-info/PKG-INFO
+CnkiSpider.egg-info/SOURCES.txt
+CnkiSpider.egg-info/dependency_links.txt
+CnkiSpider.egg-info/requires.txt
+CnkiSpider.egg-info/top_level.txt
+CnkiSpider/CnkiSpider/CnkiSpider.py
+CnkiSpider/CnkiSpider/__init__.py
