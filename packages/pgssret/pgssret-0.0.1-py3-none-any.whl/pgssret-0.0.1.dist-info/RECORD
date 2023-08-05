@@ -1,0 +1,16 @@
+pgssret/__init__.py,sha256=gL7hciNmYAfDaD8qBC497B2HVBr5vvwC-lFa0DwcflA,9944
+pgssret/__main__.py,sha256=AibjwGUnmaB_p0NRvUhOepahlY0G6G-9_nzHv4I2srs,1995
+pgssret/exceptions.py,sha256=Tq-mu5lcgUhHFEAAXgsUq8laHfGv-vR0bNIpZpIyU0A,493
+pgssret/sendmail.ps1/README.md,sha256=w-nqIOaFxjvxjyMRdmWKk1Q88xr2vUIrI53c41BThb8,1415
+pgssret/sendmail.ps1/sendmail.ps1,sha256=hBsEcxRvPJ7oB3rtUmPzbDY7XItSUde8acCCs-SOTbc,4619
+pgssret-0.0.1.data/data/share/doc/pgssret/README.md,sha256=2dCz1TZY5Efn5pv3F877ESNVVucsrMYhDjtEzGjf1yk,4899
+pgssret-0.0.1.data/data/share/doc/pgssret/sched_prop-action.png,sha256=mH7LqHLqeRcrLScugcifCQEBMtCKGhaIrRyOGKY9ZKI,33667
+pgssret-0.0.1.data/data/share/doc/pgssret/sched_prop-general.png,sha256=qEm7cjHL5nTA7LRNaDo615OhoRdinDByf5c-_MbyHA4,35509
+pgssret-0.0.1.data/data/share/doc/pgssret/sched_prop-settings.png,sha256=WWJFyWoaY1YJ8WZ2R-qLKLDwncZFeojECfKZpA6CBFo,32771
+pgssret-0.0.1.data/data/share/doc/pgssret/sched_prop-trigger.png,sha256=GPyCgZUcWFvquS8tmPw4eVm6eWYjDF2a0BDSHmWgNwg,45505
+pgssret-0.0.1.data/data/share/doc/pgssret/snap_policy-rep.png,sha256=sPN8vtuOw6P7i2tglRysOgFRSI_L0YSv6Tro8QEcRUI,6652
+pgssret-0.0.1.data/data/share/doc/pgssret/configs/sample.yaml,sha256=awWruffThfhZyztXzWTfPKKmuUcN4dpT3Y_z-_aMRtI,942
+pgssret-0.0.1.dist-info/METADATA,sha256=s7yPMmWB9hOlrhKaWeZsOlD_Hk6Sr5c_IiAifwM90VI,5419
+pgssret-0.0.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pgssret-0.0.1.dist-info/licenses/COPYING,sha256=h_6Ppyl9Nv8nkbMbu0EvG4r3Dk_u723z4NlsZfjvQnk,477
+pgssret-0.0.1.dist-info/RECORD,,
