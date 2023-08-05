@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: datagen-validation-protocol
+Version: 0.4.1
+Summary: Datagen Validation Protocol
+Author: ShayZ
+Author-email: shay.zilberman@datagen.tech
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
