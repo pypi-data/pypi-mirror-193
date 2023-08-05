@@ -1,0 +1,14 @@
+asgi-tools>=0.65.1
+babel
+
+[build]
+bump2version
+wheel
+
+[example]
+uvicorn
+
+[tests]
+pytest
+pytest-aio[curio,trio]
+pytest-mypy
