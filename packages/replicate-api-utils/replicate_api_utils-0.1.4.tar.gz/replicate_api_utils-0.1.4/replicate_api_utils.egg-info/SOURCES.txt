@@ -1,0 +1,15 @@
+README.md
+setup.py
+replicate_api_utils/__init__.py
+replicate_api_utils.egg-info/PKG-INFO
+replicate_api_utils.egg-info/SOURCES.txt
+replicate_api_utils.egg-info/dependency_links.txt
+replicate_api_utils.egg-info/entry_points.txt
+replicate_api_utils.egg-info/requires.txt
+replicate_api_utils.egg-info/top_level.txt
+replicate_api_utils/whisper/__init__.py
+replicate_api_utils/whisper/cli.py
+replicate_api_utils/whisper/main.py
+tests/__init__.py
+tests/test_replicate.py
+tests/test_utils.py
