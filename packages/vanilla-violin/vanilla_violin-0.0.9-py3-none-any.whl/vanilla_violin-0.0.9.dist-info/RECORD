@@ -1,0 +1,11 @@
+vanilla_violin/__init__.py,sha256=YsTkz8Xpf4crOOVKA0IgY_1X--Nya61Vg3U2lgHehmg,40
+vanilla_violin/aws/__init__.py,sha256=W7Q6Jx3o9kRXpMIj3nQKcJx2n0sSL0T5ordsGeCRLkg,18
+vanilla_violin/aws/aws.py,sha256=sz9GbQ6YumAE4_FDaHzwqw_dTWBW1ToeWJNI17VxKfQ,4218
+vanilla_violin/gitlab/__init__.py,sha256=FmHsmGvZ_htWo-y_E19w1w-sm2zQtYxYMw5MmonB8uk,21
+vanilla_violin/gitlab/gitlab.py,sha256=r9M4LNibKnH-WRX9ZGR2SBrPuXeofIlIBhu5cGoSqvc,8762
+vanilla_violin-0.0.9.dist-info/LICENSE,sha256=jNgAAoT3tUmd71uiErGVZegl2kixPuDwk1Y6fCey64M,1068
+vanilla_violin-0.0.9.dist-info/METADATA,sha256=ipzuDPARb8CPN-YTCzbEA8-YkzzsqPwWySaY1iLdetk,571
+vanilla_violin-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vanilla_violin-0.0.9.dist-info/entry_points.txt,sha256=YD5lCm5a6Jaq5l6uKsA5mcqqGHSRu4-RQBBC3J16dlM,40
+vanilla_violin-0.0.9.dist-info/top_level.txt,sha256=9SeTTDXFuYcBrEeZJVZr5LWwVEXM-1Yw-QLfEOvwOak,15
+vanilla_violin-0.0.9.dist-info/RECORD,,
