@@ -1,0 +1,8 @@
+cldf_ldd/__init__.py,sha256=Zpww6nBHu2nughcWTHa628IWATcXKyQ_M41tT-5nejQ,1692
+cldf_ldd/cldf.py,sha256=WsMXFO9EvvKM_zvLjyL5xoqVDHLQopaaaHvJxZVHlXw,487
+cldf_ldd/components/__init__.py,sha256=EDVIldqygF571hS3QI9VuuoBqIFeLZGfA0caOf36DLg,2495
+cldf_ldd-0.0.1.dist-info/LICENSE,sha256=A6xg7_6mnqN1T2CuyaXLuT07-L7wiJ-ncliwbP_Tsd4,1074
+cldf_ldd-0.0.1.dist-info/METADATA,sha256=ui1z6-PUzlqCglUo1bIpTC27TrPlwaH3xg2MENzzD6s,2265
+cldf_ldd-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cldf_ldd-0.0.1.dist-info/top_level.txt,sha256=hwo36BGjTpker2bpiRc-d8nqLm1p01_El4b2R3tWje4,9
+cldf_ldd-0.0.1.dist-info/RECORD,,
