@@ -1,0 +1,3 @@
+[console_scripts]
+epyqt = EasyPyQt.__main__:main
+
