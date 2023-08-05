@@ -1,0 +1,10 @@
+tasknet/__init__.py,sha256=pC41DRccGLNqSOaSE1vcsbrtTqL3Xw_YpUaaElaHXUE,64
+tasknet/models.py,sha256=R-QVU6oRp7nNLkjAFFDjhmhi73tmSY3MYJeFrHf2tDk,16626
+tasknet/taskparser.py,sha256=dhIjH9p3hUW_dBaaeIxPGLlkWWa6IC2RsBBDbFlkef0,9837
+tasknet/tasks.py,sha256=YhQv4A9Tupqcvp5j86tN_vmhIuljhQ1AjsOcC2DhqT4,14653
+tasknet/utils.py,sha256=LjJwnu5SwBzTq_v_z5fpY28CKrzJultRWyPCpnGdNkw,3257
+tasknet-1.30.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tasknet-1.30.0.dist-info/METADATA,sha256=-b9x9H7yVyk7d0xscGaEom6GBH-oYlITYYMECbjIDw8,3599
+tasknet-1.30.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tasknet-1.30.0.dist-info/top_level.txt,sha256=Xmb-t-z2LaQ1QLsfQzGRSqauFeWz0cWbmvgDYDO5r_s,8
+tasknet-1.30.0.dist-info/RECORD,,
