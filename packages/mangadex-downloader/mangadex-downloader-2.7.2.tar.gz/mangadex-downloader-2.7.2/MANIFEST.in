@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+include requirements-docs.txt
+include requirements-optional.txt
+include mangadex_downloader/images/*
+recursive-include mangadex_downloader/fonts *
