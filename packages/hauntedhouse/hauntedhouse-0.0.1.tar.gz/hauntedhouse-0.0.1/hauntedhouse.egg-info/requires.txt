@@ -1,0 +1,6 @@
+aiohttp
+assemblyline
+assemblyline_client
+pydantic
+mquery_query_lib
+arrow
