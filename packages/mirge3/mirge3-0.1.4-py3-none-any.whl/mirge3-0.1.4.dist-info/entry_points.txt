@@ -1,0 +1,2 @@
+[console_scripts]
+miRge3.0 = mirge.__main__:main
