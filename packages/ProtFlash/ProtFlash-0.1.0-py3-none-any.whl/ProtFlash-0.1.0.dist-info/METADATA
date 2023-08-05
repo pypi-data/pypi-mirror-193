@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ProtFlash
+Version: 0.1.0
+Summary: protein language model
+Home-page: http://github.com/isyslab-hust/ProtFlash
+Author: Lei Wang
+Author-email: wanglei94@hust.edu.cn
+License: MIT
+Keywords: protein language model
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: einops
+Requires-Dist: torch
+Requires-Dist: numpy
+
+## ProtFlash: A lightweight protein language model
+
+### Install 
+As a prerequisite, you must have PyTorch installed to use this repository.
+
+You can use this one-liner for installation, using the latest release version
+```
+# latest version
+pip install git+https://github.com/isyslab-hust/ProtFlash
+
+# stable version
+pip install ProtFlash
+```
+### Usage
+```
+from ProtFlash.pretrain import load_prot_flash_base
+from ProtFlash.utils import batchConverter
+data = [
+    ("protein1", "MKTVRQERLKSIVRILERSKEPVSGAQLAEELSVSRQVIVQDIAYLRSLGYNIVATPRGYVLAGG"),
+    ("protein2", "KALTARQQEVFDLIRDHISQTGMPPTRAEIAQRLGFRSPNAAEEHLKALARKGVIEIVSGASRGIRLLQEE"),
+]
+ids, batch_token, lengths = batchConverter(data)
+model = load_prot_flash_base()
+with torch.no_grad():
+    token_embedding = model(batch_token, lengths)
+# Generate per-sequence representations via averaging
+sequence_representations = []
+for i, (_, seq) in enumerate(data):
+    sequence_representations.append(token_embedding[i, 0: len(seq) + 1].mean(0))
+```
+
+### License
+This source code is licensed under the MIT license found in the LICENSE file in the root directory of this source tree.
