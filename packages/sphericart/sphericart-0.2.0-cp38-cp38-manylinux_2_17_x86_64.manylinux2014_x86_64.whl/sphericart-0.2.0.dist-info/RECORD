@@ -1,0 +1,11 @@
+sphericart.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+sphericart-0.2.0.dist-info/top_level.txt,sha256=yVM-yuc0CBRqc1chiCzf0T9h-riRdTTRtd8jE1kcLfc,11
+sphericart-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sphericart-0.2.0.dist-info/WHEEL,sha256=82Wkr2Lag2dORBGM375Z9_JVKxb2Fhvp7wOacHsh7mU,148
+sphericart-0.2.0.dist-info/METADATA,sha256=N_f2ZLt785bIYDClQO2AJAcXwU2HIDve9JUdVf6ESQ0,792
+sphericart-0.2.0.dist-info/RECORD,,
+sphericart/__init__.py,sha256=lNEJ_rSgSBZiLSngOsyOz7cfJvHnKXAY2dwTjqTl4Ng,52
+sphericart/wrappers.py,sha256=NuNe6VCJTkoUv-G7KIFUuHHiLhPQb3rvtQy7IgC57kY,1033
+sphericart/library.py,sha256=cVAET3O5GPMajk_2BXuRjoBNutfhcYN_Kpp4krmJLZc,744
+sphericart/spherical_harmonics.py,sha256=sIS5ClcmIvhA7RUJALuzja_6iKW05eLZI028l6rbav4,2391
+sphericart/lib/libsphericart.so,sha256=qANBjv72YOWU-Tda0mHzIezoFNFmJ0-AnbCxTYWS9Fs,71545
