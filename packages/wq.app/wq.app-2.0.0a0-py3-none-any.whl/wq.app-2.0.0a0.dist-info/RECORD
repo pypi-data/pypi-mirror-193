@@ -1,0 +1,16 @@
+wq.app-2.0.0a0-nspkg.pth,sha256=ua-2EJERg9kSYy1qYQN4xTjIuAEwUspQuZvCVZdHltE,519
+wq/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wq/app/static/app/css/mapbox-gl-draw.css,sha256=17tTeM3yuBswUqyCE0vegMfNFyPAQk2mLxjdOYNFv7U,4492
+wq/app/static/app/css/maplibre-gl.css,sha256=XSFr7LOcuEhLTCjxEDKGYWrybnxvmEbq1vVebzaOdGQ,70412
+wq/app/static/app/css/wq.css,sha256=z7IBIb1zOqZ5Xp8vGAwyfVYcUc_3gxlvHqoBukJwG-w,71
+wq/app/static/app/js/maplibre-gl.js,sha256=-w4eOjx0PG0PkY759djLZBB4sF2VoKuyJfsQ67pUGYk,745464
+wq/app/static/app/js/maplibre-gl.js.map,sha256=0XT_xObpX9djUEvrDiOnlgNAH0FyqDjMVVI-5cr2JbY,1973
+wq/app/static/app/js/wq.js,sha256=wdzKHN2tOkqMks8AeNbx2m3Bbkv1eGvM8FV3jAONcPY,1472412
+wq/app/static/app/js/wq.js.map,sha256=qYD6zOxn6GwbSLjnnwlxJmEhfzD7Pu3_KGmcivOSu9k,11681337
+wq.app-2.0.0a0.dist-info/LICENSE,sha256=f9enholI9bBeil8IL65zV-NaeGk-mrn6428ECt67Sxg,1084
+wq.app-2.0.0a0.dist-info/LICENSES.md,sha256=q2rtdgERE0JIKKJSICScpBuKS8eER-YLW2EBc45xnSg,123891
+wq.app-2.0.0a0.dist-info/METADATA,sha256=wRWQHsO8m63xsy6SknpBGKLVFm9Bh2NCUxwN316kIXM,3718
+wq.app-2.0.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wq.app-2.0.0a0.dist-info/namespace_packages.txt,sha256=bqmWhzQt96OfmGVAtU_WrU45j9ZdF5VZyt22VviNUO8,3
+wq.app-2.0.0a0.dist-info/top_level.txt,sha256=bqmWhzQt96OfmGVAtU_WrU45j9ZdF5VZyt22VviNUO8,3
+wq.app-2.0.0a0.dist-info/RECORD,,
