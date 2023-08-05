@@ -1,0 +1,2 @@
+[console_scripts]
+parrot_gpt = parrot_gpt.cli:main
