@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/point_picker_3d/main.py
+src/point_picker_3d/ui.py
+src/point_picker_3d.egg-info/PKG-INFO
+src/point_picker_3d.egg-info/SOURCES.txt
+src/point_picker_3d.egg-info/dependency_links.txt
+src/point_picker_3d.egg-info/requires.txt
+src/point_picker_3d.egg-info/top_level.txt

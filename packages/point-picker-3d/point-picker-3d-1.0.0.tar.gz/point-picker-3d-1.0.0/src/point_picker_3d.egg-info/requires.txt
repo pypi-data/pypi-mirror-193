@@ -1,0 +1,2 @@
+pyvistaqt>=0.9
+PyQt5>=5.15
