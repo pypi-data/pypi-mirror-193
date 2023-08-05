@@ -1,0 +1,14 @@
+flexdi/__init__.py,sha256=A9GUwJRWGNFM8wpPwz5CD6LFy7qtuvNPKhP6YlSspkA,124
+flexdi/dependant.py,sha256=uwKT76N3_oITz4FV_NwygehwIyFPg_1ozAzuDLkMYp8,2107
+flexdi/errors.py,sha256=_gR_RpHfGbyS_D2JHDD9sATOpk78_rMsrXrXqRVAXcg,50
+flexdi/injector.py,sha256=0LPQZMBKj5SCQtAbocuO8-7FubuwO3tEGT0x57EZiQQ,4495
+flexdi/invoker.py,sha256=4iPAk5jl9XYgt_BSoel1h9tKpICunavI3FuzyK7SsFY,1729
+flexdi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flexdi/fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flexdi/fastapi/injector.py,sha256=j6YnSRMgxfo4WC4L2Ic3S_IvIPOeSVwTrQwCJ_9Auqs,1056
+flexdi/fastapi/temp.py,sha256=SFhB2zc2GdS6Ai3lTR0_om-EnTatzWgxeVyut-y_VOY,753
+flexdi-0.0.3.dist-info/LICENSE,sha256=XLLM9nM_WffiqpUU9l13pAh3SSjSjWxEz0fxXrD1up0,1087
+flexdi-0.0.3.dist-info/METADATA,sha256=MPlCr7zFWq1CrwITkVHJMaK8myAzMfGIBCKQx3fq7u0,7557
+flexdi-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+flexdi-0.0.3.dist-info/top_level.txt,sha256=rj-_zrrY8006UI8J8pA5tKnYCh1DSO0N7J8kUJbnOnc,7
+flexdi-0.0.3.dist-info/RECORD,,
