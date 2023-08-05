@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/coloramas.egg-info/PKG-INFO
+src/coloramas.egg-info/SOURCES.txt
+src/coloramas.egg-info/dependency_links.txt
+src/coloramas.egg-info/top_level.txt
