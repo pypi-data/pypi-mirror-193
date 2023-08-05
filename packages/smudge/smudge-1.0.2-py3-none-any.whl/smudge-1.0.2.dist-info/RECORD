@@ -1,0 +1,10 @@
+smudge/__init__.py,sha256=EB5-Bht9S5Y5iKykkFudM8pY6wxfZQNh5SHH6XSGZo4,595
+smudge/__main__.py,sha256=Qhr6p0tW6sJaKzARTTfJteGNYUz7_C5TQ-f5-hUFaJI,3212
+smudge/__version__.py,sha256=cAgI8rRYQ8SXVEwdvioO6-8XpnSYNtu2H5lDGwQTsuI,605
+smudge/command_line.py,sha256=lNvg1YszI4AHxGov0F0kvHkxO1NFiiSHI-lzEKJNfrQ,8213
+smudge/utils.py,sha256=t_vnGR8yYYGUNtg18aazcqS0ZDAfmtY8CGXUj4yPIEM,23540
+smudge-1.0.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+smudge-1.0.2.dist-info/METADATA,sha256=gxqqSHiG31qWVFiBB11OFVa8qq9NMz7BPdKaKZfRWMw,11985
+smudge-1.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+smudge-1.0.2.dist-info/top_level.txt,sha256=RlAJG78L8pGddFYL5BGDbAMkcFG7mzc5acChmy9mIGc,7
+smudge-1.0.2.dist-info/RECORD,,
