@@ -1,0 +1,10 @@
+
+[bigquery]
+fugue[ibis]==0.8.1
+fs-gcsfs
+pandas-gbq
+google-auth
+ibis-framework[bigquery]
+
+[ray]
+fugue[ray]==0.8.1
