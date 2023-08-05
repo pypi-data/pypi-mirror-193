@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dfyuyujk
+Version: 0.0.2
+Summary: A small example package
+Project-URL: Homepage, https://github.com/DYYDMC/testPackage
+Project-URL: Bug Tracker, https://github.com/DYYDMC/testPackage/issues
+Author-email: Jane Deng <yuyao.deng@uni-tuebingen.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.9
+Description-Content-Type: text/markdown
+
+A test package to initialize a python package
