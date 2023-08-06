@@ -1,0 +1,12 @@
+lemippy/highs_bindings.cpp,sha256=hmCOGB8xkJqJIjaEswp-WDWC3CKHBhBITXKgPLvm_9A,31549
+lemippy/__init__.py,sha256=2u_dnBMPF0pHFqwGZvU6Wvbgci1CjF8wTEtwCnjxSzQ,449
+lemippy/highs_bindings.pypy38-pp73-x86_64-linux-gnu.so,sha256=MJp1MwcQTFuZ67e_x0RysMZ0CbfuQDnWg-vDjAKv3EE,887304
+lemippy/lemip.py,sha256=TpxGTohV5C-BWWMY0PGA1MJaK9sIC7LtxQpRuhcW0f8,824
+lemippy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lemippy/tests/test_highspy.py,sha256=SDoRHkRvyT0V96Pm0_CBGDDRErg3KY5NkDdgA0s14_0,8522
+lemippy.libs/libhighs-cc773704.so.1.5.0,sha256=F6XgxVXqx40YsnugPpwApnclxtoPiKtUEURB70LhggE,4688760
+lemippy-0.1.dev5.dist-info/METADATA,sha256=34AzMvcGAV26jmgKiGENyBGY4M2YsEKq7KpLHJPDKBk,631
+lemippy-0.1.dev5.dist-info/top_level.txt,sha256=5Hhw9JE1QfRcW5hn4mkJ_SIQyPS9yO82iOoWIe-vlj4,12
+lemippy-0.1.dev5.dist-info/WHEEL,sha256=ew2YEZL4tYBu-7alY4_Jtys4Qo0IihLmNDA4uB16AP4,162
+lemippy-0.1.dev5.dist-info/RECORD,,
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
