@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/python-earthquake/__init__.py
+src/python-earthquake/example.py
+src/python_earthquake.egg-info/PKG-INFO
+src/python_earthquake.egg-info/SOURCES.txt
+src/python_earthquake.egg-info/dependency_links.txt
+src/python_earthquake.egg-info/top_level.txt
