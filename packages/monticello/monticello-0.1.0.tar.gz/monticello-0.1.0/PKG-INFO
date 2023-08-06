@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: monticello
+Version: 0.1.0
+Summary: Quantized Mesh encoder extension for titiler
+Home-page: https://github.com/AndrewAnnex/monticello
+License: MIT
+Keywords: titiler,GIS,quantized,mesh,3dtiles,Dynamic,FastAPI
+Author: Andrew Annex
+Author-email: ama6fy@virginia.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: morecantile (>=3.2.5,<4.0.0)
+Requires-Dist: pydelatin (>=0.2.7,<0.3.0)
+Requires-Dist: pymartini (>=0.4.4,<0.5.0)
+Requires-Dist: quantized-mesh-encoder (>=0.4.3,<0.5.0)
+Requires-Dist: titiler.core (>=0.11.0,<0.12.0)
+Project-URL: Repository, https://github.com/AndrewAnnex/monticello
+Description-Content-Type: text/markdown
+
+# Monticello
+
+Dynamic quantized mesh encoder extension for [Titiler](https://github.com/developmentseed/titiler).
+
+Heavily adapted from and inspired by [dem-tiler](https://github.com/kylebarron/dem-tiler) 
+
+only partially tested so far...
+
+The word Monticello means "little mountain" or something close to that in Italian, playing off the naming of titiler to convey smallness 
+and topography.
+
+## Features
+
+- supports both delatin and martini algorithms for generating meshes dynamically
+- uses [quantized-mesh-encoder](https://github.com/kylebarron/quantized-mesh-encoder) for response
+- supports variable tile sizes, buffer
+
+
+## Usage
+
+```python
+app = FastAPI()
+tiler = TilerFactory(
+    router_prefix="/cog",
+    extensions = [
+        MonticelloFactory()
+    ]
+)
+app.include_router(tiler.router, prefix="/cog")
+# now meshes are available at /cog/mesh/
+```
+
