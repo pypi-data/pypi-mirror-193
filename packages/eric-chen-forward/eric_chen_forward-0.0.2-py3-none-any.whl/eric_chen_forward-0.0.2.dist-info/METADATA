@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: eric_chen_forward
+Version: 0.0.2
+Summary: Classifier for institution and scholar data
+Project-URL: Homepage, https://github.com/ezrc2/eric_chen_forward
+Author-email: Eric Chen <ezchen2556@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: nltk>=3.7
+Requires-Dist: numpy>=1.23.3
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: scikit-learn>=1.1.2
+Requires-Dist: spacy-legacy>=3.0.10
+Requires-Dist: spacy-loggers>=1.0.3
+Requires-Dist: spacy>=3.4.1
+Description-Content-Type: text/markdown
+
+# eric_chen_forward
+
+To use:
+```python
+from eric_chen_forward.model import Classifier
+
+model = Classifier()
+
+# option 1
+# text files of labels and passages respectively, separated by newlines
+model.train("labels_file_path", "passages_file_path")
+
+# option 2
+# csv file with a 'label' column and 'passage' column, the column names are hardcoded
+model.train(csv_file="csv_file_path")
+```
