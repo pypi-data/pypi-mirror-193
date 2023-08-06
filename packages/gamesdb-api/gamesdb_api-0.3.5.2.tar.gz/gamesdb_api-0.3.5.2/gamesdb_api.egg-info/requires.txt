@@ -1,0 +1,7 @@
+beautifulsoup4==4.11.2
+fuzzywuzzy==0.18.0
+Levenshtein==0.20.9
+python-Levenshtein==0.20.9
+requests==2.28.2
+requests-toolbelt==0.10.1
+soupsieve==2.4
