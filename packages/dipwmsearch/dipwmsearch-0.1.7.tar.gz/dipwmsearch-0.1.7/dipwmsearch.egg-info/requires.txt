@@ -1,0 +1,4 @@
+pyahocorasick
+pytest
+pandas
+biopython
