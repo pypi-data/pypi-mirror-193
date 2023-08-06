@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-qrcode = napari_qrcode:napari.yaml

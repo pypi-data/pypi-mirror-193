@@ -1,0 +1,10 @@
+name: napari-qrcode
+display_name: QR-Code
+contributions:
+  commands:
+    - id: napari-qrcode.qrcode_widget
+      python_name: napari_qrcode._widget:qrcode_widget
+      title: QR-Code
+  widgets:
+    - command: napari-qrcode.qrcode_widget
+      display_name: Generate a QR code
