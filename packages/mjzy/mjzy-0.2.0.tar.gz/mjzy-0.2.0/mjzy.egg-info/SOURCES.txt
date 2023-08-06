@@ -1,0 +1,10 @@
+setup.py
+mjzy.egg-info/PKG-INFO
+mjzy.egg-info/SOURCES.txt
+mjzy.egg-info/dependency_links.txt
+mjzy.egg-info/top_level.txt
+packages/Var.py
+packages/__init__.py
+packages/covarience_matrix.py
+packages/portfolio.py
+packages/simulation.py
