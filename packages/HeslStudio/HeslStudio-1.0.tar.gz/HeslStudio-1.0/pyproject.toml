@@ -1,0 +1,17 @@
+[project]
+name = "HeslStudio"
+version = "1.0"
+authors = [
+  { name="LowLevelCoder", email="flat.assembly@gmail.com" },
+]
+description = "HESL official IDE"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"LexChen Linux Community chat" = "https://t.me/LexChen_Chat"

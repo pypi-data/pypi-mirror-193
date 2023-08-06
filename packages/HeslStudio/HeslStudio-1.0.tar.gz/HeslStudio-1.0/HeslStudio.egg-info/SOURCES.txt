@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+HeslStudio/__init__.py
+HeslStudio/main.py
+HeslStudio.egg-info/PKG-INFO
+HeslStudio.egg-info/SOURCES.txt
+HeslStudio.egg-info/dependency_links.txt
+HeslStudio.egg-info/top_level.txt

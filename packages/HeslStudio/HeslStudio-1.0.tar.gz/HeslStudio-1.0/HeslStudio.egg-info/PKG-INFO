@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: HeslStudio
+Version: 1.0
+Summary: HESL official IDE
+Author-email: LowLevelCoder <flat.assembly@gmail.com>
+Project-URL: LexChen Linux Community chat, https://t.me/LexChen_Chat
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# HESL STUDIO - Official HESL lang IDE
+
+Please join to [LexChen Linux Community](https://t.me/LexChen_Chat) chat
+
+---
+
+
+## Installing Hesl Studio
+
+```sh
+pip install HeslStudio
+```
