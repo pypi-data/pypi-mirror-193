@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pycw
+Version: 0.0.1
+Summary: Generate Morse Code (CW) audio files in Python
+Home-page: https://github.com/bigsk05/pycw
+Author: Ian Xia
+Author-email: i@ianxia.com
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: numpy
+
+PyCW
+#######
+
+Generate Morse Code (CW) audio files in Python.
+
+Repository and documentation: https://github.com/bigsk05/pycw
+
+
