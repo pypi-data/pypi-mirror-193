@@ -1,0 +1,1 @@
+import{c as o,k as u,u as a}from"./index-a81c9c30-993a6f39.js";function i(...t){const r=[...t,"Prefect Server"],c=o(()=>r.map(e=>a(e)).filter(e=>e!==null).join(" • "));u(()=>document.title=c.value)}export{i as u};
