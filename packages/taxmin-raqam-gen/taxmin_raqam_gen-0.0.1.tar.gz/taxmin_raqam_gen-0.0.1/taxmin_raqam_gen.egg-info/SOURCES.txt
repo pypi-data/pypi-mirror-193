@@ -1,0 +1,8 @@
+README.md
+setup.py
+taxmin_raqam_gen/__init__.py
+taxmin_raqam_gen/taxmin_butun_son.py
+taxmin_raqam_gen.egg-info/PKG-INFO
+taxmin_raqam_gen.egg-info/SOURCES.txt
+taxmin_raqam_gen.egg-info/dependency_links.txt
+taxmin_raqam_gen.egg-info/top_level.txt
