@@ -1,0 +1,3 @@
+[console_scripts]
+ei=edge_ai.main:app
+
