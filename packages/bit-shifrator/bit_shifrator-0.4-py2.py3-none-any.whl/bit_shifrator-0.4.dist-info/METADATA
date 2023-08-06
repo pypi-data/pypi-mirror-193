@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bit-shifrator
+Version: 0.4
+Summary: This is a bit-encoder module
+Home-page: https://github.com/michazaxm/shifrator
+Author: michazaxm
+Author-email: michazaxm@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+
+# About
+This library turns bytes into bits and allows them to be encrypted with a password
+# Installing:
+```bash
+pip install shifrator
+```
+# Using:
+```python
+from shifrator import BitArray
+data = BitArray('Hello'.encode('UTF-8'))
+print(data) # Printing bits
+data.bitEncode('password') # Encoding with password, password must be str
+print(data.to_bytes()) # printing bytes
+data.bitDecode('password') # Decoding with password, password must be str
+print(data.to_bytes()) # Printing of original value
+```
+
+
