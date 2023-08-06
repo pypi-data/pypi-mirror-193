@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "ru_proverbs"
+version = "1.2.0"
+description = "Russian Proverbs AI-powered proverbs generator."
+authors = ["Yurii Serhiichuk <savik.ne@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/xSAVIKx/ru-proverbs"
+repository = "https://github.com/xSAVIKx/ru-proverbs"
+keywords = ["python", "textgenrnn", "ML", "AI", "tensorflow"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+include = [
+    "LICENSE",
+    "requirements.txt",
+    "ru_proverbs/*.txt",
+    "ru_proverbs/*.json",
+    "ru_proverbs/*.hdf5"
+]
+
+[tool.poetry.scripts]
+ru-proverbs = "ru_proverbs.__main__:main"
+ru_proverbs = "ru_proverbs.__main__:main"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/xSAVIKx/ru-proverbs/issues"
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+tensorflow = "^2.3.1"
+textgenrnn = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.16.2"
+mypy = "^1.0.1"
+black = "^23.1.0"
+pre-commit = "^3.1.0"
+
+[tool.black]
+line-length = 98
+target-version = ["py310"]
+
+[build-system]
+requires = ["poetry-core>=1.4.0"]
+build-backend = "poetry.core.masonry.api"
