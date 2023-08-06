@@ -1,0 +1,3 @@
+[console_scripts]
+protec=protec.__main__:main
+
