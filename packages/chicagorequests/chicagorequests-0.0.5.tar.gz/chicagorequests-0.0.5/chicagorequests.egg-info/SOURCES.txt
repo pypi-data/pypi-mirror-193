@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+chicagorequests/__init__.py
+chicagorequests/request_types.py
+chicagorequests.egg-info/PKG-INFO
+chicagorequests.egg-info/SOURCES.txt
+chicagorequests.egg-info/dependency_links.txt
+chicagorequests.egg-info/entry_points.txt
+chicagorequests.egg-info/requires.txt
+chicagorequests.egg-info/top_level.txt
