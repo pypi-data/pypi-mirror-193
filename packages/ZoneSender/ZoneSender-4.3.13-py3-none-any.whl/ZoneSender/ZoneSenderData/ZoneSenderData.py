@@ -1,0 +1,54 @@
+# 公共常量 >>>>>>>>>>>>>>>>>>>>>>>>>>>
+GRPC_MAX_MESSAGE_LENGTH = 32 * 1024 * 1024
+
+# 公共常量 <<<<<<<<<<<<<<<<<<<<<<<<<<
+
+# GRPC 常量 >>>>>>>>>>>>>>>>>>>>>>>>>
+CAN_STACK_NODE_IP = '127.0.0.1'
+CAN_STACK_NODE_PORT = 6001
+CAN_PARSERNODE_NODE_IP = '127.0.0.1'
+CAN_PARSERNODE_NODE_PORT = 6005
+LIN_STACK_NODE_IP = '127.0.0.1'
+LIN_STACK_NODE_PORT = 6003
+LIN_PARSERNODE_NODE_IP = '127.0.0.1'
+LIN_PARSERNODE_NODE_PORT = 6004
+SOMEIP_STACK_NODE_IP = '127.0.0.1'
+SOMEIP_STACK_NODE_PORT = 6002
+LOG_REPLAY_NODE_IP = '127.0.0.1'
+LOG_REPLAY_NODE_PORT = 6007
+
+PROCESS_NODE_IP = '127.0.0.1'
+PROCESS_NODE_PORT = 6008
+
+CAN_UDS_NODE_IP = '127.0.0.1'
+CAN_UDS_NODE_PORT = 6009
+
+TCPIP_STACK_NODE_IP = '127.0.0.1'
+TCPIP_STACK_NODE_PORT = 6010
+
+CONFIG_NODE_IP = '127.0.0.1'
+CONFIG_NODE_PORT = 6011
+
+DOIP_UDS_NODE_IP = '127.0.0.1'
+DOIP_UDS_NODE_PORT = 6012
+
+
+GRPC_OPTIONS = [
+    ('grpc.max_send_message_length', GRPC_MAX_MESSAGE_LENGTH),
+    ('grpc.max_receive_message_length', GRPC_MAX_MESSAGE_LENGTH),
+]
+
+# GRPC 常量 <<<<<<<<<<<<<<<<<<<<<<<<<<
+
+# MQTT 常量 >>>>>>>>>>>>>>>>>>>>>>>>>
+MQTT_BROKER_IP = '127.0.0.1'
+MQTT_BROKER_PORT = 8083
+
+# MQTT 常量 <<<<<<<<<<<<<<<<<<<<<<<<<
+
+MONGO_WIRED_TIGER_HOST = "localhost"
+MONGO_WIRED_TIGER_PORT = 27017
+MONGO_DB_NAME = "zone_db"
+MONGO_COLLECT_NAME_LOG_REPLAY = "log_replay"
+MONGO_PATH = "\\bin\\mongodb"
+
