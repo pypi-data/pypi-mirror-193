@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: localstack-persistence-plugin
+Version: 0.1.0.dev1
+Summary: plugin containing persistence code
+Home-page: https://github.com/localstack/localstack-persistence-plugin
+Author: LocalStack Contributors
+Author-email: info@localstack.cloud
+Description-Content-Type: text/markdown; charset=UTF-8
+Provides-Extra: dev
