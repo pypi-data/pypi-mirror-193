@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gpt-chatbot-cli
+Version: 0.2.0
+Summary: chatgpt cli without any bloats.
+Home-page: https://github.com/slithery0/gpt-chatbot-cli
+Author: Ruben Kharel
+Author-email: kharelruben@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Utilities
+License-File: LICENCE
+Requires-Dist: openai (==0.26.1)
+Requires-Dist: prompt-toolkit (==3.0.36)
+Requires-Dist: termcolor (==2.2.0)
+
