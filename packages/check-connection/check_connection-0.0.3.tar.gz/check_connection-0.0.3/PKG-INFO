@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: check_connection
+Version: 0.0.3
+Summary: Function to check connection to certain server
+Author: Raphael Trinkler
+Author-email: raphael.trinkler@infineon.com
+Maintainer-email: Raphael Trinkler <raphael.trinkler@infineon.com>
+License: Proprietary.
+        
+        Do not distribute outside of Infineon Technologies AG.
+Project-URL: Bitbucket, https://bitbucket.vih.infineon.com/projects/SCSS/repos/py-template-project/browse?at=refs%2Fheads%2Ffeature
+Keywords: connection,check,template
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Template Project to create working pip package
+
+This package contains an check_connection function where you can enter your server adress and the number of tries, so that it connects to the server as many times as given and calculates the artihmetic mean on how long it takes to do so.\
+Additionally a list_mean function is implemented, where you can calculate the arithmetic mean of a list.
+
+
+Also, this project is an example package to show how to create an own pip package.
+In the following the steps to do so are explained
+
+&nbsp;
+## Build your own package
+
+### 1.1 Sourcetree
+The structure of the project has to contain the following files and folders:
+    - LICENSE.txt\
+    - README.txt\
+    - CHANGELOG.txt\
+    - pyproject.toml\
+    - requirements.txt\
+    - src/{name_of_your_package}\
+
+Files such as .flake or Jenkinsfile are optional and can be used to check your code autmatically when updated on git.
+&nbsp;
+
+### 1.2 Building
+
+#### 1.2.1 pip package
+
+After setting up your sourcetree and implementing the code in `__init__.py` the build can be started by `py -m build`.\
+This will created all needed files and structures. Afterwards this can be published to PyPi by `twine upload --repository-url {your_repo_url} ./dist/*`.\
+You should not include "/pypi" or "/simple" in the the PyPI remote repository URL. These suffixes are added by Artifactory when accessing the remote repository and can cause an error.\
+
+Now your package is finished and can be implement by other users by using `pip install {your_package_name}`.\
+
+Note:\
+IF you want to upload to PyPI instead, enter `twine upload ./dist/*`.\
+Consider that you have to have an existing PyPi Account and that your package name is not already used.
+
+
+For further information see:\
+https://confluencewikiprod.intra.infineon.com/display/SCCVMP/Basic+structure+of+a+python+Project \
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+&nbsp;
+
+#### 1.2.2 conda package
+
+To create a conda package, you have to open your Conda-Prompt.\
+If you already have uploaded your pip package to PyPi, you can simply enter `conda skeleton pypi {your_package_name}`.\
+Afterwards, an folder with the name of your project and the right meta.yaml file is created, so now simply enter `conda build {your_package_name}` and the package will be created.
+&nbsp;
+If you do not have created a PyPi package, follow these steps:\
+- 
+
+### 1.3 Updating
+
+After editing make sure, that the version number in the `pyproject.toml` file has changed and then enter `py -m build` and `twine upload dist/*` again.
+
+&nbsp;
+&nbsp; 
+
+## 2. Working on your own package
+
+### 2.1 Testing:
+
+#### 2.1.1 Unit Tests
+To test the package make sure, that `pytest` is installed.\
+Now you can create an own folder called "tests" where your files including your test goals are located. Consider, that these files have to start with "test_" in order to be recognized properly. Inside these files you have to have a function also being called somethink like "test_" at the beginning so that pytest can execute the tests.\
+Now you can enter `pytest` into your terminal and these tests will be executed automatically.
+
+If you want to save your report, simply enter `pytest >{name_and_type_of_report}`, e.g. `pytest >myoutput.txt`.\
+Also if you want to see our report in the terminal and save it at the same time, use `pytest | tee {name_and_type_of_report}`, e.g. `pytest | tee myoutput.log`.
+&nbsp;
+
+#### 2.1.2 Static Code Analysis
+If you want to execute a static code analysis make sure `flake8` is installed.\
+Also only one file can be tested by adding the path, e.g. `flake8 demo.py`.
+Afterwards you can enter `flake8` in your terminal and automatically all python files will be checked and a report will be given to you into your terminal.
+
+Same procedure as for `pytest` can be used to save your report in a file.
+&nbsp;
+### 2.2 Documentation:
+
+To generate a documentation automatically make sure, that `pdoc3` is installed.\
+Also consider, that you have made docstrings for every function you want to be documented.\
+Now you can create the documentation by simply entering `pdoc3 --html {location_of_your_code}` in the terminal. This will autmatically create a folder called "html"" with a html file called the same as your code file in it, where the code is documented.
+
+&nbsp;
+&nbsp;
+
+
+## 3. Links
+
+Link to pip package:\
+not available at the moment
+
+
+Link to conda package:\
+not available at the moment

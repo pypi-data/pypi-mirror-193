@@ -1,0 +1,5 @@
+flake8
+pdoc3
+pytest
+requests
+PySimpleGUI
