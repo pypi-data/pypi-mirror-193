@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: utilint
+Version: 0.1
+Summary: Turn boring osint data into interesting informations.
+Home-page: https://github.com/novitae/utilint
+Author: novitae
+License: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
