@@ -1,0 +1,95 @@
+"""
+A wholesale store.
+
+https://schema.org/WholesaleStore
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class WholesaleStoreInheritedProperties(TypedDict):
+    """A wholesale store.
+
+    References:
+        https://schema.org/WholesaleStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class WholesaleStoreProperties(TypedDict):
+    """A wholesale store.
+
+    References:
+        https://schema.org/WholesaleStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class WholesaleStoreAllProperties(
+    WholesaleStoreInheritedProperties, WholesaleStoreProperties, TypedDict
+):
+    pass
+
+
+class WholesaleStoreBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="WholesaleStore", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        WholesaleStoreProperties,
+        WholesaleStoreInheritedProperties,
+        WholesaleStoreAllProperties,
+    ] = WholesaleStoreAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "WholesaleStore"
+    return model
+
+
+WholesaleStore = create_schema_org_model()
+
+
+def create_wholesalestore_model(
+    model: Union[
+        WholesaleStoreProperties,
+        WholesaleStoreInheritedProperties,
+        WholesaleStoreAllProperties,
+    ]
+):
+    _type = deepcopy(WholesaleStoreAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of WholesaleStore. Please see: https://schema.org/WholesaleStore"
+            )
+    # delete_keys = []
+    # for k in _type.__annotations__.keys():
+    #     if k not in model.__annotations__:
+    #         delete_keys.append(k)
+    # for k in delete_keys:
+    #     del _type.__annotations__[k]
+    return create_schema_org_model(type_=model)
+
+
+def schema_json(model: WholesaleStoreAllProperties):
+    pydantic_type = create_wholesalestore_model(model=model)
+    return pydantic_type(model).schema_json()

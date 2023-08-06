@@ -1,0 +1,95 @@
+"""
+A convenience store.
+
+https://schema.org/ConvenienceStore
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class ConvenienceStoreInheritedProperties(TypedDict):
+    """A convenience store.
+
+    References:
+        https://schema.org/ConvenienceStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class ConvenienceStoreProperties(TypedDict):
+    """A convenience store.
+
+    References:
+        https://schema.org/ConvenienceStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class ConvenienceStoreAllProperties(
+    ConvenienceStoreInheritedProperties, ConvenienceStoreProperties, TypedDict
+):
+    pass
+
+
+class ConvenienceStoreBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="ConvenienceStore", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        ConvenienceStoreProperties,
+        ConvenienceStoreInheritedProperties,
+        ConvenienceStoreAllProperties,
+    ] = ConvenienceStoreAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "ConvenienceStore"
+    return model
+
+
+ConvenienceStore = create_schema_org_model()
+
+
+def create_conveniencestore_model(
+    model: Union[
+        ConvenienceStoreProperties,
+        ConvenienceStoreInheritedProperties,
+        ConvenienceStoreAllProperties,
+    ]
+):
+    _type = deepcopy(ConvenienceStoreAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of ConvenienceStore. Please see: https://schema.org/ConvenienceStore"
+            )
+    # delete_keys = []
+    # for k in _type.__annotations__.keys():
+    #     if k not in model.__annotations__:
+    #         delete_keys.append(k)
+    # for k in delete_keys:
+    #     del _type.__annotations__[k]
+    return create_schema_org_model(type_=model)
+
+
+def schema_json(model: ConvenienceStoreAllProperties):
+    pydantic_type = create_conveniencestore_model(model=model)
+    return pydantic_type(model).schema_json()
