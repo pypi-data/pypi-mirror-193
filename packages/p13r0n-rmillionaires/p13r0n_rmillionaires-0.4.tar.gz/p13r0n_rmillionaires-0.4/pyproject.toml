@@ -1,0 +1,17 @@
+[project]
+name = "p13r0n_rmillionaires"
+version = "0.4"
+description = "Lifeline fuctions package necessary to run Rock Millionaires"
+keywords = ["Rock Millionaires"]
+authors = [{name = "ppieron", email = "piotrek.pieron@gmail.com"}]
+license = {file = "LICENCE.txt"}
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python",
+    "Topic :: Education",
+    "Topic :: Games/Entertainment",
+]
+requires-python = ">=3.0"
+
+[project.urls]
+"Homepage" = "https://github.com/ppieron/Millionaires_Rock.git"
