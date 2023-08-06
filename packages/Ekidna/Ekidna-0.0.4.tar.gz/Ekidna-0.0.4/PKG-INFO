@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Ekidna
+Version: 0.0.4
+Summary: Electrochemistry data analysis tools
+Home-page: 
+Author: OzymandiasTheDead
+Author-email: jacob@ekidnasensing.com
+License: MIT
+Keywords: Ekidna
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This library contains functions for analysis of, primarily, data collected from 
+electrochemistry experiment. Various functions may be useful beyond the scope of
+electrochemistry.
+
+Examples of tools include: baseline subtraction, pairplots, histograms, standard curve creators, smoothing, etc . . . 
+
+The code is developed by researchers at Ekidna Sensing.
+
+Change Log
+===========
+0.0.4 (February 17, 2023)
+-------------------------
+- Fourth Release
+
+Notes:
+------
+Added two new functions
+	1. moving_average_baseline_subtraction
+		Function that calculates the moving average of the input current. Also, this not a traditional "moving average" so if you've never used a moving average
+		please don't use this one to generalize the concept. A traditional moving average "slides" its window whereas this one "hops" its window. I.e. adjacent 
+		windows do not overlap, whereas traditional sliding windows tend to overlap with each other.
+ 
+	2. get_groupwise_intervals
+        	The purpose of this function is to group the input data and then calculate the the means, confidence bands, and prediction bands 
+        	of each groups. A group is defined by a fixed value of xdom. If many points have the same value of xdom, then they form a group.
+        
+        	The function will output a dataframe of the interpolated means, confidence interval edges (lower and upper), prediction interval edges (lower and upper, and SAMPLE
+		standard deviations of each group.
+
+		Confidence and prediction bands are computed at 95% confidence. 
+
+
+
+ 
