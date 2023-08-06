@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+cyclotomic/__init__.py
+cyclotomic/py.typed
+cyclotomic.egg-info/PKG-INFO
+cyclotomic.egg-info/SOURCES.txt
+cyclotomic.egg-info/dependency_links.txt
+cyclotomic.egg-info/requires.txt
+cyclotomic.egg-info/top_level.txt
+test/test_00_init.py

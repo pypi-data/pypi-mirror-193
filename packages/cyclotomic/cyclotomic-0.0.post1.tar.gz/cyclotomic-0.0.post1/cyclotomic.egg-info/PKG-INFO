@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: cyclotomic
+Version: 0.0.post1
+Summary: Implementation of cyclotomic arithmetic.
+Home-page: https://github.com/hashberg-io/cyclotomic
+Author: hashberg
+Author-email: sg495@users.noreply.github.com
+Project-URL: Bug Tracker, https://github.com/hashberg-io/cyclotomic/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE
+
+cyclotomic: Implementation of cyclotomic arithmetic
+===================================================
+
+.. image:: https://img.shields.io/badge/python-3.9+-green.svg
+    :target: https://docs.python.org/3.9/
+    :alt: Python versions
+
+.. image:: https://img.shields.io/pypi/v/cyclotomic.svg
+    :target: https://pypi.python.org/pypi/cyclotomic/
+    :alt: PyPI version
+
+.. image:: https://img.shields.io/pypi/status/cyclotomic.svg
+    :target: https://pypi.python.org/pypi/cyclotomic/
+    :alt: PyPI status
+
+.. image:: http://www.mypy-lang.org/static/mypy_badge.svg
+    :target: https://github.com/python/mypy
+    :alt: Checked with Mypy
+
+
+Implementation of cyclotomic arithmetic.
+
+.. contents::
+
+
+Install
+-------
+
+This project is currently in private development.
+
+License
+-------
+
+`LGPL © Hashberg Ltd. <LICENSE>`_
