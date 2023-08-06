@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+v/__init__.py
+v/file.py
+vitalpy.egg-info/PKG-INFO
+vitalpy.egg-info/SOURCES.txt
+vitalpy.egg-info/dependency_links.txt
+vitalpy.egg-info/top_level.txt
