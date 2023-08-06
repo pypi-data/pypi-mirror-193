@@ -1,0 +1,16 @@
+sunpeek_demo/__init__.py,sha256=fCSoozMIK8FVhf0oLxUok_rrIhV0zKOJm5v8GQIogIE,607
+sunpeek_demo/demo_plant.py,sha256=6MnR-_pukfoK8NLutUN_Zv4Tnx4kWOiManyjTDMHMqw,1115
+sunpeek_demo/demo_plant_script.py,sha256=JIDGvRsWnEiyoTaWJpKO72yn6UiLHdu7GdO7-JgqWeY,3900
+sunpeek_demo/FHW__array_ArcS__2017-01-01__2017-12-31__1m__UTC.csv,sha256=i2WySttW8iaRjA-azv7Oo8NLTJbZkpu4H4KrptkPHHg,114397070
+sunpeek_demo/FHW__array_ArcS__2017-05-01__2017-05-02__1m__UTC.csv,sha256=LXoH5q9Vp4Xa8m7CgEph699xUlwS9ma1Y5UJqkOc2Zg,687418
+sunpeek_demo/FHW__array_ArcS__2017-05-01__2017-05-31__1m__UTC.csv,sha256=UWkhdHWZMzG915pKOigSTYIvCsWLev3puxxNWBSbZ3Q,10098984
+sunpeek_demo/LICENSE,sha256=6Mt4VVCs9j7ks0i9C_SgJdUwsB6kx9SjCV-fHv8RAMk,746
+"sunpeek_demo/Pekasolar, pdf export, density.csv",sha256=WyTIAqHMU63vz_jXOrvOvvuQupUt3wPx53g_DRC_cVI,95
+"sunpeek_demo/Pekasolar, pdf export, heat capacity.csv",sha256=PCA0ZRs-pFyUxHlj5xVZEJTrx0WhZmwAvhUf1kgHMt4,259
+sunpeek_demo/plant_config_FHW_Arcon_South.json,sha256=hW9d05MvzBKkZrx9Lv2U_LCyi-DuSDO1pSm1cOTO2O0,2851
+sunpeek_demo/pyproject.toml,sha256=74AsBPruP4xvaaS2PJAwrNK6TNt_8EmObGYLpoj4YHY,755
+sunpeek_demo/README.md,sha256=u9qV_iBWqBIMyaL4sr7oFNbu2X6a_AokVqX8zdusNrA,643
+sunpeek_demo-0.0.0.dev2.dist-info/LICENSE,sha256=6Mt4VVCs9j7ks0i9C_SgJdUwsB6kx9SjCV-fHv8RAMk,746
+sunpeek_demo-0.0.0.dev2.dist-info/METADATA,sha256=IqARszTBRIy06fBzcHXo6FBpGx2p9xxXxx4GCt8_cnk,1445
+sunpeek_demo-0.0.0.dev2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sunpeek_demo-0.0.0.dev2.dist-info/RECORD,,
