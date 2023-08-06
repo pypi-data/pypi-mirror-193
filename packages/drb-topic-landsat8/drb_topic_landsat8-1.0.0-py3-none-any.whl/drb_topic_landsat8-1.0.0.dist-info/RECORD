@@ -1,0 +1,10 @@
+drb/topics/landsat8/__init__.py,sha256=i1OTn1AdngdvNxFCdH3rIUEtMcHkWARFlEpONKBbGMI,73
+drb/topics/landsat8/_version.py,sha256=_UmoUQQwDwpdI0gfM5t3VOTwaT85fV-cQ2OtFl5XcFM,497
+drb/topics/landsat8/cortex.yml,sha256=DYGBK_ZCi2qltb5S9GiZXFfV8igQzSXlpPss-i4ITfM,1306
+drb/topics/landsat8/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drb_topic_landsat8-1.0.0.dist-info/LICENCE.txt,sha256=RzxtV7MG0zbF6dDvQsaZ1OKsHZ7CRyeILenjUIol5rs,7651
+drb_topic_landsat8-1.0.0.dist-info/METADATA,sha256=mIM3NlZqY69NIvBuhS4oex4khz_1bwwMUoU-fNJEZho,1229
+drb_topic_landsat8-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_topic_landsat8-1.0.0.dist-info/entry_points.txt,sha256=BpVirhRbWVGo0XQ_vfdNlFP4zKj7ps8NRMX-gp8U4Lk,93
+drb_topic_landsat8-1.0.0.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_topic_landsat8-1.0.0.dist-info/RECORD,,
