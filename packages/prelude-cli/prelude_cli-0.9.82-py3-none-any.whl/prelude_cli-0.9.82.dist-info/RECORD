@@ -1,0 +1,16 @@
+prelude_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prelude_cli/cli.py,sha256=IQvrTa53YtYzZEWtNm6n4D8sbbNiKp6Me36EvEIoEJQ,602
+prelude_cli/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prelude_cli/templates/template.go,sha256=55I4t8gEFId5VNRi0yvzcVeDmch3Yct_4qhP2yUKBdg,229
+prelude_cli/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prelude_cli/views/build.py,sha256=o_gEHecSodfNvIWPV4nxLK6HFiTQRJmJWs28XknZvXQ,4154
+prelude_cli/views/configure.py,sha256=ttNZsZVVulUSdsvaBpV8ZoT5z7M29edrUlwUL_RLrcY,552
+prelude_cli/views/detect.py,sha256=I8__Kf_6JDypiYynL34DzIWGbOanJvytSrKQ8BgBv14,8286
+prelude_cli/views/iam.py,sha256=HMB8cnlIT4niXl6G4b8erCOrvydg53oVDRjSTAQBK2o,3490
+prelude_cli/views/shared.py,sha256=sVS7WKjgJEcMunLtk7wqkkrvB8gPjpJ_CR_-XZUBM3Y,272
+prelude_cli-0.9.82.dist-info/LICENSE,sha256=ttdT5omfN6LNmtQoIjUhkkFhz6i44SDMRNwKrbfyTf8,1069
+prelude_cli-0.9.82.dist-info/METADATA,sha256=EkKEnb4P8ixpPfxpxOphf19I_jLX0w2qc6IyFflEVJs,891
+prelude_cli-0.9.82.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+prelude_cli-0.9.82.dist-info/entry_points.txt,sha256=EcHxlP45Wb60ThfVcsNSEAmWdy-chL_1crJKR_9a3uU,48
+prelude_cli-0.9.82.dist-info/top_level.txt,sha256=tPjI9IbMelcZ6RUw_gqloIqK_C2yr7NJ6v6mI88xwHM,12
+prelude_cli-0.9.82.dist-info/RECORD,,
