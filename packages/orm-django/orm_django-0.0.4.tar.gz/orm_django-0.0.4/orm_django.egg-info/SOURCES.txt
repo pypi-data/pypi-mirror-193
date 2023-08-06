@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+orm/__init__.py
+orm_django.egg-info/PKG-INFO
+orm_django.egg-info/SOURCES.txt
+orm_django.egg-info/dependency_links.txt
+orm_django.egg-info/top_level.txt
