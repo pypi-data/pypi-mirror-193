@@ -1,0 +1,9 @@
+tennisrank/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tennisrank/algorithm.py,sha256=PFMnP98mSB2WGhh72Ly4XwjUlJGqs0C1oZOPmMTxDv0,3620
+tennisrank/model.py,sha256=shZYCbgrU_7AMchG4hTnaTUSaxkL4MHeRMKEQCKP72M,367
+tennisrank/utils.py,sha256=C44cykp2mDklq0pmmbsB0Us8gYn6p7ZQ83WJJNB-SUs,1296
+tennisrank-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tennisrank-0.1.5.dist-info/METADATA,sha256=1wI9jPa6TquGmFY1p_VWBjsYC5VHyP1RHF9cGHb1DRc,2830
+tennisrank-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tennisrank-0.1.5.dist-info/top_level.txt,sha256=zUtM2TO553RkFGVTuXGKghpS4jHeN_SkTX1sY9PjIV4,11
+tennisrank-0.1.5.dist-info/RECORD,,
