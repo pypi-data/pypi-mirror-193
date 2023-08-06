@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+docx_live_reload/main.py
+docx_live_reload.egg-info/PKG-INFO
+docx_live_reload.egg-info/SOURCES.txt
+docx_live_reload.egg-info/dependency_links.txt
+docx_live_reload.egg-info/entry_points.txt
+docx_live_reload.egg-info/requires.txt
+docx_live_reload.egg-info/top_level.txt
