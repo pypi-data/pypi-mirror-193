@@ -1,0 +1,28 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "pip_requirements": {
+    "fileMatch": [
+      "^requirements/[^/]+\\.txt$",
+      "^\\.github/workflows/[^/]+\\.ya?ml$"
+    ]
+  },
+  "packageRules": [
+    {
+      "groupName": "github-actions",
+      "matchManagers": ["github-actions"],
+      "description": "Group all GitHub Action dependencies",
+      "separateMajorMinor": "false",
+      "stabilityDays": 7
+    },
+    {
+      "groupName": "pip-dependencies",
+      "matchManagers": ["pip_requirements"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "description": "Group all pip minor requirements",
+      "stabilityDays": 7
+    }
+  ],
+  "schedule": ["every 3 months on the first day of the month"],
+  "suppressNotifications": ["prEditedNotification"]
+}

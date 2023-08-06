@@ -1,0 +1,14 @@
+# Don't pin anything too tightly if it's also a dependency of the library...
+aiohttp
+attrs>=22.2.0
+cattrs
+Jinja2>=3
+mypy==1.0.1
+packaging
+pytest==7.2.0
+pytest-mock==3.10.0
+rich
+rich-argparse>=0.6.0
+tomli; python_version < '3.11'
+types-beautifulsoup4==4.11.6.1
+types-Markdown==3.4.2.1
