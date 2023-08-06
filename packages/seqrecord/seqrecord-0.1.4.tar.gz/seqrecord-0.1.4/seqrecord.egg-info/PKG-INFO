@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: seqrecord
+Version: 0.1.4
+Summary: fix more bugs in writing frames
+Author-email: shuhang0chen@gmail.com
+Maintainer-email: shuhang0chen@gmail.com
