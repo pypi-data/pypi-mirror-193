@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: franky
+Version: 0.0.2
+Summary: Deep Learning - Engine
+Author-email: Fei Wang <fei.comm@icloud.com>
+License: MIT License
+Project-URL: repository, https://github.com/Fei-Wang/dl-engine
+Keywords: artificial intelligence,deep learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.24.2)
+Requires-Dist: torch (==1.13.1)
+Requires-Dist: packaging (==23.0)
+Requires-Dist: addict (==2.4.0)
+Requires-Dist: yapf (==0.32.0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: termcolor (==2.2.0)
+Requires-Dist: rich (==13.3.1)
+
+* 从mmengine处fork
+* 删除了计算机视觉等库的依赖
+* 删除了不太可能使用到的功能
