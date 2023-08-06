@@ -1,0 +1,36 @@
+[build-system]
+    requires = [ "setuptools>=61.2",]
+    build-backend = "setuptools.build_meta"
+
+[project]
+name = "tahoma"
+authors = [
+  { name="Pzim-devdata", email="contact@pzim.fr" },
+]
+description = "Pzim-devdata"
+readme = "PYPI_README.md"
+requires-python = ">=3.7"
+dynamic = ["version", "dependencies"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pzim-devdata/tahoma"
+"Bug Tracker" = "https://github.com/pzim-devdata/tahoma/issues"
+
+[project.scripts]
+    tahoma = "Tahoma.tahoma:main"
+    get_devices_url = "Tahoma.get_devices_url:main"
+
+[tool.setuptools]
+#    include-package-data = false
+    packages = ["Tahoma"]
+
+[tool.setuptools.dynamic.version]
+    attr = "Tahoma.__version__"
+
+[tool.setuptools.dynamic.dependencies]
+    file = ["requirements.txt"]

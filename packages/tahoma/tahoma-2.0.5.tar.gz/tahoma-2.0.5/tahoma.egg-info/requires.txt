@@ -1,0 +1,8 @@
+pyoverkiz==1.7.4
+asyncio
+sys
+argparse
+os
+re
+getpass
+time
