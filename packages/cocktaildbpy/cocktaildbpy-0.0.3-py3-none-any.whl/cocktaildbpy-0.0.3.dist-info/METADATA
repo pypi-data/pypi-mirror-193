@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: cocktaildbpy
+Version: 0.0.3
+Summary: A small python library to interact with cocktaildb api (https://www.thecocktaildb.com/api.php)
+Author-email: OSS Student Teacher <ossstudenthelper@proton.me>
+Project-URL: Homepage, https://github.com/ossstudenthelper/cocktaildbpy
+Project-URL: Bug Tracker, https://github.com/ossstudenthelper/cocktaildbpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+# cocktaildbpy
+
+A small python library to interact with cocktaildb api (https://www.thecocktaildb.com/api.php)
+
+## Installation
+
+`pip install cocktaildbpy`
+
+## Example Usage
+
+```python
+from cocktaildbpy import Api
+from cocktaildbpy.constants import Ingredient
+
+def main():
+    # "1" is the development/testing api key
+    client = Api(api_key="1")
+    drinks = client.search_by_ingredient(Ingredient.GIN)
+    drink = client.lookup_cocktail_by_id(drinks[0].id)
+    print(drink)
+    drink = client.get_cocktail_by_name("old fashioned")
+    print(drink)
+
+if __name__ == "__main__":
+    main()
+```
