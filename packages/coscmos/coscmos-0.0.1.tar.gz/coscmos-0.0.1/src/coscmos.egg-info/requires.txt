@@ -1,0 +1,6 @@
+vodex==1.0.11
+
+[testing]
+tox
+pytest
+pytest-cov
