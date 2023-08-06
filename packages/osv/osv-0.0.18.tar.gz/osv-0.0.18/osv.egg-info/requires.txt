@@ -1,0 +1,8 @@
+google-cloud-ndb<2.0.0
+pygit2
+PyYAML
+semver
+attrs
+jsonschema
+grpcio
+packaging
