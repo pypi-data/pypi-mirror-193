@@ -1,0 +1,7 @@
+xia_agent/__init__.py,sha256=fi7SHvqgeStT3FSDNSJsddM5Osg6ZRidT49PONCv_nU,147
+xia_agent/agent.cp310-win_amd64.pyd,sha256=4HxWc7kQ_J3leEvv3xCHG8QL06uZ0cKxTb7tbU-92TI,287232
+xia_agent-0.0.10.dist-info/LICENSE.txt,sha256=lAwWoIyM_he0Pia6NiVBIVsR-Ifu0cgXpIs0DkB65Bk,155
+xia_agent-0.0.10.dist-info/METADATA,sha256=xyFx691Xq_JZiFAHX3JT-1Zbi_Nr4lzs7YhHtY_xvc0,651
+xia_agent-0.0.10.dist-info/WHEEL,sha256=xKD-W076Kxa9P8HVHMBFDAZ44LgNHrPjF081MKvpixU,100
+xia_agent-0.0.10.dist-info/top_level.txt,sha256=uiK8HE2yj2wekdrxVgGRL0zCqajqbV6xrgTp7HlCXYU,10
+xia_agent-0.0.10.dist-info/RECORD,,
