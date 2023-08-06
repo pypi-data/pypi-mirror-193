@@ -1,0 +1,18 @@
+from setuptools import setup, find_packages
+
+
+setup(
+    name='morecolors',
+    version='1',
+    license='MIT',
+    author="More Colors Official",
+    author_email='kxekip@gmail.com',
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
+    url='https://github.com/gmyrianthous/example-publish-pypi',
+    keywords='colors',
+    install_requires=[
+          'colorama',
+      ],
+
+)

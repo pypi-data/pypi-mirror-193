@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/morecolors.egg-info/PKG-INFO
+src/morecolors.egg-info/SOURCES.txt
+src/morecolors.egg-info/dependency_links.txt
+src/morecolors.egg-info/requires.txt
+src/morecolors.egg-info/top_level.txt
