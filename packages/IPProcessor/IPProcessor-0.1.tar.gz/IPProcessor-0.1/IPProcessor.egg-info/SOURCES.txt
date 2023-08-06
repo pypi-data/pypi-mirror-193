@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+IPProcessor/__init__.py
+IPProcessor/processImage.py
+IPProcessor.egg-info/PKG-INFO
+IPProcessor.egg-info/SOURCES.txt
+IPProcessor.egg-info/dependency_links.txt
+IPProcessor.egg-info/requires.txt
+IPProcessor.egg-info/top_level.txt
