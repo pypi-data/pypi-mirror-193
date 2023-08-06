@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+colourplus/__init__.py
+colourplus/colourplus_file.py
+colourplus.egg-info/PKG-INFO
+colourplus.egg-info/SOURCES.txt
+colourplus.egg-info/dependency_links.txt
+colourplus.egg-info/requires.txt
+colourplus.egg-info/top_level.txt
