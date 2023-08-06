@@ -1,0 +1,11 @@
+archivist/__init__.py,sha256=8sf7xXyBI2RAH-8B1EBjgFV2R2p0BMFUD5_LxQFRMmw,127
+archivist/definitions.py,sha256=mI6efhFw9g8XcH4N727nFglB4Ykq1cCgwwxFScLB7mk,270
+archivist/logger_builder.py,sha256=HnRZSaJxMLMqfI3fryGaBZjlkhbwaVUoYglluNVHd-E,4637
+archivist/templates/logging_console.yml,sha256=PIUAcZXv2LQBH0iP0_fYSgBAQhmDKUqHIgfjHzyx-Oc,268
+archivist/templates/logging_rotating.yml,sha256=zoDR6o3sjYGsZBfFdndedyzrGmhTQKmYHh94A3XYIqg,468
+archivist/templates/logging_scheduled.yml,sha256=gnQrQouWZPtzq-aG1sFesATDseHJtO7G9SugCZ5o18g,403
+archivist_logger-0.1.1.dist-info/LICENSE,sha256=P_BWCP53C5qA4PtVqSSMH_thHNMFlKcWajkMOuJQ364,1072
+archivist_logger-0.1.1.dist-info/METADATA,sha256=yYNA55-VTR2NeXGoiKc4TLyp83eErGbptXNy3nsBMyQ,4099
+archivist_logger-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+archivist_logger-0.1.1.dist-info/top_level.txt,sha256=6NQqmWFwzDCkp7TpHjo7iPBPM04o_dlmdxWezg82xes,10
+archivist_logger-0.1.1.dist-info/RECORD,,
