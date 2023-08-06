@@ -1,0 +1,10 @@
+metrics/code_changes.py,sha256=RsquhbWLs2w035A64OQS2zkS_AFxgtj8XieuqxupkAI,2214
+metrics/code_churn.py,sha256=vonkHW89KcCEVk-X-zoEe9fJpOrJxWcTU0g50e8lHUQ,2247
+templates/code_changes.j2,sha256=xgliKe1M8W84K04QqhuRB6A-wUv2TYhFXOjxtQuqup4,421
+templates/commit.j2,sha256=LF4RwzkOnERbHsTkYhNP3NkV8kQb5GX4cmagbR3hDJk,245
+templates/commits.j2,sha256=CrHVCsz_QoCIwByahuYZEEEDZuK5WDASf6vVGZSBJag,306
+smyg-0.3.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+smyg-0.3.1.dist-info/METADATA,sha256=MbDnCjresafOquatzRii4jlISA76gI1vsmNtjmOuCoA,8440
+smyg-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+smyg-0.3.1.dist-info/top_level.txt,sha256=1B7vt4bUSao6TTZwTsvTyfKhAEiqjk9i8ZyyuoHv9bA,18
+smyg-0.3.1.dist-info/RECORD,,
