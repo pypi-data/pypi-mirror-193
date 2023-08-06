@@ -1,0 +1,13 @@
+napari_bil_data_viewer/__init__.py,sha256=4XzVMNl1lYWv9A1i3JYh48uxDZ1NJwrb9knMtSnwwfQ,224
+napari_bil_data_viewer/_version.py,sha256=CYbZfZY7x_F-U5-dF3-eSvcsIEt-PaNXs0FXBiLkXEQ,160
+napari_bil_data_viewer/bil_data_loader_widget.py,sha256=0OnHUNPFh1w7DfIRNWZaon4epSeHsgCaQIBj7X9BP6I,2711
+napari_bil_data_viewer/dataset_info.py,sha256=64nYG8o28Ic6pLO5bHKTmG8qj0SlMr67Jm3Yd3lQtZU,135921
+napari_bil_data_viewer/dataset_info_screen.py,sha256=Fd27cIIu64ukRwZM3VlxAQdnHFpNlXphJFYa_PBtxwg,1444
+napari_bil_data_viewer/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_bil_data_viewer/_tests/test_reader.py,sha256=lNWiwOja-I6HIPzJF9GkdoznNWiTeoXe6EOJq6aR6Eo,345
+napari_bil_data_viewer-0.1.3.dist-info/LICENSE,sha256=70MROrMnX7S0j67yJ6RflMBOxzCi4kEyBd2RvsCYOpE,1492
+napari_bil_data_viewer-0.1.3.dist-info/METADATA,sha256=x_lePfaw5c3-JTF5OT8NstzUMfGsF_MJnXD5ufa5pWA,5677
+napari_bil_data_viewer-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+napari_bil_data_viewer-0.1.3.dist-info/entry_points.txt,sha256=69gSo6Kgef6zfJhXlAHb453Pqa0X6thXHK3WCds8baI,64
+napari_bil_data_viewer-0.1.3.dist-info/top_level.txt,sha256=Y7V3BXjGAbxjnIk4caY1cvFa0ei1DOG9YY9umyqgjN0,23
+napari_bil_data_viewer-0.1.3.dist-info/RECORD,,
