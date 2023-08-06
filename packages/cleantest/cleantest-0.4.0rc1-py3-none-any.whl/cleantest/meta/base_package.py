@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+# Copyright 2023 Jason C. Nucciarone
+# See LICENSE file for licensing details.
+
+"""Metaclass for objects that handle installing packages inside test environments."""
+
+from abc import abstractmethod
+
+from .injectable import Injectable
+
+
+class BasePackageError(Exception):
+    """Base error for package handlers."""
+
+
+class BasePackage(Injectable):
+    """Metaclass for package handlers.
+
+    Packages define tooling stubs needed to install packages inside test environments.
+    """
+
+    @abstractmethod
+    def _run(self) -> None:
+        """Run installer for package."""
+
+    @abstractmethod
+    def _setup(self) -> None:
+        """Perform setup needed inside test environment to run installer."""
