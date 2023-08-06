@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+noops/__init__.py
+noops.egg-info/PKG-INFO
+noops.egg-info/SOURCES.txt
+noops.egg-info/dependency_links.txt
+noops.egg-info/top_level.txt

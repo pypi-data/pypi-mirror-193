@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: noops
+Version: 0.0.1
+Summary: Framework for quantum circuit encodings
+Home-page: https://github.com/CQCL/noops
+Author: Alec Edgington
+Author-email: alec.edgington@quantinuum.com
+Description-Content-Type: text/markdown
+
+Framework for quantum circuit encodings
