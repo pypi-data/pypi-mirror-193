@@ -1,0 +1,10 @@
+README.txt
+setup.cfg
+setup.py
+src/fakesky.egg-info/PKG-INFO
+src/fakesky.egg-info/SOURCES.txt
+src/fakesky.egg-info/dependency_links.txt
+src/fakesky.egg-info/requires.txt
+src/fakesky.egg-info/top_level.txt
+src/fieldgen/__init__.py
+src/fieldgen/fieldgen.py
