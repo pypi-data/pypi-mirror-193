@@ -1,0 +1,95 @@
+"""
+Branch of medicine that pertains to the health services to improve and protect community health, especially epidemiology, sanitation, immunization, and preventive medicine.
+
+https://schema.org/PublicHealth
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class PublicHealthInheritedProperties(TypedDict):
+    """Branch of medicine that pertains to the health services to improve and protect community health, especially epidemiology, sanitation, immunization, and preventive medicine.
+
+    References:
+        https://schema.org/PublicHealth
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class PublicHealthProperties(TypedDict):
+    """Branch of medicine that pertains to the health services to improve and protect community health, especially epidemiology, sanitation, immunization, and preventive medicine.
+
+    References:
+        https://schema.org/PublicHealth
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class PublicHealthAllProperties(
+    PublicHealthInheritedProperties, PublicHealthProperties, TypedDict
+):
+    pass
+
+
+class PublicHealthBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="PublicHealth", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        PublicHealthProperties,
+        PublicHealthInheritedProperties,
+        PublicHealthAllProperties,
+    ] = PublicHealthAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "PublicHealth"
+    return model
+
+
+PublicHealth = create_schema_org_model()
+
+
+def create_publichealth_model(
+    model: Union[
+        PublicHealthProperties,
+        PublicHealthInheritedProperties,
+        PublicHealthAllProperties,
+    ]
+):
+    _type = deepcopy(PublicHealthAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of PublicHealth. Please see: https://schema.org/PublicHealth"
+            )
+    # delete_keys = []
+    # for k in _type.__annotations__.keys():
+    #     if k not in model.__annotations__:
+    #         delete_keys.append(k)
+    # for k in delete_keys:
+    #     del _type.__annotations__[k]
+    return create_schema_org_model(type_=model)
+
+
+def schema_json(model: PublicHealthAllProperties):
+    pydantic_type = create_publichealth_model(model=model)
+    return pydantic_type(model).schema_json()

@@ -1,0 +1,95 @@
+"""
+Nonprofit501c6: Non-profit type referring to Business Leagues, Chambers of Commerce, Real Estate Boards.
+
+https://schema.org/Nonprofit501c6
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class Nonprofit501c6InheritedProperties(TypedDict):
+    """Nonprofit501c6: Non-profit type referring to Business Leagues, Chambers of Commerce, Real Estate Boards.
+
+    References:
+        https://schema.org/Nonprofit501c6
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class Nonprofit501c6Properties(TypedDict):
+    """Nonprofit501c6: Non-profit type referring to Business Leagues, Chambers of Commerce, Real Estate Boards.
+
+    References:
+        https://schema.org/Nonprofit501c6
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class Nonprofit501c6AllProperties(
+    Nonprofit501c6InheritedProperties, Nonprofit501c6Properties, TypedDict
+):
+    pass
+
+
+class Nonprofit501c6BaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="Nonprofit501c6", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        Nonprofit501c6Properties,
+        Nonprofit501c6InheritedProperties,
+        Nonprofit501c6AllProperties,
+    ] = Nonprofit501c6AllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "Nonprofit501c6"
+    return model
+
+
+Nonprofit501c6 = create_schema_org_model()
+
+
+def create_nonprofit501c6_model(
+    model: Union[
+        Nonprofit501c6Properties,
+        Nonprofit501c6InheritedProperties,
+        Nonprofit501c6AllProperties,
+    ]
+):
+    _type = deepcopy(Nonprofit501c6AllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of Nonprofit501c6. Please see: https://schema.org/Nonprofit501c6"
+            )
+    # delete_keys = []
+    # for k in _type.__annotations__.keys():
+    #     if k not in model.__annotations__:
+    #         delete_keys.append(k)
+    # for k in delete_keys:
+    #     del _type.__annotations__[k]
+    return create_schema_org_model(type_=model)
+
+
+def schema_json(model: Nonprofit501c6AllProperties):
+    pydantic_type = create_nonprofit501c6_model(model=model)
+    return pydantic_type(model).schema_json()

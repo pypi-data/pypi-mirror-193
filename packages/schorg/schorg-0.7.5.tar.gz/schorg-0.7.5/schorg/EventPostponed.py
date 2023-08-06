@@ -1,0 +1,95 @@
+"""
+The event has been postponed and no new date has been set. The event's previousStartDate should be set.
+
+https://schema.org/EventPostponed
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class EventPostponedInheritedProperties(TypedDict):
+    """The event has been postponed and no new date has been set. The event's previousStartDate should be set.
+
+    References:
+        https://schema.org/EventPostponed
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class EventPostponedProperties(TypedDict):
+    """The event has been postponed and no new date has been set. The event's previousStartDate should be set.
+
+    References:
+        https://schema.org/EventPostponed
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class EventPostponedAllProperties(
+    EventPostponedInheritedProperties, EventPostponedProperties, TypedDict
+):
+    pass
+
+
+class EventPostponedBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="EventPostponed", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        EventPostponedProperties,
+        EventPostponedInheritedProperties,
+        EventPostponedAllProperties,
+    ] = EventPostponedAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "EventPostponed"
+    return model
+
+
+EventPostponed = create_schema_org_model()
+
+
+def create_eventpostponed_model(
+    model: Union[
+        EventPostponedProperties,
+        EventPostponedInheritedProperties,
+        EventPostponedAllProperties,
+    ]
+):
+    _type = deepcopy(EventPostponedAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of EventPostponed. Please see: https://schema.org/EventPostponed"
+            )
+    # delete_keys = []
+    # for k in _type.__annotations__.keys():
+    #     if k not in model.__annotations__:
+    #         delete_keys.append(k)
+    # for k in delete_keys:
+    #     del _type.__annotations__[k]
+    return create_schema_org_model(type_=model)
+
+
+def schema_json(model: EventPostponedAllProperties):
+    pydantic_type = create_eventpostponed_model(model=model)
+    return pydantic_type(model).schema_json()

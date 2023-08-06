@@ -1,0 +1,95 @@
+"""
+An office equipment store.
+
+https://schema.org/OfficeEquipmentStore
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class OfficeEquipmentStoreInheritedProperties(TypedDict):
+    """An office equipment store.
+
+    References:
+        https://schema.org/OfficeEquipmentStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class OfficeEquipmentStoreProperties(TypedDict):
+    """An office equipment store.
+
+    References:
+        https://schema.org/OfficeEquipmentStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class OfficeEquipmentStoreAllProperties(
+    OfficeEquipmentStoreInheritedProperties, OfficeEquipmentStoreProperties, TypedDict
+):
+    pass
+
+
+class OfficeEquipmentStoreBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="OfficeEquipmentStore", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        OfficeEquipmentStoreProperties,
+        OfficeEquipmentStoreInheritedProperties,
+        OfficeEquipmentStoreAllProperties,
+    ] = OfficeEquipmentStoreAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "OfficeEquipmentStore"
+    return model
+
+
+OfficeEquipmentStore = create_schema_org_model()
+
+
+def create_officeequipmentstore_model(
+    model: Union[
+        OfficeEquipmentStoreProperties,
+        OfficeEquipmentStoreInheritedProperties,
+        OfficeEquipmentStoreAllProperties,
+    ]
+):
+    _type = deepcopy(OfficeEquipmentStoreAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of OfficeEquipmentStore. Please see: https://schema.org/OfficeEquipmentStore"
+            )
+    # delete_keys = []
+    # for k in _type.__annotations__.keys():
+    #     if k not in model.__annotations__:
+    #         delete_keys.append(k)
+    # for k in delete_keys:
+    #     del _type.__annotations__[k]
+    return create_schema_org_model(type_=model)
+
+
+def schema_json(model: OfficeEquipmentStoreAllProperties):
+    pydantic_type = create_officeequipmentstore_model(model=model)
+    return pydantic_type(model).schema_json()

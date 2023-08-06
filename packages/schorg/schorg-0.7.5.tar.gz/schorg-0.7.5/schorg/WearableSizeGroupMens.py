@@ -1,0 +1,95 @@
+"""
+Size group "Mens" for wearables.
+
+https://schema.org/WearableSizeGroupMens
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class WearableSizeGroupMensInheritedProperties(TypedDict):
+    """Size group "Mens" for wearables.
+
+    References:
+        https://schema.org/WearableSizeGroupMens
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class WearableSizeGroupMensProperties(TypedDict):
+    """Size group "Mens" for wearables.
+
+    References:
+        https://schema.org/WearableSizeGroupMens
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class WearableSizeGroupMensAllProperties(
+    WearableSizeGroupMensInheritedProperties, WearableSizeGroupMensProperties, TypedDict
+):
+    pass
+
+
+class WearableSizeGroupMensBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="WearableSizeGroupMens", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        WearableSizeGroupMensProperties,
+        WearableSizeGroupMensInheritedProperties,
+        WearableSizeGroupMensAllProperties,
+    ] = WearableSizeGroupMensAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "WearableSizeGroupMens"
+    return model
+
+
+WearableSizeGroupMens = create_schema_org_model()
+
+
+def create_wearablesizegroupmens_model(
+    model: Union[
+        WearableSizeGroupMensProperties,
+        WearableSizeGroupMensInheritedProperties,
+        WearableSizeGroupMensAllProperties,
+    ]
+):
+    _type = deepcopy(WearableSizeGroupMensAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of WearableSizeGroupMens. Please see: https://schema.org/WearableSizeGroupMens"
+            )
+    # delete_keys = []
+    # for k in _type.__annotations__.keys():
+    #     if k not in model.__annotations__:
+    #         delete_keys.append(k)
+    # for k in delete_keys:
+    #     del _type.__annotations__[k]
+    return create_schema_org_model(type_=model)
+
+
+def schema_json(model: WearableSizeGroupMensAllProperties):
+    pydantic_type = create_wearablesizegroupmens_model(model=model)
+    return pydantic_type(model).schema_json()
