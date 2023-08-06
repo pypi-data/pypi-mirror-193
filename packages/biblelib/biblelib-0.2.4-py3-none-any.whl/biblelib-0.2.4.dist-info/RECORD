@@ -1,0 +1,11 @@
+biblelib/__init__.py,sha256=H03LzymAK2IWrn9x1H0FhgIfErr1uo09ykG-_D-rYp8,207
+biblelib/books/__init__.py,sha256=aQgmyEsb0MdlfzcNpuZS63vauPay6SZmA1u_lspaXHI,351
+biblelib/books/books.py,sha256=kClqpuExZBJrzo87MkhjidUf5IYxudVOSwKiWOdkB1A,12572
+biblelib/books/books.tsv,sha256=7TQPWEV9M02reQrwIhIaZEJMO4yQTQDE9qgRlKv3dCk,5680
+biblelib/words/__init__.py,sha256=GrLWbFMOY1LkCIw2Hvgu18t0l8l27GLnlAPAMoWgPiA,652
+biblelib/words/bcvwpid.py,sha256=y_DqmQ9i2lpPd6Sg78jBUkYa6TV9LcJQqS-CAz6jC3Q,5347
+biblelib/words/mappings.py,sha256=hDsEFOWaaC5v7IwnACbgnQKVCVTsI53HdwdkFGQAMGw,4432
+biblelib-0.2.4.dist-info/LICENSE,sha256=Z_WglwwQ_u2zkA893u_ZOa086iMavPAK3sPUeWI0vEU,1069
+biblelib-0.2.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+biblelib-0.2.4.dist-info/METADATA,sha256=jevck2M5bwKgaOwukxNh47T2Kuh555LZy7pkjMV8tQM,2251
+biblelib-0.2.4.dist-info/RECORD,,
