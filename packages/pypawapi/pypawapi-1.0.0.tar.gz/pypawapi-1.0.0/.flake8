@@ -1,0 +1,15 @@
+[flake8]
+max-line-length = 80
+max-complexity = 10
+exclude =
+  .git,
+  .nox,
+  __pycache__,
+  .pytest_cache,
+  dist,
+  build,
+  .venv
+
+select = B,E,F,W,C90
+
+# vim: ft=cfg
