@@ -1,0 +1,3 @@
+include repeatdecorator/requirements.txt
+include repeatdecorator/thirdparty.json
+include repeatdecorator/README.MD

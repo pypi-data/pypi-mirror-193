@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+repeatdecorator/README.MD
+repeatdecorator/__init__.py
+repeatdecorator/requirements.txt
+repeatdecorator/thirdparty.json
+repeatdecorator.egg-info/PKG-INFO
+repeatdecorator.egg-info/SOURCES.txt
+repeatdecorator.egg-info/dependency_links.txt
+repeatdecorator.egg-info/requires.txt
+repeatdecorator.egg-info/top_level.txt
