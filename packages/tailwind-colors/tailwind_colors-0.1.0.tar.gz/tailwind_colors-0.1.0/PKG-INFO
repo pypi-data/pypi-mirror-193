@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tailwind-colors
+Version: 0.1.0
+Summary: 
+Author: Moritz Makowski
+Author-email: moritz@dostuffthatmatters.dev
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Python Tailwind Colors
+
+Use the default color palette from TailwindCSS (https://tailwindcss.com/docs/customizing-colors) in your python code for plotting, image generation, etc..
+
+**Usage:**
+
+```python
+from tailwind_colors import TAILWIND_COLORS
+
+print(TAILWIND_COLORS.FUCHSIA_600)  # prints '#c026d3'
+```
+
