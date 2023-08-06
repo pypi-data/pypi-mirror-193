@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: xpath_perfomance
+Version: 0.0.1
+Summary: Wrapper for Selenium to make it more easy and efficient to use
+Author: Parceiro do Contador
+Author-email: parceiro@parceirodocontador.com.br
+License: Code Distribution License
+Keywords: selenium xpath
+Description-Content-Type: text/x-rst
+License-File: LICENCE
+
+Este módulo tem como objetivo tornar o uso do selenium mais fácil e
+perfomático. O conceito é que o comando do selenium está dentro de um
+loop infinito que encapsula um try/execept com a seguinte estrutura:
+
+::
+
+       while True:
+           try:  
+               "comando_selenium"  
+           execept:
+               "time_sleep"
+
+Desta forma invés do código parar de rodar por não ter achado um
+elemento, por exemplo, ele continua tentando até achar. Outra vantagem
+deste módulo é tornar mais légivel e acessível os comando do selenium,
+facilitando a utilização e a manutenção.
+
+Além dos comandos encapsulados dentro do *while* também usamos a classe
+“Tentar” que é passada pelo parâmetro “use_tentar” que por padrão vem
+como “False” e é um parâmetro opcional, caso deseje utilizar, basta
+passar o “use_tentar=True”. A classe “Tentar” adiciona contadores a
+nossas tentativas, que por padrão tem um máximo de tentativas de 3. Os
+contadores ajudam quando precisamos que o código saia do loop infinito,
+como por exemplo, caso precisamos colocar os comandos dentro de outro
+try/execept ou de outro while, ou pra sabermos quantas vezes o selenium
+tentou clicar em algo ou executar alguma ação.
+
+O módulo está em constante atualização, é possível adicionar outros
+comandos do selenium dentro da classe, assim aproveitando o conceito da
+estrutura do loop. Os comandos possuem nomes autoexplicativos e seguem
+uma mesma lógica de parâmetros, alguns possuem parâmetros especiais e/ou
+opcionais. No geral os parâmetros são o “Xpath” que é usado para buscar
+o elemento em que será executado o comando e o “use_tentar”, já
+supracitado. Os parâmetros especiais e/ou opcionais são autoexplicativos
+e légiveis, como por exemplo, o método “pressionar_tecla” que pede uma
+“tecla” como parâmetro ou o “enviar_texto” que requer o “texto” que será
+enviado.
+
+Para utilizar o módulo, é necessário importar a biblioteca e instanciar
+a classe Xpath_Perfomance. Depois é só chamar os comandos de dentro da
+classe, por exemplo:
+
+``xp = Xpath_Perfomance()`` ``xp.click('[xpath]')``
+
+Aqui estão alguns exemplos de comandos que já estão encapsulados na
+biblioteca:
+
+-  click()
+-  enviar_texto()
+-  pressionar_tecla()
+-  mouse_em_cima()
+-  click_direito()
+-  selecionar_texto()
+-  click_duplo()
+-  aba_indice()
+-  trocar_aba()
+-  maximar_janela()
+-  abrir_site()

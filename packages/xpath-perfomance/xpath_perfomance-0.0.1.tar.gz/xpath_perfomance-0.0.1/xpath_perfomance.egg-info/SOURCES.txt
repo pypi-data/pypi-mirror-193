@@ -1,0 +1,10 @@
+LICENCE
+README.rst
+setup.py
+xpath_perfomance.egg-info/PKG-INFO
+xpath_perfomance.egg-info/SOURCES.txt
+xpath_perfomance.egg-info/dependency_links.txt
+xpath_perfomance.egg-info/requires.txt
+xpath_perfomance.egg-info/top_level.txt
+xperfomance/__init__.py
+xperfomance/xperfomance.py
