@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fma-core
+Version: 0.0.0.post1
+Summary: Federated Model Aggregation Algorithms
+Author: Kenny Bean, Tyler Farnan, Taylor Turner, Michael Davis, Jeremy Goodsitt 
+License: Apache License, Version 2.0
+Keywords: Federated Learning
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
