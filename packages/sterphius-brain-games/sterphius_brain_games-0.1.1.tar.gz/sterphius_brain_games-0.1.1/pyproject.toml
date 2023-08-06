@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "sterphius-brain-games"
+version = "0.1.1"
+description = "Brain-games: several terminal games that will allow you to stretch your brain"
+authors = ["Aleksei Malyshev <malyshff@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "brain_games" }]
+repository = "https://github.com/Sterphius/python-project-49"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prompt = "^0.4.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
