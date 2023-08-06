@@ -1,0 +1,17 @@
+uselesss/__init__.py,sha256=UbzwU2kbNPUvYc7xZibRfS_4em11ZT-6wLDTGEOuvAs,247
+uselesss/cli.py,sha256=lAANSZoHrJrZ1Q0dbTqBHJ9y7wRcq042yeCKUlS9shg,4148
+uselesss/run.py,sha256=wSt8nYwV2lf6GEmcaHrTks9Mf15wF9g_DD38wZKcspc,10264
+uselesss/src/__init__.py,sha256=-Yyp7mnhvXO8oIizIRXtN2_7Z0ltcohL3NpTV1kJ9-w,306
+uselesss/src/deduplicate.py,sha256=wBXrMJG7XWPrUJFlF9Pz1ADWA1ozPuh8YHQqikrQfBM,1540
+uselesss/src/dir_combine.py,sha256=9BtYL4RiQHu9j6WDHeJR9pgC8VHXQLa8JJSD_SAqKWw,2509
+uselesss/src/label_combine.py,sha256=T99nvA4fcHt94cCV9zZVPJvmgj_Lus-5H3lowCbp9So,3204
+uselesss/src/labelling_cls.py,sha256=yFW_zeBBFr_HS6fu5mqUpPq9-z0F_txAhUGpg-RchRQ,18138
+uselesss/src/labelling_det.py,sha256=NQKNoho8i0yVtB1UojPM8K0eiFVgZ3zOWzgQ3v3omdo,36688
+uselesss/src/spider.py,sha256=ecqEz3Qer94U9Gms7IWLo9tlPLa9GIbMbPWy_G9h2jM,3299
+uselesss/src/utils.py,sha256=5OOr2WtFlkTblC3Ah1wgkQRlw5UDIenGSMHgDyv1PHw,18795
+uselesss/src/video_tools.py,sha256=fP9lZdKNLnXTdUEO04otVvfvfr1PwI99jAUPD91G96s,9184
+uselesss-0.0.2.dist-info/METADATA,sha256=H2-Bb7MEEJSuoFlP1qvVKyQmhvrGXLNXyJCZ2Tggqxw,998
+uselesss-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+uselesss-0.0.2.dist-info/entry_points.txt,sha256=k_GkBQuzE-u57rv_EkG0EfRF8QzUWfcb0pGHYoAuywA,38
+uselesss-0.0.2.dist-info/top_level.txt,sha256=AK6hFESq_vgLk6c82p8XlBSq3IGVT_sKYqPV1iJeTVo,9
+uselesss-0.0.2.dist-info/RECORD,,
