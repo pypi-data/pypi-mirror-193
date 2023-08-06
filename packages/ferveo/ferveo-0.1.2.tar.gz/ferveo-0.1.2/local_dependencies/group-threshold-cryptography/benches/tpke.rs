@@ -1,0 +1,577 @@
+#![allow(clippy::redundant_closure)]
+
+use std::collections::HashMap;
+
+use ark_bls12_381::{Bls12_381, Fr, G1Affine as G1, G2Affine as G2};
+use ark_ec::pairing::Pairing;
+use ark_ec::AffineRepr;
+use ark_ff::Zero;
+use criterion::{
+    black_box, criterion_group, criterion_main, BenchmarkId, Criterion,
+};
+use group_threshold_cryptography::test_common::{setup_fast, setup_simple};
+use group_threshold_cryptography::*;
+use rand::prelude::StdRng;
+use rand_core::{RngCore, SeedableRng};
+
+const NUM_SHARES_CASES: [usize; 5] = [4, 8, 16, 32, 64];
+const MSG_SIZE_CASES: [usize; 7] = [256, 512, 1024, 2048, 4096, 8192, 16384];
+
+type E = Bls12_381;
+type G2Prepared = <E as Pairing>::G2Prepared;
+type TargetField = <E as Pairing>::TargetField;
+
+#[allow(dead_code)]
+struct SetupShared {
+    threshold: usize,
+    shares_num: usize,
+    msg: Vec<u8>,
+    aad: Vec<u8>,
+    pubkey: G1,
+    privkey: G2,
+    ciphertext: Ciphertext<E>,
+    shared_secret: TargetField,
+}
+
+struct SetupFast {
+    shared: SetupShared,
+    contexts: Vec<PrivateDecryptionContextFast<E>>,
+    pub_contexts: Vec<PublicDecryptionContextFast<E>>,
+    decryption_shares: Vec<DecryptionShareFast<E>>,
+    prepared_key_shares: Vec<G2Prepared>,
+}
+
+impl SetupFast {
+    pub fn new(shares_num: usize, msg_size: usize, rng: &mut StdRng) -> Self {
+        let threshold = shares_num * 2 / 3;
+        let mut msg: Vec<u8> = vec![0u8; msg_size];
+        rng.fill_bytes(&mut msg[..]);
+        let aad: &[u8] = "my-aad".as_bytes();
+
+        let (pubkey, privkey, contexts) =
+            setup_fast::<E>(threshold, shares_num, rng);
+        let ciphertext = encrypt::<E>(&msg, aad, &pubkey, rng).unwrap();
+
+        let mut decryption_shares: Vec<DecryptionShareFast<E>> = vec![];
+        for context in contexts.iter() {
+            decryption_shares
+                .push(context.create_share(&ciphertext, aad).unwrap());
+        }
+
+        let pub_contexts = contexts[0].clone().public_decryption_contexts;
+        let prepared_key_shares =
+            prepare_combine_fast(&pub_contexts, &decryption_shares);
+
+        let shared_secret = share_combine_fast_unchecked(
+            &decryption_shares,
+            &prepared_key_shares,
+        );
+
+        let shared = SetupShared {
+            threshold,
+            shares_num,
+            msg: msg.to_vec(),
+            aad: aad.to_vec(),
+            pubkey,
+            privkey,
+            ciphertext,
+            shared_secret,
+        };
+        Self {
+            shared,
+            contexts,
+            pub_contexts,
+            decryption_shares,
+            prepared_key_shares,
+        }
+    }
+}
+
+struct SetupSimple {
+    shared: SetupShared,
+    contexts: Vec<PrivateDecryptionContextSimple<E>>,
+    pub_contexts: Vec<PublicDecryptionContextSimple<E>>,
+    decryption_shares: Vec<DecryptionShareSimple<E>>,
+    lagrange_coeffs: Vec<Fr>,
+}
+
+impl SetupSimple {
+    pub fn new(shares_num: usize, msg_size: usize, rng: &mut StdRng) -> Self {
+        let threshold = shares_num * 2 / 3;
+        let mut msg: Vec<u8> = vec![0u8; msg_size];
+        rng.fill_bytes(&mut msg[..]);
+        let aad: &[u8] = "my-aad".as_bytes();
+
+        let (pubkey, privkey, contexts) =
+            setup_simple::<E>(threshold, shares_num, rng);
+
+        // Ciphertext.commitment is already computed to match U
+        let ciphertext = encrypt::<E>(&msg, aad, &pubkey, rng).unwrap();
+
+        // Creating decryption shares
+        let decryption_shares: Vec<_> = contexts
+            .iter()
+            .map(|context| context.create_share(&ciphertext, aad).unwrap())
+            .collect();
+
+        let pub_contexts = contexts[0].clone().public_decryption_contexts;
+        let domain: Vec<Fr> = pub_contexts.iter().map(|c| c.domain).collect();
+        let lagrange = prepare_combine_simple::<E>(&domain);
+
+        let shared_secret =
+            share_combine_simple::<E>(&decryption_shares, &lagrange);
+
+        let shared = SetupShared {
+            threshold,
+            shares_num,
+            msg: msg.to_vec(),
+            aad: aad.to_vec(),
+            pubkey,
+            privkey,
+            ciphertext,
+            shared_secret,
+        };
+        Self {
+            shared,
+            contexts,
+            pub_contexts,
+            decryption_shares,
+            lagrange_coeffs: lagrange,
+        }
+    }
+}
+
+pub fn bench_create_decryption_share(c: &mut Criterion) {
+    let rng = &mut StdRng::seed_from_u64(0);
+
+    let mut group = c.benchmark_group("SHARE CREATE");
+    group.sample_size(10);
+
+    let msg_size = MSG_SIZE_CASES[0];
+
+    for shares_num in NUM_SHARES_CASES {
+        let fast = {
+            let setup = SetupFast::new(shares_num, msg_size, rng);
+            move || {
+                black_box({
+                    // TODO: Consider running benchmarks for a single iteration and not for all iterations.
+                    // This way we could test the performance of this method for a single participant.
+                    setup
+                        .contexts
+                        .iter()
+                        .map(|ctx| {
+                            ctx.create_share(
+                                &setup.shared.ciphertext,
+                                &setup.shared.aad,
+                            )
+                        })
+                        .collect::<Vec<_>>()
+                })
+            }
+        };
+        let simple = {
+            let setup = SetupSimple::new(shares_num, msg_size, rng);
+            move || {
+                black_box({
+                    // TODO: Consider running benchmarks for a single iteration and not for all iterations.
+                    // This way we could test the performance of this method for a single participant.
+                    setup
+                        .contexts
+                        .iter()
+                        .map(|ctx| {
+                            // Using create_unchecked here to avoid the cost of verifying the ciphertext
+                            DecryptionShareSimple::create_unchecked(
+                                ctx.index,
+                                &ctx.validator_private_key,
+                                &ctx.private_key_share,
+                                &setup.shared.ciphertext,
+                            )
+                        })
+                        .collect::<Vec<_>>()
+                })
+            }
+        };
+        let simple_precomputed = {
+            let setup = SetupSimple::new(shares_num, MSG_SIZE_CASES[0], rng);
+            move || {
+                black_box(
+                    setup
+                        .contexts
+                        .iter()
+                        .map(|context| {
+                            context.create_share_precomputed(
+                                &setup.shared.ciphertext,
+                                &setup.shared.aad,
+                            )
+                        })
+                        .collect::<Vec<_>>(),
+                );
+            }
+        };
+
+        group.bench_function(
+            BenchmarkId::new("share_create_fast", shares_num),
+            |b| b.iter(|| fast()),
+        );
+        group.bench_function(
+            BenchmarkId::new("share_create_simple", shares_num),
+            |b| b.iter(|| simple()),
+        );
+        group.bench_function(
+            BenchmarkId::new("share_create_simple_precomputed", shares_num),
+            |b| b.iter(|| simple_precomputed()),
+        );
+    }
+}
+
+pub fn bench_share_prepare(c: &mut Criterion) {
+    let rng = &mut StdRng::seed_from_u64(0);
+
+    let mut group = c.benchmark_group("SHARE PREPARE");
+    group.sample_size(10);
+    let msg_size = MSG_SIZE_CASES[0];
+
+    for shares_num in NUM_SHARES_CASES {
+        let fast = {
+            let setup = SetupFast::new(shares_num, msg_size, rng);
+            move || {
+                black_box(prepare_combine_fast(
+                    &setup.pub_contexts,
+                    &setup.decryption_shares,
+                ))
+            }
+        };
+        let simple = {
+            let setup = SetupSimple::new(shares_num, msg_size, rng);
+            let domain: Vec<Fr> =
+                setup.pub_contexts.iter().map(|c| c.domain).collect();
+            move || black_box(prepare_combine_simple::<E>(&domain))
+        };
+
+        group.bench_function(
+            BenchmarkId::new("share_prepare_fast", shares_num),
+            |b| b.iter(|| fast()),
+        );
+        group.bench_function(
+            BenchmarkId::new("share_prepare_simple", shares_num),
+            |b| b.iter(|| simple()),
+        );
+    }
+}
+
+pub fn bench_share_combine(c: &mut Criterion) {
+    let rng = &mut StdRng::seed_from_u64(0);
+
+    let mut group = c.benchmark_group("SHARE COMBINE");
+    group.sample_size(10);
+
+    let msg_size = MSG_SIZE_CASES[0];
+
+    for shares_num in NUM_SHARES_CASES {
+        let fast = {
+            let setup = SetupFast::new(shares_num, msg_size, rng);
+            move || {
+                black_box(share_combine_fast_unchecked(
+                    &setup.decryption_shares,
+                    &setup.prepared_key_shares,
+                ));
+            }
+        };
+        let simple = {
+            let setup = SetupSimple::new(shares_num, msg_size, rng);
+            move || {
+                black_box(share_combine_simple::<E>(
+                    &setup.decryption_shares,
+                    &setup.lagrange_coeffs,
+                ));
+            }
+        };
+        let simple_precomputed = {
+            let setup = SetupSimple::new(shares_num, MSG_SIZE_CASES[0], rng);
+
+            let decryption_shares: Vec<_> = setup
+                .contexts
+                .iter()
+                .map(|context| {
+                    context
+                        .create_share_precomputed(
+                            &setup.shared.ciphertext,
+                            &setup.shared.aad,
+                        )
+                        .unwrap()
+                })
+                .collect();
+
+            move || {
+                black_box(share_combine_simple_precomputed::<E>(
+                    &decryption_shares,
+                ));
+            }
+        };
+
+        group.bench_function(
+            BenchmarkId::new("share_combine_fast", shares_num),
+            |b| b.iter(|| fast()),
+        );
+        group.bench_function(
+            BenchmarkId::new("share_combine_simple", shares_num),
+            |b| b.iter(|| simple()),
+        );
+        group.bench_function(
+            BenchmarkId::new("share_combine_simple_precomputed", shares_num),
+            |b| b.iter(|| simple_precomputed()),
+        );
+    }
+}
+
+pub fn bench_share_encrypt_decrypt(c: &mut Criterion) {
+    let mut group = c.benchmark_group("ENCRYPT DECRYPT");
+    group.sample_size(10);
+
+    let rng = &mut StdRng::seed_from_u64(0);
+    let shares_num = NUM_SHARES_CASES[0];
+
+    for msg_size in MSG_SIZE_CASES {
+        let mut encrypt = {
+            let mut rng = rng.clone();
+            let setup = SetupFast::new(shares_num, msg_size, &mut rng);
+            move || {
+                black_box(
+                    encrypt::<E>(
+                        &setup.shared.msg,
+                        &setup.shared.aad,
+                        &setup.shared.pubkey,
+                        &mut rng,
+                    )
+                    .unwrap(),
+                );
+            }
+        };
+        let decrypt = {
+            let setup = SetupSimple::new(shares_num, msg_size, rng);
+            move || {
+                black_box(
+                    decrypt_with_shared_secret::<E>(
+                        &setup.shared.ciphertext,
+                        &setup.shared.aad,
+                        &setup.shared.shared_secret,
+                        &setup.contexts[0].setup_params.g_inv,
+                    )
+                    .unwrap(),
+                );
+            }
+        };
+
+        group.bench_function(BenchmarkId::new("encrypt", msg_size), |b| {
+            b.iter(|| encrypt())
+        });
+        group.bench_function(BenchmarkId::new("decrypt", msg_size), |b| {
+            b.iter(|| decrypt())
+        });
+    }
+}
+
+pub fn bench_ciphertext_validity_checks(c: &mut Criterion) {
+    let mut group = c.benchmark_group("CIPHERTEXT VERIFICATION");
+    group.sample_size(10);
+
+    let rng = &mut StdRng::seed_from_u64(0);
+    let shares_num = NUM_SHARES_CASES[0];
+
+    for msg_size in MSG_SIZE_CASES {
+        let ciphertext_verification = {
+            let mut rng = rng.clone();
+            let setup = SetupFast::new(shares_num, msg_size, &mut rng);
+            move || {
+                black_box(check_ciphertext_validity(
+                    &setup.shared.ciphertext,
+                    &setup.shared.aad,
+                    &setup.contexts[0].setup_params.g_inv,
+                ))
+                .unwrap();
+            }
+        };
+        group.bench_function(
+            BenchmarkId::new("ciphertext_verification", msg_size),
+            |b| b.iter(|| ciphertext_verification()),
+        );
+    }
+}
+
+pub fn bench_decryption_share_validity_checks(c: &mut Criterion) {
+    let mut group = c.benchmark_group("DECRYPTION SHARE VERIFICATION");
+    group.sample_size(10);
+
+    let rng = &mut StdRng::seed_from_u64(0);
+    let msg_size = MSG_SIZE_CASES[0];
+
+    for shares_num in NUM_SHARES_CASES {
+        let share_fast_verification = {
+            let mut rng = rng.clone();
+            let setup = SetupFast::new(shares_num, msg_size, &mut rng);
+            move || {
+                black_box(verify_decryption_shares_fast(
+                    &setup.pub_contexts,
+                    &setup.shared.ciphertext,
+                    &setup.decryption_shares,
+                ))
+            }
+        };
+        group.bench_function(
+            BenchmarkId::new("share_fast_verification", shares_num),
+            |b| b.iter(|| share_fast_verification()),
+        );
+
+        let mut share_fast_batch_verification = {
+            let mut rng = rng.clone();
+            let setup = SetupFast::new(shares_num, msg_size, &mut rng);
+            // We need to repackage a bunch of variables here to avoid borrowing issues:
+            let ciphertext = setup.shared.ciphertext.clone();
+            let ciphertexts = vec![ciphertext];
+            let decryption_shares = setup.decryption_shares.clone();
+            let decryption_shares = vec![decryption_shares];
+            move || {
+                black_box(batch_verify_decryption_shares(
+                    &setup.pub_contexts,
+                    &ciphertexts,
+                    &decryption_shares,
+                    &mut rng,
+                ))
+            }
+        };
+        group.bench_function(
+            BenchmarkId::new("share_fast_batch_verification", shares_num),
+            |b| b.iter(|| share_fast_batch_verification()),
+        );
+
+        let share_simple_verification = {
+            let mut rng = rng.clone();
+            let setup = SetupSimple::new(shares_num, msg_size, &mut rng);
+            move || {
+                black_box(verify_decryption_shares_simple(
+                    &setup.pub_contexts,
+                    &setup.shared.ciphertext,
+                    &setup.decryption_shares,
+                ))
+            }
+        };
+        group.bench_function(
+            BenchmarkId::new("share_simple_verification", shares_num),
+            |b| b.iter(|| share_simple_verification()),
+        );
+    }
+}
+
+pub fn bench_recover_share_at_point(c: &mut Criterion) {
+    let mut group = c.benchmark_group("RECOVER SHARE");
+    let rng = &mut StdRng::seed_from_u64(0);
+    let msg_size = MSG_SIZE_CASES[0];
+
+    for &shares_num in NUM_SHARES_CASES.iter() {
+        let mut setup = SetupSimple::new(shares_num, msg_size, rng);
+        let threshold = setup.shared.threshold;
+        let selected_participant = setup.contexts.pop().unwrap();
+        let x_r = selected_participant
+            .public_decryption_contexts
+            .last()
+            .unwrap()
+            .domain;
+        let mut remaining_participants = setup.contexts;
+        for p in &mut remaining_participants {
+            p.public_decryption_contexts.pop();
+        }
+        let domain_points = &remaining_participants[0]
+            .public_decryption_contexts
+            .iter()
+            .map(|ctxt| ctxt.domain)
+            .collect::<Vec<_>>();
+        let h = remaining_participants[0].public_decryption_contexts[0].h;
+        let share_updates = remaining_participants
+            .iter()
+            .map(|p| {
+                let deltas_i = prepare_share_updates_for_recovery::<E>(
+                    domain_points,
+                    &h,
+                    &x_r,
+                    threshold,
+                    rng,
+                );
+                (p.index, deltas_i)
+            })
+            .collect::<HashMap<_, _>>();
+        let new_share_fragments: Vec<_> = remaining_participants
+            .iter()
+            .map(|p| {
+                // Current participant receives updates from other participants
+                let updates_for_participant: Vec<_> = share_updates
+                    .values()
+                    .map(|updates| *updates.get(p.index).unwrap())
+                    .collect();
+
+                // And updates their share
+                update_share_for_recovery::<E>(
+                    &p.private_key_share,
+                    &updates_for_participant,
+                )
+            })
+            .collect();
+        group.bench_function(
+            BenchmarkId::new(
+                "recover_share_from_updated_private_shares",
+                shares_num,
+            ),
+            |b| {
+                b.iter(|| {
+                    let _ = black_box(
+                        recover_share_from_updated_private_shares::<E>(
+                            &x_r,
+                            domain_points,
+                            &new_share_fragments,
+                        ),
+                    );
+                });
+            },
+        );
+    }
+}
+
+pub fn bench_refresh_shares(c: &mut Criterion) {
+    let mut group = c.benchmark_group("REFRESH SHARES");
+    let rng = &mut StdRng::seed_from_u64(0);
+    let msg_size = MSG_SIZE_CASES[0];
+
+    for &shares_num in NUM_SHARES_CASES.iter() {
+        let setup = SetupSimple::new(shares_num, msg_size, rng);
+        let threshold = setup.shared.threshold;
+        let polynomial =
+            make_random_polynomial_at::<E>(threshold, &Fr::zero(), rng);
+        let p = setup.contexts[0].clone();
+        group.bench_function(
+            BenchmarkId::new("refresh_private_key_share", shares_num),
+            |b| {
+                b.iter(|| {
+                    black_box(refresh_private_key_share::<E>(
+                        &p.setup_params.h.into_group(),
+                        &p.public_decryption_contexts[0].domain,
+                        &polynomial,
+                        &p.private_key_share,
+                    ));
+                });
+            },
+        );
+    }
+}
+
+criterion_group!(
+    benches,
+    bench_create_decryption_share,
+    bench_share_prepare,
+    bench_share_combine,
+    bench_share_encrypt_decrypt,
+    bench_ciphertext_validity_checks,
+    bench_decryption_share_validity_checks,
+    bench_recover_share_at_point,
+    bench_refresh_shares,
+);
+
+criterion_main!(benches);
