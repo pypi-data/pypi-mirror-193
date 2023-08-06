@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: klap
+Version: 0.0.1
+Summary: Fast implementation of (continuous) Laplacian spectral embedding.
+Author-email: Vivien Cabannes <vivien.cabannes@gmail.com>
+Project-URL: Homepage, https://github.com/VivienCabannes/laplacian
+Project-URL: Bug Tracker, https://github.com/VivienCabannes/laplacian/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
