@@ -1,0 +1,77 @@
+"""
+Information about how or where to find a topic. Also may contain location data that can be used for where to look for help if the topic is observed.
+
+https://schema.org/HowOrWhereHealthAspect
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class HowOrWhereHealthAspectInheritedProperties(TypedDict):
+    """Information about how or where to find a topic. Also may contain location data that can be used for where to look for help if the topic is observed.
+
+    References:
+        https://schema.org/HowOrWhereHealthAspect
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+
+class HowOrWhereHealthAspectProperties(TypedDict):
+    """Information about how or where to find a topic. Also may contain location data that can be used for where to look for help if the topic is observed.
+
+    References:
+        https://schema.org/HowOrWhereHealthAspect
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+
+class AllProperties(HowOrWhereHealthAspectInheritedProperties , HowOrWhereHealthAspectProperties, TypedDict):
+    pass
+
+
+class HowOrWhereHealthAspectBaseModel(SchemaOrgBase):
+    id_ : Optional[Any] = Field(default="HowOrWhereHealthAspect",alias='@id')
+    context_ : Optional[Any] = Field(default=None,alias='@context')
+    graph_ : Optional[Any] = Field(default=None,alias='@graph')
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(type_: Union[HowOrWhereHealthAspectProperties, HowOrWhereHealthAspectInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "HowOrWhereHealthAspect"
+    return model
+    
+
+HowOrWhereHealthAspect = create_schema_org_model()
+
+
+def create_howorwherehealthaspect_model(model: AllProperties):
+    _type =  AllProperties.copy()
+    for k in model.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: AllProperties):
+    pydantic_type =  create_howorwherehealthaspect_model(model=model)
+    return pydantic_type(model).schema_json()
+
+
