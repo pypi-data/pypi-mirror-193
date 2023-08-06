@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nso-oc
+Version: 0.0.1
+Summary: Cisco NSO OpenConfig Tools
+License-File: LICENSE
+Requires-Dist: urllib3
+Requires-Dist: importlib-metadata ; python_version == "3.8"
+
