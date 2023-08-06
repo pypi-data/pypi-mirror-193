@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: judoscale-python
+Version: 0.1.2
+Summary: Official Python adapter for Judoscale — the advanced autoscaler for Heroku
+Home-page: https://github.com/judoscale/judoscale-python
+License: MIT
+Author: Adam McCrea
+Author-email: adam@adamlogic.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests (<3.0.0)
+Project-URL: Repository, https://github.com/judoscale/judoscale-python
+Description-Content-Type: text/markdown
+
+# `judoscale-python` is now `judoscale` on PyPI
+
+This package has been renamed. New package: https://pypi.org/project/judoscale/.
+
