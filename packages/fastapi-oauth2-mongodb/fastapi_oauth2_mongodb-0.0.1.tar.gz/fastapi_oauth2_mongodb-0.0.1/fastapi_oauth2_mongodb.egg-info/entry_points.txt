@@ -1,0 +1,3 @@
+[console_scripts]
+mycommand = fastapi_oauth2_mongodb.__main__:main
+
