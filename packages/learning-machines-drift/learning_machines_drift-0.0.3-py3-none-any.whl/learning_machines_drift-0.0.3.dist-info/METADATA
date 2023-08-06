@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: learning-machines-drift
+Version: 0.0.3
+Summary: A Python package for monitoring dataset drift in secure environments.
+Author: Sam Greenbury
+Author-email: sgreenbury@turing.ac.uk
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: numpy (>=1.22.4,<2.0.0)
+Requires-Dist: pandas (>=1.5,<2.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: pygments (>=2.11.2,<3.0.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)
+Requires-Dist: sdmetrics (==0.8.0)
+Requires-Dist: tabulate (>=0.8.10,<0.9.0)

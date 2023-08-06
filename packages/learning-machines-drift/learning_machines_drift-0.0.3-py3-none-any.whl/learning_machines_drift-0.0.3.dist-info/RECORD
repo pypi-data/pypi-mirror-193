@@ -1,0 +1,13 @@
+learning_machines_drift/__init__.py,sha256=vN0VLRH7muuYuBc0PWVv4sTbbOTqXQUeOOTos9AdNjA,527
+learning_machines_drift/backends.py,sha256=Jk8rRjZ-IQ00M417G4I68Asgm5GYvWP8k3mv5PliG78,12463
+learning_machines_drift/datasets.py,sha256=xlxaWIhkgqBEzHUMUcXgXgJGfOHC6lwuGEGvltGlvjk,4027
+learning_machines_drift/display.py,sha256=mennZLLOCuJKO1EM_nj-bT5AXgl7h1oMnerHlzZUda0,3100
+learning_machines_drift/exceptions.py,sha256=dnroXHG0vW7aKb_e5B7zfvpB9TTAT7D-_kdipAv5W2Q,196
+learning_machines_drift/filter.py,sha256=XZzdVjho6iPI6nhPPiofdTd3FGM7KK6WSSlROgy-Xy0,5109
+learning_machines_drift/metrics.py,sha256=mCbi1zlvqmYs0dvHLu-vebtazBh2QyjjDqxsM8eMIVk,17041
+learning_machines_drift/monitor.py,sha256=REubWxNuEgDCqgx8vTXRmvwH0482raek4jgqMF8GiT4,2860
+learning_machines_drift/registry.py,sha256=oC-SqqGZTZ3SdGiK6DimVb573rcoFpC5_I53751aIhg,8335
+learning_machines_drift/types.py,sha256=t_j4plvdJTB2QoX_96qeXxXm29Lmsho1fazkNlTC2F0,3800
+learning_machines_drift-0.0.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+learning_machines_drift-0.0.3.dist-info/METADATA,sha256=yWlFIcBR4mj1U9L8K8IvZWvDi3cJ8Mdp2Vd9R1VJXvc,648
+learning_machines_drift-0.0.3.dist-info/RECORD,,
