@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: epss-api
+Version: 0.2.0
+Summary: EPSS API Python Client
+Home-page: https://github.com/kannkyo/epss-api
+Keywords: EPSS,security,vulnerability
+Author: kannkyo
+Author-email: 15080890+kannkyo@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: urllib3 (>=1.26.13,<2.0.0)
+Project-URL: Documentation, https://github.com/kannkyo/epss-api
+Project-URL: Repository, https://github.com/kannkyo/epss-api
+Description-Content-Type: text/x-rst
+
+=================
+EPSS API Client
+=================
+
+.. image:: https://badge.fury.io/py/epss-api.svg
+    :target: https://badge.fury.io/py/epss-api
+
+.. image:: https://github.com/kannkyo/epss-api/actions/workflows/python-ci.yml/badge.svg
+    :target: https://github.com/kannkyo/epss-api/actions/workflows/python-ci.yml
+
+.. image:: https://codecov.io/gh/kannkyo/epss-api/branch/main/graph/badge.svg?token=R40FT0KITO 
+ :target: https://codecov.io/gh/kannkyo/epss-api
+
+.. image:: https://github.com/kannkyo/epss-api/actions/workflows/scorecards.yml/badge.svg
+    :target: https://github.com/kannkyo/epss-api/actions/workflows/scorecards.yml
+
+EPSS API client.
+
