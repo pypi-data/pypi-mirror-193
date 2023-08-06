@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cify
+Version: 0.0.1
+Summary: A framework that provides the ability to easily and reliably implement nature-inspired optimization meta-heuristics.
+Home-page: https://github.com/KyleErwin/cify
+Author: AEPG
+License: MIT
+Keywords: cify,computational intelligence,optimization,nature-inspired
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
