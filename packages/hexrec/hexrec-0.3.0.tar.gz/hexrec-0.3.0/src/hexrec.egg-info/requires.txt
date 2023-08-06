@@ -1,0 +1,6 @@
+bytesparse>=0.0.6
+click
+Deprecated
+
+[testing]
+pytest
