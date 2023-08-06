@@ -1,0 +1,8 @@
+cequest/__init__.py,sha256=Uq8v_k_dtR2k9B-wMH4VyOMWJFsRF8AHFfe7B19qzLM,161
+cequest/exceptions.py,sha256=qcgOZe4FdsVFDh6l1ZL4jPWAjCXT-uoUd5mygbbt804,200
+cequest/model.py,sha256=3AcMVIC75UgC83G_fBEld0BnqEOvgG2YrLTS3FHJOVs,477
+cequest/req.py,sha256=8jhC8rzwQ2JksmooJcRw6bv7r9kJftCq4bJSbYlz9Yk,640
+cequest/sess.py,sha256=tKnwWOUbWeC5dTUuS-CrYzj01o5iZo_t4ZrtQusw9Sc,12081
+cequest-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cequest-0.0.1.dist-info/METADATA,sha256=YsR19eKZUFqITowM-bWnk5mcSeLMm1q5fJTIOO8Y_fg,558
+cequest-0.0.1.dist-info/RECORD,,
