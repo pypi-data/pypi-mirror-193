@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+economynlp/__init__.py
+economynlp/hello.py
+economynlp.egg-info/PKG-INFO
+economynlp.egg-info/SOURCES.txt
+economynlp.egg-info/dependency_links.txt
+economynlp.egg-info/top_level.txt
