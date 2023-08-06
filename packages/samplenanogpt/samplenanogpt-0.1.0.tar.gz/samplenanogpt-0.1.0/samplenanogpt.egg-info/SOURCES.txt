@@ -1,0 +1,5 @@
+setup.py
+samplenanogpt.egg-info/PKG-INFO
+samplenanogpt.egg-info/SOURCES.txt
+samplenanogpt.egg-info/dependency_links.txt
+samplenanogpt.egg-info/top_level.txt
