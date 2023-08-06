@@ -1,0 +1,65 @@
+[project]
+name = "hipscat-import"
+license = {file = "LICENSE"}
+readme = "README.md"
+authors = [
+    { name = "LINCC-Frameworks", email = "delucchi@andrew.cmu.edu" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+]
+dynamic = ["version"]
+dependencies = [
+    "dask",
+    "dask[distributed]",
+    "deprecated",
+    "healpy",
+    "hipscat",
+    "ipykernel", # Support for Jupyter notebooks
+    "pandas",
+    "pyarrow",
+    "tqdm",
+]
+
+# On a mac, install optional dependencies with `pip install '.[dev]'` (include the single quotes)
+[project.optional-dependencies]
+dev = [
+    "nbconvert", # Needed for pre-commit check to clear output from Python notebooks
+    "pre-commit", # Used to run checks before finalizing a git commit
+    "pytest", 
+    "pytest-cov",
+    "pylint", # Used for static linting of files
+    "sphinx==6.1.3", # Used to automatically generate documentation
+    "sphinx_rtd_theme==1.2.0", # Used to render documentation
+    "sphinx-autoapi==2.0.1", # Used to automatically generate api documentation
+]
+
+[metadata]
+description = "HiPSCat import"
+long_description = { file = "README.md" }
+url = "https://github.com/astronomy-commons/hipscat-import"
+
+[build-system]
+requires = [
+    "setuptools>=45", # Used to build and package the Python project
+    "setuptools_scm>=6.2", # Gets release version from git. Makes it available programmatically
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/hipscat_import/_version.py"
+
+
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = """
+    missing-module-docstring,
+"""
+ignore-patterns = "^_.*" # Ignore files that start with an underscore, i.e. _version.py
+
+
