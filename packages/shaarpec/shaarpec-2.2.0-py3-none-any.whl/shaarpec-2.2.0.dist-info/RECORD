@@ -1,0 +1,8 @@
+shaarpec/__init__.py,sha256=x3LIdpsnfIbYqIYut4AXuzRKeSsLjhMSM6LUg6AgP_0,77
+shaarpec/client.py,sha256=EC2ayXAq0m5xPccV0PQDQIlVKdh3s9DJ6i3jIU9dwRc,13944
+shaarpec/tasks.py,sha256=9wL4n8ToKLCOKSNb8ds13l7gedQzNVmI3cGUW5H6rNg,1671
+shaarpec/utils.py,sha256=L_e1s-IBDddqo3CVGUrjYVwSsk6VDD8PmHU5v_MtqkY,178
+shaarpec-2.2.0.dist-info/LICENSE,sha256=lF5HEEFwNMT7SSKLSrNLV9204g6gOcIYTemRsiKuvNE,1080
+shaarpec-2.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+shaarpec-2.2.0.dist-info/METADATA,sha256=76DuCnMXB6xeMA7GeH8Yui3hywPJMFWBgSzxLPi2YWY,11991
+shaarpec-2.2.0.dist-info/RECORD,,
