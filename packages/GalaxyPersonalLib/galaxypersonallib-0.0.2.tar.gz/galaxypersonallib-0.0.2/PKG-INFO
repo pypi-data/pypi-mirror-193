@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: GalaxyPersonalLib
+Version: 0.0.2
+Summary: A set of personal functions to use in future projects.
+Project-URL: Homepage, https://github.com/GalaxyGamerYT/Galaxy-Personal-Lib
+Project-URL: Bug Tracker, https://github.com/GalaxyGamerYT/Galaxy-Personal-Lib/issues
+Author-email: GalaxyGamerYT <glaxy@ziggycraft.net>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# GalaxyEncryption
+A set of personal functions to use in future projects.  
+Made by GalaxyGamerYT
+
+[PyPi](https://pypi.org/project/GalaxyPersonalLib/)
