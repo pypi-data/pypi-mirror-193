@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/tgchequeman/AppleColorEmoji.ttf
+src/tgchequeman/__init__.py
+src/tgchequeman/exceptions.py
+src/tgchequeman/utils.py
+src/tgchequeman/version.py
+src/tgchequeman.egg-info/PKG-INFO
+src/tgchequeman.egg-info/SOURCES.txt
+src/tgchequeman.egg-info/dependency_links.txt
+src/tgchequeman.egg-info/requires.txt
+src/tgchequeman.egg-info/top_level.txt
