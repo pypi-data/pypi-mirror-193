@@ -1,0 +1,11 @@
+neurencoding/__init__.py,sha256=C6q6KvEsSbTX1Xw3MDl6_hScu3UhFu64sf1WDvkCovE,77
+neurencoding/_models.py,sha256=K2FadXHqtrsAY7yahgX8A5eMLEAUdwxgHvV8CuE2u0A,11599
+neurencoding/design_matrix.py,sha256=FXibY6HBbtShnZaIU4yXMV_i6p1-GkNO9AbbkHPCt8k,22719
+neurencoding/linear.py,sha256=lIV343Ik1i8-ZvQ4s_umJcE3Ih4HsrwTYZCkQb626M4,4134
+neurencoding/poisson.py,sha256=bDwOnn7WG4Zri1U3KPlXyZKc4SRPugT-cOEYbhxTSIU,4595
+neurencoding/utils.py,sha256=fOB5a3dTLEmYTyl7YS3pnd1MsxIGjY8wZ4k0xSvtyKk,15406
+neurencoding-0.1.7.dist-info/LICENSE,sha256=6rnO4gkCC_t-REElQ7_MEICZP5pYZIl3oPY9Ud7cBpI,1081
+neurencoding-0.1.7.dist-info/METADATA,sha256=zHuP_5KSIpLBnUdXs5Teft0cO13pDFuIQ6--A2-AEDM,1609
+neurencoding-0.1.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+neurencoding-0.1.7.dist-info/top_level.txt,sha256=3dUDSndH2mW_tDn6oC1OJiBZSXYE8-HSCcMEY8wV-Us,13
+neurencoding-0.1.7.dist-info/RECORD,,
