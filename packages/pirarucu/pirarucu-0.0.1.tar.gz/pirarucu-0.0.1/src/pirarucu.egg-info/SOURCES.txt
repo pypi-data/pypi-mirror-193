@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+src/pirarucu/__init__.py
+src/pirarucu.egg-info/PKG-INFO
+src/pirarucu.egg-info/SOURCES.txt
+src/pirarucu.egg-info/dependency_links.txt
+src/pirarucu.egg-info/top_level.txt
