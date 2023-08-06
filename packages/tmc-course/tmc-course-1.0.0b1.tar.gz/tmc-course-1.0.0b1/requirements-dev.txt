@@ -1,0 +1,14 @@
+black
+build
+covdefaults
+coverage
+flake8
+isort
+mypy
+pre-commit
+pytest
+responses
+tox
+types-setuptools
+types-requests
+wheel
