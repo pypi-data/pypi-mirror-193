@@ -1,0 +1,8 @@
+bbargparser/__init__.py,sha256=hnRrGX_I_E752d1IDGmth0v66G79SC5SPJn_eJvoZ8Y,49
+bbargparser/argparser.py,sha256=dcBQb9r5Gg4P8cHQyu4t4oAT2Qc8jwKCjpnfFzm-_4Y,11659
+bblogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bblogger/logger.py,sha256=8ULP6tNYUuhbg2kJmp_7WLu2bL1WFRbR0-BbInPtvyU,19007
+bblogger/texttools.py,sha256=DCi2XRM7T-vlxcbSaTOf9zrJ2lVYbbL7_GKFqDBT8Eg,11757
+bb_apputils-0.3.7.dist-info/METADATA,sha256=SuDlDl7F48_4G6QRMLCKY1xZngN_OqMsz8GYb-iOJPY,12993
+bb_apputils-0.3.7.dist-info/WHEEL,sha256=UTbu2d3PIo7FtACOQrq825bNtQhldwLx2SG2oh0Fl8Q,88
+bb_apputils-0.3.7.dist-info/RECORD,,
