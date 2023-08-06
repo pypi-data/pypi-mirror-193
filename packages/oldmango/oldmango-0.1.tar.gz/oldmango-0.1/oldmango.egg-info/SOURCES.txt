@@ -1,0 +1,8 @@
+MANIFEST.in
+requirements.txt
+setup.py
+oldmango.egg-info/PKG-INFO
+oldmango.egg-info/SOURCES.txt
+oldmango.egg-info/dependency_links.txt
+oldmango.egg-info/requires.txt
+oldmango.egg-info/top_level.txt
