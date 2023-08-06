@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+aolibxyz.egg-info/PKG-INFO
+aolibxyz.egg-info/SOURCES.txt
+aolibxyz.egg-info/dependency_links.txt
+aolibxyz.egg-info/top_level.txt
