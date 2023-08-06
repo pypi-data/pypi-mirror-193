@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+spacefinder/__init__.py
+spacefinder/spacefinder.py
+spacefinder.egg-info/PKG-INFO
+spacefinder.egg-info/SOURCES.txt
+spacefinder.egg-info/dependency_links.txt
+spacefinder.egg-info/not-zip-safe
+spacefinder.egg-info/top_level.txt
+tests/test_spacefinder.py
