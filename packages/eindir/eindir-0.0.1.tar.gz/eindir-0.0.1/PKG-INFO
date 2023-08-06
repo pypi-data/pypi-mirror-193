@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eindir
+Version: 0.0.1
+Summary: A set of "particles" or components mainly focused on working with functions in ND.
+Author-email: Rohit Goswami <rgoswami@ieee.org>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# eindir
+
+A set of "particles" or components mainly focused on working with functions in ND.
