@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bns_utils
+Version: 0.0.1
+Summary: Some utilities for BNS internal use
+Author-email: Example Author <author@example.com>
+Project-URL: Homepage, https://github.com/Dave-the-python-developer/BNS_utils
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BNS UTILS
+
+Documentation goes here.
+
