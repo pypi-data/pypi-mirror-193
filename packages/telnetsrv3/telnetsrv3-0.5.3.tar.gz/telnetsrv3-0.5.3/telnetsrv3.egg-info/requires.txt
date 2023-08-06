@@ -1,0 +1,6 @@
+
+[green]
+gevent
+
+[ssh]
+paramiko
