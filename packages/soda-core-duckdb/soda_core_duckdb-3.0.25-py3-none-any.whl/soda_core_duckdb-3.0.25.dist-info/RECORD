@@ -1,0 +1,5 @@
+soda/data_sources/duckdb_data_source.py,sha256=hY_zaX8NqOvQZ_Cc2644stO31xZUuJbV2Dw1_dx0UcE,5301
+soda_core_duckdb-3.0.25.dist-info/METADATA,sha256=jEH46qscUQ8WvBQM7GF6gA1LMqXGm7HZEIiihzvJosw,130
+soda_core_duckdb-3.0.25.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+soda_core_duckdb-3.0.25.dist-info/top_level.txt,sha256=nh9kmM9ZWOtIXfwHLUKLl7m6xAFti83JVa2Rcxm6Zck,5
+soda_core_duckdb-3.0.25.dist-info/RECORD,,
