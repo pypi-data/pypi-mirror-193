@@ -1,0 +1,9 @@
+README.md
+setup.py
+HPDMSTD205/__init__.py
+HPDMSTD205/readHPDM.py
+HPDMSTD205.egg-info/PKG-INFO
+HPDMSTD205.egg-info/SOURCES.txt
+HPDMSTD205.egg-info/dependency_links.txt
+HPDMSTD205.egg-info/requires.txt
+HPDMSTD205.egg-info/top_level.txt
