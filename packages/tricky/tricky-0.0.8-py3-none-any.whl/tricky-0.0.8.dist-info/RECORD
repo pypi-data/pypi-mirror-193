@@ -1,0 +1,11 @@
+tricky/__init__.py,sha256=XKd_R7-Q7AmA6huG056G5KwT1DWyT1WP79W5_otu9Zs,72
+tricky/iterables.py,sha256=ZNNbe1hqjqt0qTP10IR7G-_H6F2OYk06s4r8K13rxqo,697
+tricky/pydantic/__init__.py,sha256=bXeKq-wh0cS7Yp9taa7CaIJqKEPcmId6gcgxTj85ZM4,54
+tricky/pydantic/types.py,sha256=w3dYJ2COarv3WXBN6j1VibF-fRDF-26fp61x4yeLgbU,646
+tricky/typing.py,sha256=uvHIdfiUVUacih7s8ozamHOPJgRBvZty3hR5mfvg6kw,3393
+tricky/utils/__init__.py,sha256=igLXnmv2n-gCgszAouh6E2579eyo_-gheGZ8NrUNvZw,47
+tricky/utils/decorators.py,sha256=fYmC1D36veqxYhDIVc-fgFYArLL3T7wVH2T2gz-eeKU,769
+tricky-0.0.8.dist-info/METADATA,sha256=jhGEkGXKlmUCzLzn2yHoZ9g58W6vzAm8edu-IuBLZzM,2826
+tricky-0.0.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tricky-0.0.8.dist-info/LICENSE,sha256=wUqICPHje-HIiKP-2ZEnS4C6QqiCY87BUlfachoTgCY,1078
+tricky-0.0.8.dist-info/RECORD,,
