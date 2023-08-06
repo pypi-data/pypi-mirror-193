@@ -1,0 +1,2 @@
+[console_scripts]
+MiniumBoot = MiniumBoot.boot:main
