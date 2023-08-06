@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+package_dir = \
+{'': 'src'}
+
+packages = \
+['easyflake']
+
+package_data = \
+{'': ['*']}
+
+setup_kwargs = {
+    'name': 'easyflake',
+    'version': '0.0.3',
+    'description': 'EasyFlake is a Python package for generating 64-bit IDs similar to Snowflake or Sonyflake.',
+    'long_description': '# EasyFlake\n\n[![Test passing](https://github.com/tsuperis/easyflake/actions/workflows/tests.yml/badge.svg)](https://github.com/tsuperis/easyflake/actions/workflows/tests.yml)\n[![codecov](https://codecov.io/gh/tsuperis/easyflake/branch/main/graph/badge.svg?token=3TIHGMYN1G)](https://codecov.io/gh/tsuperis/easyflake)\n![PyPI](https://img.shields.io/pypi/v/easyflake)\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/easyflake)\n[![License](https://img.shields.io/github/license/tsuperis/easyflake)](https://github.com/tsuperis/easyflake/blob/main/LICENSE)\n\nEasyFlake is a Python package for generating 64-bit IDs similar to Snowflake or Sonyflake. It provides a simple way to generate unique and sortable IDs that can be used as primary keys in databases, message queue messages, or other distributed systems.\n\n## Installation\n\nInstall the latest version of EasyFlake using pip:\n\n```bash\npip install easyflake\n```\n\n## Usage\n\nTo use EasyFlake, simply create an instance of the `EasyFlake` class, passing in a unique node ID:\n\n```python\nfrom easyflake import EasyFlake\n\nef = EasyFlake(node_id=1)\nprint(ef.get_id())\n```\n\nThe `get_id()` method generates the next ID by the current timestamp. You can customize the number of bits used for the node ID and sequence ID parts, as well as the epoch timestamp and time scale.\n\n```python\nef = EasyFlake(node_id=0, node_id_bits=4, sequence_bits=6)\nprint(ef.get_id())\n```\n\n### Arguments\n\n* `node_id` (int): A unique ID for the current node. This ID should be between 0 and (2 ^ node_id_bits) - 1, where `node_id_bits` is an optional argument that defaults to 8.\n* `node_id_bits` (int, optional): The maximum number of bits used to represent the node ID. This argument defaults to 8.\n* `sequence_bits` (int, optional): The maximum number of bits used to represent the sequence number. This argument defaults to 10.\n* `epoch` (float, optional): A timestamp used as a reference when generating the timestamp section of the ID. This argument defaults to 1675859040(2023-02-08T12:24:00Z).\n* `time_scale` (int, optional): The number of decimal places used to represent the timestamp. This argument defaults to 3(milliseconds).\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](https://github.com/tsuperis/easyflake/blob/main/LICENSE) file for details.\n',
+    'author': 'Takeru Furuse',
+    'author_email': 'tsuperis@gmail.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'None',
+    'package_dir': package_dir,
+    'packages': packages,
+    'package_data': package_data,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
