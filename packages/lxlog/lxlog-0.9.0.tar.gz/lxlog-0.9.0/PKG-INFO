@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lxlog
+Version: 0.9.0
+Summary: A package for analyzing system log files
+Home-page: https://selvaguru-s.web.app
+Author: selvaguru
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
