@@ -1,0 +1,37 @@
+[project]
+name="fsverity-hash"
+version="0.0.3"
+description="fs-verity digest implementation for Python"
+readme="README.md"
+license={file="LICENSE.txt"}
+requires-python=">=3.7"
+authors=[
+    {name="Alex Willmer", email="alex@moreati.org.uk"},
+]
+maintainers=[
+    {name="Alex Willmer", email="alex@moreati.org.uk"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Security :: Cryptography"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/moreati/fsverity-hash"
+
+[build-system]
+requires = [
+    "setuptools>=43.0.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
