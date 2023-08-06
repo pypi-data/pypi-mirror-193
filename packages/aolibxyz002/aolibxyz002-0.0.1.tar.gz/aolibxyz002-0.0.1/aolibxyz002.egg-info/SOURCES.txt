@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Code_goes_here/__init__.py
+Code_goes_here/first.py
+aolibxyz002.egg-info/PKG-INFO
+aolibxyz002.egg-info/SOURCES.txt
+aolibxyz002.egg-info/dependency_links.txt
+aolibxyz002.egg-info/top_level.txt
