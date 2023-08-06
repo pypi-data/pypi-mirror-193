@@ -1,0 +1,14 @@
+senzing/G2Config.py,sha256=yQaoDBqG3PhXJx8CS7iqMJ008Fb_VK-XOagc2UcpE8Q,12052
+senzing/G2ConfigMgr.py,sha256=5ruJeJaJecdvFqukl5gK2yDLcRA-t2YPU3X2sWXP-5Q,13689
+senzing/G2Diagnostic.py,sha256=vJFLHJjZgAblpkbhnKkT10BdYgp63BDM2Rtk4COHBuQ,26280
+senzing/G2Engine.py,sha256=yKPQQnqcPEopiaNeGsZV8ynoj6mymqhioCBOXwvogJk,79295
+senzing/G2EngineFlags.py,sha256=Y-jCm9_4HPMDkySOR9-5NdVmRwG86rDVhAROrcjiIgA,5368
+senzing/G2Exception.py,sha256=PECr7Tj8x4ObGkHwGZpzRwfseYkYCDxamKRIP_YtqoM,7414
+senzing/G2Hasher.py,sha256=XAtDjI843u2QCeNdObnZUTVoJzraCwp3GlZ9wdQ5y-g,9544
+senzing/G2Product.py,sha256=2i5M8U3f3F5MpTL9Mjjcm1BaMj-L1G1UEq1-JkOXxak,10172
+senzing/__init__.py,sha256=Cco4gJIpdIIZPW4YTN8S5AEo3PzlfM93cA0ALQAaXb0,1249
+senzing_ce-3.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+senzing_ce-3.3.0.dist-info/METADATA,sha256=zvHSovyGAocrWmj75u3zeHcGyeGW2-iPlm4z6t4dyTc,6799
+senzing_ce-3.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+senzing_ce-3.3.0.dist-info/top_level.txt,sha256=093WC5UBQT0SEOBQFiaJzZBtZx46c-A4qN1eOSfCGzQ,8
+senzing_ce-3.3.0.dist-info/RECORD,,
