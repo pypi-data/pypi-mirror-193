@@ -1,0 +1,96 @@
+{%- if api == "organizations" %}
+# Organizations
+{%-     for org in data_to_template %}
+## ID: {{ org.id }}
+### Name: {{ org.name }}
+### Enabled: {{ org.api.enabled }}
+### Cloud Region Name: {{ org.cloud.region.name }}
+### Licensing Model: {{ org.licensing.model }}
+### Management Details: {{ org.management.details }}
+### [URL]({{ org.url }})
+{%-     endfor %}
+{%- elif api == "networks" %}
+# Organization Networks
+{%-     for hit in data_to_template %}
+{%-         if hit %}
+{%-             for network in hit %}
+## Organization ID: {{ network.organizationId }}
+### Name: {{ network.name }}
+### Enrollment String: {{ network.enrollmentString }}
+### ID: {{ network.id }}
+### Is Bound to Config Template: {{ network.isBoundToConfigTemplate }}
+### Notes: {{ network.notes }}
+### Tags: {{ network.tags }}
+### Timezone: {{ network.timeZone }}
+### [URL]({{ network.url }})
+### Products
+{%-                 for product_type in network.productTypes %}
+#### {{ product_type }}
+{%-                 endfor %}
+{%-             endfor %}
+{%-         endif %}
+{%-    endfor %}
+{%- elif api == "devices" %}
+# Organization Devices
+{%-     for hit in data_to_template %}
+{%-         if hit %}
+{%-             for network in hit %}
+## Name: {{ network.name }}
+### Location
+#### Address: {{ network.address }}
+#### Latitude: {{ network.lat }}
+#### Longitude: {{ network.lng }}
+### Configuration Updated At: {{ network.configurationUpdatedAt }}
+### Firmware: {{ network.firmware }}
+### LAN IP: {{ network.lanIp }}
+### MAC: {{ network.mac }}
+### Model: {{ network.model }}
+### Network ID: {{ network.networkId }}
+### Notes: {{ network.notes }}
+### Product Type: {{ network.productType }}
+### Serial: {{ network.serial }}
+### Tags: {{ network.tags }}
+### [URL]({{ network.url }})
+{%-             endfor %}
+{%-         endif %}
+{%-    endfor %}
+{%- elif api == "clients" %}
+# Network Clients
+{%-     for hit in data_to_template %}
+{%-         if hit %}
+{%-             for client in hit %}
+## ID: {{ client.id }}
+### Adaptive Policy Group: {{ client.adaptivePolicyGroup }}
+### Description: {{ client.description }}
+### Device Type Prediction: {{ client.deviceTypePrediction }}
+### Timestamps
+#### First Seen: {{ client.firstSeen }}
+#### Last Seen: {{ client.lastSeen }}
+### Group Policy 802.1x: {{ client.groupPolicy8021x }}
+### IP
+#### v4: {{ client.ip }}
+#### v6: {{ client.ip6 }}
+#### v6 Local: {{ client.ip6Local }}
+### MAC: {{ client.mac }}
+### Manufacturer: {{ client.manufacturer }}
+### Notes: {{ client.notes }}
+### OS: {{ client.os }}
+### Recent Device
+#### Connection: {{ client.recentDeviceConnection }}
+#### MAC: {{ client.recentDeviceMac }}
+#### Name: {{ client.recentDeviceName }}
+#### Serial: {{ client.recentDeviceSerial }}
+### SM Installed: {{ client.smInstalled }}
+### SSID: {{ client.ssid }}
+### Status: {{ client.status }}
+### Switchport: {{ client.switchport }}
+### Usage:
+#### Received: {{ client.usage.recv }}
+#### Sent: {{ client.usage.sent }}
+#### Total: {{ client.usage.total }}
+### User: {{ client.user }}
+### VLAN: {{ client.vlan }}
+{%-             endfor %}
+{%-         endif %}
+{%-    endfor %}
+{%- endif %}

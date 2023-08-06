@@ -1,0 +1,983 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Organization Devices</h1>
+<table id = "datatable">
+<thead>
+  <tr>
+    <th>Network ID</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Configuration Updated At</th>
+    <th>Firmware</th>
+    <th>LAN IP</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+    <th>MAC</th>
+    <th>Model</th>
+    <th>Notes</th>
+    <th>Product Type</th>
+    <th>Serial</th>
+    <th>Tags</th>
+    <th>URL</th>
+  </tr>
+</thead>  
+<tbody>
+  <tr>
+    <td>L_739153288842211764</td>
+    <td></td>
+    <td></td>
+    <td>2022-04-06T20:40:56Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:cb:bc:3c:51:7e</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-MABW-XS49</td>
+    <td>[]</td>
+    <td><a href="https://n313.meraki.com/ac_net-switch/n/-oOIxb5e/manage/nodes/new_list/247165641052542">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_739153288842212545</td>
+    <td></td>
+    <td></td>
+    <td>2022-06-28T04:09:53Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:cb:bc:51:43:5c</td>
+    <td>MR53</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2MD-DNPT-TL4B</td>
+    <td>[]</td>
+    <td><a href="https://n313.meraki.com/Techlab-Demo-wir/n/D9te-b5e/manage/nodes/new_list/247165642425180">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481111254</td>
+    <td>TEST NAME</td>
+    <td></td>
+    <td>2023-01-12T22:20:47Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:17:d5:1a</td>
+    <td>MX65</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2QN-WPR6-UJPL</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/Aardvark-Branch-/n/0jNvzbvc/manage/nodes/new_list/246656701814042">URL</a></td>
+  </tr>
+  <tr>
+    <td>N_646829496481188542</td>
+    <td></td>
+    <td></td>
+    <td>2022-05-10T19:09:02Z</td>
+    <td>Not running configured version</td>
+    <td>10.10.23.250</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>cc:03:d9:01:70:fb</td>
+    <td>VMX-M</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2DZ-225U-KDVU</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/vmx_1.3_mike/n/bkWa_bvc/manage/nodes/new_list/224316897718523">URL</a></td>
+  </tr>
+  <tr>
+    <td>N_646829496481188541</td>
+    <td></td>
+    <td></td>
+    <td>2022-05-10T20:20:39Z</td>
+    <td>Not running configured version</td>
+    <td>10.10.22.250</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>cc:03:d9:01:cc:1b</td>
+    <td>VMX-M</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2DZ-6VAH-SGNZ</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/vmx_1.2_mike/n/erllgavc/manage/nodes/new_list/224316897741851">URL</a></td>
+  </tr>
+  <tr>
+    <td>N_646829496481187875</td>
+    <td></td>
+    <td></td>
+    <td>2022-05-10T23:36:29Z</td>
+    <td>Not running configured version</td>
+    <td>10.10.21.250</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>cc:03:d9:01:cf:f1</td>
+    <td>VMX-M</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2DZ-T2Y7-NSCZ</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/vmx_1.1_mike/n/mBSfkbvc/manage/nodes/new_list/224316897742833">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112535</td>
+    <td></td>
+    <td></td>
+    <td>2022-12-03T03:24:31Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>cc:03:d9:01:77:28</td>
+    <td>VMX-M</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2DZ-Y8FL-W85B</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/MERAKI-FRIDAY-ap/n/ji8rpcvc/manage/nodes/new_list/224316897720104">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113159</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-23T01:50:51Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:10:42:8a</td>
+    <td>MR84</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2EK-S3AA-BXFW</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/Explore-Projects/n/7slgpcvc/manage/nodes/new_list/246656701317770">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112535</td>
+    <td></td>
+    <td></td>
+    <td>2022-12-03T03:23:31Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>34:56:fe:a2:58:89</td>
+    <td>MV12WE</td>
+    <td></td>
+    <td>camera</td>
+    <td>Q2FV-4QSY-KBF6</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/MERAKI-FRIDAY-ca/n/RaVb6dvc/manage/nodes/new_list/57548243884169">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113133</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-18T04:05:54Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>34:56:fe:a2:58:83</td>
+    <td>MV12WE</td>
+    <td></td>
+    <td>camera</td>
+    <td>Q2FV-TG7N-MF4E</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DNENT2-axxxxxxx8/n/s4Zprbvc/manage/nodes/new_list/57548243884163">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113110</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-16T16:10:59Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>34:56:fe:a2:58:86</td>
+    <td>MV12WE</td>
+    <td></td>
+    <td>camera</td>
+    <td>Q2FV-W72R-U7WX</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNENT3-gxxxxxlgm/n/AimLRbvc/manage/nodes/new_list/57548243884166">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113068</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-11T17:43:29Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>00:18:0a:84:77:e2</td>
+    <td>MR18</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2GD-3GCM-KSQ8</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/CCNP-SABADO-wire/n/JEme-avc/manage/nodes/new_list/8681442">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113110</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-16T16:10:54Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>34:56:fe:a5:6c:20</td>
+    <td>MS225-24P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2GW-2CA5-RW6A</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNENT3-gxxxxxlgm/n/b6sUWdvc/manage/nodes/new_list/57548244085792">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112797</td>
+    <td>SW01-TEST-NEW-NAME</td>
+    <td>923 Valley Farms Avenue Lafayette, IN 47905</td>
+    <td>2023-01-13T02:21:31Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>40.4064351</td>
+    <td>-86.761749</td>
+    <td>34:56:fe:a5:6d:20</td>
+    <td>MS225-24P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2GW-2CPC-JCYZ</td>
+    <td>['recently-added', 'switches', 'test-tag']</td>
+    <td><a href="https://n149.meraki.com/CCNP-SCOR-switch/n/BW5c6cvc/manage/nodes/new_list/57548244086048">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113133</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-18T04:05:48Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>34:56:fe:a5:8a:20</td>
+    <td>MS225-24P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2GW-2WW9-LLZC</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DNENT2-axxxxxxx8/n/FwiN7bvc/manage/nodes/new_list/57548244093472">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113160</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-23T02:20:40Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>88:15:44:df:76:d1</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-AJ22-UG72</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNSMB4-mxxxxxxko/n/8Q8SBavc/manage/nodes/new_list/149624931186385">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481105433</td>
+    <td></td>
+    <td></td>
+    <td>2022-02-10T13:58:35Z</td>
+    <td>switch-11-31</td>
+    <td>10.10.10.131</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>88:15:44:df:f3:af</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-F5K5-R88R</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DevNet-Sandbox-A/n/EFZ1Davc/manage/nodes/new_list/149624931218351">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113068</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-11T17:44:25Z</td>
+    <td>switch-14-33-1</td>
+    <td>192.168.0.3</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/CCNP-SABADO-swit/n/OjLj5dvc/manage/nodes/new_list/13803412550041">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113159</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-23T01:50:43Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:d2:e6:cd</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-Q9S8-BVHB</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/Explore-Projects/n/b0A2gavc/manage/nodes/new_list/246656714073805">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113141</td>
+    <td>MS220-01</td>
+    <td></td>
+    <td>2023-02-20T02:19:46Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.41809396932946</td>
+    <td>-122.0985318068415</td>
+    <td>88:15:44:df:fe:8e</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-WH5E-MK7H</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNSMB2-axxxxhme./n/LHy40dvc/manage/nodes/new_list/149624931221134">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112797</td>
+    <td></td>
+    <td></td>
+    <td>2023-01-13T01:54:14Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:ae:0f:10</td>
+    <td>MR32</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2JD-3J97-QQYK</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/CCNP-SCOR-wirele/n/rG-oudvc/manage/nodes/new_list/246656711659280">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113160</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-23T02:20:42Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:1f:a7:10</td>
+    <td>MR32</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2JD-CAF3-Y6G2</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNSMB4-mxxxxxxko/n/czML1dvc/manage/nodes/new_list/246656702326544">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112860</td>
+    <td>MR32-01</td>
+    <td>Thane</td>
+    <td>2023-01-18T15:00:40Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>19.21833</td>
+    <td>72.97809</td>
+    <td>e0:55:3d:21:26:60</td>
+    <td>MR32</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2JD-N9K5-3QRB</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/Meraki-Emilio-wi/n/JLB3Gdvc/manage/nodes/new_list/246656702424672">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481111955</td>
+    <td></td>
+    <td></td>
+    <td>2022-09-15T00:21:05Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:e9:98:d0</td>
+    <td>MX100</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2JN-P6MT-PPZ5</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/Teslag.Meraki.co/n/vhNLVcvc/manage/nodes/new_list/246656715561168">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112509</td>
+    <td></td>
+    <td></td>
+    <td>2022-11-26T22:28:58Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>0c:8d:db:b2:86:9c</td>
+    <td>MR52</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2LD-98WJ-743V</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/Teslag-Meraki-CC/n/ZPZ0Scvc/manage/nodes/new_list/13803415832220">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113132</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-18T03:43:21Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>88:15:44:60:20:a8</td>
+    <td>MR53</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2MD-9PJD-E9L7</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DNSMB5-xxxxxx6st/n/Nuensbvc/manage/nodes/new_list/149624922841256">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112535</td>
+    <td></td>
+    <td></td>
+    <td>2022-12-03T03:24:16Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:cb:bc:51:42:78</td>
+    <td>MR53</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2MD-AAKS-ZQ4Y</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/MERAKI-FRIDAY-wi/n/WupScavc/manage/nodes/new_list/247165642424952">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481105433</td>
+    <td>Testing-Devnet</td>
+    <td>Puri Kharisma</td>
+    <td>2022-01-28T06:00:58Z</td>
+    <td>wireless-26-6-1</td>
+    <td>None</td>
+    <td>-6.978176264197443</td>
+    <td>107.63147611621667</td>
+    <td>88:15:44:60:21:10</td>
+    <td>MR53</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2MD-BHHS-5FDL</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DevNet-Sandbox-A/n/raXeAcvc/manage/nodes/new_list/149624922841360">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113110</td>
+    <td>DNENT3-MR53</td>
+    <td></td>
+    <td>2023-02-16T16:10:57Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:cb:bc:51:45:80</td>
+    <td>MR53</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2MD-MFNY-6L6H</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNENT3-gxxxxxlgm/n/Ve0G0cvc/manage/nodes/new_list/247165642425728">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113133</td>
+    <td>NEW-AP-01</td>
+    <td></td>
+    <td>2023-02-18T04:05:50Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:cb:bc:51:28:f2</td>
+    <td>MR53</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2MD-Y5QK-LAK2</td>
+    <td>['AP_1stFLOOR', 'recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNENT2-axxxxxxx8/n/nELH1bvc/manage/nodes/new_list/247165642418418">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112508</td>
+    <td></td>
+    <td></td>
+    <td>2022-11-26T16:48:53Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:f3:43:a8</td>
+    <td>MR33</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2PD-HQF8-UL4P</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/P-Net-wireless/n/pAqjnavc/manage/nodes/new_list/246656716194728">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113118</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-17T02:42:40Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>88:15:44:9e:8e:10</td>
+    <td>MX84</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2PN-JRAG-STZY</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DNENT1-txxxxxvgm/n/f9X50avc/manage/nodes/new_list/149624926932496">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113110</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-16T16:10:51Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:11:c1:d0</td>
+    <td>MX84</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2PN-PSMX-KDDC</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DNENT3-gxxxxxlgm/n/2C_Y8avc/manage/nodes/new_list/246656701415888">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113133</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-18T04:05:45Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:2b:ef:a0</td>
+    <td>MX84</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2PN-WWNM-JRAS</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DNENT2-axxxxxxx8/n/ittSHbvc/manage/nodes/new_list/246656703131552">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481105433</td>
+    <td>MX 65</td>
+    <td></td>
+    <td>2023-01-17T17:43:13Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:17:d4:23</td>
+    <td>MX65</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2QN-9J8L-SLPD</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/DevNet-Sandbox-A/n/9tIK5cvc/manage/nodes/new_list/246656701813795">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112509</td>
+    <td></td>
+    <td></td>
+    <td>2022-11-26T22:28:33Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>0c:8d:db:b0:64:1a</td>
+    <td>MX65</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2QN-ASVB-RJW3</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/Teslag-Meraki-CC/n/SdU-kdvc/manage/nodes/new_list/13803415692314">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113159</td>
+    <td>MX65</td>
+    <td>1205 Georgia ave,</td>
+    <td>2023-02-23T01:50:39Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>38.91627</td>
+    <td>-77.02191</td>
+    <td>e0:55:3d:70:ad:86</td>
+    <td>MX65</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2QN-WS5Y-DN8E</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/Explore-Projects/n/XwQwHavc/manage/nodes/new_list/246656707636614">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113132</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-18T03:43:24Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:70:a4:d7</td>
+    <td>MX65</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2QN-XPL2-2MPN</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/DNSMB5-xxxxxx6st/n/kAJMrbvc/manage/nodes/new_list/246656707634391">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113159</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-23T01:50:47Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>e0:55:3d:f4:39:17</td>
+    <td>MR30H</td>
+    <td></td>
+    <td>wireless</td>
+    <td>Q2RD-4YLL-CSUN</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/Explore-Projects/n/7slgpcvc/manage/nodes/new_list/246656716257559">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112860</td>
+    <td></td>
+    <td></td>
+    <td>2023-01-21T01:07:59Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>ac:17:c8:1a:0f:e1</td>
+    <td>MX65W</td>
+    <td></td>
+    <td>appliance</td>
+    <td>Q2RN-FZBT-UU4U</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/Meraki-Emilio-ap/n/fiJmxdvc/manage/nodes/new_list/189218141376481">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112797</td>
+    <td></td>
+    <td></td>
+    <td>2023-01-13T01:54:34Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:01:00:dc</td>
+    <td>MX68W</td>
+    <td></td>
+    <td>appliance</td>
+    <td>QBSA-NZGF-XVSU</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/CCNP-SCOR-applia/n/bGTPAdvc/manage/nodes/new_list/84424578367708">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113068</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-11T17:42:24Z</td>
+    <td>Not running configured version</td>
+    <td></td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:00:00:dc</td>
+    <td>MX67</td>
+    <td></td>
+    <td>appliance</td>
+    <td>QBSA-Z88Z-GP8H</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/CCNP-SABADO-appl/n/6JTG_bvc/manage/nodes/new_list/84424578302172">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112508</td>
+    <td></td>
+    <td></td>
+    <td>2022-11-26T16:46:17Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:09:00:dc</td>
+    <td>MS425-32</td>
+    <td></td>
+    <td>switch</td>
+    <td>QBSB-9D3T-B4BX</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/P-Net-switch/n/DVJPPbvc/manage/nodes/new_list/84424578891996">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112535</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-23T01:02:52Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:05:00:dc</td>
+    <td>MS120-8FP</td>
+    <td></td>
+    <td>switch</td>
+    <td>QBSB-V9F7-WABM</td>
+    <td>['recently-added']</td>
+    <td><a href="https://n149.meraki.com/MERAKI-FRIDAY-sw/n/pfDEJavc/manage/nodes/new_list/84424578629852">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112535</td>
+    <td></td>
+    <td></td>
+    <td>2022-12-03T03:23:19Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:0d:00:dc</td>
+    <td>MR53E</td>
+    <td></td>
+    <td>wireless</td>
+    <td>QBSC-88DU-VVGN</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/MERAKI-FRIDAY-wi/n/WupScavc/manage/nodes/new_list/84424579154140">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112535</td>
+    <td></td>
+    <td></td>
+    <td>2022-12-03T03:24:04Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:0e:00:dc</td>
+    <td>MR74</td>
+    <td></td>
+    <td>wireless</td>
+    <td>QBSC-JW5H-LUFH</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/MERAKI-FRIDAY-wi/n/WupScavc/manage/nodes/new_list/84424579219676">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481112535</td>
+    <td></td>
+    <td></td>
+    <td>2022-12-03T03:22:47Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:0a:00:dc</td>
+    <td>MR20</td>
+    <td></td>
+    <td>wireless</td>
+    <td>QBSC-ZFT7-KKKZ</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/MERAKI-FRIDAY-wi/n/WupScavc/manage/nodes/new_list/84424578957532">URL</a></td>
+  </tr>
+  <tr>
+    <td>L_646829496481113068</td>
+    <td></td>
+    <td></td>
+    <td>2023-02-11T17:44:47Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:11:00:46</td>
+    <td>MV12N</td>
+    <td></td>
+    <td>camera</td>
+    <td>QBSD-6Z53-VFXL</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/CCNP-SABADO-came/n/cpksycvc/manage/nodes/new_list/84424579416134">URL</a></td>
+  </tr>
+  <tr>
+    <td>N_646829496481189507</td>
+    <td></td>
+    <td></td>
+    <td>2022-06-08T17:50:01Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.4180951010362</td>
+    <td>-122.098531723022</td>
+    <td>4c:c8:a1:10:00:78</td>
+    <td>MV12WE</td>
+    <td></td>
+    <td>camera</td>
+    <td>QBSD-TQ9A-4DLS</td>
+    <td>[]</td>
+    <td><a href="https://n149.meraki.com/CLUS-22/n/yRKR8cvc/manage/nodes/new_list/84424579350648">URL</a></td>
+  </tr>
+  <tr>
+    <td>N_739153288842289643</td>
+    <td></td>
+    <td></td>
+    <td>2022-04-08T18:57:46Z</td>
+    <td>Not running configured version</td>
+    <td>None</td>
+    <td>37.41344244368212</td>
+    <td>-122.09170818328859</td>
+    <td>e0:cb:bc:3c:51:89</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-M5HX-AXQL</td>
+    <td>[]</td>
+    <td><a href="https://n313.meraki.com/BRU-3/n/s6W3Bd5e/manage/nodes/new_list/247165641052553">URL</a></td>
+  </tr>
+  <tr>
+    <td>N_739153288842289643</td>
+    <td>ms220-8p a9:b1</td>
+    <td></td>
+    <td>2022-04-09T15:03:22Z</td>
+    <td>Not running configured version</td>
+    <td>192.168.0.4</td>
+    <td>37.41884921333153</td>
+    <td>-122.09829837083818</td>
+    <td>e0:55:3d:d1:a9:b1</td>
+    <td>MS220-8P</td>
+    <td></td>
+    <td>switch</td>
+    <td>Q2HP-TQPZ-M5LP</td>
+    <td>[]</td>
+    <td><a href="https://n313.meraki.com/BRU-3/n/s6W3Bd5e/manage/nodes/new_list/246656713992625">URL</a></td>
+  </tr>
+</tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>

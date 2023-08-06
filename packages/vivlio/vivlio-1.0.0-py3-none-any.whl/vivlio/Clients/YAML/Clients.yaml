@@ -1,0 +1,741 @@
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- null
+- null
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- null
+- []
+- null
+- []
+- []
+- null
+- null
+- null
+- null
+- null
+- []
+- null
+- []
+- null
+- null
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- - adaptivePolicyGroup: null
+    description: Iphone-ellen
+    deviceTypePrediction: null
+    firstSeen: '2023-02-12T04:25:34Z'
+    groupPolicy8021x: null
+    id: k960ecc
+    ip: 192.168.0.12
+    ip6: null
+    ip6Local: fe80:0:0:0:188e:59ac:7ad6:6cea
+    lastSeen: '2023-02-23T17:23:32Z'
+    mac: 44:4a:db:22:4a:53
+    manufacturer: Apple
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Online
+    switchport: '6'
+    usage:
+      recv: 986401
+      sent: 44485
+      total: 1030887
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: null
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T17:46:10Z'
+    groupPolicy8021x: null
+    id: k961f40
+    ip: 192.168.0.1
+    ip6: null
+    ip6Local: null
+    lastSeen: '2023-02-23T17:23:32Z'
+    mac: 74:da:da:93:3f:61
+    manufacturer: D-Link International
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Online
+    switchport: '1'
+    usage:
+      recv: 3850335
+      sent: 11908698
+      total: 15759034
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: VanTz-Property
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T18:17:17Z'
+    groupPolicy8021x: null
+    id: k98e222
+    ip: 169.254.57.89
+    ip6: null
+    ip6Local: fe80:0:0:0:b7a4:b783:fc69:4453
+    lastSeen: '2023-02-23T06:46:00Z'
+    mac: 74:70:fd:76:25:b4
+    manufacturer: Intel
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Offline
+    switchport: '2'
+    usage:
+      recv: 4873
+      sent: 511
+      total: 5384
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: null
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T17:46:10Z'
+    groupPolicy8021x: null
+    id: ka02139
+    ip: 192.168.0.100
+    ip6: null
+    ip6Local: null
+    lastSeen: '2023-02-23T17:23:32Z'
+    mac: 00:00:5e:00:01:01
+    manufacturer: ICANN, IANA Department
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Online
+    switchport: '2'
+    usage:
+      recv: 1
+      sent: 1551
+      total: 1552
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: SM-R890
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T18:42:56Z'
+    groupPolicy8021x: null
+    id: kaa06d3
+    ip: 192.168.0.21
+    ip6: null
+    ip6Local: fe80:0:0:0:8494:a8ff:fef9:56c8
+    lastSeen: '2023-02-23T07:31:09Z'
+    mac: 86:94:a8:f9:56:c8
+    manufacturer: null
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Offline
+    switchport: '1'
+    usage:
+      recv: 2
+      sent: 3
+      total: 5
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: android-5db4e5052f7134eb
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T17:46:10Z'
+    groupPolicy8021x: null
+    id: kb1c799
+    ip: 192.168.0.15
+    ip6: null
+    ip6Local: fe80:0:0:0:4e1a:3dff:fe27:949
+    lastSeen: '2023-02-23T04:11:55Z'
+    mac: 4c:1a:3d:27:09:49
+    manufacturer: GUANGDONG OPPO MOBILE...
+    notes: null
+    os: Android
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Offline
+    switchport: '6'
+    usage:
+      recv: 689
+      sent: 472
+      total: 1161
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: null
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T17:46:10Z'
+    groupPolicy8021x: null
+    id: kb9b7c3
+    ip: 192.168.1.1
+    ip6: null
+    ip6Local: fe80:0:0:0:0:0:0:1
+    lastSeen: '2023-02-23T17:23:32Z'
+    mac: 24:58:6e:c8:93:22
+    manufacturer: zte
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Online
+    switchport: '6'
+    usage:
+      recv: 1064
+      sent: 3321
+      total: 4386
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: null
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T17:46:10Z'
+    groupPolicy8021x: null
+    id: kb903c3
+    ip: 192.168.1.50
+    ip6: null
+    ip6Local: null
+    lastSeen: '2023-02-23T17:21:57Z'
+    mac: 00:00:1b:1b:65:ba
+    manufacturer: Novell
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Online
+    switchport: '5'
+    usage:
+      recv: 532
+      sent: 2107
+      total: 2639
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: vivo-1804
+    deviceTypePrediction: null
+    firstSeen: '2023-02-12T05:07:46Z'
+    groupPolicy8021x: null
+    id: k13a788
+    ip: 192.168.0.22
+    ip6: null
+    ip6Local: fe80:0:0:0:22f7:7cff:fe32:c667
+    lastSeen: '2023-02-23T17:23:32Z'
+    mac: 20:f7:7c:32:c6:67
+    manufacturer: vivo Mobile Communication
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Online
+    switchport: '6'
+    usage:
+      recv: 326136
+      sent: 863285
+      total: 1189421
+    user: null
+    vlan: '1'
+  - adaptivePolicyGroup: null
+    description: Galaxy-Note8
+    deviceTypePrediction: null
+    firstSeen: '2023-02-11T17:46:10Z'
+    groupPolicy8021x: null
+    id: kc189c8
+    ip: 192.168.0.6
+    ip6: null
+    ip6Local: fe80:0:0:0:3a0a:fd89:225b:26a6
+    lastSeen: '2023-02-23T17:23:32Z'
+    mac: 04:d6:aa:c8:93:84
+    manufacturer: Samsung(THAILAND)
+    notes: null
+    os: null
+    recentDeviceConnection: Wired
+    recentDeviceMac: 0c:8d:db:80:71:99
+    recentDeviceName: null
+    recentDeviceSerial: Q2HP-JBEW-FN7B
+    smInstalled: false
+    ssid: null
+    status: Online
+    switchport: '2'
+    usage:
+      recv: 2044636
+      sent: 111007
+      total: 2155643
+    user: null
+    vlan: '1'
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- []
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null
+- null
+- []
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- []
+- null
+- null
+- null
+- null
+- null
+- []
+- null
+- null
+- []
+- null
+- null
+- []
+- null
+- null
+- null
+- null
+- null
+- []
+- null
+- []
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- []
+- []
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- []
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- []
+- null
+- []
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- null

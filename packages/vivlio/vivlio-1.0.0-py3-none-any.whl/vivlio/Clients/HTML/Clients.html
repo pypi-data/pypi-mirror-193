@@ -1,0 +1,418 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/keytable/2.6.4/js/dataTables.keyTable.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.3.3/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.9/js/dataTables.fixedHeader.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.9/css/fixedHeader.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.3/css/select.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/keytable/2.6.4/css/keyTable.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+</head>
+<body>
+<h1>Network Clients</h1>
+<table id = "datatable">
+<thead>
+  <tr>
+    <th>ID</th>
+    <th>Adaptive Policy Group</th>
+    <th>Description</th>
+    <th>Device Type Prediction</th>
+    <th>First Seen</th>
+    <th>Group Policy 802.1x</th>
+    <th>IPv4</th>
+    <th>IPv6</th>
+    <th>IPv6 Local</th>
+    <th>Last Seen</th>
+    <th>MAC</th>
+    <th>Manufacturer</th>
+    <th>Notes</th>
+    <th>OS</th>
+    <th>Recent Device Connection</th>
+    <th>Recent Device MAC</th>
+    <th>Recent Device Name</th>
+    <th>Recent Device Serial</th>
+    <th>SM Installed</th>
+    <th>SSID</th>
+    <th>Status</th>
+    <th>Switchport</th>
+    <th>Usage Received</th>
+    <th>Usage Sent</th>
+    <th>Usage Total</th>
+    <th>User</th>
+    <th>VLAN</th>
+  </tr>
+</thead>  
+<tbody>
+  <tr>
+    <td>k960ecc</td>
+    <td>None</td>
+    <td>Iphone-ellen</td>
+    <td>None</td>
+    <td>2023-02-12T04:25:34Z</td>
+    <td>None</td>
+    <td>192.168.0.12</td>
+    <td>None</td>
+    <td>fe80:0:0:0:188e:59ac:7ad6:6cea</td>
+    <td>2023-02-23T17:23:32Z</td>
+    <td>44:4a:db:22:4a:53</td>
+    <td>Apple</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Online</td>
+    <td>6</td>
+    <td>986401</td>
+    <td>44485</td>
+    <td>1030887</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>k961f40</td>
+    <td>None</td>
+    <td>None</td>
+    <td>None</td>
+    <td>2023-02-11T17:46:10Z</td>
+    <td>None</td>
+    <td>192.168.0.1</td>
+    <td>None</td>
+    <td>None</td>
+    <td>2023-02-23T17:23:32Z</td>
+    <td>74:da:da:93:3f:61</td>
+    <td>D-Link International</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Online</td>
+    <td>1</td>
+    <td>3850335</td>
+    <td>11908698</td>
+    <td>15759034</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>k98e222</td>
+    <td>None</td>
+    <td>VanTz-Property</td>
+    <td>None</td>
+    <td>2023-02-11T18:17:17Z</td>
+    <td>None</td>
+    <td>169.254.57.89</td>
+    <td>None</td>
+    <td>fe80:0:0:0:b7a4:b783:fc69:4453</td>
+    <td>2023-02-23T06:46:00Z</td>
+    <td>74:70:fd:76:25:b4</td>
+    <td>Intel</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Offline</td>
+    <td>2</td>
+    <td>4873</td>
+    <td>511</td>
+    <td>5384</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>ka02139</td>
+    <td>None</td>
+    <td>None</td>
+    <td>None</td>
+    <td>2023-02-11T17:46:10Z</td>
+    <td>None</td>
+    <td>192.168.0.100</td>
+    <td>None</td>
+    <td>None</td>
+    <td>2023-02-23T17:23:32Z</td>
+    <td>00:00:5e:00:01:01</td>
+    <td>ICANN, IANA Department</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Online</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1551</td>
+    <td>1552</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>kaa06d3</td>
+    <td>None</td>
+    <td>SM-R890</td>
+    <td>None</td>
+    <td>2023-02-11T18:42:56Z</td>
+    <td>None</td>
+    <td>192.168.0.21</td>
+    <td>None</td>
+    <td>fe80:0:0:0:8494:a8ff:fef9:56c8</td>
+    <td>2023-02-23T07:31:09Z</td>
+    <td>86:94:a8:f9:56:c8</td>
+    <td>None</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Offline</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>5</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>kb1c799</td>
+    <td>None</td>
+    <td>android-5db4e5052f7134eb</td>
+    <td>None</td>
+    <td>2023-02-11T17:46:10Z</td>
+    <td>None</td>
+    <td>192.168.0.15</td>
+    <td>None</td>
+    <td>fe80:0:0:0:4e1a:3dff:fe27:949</td>
+    <td>2023-02-23T04:11:55Z</td>
+    <td>4c:1a:3d:27:09:49</td>
+    <td>GUANGDONG OPPO MOBILE...</td>
+    <td>None</td>
+    <td>Android</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Offline</td>
+    <td>6</td>
+    <td>689</td>
+    <td>472</td>
+    <td>1161</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>kb9b7c3</td>
+    <td>None</td>
+    <td>None</td>
+    <td>None</td>
+    <td>2023-02-11T17:46:10Z</td>
+    <td>None</td>
+    <td>192.168.1.1</td>
+    <td>None</td>
+    <td>fe80:0:0:0:0:0:0:1</td>
+    <td>2023-02-23T17:23:32Z</td>
+    <td>24:58:6e:c8:93:22</td>
+    <td>zte</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Online</td>
+    <td>6</td>
+    <td>1064</td>
+    <td>3321</td>
+    <td>4386</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>kb903c3</td>
+    <td>None</td>
+    <td>None</td>
+    <td>None</td>
+    <td>2023-02-11T17:46:10Z</td>
+    <td>None</td>
+    <td>192.168.1.50</td>
+    <td>None</td>
+    <td>None</td>
+    <td>2023-02-23T17:21:57Z</td>
+    <td>00:00:1b:1b:65:ba</td>
+    <td>Novell</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Online</td>
+    <td>5</td>
+    <td>532</td>
+    <td>2107</td>
+    <td>2639</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>k13a788</td>
+    <td>None</td>
+    <td>vivo-1804</td>
+    <td>None</td>
+    <td>2023-02-12T05:07:46Z</td>
+    <td>None</td>
+    <td>192.168.0.22</td>
+    <td>None</td>
+    <td>fe80:0:0:0:22f7:7cff:fe32:c667</td>
+    <td>2023-02-23T17:23:32Z</td>
+    <td>20:f7:7c:32:c6:67</td>
+    <td>vivo Mobile Communication</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Online</td>
+    <td>6</td>
+    <td>326136</td>
+    <td>863285</td>
+    <td>1189421</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>kc189c8</td>
+    <td>None</td>
+    <td>Galaxy-Note8</td>
+    <td>None</td>
+    <td>2023-02-11T17:46:10Z</td>
+    <td>None</td>
+    <td>192.168.0.6</td>
+    <td>None</td>
+    <td>fe80:0:0:0:3a0a:fd89:225b:26a6</td>
+    <td>2023-02-23T17:23:32Z</td>
+    <td>04:d6:aa:c8:93:84</td>
+    <td>Samsung(THAILAND)</td>
+    <td>None</td>
+    <td>None</td>
+    <td>Wired</td>
+    <td>0c:8d:db:80:71:99</td>
+    <td>None</td>
+    <td>Q2HP-JBEW-FN7B</td>
+    <td>False</td>
+    <td>None</td>
+    <td>Online</td>
+    <td>2</td>
+    <td>2044636</td>
+    <td>111007</td>
+    <td>2155643</td>
+    <td>None</td>
+    <td>1</td>
+  </tr>
+</tbody>
+</table><script type = "text/javascript">
+  $(document).ready(function(){
+    $('#datatable thead tr')
+    .clone(true)
+    .addClass('filters')
+    .appendTo('#datatable thead');
+
+    var table = $('#datatable').DataTable({
+        keys: true,
+        dom: 'Bfrtip',
+        lengthMenu: [
+            [ 10, 25, 50, -1 ],
+            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
+        ],
+        buttons: [
+        'pageLength','colvis','copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        colReorder: true,
+        select: true,            
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+        var api = this.api();
+
+        // For each column
+        api
+            .columns()
+            .eq(0)
+            .each(function (colIdx) {
+                // Set the header cell to contain the input element
+                var cell = $('.filters th').eq(
+                    $(api.column(colIdx).header()).index()
+                );
+                var title = $(cell).text();
+                $(cell).html('<input type="text" placeholder="' + title + '" />');
+
+                // On every keypress in this input
+                $(
+                    'input',
+                    $('.filters th').eq($(api.column(colIdx).header()).index())
+                )
+                    .off('keyup change')
+                    .on('keyup change', function (e) {
+                        e.stopPropagation();
+
+                        // Get the search value
+                        $(this).attr('title', $(this).val());
+                        var regexr = '({search})'; //$(this).parents('th').find('select').val();
+
+                        var cursorPosition = this.selectionStart;
+                        // Search the column for that value
+                        api
+                            .column(colIdx)
+                            .search(
+                                this.value != ''
+                                    ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                    : '',
+                                this.value != '',
+                                this.value == ''
+                            )
+                            .draw();
+
+                        $(this)
+                            .focus()[0]
+                            .setSelectionRange(cursorPosition, cursorPosition);
+                    });
+            });
+    },
+});
+});        
+</script>
+</body></html>

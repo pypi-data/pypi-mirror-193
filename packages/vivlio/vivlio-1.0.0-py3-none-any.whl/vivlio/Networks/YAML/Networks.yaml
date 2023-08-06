@@ -1,0 +1,6265 @@
+- - enrollmentString: null
+    id: L_739153288842210989
+    isBoundToConfigTemplate: false
+    name: test
+    notes: null
+    organizationId: '739153288842183504'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test-cellular-ga/n/WpOUQb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211896
+    isBoundToConfigTemplate: false
+    name: Ethiopia
+    notes: null
+    organizationId: '739153288842183504'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Ethiopia-cellula/n/B6JK5d5e/manage/usage/list
+- - configTemplateId: L_739153288842211978
+    enrollmentString: null
+    id: L_739153288842211851
+    isBoundToConfigTemplate: true
+    name: Network-Alpha
+    notes: null
+    organizationId: '739153288842184109'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Network-Alpha-ap/n/DKGRud5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210017
+    isBoundToConfigTemplate: false
+    name: Scranton branch
+    notes: null
+    organizationId: '739153288842183396'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Scranton-branch-/n/dItHHc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210634
+    isBoundToConfigTemplate: false
+    name: GigaBytes Soln
+    notes: null
+    organizationId: '739153288842183396'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/GigaBytes-Soln-c/n/NgtFEb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210645
+    isBoundToConfigTemplate: false
+    name: Test Factory
+    notes: null
+    organizationId: '739153288842183396'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Factory-cel/n/MB90Td5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210664
+    isBoundToConfigTemplate: false
+    name: Test007
+    notes: null
+    organizationId: '739153288842183396'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test007-applianc/n/NC8tec5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210755
+    isBoundToConfigTemplate: false
+    name: KFC_NETWORK
+    notes: null
+    organizationId: '739153288842183396'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/KFC_NETWORK-appl/n/GrHcEa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211022
+    isBoundToConfigTemplate: false
+    name: Jack_Branch
+    notes: null
+    organizationId: '739153288842183396'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Jack_Branch-cell/n/GCLpCd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212220
+    isBoundToConfigTemplate: false
+    name: IKEJA-SITE
+    notes: null
+    organizationId: '739153288842183396'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/IKEJA-SITE-appli/n/aUu50d5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212234
+    isBoundToConfigTemplate: false
+    name: Test Lab
+    notes: null
+    organizationId: '739153288842184117'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Lab-applian/n/JL399b5e/manage/usage/list
+- []
+- - enrollmentString: null
+    id: L_739153288842212417
+    isBoundToConfigTemplate: false
+    name: bakwas
+    notes: null
+    organizationId: '739153288842183894'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/bakwas-appliance/n/VFg6pa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842301434
+    isBoundToConfigTemplate: false
+    name: aws-meraki
+    notes: null
+    organizationId: '739153288842183894'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/aws-meraki/n/lX9l4b5e/manage/usage/list
+- - enrollmentString: null
+    id: N_739153288842290669
+    isBoundToConfigTemplate: false
+    name: J
+    notes: null
+    organizationId: '739153288842183620'
+    productTypes:
+    - systemsManager
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/_J_/n/lbTHsa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842290670
+    isBoundToConfigTemplate: false
+    name: Switch
+    notes: null
+    organizationId: '739153288842183620'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Switch/n/nXHyFb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842290671
+    isBoundToConfigTemplate: false
+    name: Camera Network
+    notes: null
+    organizationId: '739153288842183620'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Camera-Network/n/j-QoUc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842207964
+    isBoundToConfigTemplate: false
+    name: TM
+    notes: null
+    organizationId: '739153288842183262'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TM-cellular-gate/n/WxyhJa5e/manage/usage/list
+- []
+- null
+- null
+- []
+- - enrollmentString: null
+    id: L_739153288842209741
+    isBoundToConfigTemplate: false
+    name: Nashville Branch Office
+    notes: null
+    organizationId: '739153288842183178'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nashville-Branch/n/99JxYb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842284002
+    isBoundToConfigTemplate: false
+    name: hv
+    notes: null
+    organizationId: '739153288842183178'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/hv_/n/5aQxAb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842285084
+    isBoundToConfigTemplate: false
+    name: my_net
+    notes: null
+    organizationId: '739153288842183178'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/my_net/n/nqMazd5e/manage/usage/list
+- []
+- null
+- null
+- - configTemplateId: L_646829496481110952
+    enrollmentString: null
+    id: L_646829496481110950
+    isBoundToConfigTemplate: true
+    name: Net1
+    notes: null
+    organizationId: '646829496481090633'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Argentina/Buenos_Aires
+    url: https://n149.meraki.com/Net1-appliance/n/u8DkWcvc/manage/usage/list
+  - configTemplateId: L_646829496481110952
+    enrollmentString: null
+    id: L_646829496481110953
+    isBoundToConfigTemplate: true
+    name: net2_test
+    notes: null
+    organizationId: '646829496481090633'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags:
+    - ALTA
+    timeZone: America/Argentina/Buenos_Aires
+    url: https://n149.meraki.com/net2_test-switch/n/KSwYPavc/manage/usage/list
+  - configTemplateId: L_646829496481110952
+    enrollmentString: null
+    id: L_646829496481110954
+    isBoundToConfigTemplate: true
+    name: net3_test
+    notes: null
+    organizationId: '646829496481090633'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags:
+    - ALTA
+    timeZone: America/Argentina/Buenos_Aires
+    url: https://n149.meraki.com/net3_test-switch/n/LLA1edvc/manage/usage/list
+  - configTemplateId: L_646829496481110952
+    enrollmentString: null
+    id: L_646829496481110955
+    isBoundToConfigTemplate: true
+    name: net4_test
+    notes: null
+    organizationId: '646829496481090633'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags:
+    - ALTA
+    timeZone: America/Argentina/Buenos_Aires
+    url: https://n149.meraki.com/net4_test-switch/n/kLT05cvc/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211573
+    isBoundToConfigTemplate: false
+    name: FAZ_LON
+    notes: null
+    organizationId: '959854'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/FAZ_LON-cellular/n/viOTya5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211694
+    isBoundToConfigTemplate: false
+    name: Open-Minded
+    notes: ''
+    organizationId: '959854'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Open-Minded-envi/n/WcthJb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211764
+    isBoundToConfigTemplate: false
+    name: ac_net
+    notes: null
+    organizationId: '959854'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/ac_net-environme/n/E3M7Qa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211765
+    isBoundToConfigTemplate: false
+    name: acnet
+    notes: ''
+    organizationId: '959854'
+    productTypes:
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/acnet-wireless/n/wjQf_b5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211848
+    isBoundToConfigTemplate: false
+    name: Network-Sigma
+    notes: null
+    organizationId: '959854'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Network-Sigma-ca/n/ra4i6b5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212174
+    isBoundToConfigTemplate: false
+    name: Alex
+    notes: null
+    organizationId: '959854'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Alex-camera/n/2xhh_d5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212545
+    isBoundToConfigTemplate: false
+    name: Techlab-Demo
+    notes: null
+    organizationId: '959854'
+    productTypes:
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Techlab-Demo-swi/n/9azssd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212708
+    isBoundToConfigTemplate: false
+    name: tttttest
+    notes: null
+    organizationId: '959854'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/tttttest-applian/n/MeLmFd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211883
+    isBoundToConfigTemplate: false
+    name: Senta_jug
+    notes: null
+    organizationId: '739153288842184115'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Senta_jug-cellul/n/U3oIMb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210329
+    isBoundToConfigTemplate: false
+    name: Dornbirn
+    notes: null
+    organizationId: '739153288842183647'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Dornbirn-cellula/n/5a0Lgc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210880
+    isBoundToConfigTemplate: false
+    name: Test
+    notes: null
+    organizationId: '739153288842183516'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-cellular-ga/n/NDr97d5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210528
+    isBoundToConfigTemplate: false
+    name: NB
+    notes: null
+    organizationId: '739153288842183661'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/NB-cellular-gate/n/84F6Vb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842292927
+    isBoundToConfigTemplate: false
+    name: NB
+    notes: null
+    organizationId: '739153288842183661'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/NB_/n/NAoeAd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211953
+    isBoundToConfigTemplate: false
+    name: Test_1
+    notes: null
+    organizationId: '739153288842184136'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/Rome
+    url: https://n313.meraki.com/Test_1-cellular-/n/5WJzPb5e/manage/usage/list
+- - enrollmentString: null
+    id: N_739153288842288627
+    isBoundToConfigTemplate: false
+    name: Long Island Office
+    notes: null
+    organizationId: '739153288842183388'
+    productTypes:
+    - switch
+    tags:
+    - test
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Long-Island-Offi/n/YoBw-c5e/manage/usage/list
+- []
+- - enrollmentString: null
+    id: N_739153288842290626
+    isBoundToConfigTemplate: false
+    name: CZ-BRNO-BR
+    notes: Added By API
+    organizationId: '739153288842183615'
+    productTypes:
+    - appliance
+    tags:
+    - tag1
+    - tag2
+    timeZone: Europe/Prague
+    url: https://n313.meraki.com/CZ-BRNO-BR/n/9Sv9lb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842290627
+    isBoundToConfigTemplate: false
+    name: CZ-CESKAL-BIR
+    notes: Added By API
+    organizationId: '739153288842183615'
+    productTypes:
+    - appliance
+    tags:
+    - tag1
+    - tag2
+    timeZone: Europe/Prague
+    url: https://n313.meraki.com/CZ-CESKAL-BIR/n/FreTEc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842213125
+    isBoundToConfigTemplate: false
+    name: nw1
+    notes: null
+    organizationId: '739153288842184492'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/nw1-appliance/n/EO6ikb5e/manage/usage/list
+- null
+- null
+- - enrollmentString: null
+    id: L_676102894059008099
+    isBoundToConfigTemplate: false
+    name: Network-Delta
+    notes: ''
+    organizationId: '1030307'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n201.meraki.com/Network-Delta-ap/n/IPjTgbjd/manage/usage/list
+- null
+- - enrollmentString: null
+    id: L_624311498344251489
+    isBoundToConfigTemplate: false
+    name: PhilaCorp
+    notes: null
+    organizationId: '1057293'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n109.meraki.com/PhilaCorp-cellul/n/PGemraTb/manage/usage/list
+- null
+- []
+- null
+- []
+- - enrollmentString: null
+    id: L_646829496481106961
+    isBoundToConfigTemplate: false
+    name: Testing
+    notes: null
+    organizationId: '646829496481089956'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Testing-cellular/n/grpkwcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481172621
+    isBoundToConfigTemplate: false
+    name: Abcd
+    notes: null
+    organizationId: '646829496481089956'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Abcd/n/rfJt1bvc/manage/usage/list
+- - enrollmentString: null
+    id: N_646829496481172761
+    isBoundToConfigTemplate: false
+    name: br1
+    notes: null
+    organizationId: '646829496481090058'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/br1/n/kWC5Hcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481172762
+    isBoundToConfigTemplate: false
+    name: internal
+    notes: null
+    organizationId: '646829496481090058'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/internal/n/5JbHJdvc/manage/usage/list
+- - enrollmentString: null
+    id: N_646829496481183205
+    isBoundToConfigTemplate: false
+    name: CornHolio-Network
+    notes: ''
+    organizationId: '646829496481090062'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: GB
+    url: https://n149.meraki.com/CornHolio-Networ/n/smJrsavc/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481107652
+    isBoundToConfigTemplate: false
+    name: Cair
+    notes: ''
+    organizationId: '646829496481090077'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Cair-cellular-ga/n/lczdCcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481108521
+    isBoundToConfigTemplate: false
+    name: MYNetwork
+    notes: null
+    organizationId: '646829496481090077'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/MYNetwork-cellul/n/tLH7Gcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481179798
+    isBoundToConfigTemplate: false
+    name: ndBranch
+    notes: null
+    organizationId: '646829496481090077'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/ndBranch/n/T4uTpbvc/manage/usage/list
+- - enrollmentString: null
+    id: N_646829496481174840
+    isBoundToConfigTemplate: false
+    name: croydon
+    notes: null
+    organizationId: '646829496481090100'
+    productTypes:
+    - systemsManager
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/croydon/n/NkMlocvc/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481107886
+    isBoundToConfigTemplate: false
+    name: test
+    notes: null
+    organizationId: '646829496481090148'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/test-cellular-ga/n/4u1L_cvc/manage/usage/list
+- - configTemplateId: L_646829496481107922
+    enrollmentString: null
+    id: L_646829496481107921
+    isBoundToConfigTemplate: true
+    name: Test
+    notes: null
+    organizationId: '646829496481090153'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/Lisbon
+    url: https://n149.meraki.com/Test-cellular-ga/n/UPeFZcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481108839
+    isBoundToConfigTemplate: false
+    name: SiteA
+    notes: null
+    organizationId: '646829496481090153'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/SiteA-switch/n/VBi_Ldvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481108909
+    isBoundToConfigTemplate: false
+    name: MERAKI_TESTING_B
+    notes: null
+    organizationId: '646829496481090153'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/MERAKI_TESTING_B/n/QanzXbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481109200
+    isBoundToConfigTemplate: false
+    name: HTD Network
+    notes: null
+    organizationId: '646829496481090153'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/HTD-Network-appl/n/a1SR7cvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110082
+    isBoundToConfigTemplate: false
+    name: Farzad-NET
+    notes: This is a test network.
+    organizationId: '646829496481090153'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/Amsterdam
+    url: https://n149.meraki.com/Farzad-NET-switc/n/CD033bvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110626
+    isBoundToConfigTemplate: false
+    name: newnetwork_sandbox
+    notes: ''
+    organizationId: '646829496481090153'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/newnetwork_sandb/n/UMCoTavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481175975
+    isBoundToConfigTemplate: false
+    name: mehdi1
+    notes: null
+    organizationId: '646829496481090153'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/mehdi1/n/wlk-tcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481182475
+    isBoundToConfigTemplate: false
+    name: Scranton Cameras
+    notes: null
+    organizationId: '646829496481090153'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Scranton-Cameras/n/w_BE6dvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481182476
+    isBoundToConfigTemplate: false
+    name: Scranton Wireless
+    notes: null
+    organizationId: '646829496481090153'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Scranton-Wireles/n/jTkcadvc/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481108118
+    isBoundToConfigTemplate: false
+    name: Texas Branch
+    notes: ''
+    organizationId: '646829496481090182'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Texas-Branch-cel/n/yvFzjavc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481108379
+    isBoundToConfigTemplate: false
+    name: Florida Office
+    notes: null
+    organizationId: '646829496481090182'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Florida-Office-c/n/prD6Lcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481108488
+    isBoundToConfigTemplate: false
+    name: Moon Base - Ape
+    notes: null
+    organizationId: '646829496481090182'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Moon-Base-Ape-sw/n/czrEedvc/manage/usage/list
+  - configTemplateId: L_646829496481108333
+    enrollmentString: null
+    id: L_646829496481108515
+    isBoundToConfigTemplate: true
+    name: Yokahama
+    notes: null
+    organizationId: '646829496481090182'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Yokahama-environ/n/zvKIicvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481178029
+    isBoundToConfigTemplate: false
+    name: NewYork branch
+    notes: null
+    organizationId: '646829496481090182'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/NewYork-branch/n/MSm6Wbvc/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481108224
+    isBoundToConfigTemplate: false
+    name: Scranton Office
+    notes: null
+    organizationId: '646829496481090195'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Scranton-Office-/n/1-D_5bvc/manage/usage/list
+- null
+- - enrollmentString: null
+    id: L_646829496481108494
+    isBoundToConfigTemplate: false
+    name: Scranton HQ Site
+    notes: null
+    organizationId: '646829496481090242'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Scranton-HQ-Site/n/g8G8Fbvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481178233
+    isBoundToConfigTemplate: false
+    name: Kentucky Branch 1
+    notes: null
+    organizationId: '646829496481090242'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Kentucky-Branch-/n/SE2YRcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481179816
+    isBoundToConfigTemplate: false
+    name: buxted
+    notes: null
+    organizationId: '646829496481090242'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/buxted/n/SjPIZdvc/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481108520
+    isBoundToConfigTemplate: false
+    name: GTECH-BRANCH
+    notes: null
+    organizationId: '646829496481090243'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/GTECH-BRANCH-cel/n/4om4wcvc/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481109081
+    isBoundToConfigTemplate: false
+    name: EWO_Sandbox
+    notes: ''
+    organizationId: '646829496481090303'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/Zurich
+    url: https://n149.meraki.com/EWO_Sandbox-cell/n/o21lBbvc/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481109114
+    isBoundToConfigTemplate: false
+    name: LasVegasNetwork
+    notes: null
+    organizationId: '646829496481090305'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/LasVegasNetwork-/n/f3k7Ydvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481109212
+    isBoundToConfigTemplate: false
+    name: PaloAltoNetwork
+    notes: null
+    organizationId: '646829496481090305'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/PaloAltoNetwork-/n/muGYRdvc/manage/usage/list
+- null
+- []
+- - enrollmentString: null
+    id: L_646829496481109825
+    isBoundToConfigTemplate: false
+    name: OO-TEST
+    notes: ''
+    organizationId: '646829496481090413'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/OO-TEST-cellular/n/r4Fh4bvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110323
+    isBoundToConfigTemplate: false
+    name: OO-TEST1
+    notes: null
+    organizationId: '646829496481090413'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/OO-TEST1-cellula/n/1uF66avc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110644
+    isBoundToConfigTemplate: false
+    name: Mynetwork
+    notes: null
+    organizationId: '646829496481090413'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Mynetwork-applia/n/Da0wRdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110656
+    isBoundToConfigTemplate: false
+    name: WeITService
+    notes: null
+    organizationId: '646829496481090413'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/WeITService-envi/n/lvbY5avc/manage/usage/list
+  - configTemplateId: L_646829496481111188
+    enrollmentString: null
+    id: L_646829496481110757
+    isBoundToConfigTemplate: true
+    name: TETS
+    notes: null
+    organizationId: '646829496481090413'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/TETS-appliance/n/eGIIdcvc/manage/usage/list
+- null
+- - enrollmentString: null
+    id: L_646829496481109757
+    isBoundToConfigTemplate: false
+    name: Client Yes
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Client-Yes-cellu/n/Uo5Zzbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481109926
+    isBoundToConfigTemplate: false
+    name: Home Lab 2
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Home-Lab-2-cellu/n/1oseOdvc/manage/usage/list
+  - configTemplateId: L_646829496481110280
+    enrollmentString: null
+    id: L_646829496481109949
+    isBoundToConfigTemplate: true
+    name: Moon_Base
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Moon_Base-cellul/n/S0j5bavc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110057
+    isBoundToConfigTemplate: false
+    name: Shell Pakistan
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Asia/Karachi
+    url: https://n149.meraki.com/Shell-Pakistan-c/n/L3d_7dvc/manage/usage/list
+  - configTemplateId: L_646829496481110329
+    enrollmentString: null
+    id: L_646829496481110330
+    isBoundToConfigTemplate: true
+    name: Site-Template2
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Site-Template2-s/n/PxIlqavc/manage/usage/list
+  - configTemplateId: L_646829496481110329
+    enrollmentString: null
+    id: L_646829496481110331
+    isBoundToConfigTemplate: true
+    name: Ste_Combined
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Ste_Combined-wir/n/UoGoZbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110348
+    isBoundToConfigTemplate: false
+    name: TOWN_A
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/TOWN_A-environme/n/XvhHIavc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110350
+    isBoundToConfigTemplate: false
+    name: LaoZ
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/LaoZ-cellular-ga/n/fYzidavc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481111013
+    isBoundToConfigTemplate: false
+    name: Denver_Office
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Denver_Office-wi/n/tJetEcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481111129
+    isBoundToConfigTemplate: false
+    name: Hockey Town
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Detroit
+    url: https://n149.meraki.com/Hockey-Town-appl/n/Zu4HWbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481111193
+    isBoundToConfigTemplate: false
+    name: NocturnalGrind
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/NocturnalGrind-c/n/jkg62bvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481111254
+    isBoundToConfigTemplate: false
+    name: Aardvark Branch
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Aardvark-Branch-/n/9kT1hbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481111410
+    isBoundToConfigTemplate: false
+    name: Meraki TestxReview
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Meraki-TestxRevi/n/UOt0bbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481111423
+    isBoundToConfigTemplate: false
+    name: 'FT4 Dallas Office '
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/FT4-Dallas-Offic/n/Tt0FYcvc/manage/usage/list
+  - configTemplateId: L_646829496481110322
+    enrollmentString: null
+    id: N_646829496481185969
+    isBoundToConfigTemplate: true
+    name: HO_Network
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/HO_Network/n/efcQUdvc/manage/usage/list
+  - configTemplateId: L_646829496481110322
+    enrollmentString: null
+    id: N_646829496481186303
+    isBoundToConfigTemplate: true
+    name: BGL-TS-MR45
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/BGL-TS-MR45/n/7Qy-jcvc/manage/usage/list
+  - configTemplateId: L_646829496481110329
+    enrollmentString: null
+    id: N_646829496481186346
+    isBoundToConfigTemplate: true
+    name: Site_Appliance_MX
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Site_Appliance_M/n/RPbyYdvc/manage/usage/list
+  - configTemplateId: L_646829496481110329
+    enrollmentString: null
+    id: N_646829496481186347
+    isBoundToConfigTemplate: true
+    name: Site_Appliance_Switch
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Site_Appliance_S/n/Uqiecdvc/manage/usage/list
+  - configTemplateId: L_646829496481110329
+    enrollmentString: null
+    id: N_646829496481186354
+    isBoundToConfigTemplate: true
+    name: Site_Wireless
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Site_Wireless/n/PrULbbvc/manage/usage/list
+  - configTemplateId: L_646829496481110333
+    enrollmentString: null
+    id: N_646829496481186356
+    isBoundToConfigTemplate: true
+    name: Target Template
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Target-Template/n/S0MRNcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186421
+    isBoundToConfigTemplate: false
+    name: SHAMIM
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/SHAMIM/n/WOY3wdvc/manage/usage/list
+  - configTemplateId: L_646829496481110322
+    enrollmentString: null
+    id: N_646829496481186881
+    isBoundToConfigTemplate: true
+    name: voice_call
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/voice_call/n/NQi1odvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186889
+    isBoundToConfigTemplate: false
+    name: VoiceCall - environmental
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/VoiceCall-enviro/n/56ovmavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186890
+    isBoundToConfigTemplate: false
+    name: VoiceCall - wireless
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/VoiceCall-wirele/n/4Fxejcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186891
+    isBoundToConfigTemplate: false
+    name: VoiceCall - cellular gateway
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/VoiceCall-cellul/n/IdAwuavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186892
+    isBoundToConfigTemplate: false
+    name: VoiceCall - appliance
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/VoiceCall-applia/n/bDlSrcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186893
+    isBoundToConfigTemplate: false
+    name: VoiceCall - switch
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/VoiceCall-switch/n/8eMZIcvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186894
+    isBoundToConfigTemplate: false
+    name: VoiceCall - camera
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/VoiceCall-camera/n/NVXUxbvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186895
+    isBoundToConfigTemplate: false
+    name: voice_call_non_associate
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - call
+    - voice
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/voice_call_non_a/n/h6Acebvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186896
+    isBoundToConfigTemplate: false
+    name: voice_call_devnet_associate
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - call
+    - voice
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/voice_call_devne/n/imCoKdvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186897
+    isBoundToConfigTemplate: false
+    name: voice_call_associate
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - call
+    - voice
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/voice_call_assoc/n/1NelJavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186898
+    isBoundToConfigTemplate: false
+    name: WebDev
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - developers
+    - web
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/WebDev/n/wWh82bvc/manage/usage/list
+  - configTemplateId: L_646829496481110463
+    enrollmentString: null
+    id: N_646829496481186899
+    isBoundToConfigTemplate: true
+    name: Staging_Group
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - Stage
+    timeZone: Europe/London
+    url: https://n149.meraki.com/Staging_Group/n/l1LADbvc/manage/usage/list
+  - configTemplateId: L_646829496481110463
+    enrollmentString: null
+    id: N_646829496481186900
+    isBoundToConfigTemplate: true
+    name: Guest_wifi
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - guest
+    timeZone: Europe/London
+    url: https://n149.meraki.com/Guest_wifi/n/A-mCvavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186901
+    isBoundToConfigTemplate: false
+    name: Corp
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - Corp
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Corp/n/vUgc-avc/manage/usage/list
+  - configTemplateId: L_646829496481110463
+    enrollmentString: null
+    id: N_646829496481186902
+    isBoundToConfigTemplate: true
+    name: Starbucks_Wifi
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - guest
+    timeZone: Europe/London
+    url: https://n149.meraki.com/Starbucks_Wifi/n/m3o7Navc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481186903
+    isBoundToConfigTemplate: false
+    name: Costa_Wifi
+    notes: null
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags:
+    - Corp
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Costa_Wifi/n/q11KHavc/manage/usage/list
+  - configTemplateId: L_646829496481110463
+    enrollmentString: null
+    id: N_646829496481186925
+    isBoundToConfigTemplate: true
+    name: POC_Net
+    notes: ''
+    organizationId: '646829496481090420'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: Europe/London
+    url: https://n149.meraki.com/POC_Net/n/-FWkIdvc/manage/usage/list
+- null
+- - enrollmentString: null
+    id: L_646829496481109976
+    isBoundToConfigTemplate: false
+    name: Ohio
+    notes: null
+    organizationId: '646829496481090483'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Ohio-cellular-ga/n/aa9OGdvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481185210
+    isBoundToConfigTemplate: false
+    name: Broadview
+    notes: null
+    organizationId: '646829496481090483'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Broadview/n/AjEqQavc/manage/usage/list
+- null
+- null
+- null
+- null
+- - enrollmentString: null
+    id: L_646829496481110324
+    isBoundToConfigTemplate: false
+    name: Long Island Office
+    notes: Combined network for Long Island Office
+    organizationId: '646829496481090548'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Long-Island-Offi/n/2QvKHcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110325
+    isBoundToConfigTemplate: false
+    name: Michigan Office
+    notes: Combined network for Long Island Office
+    organizationId: '646829496481090548'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Michigan-Office-/n/W44mucvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110326
+    isBoundToConfigTemplate: false
+    name: Tennessee Office
+    notes: Combined network for Long Island Office
+    organizationId: '646829496481090548'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Tennessee-Office/n/WQpbZdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110327
+    isBoundToConfigTemplate: false
+    name: Helsinki Office
+    notes: Combined network for Long Island Office
+    organizationId: '646829496481090548'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Helsinki-Office-/n/pXkvkdvc/manage/usage/list
+- null
+- null
+- null
+- null
+- null
+- []
+- - enrollmentString: null
+    id: L_646829496481112753
+    isBoundToConfigTemplate: false
+    name: help_network
+    notes: null
+    organizationId: '646829496481090887'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/help_network-app/n/rtlUravc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112754
+    isBoundToConfigTemplate: false
+    name: restore_network
+    notes: null
+    organizationId: '646829496481090887'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/restore_network-/n/g0abbdvc/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211660
+    isBoundToConfigTemplate: false
+    name: TEST-Nasadarovia
+    notes: null
+    organizationId: '739153288842184055'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST-Nasadarovia/n/Qu573a5e/manage/usage/list
+- null
+- - enrollmentString: null
+    id: N_739153288842289422
+    isBoundToConfigTemplate: false
+    name: NET1
+    notes: null
+    organizationId: '739153288842183345'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/NET1/n/Mn1iSc5e/manage/usage/list
+- null
+- - enrollmentString: null
+    id: L_739153288842212463
+    isBoundToConfigTemplate: false
+    name: NYC1
+    notes: null
+    organizationId: '739153288842183875'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/NYC1-appliance/n/JR5Bxa5e/manage/usage/list
+  - configTemplateId: L_739153288842212547
+    enrollmentString: null
+    id: L_739153288842212548
+    isBoundToConfigTemplate: true
+    name: London
+    notes: null
+    organizationId: '739153288842183875'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/London-cellular-/n/W7L3_b5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842185499
+    isBoundToConfigTemplate: false
+    name: bbb
+    notes: ''
+    organizationId: '739153288842182990'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: Asia/Karachi
+    url: https://n313.meraki.com/bbb-switch/n/q3Ug8a5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842208395
+    isBoundToConfigTemplate: false
+    name: API Test - Enterprise
+    notes: null
+    organizationId: '739153288842182990'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - systemsManager
+    - wireless
+    tags:
+    - test
+    timeZone: Europe/Amsterdam
+    url: https://n313.meraki.com/API-Test-Enterpr/n/HDSMsb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842285251
+    isBoundToConfigTemplate: false
+    name: API Test - Home
+    notes: null
+    organizationId: '739153288842182990'
+    productTypes:
+    - wireless
+    tags:
+    - test
+    timeZone: Europe/Amsterdam
+    url: https://n313.meraki.com/API-Test-Home/n/olnFrb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481105392
+    isBoundToConfigTemplate: false
+    name: test network
+    notes: ''
+    organizationId: '646829496481089711'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/test-network-cel/n/eiMQjbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481106719
+    isBoundToConfigTemplate: false
+    name: ACME
+    notes: null
+    organizationId: '646829496481089711'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/ACME-cellular-ga/n/A8H4Pcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481107256
+    isBoundToConfigTemplate: false
+    name: SEJO
+    notes: null
+    organizationId: '646829496481089711'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/SEJO-environment/n/apoxbbvc/manage/usage/list
+  - enrollmentString: my-test-enrollment
+    id: L_646829496481113144
+    isBoundToConfigTemplate: false
+    name: jp-test-network
+    notes: null
+    organizationId: '646829496481089711'
+    productTypes:
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/jp-test-network-/n/PHCSTdvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481165070
+    isBoundToConfigTemplate: false
+    name: Shafiq-Home
+    notes: null
+    organizationId: '646829496481089711'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Shafiq-Home/n/dl_Fhbvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481166005
+    isBoundToConfigTemplate: false
+    name: test_net - cellular gateway
+    notes: null
+    organizationId: '646829496481089711'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/test_net-cellula/n/37pclbvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481166006
+    isBoundToConfigTemplate: false
+    name: test_net - appliance
+    notes: null
+    organizationId: '646829496481089711'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/test_net-applian/n/sJJghavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481168483
+    isBoundToConfigTemplate: false
+    name: Merakiz_Net
+    notes: null
+    organizationId: '646829496481089711'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Merakiz_Net/n/0g-gVbvc/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842204423
+    isBoundToConfigTemplate: false
+    name: Toumbanet
+    notes: ''
+    organizationId: '739153288842183042'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Toumbanet-cellul/n/XuqDQb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842205875
+    isBoundToConfigTemplate: false
+    name: LefNet
+    notes: null
+    organizationId: '739153288842183042'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/LefNet-cellular-/n/QnABwb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481112778
+    isBoundToConfigTemplate: false
+    name: The Bengal Boys
+    notes: The Boys from 21 joining their crew leader
+    organizationId: '646829496481090891'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags:
+    - tag1
+    timeZone: America/Chicago
+    url: https://n149.meraki.com/The-Bengal-Boys-/n/Cos4Gbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112780
+    isBoundToConfigTemplate: false
+    name: The Bengal Boyz
+    notes: The Boys from 21 joining their crew leader
+    organizationId: '646829496481090891'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags:
+    - tag1
+    timeZone: America/Chicago
+    url: https://n149.meraki.com/The-Bengal-Boyz-/n/MmsJPdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112781
+    isBoundToConfigTemplate: false
+    name: Another football team
+    notes: Can we get some noise for our goat?
+    organizationId: '646829496481090891'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Chicago
+    url: https://n149.meraki.com/Another-football/n/xZPnSavc/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842205595
+    isBoundToConfigTemplate: false
+    name: branch1
+    notes: null
+    organizationId: '739153288842183030'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/branch1-cellular/n/46EKcb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842205802
+    isBoundToConfigTemplate: false
+    name: Swaps Network
+    notes: ''
+    organizationId: '739153288842183030'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Swaps-Network-ce/n/Br8Tda5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842208347
+    isBoundToConfigTemplate: false
+    name: HWC
+    notes: ''
+    organizationId: '739153288842183030'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/HWC-environmenta/n/P5tknd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842209988
+    isBoundToConfigTemplate: false
+    name: SLTN-Test
+    notes: null
+    organizationId: '739153288842183030'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/SLTN-Test-cellul/n/PlzLAd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212256
+    isBoundToConfigTemplate: false
+    name: TheBranch
+    notes: null
+    organizationId: '739153288842183030'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TheBranch-cellul/n/6CtQGd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842282229
+    isBoundToConfigTemplate: false
+    name: WELCOME
+    notes: null
+    organizationId: '739153288842183030'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/WELCOME/n/jb6sBa5e/manage/usage/list
+  - configTemplateId: L_739153288842212313
+    enrollmentString: null
+    id: N_739153288842291502
+    isBoundToConfigTemplate: true
+    name: Antartica Branch
+    notes: ''
+    organizationId: '739153288842183030'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Antartica-Branch/n/ZRCWYc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210058
+    isBoundToConfigTemplate: false
+    name: Dev 901 001
+    notes: ''
+    organizationId: '739153288842183608'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Dev-901-001-cell/n/_9v70b5e/manage/usage/list
+- []
+- []
+- - enrollmentString: null
+    id: L_739153288842212432
+    isBoundToConfigTemplate: false
+    name: Mahendra-Office
+    notes: null
+    organizationId: '739153288842184203'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Mahendra-Office-/n/gCU_9d5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842213417
+    isBoundToConfigTemplate: false
+    name: East Coast Office
+    notes: Combined Network for East Coast Offices
+    organizationId: '739153288842184573'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/New_York
+    url: https://n313.meraki.com/East-Coast-Offic/n/W3fd3b5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842209070
+    isBoundToConfigTemplate: false
+    name: test
+    notes: ''
+    organizationId: '739153288842183325'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test-cellular-ga/n/RZHZDb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842209193
+    isBoundToConfigTemplate: false
+    name: ys
+    notes: ''
+    organizationId: '739153288842183325'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Asia/Karachi
+    url: https://n313.meraki.com/ys-cellular-gate/n/1Lvlha5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212424
+    isBoundToConfigTemplate: false
+    name: farid
+    notes: null
+    organizationId: '739153288842184110'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/farid-appliance/n/6sEzeb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213403
+    isBoundToConfigTemplate: false
+    name: JoeSheisty
+    notes: null
+    organizationId: '739153288842184110'
+    productTypes:
+    - camera
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/JoeSheisty-switc/n/RXkN2a5e/manage/usage/list
+- null
+- []
+- - enrollmentString: null
+    id: L_739153288842205643
+    isBoundToConfigTemplate: false
+    name: Test Network
+    notes: null
+    organizationId: '739153288842182989'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Network-cel/n/svkFoc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207435
+    isBoundToConfigTemplate: false
+    name: HQ Network
+    notes: null
+    organizationId: '739153288842182989'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/HQ-Network-cellu/n/9CA4sc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207436
+    isBoundToConfigTemplate: false
+    name: Lagos Network
+    notes: null
+    organizationId: '739153288842182989'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Lagos-Network-ce/n/T72dZa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842289198
+    isBoundToConfigTemplate: false
+    name: kalliwalli branch
+    notes: null
+    organizationId: '739153288842182989'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/kalliwalli-branc/n/BU6Sqb5e/manage/usage/list
+- []
+- - enrollmentString: null
+    id: N_739153288842289641
+    isBoundToConfigTemplate: false
+    name: Testing lab
+    notes: null
+    organizationId: '739153288842183562'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Testing-lab/n/JRrSla5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210096
+    isBoundToConfigTemplate: false
+    name: Site A
+    notes: null
+    organizationId: '739153288842183617'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-A-cellular-/n/a9KO8b5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210097
+    isBoundToConfigTemplate: false
+    name: SiteB
+    notes: null
+    organizationId: '739153288842183617'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/SiteB-cellular-g/n/kPcBCd5e/manage/usage/list
+- []
+- null
+- - enrollmentString: null
+    id: L_739153288842208845
+    isBoundToConfigTemplate: false
+    name: MY_LAB01
+    notes: ''
+    organizationId: '739153288842183131'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/MY_LAB01-cellula/n/_qCbPb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842277479
+    isBoundToConfigTemplate: false
+    name: Datacenter
+    notes: null
+    organizationId: '739153288842183131'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Datacenter/n/q2Eixb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212219
+    isBoundToConfigTemplate: false
+    name: TEST NETWORK
+    notes: null
+    organizationId: '739153288842184114'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST-NETWORK-app/n/jCVbma5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842208028
+    isBoundToConfigTemplate: false
+    name: BOS
+    notes: ''
+    organizationId: '739153288842183268'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/New_York
+    url: https://n313.meraki.com/BOS-cellular-gat/n/LKJTNd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842208029
+    isBoundToConfigTemplate: false
+    name: NYY
+    notes: ''
+    organizationId: '739153288842183268'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/New_York
+    url: https://n313.meraki.com/NYY-cellular-gat/n/aoMazd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211704
+    isBoundToConfigTemplate: false
+    name: Sandbox
+    notes: null
+    organizationId: '739153288842183268'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Sandbox-cellular/n/gqVcBd5e/manage/usage/list
+- []
+- - enrollmentString: null
+    id: N_739153288842299112
+    isBoundToConfigTemplate: false
+    name: NCH_OFFICE
+    notes: Test Office
+    organizationId: '739153288842184245'
+    productTypes:
+    - appliance
+    tags:
+    - NC
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/NCH_OFFICE/n/zjUl8a5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210105
+    isBoundToConfigTemplate: false
+    name: Hooli Factory China
+    notes: ''
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Asia/Kuching
+    url: https://n313.meraki.com/Hooli-Factory-Ch/n/EPLl2c5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210106
+    isBoundToConfigTemplate: false
+    name: Hooli HQ
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Hooli-HQ-cellula/n/nm9i5a5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210644
+    isBoundToConfigTemplate: false
+    name: Test Factory
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Factory-cel/n/dRB-la5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210728
+    isBoundToConfigTemplate: false
+    name: funtos_tech
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/funtos_tech-swit/n/vZsEmc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210826
+    isBoundToConfigTemplate: false
+    name: Test123
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test123-cellular/n/MQmUFc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211001
+    isBoundToConfigTemplate: false
+    name: AB Network
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AB-Network-switc/n/ArBF2a5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211879
+    isBoundToConfigTemplate: false
+    name: Abuja HQ
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Abuja-HQ-switch/n/TWuJMa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212486
+    isBoundToConfigTemplate: false
+    name: Cel
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Cel-cellular-gat/n/w1L5la5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212579
+    isBoundToConfigTemplate: false
+    name: SeaLab2020
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/SeaLab2020-camer/n/5uwtPd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294163
+    isBoundToConfigTemplate: false
+    name: camera-site
+    notes: null
+    organizationId: '739153288842183506'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/camera-site/n/fyAdPb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842206552
+    isBoundToConfigTemplate: false
+    name: Out Of Business
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Out-Of-Business-/n/yW49Sa5e/manage/usage/list
+  - configTemplateId: L_739153288842207583
+    enrollmentString: null
+    id: L_739153288842207083
+    isBoundToConfigTemplate: true
+    name: DEVET_ALWAYS_ON
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/DEVET_ALWAYS_ON-/n/rDqSGc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207221
+    isBoundToConfigTemplate: false
+    name: Melbourne Branch
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Melbourne-Branch/n/dE9emb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207256
+    isBoundToConfigTemplate: false
+    name: Derby Branch
+    notes: ''
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/London
+    url: https://n313.meraki.com/Derby-Branch-cel/n/pcI-7c5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207506
+    isBoundToConfigTemplate: false
+    name: Tala
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Tala-cellular-ga/n/oI4W7a5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207532
+    isBoundToConfigTemplate: false
+    name: lansing_test
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/lansing_test-cel/n/2LxDza5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207608
+    isBoundToConfigTemplate: false
+    name: Ovuvuevuevue
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Ovuvuevuevue-app/n/Mn68pd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207614
+    isBoundToConfigTemplate: false
+    name: SOCORP
+    notes: ''
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/SOCORP-wireless/n/VcmZqc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207636
+    isBoundToConfigTemplate: false
+    name: dallas
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/dallas-appliance/n/M4WYPb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842207637
+    isBoundToConfigTemplate: false
+    name: Luke-test
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Luke-test-applia/n/tEPNDa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842208372
+    isBoundToConfigTemplate: false
+    name: ss
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/ss-switch/n/lwLcJa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842209867
+    isBoundToConfigTemplate: false
+    name: testone
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/testone-wireless/n/6TPu-d5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210060
+    isBoundToConfigTemplate: false
+    name: AB-ALL
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AB-ALL-appliance/n/U6YLJd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210325
+    isBoundToConfigTemplate: false
+    name: jk_test
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/jk_test-switch/n/8yWm4d5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210893
+    isBoundToConfigTemplate: false
+    name: MicroFocus - Santa Clara
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/MicroFocus-Santa/n/1TrH7d5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842281631
+    isBoundToConfigTemplate: false
+    name: Long Island Office - appliance
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Long-Island-Offi/n/HOw6Nc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842281632
+    isBoundToConfigTemplate: false
+    name: Long Island Office - switch
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Long-Island-Offi/n/sZ5uWb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842281633
+    isBoundToConfigTemplate: false
+    name: Long Island Office - camera
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - camera
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Long-Island-Offi/n/ifsPsd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842281636
+    isBoundToConfigTemplate: false
+    name: CEHHC
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/CEHHC/n/6zTMyd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842282451
+    isBoundToConfigTemplate: false
+    name: Meraki_King
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Meraki_King/n/oEep6a5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842283179
+    isBoundToConfigTemplate: false
+    name: DM
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/DM_/n/zZiLRd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842286188
+    isBoundToConfigTemplate: false
+    name: ROME-TEST
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/ROME-TEST/n/UeXWfa5e/manage/usage/list
+  - configTemplateId: L_739153288842210059
+    enrollmentString: null
+    id: N_739153288842290373
+    isBoundToConfigTemplate: true
+    name: AB
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AB_/n/2eD_yd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297990
+    isBoundToConfigTemplate: false
+    name: TestSA
+    notes: null
+    organizationId: '739153288842183144'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TestSA/n/vJ_Una5e/manage/usage/list
+- - configTemplateId: L_739153288842210514
+    enrollmentString: null
+    id: L_739153288842208967
+    isBoundToConfigTemplate: true
+    name: Ala
+    notes: ''
+    organizationId: '739153288842183281'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Ala-cellular-gat/n/IhqJmb5e/manage/usage/list
+  - configTemplateId: L_739153288842210514
+    enrollmentString: 12311aa-cellular
+    id: L_739153288842210295
+    isBoundToConfigTemplate: true
+    name: sample-bish
+    notes: ''
+    organizationId: '739153288842183281'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/sample-bish-wire/n/fFJLna5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211184
+    isBoundToConfigTemplate: false
+    name: H_new office
+    notes: null
+    organizationId: '739153288842183281'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/H_new-office-cel/n/RtlZPb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211907
+    isBoundToConfigTemplate: false
+    name: manish_test
+    notes: null
+    organizationId: '739153288842183281'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/manish_test-cell/n/NPmtJd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212332
+    isBoundToConfigTemplate: false
+    name: 'Makati '
+    notes: null
+    organizationId: '739153288842184118'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Makati-appliance/n/jK-dOb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_646829496481110122
+    isBoundToConfigTemplate: false
+    name: Puran
+    notes: null
+    organizationId: '646829496481090277'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Puran-cellular-g/n/X2x6ibvc/manage/usage/list
+- null
+- - enrollmentString: null
+    id: L_646829496481110758
+    isBoundToConfigTemplate: false
+    name: admin
+    notes: null
+    organizationId: '646829496481090304'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/admin-appliance/n/WdxBIbvc/manage/usage/list
+- []
+- - enrollmentString: null
+    id: L_646829496481109841
+    isBoundToConfigTemplate: false
+    name: DATA
+    notes: ''
+    organizationId: '646829496481090437'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DATA-cellular-ga/n/IlJC5avc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481109842
+    isBoundToConfigTemplate: false
+    name: VOICE
+    notes: null
+    organizationId: '646829496481090437'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/VOICE-cellular-g/n/XA0C0avc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110092
+    isBoundToConfigTemplate: false
+    name: test
+    notes: null
+    organizationId: '646829496481090437'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/test-cellular-ga/n/7tTvscvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481110661
+    isBoundToConfigTemplate: false
+    name: Trident Company
+    notes: null
+    organizationId: '646829496481090437'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Trident-Company-/n/hbPLYbvc/manage/usage/list
+- null
+- null
+- - enrollmentString: null
+    id: L_646829496481105433
+    isBoundToConfigTemplate: false
+    name: DevNet Sandbox ALWAYS ON
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DevNet-Sandbox-A/n/EFZ1Davc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481111955
+    isBoundToConfigTemplate: false
+    name: Teslag.Meraki.com
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Teslag.Meraki.co/n/vhNLVcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112508
+    isBoundToConfigTemplate: false
+    name: P-Net
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Chicago
+    url: https://n149.meraki.com/P-Net-wireless/n/pAqjnavc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112509
+    isBoundToConfigTemplate: false
+    name: Teslag-Meraki-CCNP
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Teslag-Meraki-CC/n/SdU-kdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112535
+    isBoundToConfigTemplate: false
+    name: MERAKI-FRIDAY
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/MERAKI-FRIDAY-wi/n/WupScavc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112797
+    isBoundToConfigTemplate: false
+    name: CCNP-SCOR
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/CCNP-SCOR-applia/n/bGTPAdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481112860
+    isBoundToConfigTemplate: false
+    name: Meraki-Emilio
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Meraki-Emilio-wi/n/JLB3Gdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113068
+    isBoundToConfigTemplate: false
+    name: CCNP-SABADO
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/CCNP-SABADO-appl/n/6JTG_bvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113118
+    isBoundToConfigTemplate: false
+    name: DNENT1-txxxxxvgmail.com
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DNENT1-txxxxxvgm/n/9x4dPdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113132
+    isBoundToConfigTemplate: false
+    name: DNSMB5-xxxxxx6student.monash.edu
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DNSMB5-xxxxxx6st/n/Nuensbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113133
+    isBoundToConfigTemplate: false
+    name: DNENT2-axxxxxxx8gmail.com
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DNENT2-axxxxxxx8/n/ittSHbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113134
+    isBoundToConfigTemplate: false
+    name: MerakiUmbrella
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/MerakiUmbrella-w/n/4UhLydvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113137
+    isBoundToConfigTemplate: false
+    name: Meraki
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Meraki-appliance/n/7z4mGdvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113141
+    isBoundToConfigTemplate: false
+    name: DNSMB2-axxxxhme.com
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DNSMB2-axxxxhme./n/UXrO0bvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113154
+    isBoundToConfigTemplate: false
+    name: Class_21_Mex
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Class_21_Mex-app/n/rlJu1avc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113159
+    isBoundToConfigTemplate: false
+    name: 'Explore Projects Created with Meraki APIs '
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/Explore-Projects/n/7slgpcvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113160
+    isBoundToConfigTemplate: false
+    name: DNSMB4-mxxxxxxkopsramp.com
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DNSMB4-mxxxxxxko/n/Cd0zCbvc/manage/usage/list
+  - enrollmentString: null
+    id: L_646829496481113161
+    isBoundToConfigTemplate: false
+    name: DNENT3-axxxxxuaccenture.com
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/DNENT3-axxxxxuac/n/j8_jKavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481187875
+    isBoundToConfigTemplate: false
+    name: vmx_1.1_mike
+    notes: ''
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/vmx_1.1_mike/n/mBSfkbvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481188541
+    isBoundToConfigTemplate: false
+    name: vmx_1.2_mike
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/vmx_1.2_mike/n/erllgavc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481188542
+    isBoundToConfigTemplate: false
+    name: vmx_1.3_mike
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/vmx_1.3_mike/n/bkWa_bvc/manage/usage/list
+  - enrollmentString: null
+    id: N_646829496481189507
+    isBoundToConfigTemplate: false
+    name: CLUS-22
+    notes: null
+    organizationId: '549236'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n149.meraki.com/CLUS-22/n/yRKR8cvc/manage/usage/list
+- null
+- []
+- []
+- - enrollmentString: null
+    id: N_739153288842294286
+    isBoundToConfigTemplate: false
+    name: Nova1 - environmental - cellular gateway
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova1-environmen/n/WLN8Fa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294287
+    isBoundToConfigTemplate: false
+    name: Nova1 - environmental - appliance
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova1-environmen/n/i1NZnd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294288
+    isBoundToConfigTemplate: false
+    name: Nova1 - environmental - wireless
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova1-environmen/n/DZdr2a5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294289
+    isBoundToConfigTemplate: false
+    name: Nova1 - environmental - switch
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova1-environmen/n/Z6NH-b5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294290
+    isBoundToConfigTemplate: false
+    name: Nova1 - environmental - environmental
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova1-environmen/n/hhhz1b5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294291
+    isBoundToConfigTemplate: false
+    name: Nova2 - environmental - cellular gateway
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova2-environmen/n/ULDipb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294292
+    isBoundToConfigTemplate: false
+    name: Nova2 - environmental - appliance
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova2-environmen/n/t0ZK_d5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294293
+    isBoundToConfigTemplate: false
+    name: Nova2 - environmental - wireless
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova2-environmen/n/j_WwBb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294294
+    isBoundToConfigTemplate: false
+    name: Nova2 - environmental - switch
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova2-environmen/n/98gGnb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294295
+    isBoundToConfigTemplate: false
+    name: Nova2 - environmental - environmental
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nova2-environmen/n/xVpIBb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298613
+    isBoundToConfigTemplate: false
+    name: DG-Test
+    notes: null
+    organizationId: '739153288842183771'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/DG-Test/n/JmtVrb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842206374
+    isBoundToConfigTemplate: false
+    name: OC
+    notes: null
+    organizationId: '739153288842183142'
+    productTypes:
+    - appliance
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/OC-wireless/n/vhnP4d5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212224
+    isBoundToConfigTemplate: false
+    name: XXXX
+    notes: null
+    organizationId: '739153288842184255'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/XXXX-appliance/n/vV3kUb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212225
+    isBoundToConfigTemplate: false
+    name: Long Island Office
+    notes: null
+    organizationId: '739153288842184255'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Long-Island-Offi/n/OWjdNa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212534
+    isBoundToConfigTemplate: false
+    name: BT Test Net 1
+    notes: null
+    organizationId: '739153288842184255'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/BT-Test-Net-1-ce/n/2LpOxc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212535
+    isBoundToConfigTemplate: false
+    name: BT Test net 2
+    notes: null
+    organizationId: '739153288842184255'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/BT-Test-net-2-en/n/u2aH2d5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212536
+    isBoundToConfigTemplate: false
+    name: BT Test net 3
+    notes: null
+    organizationId: '739153288842184255'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/BT-Test-net-3-en/n/F6uESb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299425
+    isBoundToConfigTemplate: false
+    name: XXXX
+    notes: null
+    organizationId: '739153288842184255'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/XXXX/n/x8_6wd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212228
+    isBoundToConfigTemplate: false
+    name: A-Company
+    notes: null
+    organizationId: '739153288842184256'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/A-Company-applia/n/HDmyHc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212229
+    isBoundToConfigTemplate: false
+    name: B-Company
+    notes: null
+    organizationId: '739153288842184256'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags:
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/B-Company-applia/n/8jVb7b5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212465
+    isBoundToConfigTemplate: false
+    name: Store1
+    notes: null
+    organizationId: '739153288842184323'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Store1-appliance/n/YTDWWd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212466
+    isBoundToConfigTemplate: false
+    name: Store2
+    notes: null
+    organizationId: '739153288842184323'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Store2-appliance/n/6GSsXb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212467
+    isBoundToConfigTemplate: false
+    name: Store3
+    notes: null
+    organizationId: '739153288842184323'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Store3-appliance/n/xUlONc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210161
+    isBoundToConfigTemplate: false
+    name: pune rce
+    notes: null
+    organizationId: '739153288842183222'
+    productTypes:
+    - systemsManager
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/pune-rce-systems/n/B7RhEb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211143
+    isBoundToConfigTemplate: false
+    name: Third Eye Blind
+    notes: null
+    organizationId: '739153288842183222'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    - wireless
+    tags:
+    - tag1
+    - tag2
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Third-Eye-Blind-/n/7Kqwbc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842281506
+    isBoundToConfigTemplate: false
+    name: Network A
+    notes: null
+    organizationId: '739153288842183222'
+    productTypes:
+    - systemsManager
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Network-A/n/WMEfYa5e/manage/usage/list
+- []
+- - enrollmentString: null
+    id: L_739153288842212065
+    isBoundToConfigTemplate: false
+    name: test_net_1
+    notes: null
+    organizationId: '739153288842184015'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test_net_1-cellu/n/vGtNud5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212186
+    isBoundToConfigTemplate: false
+    name: Test
+    notes: null
+    organizationId: '739153288842183353'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-switch/n/uMWXEc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842286478
+    isBoundToConfigTemplate: false
+    name: ENAUTO network
+    notes: ''
+    organizationId: '739153288842183353'
+    productTypes:
+    - wireless
+    tags:
+    - tag1
+    - tag2
+    timeZone: US/Pacific
+    url: https://n313.meraki.com/ENAUTO-network/n/MBCnIc5e/manage/usage/list
+- []
+- null
+- - enrollmentString: null
+    id: L_739153288842210990
+    isBoundToConfigTemplate: false
+    name: test network1
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test-network1-ce/n/uz0GNb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211002
+    isBoundToConfigTemplate: false
+    name: Agi-Amn
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Agi-Amn-cellular/n/qJ5gOd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211648
+    isBoundToConfigTemplate: false
+    name: Kris
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Kris-environment/n/YNTw9d5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212068
+    isBoundToConfigTemplate: false
+    name: Tun
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Tun-appliance/n/vfyoTd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212400
+    isBoundToConfigTemplate: false
+    name: kottayam
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/kottayam-camera/n/UjDTwa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212404
+    isBoundToConfigTemplate: false
+    name: ktm01
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/ktm01-cellular-g/n/_GDl7d5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842294905
+    isBoundToConfigTemplate: false
+    name: James
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/James/n/R_wFRc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298791
+    isBoundToConfigTemplate: false
+    name: first lab
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/first-lab/n/9tEdgb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299503
+    isBoundToConfigTemplate: false
+    name: Senta_net
+    notes: null
+    organizationId: '739153288842183652'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Senta_net/n/kx1JHb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211754
+    isBoundToConfigTemplate: false
+    name: Scranton Branch
+    notes: null
+    organizationId: '739153288842183560'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Scranton-Branch-/n/BhXeFa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211897
+    isBoundToConfigTemplate: false
+    name: 'scranton new branch office '
+    notes: ''
+    organizationId: '739153288842183560'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/scranton-new-bra/n/TnRKHd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842208045
+    isBoundToConfigTemplate: false
+    name: Layann salame
+    notes: ''
+    organizationId: '739153288842183267'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Layann-salame-ce/n/HCXL4a5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211855
+    isBoundToConfigTemplate: false
+    name: Network-Gamma
+    notes: null
+    organizationId: '739153288842184122'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Network-Gamma-ap/n/bupQMc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210915
+    isBoundToConfigTemplate: false
+    name: test
+    notes: ''
+    organizationId: '739153288842183338'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Mexico_City
+    url: https://n313.meraki.com/test-cellular-ga/n/TPh27b5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210963
+    isBoundToConfigTemplate: false
+    name: MaxNetwork
+    notes: ''
+    organizationId: '739153288842183338'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/Riga
+    url: https://n313.meraki.com/MaxNetwork-cellu/n/PRz-sc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210646
+    isBoundToConfigTemplate: false
+    name: Test Factory
+    notes: ''
+    organizationId: '739153288842183649'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Factory-env/n/XxU2qd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210762
+    isBoundToConfigTemplate: false
+    name: Sidcup
+    notes: ''
+    organizationId: '739153288842183649'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Etc/GMT+1
+    url: https://n313.meraki.com/Sidcup-switch/n/OwGeda5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212139
+    isBoundToConfigTemplate: false
+    name: PJ_Test
+    notes: ''
+    organizationId: '739153288842183649'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/PJ_Test-applianc/n/vhc0Xc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842292139
+    isBoundToConfigTemplate: false
+    name: Hangzhou
+    notes: null
+    organizationId: '739153288842183649'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Hangzhou/n/YZs01c5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299648
+    isBoundToConfigTemplate: false
+    name: Philippines
+    notes: null
+    organizationId: '739153288842183649'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Philippines/n/vp4hjd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842207605
+    isBoundToConfigTemplate: false
+    name: London
+    notes: null
+    organizationId: '739153288842183237'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/London-cellular-/n/07_Hfc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842208051
+    isBoundToConfigTemplate: false
+    name: testx
+    notes: null
+    organizationId: '739153288842183237'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/testx-cellular-g/n/ILqECd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210781
+    isBoundToConfigTemplate: false
+    name: Nana HQ
+    notes: null
+    organizationId: '739153288842183237'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Nana-HQ-cellular/n/UcRRHa5e/manage/usage/list
+- []
+- - enrollmentString: null
+    id: L_739153288842213409
+    isBoundToConfigTemplate: false
+    name: ericrod2_network
+    notes: ''
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    - switch
+    - wireless
+    tags:
+    - tag1
+    - tag2
+    timeZone: US/Alaska
+    url: https://n313.meraki.com/ericrod2_network/n/Y4xSKb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213454
+    isBoundToConfigTemplate: false
+    name: TEMPLATE_NETWORK
+    notes: ''
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags:
+    - TEMPLATE
+    - TEST
+    timeZone: America/Mexico_City
+    url: https://n313.meraki.com/TEMPLATE_NETWORK/n/BKhTAb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213456
+    isBoundToConfigTemplate: false
+    name: NA-USA-AL-SDN-DHNMH
+    notes: ''
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags:
+    - ACC
+    - API_MOD
+    - MG
+    - MX
+    - NDE-RO
+    timeZone: US/Central
+    url: https://n313.meraki.com/NA-USA-AL-SDN-DH/n/6sn7Xc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213589
+    isBoundToConfigTemplate: false
+    name: NA-USA-TX-SDN-DFWAR
+    notes: ''
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags:
+    - ACC
+    - HLT
+    - MG
+    - MX
+    - NDE-RO
+    timeZone: US/Mountain
+    url: https://n313.meraki.com/NA-USA-TX-SDN-DF/n/1SOrYb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213890
+    isBoundToConfigTemplate: false
+    name: TEMPLATE_NETWORK_COMBINEN_HW
+    notes: null
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEMPLATE_NETWORK/n/2Xa--a5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213925
+    isBoundToConfigTemplate: false
+    name: NA-USA-FL-SDN-SPTSH
+    notes: ''
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags:
+    - ACC
+    - MG
+    - MX
+    - NDE-RO
+    timeZone: US/Eastern
+    url: https://n313.meraki.com/NA-USA-FL-SDN-SP/n/rnkfid5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213958
+    isBoundToConfigTemplate: false
+    name: NA-USA-KY-SDN-CVGKE
+    notes: ''
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags:
+    - ACC
+    - MG
+    - MX
+    - NDE-RO
+    timeZone: US/Eastern
+    url: https://n313.meraki.com/NA-USA-KY-SDN-CV/n/S_Q0la5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842305862
+    isBoundToConfigTemplate: false
+    name: APPLIANCE_NETWORK
+    notes: null
+    organizationId: '739153288842184571'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/APPLIANCE_NETWOR/n/HZhnpa5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842212181
+    isBoundToConfigTemplate: false
+    name: 'South County '
+    notes: null
+    organizationId: '739153288842183041'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/South-County-app/n/fOeOea5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212182
+    isBoundToConfigTemplate: false
+    name: North County
+    notes: null
+    organizationId: '739153288842183041'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/North-County-app/n/Pc9iCb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212183
+    isBoundToConfigTemplate: false
+    name: Remote School 01
+    notes: null
+    organizationId: '739153288842183041'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Remote-School-01/n/ffon5b5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212184
+    isBoundToConfigTemplate: false
+    name: Remote School 01 Mobile Devices
+    notes: null
+    organizationId: '739153288842183041'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Remote-School-01/n/vNCljb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211948
+    isBoundToConfigTemplate: false
+    name: Test_Branch_Office
+    notes: null
+    organizationId: '739153288842183233'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test_Branch_Offi/n/uIZw8b5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842211957
+    isBoundToConfigTemplate: false
+    name: Lewis Geek
+    notes: null
+    organizationId: '739153288842183233'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Lewis-Geek-cellu/n/C7qZDa5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212155
+    isBoundToConfigTemplate: false
+    name: MX84
+    notes: null
+    organizationId: '739153288842183233'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/MX84-appliance/n/CPrald5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842208606
+    isBoundToConfigTemplate: false
+    name: Jim Jones
+    notes: null
+    organizationId: '739153288842183346'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Jim-Jones-cellul/n/IG1XTd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842208968
+    isBoundToConfigTemplate: false
+    name: test_francis
+    notes: null
+    organizationId: '739153288842183346'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test_francis-cel/n/lJ1bQc5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842212173
+    isBoundToConfigTemplate: false
+    name: xxic_netw_one
+    notes: null
+    organizationId: '739153288842183346'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/xxic_netw_one-ap/n/T-xPwb5e/manage/usage/list
+- []
+- - enrollmentString: null
+    id: L_739153288842212471
+    isBoundToConfigTemplate: false
+    name: Mahendra-Lab
+    notes: null
+    organizationId: '739153288842184116'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Mahendra-Lab-env/n/Syujrb5e/manage/usage/list
+  - configTemplateId: N_739153288842298783
+    enrollmentString: null
+    id: N_739153288842298777
+    isBoundToConfigTemplate: true
+    name: Test Network - cellular gateway
+    notes: null
+    organizationId: '739153288842184116'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Network-cel/n/oPfGjc5e/manage/usage/list
+  - configTemplateId: N_739153288842298784
+    enrollmentString: null
+    id: N_739153288842298778
+    isBoundToConfigTemplate: true
+    name: Test Network - appliance
+    notes: null
+    organizationId: '739153288842184116'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Network-app/n/bxbFhc5e/manage/usage/list
+  - configTemplateId: N_739153288842298785
+    enrollmentString: null
+    id: N_739153288842298779
+    isBoundToConfigTemplate: true
+    name: Test Network - wireless
+    notes: null
+    organizationId: '739153288842184116'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Network-wir/n/QvENta5e/manage/usage/list
+  - configTemplateId: N_739153288842298786
+    enrollmentString: null
+    id: N_739153288842298780
+    isBoundToConfigTemplate: true
+    name: Test Network - switch
+    notes: null
+    organizationId: '739153288842184116'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Network-swi/n/Q1ZlBa5e/manage/usage/list
+  - configTemplateId: N_739153288842298787
+    enrollmentString: null
+    id: N_739153288842298781
+    isBoundToConfigTemplate: true
+    name: Test Network - environmental
+    notes: null
+    organizationId: '739153288842184116'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Network-env/n/Y11rXd5e/manage/usage/list
+  - configTemplateId: N_739153288842298788
+    enrollmentString: null
+    id: N_739153288842298782
+    isBoundToConfigTemplate: true
+    name: Test Network - camera
+    notes: null
+    organizationId: '739153288842184116'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test-Network-cam/n/SbvQ7c5e/manage/usage/list
+- null
+- []
+- - enrollmentString: null
+    id: L_739153288842208851
+    isBoundToConfigTemplate: false
+    name: Bicester1
+    notes: ''
+    organizationId: '739153288842183278'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Bicester1-cellul/n/9dQU8d5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210914
+    isBoundToConfigTemplate: false
+    name: Branch Riche-Terre
+    notes: null
+    organizationId: '739153288842183278'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Branch-Riche-Ter/n/6xkrha5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842206944
+    isBoundToConfigTemplate: false
+    name: dsds
+    notes: null
+    organizationId: '739153288842183109'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/dsds-cellular-ga/n/uIIokd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842209714
+    isBoundToConfigTemplate: false
+    name: Toronto NOC
+    notes: null
+    organizationId: '739153288842183109'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Toronto-NOC-cell/n/54Lgmb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842210716
+    isBoundToConfigTemplate: false
+    name: PEDRO
+    notes: null
+    organizationId: '739153288842183109'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/PEDRO-cellular-g/n/XdCueb5e/manage/usage/list
+- - configTemplateId: N_739153288842299303
+    enrollmentString: null
+    id: N_739153288842289643
+    isBoundToConfigTemplate: true
+    name: BRU-3
+    notes: ''
+    organizationId: '739153288842183563'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/BRU-3/n/s6W3Bd5e/manage/usage/list
+- null
+- []
+- null
+- null
+- []
+- []
+- - enrollmentString: null
+    id: L_739153288842208829
+    isBoundToConfigTemplate: false
+    name: MY_01
+    notes: 'TEST
+
+      '
+    organizationId: '739153288842183210'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/Belfast
+    url: https://n313.meraki.com/MY_01-cellular-g/n/h1Abic5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842209760
+    isBoundToConfigTemplate: false
+    name: MY_2
+    notes: null
+    organizationId: '739153288842183210'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/MY_2-cellular-ga/n/w9EZNc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211911
+    isBoundToConfigTemplate: false
+    name: BR01
+    notes: null
+    organizationId: '739153288842183567'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/BR01-cellular-ga/n/T0Y30d5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842208712
+    isBoundToConfigTemplate: false
+    name: 112s
+    notes: null
+    organizationId: '739153288842183275'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/112s-cellular-ga/n/jLiFqd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842205578
+    isBoundToConfigTemplate: false
+    name: Branch_1
+    notes: ''
+    organizationId: '739153288842183112'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: Australia/Sydney
+    url: https://n313.meraki.com/Branch_1-cellula/n/k-6jWb5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842205579
+    isBoundToConfigTemplate: false
+    name: Brach_2
+    notes: null
+    organizationId: '739153288842183112'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Brach_2-cellular/n/NYNwFa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842277537
+    isBoundToConfigTemplate: false
+    name: praveen
+    notes: null
+    organizationId: '739153288842183112'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/praveen/n/ubRRWc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842185760
+    isBoundToConfigTemplate: false
+    name: Site 0008
+    notes: null
+    organizationId: '739153288842182996'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0008-switch/n/imrm2b5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842205426
+    isBoundToConfigTemplate: false
+    name: Site 0020
+    notes: null
+    organizationId: '739153288842182996'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0020-cellul/n/cdT5Xd5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842213395
+    isBoundToConfigTemplate: false
+    name: Europe01
+    notes: ''
+    organizationId: '739153288842182996'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: Europe/Helsinki
+    url: https://n313.meraki.com/Europe01-environ/n/fs84jb5e/manage/usage/list
+  - configTemplateId: L_739153288842207639
+    enrollmentString: null
+    id: N_739153288842194233
+    isBoundToConfigTemplate: true
+    name: Site 0001
+    notes: null
+    organizationId: '739153288842182996'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0001/n/3KImyd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842194238
+    isBoundToConfigTemplate: false
+    name: Site 0003
+    notes: ''
+    organizationId: '739153288842182996'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0003/n/6b8JPb5e/manage/usage/list
+  - configTemplateId: L_739153288842207638
+    enrollmentString: null
+    id: N_739153288842194239
+    isBoundToConfigTemplate: true
+    name: Site 0002
+    notes: null
+    organizationId: '739153288842182996'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0002/n/-RlyJc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842194964
+    isBoundToConfigTemplate: false
+    name: Site 0006
+    notes: null
+    organizationId: '739153288842182996'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0006/n/ZEucdc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842195646
+    isBoundToConfigTemplate: false
+    name: Site 0010
+    notes: null
+    organizationId: '739153288842182996'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0010/n/mNy4Sd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842195648
+    isBoundToConfigTemplate: false
+    name: Site 0011
+    notes: null
+    organizationId: '739153288842182996'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Site-0011/n/hA121a5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842185365
+    isBoundToConfigTemplate: false
+    name: My Enauto network
+    notes: null
+    organizationId: '739153288842182988'
+    productTypes:
+    - appliance
+    - camera
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/My-Enauto-networ/n/KfZy_c5e/manage/usage/list
+  - enrollmentString: null
+    id: L_739153288842206231
+    isBoundToConfigTemplate: false
+    name: Data center Sydney
+    notes: null
+    organizationId: '739153288842182988'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Data-center-Sydn/n/B20HPc5e/manage/usage/list
+- - enrollmentString: null
+    id: N_739153288842298274
+    isBoundToConfigTemplate: false
+    name: adnan-meraki
+    notes: null
+    organizationId: '739153288842183873'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/adnan-meraki/n/ct7h-d5e/manage/usage/list
+- - configTemplateId: N_739153288842296690
+    enrollmentString: null
+    id: N_739153288842295398
+    isBoundToConfigTemplate: true
+    name: BLRNETWORK
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/BLRNETWORK/n/yCvzYc5e/manage/usage/list
+  - configTemplateId: N_739153288842296683
+    enrollmentString: null
+    id: N_739153288842295399
+    isBoundToConfigTemplate: true
+    name: HYD NETWORK - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/HYD-NETWORK-cell/n/6wFLNc5e/manage/usage/list
+  - configTemplateId: N_739153288842296684
+    enrollmentString: null
+    id: N_739153288842295400
+    isBoundToConfigTemplate: true
+    name: HYD NETWORK - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/HYD-NETWORK-appl/n/OxaTTb5e/manage/usage/list
+  - configTemplateId: N_739153288842296685
+    enrollmentString: null
+    id: N_739153288842295401
+    isBoundToConfigTemplate: true
+    name: HYD NETWORK - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/HYD-NETWORK-wire/n/zgpKEa5e/manage/usage/list
+  - configTemplateId: N_739153288842296686
+    enrollmentString: null
+    id: N_739153288842295402
+    isBoundToConfigTemplate: true
+    name: HYD NETWORK - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/HYD-NETWORK-swit/n/9eH-7a5e/manage/usage/list
+  - configTemplateId: N_739153288842296687
+    enrollmentString: null
+    id: N_739153288842295403
+    isBoundToConfigTemplate: true
+    name: HYD NETWORK - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/HYD-NETWORK-envi/n/Yg5qlc5e/manage/usage/list
+  - configTemplateId: N_739153288842296014
+    enrollmentString: null
+    id: N_739153288842295681
+    isBoundToConfigTemplate: true
+    name: LAN
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/LAN/n/eMbRec5e/manage/usage/list
+  - configTemplateId: N_739153288842296691
+    enrollmentString: null
+    id: N_739153288842296058
+    isBoundToConfigTemplate: true
+    name: Yoleisy
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Yoleisy/n/7W7Phd5e/manage/usage/list
+  - configTemplateId: N_739153288842296696
+    enrollmentString: null
+    id: N_739153288842296701
+    isBoundToConfigTemplate: true
+    name: fares_3abas_Network - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_3abas_Netw/n/C2ojZa5e/manage/usage/list
+  - configTemplateId: N_739153288842296699
+    enrollmentString: null
+    id: N_739153288842296702
+    isBoundToConfigTemplate: true
+    name: fares_3abas_Network - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_3abas_Netw/n/MwO8ub5e/manage/usage/list
+  - configTemplateId: N_739153288842296697
+    enrollmentString: null
+    id: N_739153288842296703
+    isBoundToConfigTemplate: true
+    name: fares_3abas_Network - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_3abas_Netw/n/VGBk_c5e/manage/usage/list
+  - configTemplateId: N_739153288842296698
+    enrollmentString: null
+    id: N_739153288842296704
+    isBoundToConfigTemplate: true
+    name: fares_3abas_Network - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_3abas_Netw/n/NlY6jd5e/manage/usage/list
+  - configTemplateId: N_739153288842296700
+    enrollmentString: null
+    id: N_739153288842296705
+    isBoundToConfigTemplate: true
+    name: fares_3abas_Network - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_3abas_Netw/n/iELd7b5e/manage/usage/list
+  - configTemplateId: N_739153288842296695
+    enrollmentString: null
+    id: N_739153288842296706
+    isBoundToConfigTemplate: true
+    name: fares_3abas_Network - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_3abas_Netw/n/MTZpKb5e/manage/usage/list
+  - configTemplateId: N_739153288842296696
+    enrollmentString: null
+    id: N_739153288842296707
+    isBoundToConfigTemplate: true
+    name: fares_abbas_network_2 - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_abbas_netw/n/WHelic5e/manage/usage/list
+  - configTemplateId: N_739153288842296699
+    enrollmentString: null
+    id: N_739153288842296708
+    isBoundToConfigTemplate: true
+    name: fares_abbas_network_2 - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_abbas_netw/n/kQcvaa5e/manage/usage/list
+  - configTemplateId: N_739153288842296697
+    enrollmentString: null
+    id: N_739153288842296709
+    isBoundToConfigTemplate: true
+    name: fares_abbas_network_2 - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_abbas_netw/n/aFkRGd5e/manage/usage/list
+  - configTemplateId: N_739153288842296698
+    enrollmentString: null
+    id: N_739153288842296710
+    isBoundToConfigTemplate: true
+    name: fares_abbas_network_2 - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_abbas_netw/n/129cFa5e/manage/usage/list
+  - configTemplateId: N_739153288842296700
+    enrollmentString: null
+    id: N_739153288842296711
+    isBoundToConfigTemplate: true
+    name: fares_abbas_network_2 - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_abbas_netw/n/AljJuc5e/manage/usage/list
+  - configTemplateId: N_739153288842296695
+    enrollmentString: null
+    id: N_739153288842296712
+    isBoundToConfigTemplate: true
+    name: fares_abbas_network_2 - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/fares_abbas_netw/n/R4Pisa5e/manage/usage/list
+  - configTemplateId: N_739153288842297006
+    enrollmentString: null
+    id: N_739153288842296722
+    isBoundToConfigTemplate: true
+    name: AL-NAGRI - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AL-NAGRI-cellula/n/gf11Cd5e/manage/usage/list
+  - configTemplateId: N_739153288842297007
+    enrollmentString: null
+    id: N_739153288842296723
+    isBoundToConfigTemplate: true
+    name: AL-NAGRI - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AL-NAGRI-applian/n/2bnavc5e/manage/usage/list
+  - configTemplateId: N_739153288842297008
+    enrollmentString: null
+    id: N_739153288842296724
+    isBoundToConfigTemplate: true
+    name: AL-NAGRI - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AL-NAGRI-wireles/n/hzTtLb5e/manage/usage/list
+  - configTemplateId: N_739153288842297009
+    enrollmentString: null
+    id: N_739153288842296725
+    isBoundToConfigTemplate: true
+    name: AL-NAGRI - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AL-NAGRI-switch/n/PhHqBb5e/manage/usage/list
+  - configTemplateId: N_739153288842297010
+    enrollmentString: null
+    id: N_739153288842296726
+    isBoundToConfigTemplate: true
+    name: AL-NAGRI - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AL-NAGRI-environ/n/EY-Wcc5e/manage/usage/list
+  - configTemplateId: N_739153288842297011
+    enrollmentString: null
+    id: N_739153288842296727
+    isBoundToConfigTemplate: true
+    name: AL-NAGRI - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AL-NAGRI-camera/n/DfRJia5e/manage/usage/list
+  - configTemplateId: N_739153288842296691
+    enrollmentString: null
+    id: N_739153288842296728
+    isBoundToConfigTemplate: true
+    name: Rajeev - wireless
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Rajeev-wireless/n/Bt1VOa5e/manage/usage/list
+  - configTemplateId: N_739153288842296694
+    enrollmentString: null
+    id: N_739153288842296729
+    isBoundToConfigTemplate: true
+    name: Rajeev - camera
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Rajeev-camera/n/alUW9b5e/manage/usage/list
+  - configTemplateId: N_739153288842296692
+    enrollmentString: null
+    id: N_739153288842296730
+    isBoundToConfigTemplate: true
+    name: Rajeev - switch
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Rajeev-switch/n/syjTub5e/manage/usage/list
+  - configTemplateId: N_739153288842296693
+    enrollmentString: null
+    id: N_739153288842296731
+    isBoundToConfigTemplate: true
+    name: Rajeev - environmental
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Rajeev-environme/n/9Tawnd5e/manage/usage/list
+  - configTemplateId: N_739153288842296690
+    enrollmentString: null
+    id: N_739153288842296732
+    isBoundToConfigTemplate: true
+    name: Rajeev - appliance
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Rajeev-appliance/n/0Q4Meb5e/manage/usage/list
+  - configTemplateId: N_739153288842296689
+    enrollmentString: null
+    id: N_739153288842296733
+    isBoundToConfigTemplate: true
+    name: Rajeev - cellular gateway
+    notes: Privet property
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Rajeev-cellular-/n/JKEs2a5e/manage/usage/list
+  - configTemplateId: N_739153288842297007
+    enrollmentString: null
+    id: N_739153288842296864
+    isBoundToConfigTemplate: true
+    name: MonirMorshed
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/MonirMorshed/n/3ChKPc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297442
+    isBoundToConfigTemplate: false
+    name: Paiva.org - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Paiva.org-cellul/n/JwwXwc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297443
+    isBoundToConfigTemplate: false
+    name: Paiva.org - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Paiva.org-applia/n/bBvuza5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297444
+    isBoundToConfigTemplate: false
+    name: Paiva.org - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Paiva.org-wirele/n/_nTasa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297445
+    isBoundToConfigTemplate: false
+    name: Paiva.org - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Paiva.org-switch/n/N3kcmd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297446
+    isBoundToConfigTemplate: false
+    name: Paiva.org - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Paiva.org-enviro/n/cp8xma5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297447
+    isBoundToConfigTemplate: false
+    name: Paiva.org - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Paiva.org-camera/n/Gtc1Gc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297695
+    isBoundToConfigTemplate: false
+    name: Devnet-GroupOmicron - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Devnet-GroupOmic/n/EEx4xc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297696
+    isBoundToConfigTemplate: false
+    name: Devnet-GroupOmicron - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Devnet-GroupOmic/n/t3AmNc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297697
+    isBoundToConfigTemplate: false
+    name: Devnet-GroupOmicron - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Devnet-GroupOmic/n/CEYBbd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297698
+    isBoundToConfigTemplate: false
+    name: Devnet-GroupOmicron - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Devnet-GroupOmic/n/FeHifd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297699
+    isBoundToConfigTemplate: false
+    name: Devnet-GroupOmicron - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Devnet-GroupOmic/n/WRTDId5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297700
+    isBoundToConfigTemplate: false
+    name: Devnet-GroupOmicron - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Devnet-GroupOmic/n/E84eMa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297914
+    isBoundToConfigTemplate: false
+    name: Arthur Lupker - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Arthur-Lupker-ce/n/LW8nVc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297915
+    isBoundToConfigTemplate: false
+    name: Arthur Lupker - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Arthur-Lupker-ap/n/jT8I3a5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297916
+    isBoundToConfigTemplate: false
+    name: Arthur Lupker - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Arthur-Lupker-wi/n/DXqYhb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297917
+    isBoundToConfigTemplate: false
+    name: Arthur Lupker - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Arthur-Lupker-sw/n/KCF91d5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297918
+    isBoundToConfigTemplate: false
+    name: Arthur Lupker - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Arthur-Lupker-en/n/c6NjMa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297919
+    isBoundToConfigTemplate: false
+    name: Arthur Lupker - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Arthur-Lupker-ca/n/c5LHZc5e/manage/usage/list
+  - configTemplateId: N_739153288842298272
+    enrollmentString: null
+    id: N_739153288842298261
+    isBoundToConfigTemplate: true
+    name: TEST123 - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST123-cellular/n/RHFr1a5e/manage/usage/list
+  - configTemplateId: N_739153288842298271
+    enrollmentString: null
+    id: N_739153288842298262
+    isBoundToConfigTemplate: true
+    name: TEST123 - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST123-applianc/n/JX9Rec5e/manage/usage/list
+  - configTemplateId: N_739153288842298270
+    enrollmentString: null
+    id: N_739153288842298263
+    isBoundToConfigTemplate: true
+    name: TEST123 - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST123-wireless/n/I8oCVc5e/manage/usage/list
+  - configTemplateId: N_739153288842298269
+    enrollmentString: null
+    id: N_739153288842298264
+    isBoundToConfigTemplate: true
+    name: TEST123 - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST123-switch/n/rUUrzb5e/manage/usage/list
+  - configTemplateId: N_739153288842298268
+    enrollmentString: null
+    id: N_739153288842298265
+    isBoundToConfigTemplate: true
+    name: TEST123 - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST123-environm/n/W1wU_a5e/manage/usage/list
+  - configTemplateId: N_739153288842298267
+    enrollmentString: null
+    id: N_739153288842298266
+    isBoundToConfigTemplate: true
+    name: TEST123 - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/TEST123-camera/n/gjMVqb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298371
+    isBoundToConfigTemplate: false
+    name: Internet - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Internet-cellula/n/31EwEd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298372
+    isBoundToConfigTemplate: false
+    name: Internet - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Internet-applian/n/uYVUlb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298373
+    isBoundToConfigTemplate: false
+    name: Internet - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Internet-wireles/n/mSLbld5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298374
+    isBoundToConfigTemplate: false
+    name: Internet - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Internet-switch/n/z82IIc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298375
+    isBoundToConfigTemplate: false
+    name: Internet - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Internet-environ/n/JVzeFd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298376
+    isBoundToConfigTemplate: false
+    name: Internet - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Internet-camera/n/KWPDCc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298980
+    isBoundToConfigTemplate: false
+    name: AR-FORMOSA-SUC - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-FORMOSA-SUC-a/n/gfWmud5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298981
+    isBoundToConfigTemplate: false
+    name: AR-FORMOSA-SUC - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-FORMOSA-SUC-w/n/PXqEyb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298982
+    isBoundToConfigTemplate: false
+    name: AR-FORMOSA-SUC - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-FORMOSA-SUC-s/n/RqpH7a5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298983
+    isBoundToConfigTemplate: false
+    name: AR-FORMOSA-SUC - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-FORMOSA-SUC-e/n/3kKPrb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298984
+    isBoundToConfigTemplate: false
+    name: AR-FORMOSA-SUC - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-FORMOSA-SUC-c/n/XV8DPc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842298985
+    isBoundToConfigTemplate: false
+    name: AR-FORMOSA-SUC - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-FORMOSA-SUC-c/n/g6kcab5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299180
+    isBoundToConfigTemplate: false
+    name: South Branch Cameras
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/South-Branch-Cam/n/wdFWCd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299181
+    isBoundToConfigTemplate: false
+    name: AR-CALAFATE-ATO - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CALAFATE-ATO-/n/ZTxLRb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299182
+    isBoundToConfigTemplate: false
+    name: AR-CALAFATE-ATO - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CALAFATE-ATO-/n/-AsF2b5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299183
+    isBoundToConfigTemplate: false
+    name: AR-CALAFATE-ATO - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CALAFATE-ATO-/n/RS7gjc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299184
+    isBoundToConfigTemplate: false
+    name: AR-CALAFATE-ATO - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CALAFATE-ATO-/n/nJImob5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299185
+    isBoundToConfigTemplate: false
+    name: AR-CALAFATE-ATO - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CALAFATE-ATO-/n/dj1Uma5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299186
+    isBoundToConfigTemplate: false
+    name: AR-CALAFATE-ATO - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CALAFATE-ATO-/n/87rfGa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299429
+    isBoundToConfigTemplate: false
+    name: AR-CORRIENTES-SUC - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORRIENTES-SU/n/aiZx4d5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299430
+    isBoundToConfigTemplate: false
+    name: AR-CORRIENTES-SUC - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORRIENTES-SU/n/WJMYQd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299431
+    isBoundToConfigTemplate: false
+    name: AR-CORRIENTES-SUC - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORRIENTES-SU/n/WJ-Spd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299432
+    isBoundToConfigTemplate: false
+    name: AR-CORRIENTES-SUC - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORRIENTES-SU/n/PxJDQd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299433
+    isBoundToConfigTemplate: false
+    name: AR-CORRIENTES-SUC - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORRIENTES-SU/n/gGz_Rc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299434
+    isBoundToConfigTemplate: false
+    name: AR-CORRIENTES-SUC - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORRIENTES-SU/n/cjNI6b5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299566
+    isBoundToConfigTemplate: false
+    name: AR-CORDOBA-SUC - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORDOBA-SUC-a/n/D5mFLc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299567
+    isBoundToConfigTemplate: false
+    name: AR-CORDOBA-SUC - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORDOBA-SUC-w/n/fV7TJb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299568
+    isBoundToConfigTemplate: false
+    name: AR-CORDOBA-SUC - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORDOBA-SUC-s/n/AshXCc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299569
+    isBoundToConfigTemplate: false
+    name: AR-CORDOBA-SUC - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORDOBA-SUC-c/n/MOqodb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299570
+    isBoundToConfigTemplate: false
+    name: AR-CORDOBA-SUC - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORDOBA-SUC-c/n/GnYUZa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299571
+    isBoundToConfigTemplate: false
+    name: AR-CORDOBA-SUC - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/AR-CORDOBA-SUC-e/n/D2Godb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299585
+    isBoundToConfigTemplate: false
+    name: Bhagat - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Bhagat-appliance/n/Gqgw8a5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299586
+    isBoundToConfigTemplate: false
+    name: Bhagat - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Bhagat-wireless/n/iJjzrb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299587
+    isBoundToConfigTemplate: false
+    name: Bhagat - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Bhagat-switch/n/GBcJ5c5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299588
+    isBoundToConfigTemplate: false
+    name: Bhagat - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Bhagat-camera/n/r7U_Wa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299589
+    isBoundToConfigTemplate: false
+    name: Bhagat - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Bhagat-cellular-/n/-lALVd5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299590
+    isBoundToConfigTemplate: false
+    name: Bhagat - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Bhagat-environme/n/Vi1mdb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299869
+    isBoundToConfigTemplate: false
+    name: test1 - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test1-appliance/n/C5lvlc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299870
+    isBoundToConfigTemplate: false
+    name: test1 - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test1-wireless/n/Kt5jyb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299871
+    isBoundToConfigTemplate: false
+    name: test1 - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test1-switch/n/ZeYzra5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299872
+    isBoundToConfigTemplate: false
+    name: test1 - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test1-camera/n/nY0uLb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299873
+    isBoundToConfigTemplate: false
+    name: test1 - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test1-cellular-g/n/d15Anb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299874
+    isBoundToConfigTemplate: false
+    name: test1 - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/test1-environmen/n/gQsZCa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842300159
+    isBoundToConfigTemplate: false
+    name: Fadpaymoney - appliance
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Fadpaymoney-appl/n/1ZgFnc5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842300160
+    isBoundToConfigTemplate: false
+    name: Fadpaymoney - wireless
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Fadpaymoney-wire/n/fY5g0d5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842300161
+    isBoundToConfigTemplate: false
+    name: Fadpaymoney - switch
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Fadpaymoney-swit/n/egjQea5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842300162
+    isBoundToConfigTemplate: false
+    name: Fadpaymoney - camera
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Fadpaymoney-came/n/8RXgRa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842300163
+    isBoundToConfigTemplate: false
+    name: Fadpaymoney - cellular gateway
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - cellularGateway
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Fadpaymoney-cell/n/Z-1mXa5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842300164
+    isBoundToConfigTemplate: false
+    name: Fadpaymoney - environmental
+    notes: null
+    organizationId: '739153288842183895'
+    productTypes:
+    - sensor
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Fadpaymoney-envi/n/Gd891d5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842210011
+    isBoundToConfigTemplate: false
+    name: Big Chungus b
+    notes: ''
+    organizationId: '739153288842183605'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Big-Chungus-b-ap/n/jbp9va5e/manage/usage/list
+  - configTemplateId: L_739153288842212190
+    enrollmentString: null
+    id: L_739153288842212188
+    isBoundToConfigTemplate: true
+    name: sdmd-rtk-001
+    notes: null
+    organizationId: '739153288842183605'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/sdmd-rtk-001-cel/n/YTPBpb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842292116
+    isBoundToConfigTemplate: false
+    name: Small Chungus
+    notes: null
+    organizationId: '739153288842183605'
+    productTypes:
+    - appliance
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Small-Chungus/n/HKmLNa5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211068
+    isBoundToConfigTemplate: false
+    name: Kingsway Office
+    notes: null
+    organizationId: '739153288842183833'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Kingsway-Office-/n/HGRw3d5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842295162
+    isBoundToConfigTemplate: false
+    name: CanadaWay_Office
+    notes: null
+    organizationId: '739153288842183833'
+    productTypes:
+    - switch
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/CanadaWay_Office/n/iyWnDd5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842211333
+    isBoundToConfigTemplate: false
+    name: ddddd
+    notes: null
+    organizationId: '739153288842183354'
+    productTypes:
+    - appliance
+    - camera
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/ddddd-camera/n/pIhfKb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842293612
+    isBoundToConfigTemplate: false
+    name: Test
+    notes: null
+    organizationId: '739153288842183354'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Test/n/pIMRNb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842299544
+    isBoundToConfigTemplate: false
+    name: dnaisuseless
+    notes: null
+    organizationId: '739153288842183354'
+    productTypes:
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/dnaisuseless/n/A6rNbc5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842209873
+    isBoundToConfigTemplate: false
+    name: testnetwork-gx
+    notes: ''
+    organizationId: '739153288842183386'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/testnetwork-gx-c/n/oQ1Rib5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842288626
+    isBoundToConfigTemplate: false
+    name: API Test - Home
+    notes: null
+    organizationId: '739153288842183386'
+    productTypes:
+    - wireless
+    tags:
+    - test
+    timeZone: Europe/Amsterdam
+    url: https://n313.meraki.com/API-Test-Home/n/abxzlb5e/manage/usage/list
+- - enrollmentString: null
+    id: L_739153288842208850
+    isBoundToConfigTemplate: false
+    name: OISE
+    notes: null
+    organizationId: '739153288842183359'
+    productTypes:
+    - appliance
+    - cellularGateway
+    - sensor
+    - switch
+    - wireless
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/OISE-cellular-ga/n/1X8RZb5e/manage/usage/list
+  - enrollmentString: null
+    id: N_739153288842297840
+    isBoundToConfigTemplate: false
+    name: Branch2
+    notes: null
+    organizationId: '739153288842183359'
+    productTypes:
+    - camera
+    tags: []
+    timeZone: America/Los_Angeles
+    url: https://n313.meraki.com/Branch2/n/T8rBPb5e/manage/usage/list
