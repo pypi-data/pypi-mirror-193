@@ -1,0 +1,52 @@
+"Harumaru" Sphinx Documentation Themes
+======================================
+
+This is a collection of themes for use with Sphinx documentation projects.
+These themes are based on my [Harubootstrap]<https://github.com/DanielSDVG/harubootstrap>
+library.
+
+Installation
+------------
+
+Installation from PyPI is fairly straightforward:
+
+1. Install the package::
+
+      $ pip install sphinx_harumaru_themes
+
+2. Edit the ``conf.py`` configuration file to point to the theme::
+
+      html_theme = 'haruki_light'
+
+Available themes are as follows:
+
+*  ``haruki_light``
+
+   .. image:: img/preview_haruki_light.*
+
+*  ``haruki_hw``
+
+   .. image:: img/preview_haruki_hw.*
+
+*  ``haruki_dark``
+
+   .. image:: img/preview_haruki_dark.*
+
+*  ``daimaru_light``
+
+   .. image:: img/preview_daimaru_light.*
+
+*  ``daimaru_hw``
+
+   .. image:: img/preview_daimaru_hw.*
+
+*  ``daimaru_dark``
+
+   .. image:: img/preview_daimaru_dark.*
+
+*  ``erika_hw``
+
+   .. image:: img/preview_erika_hw.*
+
+Note: these previews use the "Modern Love" font for titles. Its license does not allow it to be used in ``@font-face`` rules,
+but including that font in your CSS font stack (``font-family``) is allowed.
