@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: hatch-test
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/hatch-test#readme
+Project-URL: Issues, https://github.com/unknown/hatch-test/issues
+Project-URL: Source, https://github.com/unknown/hatch-test
+Author-email: Fermi-4 <fermiparadox4@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: cowsay
+Requires-Dist: mkdocs
+Description-Content-Type: text/markdown
+
+# Hatch Test
+
+[![PyPI - Version](https://img.shields.io/pypi/v/hatch-test.svg)](https://pypi.org/project/hatch-test)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hatch-test.svg)](https://pypi.org/project/hatch-test)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install hatch-test
+```
+
+## License
+
+`hatch-test` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
