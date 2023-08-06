@@ -1,0 +1,13 @@
+serverless_sdk_schema/__init__.py,sha256=g55SXmREIlhw2Enk4fxVVFV0OC3mBdF4hsgYQMLJHEI,139
+serverless_sdk_schema/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverless_sdk_schema/schema/serverless/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverless_sdk_schema/schema/serverless/instrumentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverless_sdk_schema/schema/serverless/instrumentation/tags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverless_sdk_schema/schema/serverless/instrumentation/tags/v1/__init__.py,sha256=QevQYD5YBp2VtwDjZcrj9jTvauWGGmxppu6fuSSH1q0,23194
+serverless_sdk_schema/schema/serverless/instrumentation/v1/__init__.py,sha256=SDiCl2U1M_3xAQ9v25bGMxKMgHj0d0XC3EmMLGb9vYw,16204
+serverless_sdk_schema/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverless_sdk_schema/tests/test_schema.py,sha256=A2Qnn1PM5eqdu-dAaQBg2Yyz3jrYIh8DrWfrEsxh-iI,2806
+serverless_sdk_schema-0.1.0.dist-info/METADATA,sha256=ecWFz73JlaWttL77SUasoxB2Q1mP1hw3X_ceVh6zu0c,560
+serverless_sdk_schema-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+serverless_sdk_schema-0.1.0.dist-info/top_level.txt,sha256=Q0NGwPCP8xjgOMDX7pufhYSPumG6yVb_Rnvkj8mjZD0,22
+serverless_sdk_schema-0.1.0.dist-info/RECORD,,
