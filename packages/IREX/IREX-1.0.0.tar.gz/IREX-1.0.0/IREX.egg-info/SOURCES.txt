@@ -1,0 +1,9 @@
+README.md
+setup.py
+IREX/Funciones.py
+IREX/__init__.py
+IREX.egg-info/PKG-INFO
+IREX.egg-info/SOURCES.txt
+IREX.egg-info/dependency_links.txt
+IREX.egg-info/requires.txt
+IREX.egg-info/top_level.txt
