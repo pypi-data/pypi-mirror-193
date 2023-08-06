@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+neurencoding/__init__.py
+neurencoding/_models.py
+neurencoding/design_matrix.py
+neurencoding/linear.py
+neurencoding/poisson.py
+neurencoding/utils.py
+neurencoding.egg-info/PKG-INFO
+neurencoding.egg-info/SOURCES.txt
+neurencoding.egg-info/dependency_links.txt
+neurencoding.egg-info/requires.txt
+neurencoding.egg-info/top_level.txt
+tests/test_design.py
