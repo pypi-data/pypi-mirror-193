@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+custom_mpl/__init__.py
+custom_mpl.egg-info/PKG-INFO
+custom_mpl.egg-info/SOURCES.txt
+custom_mpl.egg-info/dependency_links.txt
+custom_mpl.egg-info/top_level.txt
