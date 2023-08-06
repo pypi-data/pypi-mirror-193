@@ -1,0 +1,18 @@
+tahoma/__init__.py,sha256=YPwIKHB0VBC6zhoo6Y4uRdYCUaDndN7pw6l46XfIUVk,139
+tahoma/__version__.py,sha256=pZib55qStLeBfZabni1F1OCNxdT02xP-5e34LjIBswQ,22
+tahoma/tahoma.py,sha256=1XCmVbpjXJlUAMR2l5Oj-9J5FDwKuHtEiJMPR0oXRz4,32463
+tahoma/ext_modules/__init__.py,sha256=fDcNlTbX0Nag981_mCZpKs2T5PsFukb3tjC4eXQDQ9M,5
+tahoma/ext_modules/get_devices_url.py,sha256=pfjEroNm4rlGQO6QdM6wv7ixuwa0BbV9o8cSVfgYs0o,4882
+tahoma/ext_modules/install_tahoma.py,sha256=qLISiNqyv-w_TqLZWkb-uIoaCnPvkuLjfvIIaQhACpA,668
+tahoma/icons/__init__.py,sha256=fDcNlTbX0Nag981_mCZpKs2T5PsFukb3tjC4eXQDQ9M,5
+tahoma/icons/connected_house.png,sha256=M4JRl0fUO5IDN8lo8y9xkOcE13XtOscNpYcX0SkBeZo,21160
+tahoma/icons/water heater.png,sha256=26apKwmzdDO7qXjytxWFeJT3eub2wF2OSnt1LgMhurw,29722
+tahoma/temp/__init__.py,sha256=fDcNlTbX0Nag981_mCZpKs2T5PsFukb3tjC4eXQDQ9M,5
+tahoma/test/__init__.py,sha256=fDcNlTbX0Nag981_mCZpKs2T5PsFukb3tjC4eXQDQ9M,5
+tahoma/test/test.py,sha256=szuA5mixsMz6rNTv8kxcUWDuX8wgxo1GeHqkGPlmiHw,23
+tahoma-2.0.9.dist-info/LICENSE,sha256=a0k-_JAe48NcEYapHMa6iR1kfDW_a6QQLYfP9vpWOWM,1070
+tahoma-2.0.9.dist-info/METADATA,sha256=IH_w3GxwCMNd8TG7Bd45Ylc6LH0AYXF3HZQI2EJmYPU,3643
+tahoma-2.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tahoma-2.0.9.dist-info/entry_points.txt,sha256=Vu5IE6mN6qVZiXMbM3RG3vmAIHcSKwE-TOYjb4jW3bk,119
+tahoma-2.0.9.dist-info/top_level.txt,sha256=ZESw1CL5mkQ67ok66rhYAAb6zNeIG_xsjHIPsVfa2Mo,31
+tahoma-2.0.9.dist-info/RECORD,,
