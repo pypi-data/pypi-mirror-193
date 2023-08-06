@@ -1,0 +1,7 @@
+README.md
+setup.py
+dci-by-alex-calculating-stuff/src/dci-by-alex-calculating-stuff.py
+dci-by-alex-calculating-stuff/src/dci_by_alex_calculating_stuff.egg-info/PKG-INFO
+dci-by-alex-calculating-stuff/src/dci_by_alex_calculating_stuff.egg-info/SOURCES.txt
+dci-by-alex-calculating-stuff/src/dci_by_alex_calculating_stuff.egg-info/dependency_links.txt
+dci-by-alex-calculating-stuff/src/dci_by_alex_calculating_stuff.egg-info/top_level.txt
