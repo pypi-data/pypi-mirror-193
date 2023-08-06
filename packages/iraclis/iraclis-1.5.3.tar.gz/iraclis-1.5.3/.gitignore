@@ -1,0 +1,7 @@
+*.pyc
+*.egg-info
+*.eggs
+*.pytest_cache
+*.idea
+*.coverage*
+iraclis/*_local_*
