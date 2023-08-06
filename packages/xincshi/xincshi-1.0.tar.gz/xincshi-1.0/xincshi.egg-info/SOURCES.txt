@@ -1,0 +1,8 @@
+setup.py
+xincshi.egg-info/PKG-INFO
+xincshi.egg-info/SOURCES.txt
+xincshi.egg-info/dependency_links.txt
+xincshi.egg-info/top_level.txt
+xincshi2/__init__.py
+xincshi2/add_num.py
+xincshi2/setup.py
