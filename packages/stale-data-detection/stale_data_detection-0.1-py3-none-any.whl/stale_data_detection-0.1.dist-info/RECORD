@@ -1,0 +1,17 @@
+stale_data_detection/__init__.py,sha256=kyth8kmGHPyJ5pzKhdbJGZm3wOILCA-v720bRDug2uU,237
+stale_data_detection/extract_table_names.py,sha256=b-HP7sBlpXPQxiX-H1ycpfnYThpZ5oOfGNRJe-qe9sg,7249
+stale_data_detection/flag_stale_table.py,sha256=UZDuvPuSAdjYsqm1xSSO72MrxqzJkhxwSFDY3x7Lslg,5782
+stale_data_detection/get_table_update_status.py,sha256=nKFEDTgjvnAL4ZftWT9oRJj1ICSvhVTtKs7Ohxs0Zwk,2972
+stale_data_detection-0.1.dist-info/.ipynb_checkpoints/PKG-INFO-checkpoint,sha256=tXSA5pVQsVW3gFVur2V6Ex4mZtkWNbiEt3bsuyX-1is,271
+stale_data_detection-0.1.dist-info/.ipynb_checkpoints/SOURCES-checkpoint.txt,sha256=RgS8WLhpBjghHCB3lxtPvoSgwPpmxWsDe__oUnvuKdE,486
+stale_data_detection-0.1.dist-info/.ipynb_checkpoints/dependency_links-checkpoint.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+stale_data_detection-0.1.dist-info/.ipynb_checkpoints/requires-checkpoint.txt,sha256=CknJ9HuoK9ksbnepirVbMPONmC_JxGEURF1-Sa8MsTE,13
+stale_data_detection-0.1.dist-info/.ipynb_checkpoints/top_level-checkpoint.txt,sha256=cVdSmCAg86d4nhmiR07moo2O1EAjHhGMnEoc47sCo5Q,26
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_extract_tables.py,sha256=8QPocKBBoWfjQgSd4I4LmvAgxnmVRvUCyfXDU26v8Lw,1212
+test/test_flag_stale_table.py,sha256=KwKvhMQrq233hzPJ_imA3CcfscZUuOP8oy2FU3d8aiA,1523
+stale_data_detection-0.1.dist-info/LICENSE,sha256=MRVJjjMlgfcajllukG-lHnbayWS_SLtKW6QlPA7pGPA,1062
+stale_data_detection-0.1.dist-info/METADATA,sha256=7RYQ-EQXxcrObku8q5kjZRzkwysQWkMG4w_p69T0IFI,300
+stale_data_detection-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stale_data_detection-0.1.dist-info/top_level.txt,sha256=cVdSmCAg86d4nhmiR07moo2O1EAjHhGMnEoc47sCo5Q,26
+stale_data_detection-0.1.dist-info/RECORD,,
