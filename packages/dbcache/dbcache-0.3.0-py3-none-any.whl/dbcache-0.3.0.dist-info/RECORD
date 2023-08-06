@@ -1,0 +1,9 @@
+dbcache/api.py,sha256=lEX3ErRA054xgI3tp0iHnUBGFQWlc9Ri5T1uIALLG4o,2847
+dbcache/cli.py,sha256=Qa_xrF7GshNA2j4VlJdEAzp1DUKqJbjAzlEJ7a5iwXI,411
+dbcache/schema.py,sha256=QvIGtAi1aOfW2vHcoaYjRoK6Iu17hxbydt1idMlk4SE,853
+dbcache/schema.sql,sha256=YrmfT1wv_SkChontGqhOKtjGzWbb_mrOJLDR0qr83_Y,263
+dbcache-0.3.0.dist-info/METADATA,sha256=nesHFDJZOmwop7csnhJOkkFyYeM93I7znCQAuBGp9cA,1519
+dbcache-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dbcache-0.3.0.dist-info/entry_points.txt,sha256=XWbeY8h1q6fAv17W8mdtbuRQFxs1sG_5e1A_ELFoaOw,48
+dbcache-0.3.0.dist-info/top_level.txt,sha256=Iah37QqfxjOxruF5YodsvIGrRKd7BedDC6VRGwqggq8,8
+dbcache-0.3.0.dist-info/RECORD,,
