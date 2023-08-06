@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cnba
+Version: 1.0.2
+Home-page: https://github.com/namhsuya/cnba/
+Author: Ayushman Kumar Banerjee
+Author-email: ayushmaan.banerjee@gmail.com
+Requires-Dist: click
+Requires-Dist: pandas
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: console-logging
+Requires-Dist: tqdm
+
