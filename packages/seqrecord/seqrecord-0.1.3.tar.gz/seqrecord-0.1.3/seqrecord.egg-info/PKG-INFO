@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: seqrecord
+Version: 0.1.3
+Summary: fix subpackage issues of robot
+Author-email: shuhang0chen@gmail.com
+Maintainer-email: shuhang0chen@gmail.com
