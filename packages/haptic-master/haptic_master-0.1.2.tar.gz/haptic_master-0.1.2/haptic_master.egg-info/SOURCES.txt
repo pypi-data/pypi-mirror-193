@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+haptic_master/__init__.py
+haptic_master/base.py
+haptic_master/effect.py
+haptic_master/haptic_master.py
+haptic_master/object.py
+haptic_master.egg-info/PKG-INFO
+haptic_master.egg-info/SOURCES.txt
+haptic_master.egg-info/dependency_links.txt
+haptic_master.egg-info/top_level.txt
+tests/test_effect.py
+tests/test_haptic_master.py
+tests/test_object.py
