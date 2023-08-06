@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+cqbot/__init__.py
+cqbot/action.py
+cqbot/bot.py
+cqbot/cmd.py
+cqbot/cq.py
+cqbot/enum.py
+cqbot/event.py
+cqbot.egg-info/PKG-INFO
+cqbot.egg-info/SOURCES.txt
+cqbot.egg-info/dependency_links.txt
+cqbot.egg-info/requires.txt
+cqbot.egg-info/top_level.txt
