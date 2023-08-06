@@ -1,0 +1,17 @@
+tonkin/__init__.py,sha256=osDmMy0DfHfPbGE1CvbXVF0yJah3RnEiAJ2oUNL9AC8,78
+tonkin/arrays.py,sha256=m8F_gNkwa0y36GWnieFgqZ0ppGEFLbRI2MDd9GCgOWU,1677
+tonkin/data.py,sha256=JZW13w4NkeDTkxTFkkvmvv48ZZXhDxZO4j6wKkSOuo4,197
+tonkin/dataStream.py,sha256=TrS0lRtq-WRSCgDnJ7qt5IkTQPOPC_N346IQ9EGjnOs,364
+tonkin/fileops.py,sha256=sumWWYXtCOFBj3JRXokg4z2kDif0XA2UZPXjHGndb9w,128
+tonkin/fixed.py,sha256=jYsp4C-4u1LZmL11xtV5CCqY24HmJZQg2EkXhIybVAo,1899
+tonkin/main.py,sha256=b9Jaabi5oOOG326vhh6rUJnsuUzyyUX_a8G5ikwtVmY,1313
+tonkin/packets.py,sha256=nv1rZH8nCAUUxagn2RMQY7Dhs-BPChiaC2LapV66QEc,684
+tonkin/values.py,sha256=zeGgUMbYtpu4vpIQZ7d6QvON8HQiU6CRxeVI_FcpxWE,1443
+tonkin/variables.py,sha256=spF-dE8iGa0vsk_rw8LeSSF4p-TWEvJ98Ijrtcxud64,2747
+tonkin/verification.py,sha256=QmGqFh-yYA_Zbwc3jprGsVpFa8E5n9Kb9GSYU-Gi-tI,937
+tonkin/wholedata.py,sha256=ADQyjyRzrg--g7aTnvVyTU1AkShxZ7k4Hu3d73sx_rY,1177
+tonkin-0.0.2.dist-info/LICENSE,sha256=5jYUx7DXsKMTN8oC8ldJbkcxUGiel0e9VFszOaBxmGs,1065
+tonkin-0.0.2.dist-info/METADATA,sha256=2N4WevNb6iplqgHCY15KA95LsMHQjYLI4p8kBZdYj_I,501
+tonkin-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tonkin-0.0.2.dist-info/top_level.txt,sha256=jY0huI9Sa6VhkHZVWuU8TuNMWklCVnGeaxFjn8eEFSg,7
+tonkin-0.0.2.dist-info/RECORD,,
