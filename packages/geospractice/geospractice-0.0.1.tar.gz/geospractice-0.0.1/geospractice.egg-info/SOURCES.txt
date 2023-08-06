@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geospractice/__init__.py
+geospractice/geospractice.py
+geospractice.egg-info/PKG-INFO
+geospractice.egg-info/SOURCES.txt
+geospractice.egg-info/dependency_links.txt
+geospractice.egg-info/not-zip-safe
+geospractice.egg-info/top_level.txt
