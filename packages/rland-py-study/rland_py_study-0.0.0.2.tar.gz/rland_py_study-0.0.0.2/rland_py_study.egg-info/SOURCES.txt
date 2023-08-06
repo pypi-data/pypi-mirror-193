@@ -1,0 +1,13 @@
+.gitignore
+LICENCE.md
+README.md
+setup.py
+example/calculator_ex.py
+rland_py_study/__init__.py
+rland_py_study/calculator.py
+rland_py_study.egg-info/PKG-INFO
+rland_py_study.egg-info/SOURCES.txt
+rland_py_study.egg-info/dependency_links.txt
+rland_py_study.egg-info/top_level.txt
+rland_py_study/serial/__init__.py
+rland_py_study/serial/basic.py
