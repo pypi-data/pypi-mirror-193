@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: serverless-sdk
+Version: 0.1.0
+Summary: Serverless SDK for Python
+Author: serverlessinc
+Requires-Python: >=3.7
+Requires-Dist: backports.cached-property
+Requires-Dist: importlib-metadata (>=5.2)
+Requires-Dist: js-regex (<1.1.0,>=1.0.1)
+Requires-Dist: pydantic (>=1.10.4)
+Requires-Dist: pyhumps (>=3.8)
+Requires-Dist: typing-extensions (>=4.4)
+Provides-Extra: tests
+Requires-Dist: black (>=22.12) ; extra == 'tests'
+Requires-Dist: pytest (>=7.2) ; extra == 'tests'
+Requires-Dist: ruff (>=0.0.199) ; extra == 'tests'
+
