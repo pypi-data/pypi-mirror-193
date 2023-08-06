@@ -1,0 +1,282 @@
+Metadata-Version: 2.1
+Name: NikeCA
+Version: 0.0.18
+Summary: Run Query on Snowflake!
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: asn1crypto (==1.5.1)
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: cryptography (==39.0.1)
+Requires-Dist: databricks (==0.2)
+Requires-Dist: databricks-sql (==1.0.0)
+Requires-Dist: databricks-sql-connector (==2.2.1)
+Requires-Dist: filelock (==3.9.0)
+Requires-Dist: gitdb (==4.0.10)
+Requires-Dist: GitPython (==3.1.31)
+Requires-Dist: greenlet (==2.0.2)
+Requires-Dist: idna (==3.4)
+Requires-Dist: lz4 (==4.3.2)
+Requires-Dist: numpy (==1.23.4)
+Requires-Dist: oauthlib (==3.2.2)
+Requires-Dist: oscrypto (==1.3.0)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: pyarrow (==10.0.1)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pycryptodomex (==3.17)
+Requires-Dist: PyJWT (==2.6.0)
+Requires-Dist: pyOpenSSL (==23.0.0)
+Requires-Dist: pystache (==0.6.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.7.1)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: smmap (==5.0.0)
+Requires-Dist: snowflake-connector-python (==3.0.0)
+Requires-Dist: snowflake-sqlalchemy (==1.4.6)
+Requires-Dist: SQLAlchemy (==1.4.46)
+Requires-Dist: thrift (==0.16.0)
+Requires-Dist: typing-extensions (==4.5.0)
+Requires-Dist: urllib3 (==1.26.14)
+Requires-Dist: xcrun (==0.4)
+Requires-Dist: configparser (~=5.3.0)
+
+# Nike CA
+
+This package was developed informally for the Commercial Analytics Team at Nike
+
+Before trying to use this package ensure that you have the proper access (This can be found under the "Usage" Section below)
+
+This is a start to see about developing package to facilitate, standardize, and automate repetitive tasks
+
+# Installation
+
+Run the following to install:
+
+```
+$ python pip install NikeCA
+```
+
+# Usage
+
+To use this package ensure that you have the following Snowflake Information:
+
+* Username
+* Warehouse Name
+* Role Name
+
+
+# Import
+
+Run the following to import:
+
+```
+import NikeCA
+```
+
+# Modules:
+
+
+### SnowflakeData
+A class for interacting with Snowflake databases and executing queries.
+
+#### Dependencies:
+* "wheel",
+* "asn1crypto==1.5.1",
+* "certifi==2022.12.7",
+* "cffi==1.15.1",
+* "charset-normalizer==2.1.1",
+* "cryptography==39.0.1",
+* "databricks==0.2",
+* "databricks-sql==1.0.0",
+* "databricks-sql-connector==2.2.1",
+* "filelock==3.9.0",
+* "gitdb==4.0.10",
+* "GitPython==3.1.31",
+* "greenlet==2.0.2",
+* "idna==3.4",
+* "lz4==4.3.2",
+* "numpy==1.23.4",
+* "oauthlib==3.2.2",
+* "oscrypto==1.3.0",
+* "pandas==1.5.3",
+* "pyarrow==10.0.1",
+* "pycparser==2.21",
+* "pycryptodomex==3.17",
+* "PyJWT==2.6.0",
+* "pyOpenSSL==23.0.0",
+* "pystache==0.6.0",
+* "python-dateutil==2.8.2",
+* "pytz==2022.7.1",
+* "requests==2.28.2",
+* "six==1.16.0",
+* "smmap==5.0.0",
+* "snowflake-connector-python==3.0.0",
+* "snowflake-sqlalchemy==1.4.6",
+* "SQLAlchemy==1.4.46",
+* "thrift==0.16.0",
+* "typing_extensions==4.5.0",
+* "urllib3==1.26.14",
+* "xcrun==0.4",
+* "configparser~=5.3.0"
+
+#### Parameters:
+* username (str): The Snowflake account username.
+* warehouse (str): The Snowflake warehouse to use.
+* role (str): The Snowflake role to use.
+* database (str, optional): The Snowflake database to use (default is None).
+* schema (str, optional): The Snowflake schema to use (default is None).
+* table (str, optional): The Snowflake table to use (default is None).
+* column_name (str, optional): The name of the column to search (default is None).
+* col_and_or (str, optional): The AND/OR operator to use between search criteria (default is None).
+* get_ex_val (bool, optional): Whether to return exact matches only (default is None).
+* like_flag (bool, optional): Whether to use the LIKE operator for search criteria (default is None).
+
+
+## Methods:
+
+### snowflake_pull:
+
+pulls snowflake data
+
+#### Dependencies:
+* pandas
+* snowflake.connector
+
+#### Parameters: 
+query:
+* Type: str
+* Description: SQL query to run on Snowflake 
+* e.g.
+```
+query = "SELECT * FROM NGP_DA_PROD.POS.TO_DATE_AGG_CHANNEL_CY"
+```
+username:
+* Type: str 
+* Description: Nike Snowflake Username 
+* e.g. "USERNAME"
+
+database:
+* Type: str 
+* Description: Name of the Database 
+* e.g. "NGP_DA_PROD"
+
+warehouse:
+* Type: str 
+* Description: Name of the Warehouse 
+* e.g. "DA_DSM_SCANALYTICS_REPORTING_PROD"
+
+role:
+* Type: str 
+* Description: Name of the role under which you are running Snowflake 
+* e.g. "DF_*****"
+
+sample_table:
+* Type: bool 
+* Default: False 
+* Description: True = pull 500 records from table
+
+sample_val:
+* Type: bool 
+* Default: False
+
+table_sample:
+* Type: dictionary 
+* Default: None 
+* Notes: The below code is built within the Module
+
+
+```
+if table_sample is not None:
+     table_sample = {'db': None, 'schema': None, 'table': None, 'col': None}
+```
+
+dtypes_conv: 
+* default: None
+
+
+#### return:
+* pandas.DataFrame
+
+Run the following in python to generate a sample query:
+
+
+
+```
+import NikeCA
+
+username = <Your Username>
+warehouse = <The Name of the Warehouse>
+role = <Name of Your Role>
+database = <Name of the Database>
+
+sf =  NikeCA.SnowflakeData(username=username, warehouse=warehouse, role=role, database=database)
+
+query = 'SELECT TOP 2 * FROM  NGP_DA_PROD.POS.TO_DATE_AGG_CHANNEL_CY'
+
+print(sf.snowflake_pull(query)) 
+```
+
+
+
+### build_search_query:
+
+Builds and returns a search query based on the specified parameters and instance variables.
+
+Dependencies:
+None
+
+Parameters: 
+inp_db: 
+* Type: str: optional
+* The database name to search in. If not specified, search all databases.
+
+schema: 
+* Type: str: optional
+* The schema name to search in. If not specified, search all schemas.
+
+table: 
+* Type: str: optional
+* The table name to search for. If not specified, search all tables. 
+
+column_name: 
+* Type: str or list of str: optional
+* The column name(s) to search for. If not specified, search all columns.
+* If a list is provided, search for any columns that match any of the names in the list.
+
+like_flag: 
+* Type: bool: optional 
+* If True, uses a SQL LIKE statement to search for columns that contain the specified column name(s).
+* If False, searches for exact matches to the specified column name(s).
+* If not specified, defaults to False.
+
+col_and_or: 
+* Type: str: optional
+* If specified and column_name is a list, determines whether to search for columns that match all or any of
+* the names in the list. Must be one of the following values: 'AND', 'and', 'OR', 'or'.
+* If not specified, defaults to 'AND'.
+
+#### return: 
+* string of the SQL Statement
+
+Run the following in python to generate a sample query
+```
+import NikeCA
+
+username = <Your Username>
+warehouse = <The Name of the Warehouse>
+role = <Name of Your Role>
+database = <Name of the Database>
+
+sf =  NikeCA.SnowflakeData(username=username, warehouse=warehouse, role=role)
+
+print(sf.build_search_query(column_name='%DISTINCT%', like_flag=True)) 
+```
+
+
