@@ -1,0 +1,13 @@
+snaplib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snaplib/counter.py,sha256=GI1hfxLQ6RLA6_zujBIh_hQMx9NMUX87FXdUocZSbww,168
+snaplib/cross_validation.py,sha256=9XeurYEoIyjc3nSeJ2IOme59UlkuqA7ARG9_dSnl_4s,13481
+snaplib/encoder.py,sha256=dKaS08uwbt9FpZPcNBh8xqrd_7XiIMC6J_ijUvu6Z3o,3062
+snaplib/nans.py,sha256=DyiVmwMY-42GE8Pq5DeQS-tL_aAwH6-rcS4nqdTrMr0,3423
+snaplib/recover.py,sha256=VN8DUMtc70jNK1wa03oPDxYCgfAWaDfX5HxZru-94ZE,13275
+snaplib/snaplib.py,sha256=VaLmLtaZ2XY5Qr_lrct_6pQJYOZmn7XxdVnnjSaQ2tQ,73994
+snaplib/splitter.py,sha256=WkPSlMy5fiYgZ3mLllefZg5jOe9OkUkHndplhQSd0Hw,8475
+snaplib-0.3.44.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+snaplib-0.3.44.dist-info/METADATA,sha256=2O1NjLz8Rg2tUAGD-t_or-5hEPagL5g7okhvvJNAyvs,1446
+snaplib-0.3.44.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+snaplib-0.3.44.dist-info/top_level.txt,sha256=wC3OSDMmV3M8GmM5YhSno45CtTUqbP8kVIBeT9qmIdY,8
+snaplib-0.3.44.dist-info/RECORD,,
