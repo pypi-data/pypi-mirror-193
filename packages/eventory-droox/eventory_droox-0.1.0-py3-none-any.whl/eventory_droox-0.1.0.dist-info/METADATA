@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: eventory-droox
+Version: 0.1.0
+Summary: Super easy events in your project!
+Author-email: droox <droox@droox.dev>
+Requires-Python: >=3.10
+License-File: LICENSE
+
