@@ -1,0 +1,281 @@
+###############################################################
+# This file contains the verb definitions for broot
+#
+# Doc at https://dystroy.org/broot/verbs/
+###############################################################
+{
+
+    verbs: [
+
+        # Example 1: launching `tail -n` on the selected file (leaving broot)
+        # {
+        #     name: tail_lines
+        #     invocation: tl {lines_count}
+        #     execution: "tail -f -n {lines_count} {file}"
+        # }
+
+        # Example 2: creating a new file without leaving broot
+        # {
+        #     name: touch
+        #     invocation: touch {new_file}
+        #     execution: "touch {directory}/{new_file}"
+        #     leave_broot: false
+        # }
+
+        # A standard recommended command for editing files, that you
+        # can customize.
+        {
+            invocation: edit-file
+            keys: [
+                enter
+                right
+                ']'
+            ]
+            external: "vym +{line} {file}"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: file
+        }
+        {
+            invocation: focus-file
+            keys: [
+                e
+            ]
+            external: "vym \"+{line} +Goyo\" {file}"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: file
+        }
+        {
+            invocation: focus-dir
+            keys: [
+                e
+            ]
+            # external: "sh -c \"echo | vym +Goyo -\""
+            external: "sh -c \"EDITOR='vym +Goyo' glow . --local --pager --all\""
+            set_working_dir: true
+            leave_broot: false
+            apply_to: directory
+        }
+
+        {
+            internal: ':focus'
+            # invocation: focus
+            # external: "vym"
+            keys: [
+                enter
+                right
+                l
+                ']'
+            ]
+            set_working_dir: false
+            leave_broot: true
+            apply_to: directory
+        }
+        {
+            invocation: set-workdir
+            external: "vym {directory}"
+            keys: [
+                w
+            ]
+            set_working_dir: false
+            leave_broot: true
+            apply_to: any
+        }
+
+        {
+            invocation: cd {path}
+            shortcut: z
+            external: "vym \"{path}\""
+            set_working_dir: false
+            leave_broot: true
+            apply_to: any
+        }
+
+        {
+            internal: ':parent'
+            shortcut: up
+            keys: [
+                left
+                h
+                '['
+            ]
+            set_working_dir: false
+            leave_broot: true
+            apply_to: any
+        }
+
+        {
+            invocation: vym {path}
+            shortcut: vym
+            external: "vym {path} --new-window"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: any
+        }
+        {
+            invocation: vym-file
+            keys: [
+                v
+            ]
+            external: "vym {file} --new-window"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: any
+        }
+        {
+            invocation: new-vym
+            keys: [
+                y
+            ]
+            external: "vym --new-window"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: any
+        }
+
+        {
+            internal: ':close_panel_cancel'
+            # internal: ':quit'
+            keys: [
+                q
+            ]
+            set_working_dir: false
+            leave_broot: true
+            apply_to: any
+        }
+
+        {
+            invocation: terminal
+            keys: [
+                `
+            ]
+            external: "$SHELL"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: any
+        }
+
+        {
+            invocation: terminal-pwd
+            keys: [
+                t
+            ]
+            external: "$SHELL -c \"x-terminal-emulator -e $SHELL &\""
+            set_working_dir: false
+            leave_broot: false
+            apply_to: any
+        }
+
+        {
+            internal: ":toggle_git_status"
+            keys: [
+                g
+            ]
+        }
+        {
+            invocation: git-diff-dir
+            keys: [
+                =
+            ]
+            external: "sh -c \"echo | vym +Git -\""
+            set_working_dir: false
+            leave_broot: false
+            apply_to: directory
+        }
+        {
+            invocation: git-diff-file
+            keys: [
+                =
+            ]
+            external: "vym \"+{line} +Gvdiffsplit\" {file}"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: file
+        }
+        {
+            invocation: git-stage
+            keys: [
+                -
+            ]
+            external: "$SHELL -c \"(git diff --quiet -- {file} && git restore --staged -- {file}) || git add -- {file}\""
+            set_working_dir: true
+            leave_broot: false
+            apply_to: any
+        }
+
+        {
+            invocation: new-file
+            keys: [
+                n
+            ]
+            external: "$SHELL -c \"echo | $EDITOR -\""
+            set_working_dir: true
+            leave_broot: false
+            apply_to: any
+        }
+
+        {
+            invocation: shell {command}
+            shortcut: sh
+            external: "$SHELL -c \"{command}\""
+            set_working_dir: false
+            leave_broot: false
+            apply_to: any
+        }
+
+        {
+            invocation: exec {command}
+            shortcut: $
+            external: "$SHELL -c \"({command} || true) && printf '\nPress any key to continue...\n' && read -r _\" - {file}"
+            set_working_dir: false
+            leave_broot: false
+            apply_to: any
+        }
+
+        {
+            internal: ":refresh"
+            keys: [
+                F5
+            ]
+        }
+        {
+            internal: ":sort_by_type"
+            keys: [
+                s
+            ]
+        }
+        {
+            internal: ":sort_by_date"
+            keys: [
+                r
+            ]
+        }
+
+        {
+            internal: ":toggle_staging_area"
+            keys: [
+                o
+            ]
+        }
+        {
+            internal: ":panel_right"
+            keys: [
+                p
+                l
+            ]
+        }
+        {
+            internal: ":toggle_stage"
+            keys: [
+                i
+            ]
+        }
+        {
+            internal: ":clear_stage"
+            keys: [
+                u
+            ]
+        }
+    ]
+}
