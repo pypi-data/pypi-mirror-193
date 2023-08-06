@@ -1,0 +1,8 @@
+autofeats/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+autofeats/features/group_by.py,sha256=fgNyv1i9mH7fQ2x7rQyrzUfKPLUoCko1ro3MvJtcWRE,2980
+autofeats/features/window.py,sha256=R3GpsXa6pBXNIsUga8cmEmesH61mgKH6WUPko9Cv5_0,2480
+autofeats/make_features.py,sha256=E1LimoopbZv1m01uH9Uoz32Gyz6ajx79I0mENm4CenU,2674
+autofeats/types.py,sha256=X1PtH00mxlgR9WjEXqqHW-s8jAh7foy-hr9wJBuioM0,1424
+autofeats-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+autofeats-0.1.0.dist-info/METADATA,sha256=dP4rUjecVXosJj5dCP1DSRBpeebYgUmBMTHyVG7B8nU,428
+autofeats-0.1.0.dist-info/RECORD,,
