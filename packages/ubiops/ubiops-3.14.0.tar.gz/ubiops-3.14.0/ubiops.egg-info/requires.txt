@@ -1,0 +1,5 @@
+urllib3<v2.1.0,>=1.15
+six<2.0,>=1.10
+certifi
+python-dateutil
+requests<3.0,>=2.25.1
