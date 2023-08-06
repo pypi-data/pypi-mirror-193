@@ -1,0 +1,2 @@
+[console_scripts]
+ExcelBoot = ExcelBoot.boot:main
