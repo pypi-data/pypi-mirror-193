@@ -1,0 +1,14 @@
+click
+rich
+inquirerpy
+lastversion
+uvicorn
+fastapi
+filecache
+requests
+semantic_version
+escapejson
+watchdog
+
+[dev]
+black==22.*
