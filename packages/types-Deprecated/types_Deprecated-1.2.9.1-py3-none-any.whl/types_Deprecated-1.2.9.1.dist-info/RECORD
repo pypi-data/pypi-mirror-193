@@ -1,0 +1,8 @@
+deprecated-stubs/METADATA.toml,sha256=uyN7KOslvyV4Vo-A19jbJWZrwKQEmU0-92JrgvE0LKQ,32
+deprecated-stubs/__init__.pyi,sha256=lhsn7X7kma5rFKLfIt9CNexFfg6TDBavAB05bYU65MQ,78
+deprecated-stubs/classic.pyi,sha256=97PfsaQPGoYJ4RC-PNfxj3ToOPS3KgsQ2R_ODlwQWyM,933
+deprecated-stubs/sphinx.pyi,sha256=DBZ3FmvdP5UaGDoqj19ae6Bo1dGh-c2veulZh9nx4gc,1174
+types_Deprecated-1.2.9.1.dist-info/METADATA,sha256=FzF6w4Ufu_7NgaIRvOLf7xebGyO7ANRSY5opxvAWzd8,1315
+types_Deprecated-1.2.9.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+types_Deprecated-1.2.9.1.dist-info/top_level.txt,sha256=cg8f5UQO3NJ6sjb0ysnNdCkh1glaOecGpVVS7tEXryE,17
+types_Deprecated-1.2.9.1.dist-info/RECORD,,
