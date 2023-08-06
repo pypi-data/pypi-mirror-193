@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: allison
+Version: 0.1.0
+Summary: A Machine Learning library for begainers
+Author: Mitchell Mirano
+Author-email: mitchellmirano25@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Allison
+Allison: is a library  of Artificial Intelligence
+
+# About Allison
+
+This project implements the main machine learning and deep learning architectures in Python, 
+using libraries such as Numpy, Scipy and Matplotlib for the visualizations. 
+its objective is to show how machine learning works
+inside and not be a black box for many people.
+
+## Requirements
+- Numpy
+- Matplotlib
+- Scipy
+- Pandas
+## Install
+- clone the repository `git clone https://github.com/Mitchell-Mirano/Allison.git`
+- install a virtual environment `python -m virtualenv env`
+- install the requirements `pip install -r requirements.txt`
+
+Now you can use Allison
+
+## Examples in Allison
+- for examples review examples directory
+
