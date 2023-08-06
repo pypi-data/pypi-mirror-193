@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pickle-compression
+Version: 0.0.0
+Summary: A python package for efficient pickling.
+Home-page: https://github.com/pavelzw/pickle-compression
+Author: Pavel Zwerschke
+Author-email: pavelzw@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Provides-Extra: lightgbm
+Requires-Dist: lightgbm ; extra == 'lightgbm'
+Provides-Extra: scikit-learn
+Requires-Dist: scikit-learn ; extra == 'scikit-learn'
+
+# pickle_compression
+
+[![CI](https://github.com/pavelzw/pickle-compression/actions/workflows/ci.yml/badge.svg)](https://github.com/pavelzw/pickle-compression/actions/workflows/ci.yml)
+
+A python package for efficient pickling.
+
+## Installation
+
+You can install the package in development mode using:
+
+```bash
+git clone git@github.com:pavelzw/pickle-compression.git
+cd pickle-compression
+
+# create and activate a fresh environment named pickle_compression
+# see environment.yml for details
+mamba env create
+conda activate pickle_compression
+
+pre-commit install
+pip install --no-build-isolation -e .
+```
