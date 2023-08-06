@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ttclust
+Version: 4.10.2
+Summary: TTclust : A molecular simulation clustering program
+Home-page: https://github.com/tubiana/TTClust
+Author: Thibault Tubiana
+Author-email: tubiana.thibault@gmail.com
+License: GPL3
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: darwin
+Platform: Unix
+Platform: win32
+License-File: LICENSE
