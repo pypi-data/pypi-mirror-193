@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: Angua_Luggage
+Version: 0.0.8
+Summary: Additional commands for Angua and other Bioinformatic tools.
+Home-page: UNKNOWN
+Author: Morgan Wodring
+Author-email: morgan.wodring@gmail.com
+License: UNKNOWN
+Description: Additional commands for Angua and other Bioinformatic tools.
+Keywords: bioinformatics,angua
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
