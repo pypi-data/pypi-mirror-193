@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: manifast
+Version: 0.0.3
+Summary: A small example package
+Home-page: https://github.com/knightdby/wheel
+Author: Knight
+Author-email: knightdby@163.com
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-contrib-python (==3.4.2.16)
+Requires-Dist: opencv-python (==3.4.2.16)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: tqdm (==4.64.0)
+Requires-Dist: easydict (==1.9)
+Requires-Dist: Pillow (==8.4.0)
+Requires-Dist: numpy
+
+# manifast
+
+
