@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+wdtea.egg-info/PKG-INFO
+wdtea.egg-info/SOURCES.txt
+wdtea.egg-info/dependency_links.txt
+wdtea.egg-info/top_level.txt
