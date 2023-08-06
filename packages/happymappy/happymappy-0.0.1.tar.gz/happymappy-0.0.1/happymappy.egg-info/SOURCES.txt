@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+happymappy/__init__.py
+happymappy/happymappy.py
+happymappy.egg-info/PKG-INFO
+happymappy.egg-info/SOURCES.txt
+happymappy.egg-info/dependency_links.txt
+happymappy.egg-info/not-zip-safe
+happymappy.egg-info/top_level.txt
