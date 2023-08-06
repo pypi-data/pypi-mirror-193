@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_mpl"
+version = "0.0.1"
+authors = [
+  { name="Rafal Nojek", email="rafal.nojek@shell.com" },
+]
+description = "A small package of custom matplotlib style sheets"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PanNorek/custom_mpl"
+"Bug Tracker" = "https://github.com/PanNorek/custom_mpl/issues"
