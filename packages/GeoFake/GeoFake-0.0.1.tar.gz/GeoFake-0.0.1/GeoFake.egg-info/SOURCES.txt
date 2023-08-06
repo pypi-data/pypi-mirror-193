@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+GeoFake.egg-info/PKG-INFO
+GeoFake.egg-info/SOURCES.txt
+GeoFake.egg-info/dependency_links.txt
+GeoFake.egg-info/not-zip-safe
+GeoFake.egg-info/top_level.txt
+geofake/__init__.py
+geofake/geofake.py
