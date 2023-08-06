@@ -1,0 +1,37 @@
+{% set version = "0.1.0a2" %}
+
+package:
+  name: anaconda-catalogs
+  version: {{ version }}
+
+source:
+  path: ../
+
+build:
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --ignore-installed
+  noarch: python
+
+requirements:
+  host:
+    - python >=3.8
+    - pip
+    - setuptools
+  run:
+    - python >=3.8
+    - aiohttp
+    - intake
+    - requests
+
+test:
+  source_files:
+    - tests
+  requires:
+    - pytest
+  commands:
+    - pytest
+
+about:
+  home: https://github.com/anaconda/anaconda-catalogs
+  summary: "Client library for Anaconda Catalogs"
+  license: "BSD-3-Clause"
+  license_file: LICENSE
