@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bikenv
+Version: 0.0.0
+Summary: Quantifies certain evironmental factors that affect cycling
+Author: Fabián Abarca
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: requests
+
+
+This package is intended to be used by researchers to quantify some environmental factors that affect cycling for a given region.
