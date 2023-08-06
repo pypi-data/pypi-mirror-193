@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: django-ubigeo-peru
+Version: 0.5.0
+Summary: Django app for applications that require to use the ubigeos of INEI of Peru.
+Home-page: https://gitlab.com/miguelcumpa/django-ubigeo-peru
+Download-URL: https://pypi.org/project/django-ubigeo-peru/
+Author: Miguel Ángel Cumpa Ascuña
+Author-email: miguel.cumpa@yandex.com
+License: BSD
+Keywords: ubigeos,peru
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+License-File: LICENSE
+License-File: AUTHORS
+
+Django Ubigeo Peru
+===================
+
+django-ubigeo-peru, is an app that will allow you to easily implement the ubiquites of INEI (Perú) in your django app.
+
+
+Config
+------
+
+For Django >= 4.x use django-ubigeo-peru>=0.5.0
+
+In your **settings.py**
+
+.. code-block:: python
+
+  INSTALLED_APPS = (
+      .....
+      'ubigeos',
+  )
+
+Run
+
+::
+
+  python manage.py migrate
+  python manage.py loaddata ubigeos.json
+
+
+In your **urls.py**
+
+For Django <= 1.11.x
+
+.. code-block:: python
+
+  urlpatterns = patterns('',
+      .....
+      (r'^ubigeos/', include('ubigeos.urls')),
+  )
+
+
+For Django 2.x and above
+
+.. code-block:: python
+
+  urlpatterns = patterns('',
+      ....
+      path('ubigeos/', include('ubigeos.urls')),
+  )
+
+
+License
+--------
+
+BSD

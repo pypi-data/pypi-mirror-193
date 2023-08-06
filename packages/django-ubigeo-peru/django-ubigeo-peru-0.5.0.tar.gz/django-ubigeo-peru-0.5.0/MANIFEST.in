@@ -1,0 +1,4 @@
+include README.rst
+include REQUIREMENTS.txt
+recursive-include ubigeos/fixtures *.json
+recursive-include ubigeos/migrations *.py
