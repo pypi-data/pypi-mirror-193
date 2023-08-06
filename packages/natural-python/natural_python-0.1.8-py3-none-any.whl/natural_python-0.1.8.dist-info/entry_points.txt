@@ -1,0 +1,3 @@
+[console_scripts]
+natural-python=natural_python.console:main
+

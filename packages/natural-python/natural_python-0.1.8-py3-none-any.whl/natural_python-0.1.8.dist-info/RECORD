@@ -1,0 +1,9 @@
+natural_python/__init__.py,sha256=zsfeYIej0ndgWp4Xw7mWayCxf-5e9aQxvqeTnfodLvc,123
+natural_python/__main__.py,sha256=jbkdGUHNKy4PiugDbrRzZAIMID2bUGucbV7R7OTJXB4,79
+natural_python/console.py,sha256=8b8v6CQfBGdRKtv7dfZxNkb0_IRAv4EW0onOBDk1zpU,15611
+natural_python/interpreter.py,sha256=zwArCCKwVAKph6nXiLNEGa_L7VWDFhu2BYynFGHq4PM,4742
+natural_python/language_model_api.py,sha256=OkAwe8K2gRVNuSZie0DcEgUvxt7_DVcLjr4lWDZeeVQ,1986
+natural_python-0.1.8.dist-info/entry_points.txt,sha256=khEP-LfLU-lpDrQHpMfVkctZ7OzwXwi6_bxIjxcdcIE,62
+natural_python-0.1.8.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+natural_python-0.1.8.dist-info/METADATA,sha256=ozliq1aied8aGpVKJgcyPU10XYB_u4VnG3r9TnFb8Q0,2767
+natural_python-0.1.8.dist-info/RECORD,,
