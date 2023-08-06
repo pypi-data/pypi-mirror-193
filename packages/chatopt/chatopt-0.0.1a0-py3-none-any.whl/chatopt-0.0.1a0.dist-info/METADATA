@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: chatopt
+Version: 0.0.1a0
+Summary: ChatOPT
+Home-page: https://github.com/juncongmoo/chatopt
+Maintainer: Juncong Moo
+Maintainer-email: juncongmoo@gmail.com
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colossalai (>=0.2.4)
+Requires-Dist: datasets
+Requires-Dist: hiq-python
+Requires-Dist: loralib
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers (>=4.20.1)
+
+# chatopt
+
+An OPT-based chatbot
+
+
+
+
