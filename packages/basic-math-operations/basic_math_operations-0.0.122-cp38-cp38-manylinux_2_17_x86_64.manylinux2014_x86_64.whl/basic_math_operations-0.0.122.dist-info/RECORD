@@ -1,0 +1,11 @@
+basic_math_operations.cpython-38-x86_64-linux-gnu.so,sha256=LZwsq6-YycP3RU3KhV1FqmChrxULsfhev0nNLXOdqA8,37808
+basic_math_operations-0.0.122.data/data/src/python-module/version.txt,sha256=ecGghkcI0dRixNSAefk-1rjCMo_aQueCr8Bke2kIFRQ,7
+basic_math_operations-0.0.122.data/data/src/python-module/libbasic_math_operations.a,sha256=wgReQ6Y9DBwDGRFoIkpCJHxAGTuSfa79aaMkHFyYniQ,42178
+basic_math_operations-0.0.122.dist-info/top_level.txt,sha256=Ae66dLBTGREQJk9Kq5KEUWW_Wo7_5D_alME02xFXCOQ,40
+basic_math_operations-0.0.122.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+basic_math_operations-0.0.122.dist-info/RECORD,,
+basic_math_operations-0.0.122.dist-info/WHEEL,sha256=82Wkr2Lag2dORBGM375Z9_JVKxb2Fhvp7wOacHsh7mU,148
+basic_math_operations-0.0.122.dist-info/METADATA,sha256=K65IpPchw5pA8le_GV21LxY5OGP6DZsl50sTjuNm_o0,238
+src/python-module/version.txt,sha256=ecGghkcI0dRixNSAefk-1rjCMo_aQueCr8Bke2kIFRQ,7
+src/python-module/libbasic_math_operations.a,sha256=wgReQ6Y9DBwDGRFoIkpCJHxAGTuSfa79aaMkHFyYniQ,42178
+src/python-module/module.c,sha256=z4g2f4vwwABeC1h2o57ujUAIlUTZ1VAXGX7Zd0i-YMc,4166
