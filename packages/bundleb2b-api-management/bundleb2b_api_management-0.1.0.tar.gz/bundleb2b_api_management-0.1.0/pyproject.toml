@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bundleb2b-api-management"
+version = "0.1.0"
+description = ""
+authors = ["Craig Novak <craig.novak@coedistributing.com>"]
+readme = "README.md"
+packages = [{include = "bundleb2b_api_management"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+retry = "^0.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
