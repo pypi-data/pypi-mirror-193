@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+jupyter-config/nbconfig/notebook.d/markus_jupyter_extension.json
+markus-jupyter-extension/__init__.py
+markus-jupyter-extension/static/extension.js
+markus-jupyter-extension/static/assets/markus.ico
+markus_jupyter_extension.egg-info/PKG-INFO
+markus_jupyter_extension.egg-info/SOURCES.txt
+markus_jupyter_extension.egg-info/dependency_links.txt
+markus_jupyter_extension.egg-info/not-zip-safe
+markus_jupyter_extension.egg-info/requires.txt
+markus_jupyter_extension.egg-info/top_level.txt
