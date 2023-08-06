@@ -1,0 +1,7 @@
+pytest
+pytest-aio
+pytest-mypy
+aiosqlite
+uvicorn
+
+types-setuptools
