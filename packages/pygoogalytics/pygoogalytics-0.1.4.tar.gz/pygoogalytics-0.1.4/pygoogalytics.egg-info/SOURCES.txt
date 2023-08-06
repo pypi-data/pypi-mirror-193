@@ -1,0 +1,16 @@
+LICENCE.txt
+LICENSE
+README.md
+setup.py
+pygoogalytics/__init__.py
+pygoogalytics/client.py
+pygoogalytics/googlepandas.py
+pygoogalytics/resource_utils.py
+pygoogalytics/utils.py
+pygoogalytics/wrapper.py
+pygoogalytics.egg-info/PKG-INFO
+pygoogalytics.egg-info/SOURCES.txt
+pygoogalytics.egg-info/dependency_links.txt
+pygoogalytics.egg-info/requires.txt
+pygoogalytics.egg-info/top_level.txt
+pygoogalytics/data/country_iso_codes.csv
