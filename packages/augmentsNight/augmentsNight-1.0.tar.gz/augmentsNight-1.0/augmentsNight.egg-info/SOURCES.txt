@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+augmentsNight/__init__.py
+augmentsNight/augmentsNight.py
+augmentsNight.egg-info/PKG-INFO
+augmentsNight.egg-info/SOURCES.txt
+augmentsNight.egg-info/dependency_links.txt
+augmentsNight.egg-info/requires.txt
+augmentsNight.egg-info/top_level.txt
