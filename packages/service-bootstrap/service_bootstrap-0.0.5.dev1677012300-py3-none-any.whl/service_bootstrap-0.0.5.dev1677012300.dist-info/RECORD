@@ -1,0 +1,9 @@
+bootstrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bootstrap/bootstrap.py,sha256=WBEcOw7Y1za4N0tZ_cep8J4cIqPu3bVXeSAtNLqz0JA,1600
+bootstrap/storage.py,sha256=ukqJlU1CKz-ByylTleoz8Ukfqv_ODezUdoDft5vlgGs,3381
+bootstrap/utils.py,sha256=8ojI1NLLsLXadRPKFlcuJMzDSrjJ9PqDMRs_3_Pwwxc,269
+service_bootstrap-0.0.5.dev1677012300.dist-info/LICENSE,sha256=_ntufMftPGiAPaua0fsu9eQM7aRh87uFOa9xQR1wW0E,1073
+service_bootstrap-0.0.5.dev1677012300.dist-info/METADATA,sha256=aGSQ_VdnKpb9S5GfRX8QMdJm2DoSw7XKBZUkkiWUwM8,2710
+service_bootstrap-0.0.5.dev1677012300.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+service_bootstrap-0.0.5.dev1677012300.dist-info/top_level.txt,sha256=tkkDEY3fm3fYMctiy9Ch9xJnzqoyuKyUyyveqlZSY1g,10
+service_bootstrap-0.0.5.dev1677012300.dist-info/RECORD,,
