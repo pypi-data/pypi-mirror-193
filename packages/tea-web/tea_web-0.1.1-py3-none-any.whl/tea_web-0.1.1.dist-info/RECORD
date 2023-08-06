@@ -1,0 +1,10 @@
+tea/__init__.py,sha256=lfahc1fSSg39Fx0lfUSoRtAz-Ezxi-yChOY3J4lBSXw,167
+tea/main.py,sha256=h2_AIZdQgbZeJJ4gdIQWeeeB64K5RlWARyyCXy7wFbU,4525
+tea/request.py,sha256=09SS_2V00OEmcDNznVD74FeUGUT6H7PU5W3FFgQCGtE,1986
+tea/response.py,sha256=_qSqdUdFHHpi0f6rikSiUK7DxdEe-MK0H7AGdUbkMJA,4428
+tea/url.py,sha256=4uQyrAGVZLfwWs3S46gkH9N13-Vcu89Kvf3ZqVQcDDU,708
+tea_web-0.1.1.dist-info/LICENSE,sha256=qjbpqKXHCMUmGpqnBUXw9Neg08b792xlZOdJuPkGtcY,1064
+tea_web-0.1.1.dist-info/METADATA,sha256=iW2782qVkF8CNXLlEJ4F16IF1V95SZsmh0eYfZ-pr0c,1636
+tea_web-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tea_web-0.1.1.dist-info/top_level.txt,sha256=tJyHbfi2QL2o1hkyODy7eHI2EE8S6_rxAH6m3MEdZKo,4
+tea_web-0.1.1.dist-info/RECORD,,
