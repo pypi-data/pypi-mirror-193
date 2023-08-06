@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: toha_nearest_neighbor
+Version: 0.1.0
+License-File: LICENSE
+Summary: 
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# toha_nearest_neighbor
+
+Serial and parallel bindings to brute force methods for 2D nearest neighbor problems in python
+
