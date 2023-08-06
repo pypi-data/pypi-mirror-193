@@ -1,0 +1,303 @@
+# ATLAS ITK pixels multi-module cycling box
+
+
+## Installation (Raspberry Pi OS only)
+
+```shell
+mkdir tmp && cd tmp
+git clone https://gitlab.ph.liv.ac.uk/avt/atlas-itk-pmmcb.git
+cd atlas-itk-pmmcb
+
+python3 -m venv pve
+. pve/bin/activate
+
+python3 -m pip install --upgrade pip wheel build
+ls ~/dev/atlas-itk-pmmcb/packaging/dist/*.whl | tail -1 | xargs python3 -m pip install --upgrade
+```
+
+**This process will install all of the dependencies required except for the MCP9601 and NAU7802.**
+
+### MCP9601
+
+The Adafruit MCP9601 API was broken when last tested, so use the Pimoroni MCP9600 API instead. Since the Pimoroni API is for the MCP9600 rather than the MCP9601, we need to make a small change before installation:
+
+```shell
+git clone https://github.com/pimoroni/mcp9600-python
+cd mcp9600-python
+```
+
+In file `library/mcp9600/__init__.py` make these changes:
+
+Change from:
+
+```
+CHIP_ID = 0x40
+I2C_ADDRESSES = list(range(0x60, 0x68))
+I2C_ADDRESS_DEFAULT = 0x66
+I2C_ADDRESS_ALTERNATE = 0x67
+```
+
+To:
+
+```
+CHIP_ID = 0x41
+I2C_ADDRESSES = list(range(0x65, 0x67 + 1))
+I2C_ADDRESS_DEFAULT = 0x67
+I2C_ADDRESS_ALTERNATE = 0x66
+```
+
+Also edit the `PYTHON="..."` line in `install.sh` to point to the correct Python version, if it's not the default python3. Then finally:
+
+```shell
+sudo ./install.sh --unstable
+```
+
+You may need to reboot after the above step (after boot, remember to activate the python virtual environment as above).
+
+### NAU7802
+
+```shell
+cd ~/dev
+git clone https://github.com/CedarGroveStudios/CircuitPython_NAU7802.git
+
+# copy file into the python virtual environment
+
+# For 64-bit Raspberry Pi OS
+cp ~/dev/CircuitPython_NAU7802/cedargrove_nau7802.py ~/dev/pve/lib/python3.9/site-packages/
+
+# For 32-bit Raspberry Pi OS
+sudo cp ~/dev/CircuitPython_NAU7802/cedargrove_nau7802.py /usr/local/lib/python3.7/dist-packages/
+```
+
+### Notes
+
+Note that if you are installing this for a recently added user rather than the default user, you will have to setup groups, e.g.
+
+```console
+# check groups
+groups $USER
+
+# add I2C group
+sudo adduser $USER i2c
+
+# check groups
+groups $USER
+```
+
+You may need a fresh login shell for group changes to take effect (in the new shell, remember to activate the python virtual environment as above).
+
+The installation process will make the following new commands available:
+
+* `dat2plot`
+* `dat2plotsep`
+* `dat2root`
+* `detect`
+* `iv`
+* `liveplot`
+* `log2dat`
+* `peltier`
+* `psuset`
+* `psustat`
+* `sense`
+* `ult80`
+
+In addition, once in the Python `venv`, you will be able to do this:
+
+```console
+(pix) avt@raspberrypi:~/tmp $ python3
+Python 3.7.3 (default, Jan 22 2021, 20:04:44)
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import mmcb.test_environment as te
+>>> testenv = te.TestEnvironment('config.txt')
+>>> measurements = testenv.read_all_sensors()
+>>> measurements
+{'timestamp': 1653844116.1013656, 'hyt_M1 °C': 21.12342061893426, 'hyt_M1 RH%': 0.0, 'hyt_env °C': 21.324848928767622, 'hyt_env RH%': 0.0, 'hyt_M4 °C': 21.113349203442596, 'hyt_M4 RH%': 0.0, 'ntc_M1 °C': 18.874264620930205, 'smc kPa': -95.29101904000001, 'ntc_M4 °C': -60.849429204693735, 'TC_VC4 °C': 20.3125, 'TC_VC1 °C': 19.375, 'TC_N2 °C': 20.75, 'TC_VC3 °C': 21.0, 'TC_VC2 °C': 21.25, 'sht_ambient °C': 23.43, 'sht_ambient RH%': 31.48, 'bme_ambient °C': 23.924921875, 'bme_ambient RH%': 26.04732304850249, 'bme_ambient hPa': 1014.36410289236}
+>>> measurements.get('hyt_M4 °C', None)
+21.113349203442596
+```
+
+Check the installed version with `python3 -m pip show mmcb-avt`
+
+
+## How to rebuild the distribution after code changes
+
+Remember to update the version number in [setup.py](packaging/setup.py) before rebuilding.
+
+```shell
+rm dist/*
+python3 -m build
+git add dist/*
+```
+
+The distribution file (`.whl`) is written to the `dist` directory, e.g.
+
+```console
+macbook:packaging avt$ python3 -m build
+* Creating virtualenv isolated environment...
+* Installing packages in isolated environment... (setuptools>=42, wheel)
+* Getting dependencies for sdist...
+running egg_info
+writing src/mmcb_avt.egg-info/PKG-INFO
+writing dependency_links to src/mmcb_avt.egg-info/dependency_links.txt
+writing entry points to src/mmcb_avt.egg-info/entry_points.txt
+writing requirements to src/mmcb_avt.egg-info/requires.txt
+writing top-level names to src/mmcb_avt.egg-info/top_level.txt
+reading manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+* Building sdist...
+running sdist
+running egg_info
+writing src/mmcb_avt.egg-info/PKG-INFO
+writing dependency_links to src/mmcb_avt.egg-info/dependency_links.txt
+writing entry points to src/mmcb_avt.egg-info/entry_points.txt
+writing requirements to src/mmcb_avt.egg-info/requires.txt
+writing top-level names to src/mmcb_avt.egg-info/top_level.txt
+reading manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+running check
+creating mmcb-avt-0.0.7
+creating mmcb-avt-0.0.7/src
+creating mmcb-avt-0.0.7/src/mmcb
+creating mmcb-avt-0.0.7/src/mmcb_avt.egg-info
+copying files to mmcb-avt-0.0.7...
+copying LICENSE -> mmcb-avt-0.0.7
+copying README.md -> mmcb-avt-0.0.7
+copying pyproject.toml -> mmcb-avt-0.0.7
+copying setup.py -> mmcb-avt-0.0.7
+copying src/mmcb/__init__.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/common.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/dat2plot.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/dat2root.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/detect.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/iv.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/lexicon.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/liveplot.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/log2dat.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/peltier.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/psuset.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/psustat.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/sense.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/sensors.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/sequence.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/test_environment.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb/ult80.py -> mmcb-avt-0.0.7/src/mmcb
+copying src/mmcb_avt.egg-info/PKG-INFO -> mmcb-avt-0.0.7/src/mmcb_avt.egg-info
+copying src/mmcb_avt.egg-info/SOURCES.txt -> mmcb-avt-0.0.7/src/mmcb_avt.egg-info
+copying src/mmcb_avt.egg-info/dependency_links.txt -> mmcb-avt-0.0.7/src/mmcb_avt.egg-info
+copying src/mmcb_avt.egg-info/entry_points.txt -> mmcb-avt-0.0.7/src/mmcb_avt.egg-info
+copying src/mmcb_avt.egg-info/requires.txt -> mmcb-avt-0.0.7/src/mmcb_avt.egg-info
+copying src/mmcb_avt.egg-info/top_level.txt -> mmcb-avt-0.0.7/src/mmcb_avt.egg-info
+Writing mmcb-avt-0.0.7/setup.cfg
+Creating tar archive
+removing 'mmcb-avt-0.0.7' (and everything under it)
+* Building wheel from sdist
+* Creating virtualenv isolated environment...
+* Installing packages in isolated environment... (setuptools>=42, wheel)
+* Getting dependencies for wheel...
+running egg_info
+writing src/mmcb_avt.egg-info/PKG-INFO
+writing dependency_links to src/mmcb_avt.egg-info/dependency_links.txt
+writing entry points to src/mmcb_avt.egg-info/entry_points.txt
+writing requirements to src/mmcb_avt.egg-info/requires.txt
+writing top-level names to src/mmcb_avt.egg-info/top_level.txt
+reading manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+* Installing packages in isolated environment... (wheel)
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/mmcb
+copying src/mmcb/dat2plot.py -> build/lib/mmcb
+copying src/mmcb/sensors.py -> build/lib/mmcb
+copying src/mmcb/sequence.py -> build/lib/mmcb
+copying src/mmcb/log2dat.py -> build/lib/mmcb
+copying src/mmcb/psuset.py -> build/lib/mmcb
+copying src/mmcb/iv.py -> build/lib/mmcb
+copying src/mmcb/__init__.py -> build/lib/mmcb
+copying src/mmcb/psustat.py -> build/lib/mmcb
+copying src/mmcb/lexicon.py -> build/lib/mmcb
+copying src/mmcb/common.py -> build/lib/mmcb
+copying src/mmcb/peltier.py -> build/lib/mmcb
+copying src/mmcb/liveplot.py -> build/lib/mmcb
+copying src/mmcb/ult80.py -> build/lib/mmcb
+copying src/mmcb/sense.py -> build/lib/mmcb
+copying src/mmcb/detect.py -> build/lib/mmcb
+copying src/mmcb/test_environment.py -> build/lib/mmcb
+copying src/mmcb/dat2root.py -> build/lib/mmcb
+running egg_info
+writing src/mmcb_avt.egg-info/PKG-INFO
+writing dependency_links to src/mmcb_avt.egg-info/dependency_links.txt
+writing entry points to src/mmcb_avt.egg-info/entry_points.txt
+writing requirements to src/mmcb_avt.egg-info/requires.txt
+writing top-level names to src/mmcb_avt.egg-info/top_level.txt
+reading manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/mmcb_avt.egg-info/SOURCES.txt'
+installing to build/bdist.macosx-12.0-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.macosx-12.0-x86_64
+creating build/bdist.macosx-12.0-x86_64/wheel
+creating build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/dat2plot.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/sensors.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/sequence.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/log2dat.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/psuset.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/iv.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/__init__.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/psustat.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/lexicon.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/common.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/peltier.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/liveplot.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/ult80.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/sense.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/detect.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/test_environment.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+copying build/lib/mmcb/dat2root.py -> build/bdist.macosx-12.0-x86_64/wheel/mmcb
+running install_egg_info
+Copying src/mmcb_avt.egg-info to build/bdist.macosx-12.0-x86_64/wheel/mmcb_avt-0.0.7-py3.10.egg-info
+running install_scripts
+adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+creating build/bdist.macosx-12.0-x86_64/wheel/mmcb_avt-0.0.7.dist-info/WHEEL
+creating '/Users/avt/Documents/gitlab/atlas-itk-pmmcb/packaging/dist/tmpqmhzo84e/mmcb_avt-0.0.7-py3-none-any.whl' and adding 'build/bdist.macosx-12.0-x86_64/wheel' to it
+adding 'mmcb/__init__.py'
+adding 'mmcb/common.py'
+adding 'mmcb/dat2plot.py'
+adding 'mmcb/dat2root.py'
+adding 'mmcb/detect.py'
+adding 'mmcb/iv.py'
+adding 'mmcb/lexicon.py'
+adding 'mmcb/liveplot.py'
+adding 'mmcb/log2dat.py'
+adding 'mmcb/peltier.py'
+adding 'mmcb/psuset.py'
+adding 'mmcb/psustat.py'
+adding 'mmcb/sense.py'
+adding 'mmcb/sensors.py'
+adding 'mmcb/sequence.py'
+adding 'mmcb/test_environment.py'
+adding 'mmcb/ult80.py'
+adding 'mmcb_avt-0.0.7.dist-info/LICENSE'
+adding 'mmcb_avt-0.0.7.dist-info/METADATA'
+adding 'mmcb_avt-0.0.7.dist-info/WHEEL'
+adding 'mmcb_avt-0.0.7.dist-info/entry_points.txt'
+adding 'mmcb_avt-0.0.7.dist-info/top_level.txt'
+adding 'mmcb_avt-0.0.7.dist-info/RECORD'
+removing build/bdist.macosx-12.0-x86_64/wheel
+Successfully built mmcb-avt-0.0.7.tar.gz and mmcb_avt-0.0.7-py3-none-any.whl
+
+macbook:packaging avt$ ls -l dist/
+total 440
+-rw-r--r--  1 avt  staff  106918 29 May 20:17 mmcb-avt-0.0.7.tar.gz
+-rw-r--r--  1 avt  staff  112876 29 May 20:18 mmcb_avt-0.0.7-py3-none-any.whl
+```
+# Test title
