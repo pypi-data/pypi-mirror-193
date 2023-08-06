@@ -1,0 +1,10 @@
+fetch.py,sha256=dIYfhqohSppAHBAeudDGyc-_UCvEKbafTJaCwaT03rU,1628
+webloader/__init__.py,sha256=pvVtiZfMbr9eeqd7HatBzs79wHZX7ol_UrizopFTm94,134
+webloader/constants.py,sha256=6AC6epsFlqIjC3y1mmSGCyNWVqiMHN9Tk4KWWkMCLxQ,95
+webloader/models.py,sha256=E8ZFVD1eFDK0hIzQdIMV8_TPk7TnBfFYSnOjopMJKHk,467
+webloader/webloader.py,sha256=-nPR8d5Sg2DZzcuhIiU3L0TKw4rC2SoxGXBmG7reBpE,4989
+webloader-0.1.0.dist-info/LICENSE,sha256=jcm8t80I7jpr6Cm2bItTXypPWeNxeRLahZRD5bVqAGI,1068
+webloader-0.1.0.dist-info/METADATA,sha256=Gza6Mhlr3Z7QiHdblYA8EZ_tXv4vZTfPdH308DcXSNA,1561
+webloader-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+webloader-0.1.0.dist-info/entry_points.txt,sha256=JhTapLcA8CXVUZ_0f8msKgcik05L4DddaNzjBcNd-xM,35
+webloader-0.1.0.dist-info/RECORD,,
