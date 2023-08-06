@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: PPVD
+Version: 0.0.4
+Summary: A collection parametrized parsing and validation decorators for python metaprogramming. Self-contained to avoid dependency clashing.
+Author: Darik A. O'Neil
+Maintainer: Darik A. O'Neil
+License: MIT License
+        
+        Copyright (c) 2023 Darik A O’Neil
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: python,parameterized,parsing,typing,validation,metaprogramming
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Parametrized Parsing and Validation Decorators 
+## PPVD       
+<!-- Line 1 Badges... PyPi, Downloads, Maintained, Coverage, Documentation -->
+<!-- Line 2 Badges... Python Versions, PyPi Status, License, Contributors-->
+![PyPI](https://img.shields.io/pypi/v/PPVD)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/PPVD)
+![Maintenance](https://img.shields.io/maintenance/yes/2023)
+[![Coverage Status](https://coveralls.io/repos/github/darikoneil/PPVD/badge.svg?branch=main)](https://coveralls.io/github/darikoneil/PPVD?branch=main)
+[![Documentation Status](https://readthedocs.org/projects/PPVD/badge/?version=latest)](https://PPVD.readthedocs.io/en/latest/?badge=latest)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/PPVD?)
+![PyPI - Status](https://img.shields.io/pypi/status/PPVD)
+![GitHub](https://img.shields.io/github/license/darikoneil/PPVD)
+[![Contributors](https://img.shields.io/github/contributors-anon/darikoneil/PPVD)](https://github.com/darikoneil/PPVD/graphs/contributors)
+[![PPVD](https://github.com/darikoneil/PPVD/actions/workflows/ppvd_lint_test_action.yml/badge.svg)](https://github.com/darikoneil/PPVD/actions/workflows/ppvd_lint_test_action.yml)
+    
+    
+A collection of parametrized parsing and validation decorators for python metaprogramming. Self-contained to avoid dependency clashing. Use pos argument for single argument specificity.
+
+
+##### Installation      
+`pip install PPVD`
