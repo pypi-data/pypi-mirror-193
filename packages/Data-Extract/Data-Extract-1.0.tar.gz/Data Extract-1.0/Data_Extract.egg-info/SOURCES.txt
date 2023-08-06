@@ -1,0 +1,13 @@
+setup.py
+Data_Extract.egg-info/PKG-INFO
+Data_Extract.egg-info/SOURCES.txt
+Data_Extract.egg-info/dependency_links.txt
+Data_Extract.egg-info/top_level.txt
+modules/__init__.py
+modules/clearconsole.py
+modules/extractlist.py
+modules/extracttable.py
+modules/filterfile.py
+modules/initialize.py
+modules/randomhex.py
+modules/standalone.py
