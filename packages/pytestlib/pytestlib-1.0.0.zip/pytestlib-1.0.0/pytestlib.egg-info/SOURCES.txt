@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+tools.py
+pytestlib/__init__.py
+pytestlib/firstpackage.py
+pytestlib.egg-info/PKG-INFO
+pytestlib.egg-info/SOURCES.txt
+pytestlib.egg-info/dependency_links.txt
+pytestlib.egg-info/top_level.txt
