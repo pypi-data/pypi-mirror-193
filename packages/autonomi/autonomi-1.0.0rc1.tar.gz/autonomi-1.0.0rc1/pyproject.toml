@@ -1,0 +1,62 @@
+[project]
+name = "autonomi"
+description = "Autonomi Cloud Python Client"
+license = {file = "LICENSE"}
+dynamic = ["version"]
+requires-python = ">=3.7.3"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+"Documentation" = "https://app.gitbook.com/o/jHSHyuhyMWNKfTelYovd/home"
+"Source Code" = "https://github.com/autonomi-ai/autonomi-client"
+
+[tool.setuptools.packages.find]
+include = ["autonomi*","examples*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "autonomi.client._version.__version__"}
+
+# NOTE: you have to use single-quoted strings in TOML for regular expressions.
+# It's the equivalent of r-strings in Python.  Multiline strings are treated as
+# verbose regular expressions by Black.  Use [ ] to denote a significant space
+# character.
+
+[tool.black]
+target-version = ['py37', 'py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+  | profiling
+)/
+'''
+
+[tool.isort]
+py_version = 37
+include_trailing_comma = "true"
+line_length = 88
+multi_line_output = 3
