@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ofdparser
+Version: 0.0.3
+Summary: ofdparser
+Home-page: https://github.com/renoyuan/pyofdpaerser
+Author: renoyuan
+Author-email: renoyuan@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyofdpaerser
+pyofdpaerser 解析ofd 文件
+
+1 输出坐标和文本信息
+2 ofd 转pdf
+
+项目链接： https://github.com/renoyuan/pyofdpaerser
+
+
+
