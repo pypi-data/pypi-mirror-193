@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: didppy
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Python interface for Dynamic Programming Description Language (DyPDL) and DyPDL solvers.
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# DIDPPy -- Python Interface for DyPDL
+
+## Development
+
+### Python Environment
+
+```bash
+python3 -m venv .venv 
+source .venv/bin/activate
+pip install maturin
+pip install -r docs/requirements.txt
+```
+
+### Build Development Version
+
+```bash
+maturin develop
+```
+
+`didppy` will be installed in `.venv`.
+
+### Build Docs
+
+Replace `{x}` with the version of Python.
+
+```bash
+sphinx-build ./docs/ ./docs/_build/
+```
+
+This will generate the API reference to `./docs/_build/index.html`.
+
+## Release
+
+```bash
+maturin build --release
+```
+
+This will create the Python wheel. Install the wheel in a Python environment you want to use (this should be different from `.venv`).
+
+```bash
+pip install --force-reinstall ../target/wheels/didppy-{x}.whl
+```
+
+`{x}` depends on your environment.
+
