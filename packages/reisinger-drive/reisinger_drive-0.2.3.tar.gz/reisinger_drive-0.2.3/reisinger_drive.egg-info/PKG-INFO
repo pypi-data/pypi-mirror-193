@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: reisinger-drive
+Version: 0.2.3
+Summary: A python3 library to communicate with a Reisinger Drive System
+Home-page: https://github.com/sreisi/reisinger-drive-api
+Author: sreisi
+Author-email: sell@reisinger.de
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5.3
+Description-Content-Type: text/markdown
+
+# reisinger-drive-api
+
+This module is used to communicate to intellidriver adapters
