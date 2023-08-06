@@ -1,0 +1,2 @@
+[console_scripts]
+aa2unicode = aa2unicode.main:main
