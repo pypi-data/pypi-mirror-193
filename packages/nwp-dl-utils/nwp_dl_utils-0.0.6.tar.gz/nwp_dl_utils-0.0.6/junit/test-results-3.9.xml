@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="2.857" timestamp="2023-02-15T14:16:34.622998" hostname="mbp"><testcase classname="tests.test_utils" name="test_get_indices_at_coordinates" time="2.544" /></testsuite></testsuites>

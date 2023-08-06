@@ -1,0 +1,6 @@
+[
+  "tests/test_utils.py::test_get_indices_at_coordinates",
+  "tests/test_utils.py::test_get_indices_at_coordinates_latlon",
+  "tests/test_utils.py::test_get_indices_at_coordinates_rlatrlon",
+  "tests/test_utils.py::test_myfunc"
+]
