@@ -1,0 +1,7 @@
+setup.py
+collinizda/__init__.py
+collinizda.egg-info/PKG-INFO
+collinizda.egg-info/SOURCES.txt
+collinizda.egg-info/dependency_links.txt
+collinizda.egg-info/requires.txt
+collinizda.egg-info/top_level.txt
