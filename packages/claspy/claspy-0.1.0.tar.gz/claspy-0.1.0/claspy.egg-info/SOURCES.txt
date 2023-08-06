@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+claspy.egg-info/PKG-INFO
+claspy.egg-info/SOURCES.txt
+claspy.egg-info/dependency_links.txt
+claspy.egg-info/not-zip-safe
+claspy.egg-info/requires.txt
+claspy.egg-info/top_level.txt
