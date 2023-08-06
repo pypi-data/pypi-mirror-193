@@ -1,0 +1,7 @@
+opencv-contrib-python==3.4.2.16
+opencv-python==3.4.2.16
+pandas==1.1.5
+tqdm==4.64.0
+easydict==1.9
+Pillow==8.4.0
+numpy
