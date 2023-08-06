@@ -1,0 +1,13 @@
+body_matrix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+body_matrix/draw.py,sha256=XryxIO-bAcLNP8km-lm7RmfIaVsb9ns67agy6kUd_C0,6404
+body_matrix/export.py,sha256=CddqqYwUlu13fR7Y8gLuKgh2QOXvITGvbZ-Bmh1hqS8,5083
+body_matrix/infer.py,sha256=XFJmTapTw7qNCOGmDE-1LLvE8he4UJhk9cjc-13c884,4474
+body_matrix/load.py,sha256=z0ZFQFWyD1jXIGsw-0RMoDwRIr0EWL4IesfRp639-BY,1735
+body_matrix/measure.py,sha256=VD65D8BKmxop1NiwGM3igcV0URdUQ5IhjoRHFs5-kXs,2624
+body_matrix/process.py,sha256=OBt5GZkPGxWn-v0mR_R_cJX1n2ImqMGSdNnxm_FaMVM,6925
+body_matrix/score.py,sha256=R30vjzDVfHQS2E8FTReE5ey5H8mYIvZ09Sp_7ALgy6o,6744
+body_matrix-0.3.8.dist-info/LICENSE,sha256=6HbWwHbAh6rFxCR5YRhYjG4oNsM3BTDcUZYucUggTbA,1069
+body_matrix-0.3.8.dist-info/METADATA,sha256=Wqby45Q2UtZpxbpQCiGbpavf-PAHoZGva0pA45a5YDw,22488
+body_matrix-0.3.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+body_matrix-0.3.8.dist-info/top_level.txt,sha256=x501pXwYjn5VWVgXSznyY4ngKnonxb4_4UAer8evpHI,12
+body_matrix-0.3.8.dist-info/RECORD,,
