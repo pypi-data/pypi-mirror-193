@@ -1,0 +1,16 @@
+afscgap/__init__.py,sha256=WkYmOfj1rlN3qakrE4DAG4X8KONrgW86KFtqEHdUN6g,12025
+afscgap/client.py,sha256=r14ZKPq4TKqk-MErPD0MGZeyTMLLoNb1comm9T-HSPM,11272
+afscgap/model.py,sha256=r2lXBU_B5EdK2gRpg1NM-Y63gRtQJ1rKlsQwGnR8Pig,32131
+afscgap/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afscgap/util.py,sha256=tWvdZMW98fTAz_cT9llbobVXeGEaxX2ybsf77lammq0,345
+afscgap/test/__init__.py,sha256=c6CZMxmrKpJ7wL_bwMQvHWFAZd2JvgPPPWd5gHsYvjk,272
+afscgap/test/test_client.py,sha256=SkWhnGBgd4pvNF5e9I_PRbY-2iXEQQJXiMUL85TP7zc,4780
+afscgap/test/test_model.py,sha256=Z4jArJrx168EfJR7MzL8i5_f95LCCH8PNRNyVV40a94,3175
+afscgap/test/test_query.py,sha256=ZPt5dAzj2hJElBuVnGaGTkrV1rcBMqirFGxzgTcYOvI,3312
+afscgap/test/test_util.py,sha256=OtPh9NOnzbOSRRSdE30K4dHnLBO-071sbjJS8wIa4Ww,868
+afscgap/test/data/result_1.json,sha256=RxdruPWJ0ilCZwRCxIojNKxmTTy7g7GaVAisgVaAd04,16765
+afscgap/test/data/result_2.json,sha256=c99BbZ6hy-56pef1fgLzZignWt23-woa3Rlq06I4VQo,17245
+afscgap-0.0.3.dist-info/METADATA,sha256=hpkFpvYwGIA4I4bnD-26MI-EI0n84ZNXgT1H1Wiobic,25377
+afscgap-0.0.3.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+afscgap-0.0.3.dist-info/licenses/LICENSE.md,sha256=blavQmMEvigcYTCMjqwyEdc-yCiv8vi2FAjiSMCMImA,1566
+afscgap-0.0.3.dist-info/RECORD,,
