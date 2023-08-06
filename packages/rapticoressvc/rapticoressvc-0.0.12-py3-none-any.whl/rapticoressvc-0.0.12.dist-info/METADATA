@@ -1,0 +1,353 @@
+Metadata-Version: 2.1
+Name: rapticoressvc
+Version: 0.0.12
+Summary: Rapticore SSVC
+Home-page: 
+Author: Rapticore, Inc
+Author-email: Rapticore <ahsan.mir@rapticore.com>
+License: Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/
+        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+        
+           1. Definitions.
+        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.
+        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.
+        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.
+        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.
+        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.
+        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.
+        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).
+        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.
+        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."
+        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.
+        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.
+        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.
+        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:
+        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and
+        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and
+        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and
+        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.
+        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.
+        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.
+        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.
+        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.
+        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.
+        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.
+        
+           END OF TERMS AND CONDITIONS
+        
+           APPENDIX: How to apply the Apache License to your work.
+        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.
+        
+           Copyright 2023 Rapticore, Inc.
+        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at
+        
+               http://www.apache.org/licenses/LICENSE-2.0
+        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+        
+Project-URL: Homepage, https://github.com/rapticore/ssvc_ore_miner
+Project-URL: Bug Tracker, https://github.com/rapticore/ssvc_ore_miner/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (~=1.5.2)
+Requires-Dist: requests (~=2.28.1)
+Requires-Dist: setuptools (~=62.2.0)
+Requires-Dist: nested-lookup
+Requires-Dist: xlsxwriter (~=3.0.8)
+Requires-Dist: cvss
+Requires-Dist: pandas
+Requires-Dist: xlsxwriter
+Requires-Dist: requests
+Requires-Dist: setuptools
+
+SSVC Ore Miner
+========================
+
+**Stakeholder-specific Vulnerability Categorization(SSVC) Ore Miner**
+
+
+The Stakeholder-specific Vulnerability Categorization (SSVC) is a system for prioritizing actions during vulnerability management. SSVC aims to avoid one-size-fits-all solutions in favor of a modular decision-making system with clearly defined and tested parts that vulnerability managers can select and use as appropriate to their context.
+
+SSVC Ore Miner extends and simplifies that work by automating the process of calculating patch priority. A known shortcoming of the Common Vulnerability Scoring System(CVSS) is that it lacks the context of the vulnerable asset. Risk-based prioritization does not take into account real-life consequences. Deferring low-priority systems with critically actively exploited vulnerabilities with the rapidly changing state of the asset. SSVC aims to improve on those methods by using asset context and vulnerability intelligence to make informed decisions that can be backed up by well-understood logic. 
+
+The decision criteria are included for inspection, modification, and updates and can be extended to meet specific use cases. 
+
+
+By contextualizing the vulnerability in the asset, we can improve prioritization and security outcomes which can help security teams focus on the vulnerabilities that can lead to a compromise. The context for the vulnerability and asset is created through the following matrix: 
+
+**1 - Exploitation:** 
+Checks for the availability of the exploit and its status using Open Source threat intelligence feeds. An exploit can be "active", "PoC" or "None"
+
+**2 - Exposure:** 
+Checks the likelihood of exposure if the exploit is used against a vulnerable asset. Exposure can be "unavoidable", " probable" or "unlikely"
+
+**3 - Utility:** Checks for utility/ease-of-use of vulnerability against the vulnerability asset. The utility considers whether the exploit is active, whether it is network-based or local and requires user interaction and discoverability of the vulnerable asset(public, private, etc). Utility can be "effortless", "complex", or "laborious"
+
+**4 - Impact:** Impact takes into account environment(production, non-production), asset type(compute, storage, etc) and asset criticality(critical to business, storage of sensitive data). Based on these values Impact can be "very high", "high", "medium" or "low"
+
+
+The prioritization matrix uses the above vector to produce a patch priority. The patch priority can be:
+
+https://github.com/CERTCC/SSVC
+| Patch Priority | Description                                                                                                                                                            |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| act_now        | Critical risk of compromise, the production/critical asset is open to public, exploit is effective and can be used with minimum skills to create a significant impact. |
+| out-of-cycle   | Increased risk of compromise patch ahead of the regular patching schedule                                                                                              |
+| schedule       | Follow regular patching schedule for patch                                                                                                                             |
+| defer          | Can be deferred                                                                                                                                                        |
+| review          | New or yet undisclosed vulnerability - a CVSS vector has not been assigned for this vulnerability.                                                                    |
+
+---------------
+
+**SSVC Ore Miner Internals**
+
+
+***Opensource Threat Intelligence:***
+Ore Miner starts by pulling in Known Exploitable Vulnerability Catalog and NVD vulnerability Data from CISA and NIST. This data is used to check for exploitability status of the CVE and analysis of the CVSS score. The Ore Miner will still recommend Remediation Prirotization but it will not be Asset Context Aware - this takes into account whether the exploitate is an RCE or whether it requires User interaction. These factors are used to calculate the Exploitability and Utility of the vulnerability. 
+
+***Asset Context***
+If available the Asset Context is then used to further Prioritize. A decision tree is used to calculated Exposure, Utility and Impact. Each Vector is independently calculated. MITRE ATT&CK(R) Matrix for cloud is used to to map first four stages of Attack - Reconnaniness, Resource Development, Initial Access and Execution - for each asset first 4 stages are calculated in the context of the vulnerability. 
+https://attack.mitre.org/matrices/enterprise/
+
+***Decision Tree***
+Each vector is calculated independently to create a query for the final Decision tree. This returns the Vulnerability Prioritization for each vulnerability in the context of the asset. 
+
+
+***Usage***:
+```commandline
+ssvc_ore.py [-h] [--single | --datafile] [-cn CVE_NUMBER] [-p {public,public_restricted,private,None}] [-e {production,non_production,None}]
+[-a {db,compute,storage,None,network}] [-s {critical,high,medium,low}] [--file FILE] [-v]
+```
+
+
+***Optional Arguments***:
+
+`-h, --help show this help message` 
+
+`--single Parameter based entry`
+
+`--datafile csv file upload - use --file option`
+
+`-id, --asset_id Asset Identifier(optional)`
+
+`-cn CVE_NUMBER, --cve_number CVE_NUMBER CVE number for the vulnerability`
+
+`-p {public,public_restricted,private,None} --public_status {public,public_restricted,private,None} Public Status, allowed values: public, public_restricted, private`
+
+`-vs, {critical,high,medium,low} --vul_severity Vulnerability Severity where CVE Number is not available. CVE takes precedence`
+
+`-e {production,non_production,None}, --environment {production,non_production,None} Environment for the asset. Choices: production, non_production, None -a {DB,Computer,Storage,None}`
+
+`--assetType {db,Computer,Storage,None, network} Asset Type allowed values. Choices: db, compute, storage, None, network`
+
+`-s {critical,high,medium,low}, --criticality {critical,high,medium,low} Criticality Business value of asset. Choices: critical, high, medium, low`
+
+`--file FILE Provide a vulnerability/host via stdin (e.g. through piping) or --file`
+
+`-v, --verbose Increase output verbosity`
+
+***Example***
+
+Example of using sample vulnerability data file in csv
+
+```shell
+cd path/to/ssvc_ore_minor
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install -r requirements.txt --upgrade
+export PYTHONPATH=.
+python3 rapticoressvc/ssvc_ore.py --datafile --file ./rapticoressvc/data_vulnerability.csv -v 
+```
+
+***Publish the package***
+1. Update the version in pyproject.toml
+2. ```shell
+    python setup.py sdist bdist_wheel
+   // To upload to testpypi
+    python -m twine upload --repository testpypi dist/* 
+   // To upload to pypi
+    python -m twine upload dist/*
+    ```
+Further details about publishing can be found [here](https://towardsdatascience.com/how-to-publish-a-python-package-to-pypi-7be9dd5d6dcd)
+
+***Use as a package***
+```shell
+pip install rapticoressvc
+```
+```shell
+from rapticoressvc import ssvc_recommendations
+
+ssvc_recommendations(asset_id, cve_number_or_severity, public_status, environment, asset_type, asset_criticality)
+```
+Based on the initial work done at
+
+@inproceedings{spring2020ssvc, title={Prioritizing vulnerability response: {A} stakeholder-specific vulnerability
+categorization}, author={Jonathan M Spring and Eric Hatleback and Allen D. Householder and Art Manion and Deana Shick},
+address={Brussels, Belgium}, year={2020}, month = dec, booktitle = {Workshop on the Economics of Information Security} }
+
