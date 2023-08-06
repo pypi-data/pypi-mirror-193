@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jinja2-importmap"
+description = "Configurable generation of importmaps, from Jinja2, Python, or shell."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = [
+    # todo
+]
+license = { file = "LICENSE" }
+classifiers = [
+    # todo
+]
+dependencies = [
+    "click~=8.1",
+    "pydantic~=1.10",
+    "Jinja2~=3.0",
+    "importlib_resources~=5.0;python_version<'3.9'"
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+
+[project.scripts]
+jinja2_importmap = "jinja2_importmap.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+write_to = "src/jinja2_importmap/_version.py"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"

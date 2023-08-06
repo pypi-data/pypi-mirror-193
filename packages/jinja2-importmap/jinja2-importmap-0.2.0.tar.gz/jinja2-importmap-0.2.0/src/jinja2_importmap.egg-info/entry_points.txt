@@ -1,0 +1,2 @@
+[console_scripts]
+jinja2_importmap = jinja2_importmap.__main__:main

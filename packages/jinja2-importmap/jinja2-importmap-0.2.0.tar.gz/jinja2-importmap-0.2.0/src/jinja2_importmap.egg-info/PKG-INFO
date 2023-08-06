@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: jinja2-importmap
+Version: 0.2.0
+Summary: Configurable generation of importmaps, from Jinja2, Python, or shell.
+License: Copyright (c) 2023, Dylan A. Lukes
+        
+        Redistribution and use in source and binary forms, with or without modification, are
+        permitted provided that the following conditions are met:
+        
+        Redistributions of source code must retain the above copyright notice, this list of
+        conditions and the following disclaimer. Redistributions in binary form must reproduce
+        the above copyright notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+        EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+        MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+        THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+        PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+        INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+        STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+        OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# `jinja2-importmap`
+
+This package provides a simple tool for generating import maps from a directory
+in the usual `node_modules` format. 
+
+This can be done either from a directory, or from the contents of a Python package, 
+for example if lists vendored JS dependencies in MANIFEST.in. 
+
+## Use from Command Line
+
+This package also provides a matching command line tool, `jinja2_importmap`:
+
+```bash
+$ jinja2_importmap demo/node_modules --prefix="url/prefix"                                                                                                                                                  19.7.0  jinja2-importmap
+{
+    "imports": {
+        "codemirror": "url/prefix/codemirror/dist/index.js",
+        "crelt": "url/prefix/crelt/index.es.js",
+        ".yarn-integrity": "url/prefix/None",
+        "w3c-keyname": "url/prefix/w3c-keyname/index.es.js",
+        "@codemirror/lint": "url/prefix/@codemirror/lint/dist/index.js",
+        "@codemirror/autocomplete": "url/prefix/@codemirror/autocomplete/dist/index.js",
+        "@codemirror/language": "url/prefix/@codemirror/language/dist/index.js",
+        "@codemirror/state": "url/prefix/@codemirror/state/dist/index.js",
+        "@codemirror/search": "url/prefix/@codemirror/search/dist/index.js",
+        "@codemirror/view": "url/prefix/@codemirror/view/dist/index.js",
+        "@codemirror/commands": "url/prefix/@codemirror/commands/dist/index.js",
+        "style-mod": "url/prefix/style-mod/src/style-mod.js",
+        "@lezer/highlight": "url/prefix/@lezer/highlight/dist/index.js",
+        "@lezer/common": "url/prefix/@lezer/common/dist/index.js",
+        "@lezer/lr": "url/prefix/@lezer/lr/dist/index.js"
+    }
+}%
+```
+
+You can also equivalently use `python -m jinja2_importmap` to run the tool, or import 
+`jinja2_importmap.core.scan_packages` for use in your own code.
+
+## Use from Jinja Template
+
+Currently, a custom parsed tag is not yet implemented. However, loading 
+the `jinja2_importmap.ext.importmap`extension will currently add `importmap`
+(an alias to `scan_packages`) to the global namespace.
+
+```jinja
+{{ importmap("web/static/vendor", package="my_package", prefix="static") }}
+```
+
+The intention is to eventually provide:
+
+```jinja
+{% importmap "web/static/vendor" package="my_package" prefix="static" %}
+```
+
+...or to allow overrides within a block:
+
+```jinja
+{% importmap "web/static/vendor" package="my_package" prefix="static" %}
+    {# override automatically generated importmap with json provided here #}
+{% endimportmap %}
+```
