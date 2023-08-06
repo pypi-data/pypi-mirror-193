@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: violeta
+Version: 0.0.1
+Summary: Reusable functions for Captalys projects.
+Home-page: https://github.com/Captalys/violeta.git
+Author: Bruno FS
+Author-email: bruno.souza@captalys.com.br
+License: BSD
+Keywords: captalys platform
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+tbd
