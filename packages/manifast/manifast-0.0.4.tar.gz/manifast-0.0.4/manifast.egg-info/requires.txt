@@ -1,0 +1,6 @@
+opencv-contrib-python==4.2.0.32
+opencv-python==4.2.0.32
+pandas==1.2.5
+tqdm==4.64.0
+easydict==1.9
+Pillow==9.2.0

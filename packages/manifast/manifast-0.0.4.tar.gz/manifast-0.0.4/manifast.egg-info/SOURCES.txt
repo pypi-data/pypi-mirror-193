@@ -1,0 +1,10 @@
+README.md
+setup.py
+manifast/__init__.py
+manifast/import_pkg.py
+manifast/iostream.py
+manifast.egg-info/PKG-INFO
+manifast.egg-info/SOURCES.txt
+manifast.egg-info/dependency_links.txt
+manifast.egg-info/requires.txt
+manifast.egg-info/top_level.txt
