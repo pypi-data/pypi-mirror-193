@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: climate-learn
+Version: 0.0.1
+Summary: ClimateLearn: Benchmarking Machine Learning for Data-driven Climate Science
+Author-email: MINT at UCLA <jason.jewik@cs.ucla.edu>, Hritik Bansal <hbansal@g.ucla.edu>, Shashank Goel <shashankgoel@g.ucla.edu>, Siddharth Nandy <sidd.nandy@gmail.com>, Tung Nguyen <tungnd@g.ucla.edu>, Seongbin Park <shannonsbpark@gmail.com>, Jingchen Tang <tangtang1228@ucla.edu>, Jason Jewik <jason.jewik@cs.ucla.edu>, Aditya Grover <adityag@cs.ucla.edu>
+Project-URL: Source, https://github.com/aditya-grover/climate-learn
+Project-URL: Issue Tracker, https://github.com/aditya-grover/climate-learn/issues
+Project-URL: Documentation, https://climatelearn.readthedocs.io/en/latest/
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cdsapi (>=0.5.1)
+Requires-Dist: dask (>=2022.2.0)
+Requires-Dist: importlib-metadata (==4.13.0)
+Requires-Dist: matplotlib (>=3.5.3)
+Requires-Dist: netcdf4 (>=1.6.2)
+Requires-Dist: pytorch-lightning (>=1.9.0)
+Requires-Dist: scikit-learn (>=1.0.2)
+Requires-Dist: timm (>=0.6.12)
+Requires-Dist: wandb (>=0.13.9)
+Requires-Dist: xarray (>=0.20.2)
+Provides-Extra: dev
+Requires-Dist: black (>=23.1.0) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.9.2) ; extra == 'dev'
+Requires-Dist: pytest (>=7.2.1) ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: ipython (>=7.34.0) ; extra == 'docs'
+Requires-Dist: nbsphinx (>=0.8.12) ; extra == 'docs'
+Requires-Dist: sphinx (>=5.3.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (>=1.1.1) ; extra == 'docs'
+
+<h1 align="center">ClimateLearn</h1>
+
+[![Documentation Status](https://readthedocs.org/projects/climatelearn/badge/?version=latest)](https://climatelearn.readthedocs.io/en/latest/?badge=latest)
+[![CI Build Status](https://github.com/aditya-grover/climate-learn/actions/workflows/ci.yaml/badge.svg)](https://github.com/aditya-grover/climate-learn/actions/workflows/ci.yaml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WiNEK1BHsiGzo_bT9Fcm8lea2H_ghNfa)
+
+**ClimateLearn** is a Python library for accessing state-of-the-art climate data and machine learning models in a standardized, straightforward way. This library provides access to multiple datasets, a zoo of baseline approaches, and a suite of metrics and visualizations for large-scale benchmarking of statistical downscaling and temporal forecasting methods. For further context on our past motivation and future plans, check out our announcement [blog post](https://aditya-grover.github.io/blog/2023/climate-learn/).
+
+## Usage
+
+### Quickstart
+Please refer to this [Google Colab](https://colab.research.google.com/drive/1WiNEK1BHsiGzo_bT9Fcm8lea2H_ghNfa) for a tutorial-style exposition into developing your first models for forecasting and downscaling in ClimateLearn.
+
+We previewed some key features of ClimateLearn at a spotlight tutorial in the "Tackling Climate Change with Machine Learning" Workshop at the Neural Information Processing Systems 2022 Conference. The slides and recorded talk can be found on [Climate Change AI's website](https://www.climatechange.ai/papers/neurips2022/114). 
+
+### Local Installation
+
+[**Python3**](https://www.python.org/) is required. Currently, ClimateLearn can only be installed from source.
+
+```
+$ git clone https://github.com/aditya-grover/climate-learn.git
+$ cd climate-learn
+$ pip install -e .
+```
+
+### Documentation
+Find us on [ReadTheDocs](https://climatelearn.readthedocs.io/).
+
+### Integrations
+
+- [Weights & Biases](https://wandb.ai/site)
+
+## About Us
+ClimateLearn is managed by the Machine Intelligence Group at UCLA, headed by [Professor Aditya Grover](https://aditya-grover.github.io).
+
+## Contributing
+Contributions are welcome! See our [contributing guide](CONTRIBUTING.md).
+
+## Citing ClimateLearn
+If you use ClimateLearn, please see the [`CITATION.cff`](CITATION.cff) file or use the citation prompt provided by GitHub in the sidebar.
