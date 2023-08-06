@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wangwangwang_pypi_test
+Version: 1.0.0
+Summary: pypi测试
+Home-page: https://github.com/test
+Author: wangxiaoxi
+Author-email: 1046474088@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+你好世界

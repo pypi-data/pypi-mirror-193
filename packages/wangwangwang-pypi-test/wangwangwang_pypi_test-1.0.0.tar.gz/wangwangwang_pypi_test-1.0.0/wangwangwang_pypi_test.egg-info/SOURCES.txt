@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pdf_task/__init__.py
+pdf_task/main.py
+pdf_task/pdf_handler.py
+pdf_task2/__init__.py
+pdf_task2/main.py
+pdf_task2/pdf_handler.py
+wangwangwang_pypi_test.egg-info/PKG-INFO
+wangwangwang_pypi_test.egg-info/SOURCES.txt
+wangwangwang_pypi_test.egg-info/dependency_links.txt
+wangwangwang_pypi_test.egg-info/requires.txt
+wangwangwang_pypi_test.egg-info/top_level.txt
