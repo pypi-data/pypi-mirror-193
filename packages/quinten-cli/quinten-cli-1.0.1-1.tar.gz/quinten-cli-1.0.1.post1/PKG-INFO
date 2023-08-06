@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: quinten-cli
+Version: 1.0.1.post1
+Summary: extended subprocess
+Author: Quinten Roets
+Author-email: quinten.roets@gmail.com
+License-File: LICENSE
