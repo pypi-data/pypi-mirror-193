@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: EduardoFerramentas
+Version: 0.2
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: wikipedia
+Requires-Dist: pyttsx3
+Requires-Dist: datetime
+Requires-Dist: pywhatkit
+Requires-Dist: tkinter
+
