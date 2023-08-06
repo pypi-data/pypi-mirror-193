@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: minswap-py
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/theeldermillenial/minswap-py
+License: MIT
+Author: eldermillenial
+Author-email: eldermillenial@protonmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: blockfrost-python (==0.5.2)
+Requires-Dist: pycardano (==0.7.2)
+Requires-Dist: pydantic (==1.10.4)
+Requires-Dist: python-dotenv (==0.21.1)
+Project-URL: Issues, https://github.com/theeldermillenial/minswap-py/issues
+Project-URL: Repository, https://github.com/theeldermillenial/minswap-py
+Description-Content-Type: text/markdown
+
+# minswap-py (v0.1.1)
+<p align="center">
+    <img src="https://img.shields.io/pypi/status/minswap-py?style=flat-square" />
+    <img src="https://img.shields.io/pypi/dm/minswap-py?style=flat-square" />
+    <img src="https://img.shields.io/pypi/l/minswap-py?style=flat-square"/>
+    <img src="https://img.shields.io/pypi/v/minswap-py?style=flat-square"/>
+    <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
+
+`minswap-py` is a tool to interact with [Minswap](https://minswap.org/).  The current version has feature parity with the minswap [blockfrost-adapter](https://github.com/minswap/blockfrost-adapter).
+
+Documentation and additional features coming soon.
+
+## Quickstart
+
+In order to use this package:
+1. Install with `pip install minswap-py`
+2. Sign up for blockfrost and get an API key.
+3. In your working directory, save a `.env` file. In this file, save your blockfrost API key as follows:
+```bash
+PROJECT_ID=YOUR_BLOCKFROST_ID
+```
+
+Once you do this, you can try out the code in the `examples` folder on the Github repository.
+
