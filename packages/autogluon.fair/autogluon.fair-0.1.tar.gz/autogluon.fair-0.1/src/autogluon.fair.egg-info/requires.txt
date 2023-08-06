@@ -1,0 +1,11 @@
+autogluon.common<1.0,>=0.7
+autogluon.core<1.0,>=0.7
+autogluon.tabular[all]<1.0,>=0.7
+autogluon.features<1.0,>=0.7
+numpy<2.0,>=1.21.4
+pandas<2.0,>=1.2.5
+
+[tests]
+pytest-cov
+pytest
+tox
