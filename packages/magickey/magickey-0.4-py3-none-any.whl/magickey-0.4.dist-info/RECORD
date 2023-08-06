@@ -1,0 +1,11 @@
+magickey/__init__.py,sha256=sTs6IV3j1MuUyUSz5yYOLrIId3czmj_fzsp3qhOhelk,1751
+magickey/magics.py,sha256=C6e6pYpiYXywsQDGIBdM1D7iVdA2gS3zVMgyaWhrrik,10838
+magickey/manager.py,sha256=ruDja6GFTPP6Tq1tlED5S6bQu-50YIBkvxASfqha36Q,2720
+magickey/memory.py,sha256=gY6sVpF3SlpYOES_daLoFtzjxiOkLvy7Lc63B5ORO-Y,5575
+magickey/prompt.txt,sha256=stcoAett2LOr2rRgpzgrWnp3g-LoekcJBQKDxFwv_e4,1578
+magickey/tasks.py,sha256=B5sjcDl2If4TaWexwrcdXTxB985RGg1B9a0n4aaqSEg,18
+magickey-0.4.dist-info/LICENSE,sha256=0Rai3EYGDuWopfSg-UueGjkfNnxEkCAuTwO1L39bTqI,618
+magickey-0.4.dist-info/METADATA,sha256=MVxnGkaw2ucanCVbehnLF-ILhC3qmCH9AIYiyTmBAcM,332
+magickey-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+magickey-0.4.dist-info/top_level.txt,sha256=VhGKZ75lxLxbBAuBjhHQ3whuLFr9iEngX3FQ7leN6cM,9
+magickey-0.4.dist-info/RECORD,,
