@@ -1,0 +1,9 @@
+README.md
+setup.py
+figlets/__init__.py
+figlets/figlets_file.py
+figlets.egg-info/PKG-INFO
+figlets.egg-info/SOURCES.txt
+figlets.egg-info/dependency_links.txt
+figlets.egg-info/requires.txt
+figlets.egg-info/top_level.txt
