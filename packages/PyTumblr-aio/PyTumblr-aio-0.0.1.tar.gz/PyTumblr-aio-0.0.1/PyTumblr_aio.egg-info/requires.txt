@@ -1,0 +1,14 @@
+httpx
+Authlib
+
+[AIOUNITTEST]
+aiounittest
+
+[MOCK]
+mock
+
+[NOSE]
+nose
+
+[NOSECOV]
+nose-cov

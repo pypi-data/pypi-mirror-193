@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyTumblr-aio"
+version = "0.0.1"
+authors = [
+  { name="Tumblr", email="accounts@tumblr.com" },
+    { name="dj-ratty", email="115014503+dj-ratty@users.noreply.github.com"}
+]
+description = "An Async Python Tumblr API v2 Client"
+license = { file="LICENSE" }
+readme = "README.rst"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+keywords = ["pytumblr pytumblr-aio aio_pytumblr"]
+dependencies = [
+    "httpx",
+    "Authlib"
+]
+
+[project.optional-dependencies]
+NOSE = ["nose"]
+NOSECOV = ["nose-cov"]
+MOCK = ["mock"]
+AIOUNITTEST = ["aiounittest"]
+
+[project.urls]
+"Homepage" = "https://github.com/dj-ratty/pytumblr-aio"
+"Bug Tracker" = "https://github.com/dj-ratty/pytumblr-aio/issues"
+"Download" = "https://github.com/dj-ratty/pytumblr-aio/releases"
