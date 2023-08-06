@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+suisa_sendemeldung/__init__.py
+suisa_sendemeldung/acrclient.py
+suisa_sendemeldung/suisa_sendemeldung.py
+suisa_sendemeldung.egg-info/PKG-INFO
+suisa_sendemeldung.egg-info/SOURCES.txt
+suisa_sendemeldung.egg-info/dependency_links.txt
+suisa_sendemeldung.egg-info/entry_points.txt
+suisa_sendemeldung.egg-info/requires.txt
+suisa_sendemeldung.egg-info/top_level.txt
+suisa_sendemeldung.egg-info/zip-safe
