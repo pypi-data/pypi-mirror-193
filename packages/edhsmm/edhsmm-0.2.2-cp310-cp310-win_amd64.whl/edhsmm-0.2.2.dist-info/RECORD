@@ -1,0 +1,10 @@
+edhsmm/__init__.py,sha256=v0F_0FxLLung9GvqAIuYhGLn5Pn8xK8wWjGRV0BGrV4,129
+edhsmm/_hsmm_core.cp310-win_amd64.pyd,sha256=NoMNvW3F0A5xpgxQGvkWkHnxawLjbyYmkPIaX2EmJD8,170496
+edhsmm/hsmm_base.py,sha256=cWXsr7AWNANAXKZVhF7UfhBI7TXvgEZn6Kc-UTr9ig0,18551
+edhsmm/hsmm_multinom.py,sha256=-L3Sb8P9HHETawnWMQQdhKm6iYVie6ZYsjVjymg1FUA,3712
+edhsmm/hsmm_utils.py,sha256=shTa1HeeidvXXqLWTgWJSSzA9bvUKZvcwZ-A5Uy-z8A,689
+edhsmm-0.2.2.dist-info/LICENSE.txt,sha256=PjqMYSVtABdzw5NwHTuLO6tRAywesCj8UCpvxBFZslg,1065
+edhsmm-0.2.2.dist-info/METADATA,sha256=jQ3b3quejx1kAvbSDAIp67N2LRqe4l_xtlZrO97ihLE,2459
+edhsmm-0.2.2.dist-info/WHEEL,sha256=rneS2j8QNmAwdNKHN86s6-qP7AMcWZgqiEoH3bdbh_Y,102
+edhsmm-0.2.2.dist-info/top_level.txt,sha256=XHyQvISLfrIPd48wNgGpa5grUrB24F6iyQfTBLNnFEw,7
+edhsmm-0.2.2.dist-info/RECORD,,
