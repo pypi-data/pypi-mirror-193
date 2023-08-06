@@ -1,0 +1,17 @@
+autogluon.fair-0.1-py3.8-nspkg.pth,sha256=cQGwpuGPqg1GXscIwt-7PmME1OnSpD-7ixkikJ31WAY,554
+autogluon/fair/__init__.py,sha256=zbraRz1ERrnE7ZwbAlGahum0WccQ3SZXHoQ387AK6x4,97
+autogluon/fair/version.py,sha256=3_W2W2HcQi2q-fReQFGNNHhGvd0ty871xGz2gHHn4kU,67
+autogluon/fair/learners/__init__.py,sha256=E9unzsTfGuwPlG4UCZeJBW8_sC-HnnjI2rH_1EMb7gs,60
+autogluon/fair/learners/efficient_compute.py,sha256=CwYfaWGEy_hBhKL9TFZquw7lq2SmLWKYtMEB8Fd48XA,13411
+autogluon/fair/learners/fair.py,sha256=KRM-acjoQ-n4NvDWNsG3aR80RQF_HkhY92VhjUvsyLY,31494
+autogluon/fair/learners/fair_frontier.py,sha256=OAIRhBPEu32qrd6ujwimFvpf_y4QnmFYVQq4_gS2NCs,10609
+autogluon/fair/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autogluon/fair/utils/group_metric_classes.py,sha256=b4JYJmN-lMU8tp5ILlEx22TCUpt9Lm0dIOSsoMbYOd0,10669
+autogluon/fair/utils/group_metrics.py,sha256=MSyt4o7Inv2qTjPBfzAGnmKZValOfV2lL_UCOcFrgGA,6374
+autogluon.fair-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autogluon.fair-0.1.dist-info/METADATA,sha256=dgwK3L9iF3WInpvNnQTp2Oa6a-1qAzgobyNc-h-rKws,49218
+autogluon.fair-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autogluon.fair-0.1.dist-info/namespace_packages.txt,sha256=giERA4R78OkJf2ijn5slgjURlhRPzfLr7waIcGkzYAo,10
+autogluon.fair-0.1.dist-info/top_level.txt,sha256=giERA4R78OkJf2ijn5slgjURlhRPzfLr7waIcGkzYAo,10
+autogluon.fair-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+autogluon.fair-0.1.dist-info/RECORD,,
