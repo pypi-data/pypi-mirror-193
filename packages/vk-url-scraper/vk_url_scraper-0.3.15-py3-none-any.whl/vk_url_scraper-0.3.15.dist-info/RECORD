@@ -1,0 +1,12 @@
+vk_url_scraper/__init__.py,sha256=5cwqgMEAWmYADzkXhPJvGNesglgZ_PgAPw3J2Dn7Yls,85
+vk_url_scraper/__main__.py,sha256=D1DmFKBFayoJh06O9p9GRNBh_MNdsQEASw0w9dANHbw,1945
+vk_url_scraper/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vk_url_scraper/scraper.py,sha256=0h2qGB46mE8F8pP_0eawhVrClRTf6tfb_rKt3clhTT4,14242
+vk_url_scraper/utils.py,sha256=lBVgbZDQMJgQufJQEcNKhV3U8aaOva9UoXHZwREFWb4,1038
+vk_url_scraper/version.py,sha256=kBsEW1sdYxqRTr8eLhJ6smnl9FKqCq5sl2roKk5liRc,408
+vk_url_scraper-0.3.15.dist-info/LICENSE,sha256=3GSs5Cs0J9qSS_pMqhcBwuXKGH5vJ5oCOqoxOKFtCDA,1076
+vk_url_scraper-0.3.15.dist-info/METADATA,sha256=NT-eU5CXgtgdeBvrYFWnyj6oH7LOvKD1m7TkLtP6meE,7305
+vk_url_scraper-0.3.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vk_url_scraper-0.3.15.dist-info/entry_points.txt,sha256=TOhSFzESmKLmgWHBKLHgP35QC4L_rJLlIJP_NMGe6Qw,64
+vk_url_scraper-0.3.15.dist-info/top_level.txt,sha256=nzqz1R4fRzVc0avyOsTEvSQrxBra2hXehNah9jfVvI4,15
+vk_url_scraper-0.3.15.dist-info/RECORD,,
