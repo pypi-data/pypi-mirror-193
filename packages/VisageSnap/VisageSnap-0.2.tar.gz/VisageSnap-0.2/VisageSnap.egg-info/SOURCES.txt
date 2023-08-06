@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+VisageSnap/__init__.py
+VisageSnap/main.py
+VisageSnap.egg-info/PKG-INFO
+VisageSnap.egg-info/SOURCES.txt
+VisageSnap.egg-info/dependency_links.txt
+VisageSnap.egg-info/requires.txt
+VisageSnap.egg-info/top_level.txt
