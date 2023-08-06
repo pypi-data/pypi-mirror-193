@@ -1,0 +1,16 @@
+geopandas==0.10
+jupyter
+jupyterlab==2
+seaborn
+tzwhere
+unidecode
+osmnx
+h3
+mapclassify
+osmnet
+pandana
+contextily
+python-pptx
+mycolorpy
+tqdm
+googlemaps
