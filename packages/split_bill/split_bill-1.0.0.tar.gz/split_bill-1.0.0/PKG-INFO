@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: split_bill
+Version: 1.0.0
+Summary: package descrition
+Author-email: Philip Oedi <philip.oedi@gmail.com>
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: cvxpy
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Project-URL: Home, https://github.com/philipoedi/split_bill
+Provides-Extra: dev
