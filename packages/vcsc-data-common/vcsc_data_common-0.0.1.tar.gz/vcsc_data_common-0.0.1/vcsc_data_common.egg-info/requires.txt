@@ -1,0 +1,5 @@
+setuptools>=42
+wheel
+pandas
+requests
+numpy

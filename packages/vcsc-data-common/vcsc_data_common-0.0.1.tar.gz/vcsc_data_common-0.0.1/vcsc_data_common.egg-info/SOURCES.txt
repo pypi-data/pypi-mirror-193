@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+vcsc_data_common/__init__.py
+vcsc_data_common.egg-info/PKG-INFO
+vcsc_data_common.egg-info/SOURCES.txt
+vcsc_data_common.egg-info/dependency_links.txt
+vcsc_data_common.egg-info/requires.txt
+vcsc_data_common.egg-info/top_level.txt
+vcsc_data_common/test_module/__init__.py
