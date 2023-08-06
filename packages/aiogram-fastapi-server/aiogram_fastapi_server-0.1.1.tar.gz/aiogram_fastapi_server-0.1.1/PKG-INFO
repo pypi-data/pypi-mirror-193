@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aiogram-fastapi-server
+Version: 0.1.1
+Summary: Handle webhook requests with FastAPI instead of aiohttp
+License: MIT
+Author: Snimshchikov Ilya
+Author-email: snimshchikov.ilya@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiogram (>=3.0.0b1,<4.0.0)
+Requires-Dist: fastapi
+Description-Content-Type: text/markdown
+
+# Aiogram FastAPI Server
+Handle webhook requests with FastAPI instead of aiohttp  
+Based on https://github.com/aiogram/aiogram/blob/dev-3.x/aiogram/webhook/aiohttp_server.py  
+
+# Check out our aiogram bot template
+https://github.com/4u-org/bot-template
+
