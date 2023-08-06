@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: requestXpath
+Version: 1.0
+Summary: 继承requests,增加xpath功能
+Home-page: https://github.com/peng0928/prequests
+Author: penr
+Author-email: 1944542244@qq.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example Package
+#在此文件内，可使用markdown撰写对包的详细介绍和说明，便于别人熟悉和使用，在此不再赘述
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
