@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tahoma
+Version: 2.0.7
+Summary: API written in Python3 for Somfy Tahoma
+Home-page: https://github.com/pzim-devdata/tahoma
+Author: Pzim-devdata
+Author-email: contact@pzim.fr
+License: MIT
+Keywords: tahoma,somfy,api
+Platform: UNKNOWN
+
+This is a very easy API for controlling Somfy Tahoma's devices written in Python3, thanks to the pyoverkiz API. You just need a three-word input to control a device
+
+
