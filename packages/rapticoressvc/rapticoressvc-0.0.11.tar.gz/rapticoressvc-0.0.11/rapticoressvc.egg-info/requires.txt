@@ -1,0 +1,11 @@
+pandas~=1.5.2
+requests~=2.28.1
+setuptools~=62.2.0
+nested_lookup
+xlsxwriter~=3.0.8
+cvss
+pandas
+nested_lookup
+xlsxwriter
+requests
+setuptools
