@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: msgraph-stuff
+Version: 0.0.1
+Summary: Package that adds a range of functionality for working with microsoft graph api - under constant development
+Home-page: https://github.com/george-oconnor/msgraph-stuff
+Author: george.oconnor (George O' Connor)
+Author-email: <george@georgestools.com>
+Keywords: python,sharepoint,ms,microsoft graph,msgraph,graph,api,microsoft,microsoft365,azure,graph api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# msgraph-stuff
