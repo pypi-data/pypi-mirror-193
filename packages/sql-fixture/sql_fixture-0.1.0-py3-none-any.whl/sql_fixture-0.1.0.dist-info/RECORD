@@ -1,0 +1,8 @@
+sql_fixture/__init__.py,sha256=45OLVY5zihvD7LLUgUQkK447JJqWluIhVft6vw0fUAk,146
+sql_fixture/fixture.py,sha256=gdhHzt0zWhcFKxXoZuXtjaFhr87XBxnK4Em_i8UpTK4,9689
+sql_fixture/logger.py,sha256=Sp43-Z59Ak-MNB_pxdu05XI6oahtOT_Gj4YxGwl3XeM,2323
+sql_fixture/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_fixture-0.1.0.dist-info/METADATA,sha256=5neJvgRhjcoWDQTRjuleWM1ZfSd3yd7w8h6pAqZULIg,5479
+sql_fixture-0.1.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+sql_fixture-0.1.0.dist-info/licenses/LICENSE,sha256=5Tq8bSUZxh60OnbIGljTjSaDz87ssNq_4ltyJ_c2iKQ,1070
+sql_fixture-0.1.0.dist-info/RECORD,,
