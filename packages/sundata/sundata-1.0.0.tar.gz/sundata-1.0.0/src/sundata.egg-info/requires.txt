@@ -1,0 +1,6 @@
+docutils
+pytest==7.2.1
+pytest-cov==4.0.0
+suntime==1.2.5
+astropy[all]==5.2.1
+pytz==2022.7.1
