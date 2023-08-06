@@ -1,0 +1,9 @@
+README.md
+setup.py
+square_cloud/__init__.py
+square_cloud/square_cloud.py
+square_cloud_test_lucas.egg-info/PKG-INFO
+square_cloud_test_lucas.egg-info/SOURCES.txt
+square_cloud_test_lucas.egg-info/dependency_links.txt
+square_cloud_test_lucas.egg-info/requires.txt
+square_cloud_test_lucas.egg-info/top_level.txt

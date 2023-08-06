@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: square_cloud_test_lucas
+Version: 0.0.2
+Summary: Implementacao da api da square cloud não oficial
+Home-page: UNKNOWN
+Author: Lucas Alves
+Author-email: lucasal072@gmail.com
+License: MIT License
+Description: this is a test lib
+Keywords: square_cloud_lucas_test
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
