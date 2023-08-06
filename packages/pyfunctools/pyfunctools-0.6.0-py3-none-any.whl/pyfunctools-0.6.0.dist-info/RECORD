@@ -1,0 +1,17 @@
+pyfunctools/__init__.py,sha256=Njpx6Vz3KDZo01PmomVp4n9d4ToedVoM8Dz-1t832aI,11803
+pyfunctools/__version__.py,sha256=oIy4R6bGCWwrs4NK5kTGL2OSyKHjAyk9yioPHTd1Ybw,369
+pyfunctools/at.py,sha256=IfDflRmEFa9X05V01i4aEvzOpjJbACPxqCpwvtYcfKo,1085
+pyfunctools/chunk.py,sha256=3TY96Isl2i_l97uDarAlZuiOvL30lkWZh8q3RXfgF8g,647
+pyfunctools/compact.py,sha256=MdkjPw6gRLSqV3gnz3_IweGlvwtWUqakxqwT0e4AgX8,450
+pyfunctools/filter.py,sha256=6cJoEmKOR8rD6c3rg_BnW8iSg-4CV7acglsoXKWRghk,478
+pyfunctools/flatten.py,sha256=nXnD4eyUZ5Ok16jZTLfNMjc0pcwpWYkBuUrwRs5fG9Q,984
+pyfunctools/foreach.py,sha256=PG2paHCqPHMiXczbl5z1OmJUDiJXyKFRYyR-TPGb3YM,428
+pyfunctools/map.py,sha256=CL3sXLclZNKJ5hDc0DWqj0rWll23l5gJpqDqTo8kOmA,611
+pyfunctools/memoize.py,sha256=Xl77Akn6liBLSNG3ewEl8RipOP2rFKACn6QxPIF4wpI,1085
+pyfunctools/pipeline.py,sha256=nCZ_y_L1slzXBFlSS4_g44_xTBFpY2TL7sIa8E_Bowg,733
+pyfunctools/reduce.py,sha256=6FplPYnYJxdtIKvGjXRsMn0PVdRzz1tU-jxyBiheLi0,1204
+pyfunctools/utils.py,sha256=WiUa4nDD9G9ksyGl8rSjMtI8UjfumXe-Gkx_E-eX4gs,5002
+pyfunctools-0.6.0.dist-info/LICENSE,sha256=r3fnznonLcGYNkbzNi4BXFCUfOBATI-unNDwtw_UUyk,1083
+pyfunctools-0.6.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyfunctools-0.6.0.dist-info/METADATA,sha256=zkVidVBNzq4h0-iVD75LKcD2OJBo1JMjz7wEK7I8zeo,2104
+pyfunctools-0.6.0.dist-info/RECORD,,
