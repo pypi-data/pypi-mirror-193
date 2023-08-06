@@ -1,0 +1,8 @@
+arango_datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arango_datasets/datasets.py,sha256=rBS53TjGJvcrcdKu_Sh3z0I4spjBzBrXAriypojYRTc,5682
+arango_datasets/utils.py,sha256=joT-Z05BX-oVbsqB8e90HbFqjoxnKHFc3nXg0b1UH1Y,358
+arango_datasets-1.1.0.dist-info/AUTHORS.rst,sha256=te3lGJ_IokvkBiLYPLb5vr1xFD2HkB9G8j9ComQuoSs,164
+arango_datasets-1.1.0.dist-info/METADATA,sha256=GJoK4I18oqpq6RY2oliZ-0MfC1D_MW_5vtI7qRB6kZw,1993
+arango_datasets-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+arango_datasets-1.1.0.dist-info/top_level.txt,sha256=XtOb1qvmSOAI9_CTujOfbwfzYIQQtQDR8P4m_SkcRZI,16
+arango_datasets-1.1.0.dist-info/RECORD,,
