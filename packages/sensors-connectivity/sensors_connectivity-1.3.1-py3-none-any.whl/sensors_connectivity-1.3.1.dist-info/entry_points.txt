@@ -1,0 +1,5 @@
+[console_scripts]
+sensors_connectivity=connectivity.main:run
+test_environmental_box=tests.environmental_box_test:main
+test_mobile_lab=tests.mobile_lab_test:main
+
