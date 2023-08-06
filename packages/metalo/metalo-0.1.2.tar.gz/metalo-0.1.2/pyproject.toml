@@ -1,0 +1,89 @@
+[build-system]
+requires = [
+    "hatchling>=1.5.0",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "metalo"
+description = "Metabolic analysis of Logical models extracted from maps"
+authors = [
+   { name = "Sahar Aghakhani", email = "Sahar.Aghakhani@inria.fr" },
+   { name = "Sylvain Soliman", email = "Sylvain.Soliman@inria.fr" },
+]
+license = "GPL-3.0"
+classifiers = [
+   "Development Status :: 4 - Beta",
+   "Programming Language :: Python :: 3",
+   "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+   "Operating System :: OS Independent",
+]
+dynamic = [
+   "version"
+]
+requires-python = ">=3.9"
+dependencies = [
+    "casq>=1.3.0",
+    "cobra",
+    "pandas",
+    "trappist>=0.8.0",
+]
+readme = "README.rst"
+license-files = { paths = ["LICENSE"] }
+
+[project.urls]
+Code = "https://gitlab.inria.fr/soliman/metalo"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "flake8-mypy",
+]
+
+[project.scripts]
+metalo = "metalo.metalo:main"
+
+[tool.hatch.version]
+path = "metalo/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/metalo",
+]
+exclude = [
+    "/metalo/.mypy_cache/**",
+]
+
+[tool.hatch.envs.default]
+python = "311"
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = [
+    "pydocstyle",
+    "flake8",
+    "flake8-blind-except",
+    "flake8-bugbear",
+    "flake8-builtins",
+    "flake8-comprehensions",
+    "flake8-docstrings",
+    "flake8-import-order",
+    "flake8-mypy",
+    "flake8-polyfill",
+    "black",
+]
+
+[tool.hatch.envs.lint.scripts]
+check = [
+    "flake8 --select=C,E,F,W,D,A,I,B --ignore=B950,E501,W503,E203 metalo",
+    "black --check --diff metalo",
+]
+fmt = [
+    "black metalo",
+    "check",
+]
+
+[tool.hatch.envs.test]
+dependencies = [
+    "pytest"
+]
