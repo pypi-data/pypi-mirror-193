@@ -1,0 +1,9 @@
+storage/b2_storage_api.py,sha256=j9YvUAwspUl3QmNDyrKzY7-F0_miQYjhZoJOuhVWKCs,640
+storage/b2_store.py,sha256=dGOs7sOjq3Z9E6z8G2x5oBR6oF3cqxx0L9R9uEsnNZw,4578
+storage/base_store.py,sha256=uJJfgTPfvzMU5v9VSnmOYOyTgFMRPtddVzK8c6lr3Nc,6373
+storage/fs_store.py,sha256=o-ANQMndOfRGLvvbj5XwOmk8VkveErzCy-iuDZ82VTY,5722
+knap-0.0.2.dist-info/LICENSE,sha256=kgszTvONz0kkKB_E8B6XGrardDoqZ445OpjY1wcMCEQ,34936
+knap-0.0.2.dist-info/METADATA,sha256=gOyOMSAJaydStWW3lUjASrAxwnG8qV7Nj8EnzV9yXPU,505
+knap-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+knap-0.0.2.dist-info/top_level.txt,sha256=yphqphSuwRzNyEfTnt0xnNv02quslUAR1yj7mKZ_KxI,8
+knap-0.0.2.dist-info/RECORD,,
