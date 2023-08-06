@@ -1,0 +1,13 @@
+LICENSE,sha256=qfqtg9-6Dk4EGg8bVt7HA7kGAQL0cWqGwWQL-Jjl308,1072
+migrations_graph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migrations_graph/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+migrations_graph/apps.py,sha256=pQJme0-qrGZBReRHeAYPgrb5dY6luOhuZ38UO2um49s,163
+migrations_graph/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+migrations_graph/templates/migrations_graph/index.html,sha256=B3ShvpGtnnzaPajUjdigIBs9aMsxU4G6l4dy2vK8ugo,4104
+migrations_graph/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+migrations_graph/urls.py,sha256=Ey_cOYCspvfKCXcbFKObtLBiMz_P5oSzoBiVfK5HgLQ,108
+migrations_graph/views.py,sha256=3NQH9zxbtfVelB9xeBrxha5Iv4WJcpC2NLeesXZI9rQ,3611
+django_migration_dependencies-0.1.3.dist-info/LICENSE,sha256=qfqtg9-6Dk4EGg8bVt7HA7kGAQL0cWqGwWQL-Jjl308,1072
+django_migration_dependencies-0.1.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+django_migration_dependencies-0.1.3.dist-info/METADATA,sha256=JEBWe_0dgYOxvz_sPM1IXif3-3RsZuL1R2V5q5GZds4,1981
+django_migration_dependencies-0.1.3.dist-info/RECORD,,
