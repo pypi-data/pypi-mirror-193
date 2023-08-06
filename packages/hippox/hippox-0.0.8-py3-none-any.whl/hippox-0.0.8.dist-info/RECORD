@@ -1,0 +1,9 @@
+hippox/__init__.py,sha256=tOA0qgwOTubCXvMt5x6eZdI-x2RvdA5w6XMYd3uWEOg,33
+hippox/basis_measures.py,sha256=dA_R9i5x6DVo3bgDyHYObkQZfzHoSbKYHtlUBq70Ehc,4662
+hippox/diagonalization.py,sha256=wx9m7NojfqUFC1R9l-pNd261gErxYHDXVJPnv1JnYXY,7022
+hippox/main.py,sha256=fi2yTyHnYGhf-c1_TgFEHP1S2R3LRHHadVXVXdrHpOE,6924
+hippox-0.0.8.dist-info/LICENSE,sha256=TLEvJlTb8sCY6WAefeGEfOfZeVssTcKtJ-mdQ3vHJjA,1070
+hippox-0.0.8.dist-info/METADATA,sha256=70FWU_N03fRaFV-1RFf8-eSMKcd3dZ-szfXTu0QcEIc,3605
+hippox-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hippox-0.0.8.dist-info/top_level.txt,sha256=yr9-wzmQsrKKH8RgVBRzIG0ili5FXsFjQKSgnxU4YQ8,7
+hippox-0.0.8.dist-info/RECORD,,
