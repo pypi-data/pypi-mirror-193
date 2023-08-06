@@ -1,0 +1,14 @@
+sltk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sltk/setup.py,sha256=b0mx_WpXeone4_Ak6NvWZIo2C3zlFcQH2XX5FYelUxE,991
+sltk/sltk.py,sha256=ZFhM7fkFnN_YTvkYu6-8aBZBHjWcEA6jznoRzPPheX4,8084
+sltk-py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sltk-py/setup.py,sha256=4Gl1XEqNtDovZO5w65yzFK5m5U7sSTNMecJV92WxFgs,1027
+sltk-py/sltk.py,sha256=ZFhM7fkFnN_YTvkYu6-8aBZBHjWcEA6jznoRzPPheX4,8084
+sltkpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sltkpy/setup.py,sha256=Z-SKJV_jYcz3-wNnGrNTBjbQzPrJwldfNvPvW2i8ZzY,1026
+sltkpy/sltk.py,sha256=ZFhM7fkFnN_YTvkYu6-8aBZBHjWcEA6jznoRzPPheX4,8084
+sltkpy-0.0.1.dist-info/LICENSE,sha256=rkZiQl2FU3TEKoZTs5ubD9esmsHcoNa8JZxv5O4Vw3E,1104
+sltkpy-0.0.1.dist-info/METADATA,sha256=eJ-4oeuleacbMEP5nWFNOCCgKXnqPwTC332VClwJVa4,555
+sltkpy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sltkpy-0.0.1.dist-info/top_level.txt,sha256=ughrqbsYiuAux5yW0nnyERfZaYv3dcL48HnwTWjXAMs,7
+sltkpy-0.0.1.dist-info/RECORD,,
