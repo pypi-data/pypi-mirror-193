@@ -1,0 +1,10 @@
+haptic_master/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+haptic_master/base.py,sha256=T5ZxRZ-IDVfb1EAKzjHFsRgYI-xb1_bK62pNXtDsrUk,4566
+haptic_master/effect.py,sha256=KxIFluVDz5MamyYJDIM_TECgJhzbjHA92vbWvJ9WKxw,19606
+haptic_master/haptic_master.py,sha256=9eqWXhtF8PavwOBM5Q5TTCLtp3DYRNnJP4kB0yvkV-M,12073
+haptic_master/object.py,sha256=HKPD_Ljivv4nZx45jcpYACTFKXUtTHRAjl4bmw9lFlc,18430
+haptic_master-0.1.1.dist-info/LICENSE,sha256=RWUdavRcZ0s53o-1lRPPAyyF7RUS7lf1I8xblQ-AUGY,1070
+haptic_master-0.1.1.dist-info/METADATA,sha256=0QkdrzqxfJGnE-xBnfoHSRLDVKYuXk3EpZBLp6H6RO4,643
+haptic_master-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+haptic_master-0.1.1.dist-info/top_level.txt,sha256=mNxneOskZn-ggU6FdxzUlmTRsR4x2Zn7snHsDHnnUwU,14
+haptic_master-0.1.1.dist-info/RECORD,,
