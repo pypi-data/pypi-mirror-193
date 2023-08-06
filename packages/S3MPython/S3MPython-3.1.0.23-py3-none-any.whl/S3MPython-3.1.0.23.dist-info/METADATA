@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: S3MPython
+Version: 3.1.0.23
+Summary: Python implementation of the S3Model https://S3Model.com/ specifications version: 3.1.0
+Home-page: https://s3model.com
+Download-URL: https://github.com/twcook/S3M_Python/archive/3.1.0.23.tar.gz
+Author: Timothy W. Cook
+Author-email: s3modeldata@gmail.com
+Project-URL: Bug Reports, https://github.com/twcook/S3M_Python/issues
+Project-URL: Training, https://S3Model.com/training
+Project-URL: Source, https://github.com/twcook/S3M_Python/
+Keywords: context rdf xml machine learning data-centric semantic interoperability semantics agi
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Religion
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.20)
+Requires-Dist: lxml (>=4.2)
+Requires-Dist: xmltodict (>=0.11)
+Requires-Dist: cuid (>=0.3)
+Requires-Dist: validator-collection (>=1.2)
+Requires-Dist: pytz (>=2018)
+Requires-Dist: exrex (>=0.10)
+
+# S3MPython
+
+S3MPython is a Python library for creating S3Model data models.
+
+
+# Examples & Training
+
+For S3Model training courses, see the [S3Model](https://s3model.com) website.
+
+There is a repository called S3MPython_examples meant to be your first experience with S3MPython.
+
+# Examples Installation
+
+- Clone the [S3MPython_examples](https://github.com/twcook/S3M_Python_Training_examples.git) repository.
+- See the [README.md](https://github.com/twcook/S3M_Python_Training_examples) file for instructions on how to install and run the examples.
+
+# S3MPython Installation
+
+Create a virtual environment for S3MPython. Suggestion: use the name S3MPython.
+
+```pip install s3mpython```
+
+See the **Project Integration** section of the [documentation](https://s3model.com/S3MPython/) for the next steps.
+
+
+# Developing S3MPython
+
+- Clone the master [repository](https://github.com/s3model/S3MPython)
+
+- Change to the new S3MPython directory.
+- Build the virtual environment using dev_requirements.txt. Suggestion: use the name S3MPython_dev.
+- Create a new branch for your changes.
+- Build and install your development branch into your S3MPython environment.
+
+```
+python3 setup.py sdist bdist_wheel
+
+pip install e .
+```
