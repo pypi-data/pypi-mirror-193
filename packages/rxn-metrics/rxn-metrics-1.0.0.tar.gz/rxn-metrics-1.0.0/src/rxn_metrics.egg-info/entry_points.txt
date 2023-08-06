@@ -1,0 +1,6 @@
+[console_scripts]
+rxn-evaluate-metrics = rxn.metrics.scripts.rxn_evaluate_metrics:main
+rxn-parse-metrics-into-csv = rxn.metrics.scripts.parse_metrics_into_csv:main
+rxn-prepare-context-metrics = rxn.metrics.scripts.prepare_context_metrics:main
+rxn-prepare-forward-metrics = rxn.metrics.scripts.prepare_forward_metrics:main
+rxn-prepare-retro-metrics = rxn.metrics.scripts.prepare_retro_metrics:main
