@@ -1,0 +1,16 @@
+LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weevils_cli/__init__.py,sha256=x-8--5SrDRhNWvdmsAvaQJ5xYNwWS05LysCaLHqKP2I,206
+weevils_cli/config.py,sha256=Pa_9IDD3xhTLLhVVSSdWuYRGvC41Y688PUs73BfyNEM,897
+weevils_cli/entrypoint.py,sha256=em6PYxLisYNbwRYOXv2rf_469cPzoFNGdXijb1PvejM,605
+weevils_cli/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weevils_cli/hosts.py,sha256=b3_087dRMDlg-N-i5okY5M1_7cHnqB7SzqqoSuaher0,780
+weevils_cli/jobs.py,sha256=c7WGulwSSZprX_l71k2UxEHBVQJgF9rPyONrBtWBV0s,885
+weevils_cli/repos.py,sha256=bcEnj9fXJY1nkV3lG7puUYYIicW93U1W0rmaYvHKfR8,1601
+weevils_cli/utils.py,sha256=bCGh7_wNG4Mji8c6mw2Cw55IefAE3GPg0slXqr1XcQg,752
+weevils_cli/weevils.py,sha256=1kxyZnyU_ohZv9e4fkDI2y7eaiU6ltAu8M-f13-Zb70,5169
+weevils_cli-0.0.2a1.dist-info/METADATA,sha256=MqSNxwVsMtgZWhw6WccM9aur0ljaXe7adh8BwvCb_ow,914
+weevils_cli-0.0.2a1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+weevils_cli-0.0.2a1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+weevils_cli-0.0.2a1.dist-info/entry_points.txt,sha256=BM4dBsjIapBITSjrCtOxqTI-btk5-JWXyZZTSjSnP84,88
+weevils_cli-0.0.2a1.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+weevil=weevils_cli.entrypoint:cli
+weevils=weevils_cli.entrypoint:cli
+
