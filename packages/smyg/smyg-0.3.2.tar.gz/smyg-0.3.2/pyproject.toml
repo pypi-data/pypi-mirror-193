@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "smyg"
+version = "0.3.2"
+description = "git metric calculation"
+
+authors = [
+  "Nikolay Mikhaylichenko <nn.mikh@yandex.ru>",
+]
