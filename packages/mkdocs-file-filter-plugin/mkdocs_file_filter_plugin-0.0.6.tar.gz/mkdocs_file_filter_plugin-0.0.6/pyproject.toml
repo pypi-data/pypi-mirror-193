@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "mkdocs-file-filter-plugin"
+version = "0.0.6"
+description = 'A MkDocs plugin that lets you exclude/include docs files using globs, regexes, gitignore-style file and Markdown/Frontmatter tags metadata.'
+authors = ["Dariusz Porowski"]
+homepage = "https://github.com/DariuszPorowski/mkdocs-file-filter-plugin"
+repository = "https://github.com/DariuszPorowski/mkdocs-file-filter-plugin"
+documentation = "https://github.com/DariuszPorowski/mkdocs-file-filter-plugin/blob/main/README.md"
+readme = "README.md"
+license = "MIT"
+keywords = [
+	"mkdocs",
+	"plugin",
+	"exclude",
+	"include",
+	"glob",
+	"regex",
+	"gitignore",
+	"markdown",
+	"frontmatter",
+	"metadata",
+	"tags",
+]
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3 :: Only",
+	"Operating System :: OS Independent",
+	"License :: OSI Approved :: MIT License",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Information Technology",
+	"Topic :: Documentation",
+]
+packages = [{ include = "mkdocs_file_filter_plugin" }]
+
+[tool.poetry.urls]
+Issues = "https://github.com/DariuszPorowski/mkdocs-file-filter-plugin/issues"
+History = "https://github.com/DariuszPorowski/mkdocs-file-filter-plugin/releases"
+
+[tool.poetry.plugins."mkdocs.plugins"]
+file-filter = "mkdocs_file_filter_plugin.plugin:FileFilter"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+mkdocs = "^1.4.0"
+igittigitt = "^2.1.2"
+pyyaml = "^6.0"
+schema = "^0.7.5"
+pyyaml-env-tag = "^0.1"
+
+[tool.poetry.group.dev.dependencies]
+mkdocs-material = "^9.0.11"
+mkdocs-awesome-pages-plugin = "^2.8.0"
+mkdocs-monorepo-plugin = "^1.0.4"
+mkdocs-literate-nav = "^0.6.0"
+pytest = "^7.2.1"
+autopep8 = "^2.0.1"
+black = "^23.1.0"
+pre-commit = "^3.0.4"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+bandit = "^1.7.4"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
