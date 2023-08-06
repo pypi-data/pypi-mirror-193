@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+spataw/__init__.py
+spataw/spataw.py
+spataw.egg-info/PKG-INFO
+spataw.egg-info/SOURCES.txt
+spataw.egg-info/dependency_links.txt
+spataw.egg-info/not-zip-safe
+spataw.egg-info/top_level.txt
