@@ -1,0 +1,10 @@
+onedata_lambda_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onedata_lambda_utils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onedata_lambda_utils/stats.py,sha256=2GoQxEcsUE3sjg2WB3_vsv1Xrpso0joIVqrO8AX4bPQ,1618
+onedata_lambda_utils/streaming.py,sha256=FzWFHk0JwfQC-rOr8Z9wjjFhmFFZa7lwE7HNYOn2m-I,1186
+onedata_lambda_utils/types.py,sha256=lkNcRbyTfl8SFnfw4kmRX71ljQ_xacrQBQ18i4GPCZE,5891
+onedata_lambda_utils-0.1.2.dist-info/LICENSE.txt,sha256=yKecZJXs1xjT08PfjB_rmuRYoPN1z7kmf08-jlvVGLc,1158
+onedata_lambda_utils-0.1.2.dist-info/METADATA,sha256=30VRWheoqhvGK5joDOThl6XXj1K5DWoZMqJMpGAiR_w,1054
+onedata_lambda_utils-0.1.2.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+onedata_lambda_utils-0.1.2.dist-info/top_level.txt,sha256=nhOYYDxiRj3tiy41jDFanRkv-c68nA-PPey-NElVJgs,21
+onedata_lambda_utils-0.1.2.dist-info/RECORD,,
