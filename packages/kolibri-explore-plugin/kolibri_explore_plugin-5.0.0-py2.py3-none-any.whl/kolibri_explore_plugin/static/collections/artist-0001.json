@@ -1,0 +1,43 @@
+{
+  "channels": [
+    {
+      "id": "38eaaf9ec82a44f9ab6e7a44cb730f07",
+      "include_node_ids": [
+        "d9a219ec9e534dc48d9700aeea2eb6c2"
+      ],
+      "exclude_node_ids": [],
+      "version": 0
+    },
+    {
+      "id": "59b8deeb90f544da923187e77c8d3820",
+      "include_node_ids": [
+        "343292ab67b04deaa8431bb9e21f6b40",
+        "ec487caf983a4cf28bc23daf0e6409c0"
+      ],
+      "exclude_node_ids": [],
+      "version": 0
+    }
+  ],
+  "channel_list_hash": "0f6a110720f1edbafc04f30770549de1",
+  "metadata": {
+    "title": "MANUQ TEST",
+    "subtitle": "FOO",
+    "description": "Primary",
+    "required_gigabytes": 2,
+    "tagged_node_ids": [
+      {
+        "node_id": "ec487caf983a4cf28bc23daf0e6409c0",
+        "tags": [
+          "highlight",
+          "skill"
+        ]
+      },
+      {
+        "node_id": "343292ab67b04deaa8431bb9e21f6b40",
+        "tags": [
+          "skill"
+        ]
+      }
+    ]
+  }
+}
