@@ -1,0 +1,4 @@
+[console_scripts]
+icon-resize=icon_resize:entry
+pump=pump:main
+
