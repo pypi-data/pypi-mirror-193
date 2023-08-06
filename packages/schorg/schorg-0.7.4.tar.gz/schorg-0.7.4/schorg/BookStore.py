@@ -1,0 +1,89 @@
+"""
+A bookstore.
+
+https://schema.org/BookStore
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class BookStoreInheritedProperties(TypedDict):
+    """A bookstore.
+
+    References:
+        https://schema.org/BookStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class BookStoreProperties(TypedDict):
+    """A bookstore.
+
+    References:
+        https://schema.org/BookStore
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class BookStoreAllProperties(
+    BookStoreInheritedProperties, BookStoreProperties, TypedDict
+):
+    pass
+
+
+class BookStoreBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="BookStore", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        BookStoreProperties, BookStoreInheritedProperties, BookStoreAllProperties
+    ] = BookStoreAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "BookStore"
+    return model
+
+
+BookStore = create_schema_org_model()
+
+
+def create_bookstore_model(
+    model: Union[
+        BookStoreProperties, BookStoreInheritedProperties, BookStoreAllProperties
+    ]
+):
+    _type = deepcopy(BookStoreAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(f"{k} not part of BookStoreAllProperties")
+    delete_keys = []
+    for k in _type.__annotations__.keys():
+        if k not in model.__annotations__:
+            delete_keys.append(k)
+    for k in delete_keys:
+        del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: BookStoreAllProperties):
+    pydantic_type = create_bookstore_model(model=model)
+    return pydantic_type(model).schema_json()

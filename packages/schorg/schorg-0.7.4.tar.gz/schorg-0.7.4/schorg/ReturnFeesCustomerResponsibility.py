@@ -1,0 +1,97 @@
+"""
+Specifies that product returns must be paid for, and are the responsibility of, the customer.
+
+https://schema.org/ReturnFeesCustomerResponsibility
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class ReturnFeesCustomerResponsibilityInheritedProperties(TypedDict):
+    """Specifies that product returns must be paid for, and are the responsibility of, the customer.
+
+    References:
+        https://schema.org/ReturnFeesCustomerResponsibility
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class ReturnFeesCustomerResponsibilityProperties(TypedDict):
+    """Specifies that product returns must be paid for, and are the responsibility of, the customer.
+
+    References:
+        https://schema.org/ReturnFeesCustomerResponsibility
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class ReturnFeesCustomerResponsibilityAllProperties(
+    ReturnFeesCustomerResponsibilityInheritedProperties,
+    ReturnFeesCustomerResponsibilityProperties,
+    TypedDict,
+):
+    pass
+
+
+class ReturnFeesCustomerResponsibilityBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="ReturnFeesCustomerResponsibility", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        ReturnFeesCustomerResponsibilityProperties,
+        ReturnFeesCustomerResponsibilityInheritedProperties,
+        ReturnFeesCustomerResponsibilityAllProperties,
+    ] = ReturnFeesCustomerResponsibilityAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "ReturnFeesCustomerResponsibility"
+    return model
+
+
+ReturnFeesCustomerResponsibility = create_schema_org_model()
+
+
+def create_returnfeescustomerresponsibility_model(
+    model: Union[
+        ReturnFeesCustomerResponsibilityProperties,
+        ReturnFeesCustomerResponsibilityInheritedProperties,
+        ReturnFeesCustomerResponsibilityAllProperties,
+    ]
+):
+    _type = deepcopy(ReturnFeesCustomerResponsibilityAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(
+                f"{k} not part of ReturnFeesCustomerResponsibilityAllProperties"
+            )
+    delete_keys = []
+    for k in _type.__annotations__.keys():
+        if k not in model.__annotations__:
+            delete_keys.append(k)
+    for k in delete_keys:
+        del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: ReturnFeesCustomerResponsibilityAllProperties):
+    pydantic_type = create_returnfeescustomerresponsibility_model(model=model)
+    return pydantic_type(model).schema_json()

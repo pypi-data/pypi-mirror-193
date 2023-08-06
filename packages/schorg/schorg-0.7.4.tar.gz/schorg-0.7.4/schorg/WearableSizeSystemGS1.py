@@ -1,0 +1,93 @@
+"""
+GS1 (formerly NRF) size system for wearables.
+
+https://schema.org/WearableSizeSystemGS1
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class WearableSizeSystemGS1InheritedProperties(TypedDict):
+    """GS1 (formerly NRF) size system for wearables.
+
+    References:
+        https://schema.org/WearableSizeSystemGS1
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class WearableSizeSystemGS1Properties(TypedDict):
+    """GS1 (formerly NRF) size system for wearables.
+
+    References:
+        https://schema.org/WearableSizeSystemGS1
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class WearableSizeSystemGS1AllProperties(
+    WearableSizeSystemGS1InheritedProperties, WearableSizeSystemGS1Properties, TypedDict
+):
+    pass
+
+
+class WearableSizeSystemGS1BaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="WearableSizeSystemGS1", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        WearableSizeSystemGS1Properties,
+        WearableSizeSystemGS1InheritedProperties,
+        WearableSizeSystemGS1AllProperties,
+    ] = WearableSizeSystemGS1AllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "WearableSizeSystemGS1"
+    return model
+
+
+WearableSizeSystemGS1 = create_schema_org_model()
+
+
+def create_wearablesizesystemgs1_model(
+    model: Union[
+        WearableSizeSystemGS1Properties,
+        WearableSizeSystemGS1InheritedProperties,
+        WearableSizeSystemGS1AllProperties,
+    ]
+):
+    _type = deepcopy(WearableSizeSystemGS1AllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(f"{k} not part of WearableSizeSystemGS1AllProperties")
+    delete_keys = []
+    for k in _type.__annotations__.keys():
+        if k not in model.__annotations__:
+            delete_keys.append(k)
+    for k in delete_keys:
+        del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: WearableSizeSystemGS1AllProperties):
+    pydantic_type = create_wearablesizesystemgs1_model(model=model)
+    return pydantic_type(model).schema_json()

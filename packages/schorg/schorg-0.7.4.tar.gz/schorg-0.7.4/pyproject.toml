@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "schorg"
+version = "0.7.4"
+description = "Pydantic classes for Schema.org."
+authors = [
+    "Adam Ulring <adam.ulring1@gmail.com>"
+]
+license = "MIT"
+readme = "README.md"
+
+homepage = "https://github.com/aulring/schorg"
+repository = "https://github.com/aulring/schorg"
+documentation = "https://storage.googleapis.com/schorg-docs/index.html"
+
+keywords = ["schema.org", "pydantic", "schemaorg"]
+
+[tool.poetry.dependencies]
+pydantic = "^1.8.2"
+
+[tool.poetry.dev-dependencies]
+black = { version = "^21.11b1", python = "^3.8" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
