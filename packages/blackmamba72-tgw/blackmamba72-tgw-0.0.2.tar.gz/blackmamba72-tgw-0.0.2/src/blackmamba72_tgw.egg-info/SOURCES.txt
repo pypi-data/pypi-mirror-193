@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/blackmamba72_tgw/__init__.py
+src/blackmamba72_tgw/py.typed
+src/blackmamba72_tgw.egg-info/PKG-INFO
+src/blackmamba72_tgw.egg-info/SOURCES.txt
+src/blackmamba72_tgw.egg-info/dependency_links.txt
+src/blackmamba72_tgw.egg-info/requires.txt
+src/blackmamba72_tgw.egg-info/top_level.txt
+src/blackmamba72_tgw/_jsii/__init__.py
+src/blackmamba72_tgw/_jsii/blackmamba72-tgw@0.0.2.jsii.tgz
