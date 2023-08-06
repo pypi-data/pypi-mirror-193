@@ -1,0 +1,43 @@
+# pytorch-helper
+
+Supported layers
+
+<pre>
+import pytorch_helper
+
+pytorch_helper.layers.DictToParameters
+pytorch_helper.layers.DotProduct
+pytorch_helper.layers.GRULastHiddenState
+pytorch_helper.layers.HiddenStateResetGRU
+pytorch_helper.layers.HiddenStateResetLSTM
+pytorch_helper.layers.HiddenStateResetRNN
+pytorch_helper.layers.LazilyInitializedLinear
+pytorch_helper.layers.LSTMLastHiddenState
+pytorch_helper.layers.Reshape
+pytorch_helper.layers.RNNLastHiddenState
+pytorch_helper.layers.SelectFromArray
+</pre>
+
+Supported utils
+
+<pre>
+import pytorch_helper
+
+text = ''
+pytorch_helper.utils.clean_english(text)
+pytorch_helper.utils.clean_korean(text)
+</pre>
+
+<pre>
+import pytorch_helper
+
+from sklearn.preprocessing import MinMaxScaler
+transformer = MinMaxScaler()
+transformer.fit(train_df[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']].to_numpy())
+train_np_array = transformer.transform(validation_df[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']].to_numpy())
+train_x, train_label = pytorch_helper.utils.slice_time_series_data_from_np_array(train_np_array, x_column_indexes=[0, 1, 2, 3, 4, 5], label_column_indexes=[3], sequence_length=7)
+#print(train_x.shape) #(973, 7, 6)
+#print(train_labels.shape) #(973, 1)
+#print(validation_x.shape) #(238, 7, 6)
+#print(validation_labels.shape) #(238, 1)
+</pre>
