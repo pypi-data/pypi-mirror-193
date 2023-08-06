@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=1I7DrLpV0NmXA-QpbDC6yALSH1PzbASgiCE74_VobXw,630
+tencentcloud/youmall/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/youmall/v20180228/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/youmall/v20180228/errorcodes.py,sha256=lSeUEPC2qZly_RDs8nyWbvsqYfQVA35y8jPoTo5bdx0,2828
+tencentcloud/youmall/v20180228/models.py,sha256=P-P_yeJVu2bf5lM8GADIDvVrKyPv16n7FyX_Gv78lMk,111813
+tencentcloud/youmall/v20180228/youmall_client.py,sha256=v-OXYWKEZscj4QTfSvUtNeosb49ar1BimY7FPE0q7yI,31393
+tencentcloud_sdk_python_youmall-3.0.835.dist-info/METADATA,sha256=A50hE3V5y5HF9qO7fC1XHGl72OhEfYmI8biNV1KlUhI,1452
+tencentcloud_sdk_python_youmall-3.0.835.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_youmall-3.0.835.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_youmall-3.0.835.dist-info/RECORD,,
