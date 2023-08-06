@@ -1,0 +1,9 @@
+id: PyOperator
+uri: file://./operator.py
+inputs:
+  - id: Data
+    type: usize
+outputs:
+  - id: Data
+    type: usize
+tags: []

@@ -1,0 +1,6 @@
+id: PySource
+uri: file://./source.py
+outputs:
+  - id: Value
+    type: usize
+tags: []

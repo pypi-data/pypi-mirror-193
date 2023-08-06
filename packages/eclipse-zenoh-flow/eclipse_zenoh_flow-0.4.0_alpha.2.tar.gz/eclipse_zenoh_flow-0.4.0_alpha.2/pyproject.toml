@@ -1,0 +1,45 @@
+#
+#
+# Copyright (c) 2022 ZettaScale Technology
+#
+# This program and the accompanying materials are made available under the
+# terms of the Eclipse Public License 2.0 which is available at
+# http://www.eclipse.org/legal/epl-2.0, or the Apache License, Version 2.0
+# which is available at https://www.apache.org/licenses/LICENSE-2.0.
+#
+# SPDX-License-Identifier: EPL-2.0 OR Apache-2.0
+#
+# Contributors:
+#   ZettaScale Zenoh Team, <zenoh@zettascale.tech>
+#
+#
+
+[build-system]
+requires = ["maturin>=0.12,<0.13"]
+build-backend = "maturin"
+
+[project]
+name = "eclipse-zenoh-flow"
+description = "The python API for Eclipse Zenoh Flow"
+requires-python = ">=3.7"
+author = "ZettaScale Zenoh team"
+author_email = "zenoh@zettascale.tech"
+classifiers = [
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Intended Audience :: Developers",
+        "Development Status :: 3 - Alpha",
+        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)",
+        "Operating System :: POSIX :: Linux",
+        "Operating System :: MacOS :: MacOS X",
+]
+zip_safe = false
+
+[project.urls]
+"Bug Tracker" = "https://github.com/ZettaScaleLabs/zenoh-flow-python/issues"
+"Source Code" = "https://github.com/ZettaScaleLabs/zenoh-flow-python"
+"Documentation" = "https://readthedocs.org/projects/zenoh-flow/"
