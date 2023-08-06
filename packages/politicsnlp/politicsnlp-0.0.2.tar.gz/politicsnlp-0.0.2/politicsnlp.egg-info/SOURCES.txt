@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+politicsnlp/__init__.py
+politicsnlp/confucianism.py
+politicsnlp/democracy.py
+politicsnlp/freedom.py
+politicsnlp/idealstate.py
+politicsnlp/people_democracy.py
+politicsnlp/person.py
+politicsnlp.egg-info/PKG-INFO
+politicsnlp.egg-info/SOURCES.txt
+politicsnlp.egg-info/dependency_links.txt
+politicsnlp.egg-info/top_level.txt
