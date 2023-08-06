@@ -1,0 +1,7 @@
+setup.py
+src/examples/__init__.py
+src/examples/options.py
+src/testtghproj.egg-info/PKG-INFO
+src/testtghproj.egg-info/SOURCES.txt
+src/testtghproj.egg-info/dependency_links.txt
+src/testtghproj.egg-info/top_level.txt
