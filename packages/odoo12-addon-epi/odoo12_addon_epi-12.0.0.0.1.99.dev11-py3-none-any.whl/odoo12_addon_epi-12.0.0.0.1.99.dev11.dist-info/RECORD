@@ -1,0 +1,11 @@
+odoo/addons/epi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/epi/__manifest__.py,sha256=-YW2erV6iK8ZGv_NLVAizwpxHha9mmcANDtw7L_i6_U,477
+odoo/addons/epi/i18n/ca_ES.po,sha256=duiBgWt6xq_JgV6aVAWcDOk_47_td1KG2SX9BFOjgfE,5856
+odoo/addons/epi/i18n/es.po,sha256=VUUdKyKfO8NCVRkf72v6koXtm9XJporSKsX8TQb98ew,5845
+odoo/addons/epi/views/report_invoice.xml,sha256=V_75aI4OREtRIuqY0NYdMjAutzBDBRzpb4vyc9pB2WQ,9195
+odoo/addons/epi/views/report_templates.xml,sha256=9vb1FQjbYJ0ogQfSc0AkT6sMw5bU1HZKtGDF--gZUJU,1388
+odoo/addons/epi/views/sale_report_templates.xml,sha256=P4GV-RwNWCuicAcJyxRbbMmCd_7c6jcRpoThUP-6pgA,10036
+odoo12_addon_epi-12.0.0.0.1.99.dev11.dist-info/METADATA,sha256=S7uZkYgVE_yI1y3Fqa6L-WZSwd14jzf4hXXbMGpbO1g,479
+odoo12_addon_epi-12.0.0.0.1.99.dev11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo12_addon_epi-12.0.0.0.1.99.dev11.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_epi-12.0.0.0.1.99.dev11.dist-info/RECORD,,
