@@ -1,0 +1,9 @@
+README.md
+setup.py
+elegantt/__init__.py
+elegantt/elegantt.py
+elegantt.egg-info/PKG-INFO
+elegantt.egg-info/SOURCES.txt
+elegantt.egg-info/dependency_links.txt
+elegantt.egg-info/requires.txt
+elegantt.egg-info/top_level.txt

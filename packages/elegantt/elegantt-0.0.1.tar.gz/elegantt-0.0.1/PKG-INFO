@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: elegantt
+Version: 0.0.1
+Summary: This is a gantt chart drawing library
+Home-page: http://github.com/usop4/elegantt
+License: UNKNOWN
+Description: # elegantt
+        
+        ## Overview
+        
+        elegantt is gantt chart drawing library.
+        
+        ## Usage
+        
+        ```
+        gchart = elegantt.EleGantt( (720, 320),(255,255,255),today="2019-10-15")
+        gchart.set_font('ipaexg/ipaexg.ttf')
+        gchart.draw_calendar()
+        gchart.draw_campain("2019-10-15","2019-10-18","こんにちは")
+        gchart.draw_campain("2019-10-20","2019-10-23","こんにちは")
+        gchart.draw_campain("2019-10-24","2019-10-30","こんにちは")
+        gchart.save("test_basic_1.png")
+        ```
+        
+        # Lisence
+        
+        This project is licensed under the MIT License, see the LICENSE.txt file for details
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
