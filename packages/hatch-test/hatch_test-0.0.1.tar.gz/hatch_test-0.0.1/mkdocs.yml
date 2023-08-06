@@ -1,0 +1,6 @@
+site_name: 'Investing.com Technologies Docs'
+site_author: 'Bs'
+
+theme:
+  name: 'mkdocs'
+  language: 'en'
