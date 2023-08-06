@@ -1,0 +1,1959 @@
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183504'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: R4-Sam
+  url: https://n313.meraki.com/o/ptyaid5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184109'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Devnet-GroupAlpha
+  url: https://n313.meraki.com/o/EOKxfc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183396'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: KFC
+  url: https://n313.meraki.com/o/fEM06d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183894'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Bakwas
+  url: https://n313.meraki.com/o/GuoNWd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183620'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Foresightbob
+  url: https://n313.meraki.com/o/0-xfCa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183262'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Timisoara
+  url: https://n313.meraki.com/o/yFifib5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183354'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Testing123
+  url: https://n313.meraki.com/o/x-L8jc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184112'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Devnet-GroupBeta
+  url: https://n313.meraki.com/o/pEaeHd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183257'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: Meraki_K
+  url: https://n313.meraki.com/o/coiqQb5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184307'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: DaisyLeeTest
+  url: https://n313.meraki.com/o/97UULb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184111'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Devnet-GroupBeta
+  url: https://n313.meraki.com/o/htAL3a5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184574'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Artemis Organization
+  url: https://n313.meraki.com/o/ahcGld5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184577'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Artemis Organization
+  url: https://n313.meraki.com/o/wM8lld5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183778'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: ducTran
+  url: https://n313.meraki.com/o/3LuZ1a5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183333'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: DevNet Sandbox2
+  url: https://n313.meraki.com/o/IgKItc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090633'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: PNCE Sandbox 01
+  url: https://n149.meraki.com/o/xhrYOavc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '959854'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: Devnet-VM
+  url: https://n313.meraki.com/o/Aelgwd/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184115'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Diego-Test2
+  url: https://n313.meraki.com/o/NUlu2d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183647'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MB-Sandbox
+  url: https://n313.meraki.com/o/6q8Gvc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183516'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Test_ked
+  url: https://n313.meraki.com/o/7sWEla5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183661'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: NB
+  url: https://n313.meraki.com/o/68zryc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184136'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Lab_ECMS_PREP
+  url: https://n313.meraki.com/o/IBw0_d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183388'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: NTT LAB (US)
+  url: https://n313.meraki.com/o/1hDc-d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184121'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Devnet-GroupGamma2
+  url: https://n313.meraki.com/o/vUygud5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183615'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: NorbertTest
+  url: https://n313.meraki.com/o/EK3Toa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184492'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: anv
+  url: https://n313.meraki.com/o/KbffDa5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090432'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: IRI-BT-ORG
+  url: https://n149.meraki.com/o/mLVx_cvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090616'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Co-management test CW
+  url: https://n149.meraki.com/o/UO_Kvavc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Europe
+  id: '1030307'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Devnet-GroupDelta
+  url: https://n201.meraki.com/o/fle9Ub/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '1055430'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: WARRAQ
+  url: https://n109.meraki.com/o/Mgjx2c/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '1057293'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: meraki_test_reston
+  url: https://n109.meraki.com/o/97hh3c/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '1062199'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: 'OPLK '
+  url: https://n385.meraki.com/o/Svs4xa/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '624311498344236932'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: ericrod2
+  url: https://n109.meraki.com/o/uz0IlaTb/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184053'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Nomios-NTA
+  url: https://n313.meraki.com/o/Ul-zzc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183874'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: Xmzx
+  url: https://n313.meraki.com/o/6ikmgc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481089956'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Sam_Test
+  url: https://n149.meraki.com/o/eJXnFcvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090058'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: RD networks
+  url: https://n149.meraki.com/o/VhzFrbvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090062'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Meraki-J
+  url: https://n149.meraki.com/o/dimMtbvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090077'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: CZ-TB-Test
+  url: https://n149.meraki.com/o/MoEANavc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090100'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: mh_test
+  url: https://n149.meraki.com/o/cSTuAdvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090148'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: greger
+  url: https://n149.meraki.com/o/TMG4Idvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090153'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: 'Sandbox Test '
+  url: https://n149.meraki.com/o/UkKd_dvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090182'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: GERIS
+  url: https://n149.meraki.com/o/Gonhudvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090195'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: TestFel
+  url: https://n149.meraki.com/o/HCQPjdvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090232'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Osho_branch
+  url: https://n149.meraki.com/o/GAvTwdvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090242'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Grossetofficet
+  url: https://n149.meraki.com/o/fY9mAavc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090243'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: GTECH-ORG
+  url: https://n149.meraki.com/o/0DU21dvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090303'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: EWO
+  url: https://n149.meraki.com/o/4T-Hwavc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090305'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: SummerOrg
+  url: https://n149.meraki.com/o/rb1g_cvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090306'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: WinterOrg
+  url: https://n149.meraki.com/o/V0GUacvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090341'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: 'SCCTest '
+  url: https://n149.meraki.com/o/sLAe_bvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090413'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: APItest
+  url: https://n149.meraki.com/o/t3CJFavc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090419'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: devnetcoen
+  url: https://n149.meraki.com/o/kV4Obcvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090420'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: devnetmeraki@cisco.com
+  url: https://n149.meraki.com/o/A1tTCavc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090424'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: api_test
+  url: https://n149.meraki.com/o/-O4aCbvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090483'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: elieorg
+  url: https://n149.meraki.com/o/PYiu_cvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090488'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: preetan
+  url: https://n149.meraki.com/o/hCCh8cvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090489'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: preetan
+  url: https://n149.meraki.com/o/khoMedvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090490'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: preetan
+  url: https://n149.meraki.com/o/imn9ndvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090537'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: DomsOrg
+  url: https://n149.meraki.com/o/oYfe8avc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090548'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: My organization
+  url: https://n149.meraki.com/o/OxszJbvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090550'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MYORG
+  url: https://n149.meraki.com/o/fspUadvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090598'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Matheus
+  url: https://n149.meraki.com/o/Cr2ducvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090599'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Matheus-ORG
+  url: https://n149.meraki.com/o/R330Icvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090615'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: TestCW
+  url: https://n149.meraki.com/o/p0xLobvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090621'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: TTD
+  url: https://n149.meraki.com/o/4mtasavc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090886'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Artemis Organization
+  url: https://n149.meraki.com/o/M2ttHcvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090887'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: ericrod2_v2
+  url: https://n149.meraki.com/o/_vPDMavc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184055'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: RoumiKasparrovka
+  url: https://n313.meraki.com/o/NjzS2b5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183824'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Hello
+  url: https://n313.meraki.com/o/ElTMbc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183345'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: HELLO_API
+  url: https://n313.meraki.com/o/3e5zsd5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183770'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Stest
+  url: https://n313.meraki.com/o/dEmQod5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183875'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Magnet Masters
+  url: https://n313.meraki.com/o/BQyfrb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183178'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: lukas
+  url: https://n313.meraki.com/o/t1p79d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481089711'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: IPA
+  url: https://n149.meraki.com/o/mpwmFbvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183042'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: PAOK
+  url: https://n313.meraki.com/o/U_yS5a5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090891'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: JoeBurrowFanClub
+  url: https://n149.meraki.com/o/EPsgdcvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184127'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Git-GroupOmicron2
+  url: https://n313.meraki.com/o/gW-wBb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183030'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: sampleNet
+  url: https://n313.meraki.com/o/r14BKa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183605'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Chungus
+  url: https://n313.meraki.com/o/2d0AFc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183608'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Richard
+  url: https://n313.meraki.com/o/gtRY0c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184202'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Staging_Net
+  url: https://n313.meraki.com/o/uo115c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184064'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MyOrganizacionCuscoPeru
+  url: https://n313.meraki.com/o/NJPZNd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184203'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Staging_Net
+  url: https://n313.meraki.com/o/fKBA8c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184573'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Artemis Organization
+  url: https://n313.meraki.com/o/yAWPGb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183325'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Dxb_silicoon
+  url: https://n313.meraki.com/o/eDIvSc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184110'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Devnet-GroupBeta
+  url: https://n313.meraki.com/o/xqo51d5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184442'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: CB Test
+  url: https://n313.meraki.com/o/gFhutc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184137'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: RoadRunner
+  url: https://n313.meraki.com/o/KZzTBd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842182989'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Panenka Systems
+  url: https://n313.meraki.com/o/jg-D5d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184578'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Artemis Organization
+  url: https://n313.meraki.com/o/g4B0Kb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183562'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: XORGX
+  url: https://n313.meraki.com/o/KCyR1a5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183617'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: TestSD
+  url: https://n313.meraki.com/o/fzk8Gd5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184253'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Bodayngo
+  url: https://n313.meraki.com/o/f_RFnb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183131'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: My_ORG
+  url: https://n313.meraki.com/o/Or-1Hb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184114'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Diego-Test
+  url: https://n313.meraki.com/o/UPaDBd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183268'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MSP - Client A
+  url: https://n313.meraki.com/o/6SsW2d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184576'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Artemis Organization
+  url: https://n313.meraki.com/o/h8774d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184245'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: NCH_TEST
+  url: https://n313.meraki.com/o/3u_mOd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183506'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: SeaLab2020
+  url: https://n313.meraki.com/o/iZWXXb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183144'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Charles Uneze Organization
+  url: https://n313.meraki.com/o/4JHvcd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183281'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: my_new_test_meraki_org
+  url: https://n313.meraki.com/o/6mmsbb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184118'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Diego-Test3
+  url: https://n313.meraki.com/o/lb-4kc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090277'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Cargill_lab
+  url: https://n149.meraki.com/o/1DPMMcvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184265'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MuthanaAPITest
+  url: https://n313.meraki.com/o/wP2i4c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090304'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Meraki_Ansible_Test
+  url: https://n149.meraki.com/o/sVhqXcvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090261'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: SavTestOrganization
+  url: https://n149.meraki.com/o/NxnxPcvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090437'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: BlueApple
+  url: https://n149.meraki.com/o/qzHpmavc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090622'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: TTD_NETWORK
+  url: https://n149.meraki.com/o/IMt2tcvc/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: North America
+  id: '646829496481090625'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: TronsGreen
+  url: https://n149.meraki.com/o/kf2bibvc/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: North America
+  id: '549236'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: DevNet Sandbox
+  url: https://n149.meraki.com/o/-t35Mb/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184201'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: DevNet Sandbox
+  url: https://n313.meraki.com/o/CBIG0c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184348'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: FT4_DallasWest
+  url: https://n313.meraki.com/o/SjP3Kd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184715'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: WSDOG
+  url: https://n313.meraki.com/o/6-Xsac5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183771'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: SuperNova
+  url: https://n313.meraki.com/o/CSUSjc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183142'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: KB
+  url: https://n313.meraki.com/o/aS4jvc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184255'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: My test organization
+  url: https://n313.meraki.com/o/G0s96d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184256'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Phantom Technologies
+  url: https://n313.meraki.com/o/TVoE7d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184323'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: VM_TDS_LAB
+  url: https://n313.meraki.com/o/KsHufb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183222'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: XYZ
+  url: https://n313.meraki.com/o/J-9OId5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183259'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: FiveFold-Org
+  url: https://n313.meraki.com/o/Iz4zbb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184015'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: tomtest
+  url: https://n313.meraki.com/o/TU0u3c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183353'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: ENAUTO
+  url: https://n313.meraki.com/o/_HsfHc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183777'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: ducTran
+  url: https://n313.meraki.com/o/Qq3Hdc5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184177'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: DG
+  url: https://n313.meraki.com/o/lpnDhd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183652'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: mc25
+  url: https://n313.meraki.com/o/E5fx3c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183560'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: DunderMifflin
+  url: https://n313.meraki.com/o/Vnr1ob5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183267'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Nath_Meraki
+  url: https://n313.meraki.com/o/O2uFwc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184122'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Devnet-GroupGamma
+  url: https://n313.meraki.com/o/F-qNrb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183338'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MaxOrganization
+  url: https://n313.meraki.com/o/bMtRGd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183649'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: DevNetSandbox-J
+  url: https://n313.meraki.com/o/vup0qa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183237'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Test_M_Org
+  url: https://n313.meraki.com/o/t7F-md5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183561'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: DunderMifflinX
+  url: https://n313.meraki.com/o/nTt5Qc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183386'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: NTT LAB (EU)
+  url: https://n313.meraki.com/o/Ln2VTc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842182990'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: My Enauto Org
+  url: https://n313.meraki.com/o/k6FBjc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184571'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: HLT-XX-WAN-XXXX-NA-XX
+  url: https://n313.meraki.com/o/SG9Rqd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183041'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Cali Unified
+  url: https://n313.meraki.com/o/o0Tqbc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183233'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: test01
+  url: https://n313.meraki.com/o/WjT2za5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183346'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: HELLO_API
+  url: https://n313.meraki.com/o/5TRipb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183264'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: SOCORP
+  url: https://n313.meraki.com/o/Ya2x7b5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184116'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: Diego-Test3
+  url: https://n313.meraki.com/o/DtYqEd5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183911'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Niciu.com
+  url: https://n313.meraki.com/o/4Cla6d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184575'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Artemis Organization
+  url: https://n313.meraki.com/o/s_ydRa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183278'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: my_new_test_meraki_org
+  url: https://n313.meraki.com/o/VC9OFa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183109'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Second Test Organization
+  url: https://n313.meraki.com/o/nm4Hpa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183563'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: EMEAR ORG
+  url: https://n313.meraki.com/o/mmzmXa5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183876'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Magnetic Masters
+  url: https://n313.meraki.com/o/43fM1c5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183359'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: ZAAZA
+  url: https://n313.meraki.com/o/ga3Luc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184254'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: My test organization
+  url: https://n313.meraki.com/o/PdWQNc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183614'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Syrius_beta
+  samlConsumerUrl: https://n313.meraki.com/saml/login/Pv_R7c5e/0plavbHWhsLd
+  samlConsumerUrls:
+  - https://n313.meraki.com/saml/login/Pv_R7c5e/0plavbHWhsLd
+  url: https://n313.meraki.com/o/Pv_R7c5e/manage/organization/overview
+- api:
+    enabled: false
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184340'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MEZE
+  url: https://n313.meraki.com/o/NbM60d5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183519'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Prasad_testing
+  url: https://n313.meraki.com/o/daSNLd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184113'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: DevnetPrueba
+  url: https://n313.meraki.com/o/zuqwfc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183210'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: MYLAND_2021
+  url: https://n313.meraki.com/o/0ODNOb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183567'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: JMK Org Test
+  url: https://n313.meraki.com/o/tj6xsd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183275'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Ragab
+  url: https://n313.meraki.com/o/s78Gsd5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183112'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Org_1
+  url: https://n313.meraki.com/o/iE011b5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842182996'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: This is a test
+  url: https://n313.meraki.com/o/RqKCtb5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842182988'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: My Enauto Org
+  url: https://n313.meraki.com/o/qX2xRc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842184117'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: Diego-Test3
+  url: https://n313.meraki.com/o/FuRv1a5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183833'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: YAS-12345
+  url: https://n313.meraki.com/o/bPK6Lc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183873'
+  licensing:
+    model: per-device
+  management:
+    details: []
+  name: X_org
+  url: https://n313.meraki.com/o/Vehcmc5e/manage/organization/overview
+- api:
+    enabled: true
+  cloud:
+    region:
+      name: Asia
+  id: '739153288842183895'
+  licensing:
+    model: co-term
+  management:
+    details: []
+  name: CISCOMERAKI
+  url: https://n313.meraki.com/o/d1EkSa5e/manage/organization/overview
