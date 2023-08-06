@@ -1,0 +1,9 @@
+elifepubmed/__init__.py,sha256=eZ1bOun1DDVV0YLOBW4wj2FP1ajReLjbIrGmzN7ASBw,22
+elifepubmed/conf.py,sha256=XYmwh6eN8g-75zGOx3bgdNQ_0SvEL9Uj_2CNHTl0BYA,1445
+elifepubmed/generate.py,sha256=aC4q2wONApsHs95E5CFyflT2Sn4xvYzUARy-R40z5AM,33975
+elifepubmed/utils.py,sha256=KCXDieRojJh3q8beEsBDjH32PyAvJw3fIf5tk_tSMXU,7991
+elifepubmed-0.5.1.dist-info/LICENSE,sha256=tVf-s04sTJPXmlI9jPJVOZjNf_B18eIIh71p11oNfNs,1071
+elifepubmed-0.5.1.dist-info/METADATA,sha256=onx9WwZmaauJhlZzEAdLa_FHG4Pjo-Fdfq_pjyr9kWg,4220
+elifepubmed-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+elifepubmed-0.5.1.dist-info/top_level.txt,sha256=8zi75Tama1NPfVv2TARd-0jodeWuHYPvS9OcxK7_SCk,12
+elifepubmed-0.5.1.dist-info/RECORD,,
