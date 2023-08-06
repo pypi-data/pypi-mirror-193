@@ -1,0 +1,2 @@
+[datasette]
+codespaces = datasette_codespaces
