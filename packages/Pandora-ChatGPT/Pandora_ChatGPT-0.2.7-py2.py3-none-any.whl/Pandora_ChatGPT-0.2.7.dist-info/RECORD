@@ -1,0 +1,15 @@
+pandora/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pandora/__main__.py,sha256=HGCqURuiS3H6itQ_qbD61zQSFZiO_60bULD6Y_D849U,101
+pandora/launcher.py,sha256=uPr1GpYSXfbLX8qlk_i5eNahJvMiCMdJsagn4U6UMME,3847
+pandora/bots/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pandora/bots/legacy.py,sha256=bA3FzfiFAmAxk6JA9P0gDvpE7xcIbesfcCWAnYUt19c,11267
+pandora/openai/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pandora/openai/api.py,sha256=Pho1Y5OQlGvyGPbhlIdLiyVoB0-_GGojMM_mP1WdBoo,5999
+pandora/openai/auth.py,sha256=ti1_4-EQATaCEktGDkLK5yZC6wByf0iEi_7jcuBt9Pc,5760
+pandora/openai/utils.py,sha256=p3i3tTPIwM_ioMeeifbkZjYNRu6aeFENHDfeacv2_5g,3318
+Pandora_ChatGPT-0.2.7.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+Pandora_ChatGPT-0.2.7.dist-info/METADATA,sha256=69JD4Vrzsp7Gey8pwTMTN6Y_a30ohMzb_yZ7-WxHMgU,4471
+Pandora_ChatGPT-0.2.7.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+Pandora_ChatGPT-0.2.7.dist-info/entry_points.txt,sha256=LTrO-AzYy9lAtvYeno-_j0pyB0leH548Zt22YoJiKxo,49
+Pandora_ChatGPT-0.2.7.dist-info/top_level.txt,sha256=OJ1l6RROnH_xa5ej6IY-ilwc1xhTF_olI2oVN-1UDWM,8
+Pandora_ChatGPT-0.2.7.dist-info/RECORD,,
