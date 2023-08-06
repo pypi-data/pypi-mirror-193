@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tonkin
+Version: 0.0.2
+Summary: A library for reading from EcoCAL data files.
+Home-page: https://github.com/HWRacing/tonkin
+Author: Hamish Knox
+Author-email: hrjkknox@gmail.com
+Project-URL: Bug Tracker, https://github.com/HWRacing/tonkin/issues
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tonkin
+
+Tonkin is a library for reading EcoCAL data files.
