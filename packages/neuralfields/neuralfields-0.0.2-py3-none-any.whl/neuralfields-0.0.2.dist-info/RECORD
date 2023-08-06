@@ -1,0 +1,12 @@
+README.md,sha256=Bpe78gJMsvqL7fM7KAaL5mpITMwy-i6YLrO4txz3mPA,5344
+neuralfields/__init__.py,sha256=kE-ED9rEt7KF7XLUka3U-2NJbBxOUoxYLJyv3rC2axw,1154
+neuralfields/custom_layers.py,sha256=XvO1YVLtzb3Z-U4CD4IS8GHozNqRsuFXC6StO0ohnPE,10319
+neuralfields/custom_types.py,sha256=JK0DYSPEp7t4Hsr51ry6avUvf3evbKn1-wOdC4eyxRA,280
+neuralfields/neural_fields.py,sha256=tkOIkDPk__WNgDMz7WatFWDrdmzjDnurL7J7ZTMikQ4,11134
+neuralfields/potential_based.py,sha256=GWugp8KytXDNgZBXAOrOL_VycAzo8xbtBaX-aSidc9E,12368
+neuralfields/simple_neural_fields.py,sha256=RKFZ4iU6sx8EGYR07QrrBAChBeq5NlDWjUAjXl_PV54,18519
+pyproject.toml,sha256=dahenuGwjaVx7WZLixd7QxUV01XE8SvO6aCUg66ohqQ,10637
+neuralfields-0.0.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+neuralfields-0.0.2.dist-info/LICENSE.txt,sha256=gL6LazJQP2t_BfU3AGiYztVUEvK_h9gDXQ0SSDaasYE,1071
+neuralfields-0.0.2.dist-info/METADATA,sha256=aU5HOhdwj0uABCXxC10bxXT955o7sySVCcTtpEQeas4,6489
+neuralfields-0.0.2.dist-info/RECORD,,
