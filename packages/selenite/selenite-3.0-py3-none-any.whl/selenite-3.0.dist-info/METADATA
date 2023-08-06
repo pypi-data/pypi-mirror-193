@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: selenite
+Version: 3.0
+Summary: A Python package for Selenium&Api testing.
+Author: gu xin
+Author-email: g_xin@outlook.com
+License: MIT
+Keywords: selenium&api testing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <3.11
+License-File: LICENSE
+Requires-Dist: selenium (==4.8.0)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: urllib3 (==1.26.14)
+Requires-Dist: pytest (==7.2.1)
+Requires-Dist: pytest-html (==3.2.0)
+Requires-Dist: pytest-ordering (==0.6)
+Requires-Dist: pytest-rerunfailures (==11.1)
+Requires-Dist: pytest-xdist (==3.2.0)
+Requires-Dist: allure-pytest (==2.12.0)
+Requires-Dist: ddddocr (==1.4.7)
+Requires-Dist: Pillow (==9.4.0)
+Requires-Dist: loguru (==0.6.0)
+
