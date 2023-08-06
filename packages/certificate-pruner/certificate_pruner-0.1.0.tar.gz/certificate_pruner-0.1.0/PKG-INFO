@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: certificate_pruner
+Version: 0.1.0
+Summary: Prune SSL certificate from a Let's Encrypt JSON file
+Home-page: https://gitlab.com/leading-works/devops
+Author: Soriyath Straessle
+Author-email: soriyath@leading.works
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This script prunes a JSON file containing Let's Encrypt certificates. It removes one of the certificates and saves the pruned content to a new file.

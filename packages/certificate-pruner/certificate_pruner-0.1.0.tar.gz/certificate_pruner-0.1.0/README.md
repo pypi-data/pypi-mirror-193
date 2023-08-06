@@ -1,0 +1,76 @@
+# Certificate Pruner
+
+This script prunes a JSON file containing Let's Encrypt certificates. It removes one of the certificates
+and saves the pruned content to a new file.
+
+## Usage
+
+```bash
+usage: certificate_pruner.py [-h] -j JSON -r RESOLVER -o OUT
+
+Do one thing well.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -j JSON, --json JSON  the JSON file with the Let's Encrypt certificates
+  -r RESOLVER, --resolver RESOLVER
+                        the resolver for the certificates in the Let's Encrypt JSON file
+  -o OUT, --out OUT     the output file where to save the pruned content
+```
+
+## Prerequisites
+
+    Python 3
+
+## Installation
+
+This script does not require installation. Simply download the script and run it using Python 3.
+
+## Example
+
+```bash
+$ python3 certificate_pruner.py -j certificates.json -r my_resolver -o pruned.json
+
+The JSON files contains these certificates:
+
+0 - example.com;
+1 - example.org;
+
+Which certificate do you want to remove? 1
+Removing certificate for domain: example.org
+Pruned content saved to: pruned.json.
+
+Please do have a good day!
+
+```
+
+This command will load the certificates from certificates.json,<br>
+prompt the user to choose a certificate to remove,<br>
+remove it,<br>
+and save the result to pruned.json.
+
+## Dependencies
+
+This script requires Python 3 and the following modules:
+
+    argparse
+    json
+    copy
+    enum
+
+## Exit codes
+
+- `0`: success;
+- `1`: bad argument;
+- `2`: bad choice;
+- `3`: file error;
+- `4`: JSON error.
+
+## Contributions
+
+Contributions are always welcome! If you would like to contribute to this project, please submit a pull request.
+
+## License
+
+This script is licensed under the GPLv3 License.
+
