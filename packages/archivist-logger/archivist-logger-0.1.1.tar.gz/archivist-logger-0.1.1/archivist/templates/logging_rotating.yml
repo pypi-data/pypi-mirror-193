@@ -1,0 +1,25 @@
+version: 1
+formatters:
+  simple:
+    format: '%(asctime)s [%(levelname)s] %(name)s :: %(message)s'
+
+handlers:
+
+  console:
+    class: logging.StreamHandler
+    level: NOTSET
+    formatter: simple
+    stream: ext://sys.stdout
+
+  logfile:
+    class: logging.handlers.RotatingFileHandler
+    level: NOTSET
+    formatter: simple
+    filename: activity
+    maxBytes: 1048576 # 1MB
+    backupCount: 20
+    encoding: utf8
+
+root:
+  level: NOTSET
+  handlers: [console, logfile]

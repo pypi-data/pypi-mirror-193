@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+archivist/__init__.py
+archivist/definitions.py
+archivist/logger_builder.py
+archivist/templates/logging_console.yml
+archivist/templates/logging_rotating.yml
+archivist/templates/logging_scheduled.yml
+archivist_logger.egg-info/PKG-INFO
+archivist_logger.egg-info/SOURCES.txt
+archivist_logger.egg-info/dependency_links.txt
+archivist_logger.egg-info/requires.txt
+archivist_logger.egg-info/top_level.txt

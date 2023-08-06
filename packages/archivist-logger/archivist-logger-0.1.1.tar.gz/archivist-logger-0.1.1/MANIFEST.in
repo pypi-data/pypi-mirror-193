@@ -1,0 +1,2 @@
+include archivist/templates/*.yml
+include requirements.txt
