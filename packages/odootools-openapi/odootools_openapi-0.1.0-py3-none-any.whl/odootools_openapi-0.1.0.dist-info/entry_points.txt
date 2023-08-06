@@ -1,0 +1,2 @@
+[odootools.command.ext]
+gen = odootools_openapi.command:openapi
