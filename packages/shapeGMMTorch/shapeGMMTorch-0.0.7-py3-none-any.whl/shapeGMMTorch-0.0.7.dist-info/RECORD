@@ -1,0 +1,11 @@
+shapeGMMTorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shapeGMMTorch/scripts.py,sha256=UyeNgkIVJvMB97J_RVvO3f6lPo9HgQmFTiqWjVLpVJ4,4268
+shapeGMMTorch/torch_align.py,sha256=-pDdur3Q7TRn-slHE3Vp2i2Q2Cv0r6a9picGHMF8bpk,13496
+shapeGMMTorch/torch_kronecker_sgmm_lib.py,sha256=IfmXYGH1wGRSwI6kk0cxIubdyPDVDLPXU_F9au8PuHk,6200
+shapeGMMTorch/torch_sgmm.py,sha256=2FD6obtJPYWmfrCCRYecVPIDipggx7Cp-WKWd8hYQeY,17478
+shapeGMMTorch/torch_uniform_sgmm_lib.py,sha256=KHsypi6Nu7n6TwdgkmX7VzQDYkx_raXesRTy7wtYTVI,5648
+shapeGMMTorch-0.0.7.dist-info/LICENSE,sha256=wSDfloX5wowP-cYTg5gSGwtWK4IDJprRokjI8XkA5ps,1070
+shapeGMMTorch-0.0.7.dist-info/METADATA,sha256=-ahLalYrlzoJuD9nqu1zPOddLIK7I_02fY_hNpkguNI,5099
+shapeGMMTorch-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shapeGMMTorch-0.0.7.dist-info/top_level.txt,sha256=QMBanMDAtlaFMQHGXOVuUYdssWFENg7xBo8RXGMsd-M,14
+shapeGMMTorch-0.0.7.dist-info/RECORD,,
