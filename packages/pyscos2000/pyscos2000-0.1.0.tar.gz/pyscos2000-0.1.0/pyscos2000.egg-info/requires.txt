@@ -1,0 +1,5 @@
+
+[docs]
+sphinx
+numpydoc
+m2r2
