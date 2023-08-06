@@ -1,0 +1,13 @@
+lyricy/__init__.py,sha256=M04As-q-FMpKTsNvqFUUy8_mtSxTt4YMPnpQbxRZDi8,1847
+lyricy/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+lyricy/classes.py,sha256=PmKPdCP5kr79NUMZjF03fi0qzVxParRs0xwmyl3Oy28,170
+lyricy/cli.py,sha256=rwxVUX3YlM7cR7zZpncZ8wMxNCvxrNHcMvwvFTjck54,6408
+lyricy/providers.py,sha256=sdGjha_73tleT9VnzZ61Wm71tE9_zSkWPXm4_4LL5Cw,3101
+test/__init__.py,sha256=nuJeqWf8hfXq2UjfFaOs2ONpzpStupWrrl3yXjyFZkg,111
+test/test_lyricy.py,sha256=ukDPmiG1NQjkeDcG8NIFdSTflpxd0mvEO7MijpxqL-Y,1004
+lyricy-1.4.dist-info/LICENSE,sha256=4VOTn7OACRCaIG0_PGUbU_8zo4CSW9KKv7qFFUamBsg,1070
+lyricy-1.4.dist-info/METADATA,sha256=lXniIPgR6SMPvXnGvBhwEm7dLuC3wRq0fOkSYQrxd7c,9458
+lyricy-1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lyricy-1.4.dist-info/entry_points.txt,sha256=dBnJn_1K1-zMoQLV02sNeRu5Jhd1Ny072vRUqElJFmA,42
+lyricy-1.4.dist-info/top_level.txt,sha256=brkypWY-tolWqiEIwWv0WKXeyzI8ePKCV1V9l4zkyBg,12
+lyricy-1.4.dist-info/RECORD,,
