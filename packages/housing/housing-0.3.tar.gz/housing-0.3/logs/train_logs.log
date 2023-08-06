@@ -1,0 +1,11 @@
+INFO:root:Started
+INFO:root:Reading train and test data
+INFO:root:Pre-processing training data
+INFO:root:Storing processed training data at ../../data/processed
+INFO:root:Training linear regression
+INFO:root:Training decision tree
+INFO:root:Training random forest
+INFO:root:Preparing test data
+INFO:root:Storing processed test data at ../../data/processed
+INFO:root:Saved model pickle at ../../artifacts
+INFO:root:Finished

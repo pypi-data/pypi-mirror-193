@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: housing
+Version: 0.3
+Summary: Modelling housing data.
+Home-page: https://github.com/Ayush779/mle-training
+Author: Ayush Saxena
+Author-email: ayush.saxena@tigeranalytics.com
+Requires-Python: >=3.7, <4
+Provides-Extra: test

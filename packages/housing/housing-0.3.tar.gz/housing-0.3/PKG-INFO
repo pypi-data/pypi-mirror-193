@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: housing
+Version: 0.3
+Summary: Modelling Housing Price Prediction
+Project-URL: Homepage, https://github.com/Ayush779/mle-training
+Project-URL: Bug Tracker, https://github.com/Ayush779/mle-training/issues
+Author-email: Ayush Saxena <ayush.saxena@tigeranalytics.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Median housing value prediction
+
+The housing data can be downloaded from https://raw.githubusercontent.com/ageron/handson-ml/master/. The script has codes to download the data. We have modelled the median house value on given housing data. 
+
+The following techniques have been used: 
+
+ - Linear regression
+ - Decision Tree
+ - Random Forest
+
+## Steps performed
+ - We prepare and clean the data. We check and impute for missing values.
+ - Features are generated and the variables are checked for correlation.
+ - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
+ - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
+
+## To excute the script
+python < scriptname.py >

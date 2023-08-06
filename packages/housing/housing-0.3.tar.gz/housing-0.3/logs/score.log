@@ -1,0 +1,13 @@
+INFO:root:Started
+INFO:root:Reading processed data
+INFO:root:Loading model data from pickle files
+INFO:root:Testing Linear Regression
+INFO:root: Train RMSE = 68474.46303058461, Train MAE = 49338.99776721292
+INFO:root: Test RMSE = 66710.37824338199, Test MAE = 49117.949579042666
+INFO:root:Testing Decision Tree Regression
+INFO:root: Train RMSE = 0.0, Train MAE = 0.0
+INFO:root: Test RMSE = 66141.62094303512, Test MAE = 41906.99442829457
+INFO:root:Testing Random Forest Regression
+INFO:root: Train RMSE = 18771.535467003236, Train MAE = 12105.954842942507
+INFO:root: Test RMSE = 45613.625191833, Test MAE = 30656.992490310076
+INFO:root:Finished
