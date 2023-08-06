@@ -1,0 +1,13 @@
+gopm/__init__.py,sha256=ZTTjCeTL_WChNFN8inw07qw03EBLfWLNyiAIZr11FbI,923
+gopm/__main__.py,sha256=yc65-BSFqZ9Le_EpC3FWW_LaXpxbiBCklut_VUqwouY,66
+gopm/git.py,sha256=YPOgJwbp6Dq6xT7PQ8CH8drmMA2Vc2FuBegoBZkkRa0,990
+gopm/main.py,sha256=K3o7q04NIKKxIVUbQOF3jBjONSbQw4EqRh9uj029qH0,7082
+gopm/project.py,sha256=XnULZx-cKexaSik2o66_xiZVrCPEU8uFBrc2b1zOdRI,2963
+gopm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gopm/search/github.py,sha256=WVFXDvpJnIEfqt8TjfzxSd0SvmG0M-lUd0xCH4-n9mw,1032
+gopm/search/search_provider.py,sha256=2ZfGxV3_XAUkuS22FsLB7OOqNlVrd4EJvyanZuhfWek,1023
+gopm-3.1.0.dist-info/METADATA,sha256=8S_z7SW2-jgt_hpHpO5Quz8UAVWzYGkC5U3L_iFuvvQ,1539
+gopm-3.1.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+gopm-3.1.0.dist-info/entry_points.txt,sha256=UfYS6_HS6WOpWFNas1rdEhVL3EnEIjQYlLOmBlD9DgM,40
+gopm-3.1.0.dist-info/licenses/LICENSE,sha256=e54r_MWFfSIehKcd1OBQo0RSAEeVMJyMUg31Mr38RC8,1063
+gopm-3.1.0.dist-info/RECORD,,
