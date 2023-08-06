@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: Eitaabot
+Version: 1.0
+Summary: This is a powerful library for building self robots in Eitaa
+Home-page: https://github.com/mrsalari/eitaabot
+Author: mohammad saeed salari
+Author-email: salari601601@gmail.com
+Keywords: eita,eitaapy,tyrobot,pyeitaa,eitaa bot,eitaayar,library eitaa,eitaayar,eitaabot,eitaa-lib,bot,self bot,eitaa.ir,eitaa
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+    <br>
+        <img src="https://s2.uupload.ir/files/inshot_20230218_173605494_ss40.jpg" alt="Eitaabot" width="428">
+    <br>
+    <br>
+    <b>Eitaa Bot Library for Python</b>
+    <br>
+</p>
+
+## Install via pip
+```
+pip install Eitaabot
+```
+
+## Example
+Getting channel's information :
+```py
+from Eitaabot import Bot
+print(Bot.get_info("eitta")) # "eitta" is a channel id
+```
+
+Sending messages :
+```py
+from Eitaabot import Bot
+bot = Bot("your eitaayar.ir token")
+print(bot.send_message("chat id","message text",pin=True))
+```
+
+
+© 2023 Mohammad Saeed Salari
