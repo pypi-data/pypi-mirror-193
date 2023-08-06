@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cc-vn8899
+Version: 2.1.0
+Author: 
+Author-email: 
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# cc-vn8899
+
+
+
+## Requirement
+
+Python >=3.7
+
+## Installation
+
+```bash
+pip install cc-vn8899
+```
+
+## License
+
+MIT
