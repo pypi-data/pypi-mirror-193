@@ -1,0 +1,9 @@
+get_odoo_env/__init__.py,sha256=luITf9Wn6XvIJy9kccBUe12dzcl1z-HXjCgmcqU27oM,27
+get_odoo_env/get_odoo_env.py,sha256=flJLps8hPKOQbnLXV5tBpk7_ZHgdQG4ot9xRqir7ruY,1391
+olaunch/__init__.py,sha256=2T3Ehj6fpDHEip9cvhxWlicoQARsd0-cDAxSF4LY7j8,40
+olaunch/get_odoo_env.py,sha256=03q-2KtT2YZjqMfdVLjCO9fPz4smUq6BpubSi4hxtfI,1498
+olaunch-0.6.1.data/scripts/run_odoo_code,sha256=zEv28qbvJ1466e7uUCLPJiVVIWDFJxbC1K27oC0jzF0,952
+olaunch-0.6.1.dist-info/METADATA,sha256=Ng_lqBul7-LaVPGKOqh66KWUUMeaTInV_yGuaVtOOCQ,422
+olaunch-0.6.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+olaunch-0.6.1.dist-info/top_level.txt,sha256=Xgq6DeK0YyvaAA8uQIuz6oONb69tNDDCXwuc0JBYrxw,8
+olaunch-0.6.1.dist-info/RECORD,,
