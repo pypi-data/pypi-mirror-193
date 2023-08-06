@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: DROPStomo
+Version: 0.0.3
+Summary: Wigner quantum state and process tomography
+Home-page: UNKNOWN
+Author: Amit Devra, Dennis Huber, Niklas J. Glaser, Steffen J. Glaser
+Author-email: <amit.devra@tum.de>
+License: UNKNOWN
+Keywords: python,quantum physics,quantum computing,quantum information processing,quantum tomography,quantum state tomography,quantum process tomography,Wigner tomography
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipython
+Requires-Dist: qiskit
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: plotly
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+Package for performing Wigner state and process tomography on a simulator or on a quantum hardware.
+
