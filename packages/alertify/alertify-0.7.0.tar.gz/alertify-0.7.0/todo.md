@@ -1,0 +1,3 @@
+- [ ] Finish & test Sendgrid integrations.
+- [ ] Finish & test Slack integrations.
+- [ ] Adjust `Opsgenie` and `Pageduty` details object.
