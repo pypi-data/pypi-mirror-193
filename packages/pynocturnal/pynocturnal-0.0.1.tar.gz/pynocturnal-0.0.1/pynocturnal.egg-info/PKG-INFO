@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pynocturnal
+Version: 0.0.1
+Summary: python package for lunar information
+Home-page: https://github.com/PyndyalaCoder/pynocturnal
+Author: Siddhu Pendyala
+Author-email: elcientifico.pendyala@hotmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/PyndyalaCoder/pynocturnal/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pynocturnal
+Pynocturnal is a python library for lunar information
+
+<br>
+<h1>Usage:</h1>:
+<br>
+
+```python
+
+    # create instance of myMoon
+    moon = myMoon()
+    
+    # functions
+    phase = moon.get_lunar_phase() # returns lunar phase
+    age = moon.get_lunar_age() # returns lunar age
+    percent = moon.get_lunar_age_percent() # returns percent of lunar age
+```
+    
+    
