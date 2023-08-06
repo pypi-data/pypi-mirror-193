@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: api-omie
+Version: 0.1.1
+Summary: Ferramenta para api do omie não oficial
+Home-page: UNKNOWN
+Author: Daniel Coêlho
+Author-email: heromon.9010@gmail.com
+License: MIT license
+Keywords: Api omie,omie,api do omie,omieapi
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# ApiOmie (NÃƒO OFICIAL)
+
+> este projeto nÃ£o te ligaÃ§Ã£o nenhuma com a omie
+
+# Use a documentaÃ§Ã£o oficial!
+
+## download
+
+``````shell
+$pip install omieapi
+``````
+
+## como usar 
+
+<p> Para usar basta chamar o metodo, 
+e passar os argumentos-chave que seram empacotados e transmitidos para api como no exemplo</p>
+
+``````python
+from omieapi import Omie
+
+meu_app = Omie('key#######', 'secreet######')
+
+r = meu_app.listar_produtos(
+    pagina=1
+)
+
+print(r)
+``````
+
+
