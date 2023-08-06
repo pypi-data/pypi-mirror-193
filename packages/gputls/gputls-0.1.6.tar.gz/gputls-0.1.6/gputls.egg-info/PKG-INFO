@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: gputls
+Version: 0.1.6
+Summary: A GPU algorithm for speeding up periodic transit detection
+Author-email: Quanquan Hu <huquanquan22@mails.ucas.ac.cn>
+Maintainer-email: Quanquan Hu <huquanquan22@mails.ucas.ac.cn>
+License: MIT License
+        
+        Copyright (c) 2023 Quanquan Hu
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Farthing-0/GTLS
+Project-URL: Source, https://github.com/Farthing-0/GTLS
+Keywords: astronomy,exoplanet,GPU
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GTLS (GPU Transit Least Squares)
+A GPU algorithm for speeding up periodic transit detection based on [TLS](https://github.com/hippke/tls).
+
+__This project is still under development. The results may not be accurate.__
+
+## Installation
+### Requirements
+A CUDA-capable GPU is required. For now, the GRAM of GPU should be 12GB or more. For the future, we will try our best to reduce the memory usage.
+
+### Install
+This program is based on cupy. Due to there are many versions of cupy, we cannot specify the version of cupy in the package.
+So, you need to install cupy manually first.
+ 
+Please refer to [the official document](https://docs.cupy.dev/en/stable/install.html#installing-cupy), and install the version of cupy that is suitable for your environment.
+
+After installing cupy, you can install this program by running the following command:
+```bash
+pip3 install gputls
+```
+
+## Usage
+```python
+#Assume that you have a time series data: time, flux
+from gtls import gtls
+model = gtls(time, flux)
+period, duration, depth, T0, SDE = model.power()
+```
+
+You can also use the test script in the repository:
+```bash
+python3 gtlsTest.py
+```
+
+For now, There are no detailed documents. Please refer to the [TLS](https://github.com/hippke/tls) first, since the usage of this program is almost the same as TLS.
+
+## License
+The GTLS(GPU Transit Least Squares) algorithm is adapted from the TLS(Transit Least Squares) algorithm by Michael Hippke & René Heller (2019).
+
+The TLS is an open source software with MIT license. The copyright of the TLS algorithm is held by its authors.
+
+The GTLS is also an open source software with MIT license.
