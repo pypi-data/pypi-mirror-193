@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+pytorch2jax/__init__.py
+pytorch2jax/pytorch2jax.py
+pytorch2jax.egg-info/PKG-INFO
+pytorch2jax.egg-info/SOURCES.txt
+pytorch2jax.egg-info/dependency_links.txt
+pytorch2jax.egg-info/requires.txt
+pytorch2jax.egg-info/top_level.txt
