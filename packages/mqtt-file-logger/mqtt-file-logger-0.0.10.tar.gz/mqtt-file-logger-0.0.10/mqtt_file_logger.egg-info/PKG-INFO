@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mqtt-file-logger
+Version: 0.0.10
+Summary: MQTT Logger
+Author: Shaif Azad
+Author-email: <saiforahi@gmail.com>
+Keywords: python,mqtt,iot,file logger
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to log IOT devices data on MQTT message received event

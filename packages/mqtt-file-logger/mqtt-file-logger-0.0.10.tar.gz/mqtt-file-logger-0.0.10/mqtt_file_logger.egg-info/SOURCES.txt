@@ -1,0 +1,8 @@
+README.md
+setup.py
+libname/FileMaster.py
+libname/__init__.py
+mqtt_file_logger.egg-info/PKG-INFO
+mqtt_file_logger.egg-info/SOURCES.txt
+mqtt_file_logger.egg-info/dependency_links.txt
+mqtt_file_logger.egg-info/top_level.txt
