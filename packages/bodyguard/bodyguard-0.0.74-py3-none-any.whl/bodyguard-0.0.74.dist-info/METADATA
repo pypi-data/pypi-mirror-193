@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: bodyguard
+Version: 0.0.74
+Summary: Heavy machinery for Python (tools, utilities, etc)
+Home-page: https://github.com/muhlbach/bodyguard
+Author: Nicolaj Søndergaard Mühlbach
+Author-email: n.muhlbach@gmail.com
+License: MIT License
+Keywords: utilities,tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: numbers
+Requires-Dist: re
+Requires-Dist: functools
+Requires-Dist: itertools
+Requires-Dist: collections
+Requires-Dist: typing
+Requires-Dist: datetime
+Requires-Dist: pickle
+Requires-Dist: json
+Requires-Dist: sklearn
+Provides-Extra: plot
+Requires-Dist: plotnine ; extra == 'plot'
+
+# Python bodyguard (bodyguard)
+Everyday tools for Python
+
