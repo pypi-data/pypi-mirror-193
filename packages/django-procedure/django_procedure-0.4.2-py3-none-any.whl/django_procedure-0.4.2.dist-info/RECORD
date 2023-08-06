@@ -1,0 +1,15 @@
+procedure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+procedure/decorators.py,sha256=gfyCc8xvkfKDfotj7_s5YeqpISvuu7TOoUeScip1ZVc,1563
+procedure/models.py,sha256=4-OQ4px2luHYDf2plXRYuGWN7sOc2agMgvc2zYIDbzo,3492
+procedure/migrations/0001_initial.py,sha256=t5bviV_KEbXhLPJAOJiaQQdFTsl8eprkgzkMl2JBu0s,851
+procedure/migrations/0002_procedure_executed_alter_procedure_parent.py,sha256=4F712AQEF9Rd-f5kcBEvFfTPZpi6QSebJ6z9OT1VQqw,665
+procedure/migrations/0003_procedure_logs.py,sha256=alBhJALAUCl_1kDxxHa6CSFO_RojdYOt4sdjrraULNU,408
+procedure/migrations/0004_alter_procedure_id.py,sha256=cOvk9CRLo_k8Qli9IhY6YJREf3yRvZ4IEkpq-fTUdvM,441
+procedure/migrations/0005_procedure_c_at_procedure_exception_procedure_level_and_more.py,sha256=Rfk0b-6nIXSnYuq2Y3Axme9nSfK9gMPPtC0-TcVFOMI,1233
+procedure/migrations/0006_alter_procedure_results.py,sha256=jxtOLsQiBK0Q_3fiWFEGfXDBg8yeL3TP0oL-5LUbkM4,429
+procedure/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_procedure-0.4.2.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+django_procedure-0.4.2.dist-info/METADATA,sha256=E83Wt_tE5rsd_VrGjwqZoBmwRGxmnMKL8gT8L5Scfzw,1238
+django_procedure-0.4.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_procedure-0.4.2.dist-info/top_level.txt,sha256=C1dlzAw2tuYPfyPWt6o3ijUXs8J2K5N47jUqPSHz2nY,10
+django_procedure-0.4.2.dist-info/RECORD,,
