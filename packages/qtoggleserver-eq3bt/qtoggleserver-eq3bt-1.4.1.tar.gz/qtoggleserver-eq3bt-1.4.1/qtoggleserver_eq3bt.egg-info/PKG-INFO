@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qtoggleserver-eq3bt
+Version: 1.4.1
+Summary: Eqiva eQ-3 bluetooth thermostat support for qToggleServer
+Author: Calin Crisan
+Author-email: ccrisan@gmail.com
+License: Apache 2.0
+License-File: LICENSE.txt
