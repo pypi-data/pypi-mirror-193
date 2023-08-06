@@ -1,0 +1,12 @@
+microdeploy/__init__.py,sha256=uD8ZoFdUwPsHOFPKTEw3UaTPRnEy2D5ypE3qhvqGULw,8031
+microdeploy/__main__.py,sha256=uHQo9esLhBnystB94vH4R-kP0ln698vFR-1E7nJJRQE,54
+microdeploy/cli.py,sha256=Y-pjIwh9Ve-xlCG2c0Q57T8n1vBFCnqJFiDCvRU09Xg,3674
+microdeploy/config.py,sha256=kbXO9UD4CgmToO56or171sfL5-U3u29jwWBzs3ExSZQ,4204
+microdeploy/device.py,sha256=uLrXq2iQAqClESfHUywctlHCnkOEEQEYfIbSUuxNgKE,12453
+microdeploy/package.py,sha256=R-Fc57-HJX0wwdx_BfOXPtm0t4wf1vK5h7Z2AogqQzo,2855
+microdeploy-0.0.1.dist-info/LICENSE,sha256=QNc7l9JV1srQECjm9bB3bzQ2pGIKeqiIpiuEsFgsfTg,1073
+microdeploy-0.0.1.dist-info/METADATA,sha256=gOskskMV6E84qqYKRtnvfiDnEINNKGEBpatiYDtRI3s,6239
+microdeploy-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+microdeploy-0.0.1.dist-info/entry_points.txt,sha256=4pVnSrW5yXFQw81wuGekwrJNivioGStCzjU6D0d1sh0,52
+microdeploy-0.0.1.dist-info/top_level.txt,sha256=dduNjVEnHkaE2dYQ6obpcX2y_Wna628a4IzNOvp3hOc,12
+microdeploy-0.0.1.dist-info/RECORD,,
