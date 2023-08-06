@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sarphase"
+version = "0.0.7"
+authors = [{name="Adolfo Molada Tebar", email="a.molada.tebar@gmail.com"}, {name="Josué Casado Rabasco", email="josuecasadorabasco@gmail.com"},]
+
+dependencies = [
+  "asf_search>=6.0.0",
+  "matplotlib>=3.3.4",
+  "numpy>=1.19.2", 
+  "termcolor>=1.1.0"]
+
+description = "SAR Product Processing Library"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = "~=3.6.0"
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Tidop Group" ="https://tidop.usal.es"
