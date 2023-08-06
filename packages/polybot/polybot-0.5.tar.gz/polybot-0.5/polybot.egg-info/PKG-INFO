@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: polybot
+Version: 0.5
+Summary: Multi bot library
+Home-page: https://github.com/russss/polybot
+Author: Russ Garrett
+Author-email: russ@garrett.co.uk
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
