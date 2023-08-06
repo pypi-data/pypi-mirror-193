@@ -1,0 +1,6 @@
+README.md
+setup.py
+spiritlong_excel_tool.egg-info/PKG-INFO
+spiritlong_excel_tool.egg-info/SOURCES.txt
+spiritlong_excel_tool.egg-info/dependency_links.txt
+spiritlong_excel_tool.egg-info/top_level.txt
