@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyfolio-tekton
+Version: 1.2.4
+Summary: PyFolio Tekton
+Author: Quantopian and Everton Mendes
+Author-email: emendes@tektonfinance.com
+
+# Pyfolio-Tekton
+
+Pyfolio-Tekton is a Python library for performance and risk analysis of
+financial portfolios, which is a fork of Pyfolio maintained by Tekton
+Ventures. It works well with the Zipline open source backtesting
+library.
+
+At the core of Pyfolio-Tekton is a so-called tear sheet that consists of
+various individual plots that provide a comprehensive performance
+overview of a portfolio.
+
+This package is designed to fix the error -
+`AttributeError: 'numpy.int64' object has no attribute 'to_pydatetime'`.
+
+To install Pyfolio-Tekton, you can use pip eg. pip install
+pyfolio-tekton
