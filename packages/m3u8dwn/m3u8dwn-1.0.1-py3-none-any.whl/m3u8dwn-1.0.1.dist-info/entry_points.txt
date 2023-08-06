@@ -1,0 +1,2 @@
+[console_scripts]
+m3u8dwn = m3u8dwn.boot:main
