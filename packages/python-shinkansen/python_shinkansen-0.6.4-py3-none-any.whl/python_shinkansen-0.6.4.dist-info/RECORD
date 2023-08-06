@@ -1,0 +1,8 @@
+shinkansen/__init__.py,sha256=WMmvm2Keb76yMz8OL_h4fKT34Xpi-1BVfCiTn2QGzz4,22
+shinkansen/common.py,sha256=hKvLEYv6RiAM1o2D6qfefiXffmR7Tb_8LX0019LzjqU,3904
+shinkansen/jws.py,sha256=WyXNcTFoIFe5z4IlL1Px25DnTnqc-_lMjJmUIEYEqlk,6478
+shinkansen/payouts.py,sha256=YkDTJwRokVG8VYCF04ua445MGz3npZQSmGfXa_7fHNk,10115
+shinkansen/responses.py,sha256=SVOZVngqvTZpvOYzaeo4JNQzwo1UC2Wbi1ZkmzZl1Qc,6693
+python_shinkansen-0.6.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+python_shinkansen-0.6.4.dist-info/METADATA,sha256=HgfZC7f4XS65Rp8P25wO7Y9aX92Dj1oE9Yv3miL0yoo,516
+python_shinkansen-0.6.4.dist-info/RECORD,,
