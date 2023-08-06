@@ -1,0 +1,10 @@
+zstandard-0.20.0.dist-info/RECORD,,
+zstandard-0.20.0.dist-info/LICENSE,sha256=eI_oXlNySkCymQUcSryc901Csn55aDJbgIkcJfea20s,1484
+zstandard-0.20.0.dist-info/WHEEL,sha256=I1bcPHHR6tn3lGqH6h9j_EhkVKjU_znt4i8IyWREJLE,109
+zstandard-0.20.0.dist-info/top_level.txt,sha256=J-wj94pPadY4ipFaanrYBlrMblOSegEYS8o_LdogrpU,10
+zstandard-0.20.0.dist-info/METADATA,sha256=JPZCUO9nBk9VA7f4UilqnFJvaL0n4P0lESOFDAD5R7c,2962
+zstandard/__init__.pyi,sha256=w7AmWAOu39_YMBFwHqZsJ1eIr6YrVkUq40sC4HPm8p4,13890
+zstandard/backend_c.cpython-38-darwin.so,sha256=RTlROF9jd4_kzNXlGOz0dOckawq0spKy_UeK99Fak7E,1054568
+zstandard/__init__.py,sha256=LU5ervfanvneqlzPgIncD078u6CDgEEtQCPErTDLyV4,7102
+zstandard/backend_cffi.py,sha256=nDdvVF6eAt84S4rSfPGd5ZAZb2xrAB0uRUFykDR4498,151371
+zstandard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
