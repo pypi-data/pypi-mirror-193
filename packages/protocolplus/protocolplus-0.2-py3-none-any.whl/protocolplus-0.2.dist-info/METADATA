@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: protocolplus
+Version: 0.2
+Summary: ASCII and Unicode Header Generator for Network Protocols
+Author-email: Luis MartinGarcia <luis@luismg.com>, Tom Pusateri <pusateri@bangj.com>
+Project-URL: Homepage, https://github.com/pusateri/protocolplus
+Project-URL: Bug Tracker, https://github.com/pusateri/protocolplus/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
