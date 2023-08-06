@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pytest-oar
+Version: 1.0.1
+Summary: PyTest plugin for the OAR testing framework
+Project-URL: Homepage, https://github.com/ryandem1/oar
+Project-URL: Bug Tracker, https://github.com/ryandem1/oar/issues
+Author-email: Ryan de Marigny <ryandemarigny@gmail.com>
+License-Expression: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=1.0.0
+Requires-Dist: pytest>=6.0.1
+Requires-Dist: requests>=2.0.0
+Requires-Dist: tomli>=2.0.0
+Description-Content-Type: text/markdown
+
+# OAR PyTest Plugin
+
+## Summary
+
+The OAR PyTest plugin allows for an intuitive declarative interface for OAR with configurations to connect to any 
+OAR instance.
