@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: delete-migrations
+Version: 1.0.0
+Summary: This is a command-line app that deletes a single folder migrations or all directory migrations folder
+Home-page: https://github.com/RooseveltTech/delete_migration
+Author: Abandy Roosevelt
+Author-email: Abandy Roosevelt <rooseveltabandy@gmail.com>
+Project-URL: Homepage, https://github.com/RooseveltTech/delete_migration
+Project-URL: Bug Tracker, https://github.com/RooseveltTech/delete_migration/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# `migrations_delete`
+
+The `migrations_delete` is a commandline app that deletes a single folder migrations or all directory migrations folder.
+
+# Installation
+## Using Pip
+```bash
+  $ pip install delete_migration
+```
+## Accessing the package on command line
+- [x] create a file "find.py" on the root directory of your project
+- [x] import the commandline app in the "find.py" file
+    ```bash
+    $ from delete_migration_roosevelt import management
+    ```
+- [x] save the "find.py"
+
+# Usage
+```bash
+$ python find.py
+```
+## get help
+`using the help command`
+```bash
+$ python find.py --help
+```
+`using the help command abbreviated`
+```bash
+$ python find.py -h
+```
+## all migrations folders
+`search and delete folders migrations`
+```bash
+$ python find.py --delete all
+```
+`search and delete folders migrations abbreviated`
+```bash
+$ python find.py -d all
+```
+## all single folder
+`search and delete single folder migrations`
+```bash
+$ python find.py --delete <name-of-folder>
+```
+`search and delete single folder migrations abbreviated`
+```bash
+$ python find.py -d <name-of-folder>
+```
+## all single folder
+`get the current version of the commandline library`
+```bash
+$ python find.py --version
+```
+`get the current version of the commandline library abbreviated`
+```bash
+$ python find.py -v
+```
