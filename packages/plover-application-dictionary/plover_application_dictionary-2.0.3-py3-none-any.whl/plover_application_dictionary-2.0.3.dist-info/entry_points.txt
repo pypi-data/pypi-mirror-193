@@ -1,0 +1,3 @@
+[plover.dictionary]
+ad = plover_application_dictionary:SingleApplicationDictionary
+mad = plover_application_dictionary:MultipleApplicationDictionary
