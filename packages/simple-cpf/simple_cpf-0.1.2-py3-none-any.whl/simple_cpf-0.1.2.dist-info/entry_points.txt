@@ -1,0 +1,3 @@
+[console_scripts]
+CPF=simple_cpf.simple_cpf:CPF
+
