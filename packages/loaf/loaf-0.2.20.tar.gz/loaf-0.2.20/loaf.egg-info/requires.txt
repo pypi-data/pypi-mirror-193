@@ -1,0 +1,5 @@
+pymysql
+datetime
+configparser
+cryptography
+psycopg2-binary
