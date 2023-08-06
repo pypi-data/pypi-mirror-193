@@ -1,0 +1,3 @@
+logilab-common>=1.6.0
+yapps2-logilab>=2.2.0
+setuptools
