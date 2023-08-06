@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: WingmanGPT
+Version: 1.0.3
+Summary: A chatbot that uses ChatGPT to help you find a date
+Author-email: Ben Schwartz <btschwartz12@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Baxter & Schwartz
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/btschwartz12/WingmanGPT
+Keywords: chatgpt,text,date
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: revChatGPT (>=2.3.0)
+
+# WingmanGPT
+
+## Overview
+WingmanGPT is a command-line tool that allows you to send text messages that are customly modified by ChatGPT and sent to a specified number. 
+
+Check out the [PyPi](https://pypi.org/project/WingmanGPT/) package.
+
+### Notice
+`This tool currently only works for Mac users.`
+
+## Install
+
+1. Clone the repository and `cd` to it. Make sure you have python3 ad pip3 installed.
+
+```bash
+# Optionally make a virtual environment
+$ python3 -m venv env
+$ source env/bin/activate
+# Install the package
+$ pip3 install WingmanGPT
+```
+
+2. Get your API token from [OpenAI](https://chat.openai.com/api/auth/session), and initialize it for the tool. *Make sure you are signed in before doing this. You can get your token by accessing the linked url and copying the value for the 'accessToken' key.*
+
+```bash
+$ WingmanGPT make-token [token] # Don't actually put the brackets, just the token 
+$ cat token
+...
+your token
+...
+```
+3. **Optional**: make a template message file. This allows you to not have to provide a message as a command-line option.
+
+```bash
+$ WingmanGPT make-message "My custom message"
+$ cat message.txt
+...
+your message
+...
+```
+
+
+
+
+## Usage
+
+Please note that when running the program, you will get a warning from your Mac asking you if it can send a message. You must click OK for the tool to work.
+
+```
+Usage: WingmanGPT send [OPTIONS]
+
+REQUIRED:
+(-n, --number) [NUMBER]: 
+    Phone number to send the message to.
+
+OPTIONAL:
+(-t, --token) [TOKEN]: 
+    ChatGPT API token. Not required if you make a token file in step 4 of installation.
+
+(-m, --message) [MESSAGE]: 
+    Message to be modified. Not required if you make a message file in step 5 of installation.
+
+(--noconfirm): 
+    Optional flag that will send the message without confirmation.
+
+(--mode) [MODE]: 
+    Modification mode for your message. Check out prompts.json to see the modes the tool actually uses, as well as the default.
+```
+### Example Usage
+
+```bash
+$ WingmanGPT send -n 1234567890 --mode=FUN --noconfirm -m "Tell me something about dogs" -t [your API token]
+# Make a token file for multiple requests (step 4)
+$ WingmanGPT make-token [your API token]
+Token file created.
+# Make a message file for multiple requests (step 5)
+$ WingmanGPT make-message "I want a new dog"
+Message file created.
+# View available modes
+$ WingmanGPT show-modes
+...
+# Send message
+WingmanGPT send -n 1234567890
+```
+
+## ChatGPT Functionality
+
+This tool makes use of the [revChatGPT](https://github.com/acheong08/ChatGPT) open-source project to communicate with ChatGPT. Go check it out!
+
+Everything that is used for the prompt, as well as the different modes, can be found in [src/prompts.py](src/prompts.py). 
+
+To see all of the availible modes from the command line, you can run:
+
+```bash
+$ WingmanGPT show-modes
+```
+
+## Contributing
+
+Anybody except Ho Jung Kim is allowed to contribute.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Authors
+- Ben Schwartz & Ryan Baxter
+
