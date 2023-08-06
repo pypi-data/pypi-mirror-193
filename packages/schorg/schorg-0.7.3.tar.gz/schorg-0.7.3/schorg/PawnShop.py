@@ -1,0 +1,79 @@
+"""
+A shop that will buy, or lend money against the security of, personal possessions.
+
+https://schema.org/PawnShop
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class PawnShopInheritedProperties(TypedDict):
+    """A shop that will buy, or lend money against the security of, personal possessions.
+
+    References:
+        https://schema.org/PawnShop
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class PawnShopProperties(TypedDict):
+    """A shop that will buy, or lend money against the security of, personal possessions.
+
+    References:
+        https://schema.org/PawnShop
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class PawnShopAllProperties(PawnShopInheritedProperties, PawnShopProperties, TypedDict):
+    pass
+
+
+class PawnShopBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="PawnShop", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        PawnShopProperties, PawnShopInheritedProperties, PawnShopAllProperties
+    ] = PawnShopAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "PawnShop"
+    return model
+
+
+PawnShop = create_schema_org_model()
+
+
+def create_pawnshop_model(
+    model: Union[PawnShopProperties, PawnShopInheritedProperties, PawnShopAllProperties]
+):
+    _type = deepcopy(PawnShopAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: PawnShopAllProperties):
+    pydantic_type = create_pawnshop_model(model=model)
+    return pydantic_type(model).schema_json()

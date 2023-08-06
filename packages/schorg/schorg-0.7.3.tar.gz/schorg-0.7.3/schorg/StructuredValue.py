@@ -1,0 +1,87 @@
+"""
+Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.
+
+https://schema.org/StructuredValue
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class StructuredValueInheritedProperties(TypedDict):
+    """Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.
+
+    References:
+        https://schema.org/StructuredValue
+    Note:
+        Model Depth 3
+    Attributes:
+    """
+
+
+class StructuredValueProperties(TypedDict):
+    """Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.
+
+    References:
+        https://schema.org/StructuredValue
+    Note:
+        Model Depth 3
+    Attributes:
+    """
+
+
+class StructuredValueAllProperties(
+    StructuredValueInheritedProperties, StructuredValueProperties, TypedDict
+):
+    pass
+
+
+class StructuredValueBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="StructuredValue", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        StructuredValueProperties,
+        StructuredValueInheritedProperties,
+        StructuredValueAllProperties,
+    ] = StructuredValueAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "StructuredValue"
+    return model
+
+
+StructuredValue = create_schema_org_model()
+
+
+def create_structuredvalue_model(
+    model: Union[
+        StructuredValueProperties,
+        StructuredValueInheritedProperties,
+        StructuredValueAllProperties,
+    ]
+):
+    _type = deepcopy(StructuredValueAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: StructuredValueAllProperties):
+    pydantic_type = create_structuredvalue_model(model=model)
+    return pydantic_type(model).schema_json()
