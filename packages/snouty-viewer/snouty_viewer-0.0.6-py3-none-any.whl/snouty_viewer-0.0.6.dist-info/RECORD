@@ -1,0 +1,14 @@
+snouty_viewer/__init__.py,sha256=G3GOI-acN-ctG695VBv4wxR3jCkiwBpYy4HTpNbB8kw,162
+snouty_viewer/_reader.py,sha256=TiW5VhOIYxoDqCEhOyRXOq3yGMPuHDjHYsKwiowoUhU,2571
+snouty_viewer/_widget.py,sha256=xEAQR5zTTroE8uYDIGdINKRuqMzqKoyA3EPVFpoKhjg,2927
+snouty_viewer/_writer.py,sha256=m2reC_eDaiqjmOmTb4VQDlhvuygpgVEuNWdMfWitwss,1376
+snouty_viewer/napari.yaml,sha256=fxPIfx5P35WkUAgDa9aa-F4lbksiD0bk21901wd1UQ4,841
+snouty_viewer/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snouty_viewer/_tests/test_reader.py,sha256=XKBKZdtD6R9NFkD8DUP_nMu5tyNGvHtuf3pXDSYkx-c,8226
+snouty_viewer/_tests/test_widget.py,sha256=zBhu6C9HXTYFFif8oZgXPGfLvF7yLDmSt2v3qifsRhg,1286
+snouty_viewer-0.0.6.dist-info/LICENSE,sha256=JqVa_50-KvJraMD356lAjcCfnyKhoubsOy0lgbZfgOI,1114
+snouty_viewer-0.0.6.dist-info/METADATA,sha256=k-fXouXkILrRiyxVz_Fb66eH-PxQTEZConrcoAwnGSU,6011
+snouty_viewer-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+snouty_viewer-0.0.6.dist-info/entry_points.txt,sha256=4a31ezG96ZBL99AmbNSgiFFGFja2iUMfKh3imIqtrSs,60
+snouty_viewer-0.0.6.dist-info/top_level.txt,sha256=vYIpFSprPRaOqQjpFmDiq1xyHmKTNaKYNvl1UGcdmZI,14
+snouty_viewer-0.0.6.dist-info/RECORD,,
