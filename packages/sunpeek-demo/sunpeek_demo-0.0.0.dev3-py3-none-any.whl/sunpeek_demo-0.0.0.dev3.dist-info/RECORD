@@ -1,0 +1,15 @@
+sunpeek_demo/__init__.py,sha256=YO0mvRlF4ZYy4omjuJrsuByH4vJ0KJ7_wf9-0lSVg2w,609
+sunpeek_demo/FHW__array_ArcS__2017-01-01__2017-12-31__1m__UTC.csv,sha256=i2WySttW8iaRjA-azv7Oo8NLTJbZkpu4H4KrptkPHHg,114397070
+sunpeek_demo/FHW__array_ArcS__2017-05-01__2017-05-02__1m__UTC.csv,sha256=LXoH5q9Vp4Xa8m7CgEph699xUlwS9ma1Y5UJqkOc2Zg,687418
+sunpeek_demo/FHW__array_ArcS__2017-05-01__2017-05-31__1m__UTC.csv,sha256=UWkhdHWZMzG915pKOigSTYIvCsWLev3puxxNWBSbZ3Q,10098984
+sunpeek_demo/LICENSE,sha256=EZ03XVC1PJURFAy-Dy9Ar7vBjBOQ7bKmVa_5uiYje74,736
+"sunpeek_demo/Pekasolar, pdf export, density.csv",sha256=WyTIAqHMU63vz_jXOrvOvvuQupUt3wPx53g_DRC_cVI,95
+"sunpeek_demo/Pekasolar, pdf export, heat capacity.csv",sha256=PCA0ZRs-pFyUxHlj5xVZEJTrx0WhZmwAvhUf1kgHMt4,259
+sunpeek_demo/plant_config_FHW_Arcon_South.json,sha256=hW9d05MvzBKkZrx9Lv2U_LCyi-DuSDO1pSm1cOTO2O0,2851
+sunpeek_demo/poetry.lock,sha256=2PXl9mU91CrVsCV48UWjVyK4voKeZeL1aWjqajNLLFs,243
+sunpeek_demo/pyproject.toml,sha256=Q2beuisGKe8R8cygGq-AF6m2rTR9A6M6cGCOY4vsH2s,713
+sunpeek_demo/README.md,sha256=7BFiz3VyUlPKY5KxnL5uEFH_5XLODL6vEpa4OxLg0kY,638
+sunpeek_demo-0.0.0.dev3.dist-info/LICENSE,sha256=EZ03XVC1PJURFAy-Dy9Ar7vBjBOQ7bKmVa_5uiYje74,736
+sunpeek_demo-0.0.0.dev3.dist-info/METADATA,sha256=0IErWH3irGL38pzo-b4g0oa_5qDDNYWv-mmkY9YkLhg,1572
+sunpeek_demo-0.0.0.dev3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sunpeek_demo-0.0.0.dev3.dist-info/RECORD,,
