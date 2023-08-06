@@ -1,0 +1,8 @@
+README.md
+setup.py
+rashifal/__init__.py
+rashifal/func.py
+rashifal.egg-info/PKG-INFO
+rashifal.egg-info/SOURCES.txt
+rashifal.egg-info/dependency_links.txt
+rashifal.egg-info/top_level.txt
