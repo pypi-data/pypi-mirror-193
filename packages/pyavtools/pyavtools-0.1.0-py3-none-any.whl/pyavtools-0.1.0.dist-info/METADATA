@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: pyavtools
+Version: 0.1.0
+Summary: pyAvTools
+Home-page: https://github.com/makerplane/pyAvDb
+Author: Garrett Herschleb
+Author-email: 9.planetary.drive@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: pyyaml
+Provides-Extra: build
+Requires-Dist: build (==0.10.0) ; extra == 'build'
+
+===========================================
+MakerPlane Aviation Module Tool Kit
+===========================================
+
+Copyright (c) 2019 MakerPlane
+
+pyAvTools is an open source aviation tool kit, providing useful modules for Python based
+Aviation apps, including:
+* Data management package for charting objects
+* Flight Information eXchange (FIX) database module
+* A hard-button based user interface layer utilizing Qt (no keyboard or mouse required)
+
+  * Uses a rotary encoder + push buttons
+
+  * NumberWidget (Show/Change a number)
+
+  * ChoiceWidget (Show/Change a radio-button style section)
+
+  * SelectMenuWidget (Show/Change a menu style section)
+
+  * FIXDisplay (Show a collection of FIX database items)
+  
+* Others for future consideration
+
+Installation
+------------
+
+Begin by cloning the Git repository
+
+::
+
+    git clone git@github.com:makerplane/pyAvTools.git
+
+or
+
+::
+
+    git clone https://github.com/makerplane/pyAvTools.git 
+
+
+If you'd like to install the program permanently to your system or into a virtualenv you
+can issue the command...
+
+::
+
+  sudo pip3 install .
+
+from the root directory of the source repository.  **Caution** This feature is still
+in development and may not work consistently.
+
+Development
+-----------
+
+To set up your development environment, you can create a virtualenv:
+
+::
+
+  make venv
+
+Then, you can install all required dependencies:
+
+::
+
+  make init
+
+Afterwards, you are ready to develop. Once one or more dependencies have changed, simply run
+`make init` again.
+
+Distribution
+------------
+
+To create a Python wheel for distribution, run:
+
+::
+
+  make wheel
+
+The wheel will be then created in the `dist/` directory.
+
+Requirements
+------------
