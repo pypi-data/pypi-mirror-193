@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: countess
+Version: 0.0.13
+Author: CountESS Developers
+Maintainer: Nick Moore
+Maintainer-email: nick@zoic.org
+License: BSD
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: dask (>=2022.8.0)
+Requires-Dist: distributed (>=2022.8.0)
+Requires-Dist: fqfa (~=1.2.1)
+Requires-Dist: more-itertools (~=8.14.0)
+Requires-Dist: Levenshtein (==0.20.5)
+Requires-Dist: numpy (~=1.23.2)
+Requires-Dist: pandas (~=1.5.2)
+Requires-Dist: tables (==3.8.0)
+Requires-Dist: pyarrow (~=10.0.1)
+Requires-Dist: ttkthemes (~=3.2.2)
+
+Constructs pipelines of plugins for bioinformations data processing
