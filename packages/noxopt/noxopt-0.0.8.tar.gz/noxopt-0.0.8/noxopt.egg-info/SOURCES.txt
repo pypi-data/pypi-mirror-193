@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+noxopt/__init__.py
+noxopt/_config.py
+noxopt/_option.py
+noxopt/_tagging.py
+noxopt/noxopt.py
+noxopt/py.typed
+noxopt.egg-info/PKG-INFO
+noxopt.egg-info/SOURCES.txt
+noxopt.egg-info/dependency_links.txt
+noxopt.egg-info/requires.txt
+noxopt.egg-info/top_level.txt
+tests/test_noxopt.py
