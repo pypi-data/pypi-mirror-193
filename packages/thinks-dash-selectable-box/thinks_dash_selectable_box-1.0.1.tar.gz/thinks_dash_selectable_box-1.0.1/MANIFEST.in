@@ -1,0 +1,11 @@
+include thinks_dash_selectable_box/thinks_dash_selectable_box.min.js
+include thinks_dash_selectable_box/thinks_dash_selectable_box.min.js.map
+include thinks_dash_selectable_box/async-*.js
+include thinks_dash_selectable_box/async-*.js.map
+include thinks_dash_selectable_box/*-shared.js
+include thinks_dash_selectable_box/*-shared.js.map
+include thinks_dash_selectable_box/metadata.json
+include thinks_dash_selectable_box/package-info.json
+include README.md
+include LICENSE
+include package.json

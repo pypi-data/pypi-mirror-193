@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+thinks_dash_selectable_box/ThinksDashSelectableBox.py
+thinks_dash_selectable_box/__init__.py
+thinks_dash_selectable_box/_imports_.py
+thinks_dash_selectable_box/metadata.json
+thinks_dash_selectable_box/package-info.json
+thinks_dash_selectable_box/thinks_dash_selectable_box.min.js
+thinks_dash_selectable_box/thinks_dash_selectable_box.min.js.map
+thinks_dash_selectable_box.egg-info/PKG-INFO
+thinks_dash_selectable_box.egg-info/SOURCES.txt
+thinks_dash_selectable_box.egg-info/dependency_links.txt
+thinks_dash_selectable_box.egg-info/top_level.txt
