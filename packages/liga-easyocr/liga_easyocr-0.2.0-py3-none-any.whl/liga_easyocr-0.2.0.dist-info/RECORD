@@ -1,0 +1,10 @@
+liga/easyocr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liga/easyocr/codegen.py,sha256=tsAHia6XFOKWhKiGTW6d9N_jkuC1x9pRRoM95w71MPw,1081
+liga/easyocr/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liga/easyocr/models/ch_sim.py,sha256=wFsfkts9gDmizmZ514STou1mM-Qez17oQaxvVAnpi28,94
+liga/easyocr/models/ocr.py,sha256=AjLJ33A6BL-x7zrHhL0rPNZppEPn2rFNcWcz7vjmNaU,2212
+liga_easyocr-0.2.0.dist-info/METADATA,sha256=jOoYsh6AmPMs8Psm84fEbJj8qT6oHxZMalKsazxYFCw,135
+liga_easyocr-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+liga_easyocr-0.2.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+liga_easyocr-0.2.0.dist-info/top_level.txt,sha256=GqibOc7hafVa7PFx9-FYbcLR1KtELPbsy9MKnbratMo,5
+liga_easyocr-0.2.0.dist-info/RECORD,,
