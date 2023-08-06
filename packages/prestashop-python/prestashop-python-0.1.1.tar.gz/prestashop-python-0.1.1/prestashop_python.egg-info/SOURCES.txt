@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+prestashop/__init__.py
+prestashop/client.py
+prestashop/exceptions.py
+prestashop_python.egg-info/PKG-INFO
+prestashop_python.egg-info/SOURCES.txt
+prestashop_python.egg-info/dependency_links.txt
+prestashop_python.egg-info/not-zip-safe
+prestashop_python.egg-info/requires.txt
+prestashop_python.egg-info/top_level.txt
