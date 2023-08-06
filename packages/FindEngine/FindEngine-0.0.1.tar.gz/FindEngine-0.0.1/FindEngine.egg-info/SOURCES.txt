@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FindEngine.egg-info/PKG-INFO
+FindEngine.egg-info/SOURCES.txt
+FindEngine.egg-info/dependency_links.txt
+FindEngine.egg-info/top_level.txt
+SearchEngine/DataManage.py
+SearchEngine/__init__.py
+SearchEngine/__version__.py
