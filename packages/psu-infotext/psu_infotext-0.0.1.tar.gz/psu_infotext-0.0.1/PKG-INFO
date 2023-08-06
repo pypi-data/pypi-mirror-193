@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: psu_infotext
+Version: 0.0.1
+Summary: Unsupported
+Home-page: https://www.pdx.edu
+Author: PSU
+Author-email: roreply@pdx.edu
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+Unsupported code. 
+

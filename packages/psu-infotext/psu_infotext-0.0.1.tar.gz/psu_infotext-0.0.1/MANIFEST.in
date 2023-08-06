@@ -1,0 +1,8 @@
+include README.md
+graft psu_infotext
+prune psu_infotext.egg-info
+graft docs
+global-exclude *.orig
+global-exclude *.log
+global-exclude *.swp
+global-exclude *.py[co]

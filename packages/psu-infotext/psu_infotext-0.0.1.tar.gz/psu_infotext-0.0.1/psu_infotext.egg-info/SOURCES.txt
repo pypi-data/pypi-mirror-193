@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+docs/AUTHORS
+docs/CHANGELOG.txt
+docs/LICENSE
+psu_infotext/__init__.py
