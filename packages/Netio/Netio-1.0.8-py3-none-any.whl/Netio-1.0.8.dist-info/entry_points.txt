@@ -1,0 +1,3 @@
+[console_scripts]
+Netio = Netio.cli:main
+realpython = reader.__main__:main
