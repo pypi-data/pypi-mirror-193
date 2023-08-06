@@ -1,0 +1,10 @@
+numpy
+matplotlib
+trimesh[easy]
+tqdm
+pyyaml
+python-fcl
+networkx
+pygraphviz
+opencv-python
+natsort
