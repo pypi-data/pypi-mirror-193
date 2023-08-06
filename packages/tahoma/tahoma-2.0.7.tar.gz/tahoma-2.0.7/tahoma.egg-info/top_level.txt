@@ -1,0 +1,2 @@
+tahoma
+tahoma,get_devices_url
