@@ -1,0 +1,6 @@
+scipy
+pandas
+matplotlib
+shapely
+natsort
+pyshtools

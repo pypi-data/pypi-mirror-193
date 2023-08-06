@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: thatool
+Version: 1.1.6
+Summary: Python package
+Author: thangckt
+Author-email: thangckt@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+
+ThangTool is an OOP Python package for pre- and post-processing data from MD simulations. This package is developed and maintained by @thangckt 
