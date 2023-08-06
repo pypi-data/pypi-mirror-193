@@ -1,0 +1,11 @@
+README.md
+setup.py
+chrome_boss/__init__.py
+chrome_boss/element.py
+chrome_boss/tab.py
+chrome_boss.egg-info/PKG-INFO
+chrome_boss.egg-info/SOURCES.txt
+chrome_boss.egg-info/dependency_links.txt
+chrome_boss.egg-info/requires.txt
+chrome_boss.egg-info/top_level.txt
+chrome_boss/shared/__init__.py
