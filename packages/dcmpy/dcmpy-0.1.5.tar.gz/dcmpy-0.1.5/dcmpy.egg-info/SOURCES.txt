@@ -1,0 +1,10 @@
+README.md
+setup.py
+dcmpy/__init__.py
+dcmpy/maxdiff.py
+dcmpy/utils.py
+dcmpy.egg-info/PKG-INFO
+dcmpy.egg-info/SOURCES.txt
+dcmpy.egg-info/dependency_links.txt
+dcmpy.egg-info/requires.txt
+dcmpy.egg-info/top_level.txt
