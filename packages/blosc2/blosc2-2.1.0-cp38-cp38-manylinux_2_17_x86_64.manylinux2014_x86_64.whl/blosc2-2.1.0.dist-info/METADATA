@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: blosc2
+Version: 2.1.0
+Summary: Python wrapper for the C-Blosc2 library.
+Home-page: https://github.com/Blosc/python-blosc2
+Author: Blosc Development Team
+Author-email: blosc@blosc.org
+Maintainer: Blosc Development Team
+Maintainer-email: blosc@blosc.org
+License: https://opensource.org/licenses/BSD-3-Clause
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: msgpack
+Requires-Dist: ndindex (>=1.4)
+Requires-Dist: numpy (>=1.20.3)
+Requires-Dist: py-cpuinfo
+Requires-Dist: rich
+Requires-Dist: pytest
+
+
+Python-Blosc2 is a Python package that wraps C-Blosc2, the newest version of
+the Blosc compressor.  Python-Blosc2 reproduces quite well the API of its Python-Blosc
+predecessor, so it can be used as a drop-in replacement (bar some exceptions; read the
+docs if this is important for you).
+
+In addition, Python-Blosc2 aims to leverage the new C-Blosc2 API so as to support
+super-chunks, multi-dimensional arrays, serialization and other bells and whistles
+introduced in C-Blosc2.
+
+More info at: `https://www.blosc.org <https://www.blosc.org>`_
