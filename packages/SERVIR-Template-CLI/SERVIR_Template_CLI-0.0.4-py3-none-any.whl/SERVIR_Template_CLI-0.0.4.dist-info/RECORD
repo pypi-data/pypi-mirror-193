@@ -1,0 +1,10 @@
+servir_template.py,sha256=8nxQ22vYYqkaoJYlx4XzQI35VC_xC5XWIieVt6Shh5k,4211
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/application.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SERVIR_Template_CLI-0.0.4.dist-info/LICENSE,sha256=qbcC-aON-nLd8suGZ3IFV80SptAQXAm8ckFAc3XH5Ws,1813
+SERVIR_Template_CLI-0.0.4.dist-info/METADATA,sha256=Ut7jrieb8pogeXzDFhoyZpfVN9vwUrBrIJbsEHR1yY8,7195
+SERVIR_Template_CLI-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+SERVIR_Template_CLI-0.0.4.dist-info/entry_points.txt,sha256=i3JnL8zT_rJz9pyQAKnf4iMPJDujSBFeorKGugP7o3w,56
+SERVIR_Template_CLI-0.0.4.dist-info/top_level.txt,sha256=F2H9IKt4J2Wcg5R-tBI2OFjns1eswG8WVtpO3SLtUog,42
+SERVIR_Template_CLI-0.0.4.dist-info/RECORD,,
