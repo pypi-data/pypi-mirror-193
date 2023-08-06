@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: liketext
+Version: 1.1
+Summary: The library for management telegram text
+Project-URL: Homepage, https://github.com/liketapi/liketext
+Project-URL: Bug Tracker, https://github.com/liketapi/liketext/issues
+Author-email: liketapi <seryumed@gmail.com>
+License-File: LICENSE
+Keywords: html,md,telegram,text
+Requires-Python: >=3.7
+Provides-Extra: dev
+Requires-Dist: black~=23.1; extra == 'dev'
+Requires-Dist: isort~=5.11; extra == 'dev'
+Requires-Dist: ruff~=0.0.246; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest-cov~=4.0.0; extra == 'test'
+Requires-Dist: pytest~=7.2.1; extra == 'test'
+Description-Content-Type: text/markdown
+
+# liketext

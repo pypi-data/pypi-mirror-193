@@ -1,0 +1,41 @@
+from .text import (
+    bold,
+    code,
+    hbold,
+    hcode,
+    hide_link,
+    hitalic,
+    hlink,
+    hpre,
+    hstrikethrough,
+    hunderline,
+    italic,
+    link,
+    pre,
+    strikethrough,
+    text,
+    underline,
+)
+from .text_decorations import html, md
+
+__version__ = "1.1"
+__all__ = (
+    "text",
+    "bold",
+    "hbold",
+    "italic",
+    "hitalic",
+    "code",
+    "hcode",
+    "pre",
+    "hpre",
+    "underline",
+    "hunderline",
+    "strikethrough",
+    "hstrikethrough",
+    "link",
+    "hlink",
+    "hide_link",
+    "md",
+    "html",
+)
