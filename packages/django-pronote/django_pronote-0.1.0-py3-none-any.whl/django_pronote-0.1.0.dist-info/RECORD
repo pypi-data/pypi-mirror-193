@@ -1,0 +1,11 @@
+pronote/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pronote/authentication.py,sha256=jMdetLedcz6_-UTbUk4HpIJUfq97mL-ro7tNZsRJoyw,688
+pronote/renderers.py,sha256=8kg8cHYtZTOt_bcqadwfxIh5I124jKQaVakbCyjSYCw,3227
+pronote/settings.py,sha256=-2Fb2jJBwvNkMm_USvU6xAxIHWGlMbfbq-INT4XY1Ps,1752
+pronote/urls.py,sha256=BG5cMnZzffIwfiviTCmD4uYubRTdgw4YsVX38xicRmo,169
+pronote/views.py,sha256=vegJOi1ty22sfrfrlryYqmxcz0S9VqsHi-3_ELd_2dE,1352
+django_pronote-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_pronote-0.1.0.dist-info/METADATA,sha256=en-nH2nYpJpoN1S75Tsf49O_VAqTDCGszIIoifwNOMk,6402
+django_pronote-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_pronote-0.1.0.dist-info/top_level.txt,sha256=IxEu49QaAqpPnM51rbSKpWKPjzK6RlmtxiRAan01pKo,8
+django_pronote-0.1.0.dist-info/RECORD,,
