@@ -1,0 +1,16 @@
+scospus/__init__.py,sha256=tUhkk13ol7224plhgQ2t741Cxjqmt3UuQkUk4bf2erc,1832
+scospus/airbuscsv.py,sha256=y_3AzNlwh3aZxa0vVAu_6o7isOwoP1j9dKCrmY6mJ6U,3551
+scospus/crc16.py,sha256=8miz5EwoIj7YOpQu4QlMYdyfrPYCSXJ28yOEAVyGnOE,2473
+scospus/dds.py,sha256=PoOowY8EEkMgaUrgZFDCjQvXYZwJlryiLlW2Ia5t8E8,7920
+scospus/enums.py,sha256=-mi6f7kGfzL8dskHNlsQOvDI-iYfkn6DrvepX5MERhU,518
+scospus/guess.py,sha256=tAutGa7EIyrkeesb-cVVO3A2CnACXCzanSjsV0UqB8s,1126
+scospus/internal.py,sha256=lzgPPjd3Zbui3q_gU88wbu2SC_1MHGV5S-lSonXd0rM,1775
+scospus/pus.py,sha256=beiP_P77twM3SyuK91EbiqquDf4hqF_zT8TevrXe_1g,12478
+scospus/tc.py,sha256=13fGT8aRiKbOhPhkDDVcIaXf1ZgjnrzDW78sgK_yFDQ,182
+scospus/tm.py,sha256=xIwkzHvyp9mdLI4nM0aFiq2v7YNb4qOY-ozr7Ir1syY,12542
+scospus/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+scospus-0.1.0.dist-info/LICENSE,sha256=q1KqnBgGBx4SGDkRSitdZBCuPV5o0zMszCMi1hQ0elk,1097
+scospus-0.1.0.dist-info/METADATA,sha256=ylEIxCFGGGP9YF2gyj2JTzxq0A5l5ZYzR0FlEecOqGQ,816
+scospus-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scospus-0.1.0.dist-info/top_level.txt,sha256=N50SGineXc77nUHBrfilFWCewWozYpfGiLyBAyxynd8,8
+scospus-0.1.0.dist-info/RECORD,,
