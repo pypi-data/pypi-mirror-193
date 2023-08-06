@@ -1,0 +1,6 @@
+seed_salesforce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seed_salesforce/salesforce_client.py,sha256=qE3FvM9Pzl8NKdrRsNUD6JXhVKoyUOWUXpWkcrgJmhI,19434
+seed_salesforce-0.1.0.dist-info/LICENSE.md,sha256=GBozHUiGR998h8U70astkX0PtV-FSo6LWUWHtkK5Bak,1680
+seed_salesforce-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+seed_salesforce-0.1.0.dist-info/METADATA,sha256=yalzIe6vqSBH4IQxsq3Q5zuIu3wJ7O7UD-Of-su4Wpk,2653
+seed_salesforce-0.1.0.dist-info/RECORD,,
