@@ -1,0 +1,9 @@
+packagepoa/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+packagepoa/conf.py,sha256=y0Ii8qRR4NcG9kgmRwO8she96pr4Zc7QTfgDuyeDnYk,1471
+packagepoa/decapitate_pdf.py,sha256=wnbrQRmW2O4zw4LDytIIhl-RmpfH1DXgETx9Iz_oCqg,1813
+packagepoa/transform.py,sha256=BHAZdaK0t-yNRmYTT8ZC1cTYR7yiEmYmb3Ik0I_0inw,9757
+packagepoa-0.3.0.dist-info/LICENSE,sha256=tVf-s04sTJPXmlI9jPJVOZjNf_B18eIIh71p11oNfNs,1071
+packagepoa-0.3.0.dist-info/METADATA,sha256=LSCWFuTaA8MNpDDN6SKKcPkJ682yvNnFIOHUM2v4A2g,3249
+packagepoa-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+packagepoa-0.3.0.dist-info/top_level.txt,sha256=6II0LsSgeQfd3AYQTa49kB62VsIu7VBqG_jSRgwfILc,11
+packagepoa-0.3.0.dist-info/RECORD,,
