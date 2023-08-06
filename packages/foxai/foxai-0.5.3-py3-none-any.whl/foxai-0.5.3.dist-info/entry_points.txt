@@ -1,0 +1,3 @@
+[console_scripts]
+foxai-wandb-updater=foxai.cli.experiment_update:main
+
