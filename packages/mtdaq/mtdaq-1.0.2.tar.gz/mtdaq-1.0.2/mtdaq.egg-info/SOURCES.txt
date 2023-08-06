@@ -1,0 +1,9 @@
+README
+setup.py
+mtdaq/__init__.py
+mtdaq/mtdaq.py
+mtdaq.egg-info/PKG-INFO
+mtdaq.egg-info/SOURCES.txt
+mtdaq.egg-info/dependency_links.txt
+mtdaq.egg-info/top_level.txt
+mtdaq.egg-info/zip-safe
