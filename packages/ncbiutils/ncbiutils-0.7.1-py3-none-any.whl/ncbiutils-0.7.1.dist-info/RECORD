@@ -1,0 +1,12 @@
+ncbiutils/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+ncbiutils/http.py,sha256=Pf1zVkETSBr_kgajn-Ae4iSq8HpBoZseJfK4QAVoPWg,949
+ncbiutils/ncbiutils.py,sha256=hLA0Zb60COVoPC0VIeOCuWegJo0h57hbrZXIO7I96qo,7510
+ncbiutils/pmcxmlparser.py,sha256=k8iQs_zS9IvNb7j0MIQn9G4oFUotHLfLnastwRd90oc,7337
+ncbiutils/pubmed.py,sha256=SjybbgbCUWqWVXL7m-EjDEf8CGrn9Bhsfm0-qyzpNkM,2692
+ncbiutils/pubmedxmlparser.py,sha256=ENZBPfde775KAxcNy7SRuF2T6x3-Z80xxJZtGMKWzaM,7420
+ncbiutils/types.py,sha256=v0aNpLSQpLKy7p8na8UT4VltJSISOT2S2o9sj2h6-r4,694
+ncbiutils/xml.py,sha256=FClToOOdFUbRtyQNE2xrK8mHmU4vqzuUJIPHVWzoup8,1900
+ncbiutils-0.7.1.dist-info/LICENSE,sha256=cKweWa8dRAiYX-w_GK4TeN_mqlXNX1gx01gZ-ZaioWQ,1064
+ncbiutils-0.7.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ncbiutils-0.7.1.dist-info/METADATA,sha256=7Kk7MdSajAMSjjuwoEdzFdXnaaciAZQzX4G7mKXFiZI,7094
+ncbiutils-0.7.1.dist-info/RECORD,,
