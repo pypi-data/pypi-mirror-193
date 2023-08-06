@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: knn-distinguish
+Version: 0.0.1
+Summary: In traditioanl knn, the model trys its best to classify the object even though there is no fit class. Our model introduces a p-value to help the machine learns whether the object actually fit the existing classes or not
+Home-page: UNKNOWN
+Author: Wayne Hayes, Jingcheng Li
+License: MIT
+Keywords: python,knn,p value
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
