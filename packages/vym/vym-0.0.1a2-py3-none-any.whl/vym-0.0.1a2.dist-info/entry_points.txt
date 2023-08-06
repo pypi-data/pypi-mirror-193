@@ -1,0 +1,4 @@
+[console_scripts]
+lvym = vym.__main__:main_lvym
+nvym = vym.__main__:main_nvym
+vym = vym.__main__:main

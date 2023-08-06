@@ -1,0 +1,549 @@
+if &compatible
+  set nocompatible
+endif
+
+" https://stackoverflow.com/a/18734557
+let $THIS_DIR = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+
+" XDG support
+" https://github.com/DoodlesEpic/Dotfiles/blob/main/.config/vim/vimrc
+if empty($MYVIMRC) | let $MYVIMRC = expand('<sfile>:p') | endif
+if empty($XDG_CACHE_HOME)  | let $XDG_CACHE_HOME  = $HOME."/.cache"       | endif
+if empty($XDG_CONFIG_HOME) | let $XDG_CONFIG_HOME = $HOME."/.config"      | endif
+if empty($XDG_DATA_HOME)   | let $XDG_DATA_HOME   = $HOME."/.local/share" | endif
+if empty($XDG_STATE_HOME)  | let $XDG_STATE_HOME  = $HOME."/.local/state" | endif
+
+set runtimepath^=$XDG_CONFIG_HOME/vym
+set runtimepath+=$XDG_DATA_HOME/vym
+set runtimepath+=$XDG_CONFIG_HOME/vym/after
+
+set packpath^=$XDG_DATA_HOME/vym,$XDG_CONFIG_HOME/vym
+set packpath+=$XDG_CONFIG_HOME/vym/after,$XDG_DATA_HOME/vym/after
+
+let g:netrw_home = $XDG_DATA_HOME."/vym"
+call mkdir($XDG_DATA_HOME."/vym/spell", 'p', 0700)
+
+set backupdir=$XDG_STATE_HOME/vym/backup | call mkdir(&backupdir, 'p', 0700)
+set directory=$XDG_STATE_HOME/vym/swap   | call mkdir(&directory, 'p', 0700)
+set undodir=$XDG_STATE_HOME/vym/undo     | call mkdir(&undodir,   'p', 0700)
+set viewdir=$XDG_STATE_HOME/vym/view     | call mkdir(&viewdir,   'p', 0700)
+
+if !has('nvim') " Neovim has its own special location
+  set viminfofile=$XDG_STATE_HOME/vym/viminfo
+endif
+"""
+
+for f in split(glob($THIS_DIR.'/vimrc.d/*.vimrc'), '\n')
+  exe 'source' f
+endfor
+
+" amix.vimrc maps `0` to `^`;
+" reset to expected behavior.
+unmap 0
+
+for f in split(glob($XDG_CONFIG_HOME.'/vym/vimrc.d/*.vimrc'), '\n')
+    exe 'source' f
+endfor
+
+"Install vim-plug if not found
+if !filereadable(expand($XDG_CONFIG_HOME.'/vym/autoload/plug.vim'))
+  silent !curl -fLo "$XDG_CONFIG_HOME/vym/autoload/plug.vim" --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
+
+call plug#begin($XDG_CONFIG_HOME.'/vym/plugged')
+
+" Plugin outside ~/.vim/plugged with post-update hook
+Plug 'https://github.com/junegunn/fzf.git', { 'branch': 'master', 'dir': '~/.fzf', 'do': { -> fzf#install() } }
+Plug 'https://github.com/junegunn/fzf.vim.git', { 'branch': 'master' }
+
+" Plug 'https://github.com/nanotee/zoxide.vim', { 'branch': 'master' }
+
+Plug 'https://github.com/tpope/vim-fugitive', { 'branch': 'master' }
+
+Plug 'https://github.com/SirVer/ultisnips', { 'branch': 'master' }
+
+Plug 'https://github.com/preservim/vim-markdown.git', { 'branch': 'master' }
+Plug 'https://github.com/godlygeek/tabular.git', { 'branch': 'master' }
+Plug 'https://github.com/iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
+Plug 'https://github.com/junegunn/goyo.vim', { 'branch': 'master' }
+Plug 'https://github.com/junegunn/limelight.vim', { 'branch': 'master' }
+
+Plug 'https://github.com/dbmrq/vim-ditto', { 'branch': 'master' }
+
+Plug 'https://github.com/mg979/vim-visual-multi.git', { 'branch': 'master' }
+
+Plug 'https://github.com/nathanaelkane/vim-indent-guides.git', { 'branch': 'master' }
+
+Plug 'https://github.com/mhinz/vim-startify.git', { 'branch': 'master' }
+Plug 'https://github.com/preservim/nerdcommenter.git', { 'branch': 'master' }
+Plug 'https://github.com/preservim/nerdtree.git', { 'branch': 'master' }
+Plug 'https://github.com/itchyny/lightline.vim.git', { 'branch': 'master' }
+Plug 'https://github.com/mbbill/undotree.git', { 'branch': 'master' }
+Plug 'https://github.com/wfxr/minimap.vim.git', { 'branch': 'master' }
+Plug 'https://github.com/machakann/vim-highlightedyank.git', { 'branch': 'master' }
+
+Plug 'https://github.com/dense-analysis/ale', { 'branch': 'master' }
+
+Plug 'https://github.com/ervandew/supertab', { 'branch': 'master' }
+Plug 'https://github.com/pixelneo/vim-python-docstring.git', { 'branch': 'master' }
+Plug 'https://github.com/preservim/tagbar.git', { 'branch': 'master' }
+Plug 'https://github.com/airblade/vim-gitgutter', { 'branch': 'master' }
+Plug 'https://github.com/tpope/vim-surround.git', { 'branch': 'master' }
+Plug 'https://github.com/tpope/vim-repeat.git', { 'branch': 'master' }
+
+Plug 'https://github.com/ryanoasis/vim-devicons.git', { 'branch': 'master' }
+Plug 'https://github.com/voldikss/vim-floaterm.git', { 'branch': 'master' }
+
+Plug 'https://github.com/ncm2/float-preview.nvim', { 'branch': 'master' }
+
+" themes
+Plug 'https://github.com/dracula/vim.git', { 'branch': 'master', 'as': 'dracula' }
+Plug 'https://github.com/patstockwell/vim-monokai-tasty', { 'branch': 'master' }
+Plug 'https://github.com/joshdick/onedark.vim', { 'branch': 'main' }
+
+" - Automatically executes `filetype plugin indent on` and `syntax enable`.
+call plug#end()
+" You can revert the settings after the call like so:
+"   filetype indent off   `Disable file-type-specific indentation`
+"   syntax off            `Disable syntax highlighting`
+
+" set theme
+" colorscheme dracula
+" colorscheme vim-monokai-tasty
+let g:onedark_terminal_italics = 1
+colorscheme onedark
+
+" show absolute path in lightline
+" https://github.com/itchyny/lightline.vim/issues/293#issuecomment-372285144
+let g:lightline = {
+      \ 'colorscheme': 'onedark',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'absolutepath', 'modified' ] ],
+      \ }
+      \ }
+
+" vim-indent-guides config
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+let g:indent_guides_start_level = 2
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=233
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=Black
+
+"NERDCommenter config
+" Create default mappings
+"let g:NERDCreateDefaultMappings = 1
+map <C-_> <Plug>NERDCommenterToggle
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+" Enable NERDCommenterToggle to check all selected lines is commented or not
+let g:NERDToggleCheckAllLines = 1
+
+" NERDTree
+let NERDTreeShowHidden=1
+
+" Start NERDTree and put the cursor back in the other window.
+autocmd VimEnter * NERDTree | wincmd p
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+" Open the existing NERDTree on each new tab.
+" autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
+
+" Mirror the NERDTree before showing it. This makes it the same on all tabs.
+nnoremap <leader>ft :NERDTreeMirror<CR>:NERDTreeToggle<CR>:wincmd p<CR>
+
+let NERDTreeWinSize=20
+let NERDTreeMinimalUI=1
+let NERDTreeMinimalMenu=1
+
+" vim-visual-multi
+let g:VM_leader = {'default': ',', 'visual': ',', 'buffer': 'z'}
+" To change any mapping you must first initialize the variable:
+let g:VM_default_mappings = 0
+let g:VM_maps = {}
+let g:VM_maps["Undo"] = 'u'
+let g:VM_maps["Redo"] = '<C-r>'
+let g:VM_maps['Find Under']                  = '<C-n>'
+let g:VM_maps['Find Subword Under']          = '<C-n>'
+" let g:VM_maps["Select All"]                  = '\\A'
+let g:VM_maps["Select All"]                  = '<C-@>'
+let g:VM_maps["Start Regex Search"]          = '<C-\>'
+let g:VM_maps["Add Cursor Down"]             = '<C-Down>'
+let g:VM_maps["Add Cursor Up"]               = '<C-Up>'
+" let g:VM_maps["Add Cursor At Pos"]           = '\\\'
+
+" let g:VM_maps["Visual Regex"]                = '\\/'
+" let g:VM_maps["Visual All"]                  = '\\A'
+let g:VM_maps["Visual All"]                  = '<C-@>'
+" let g:VM_maps["Visual Add"]                  = '\\a'
+" let g:VM_maps["Visual Find"]                 = '\\f'
+" let g:VM_maps["Visual Cursors"]              = '\\c'
+
+" fzf.vim maps
+nmap <C-P> :Maps<cr>
+imap <C-P> <esc>:Maps<cr>
+nmap <C-Y> :Snippets<cr>
+imap <C-Y> <esc>:Snippets<cr>
+nmap <leader>bb :Buffers<cr>
+nmap <leader>hh :Helptags<cr>
+nmap <leader>ff :Files<cr>
+nmap <leader>fs :Rg
+nmap <leader>rg :Rg
+
+" https://github.com/junegunn/fzf.vim/issues/185#issuecomment-322120216
+function! s:build_quickfix_list(lines)
+  call setqflist(map(copy(a:lines), '{ "filename": v:val }'))
+  copen
+  cc
+endfunction
+
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit',
+  \ 'ctrl-q': function('s:build_quickfix_list')
+  \ }
+" \ 'enter': 'tab split',
+
+let $FZF_DEFAULT_OPTS = '--bind "alt-a:select-all,alt-d:deselect-all" --layout=reverse --border --preview-window=right,66%,border-left'
+
+let g:fzf_commits_log_options = '--graph --decorate --oneline --color=always'
+
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
+
+" undotree map
+nnoremap U :UndotreeToggle<CR>
+
+" let g:vim_markdown_folding_level = 1
+" let g:vim_markdown_folding_style_pythonic = 1
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_strikethrough = 1
+let g:vim_markdown_math = 1
+let g:vim_markdown_follow_anchor = 1
+let g:vim_markdown_toc_autofit = 1
+let g:vim_markdown_new_list_item_indent = 0
+let g:vim_markdown_conceal = 0
+let g:vim_markdown_conceal_code_blocks = 0
+let g:vim_markdown_new_list_item_indent = 2
+
+nnoremap <leader>tci :InsertToc 3<cr>
+nnoremap <leader>tci1 :InsertToc 1<cr>
+nnoremap <leader>tci2 :InsertToc 2<cr>
+nnoremap <leader>tci3 :InsertToc 3<cr>
+nnoremap <leader>tci4 :InsertToc 4<cr>
+nnoremap <leader>tcn :InsertNToc 3<cr>
+nnoremap <leader>tcn1 :InsertNToc 1<cr>
+nnoremap <leader>tcn2 :InsertNToc 2<cr>
+nnoremap <leader>tcn3 :InsertNToc 3<cr>
+nnoremap <leader>tcn4 :InsertNToc 4<cr>
+nnoremap <leader>tcn4 :InsertNToc 4<cr>
+nnoremap <leader>tbf :TableFormat<cr>
+
+" minimap
+let g:minimap_auto_start=0
+let g:minimap_auto_start_win_enter=0
+let g:minimap_width=10
+let g:minimap_highlight_search=1
+let g:minimap_git_colors=1
+
+nnoremap <leader>mm :MinimapToggle<cr>
+
+" CTRL+L to replace selected text
+" https://stackoverflow.com/a/676619
+" vnoremap <C-L> "hy:%s|<C-L>h||gc<left><left><left>
+
+" indent and retain visual selection
+" https://vim.fandom.com/wiki/Shifting_blocks_visually
+" vnoremap > >gv
+" vnoremap < <gv
+" `<Tab>` to indent
+" nnoremap <Tab> >>_
+" nnoremap <S-Tab> <<_
+" inoremap <S-Tab> <C-D>
+" vnoremap <Tab> >gv
+" vnoremap <S-Tab> <gv
+" `ctrl+s` to save
+" noremap <silent> <C-S>          :update<CR>
+" vnoremap <silent> <C-S>         <C-C>:update<CR>
+" inoremap <silent> <C-S>         <C-O>:update<CR>
+
+" yank highlight duration
+let g:highlightedyank_highlight_duration = 666
+
+" ditto
+" au FileType markdown,text,tex DittoOn
+nmap <leader>dss <Plug>ToggleDitto
+
+" markdown-preview
+let g:mkdp_auto_start = 0
+let g:mkdp_auto_close = 1
+" set to 1, the vim will refresh markdown when save the buffer or
+" leave from insert mode, default 0 is auto refresh markdown as you edit or
+" move the cursor
+" default: 0
+let g:mkdp_refresh_slow = 0
+let g:mkdp_command_for_global = 0
+let g:mkdp_open_to_the_world = 0
+let g:mkdp_open_ip = ''
+let g:mkdp_browser = ''
+" set to 1, echo preview page url in command line when open preview page
+" default is 0
+let g:mkdp_echo_preview_url = 1
+let g:mkdp_browserfunc = ''
+" options for markdown render
+" disable_sync_scroll: if disable sync scroll, default 0
+" sync_scroll_type: 'middle', 'top' or 'relative', default value is 'middle'
+"   middle: mean the cursor position alway show at the middle of the preview page
+"   top: mean the vim top viewport alway show at the top of the preview page
+"   relative: mean the cursor position alway show at the relative positon of the preview page
+" hide_yaml_meta: if hide yaml metadata, default is 1
+" sequence_diagrams: js-sequence-diagrams options
+" content_editable: if enable content editable for preview page, default: v:false
+" disable_filename: if disable filename header for preview page, default: 0
+let g:mkdp_preview_options = {
+    \ 'mkit': {},
+    \ 'katex': {},
+    \ 'uml': {},
+    \ 'maid': {},
+    \ 'disable_sync_scroll': 0,
+    \ 'sync_scroll_type': 'middle',
+    \ 'hide_yaml_meta': 1,
+    \ 'sequence_diagrams': {},
+    \ 'flowchart_diagrams': {},
+    \ 'content_editable': v:false,
+    \ 'disable_filename': 0,
+    \ 'toc': {}
+    \ }
+let g:mkdp_markdown_css = ''
+let g:mkdp_highlight_css = ''
+let g:mkdp_port = ''
+" preview page title
+" ${name} will be replace with the file name
+let g:mkdp_page_title = '「${name}」'
+" recognized filetypes
+" these filetypes will have MarkdownPreview... commands
+let g:mkdp_filetypes = ['markdown']
+" set default theme (dark or light)
+" By default the theme is define according to the preferences of the system
+let g:mkdp_theme = 'dark'
+
+nmap <leader>mdb :MarkdownPreview<cr>
+
+" limelight
+
+" Color name (:help cterm-colors) or ANSI code
+let g:limelight_conceal_ctermfg = 'DarkGray'
+" Color name (:help gui-colors) or RGB color
+let g:limelight_conceal_guifg = 'DarkGray'
+" Default: 0.5
+let g:limelight_default_coefficient = 0.5
+" Number of preceding/following paragraphs to include (default: 0)
+let g:limelight_paragraph_span = 0
+" Highlighting priority (default: 10)
+"   Set it to -1 not to overrule hlsearch
+let g:limelight_priority = -1
+
+nmap <leader>ll :Limelight!!<cr>
+
+" Goyo
+let g:goyo_width = 80
+let g:goyo_height = '85%'
+let g:goyo_linenr = 0
+
+" https://github.com/junegunn/goyo.vim/wiki/Customization#ensure-q-to-quit-even-when-goyo-is-active
+function! s:goyo_enter()
+  Limelight
+  NERDTreeClose
+  " ...
+  let b:quitting = 0
+  let b:quitting_bang = 0
+  autocmd QuitPre <buffer> let b:quitting = 1
+  cabbrev <buffer> q! let b:quitting_bang = 1 <bar> q!
+endfunction
+
+function! s:goyo_leave()
+  Limelight!
+  " ...
+  " Quit Vim if this is the only remaining buffer
+  if b:quitting && len(filter(range(1, bufnr('$')), 'buflisted(v:val)')) == 1
+    if b:quitting_bang
+      qa!
+    else
+      qa
+    endif
+  endif
+endfunction
+
+autocmd! User GoyoEnter nested call <SID>goyo_enter()
+autocmd! User GoyoLeave nested call <SID>goyo_leave()
+" autocmd! User GoyoEnter Limelight
+" autocmd! User GoyoLeave Limelight!
+
+nmap <leader>ee :Goyo<cr>
+
+" fugitive + gitgutter
+
+let g:fugitive_no_maps = 1
+
+let g:gitgutter_map_keys = 1
+let g:gitgutter_max_signs = 999
+
+" 'all diff', 'inner diff'
+omap ad <Plug>(GitGutterTextObjectOuterPending)
+omap id <Plug>(GitGutterTextObjectInnerPending)
+xmap ad <Plug>(GitGutterTextObjectOuterVisual)
+xmap id <Plug>(GitGutterTextObjectInnerVisual)
+
+nmap <leader>ggt :GitGutterToggle<cr>
+nmap <leader>ggr :GitGutterAll<cr>
+nmap <leader>ggz :GitGutterFold<cr>
+nmap <leader>ggh :GitGutterLineHighlightsToggle<cr>
+nmap <leader>gg] :GitGutterNextHunk<cr>
+nmap <leader>gg[ :GitGutterPrevHunk<cr>
+nmap <leader>gga :GitGutterPreviewHunk<cr>
+" nmap <leader>ggs :GitGutterStageHunk<cr>
+nmap <leader>ggx :GitGutterUndoHunk<cr>
+nmap <leader>ggq :GitGutterQuickFix<cr>
+
+nmap <leader>ggs :Git<cr>
+nmap <leader>ggb :Git blame<cr>
+nmap <leader>ggd :Gvdiffsplit<cr>
+nmap <leader>ggg :Commits<cr>
+
+" terminal
+let g:floatterm_title = 'Terminal $1/$2'
+let g:floatterm_width = 0.85
+let g:floatterm_height = 0.85
+let g:floatterm_wintype = 'float'
+let g:floatterm_position = 'center'
+let g:floatterm_autohide = 0
+let g:floatterm_autoclose = 1
+let g:floatterm_autoinsert = 1
+
+nmap <leader>tt :FloatermNew! --disposable<cr>
+nmap <leader>vv :FloatermNew! --disposable vym && exit 0<cr>
+nmap <leader>mdp :FloatermNew! --disposable glow --pager % && exit 0<cr>
+
+" tagbar
+nmap <leader>toc :TagbarToggle<cr>
+
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+
+let g:UltiSnipsEnableSnipMate=0
+" let g:UltiSnipsSnippetsDir=[$XDG_CONFIG_HOME.'/vym/UltiSnips']
+let g:UltiSnipsSnippetDirectories=[$XDG_CONFIG_HOME.'/vym/UltiSnips']
+
+nmap <leader>x :UltiSnipsEdit<cr>
+
+" ALE
+let g:ale_completion_enabled = 1
+
+let g:float_preview#docked = 1
+"let g:float_preview#max_height = 5
+"let g:float_preview#max_width = 30
+
+" scroll *down* completion list (default=up)
+let g:SuperTabDefaultCompletionType = "<c-n>"
+
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'python': ['ruff', 'isort', 'black'],
+\}
+
+"let g:ale_python_autoimport_options = '--ignore-init-modules'
+"let g:ale_python_pyflyby_executable = 'tidy-imports'
+"let g:ale_python_pyflyby_options = '--add-missing --no-remove-unused --black'
+let g:ale_python_black_options = '--preview'
+
+" automatically show help for object under cursor
+" https://vi.stackexchange.com/a/34566
+" augroup ale_hover_cursor
+"   autocmd!
+"   autocmd CursorHold * ALEHover
+" augroup END
+
+" Automatically set the preview window height.
+"set previewheight=5
+"set winheight=5
+"au BufEnter ?* call PreviewHeightWorkAround()
+"function! PreviewHeightWorkAround()
+"  if &previewwindow
+"    exec 'setlocal winheight='.&previewheight
+"  endif
+"endfunc
+
+let g:ale_echo_delay = 500
+let g:ale_echo_cursor = 1
+let g:ale_hover_cursor = 1
+let g:ale_cursor_detail = 0
+let g:ale_set_loclist = 0
+let g:ale_set_quickfix = 1
+let g:ale_close_preview_on_insert = 0
+"let g:ale_hover_to_preview = 0
+"let g:ale_list_window_size = 5
+"let g:ale_set_balloons = 0
+"let g:ale_hover_to_floating_preview = 1
+
+let g:ale_linters_explicit = 1
+let g:ale_linters = {
+\   'python': ['pylsp', 'ruff', 'pylint', 'mypy'],
+\}
+
+let g:ale_python_pylsp_executable = 'pylsp'
+"let g:ale_python_pylint_use_msg_id = 0
+
+
+let g:ale_set_quickfix = 1
+
+let g:ale_python_pylsp_config = {
+\   'pylsp': {
+\     'plugins': {
+\       'ruff': {
+\         'enabled': v:false,
+\         'config': 'ruff.toml',
+\       },
+\       'pylint': {
+\         'enabled': v:false,
+\       },
+\       'flake8': {
+\         'enabled': v:false,
+\       },
+\       'pyflakes': {
+\         'enabled': v:false,
+\       },
+\       'pycodestyle': {
+\         'enabled': v:false,
+\       },
+\       'pydocstyle': {
+\         'enabled': v:false,
+\       },
+\       'autopep8': {
+\         'enabled': v:false,
+\       },
+\       'rope_autoimport': {
+\         'enabled': v:false,
+\       },
+\       'rope_completion': {
+\         'enabled': v:false,
+\       },
+\     },
+\   },
+\}
+
+" python-docstring
+let g:vpd_indent = '    '
+let g:python_style = 'google'
+nmap <leader>pds :Docstring<cr>
+nmap <leader>pdt :DocstringTypes<cr>
