@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: httpsrequests
+Version: 1
+Summary: La boutfisellence
+Home-page: https://fisel.com
+Author: KARIM BOUTFISEL
+Author-email: kaka@caca.fr
+License: UNKNOWN
+Description: A good boutfisel for print things
+        VIVE LA FRANCE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
