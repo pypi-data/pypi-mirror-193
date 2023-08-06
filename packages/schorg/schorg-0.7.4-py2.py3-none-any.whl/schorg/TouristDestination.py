@@ -1,0 +1,290 @@
+"""
+A tourist destination. In principle any [[Place]] can be a [[TouristDestination]] from a [[City]], Region or [[Country]] to an [[AmusementPark]] or [[Hotel]]. This Type can be used on its own to describe a general [[TouristDestination]], or be used as an [[additionalType]] to add tourist relevant properties to any other [[Place]].  A [[TouristDestination]] is defined as a [[Place]] that contains, or is colocated with, one or more [[TouristAttraction]]s, often linked by a similar theme or interest to a particular [[touristType]]. The [UNWTO](http://www2.unwto.org/) defines Destination (main destination of a tourism trip) as the place visited that is central to the decision to take the trip.  (See examples below.)
+
+https://schema.org/TouristDestination
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class TouristDestinationInheritedProperties(TypedDict):
+    """A tourist destination. In principle any [[Place]] can be a [[TouristDestination]] from a [[City]], Region or [[Country]] to an [[AmusementPark]] or [[Hotel]]. This Type can be used on its own to describe a general [[TouristDestination]], or be used as an [[additionalType]] to add tourist relevant properties to any other [[Place]].  A [[TouristDestination]] is defined as a [[Place]] that contains, or is colocated with, one or more [[TouristAttraction]]s, often linked by a similar theme or interest to a particular [[touristType]]. The [UNWTO](http://www2.unwto.org/) defines Destination (main destination of a tourism trip) as the place visited that is central to the decision to take the trip.  (See examples below.)
+
+    References:
+        https://schema.org/TouristDestination
+    Note:
+        Model Depth 3
+    Attributes:
+        geoCovers: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents a relationship between two geometries (or the places they represent), relating a covering geometry to a covered geometry. "Every point of b is a point of (the interior or boundary of) a". As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+        longitude: (Optional[Union[List[Union[StrictInt, StrictFloat, SchemaOrgObj, str]], StrictInt, StrictFloat, SchemaOrgObj, str]]): The longitude of a location. For example ```-122.08585``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
+        smokingAllowed: (Optional[Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]]): Indicates whether it is allowed to smoke in the place, e.g. in the restaurant, hotel or hotel room.
+        isicV4: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.
+        globalLocationNumber: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The [Global Location Number](http://www.gs1.org/gln) (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
+        amenityFeature: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): An amenity feature (e.g. a characteristic or service) of the Accommodation. This generic property does not make a statement about whether the feature is included in an offer for the main accommodation or available at extra costs.
+        additionalProperty: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A property-value pair representing an additional characteristic of the entity, e.g. a product feature or another characteristic for which there is no matching property in schema.org.Note: Publishers should be aware that applications designed to use specific schema.org properties (e.g. https://schema.org/width, https://schema.org/color, https://schema.org/gtin13, ...) will typically expect such data to be provided using those properties, rather than using the generic property/value mechanism.
+        slogan: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A slogan or motto associated with the item.
+        photos: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Photographs of this place.
+        keywords: (Optional[Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]]): Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property.
+        reviews: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Review of the item.
+        tourBookingPage: (Optional[Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]]): A page providing information on how to book a tour of some [[Place]], such as an [[Accommodation]] or [[ApartmentComplex]] in a real estate setting, as well as other kinds of tours as appropriate.
+        geoWithin: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents a relationship between two geometries (or the places they represent), relating a geometry to one that contains it, i.e. it is inside (i.e. within) its interior. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+        containsPlace: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The basic containment relation between a place and another that it contains.
+        review: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A review of the item.
+        hasMap: (Optional[Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]]): A URL to a map of the place.
+        containedIn: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The basic containment relation between a place and one that contains it.
+        events: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Upcoming or past events associated with this place or organization.
+        geoOverlaps: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents a relationship between two geometries (or the places they represent), relating a geometry to another that geospatially overlaps it, i.e. they have some but not all points in common. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+        geoEquals: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents spatial relations in which two geometries (or the places they represent) are topologically equal, as defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM). "Two geometries are topologically equal if their interiors intersect and no part of the interior or boundary of one geometry intersects the exterior of the other" (a symmetric relationship).
+        maps: (Optional[Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]]): A URL to a map of the place.
+        isAccessibleForFree: (Optional[Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]]): A flag to signal that the item, event, or place is accessible for free.
+        event: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Upcoming or past event associated with this place, organization, or action.
+        photo: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A photograph of this place.
+        containedInPlace: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The basic containment relation between a place and one that contains it.
+        logo: (Optional[Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]]): An associated logo.
+        geoCrosses: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents a relationship between two geometries (or the places they represent), relating a geometry to another that crosses it: "a crosses b: they have some but not all interior points in common, and the dimension of the intersection is less than that of at least one of them". As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+        address: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Physical address of the item.
+        geo: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The geo coordinates of the place.
+        openingHoursSpecification: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The opening hours of a certain place.
+        geoDisjoint: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents spatial relations in which two geometries (or the places they represent) are topologically disjoint: "they have no point in common. They form a set of disconnected geometries." (A symmetric relationship, as defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).)
+        geoIntersects: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents spatial relations in which two geometries (or the places they represent) have at least one point in common. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+        latitude: (Optional[Union[List[Union[StrictInt, StrictFloat, SchemaOrgObj, str]], StrictInt, StrictFloat, SchemaOrgObj, str]]): The latitude of a location. For example ```37.42242``` ([WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System)).
+        maximumAttendeeCapacity: (Optional[Union[List[Union[str, SchemaOrgObj, int]], str, SchemaOrgObj, int]]): The total number of individuals that may attend an event or venue.
+        aggregateRating: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The overall rating, based on a collection of reviews or ratings, of the item.
+        map: (Optional[Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]]): A URL to a map of the place.
+        branchCode: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A short textual code (also called "store code") that uniquely identifies a place of business. The code is typically assigned by the parentOrganization and used in structured URLs.For example, in the URL http://www.starbucks.co.uk/store-locator/etc/detail/3047 the code "3047" is a branchCode for a particular branch.
+        faxNumber: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The fax number.
+        publicAccess: (Optional[Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]]): A flag to signal that the [[Place]] is open to public visitors.  If this property is omitted there is no assumed default boolean value
+        geoTouches: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents spatial relations in which two geometries (or the places they represent) touch: "they have at least one boundary point in common, but no interior points." (A symmetric relationship, as defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).)
+        geoCoveredBy: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents a relationship between two geometries (or the places they represent), relating a geometry to another that covers it. As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+        telephone: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The telephone number.
+        hasDriveThroughService: (Optional[Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]]): Indicates whether some facility (e.g. [[FoodEstablishment]], [[CovidTestingFacility]]) offers a service that can be used by driving through in a car. In the case of [[CovidTestingFacility]] such facilities could potentially help with social distancing from other potentially-infected users.
+        specialOpeningHoursSpecification: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The special opening hours of a certain place.Use this to explicitly override general opening hours brought in scope by [[openingHoursSpecification]] or [[openingHours]].
+        geoContains: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Represents a relationship between two geometries (or the places they represent), relating a containing geometry to a contained geometry. "a contains b iff no points of b lie in the exterior of a, and at least one point of the interior of b lies in the interior of a". As defined in [DE-9IM](https://en.wikipedia.org/wiki/DE-9IM).
+    """
+
+    geoCovers: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    longitude: NotRequired[
+        Union[
+            List[Union[StrictInt, StrictFloat, SchemaOrgObj, str]],
+            StrictInt,
+            StrictFloat,
+            SchemaOrgObj,
+            str,
+        ]
+    ]
+    smokingAllowed: NotRequired[
+        Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]
+    ]
+    isicV4: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    globalLocationNumber: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    amenityFeature: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    additionalProperty: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    slogan: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    photos: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    keywords: NotRequired[
+        Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]
+    ]
+    reviews: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    tourBookingPage: NotRequired[
+        Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]
+    ]
+    geoWithin: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    containsPlace: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    review: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    hasMap: NotRequired[
+        Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]
+    ]
+    containedIn: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    events: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    geoOverlaps: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    geoEquals: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    maps: NotRequired[
+        Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]
+    ]
+    isAccessibleForFree: NotRequired[
+        Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]
+    ]
+    event: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    photo: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    containedInPlace: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    logo: NotRequired[
+        Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]
+    ]
+    geoCrosses: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    address: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    geo: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    openingHoursSpecification: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    geoDisjoint: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    geoIntersects: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    latitude: NotRequired[
+        Union[
+            List[Union[StrictInt, StrictFloat, SchemaOrgObj, str]],
+            StrictInt,
+            StrictFloat,
+            SchemaOrgObj,
+            str,
+        ]
+    ]
+    maximumAttendeeCapacity: NotRequired[
+        Union[List[Union[str, SchemaOrgObj, int]], str, SchemaOrgObj, int]
+    ]
+    aggregateRating: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    map: NotRequired[
+        Union[List[Union[AnyUrl, SchemaOrgObj, str]], AnyUrl, SchemaOrgObj, str]
+    ]
+    branchCode: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    faxNumber: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    publicAccess: NotRequired[
+        Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]
+    ]
+    geoTouches: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    geoCoveredBy: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    telephone: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    hasDriveThroughService: NotRequired[
+        Union[List[Union[SchemaOrgObj, str, StrictBool]], SchemaOrgObj, str, StrictBool]
+    ]
+    specialOpeningHoursSpecification: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    geoContains: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+
+
+class TouristDestinationProperties(TypedDict):
+    """A tourist destination. In principle any [[Place]] can be a [[TouristDestination]] from a [[City]], Region or [[Country]] to an [[AmusementPark]] or [[Hotel]]. This Type can be used on its own to describe a general [[TouristDestination]], or be used as an [[additionalType]] to add tourist relevant properties to any other [[Place]].  A [[TouristDestination]] is defined as a [[Place]] that contains, or is colocated with, one or more [[TouristAttraction]]s, often linked by a similar theme or interest to a particular [[touristType]]. The [UNWTO](http://www2.unwto.org/) defines Destination (main destination of a tourism trip) as the place visited that is central to the decision to take the trip.  (See examples below.)
+
+    References:
+        https://schema.org/TouristDestination
+    Note:
+        Model Depth 3
+    Attributes:
+        includesAttraction: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Attraction located at destination.
+        touristType: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Attraction suitable for type(s) of tourist. E.g. children, visitors from a particular country, etc.
+    """
+
+    includesAttraction: NotRequired[
+        Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]
+    ]
+    touristType: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+
+
+class TouristDestinationAllProperties(
+    TouristDestinationInheritedProperties, TouristDestinationProperties, TypedDict
+):
+    pass
+
+
+class TouristDestinationBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="TouristDestination", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+
+        fields = {"geoCovers": {"exclude": True}}
+        fields = {"longitude": {"exclude": True}}
+        fields = {"smokingAllowed": {"exclude": True}}
+        fields = {"isicV4": {"exclude": True}}
+        fields = {"globalLocationNumber": {"exclude": True}}
+        fields = {"amenityFeature": {"exclude": True}}
+        fields = {"additionalProperty": {"exclude": True}}
+        fields = {"slogan": {"exclude": True}}
+        fields = {"photos": {"exclude": True}}
+        fields = {"keywords": {"exclude": True}}
+        fields = {"reviews": {"exclude": True}}
+        fields = {"tourBookingPage": {"exclude": True}}
+        fields = {"geoWithin": {"exclude": True}}
+        fields = {"containsPlace": {"exclude": True}}
+        fields = {"review": {"exclude": True}}
+        fields = {"hasMap": {"exclude": True}}
+        fields = {"containedIn": {"exclude": True}}
+        fields = {"events": {"exclude": True}}
+        fields = {"geoOverlaps": {"exclude": True}}
+        fields = {"geoEquals": {"exclude": True}}
+        fields = {"maps": {"exclude": True}}
+        fields = {"isAccessibleForFree": {"exclude": True}}
+        fields = {"event": {"exclude": True}}
+        fields = {"photo": {"exclude": True}}
+        fields = {"containedInPlace": {"exclude": True}}
+        fields = {"logo": {"exclude": True}}
+        fields = {"geoCrosses": {"exclude": True}}
+        fields = {"address": {"exclude": True}}
+        fields = {"geo": {"exclude": True}}
+        fields = {"openingHoursSpecification": {"exclude": True}}
+        fields = {"geoDisjoint": {"exclude": True}}
+        fields = {"geoIntersects": {"exclude": True}}
+        fields = {"latitude": {"exclude": True}}
+        fields = {"maximumAttendeeCapacity": {"exclude": True}}
+        fields = {"aggregateRating": {"exclude": True}}
+        fields = {"map": {"exclude": True}}
+        fields = {"branchCode": {"exclude": True}}
+        fields = {"faxNumber": {"exclude": True}}
+        fields = {"publicAccess": {"exclude": True}}
+        fields = {"geoTouches": {"exclude": True}}
+        fields = {"geoCoveredBy": {"exclude": True}}
+        fields = {"telephone": {"exclude": True}}
+        fields = {"hasDriveThroughService": {"exclude": True}}
+        fields = {"specialOpeningHoursSpecification": {"exclude": True}}
+        fields = {"geoContains": {"exclude": True}}
+        fields = {"includesAttraction": {"exclude": True}}
+        fields = {"touristType": {"exclude": True}}
+
+
+def create_schema_org_model(
+    type_: Union[
+        TouristDestinationProperties,
+        TouristDestinationInheritedProperties,
+        TouristDestinationAllProperties,
+    ] = TouristDestinationAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "TouristDestination"
+    return model
+
+
+TouristDestination = create_schema_org_model()
+
+
+def create_touristdestination_model(
+    model: Union[
+        TouristDestinationProperties,
+        TouristDestinationInheritedProperties,
+        TouristDestinationAllProperties,
+    ]
+):
+    _type = deepcopy(TouristDestinationAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            raise TypeError(f"{k} not part of TouristDestinationAllProperties")
+    delete_keys = []
+    for k in _type.__annotations__.keys():
+        if k not in model.__annotations__:
+            delete_keys.append(k)
+    for k in delete_keys:
+        del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: TouristDestinationAllProperties):
+    pydantic_type = create_touristdestination_model(model=model)
+    return pydantic_type(model).schema_json()
