@@ -1,0 +1,17 @@
+digestparser/__init__.py,sha256=LFiR12u2mE9Vv_k2xkwq9vUKiWQQB8QTXehiQP_P02w,285
+digestparser/build.py,sha256=Jzy8KbdT7R8F95Ht11rrWE53npgVRvujciOFP3eF6Vk,4551
+digestparser/conf.py,sha256=yp9y1zZFL_GSigYcB-0lI1r_gC1111oCEQjF8froIHc,1515
+digestparser/html.py,sha256=J4YCKga1VBfHk2b3mnXdiOBMFB2hD8VW0dDT_cwZTg8,1203
+digestparser/jats.py,sha256=e8OJZ2H8i_0OpfHRim8kI4eupeKCoyAHoPOJCCCpXRc,3783
+digestparser/json_output.py,sha256=c1hNvBy2mFksQ2lPDqVq5PJ0G1wtruhQ-VA3Cnhhg1M,6173
+digestparser/medium_post.py,sha256=yD44fwdSXU5HqmtUPTlyEqQ4ZvYfZ0pmKjZ-vbpFNRc,7325
+digestparser/objects.py,sha256=3ERthTW38cynHOOkBqSUexkhomCPPZKHd6aHEFzvDWw,735
+digestparser/output.py,sha256=xrbVTS04VPhibIWxpv5V1m7QvRXyxdtj9wmcRZljwzQ,2944
+digestparser/parse.py,sha256=mR3bEiVcVS7Tk4uIfueRWTLrBod1_Ni7BDqyLqMsx0c,4682
+digestparser/utils.py,sha256=EN-pwbhVLjCk2GolBogoZFn8OgRvKqIBI7q-knNEsrQ,1585
+digestparser/zip.py,sha256=fCwtR4PCTTiHFAGfDpoDj8ag-1lGkQomRUEqIxq0nDw,2639
+digestparser-0.2.0.dist-info/LICENSE,sha256=tVf-s04sTJPXmlI9jPJVOZjNf_B18eIIh71p11oNfNs,1071
+digestparser-0.2.0.dist-info/METADATA,sha256=lO49p4JhfF3FqU0__Ynd3b75un1vI016xrWO69g0Wfo,3323
+digestparser-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+digestparser-0.2.0.dist-info/top_level.txt,sha256=c3S4fR-j4AOtIWbryaS6bmgrRg56V4DwKq4hI_uNcUc,13
+digestparser-0.2.0.dist-info/RECORD,,
