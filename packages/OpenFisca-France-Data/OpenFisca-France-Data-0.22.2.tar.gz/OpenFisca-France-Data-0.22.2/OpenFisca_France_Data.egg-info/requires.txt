@@ -1,0 +1,17 @@
+click<9.0.0,>=8.0.0
+matplotlib<4.0.0,>=3.1.1
+multipledispatch<1.0.0,>=0.6.0
+openFisca-france<120.0.0,>=113.0.0
+openFisca-survey-manager<1.0.0,>=0.44.2
+wquantiles<1.0.0,>=0.3.0
+
+[test]
+autopep8<1.5.0,>=1.4.0
+flake8<3.8.0,>=3.7.0
+ipython<8.0.0,>=7.5.0
+mypy<1.0.0,>=0.670
+pytest<5.0.0,>=4.3.0
+pytest-cov<3.0.0,>=2.6.0
+scipy<2.0.0,>=1.2.1
+toolz<1.0.0,>=0.9.0
+bumpver>=2022.1120
