@@ -1,0 +1,4 @@
+django==3.2.18
+DBUtils
+pymysql
+psycopg2

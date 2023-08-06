@@ -1,0 +1,13 @@
+README.md
+setup.py
+django_pooldb.egg-info/PKG-INFO
+django_pooldb.egg-info/SOURCES.txt
+django_pooldb.egg-info/dependency_links.txt
+django_pooldb.egg-info/requires.txt
+django_pooldb.egg-info/top_level.txt
+pooldb/__init__.py
+pooldb/backends/__init__.py
+pooldb/backends/mysql/__init__.py
+pooldb/backends/mysql/base.py
+pooldb/backends/postgresql/__init__.py
+pooldb/backends/postgresql/base.py
