@@ -1,0 +1,2 @@
+[console_scripts]
+scosbrowser = pyscos2000.browser:main
