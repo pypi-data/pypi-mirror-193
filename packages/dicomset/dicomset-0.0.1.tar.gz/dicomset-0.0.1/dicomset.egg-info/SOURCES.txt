@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+dicomset.egg-info/PKG-INFO
+dicomset.egg-info/SOURCES.txt
+dicomset.egg-info/dependency_links.txt
+dicomset.egg-info/top_level.txt
