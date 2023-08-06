@@ -1,0 +1,8 @@
+starlette_jhalog/__init__.py,sha256=AK8Kygd0hENyY05ZMkND4Ldra2B3ncUOygTOhd1pfaY,230
+starlette_jhalog/_exceptions.py,sha256=YQspVpKeAtAfqONw5LcsUFstzDO64-N2wVxyAJRkH_s,637
+starlette_jhalog/_middleware.py,sha256=szMGMI1kSyATEibl77r_ysmrw8hF9jdv1xPOzMCIlXU,3987
+starlette_jhalog/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starlette_jhalog-0.1.1.dist-info/LICENSE,sha256=L2N7a3CNFvLq29K6HI4dmX5XO-tUbYPXvun580X0Nbs,1261
+starlette_jhalog-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+starlette_jhalog-0.1.1.dist-info/METADATA,sha256=HBxktjri_UVKnREC4-RhUSW13r3L0rmqhO5HhhQRc5M,1454
+starlette_jhalog-0.1.1.dist-info/RECORD,,
