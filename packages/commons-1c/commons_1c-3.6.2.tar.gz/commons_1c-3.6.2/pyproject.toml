@@ -1,0 +1,36 @@
+[tool.poetry]
+authors = ["Cujoko <cujoko@gmail.com>"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Russian",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development",
+    "Topic :: Utilities"
+]
+description = "Commons for 1C:Enterprise"
+keywords = ["1c", "commons"]
+license = "MIT"
+name = "commons-1c"
+packages = [{include = "commons_1c"}]
+readme = "README.md"
+repository = "https://github.com/Cujoko/commons-1c"
+version = "3.6.2"
+
+[tool.poetry.dependencies]
+appdirs = "^1.4.4"
+cjk-commons = "^3.6.2"
+loguru = "^0.6.0"
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.16.2"
+pytest = "^7.2.1"
+rope = "^1.7.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
