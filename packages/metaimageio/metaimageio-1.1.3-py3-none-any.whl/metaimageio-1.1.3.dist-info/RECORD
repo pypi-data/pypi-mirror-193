@@ -1,0 +1,11 @@
+metaimageio/__init__.py,sha256=UPLbXSkS-YAEwj6w1tpzxoVi2pOcbQ-w7Rif3_729YE,208
+metaimageio/imageio.py,sha256=zsgVCfAogJScawCf-Xg9BLzenUlY2xvglMqPXO81E7Y,2737
+metaimageio/reader.py,sha256=CE4b6p8uTG8L_olqL3iUhWNS3HClRenSQ-cKMNPwEuw,9741
+metaimageio/util.py,sha256=_5KWZr8J4rvMd9wrAsI1Y_1dX-xmRVDNzy58UjoCvwA,1596
+metaimageio/version.py,sha256=EjzST3KPPHOqCgRcx-9lc8o6d0ds2S4-zJQ91mMRzXc,22
+metaimageio/writer.py,sha256=PmvPR5cLGLVZKFVJUeSm3_qFs_1tPEdW3lDDTxIWYYY,6918
+metaimageio-1.1.3.dist-info/LICENSE.md,sha256=ftqzblYS7qOFzURDOvfFYCAemnytCPGvYn7Iuy9otJI,1077
+metaimageio-1.1.3.dist-info/METADATA,sha256=LZPLpWLboGQm3POb31lW0AygwUF0F7TkzvKCrxu0gD8,2142
+metaimageio-1.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+metaimageio-1.1.3.dist-info/top_level.txt,sha256=6WULh5fMRJj_6UDLOndQZvcwQh90UFCpePi2Rg3RR7s,12
+metaimageio-1.1.3.dist-info/RECORD,,
