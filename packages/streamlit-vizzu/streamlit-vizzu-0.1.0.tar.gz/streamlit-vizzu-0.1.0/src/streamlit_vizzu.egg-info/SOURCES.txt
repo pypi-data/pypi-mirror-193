@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/streamlit_vizzu/__init__.py
+src/streamlit_vizzu/chart.py
+src/streamlit_vizzu.egg-info/PKG-INFO
+src/streamlit_vizzu.egg-info/SOURCES.txt
+src/streamlit_vizzu.egg-info/dependency_links.txt
+src/streamlit_vizzu.egg-info/requires.txt
+src/streamlit_vizzu.egg-info/top_level.txt
