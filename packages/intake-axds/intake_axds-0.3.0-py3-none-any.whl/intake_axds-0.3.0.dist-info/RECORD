@@ -1,0 +1,11 @@
+intake_axds/__init__.py,sha256=iWnjl_5Kwzk6Z64bZZjmmjmWwX95XMfI9QxoKKPspFM,341
+intake_axds/_version.py,sha256=5mDtfU2t04ATmg92S5B-scUcdjCy1ZBq620y3GmpdtQ,21
+intake_axds/axds.py,sha256=YpJ7Rb-P80P7V9FVzChsyNQ6yfnujvY2kxybicZi7UA,16059
+intake_axds/axds_cat.py,sha256=Kfjf23t8v79UixllF1fmtzlBPzTWoEXR65aod5ATky4,25918
+intake_axds/utils.py,sha256=Y3tD-3f_ePYv41dX1ea3UpBke5fHhF-vK3qRgL2kLD0,12264
+intake_axds-0.3.0.dist-info/LICENSE.txt,sha256=bolgTtGf6rHq7Sx3-p5jshtO7uB4gCnv31hqFxsbBKw,1086
+intake_axds-0.3.0.dist-info/METADATA,sha256=LGEJrjbtFxQ8_z1gZUEaqGt4eKq9KHvzXvmFgXEmKg0,2465
+intake_axds-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+intake_axds-0.3.0.dist-info/entry_points.txt,sha256=XYkxNWTU4HNqhOjoRnYG_ZnOc9JLNhx1Dt7oBr71kNs,109
+intake_axds-0.3.0.dist-info/top_level.txt,sha256=qrURmYxAmiWvyXKzXY06BO2xCjYtjvcTcTnWBjZG5lU,12
+intake_axds-0.3.0.dist-info/RECORD,,
