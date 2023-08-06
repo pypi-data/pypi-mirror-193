@@ -1,0 +1,4 @@
+[console_scripts]
+ru-proverbs=ru_proverbs.__main__:main
+ru_proverbs=ru_proverbs.__main__:main
+
