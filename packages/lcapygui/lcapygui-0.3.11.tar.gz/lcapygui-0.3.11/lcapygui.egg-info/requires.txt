@@ -1,0 +1,12 @@
+importlib
+importlib-metadata
+lcapy>=1.12
+matplotlib
+numpy
+pathlib
+pillow>=9.4.0
+setuptools
+svgpath2mpl
+svgpathtools
+tk
+tkhtmlview
