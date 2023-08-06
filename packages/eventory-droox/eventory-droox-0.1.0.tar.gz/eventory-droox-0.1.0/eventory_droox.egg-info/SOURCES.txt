@@ -1,0 +1,7 @@
+LICENSE
+eventory.py
+pyproject.toml
+eventory_droox.egg-info/PKG-INFO
+eventory_droox.egg-info/SOURCES.txt
+eventory_droox.egg-info/dependency_links.txt
+eventory_droox.egg-info/top_level.txt
