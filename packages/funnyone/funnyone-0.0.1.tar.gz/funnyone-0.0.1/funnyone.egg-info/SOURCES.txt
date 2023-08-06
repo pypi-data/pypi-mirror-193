@@ -1,0 +1,9 @@
+README.md
+setup.py
+funnyone/__init__.py
+funnyone.egg-info/PKG-INFO
+funnyone.egg-info/SOURCES.txt
+funnyone.egg-info/dependency_links.txt
+funnyone.egg-info/not-zip-safe
+funnyone.egg-info/requires.txt
+funnyone.egg-info/top_level.txt
