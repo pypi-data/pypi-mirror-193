@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: nlecloud-framework
+Version: 0.0.5
+Summary: nlecloud_framework框架
+Home-page: https://github.com/redrose2100/lamb-common
+Author: redrose2100
+Author-email: 954742660@qq.com
+Maintainer: dalyer
+Maintainer-email: 954742660@qq.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+此框架是基于tornado的web框架
+当然其中也包含了很多的库
+
+
+
+```python
+# 框架引用
+from seven_framework.web_tornado.base_tornado import *
+from seven_framework.web_tornado.monitor import MonitorHandler
+import seven_studio.route
+from seven_cloudapp_frame.handlers.server import *
+from seven_cloudapp_frame.handlers.core import *
+from handlers.server import *
+
+class Application(tornado.web.Application):
+    def __init__(self):
+        application_settings = dict(
+            # 键为template_path固定的，值为要存放HTML的文件夹名称
+            template_path=os.path.join(os.path.dirname(__file__), "templates"),
+            static_path=os.path.join(os.path.dirname(__file__), "static"),
+            autoescape=None,
+            xsrf_cookies=True)
+
+        # cookie密钥
+        cookie_secret = config.get_value("cookie_secret")
+        if cookie_secret:
+            application_settings["cookie_secret"] = cookie_secret
+
+        # 第三方session组件,存储memcached或redis
+        pycket = config.get_value("pycket")
+        if pycket:
+            application_settings["pycket"] = pycket
+
+        handlers = []
+
+        # 模块的路由可以独立开
+        handlers.extend(self.route_handlers())
+        # seven_studio路由
+        handlers.extend(seven_studio.route.seven_studio_route())
+
+        super().__init__(handlers, **application_settings)
+
+    def route_handlers(self):
+        return [
+            (r"/", IndexHandler),
+        ]
+
+def main():
+    logger_info.info('application begin')
+    try:
+        if platform.system() == "Windows":
+            import asyncio
+            asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
+        http_server = tornado.httpserver.HTTPServer(Application(), xheaders=True)
+        # 从配置中获取启动监听端口
+        http_server.listen(config.get_value("run_port"))
+        print(config.get_value("run_port"))
+        tornado.ioloop.IOLoop.instance().start()
+
+    except KeyboardInterrupt:
+        print("服务已停止运行")
+
+
+if __name__ == "__main__":
+    main()
+
+```
+
