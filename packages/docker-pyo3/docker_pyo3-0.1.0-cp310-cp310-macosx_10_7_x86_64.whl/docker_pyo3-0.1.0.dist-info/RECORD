@@ -1,0 +1,5 @@
+docker_pyo3-0.1.0.dist-info/METADATA,sha256=7J6TbKgIlD3UBBtsEu0vXFXezWCaHfTq4NINPGcNHUc,544
+docker_pyo3-0.1.0.dist-info/WHEEL,sha256=mYMJGf5yzZfKEZqKvc9V7LkxqTGtP_EfXdT7cvnCDi0,106
+docker_pyo3/__init__.py,sha256=wQH6SjVYI-kk-D3n2a5z3RgzCsgAM9CCEGn49gl31KQ,127
+docker_pyo3/docker_pyo3.cpython-310-darwin.so,sha256=DmCY3lQoeuSGAhNjshGCFHtzH-takuYGJkXodUb1inA,5541240
+docker_pyo3-0.1.0.dist-info/RECORD,,
