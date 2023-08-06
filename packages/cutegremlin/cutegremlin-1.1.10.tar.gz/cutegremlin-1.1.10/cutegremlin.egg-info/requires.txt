@@ -1,0 +1,7 @@
+boto3
+requests
+discord.py
+python-dotenv
+youtube-dl
+yt-dlp
+lmdb
