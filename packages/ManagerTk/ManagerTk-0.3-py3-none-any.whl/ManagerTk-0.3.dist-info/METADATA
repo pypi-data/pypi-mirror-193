@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ManagerTk
+Version: 0.3
+Summary: A small new package for easily using Tkinter.
+Author-email: "D.K. - DK404" <dk404.main@gmail.com>
+Project-URL: Homepage, https://github.com/DK404-main/ManagerTk
+Project-URL: Replit, https://replit.com/@DK404
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+## Read me
+
+
+### Writing...
