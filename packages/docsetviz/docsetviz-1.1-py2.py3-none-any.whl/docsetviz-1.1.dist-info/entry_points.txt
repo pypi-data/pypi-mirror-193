@@ -1,0 +1,2 @@
+[console_scripts]
+docsetviz = docsetviz.main:main
