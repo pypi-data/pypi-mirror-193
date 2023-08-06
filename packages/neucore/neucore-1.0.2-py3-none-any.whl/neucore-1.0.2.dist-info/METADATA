@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neucore
+Version: 1.0.2
+Summary: Ailiverse API Package
+Home-page: https://ailiverse.com
+Author: Nicholas Chua, Burhan Ul Tayyab
+Author-email: nicholas@ailiverse.com, burhan@ailiverse.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: tqdm
+Requires-Dist: yaspin
+
+UNKNOWN
+
+
