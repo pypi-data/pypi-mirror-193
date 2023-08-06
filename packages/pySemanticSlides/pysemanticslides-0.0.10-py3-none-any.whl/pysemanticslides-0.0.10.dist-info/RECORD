@@ -1,0 +1,11 @@
+slides/__init__.py,sha256=LFz870IUmDnNaRKCPtUWH5KfC_p8W1BKvQfJgR-6IFM,22
+slides/doi.py,sha256=Hebe83MD0qpLQLdhB3xcyH-JsZx2_q9y6boIjne5rnA,3020
+slides/keyvalue_parser.py,sha256=3OVxWgKwr1Fn9Algl0THu13_ZJnPrjLD7v32I-NTXPw,12127
+slides/semslides.py,sha256=husq3PzcSPDL-Z6c1-txWs4M43oZw56PkoQmrcpjw-0,2470
+slides/slidewalker.py,sha256=mBozCJVCtI_UT_zx3m_HTKGv3ly-fDvMeHoNPuNZNN4,14493
+slides/version.py,sha256=oQ2O0BFXIz3oJV1YYPBOSvRUnfekfWSXVWNB_OpsEq8,980
+pysemanticslides-0.0.10.dist-info/METADATA,sha256=IzDastytTCbvKz5MGSqcScmKSLIvuu2p9RsJ-Wcstoc,2964
+pysemanticslides-0.0.10.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pysemanticslides-0.0.10.dist-info/entry_points.txt,sha256=YgpGAvLY2pXv6MA-eXLdyAKIZNAhXtuSQIKTpILbCjU,90
+pysemanticslides-0.0.10.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysemanticslides-0.0.10.dist-info/RECORD,,
