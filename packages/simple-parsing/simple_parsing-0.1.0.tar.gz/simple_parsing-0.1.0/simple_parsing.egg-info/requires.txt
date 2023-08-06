@@ -1,0 +1,14 @@
+typing_extensions
+docstring-parser~=0.15
+
+[all]
+pytest-xdist
+pytest
+pyyaml
+
+[test]
+pytest
+pytest-xdist
+
+[yaml]
+pyyaml
