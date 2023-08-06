@@ -1,0 +1,106 @@
+[tool.poetry]
+name = "learning-machines-drift"
+version = "0.0.3"
+description = "A Python package for monitoring dataset drift in secure environments."
+authors = ["Sam Greenbury <sgreenbury@turing.ac.uk>", "Oscar Giles <ogiles@turing.ac.uk>", "Mahed Abroshan <mabroshan@turing.ac.uk>", "Jannetta Steyn <jannetta.steyn@newcastle.ac.uk>", "Jack Roberts <jroberts@turing.ac.uk>", "May Yong <myong@turing.ac.uk>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+pydantic = "^1.9.1"
+pygments = "^2.11.2"
+numpy = "^1.22.4"
+scipy = "^1.8.1"
+matplotlib = "^3.5.2"
+sdmetrics = "0.8.0"
+tabulate = "^0.8.10"
+pandas = "^1.5"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^3.0.0"
+pytest-mock = "^3.7.0"
+mypy = "^0.961"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+pre-commit = "^2.19.0"
+safety = "^2.2.0"
+pylint = "^2.14.1"
+wheel = "^0.38.1"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+myst-parser = "^0.18.1"
+sphinx-rtd-theme = "^1.1.1"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true
+plugins = ["numpy.typing.mypy_plugin", "pydantic.mypy"]
+
+# You can turn off complaints about missing imports for individual modules.
+# See https://mypy.readthedocs.io/en/stable/running_mypy.html#ignore-missing-imports
+# Example here:
+# [tool.mypy-module.*]
+# ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "scipy.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "pytest.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "matplotlib.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "pygments.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "pandas.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "sklearn.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "sdmetrics.*"
+ignore_missing_imports = true
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+name = "learning_machines_drift"
+version = "0.0.3"
+authors = [
+  { name="May Yong", email="myong@turing.ac.uk" },
+  { name="Sam Greenbury", email="sgreenbury@turing.ac.uk"},
+  { name="Jannetta Steyn", email="jannetta.steyn@newcastle.ac.uk"},
+  { name="Oscar Giles", email="ogiles@turing.ac.uk"},
+  { name="Mahed Abroshan", email="mabroshan@turing.ac.uk"},
+  { name="Jack Roberts", email="jroberts@turing.ac.uk"}
+]
+description = "A Python package for monitoring dataset drift in production ML pipelines."
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/alan-turing-institute/learning-machines-drift"
+"Bug Tracker" = "https://github.com/alan-turing-institute/learning-machines-drift/issues"
