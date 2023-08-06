@@ -1,0 +1,13 @@
+setup.py
+Data_Extract.egg-info/PKG-INFO
+Data_Extract.egg-info/SOURCES.txt
+Data_Extract.egg-info/dependency_links.txt
+Data_Extract.egg-info/top_level.txt
+Source/__init__.py
+Source/clearconsole.py
+Source/extractlist.py
+Source/extracttable.py
+Source/filterfile.py
+Source/initialize.py
+Source/randnum.py
+Source/randomhex.py
