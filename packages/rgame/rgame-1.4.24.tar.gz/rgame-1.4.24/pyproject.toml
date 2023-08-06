@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rgame"
+version = "1.4.24"
+authors = [
+  { name="Gyula Rabai", email="gyula.rabai@ipswich.school" },
+]
+description = "A python game engine/graphics library"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "GNU GPLv3"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: Microsoft :: Windows :: Windows 10"
+]
+
+[project.urls]
+"Homepage" = "https://gyularabai.wixsite.com/ipswich-school-game"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"rgame.RGame" = ["*.dll", "*.png"]

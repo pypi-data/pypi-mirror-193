@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/rgame/__init__.py
+src/rgame/rgame.py
+src/rgame.egg-info/PKG-INFO
+src/rgame.egg-info/SOURCES.txt
+src/rgame.egg-info/dependency_links.txt
+src/rgame.egg-info/top_level.txt
+src/rgame/RGame/Physics.dll
+src/rgame/RGame/RGamePic.png
+src/rgame/RGame/Time.dll
