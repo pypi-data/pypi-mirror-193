@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/aa2unicode/__init__.py
+src/aa2unicode/main.py
+src/aa2unicode.egg-info/PKG-INFO
+src/aa2unicode.egg-info/SOURCES.txt
+src/aa2unicode.egg-info/dependency_links.txt
+src/aa2unicode.egg-info/entry_points.txt
+src/aa2unicode.egg-info/top_level.txt
