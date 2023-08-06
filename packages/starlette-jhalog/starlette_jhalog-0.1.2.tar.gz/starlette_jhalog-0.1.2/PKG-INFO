@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: starlette-jhalog
+Version: 0.1.2
+Summary: Jhalog (JSON HTTP Access Log) middleware for Starlette/FastAPI
+Home-page: https://github.com/JGoutin/starlette-jhalog
+License: BSD-2-Clause
+Keywords: fastapi,starlette,logging,json
+Author: JGoutin
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: FastAPI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: System :: Logging
+Classifier: Typing :: Typed
+Requires-Dist: jhalog
+Requires-Dist: starlette
+Project-URL: Repository, https://github.com/JGoutin/starlette-jhalog
+Description-Content-Type: text/markdown
+
+![Tests](https://github.com/JGoutin/starlette-jhalog/workflows/tests/badge.svg)
+[![codecov](https://codecov.io/gh/JGoutin/starlette-jhalog/branch/main/graph/badge.svg)](https://codecov.io/gh/JGoutin/starlette-jhalog)
+[![PyPI](https://img.shields.io/pypi/v/starlette-jhalog.svg)](https://pypi.org/project/starlette-jhalog)
+
+# Jhalog (JSON HTTP Access Log) - Starlette/FastAPI middleware
+
+Starlette/FastAPI middleware to use Jhalog as access log.
+
+[Jhalog Specification](https://github.com/JGoutin/jhalog-spec)
+
+WIP
+
