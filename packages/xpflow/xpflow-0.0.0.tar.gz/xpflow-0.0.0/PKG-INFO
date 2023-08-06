@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: xpflow
+Version: 0.0.0
+Summary: Utilities for representing experiments with classes
+Home-page: https://github.com/sileod/xpflow
+Author: sileod
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pandit
+Pandas with some cool additional features
+
+### `sieve`
+```python
+df.sieve(column=value) # returns df rows where column equals value
+df.sieve(column=[value1,value2]) # returns df rows where column is value1 or value2
+```
+
+### `show`
+```python
+df.show() # shows multiple rows column by column (one line per column) with nice formatting
+```
+
+Also:
+
+### `read_tsv`
+### `read_jsonl`
+### `read_wandb(project_name)`
+### `drop_constant`
