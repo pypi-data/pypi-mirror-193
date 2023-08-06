@@ -1,0 +1,2 @@
+[hatch]
+aws-publisher = hatch_aws_publisher.hooks
