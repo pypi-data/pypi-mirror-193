@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: odoo14-addons-oca-l10n-argentina
+Version: 14.0.20230223.0
+Summary: Meta package for oca-l10n-argentina Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Requires-Dist: odoo14-addon-l10n-ar-account-move-tax
+Requires-Dist: odoo14-addon-l10n-ar-afipws
+Requires-Dist: odoo14-addon-l10n-ar-afipws-fe
+Requires-Dist: odoo14-addon-l10n-ar-bank
+Requires-Dist: odoo14-addon-l10n-ar-partner
+
+UNKNOWN
+
