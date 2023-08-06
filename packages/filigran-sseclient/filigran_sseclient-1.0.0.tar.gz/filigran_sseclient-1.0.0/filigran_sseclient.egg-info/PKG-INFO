@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: filigran-sseclient
+Version: 1.0.0
+Summary: Python API client for OpenCTI.
+Home-page: https://github.com/FiligranHQ/filigran-sseclient
+Author: Filigran
+Author-email: contact@filigran.io
+Maintainer: Filigran
+License: Copyright (c) 2015 Brent Tubbs
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: doc
+License-File: LICENSE
