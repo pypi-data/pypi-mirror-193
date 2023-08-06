@@ -1,0 +1,13 @@
+awkward>=2.0.8
+dask[complete]
+dask-awkward>=2023.2.0
+func-adl>=3.1
+numpy
+qastle>=0.16.0
+uproot>=5
+vector
+
+[test]
+flake8
+pytest
+pytest-cov
