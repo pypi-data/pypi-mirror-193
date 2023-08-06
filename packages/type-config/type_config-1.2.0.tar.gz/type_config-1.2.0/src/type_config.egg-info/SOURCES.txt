@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/setup.py
+src/type_config/__init__.py
+src/type_config/errors.py
+src/type_config.egg-info/PKG-INFO
+src/type_config.egg-info/SOURCES.txt
+src/type_config.egg-info/dependency_links.txt
+src/type_config.egg-info/top_level.txt
+tests/test_cleaning.py
+tests/test_create_config.py
+tests/test_get_option.py
+tests/test_getters.py
+tests/test_healing.py
+tests/test_merging.py
+tests/test_validation.py
