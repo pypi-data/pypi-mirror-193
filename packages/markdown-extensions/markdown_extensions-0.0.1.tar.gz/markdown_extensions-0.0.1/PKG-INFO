@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: markdown_extensions
+Version: 0.0.1
+Summary: Markdown Extensions
+Home-page: https://github.com/jameszhan/markdown-extensions
+Author: James Zhan
+Author-email: zhiqiangzhan@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# markdown-extensions
+
+Markdown extensions
