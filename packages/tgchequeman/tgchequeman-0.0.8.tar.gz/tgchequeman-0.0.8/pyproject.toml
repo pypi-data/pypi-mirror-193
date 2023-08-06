@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tgchequeman"
+version = "0.0.8"
+description = "This package is designed to automate the activation of multi-checks from multiple Telegram accounts. The package uses the Telethon library to interact with the Telegram API."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+"Homepage" = "https://github.com/Conradk10/tgchequeman"
+"Bug Tracker" = "https://github.com/Conradk10/tgchequeman/issues"
+
+[tool.setuptools]
+# ...
+# By default, include-package-data is true in pyproject.toml, so you do
+# NOT have to specify this line.
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tgchequeman = ["*.ttf"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
