@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: catlyst
+Version: 1
+Summary: Extracting Data using scrapy framework
+Author: Bhupendra Singh Solanki
+Author-email: <bhupsa.5550@gmail.com>
+License: UNKNOWN
+Keywords: python,data,school data,scraping
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: python
+Requires-Dist: scrapy
+
+A package that allows to extract data from a website which have information of schools and employees of schools 
+
