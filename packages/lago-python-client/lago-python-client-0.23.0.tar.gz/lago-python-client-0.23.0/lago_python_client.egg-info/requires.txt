@@ -1,0 +1,4 @@
+orjson
+requests~=2.28.2
+pydantic
+requests-mock
