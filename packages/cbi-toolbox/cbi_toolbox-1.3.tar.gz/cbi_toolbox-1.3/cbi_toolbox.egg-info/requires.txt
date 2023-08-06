@@ -1,0 +1,30 @@
+numpy>=1.17
+opencv-python
+scipy>=1.6.0
+scikit-image>=0.19
+poppy
+opensimplex>=0.4
+csc
+jax
+jaxlib
+optax
+pycsou
+
+[:platform_system != "Windows"]
+noise
+pyconcorde@ git+https://github.com/FrailHand/pyconcorde
+
+[docs]
+sphinx
+sphinxcontrib-apidoc
+sphinx_rtd_theme
+
+[mpi]
+mpi4py
+
+[ome]
+apeer-ometiff-library@ git+https://github.com/FrailHand/apeer-ometiff-library
+
+[plots]
+napari>=0.4
+matplotlib
