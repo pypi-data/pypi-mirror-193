@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    function templateHeaderImage() {
+      document.getElementById('header-logo').src = "https://storage.googleapis.com/static.numerously.com/report/numerous-images/numLogo_dark.svg";
+      document.getElementById('header-fixed-logo').src = "https://storage.googleapis.com/static.numerously.com/report/numerous-images/numLogo_horizontal_white.svg";
+      window.scrollTo(0, 0);
+    };
+  </script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <title>My First Report | but not the last | at all</title>
+
+  <link rel="shortcut icon" type="image/png"
+    href="https://storage.googleapis.com/static.numerously.com/report/numerous-images/num_favicon.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap" rel="stylesheet">
+  <!-- tooltip -->
+  <link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://storage.googleapis.com/static.numerously.com/report/styling_20012104.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://storage.googleapis.com/static.numerously.com/report/cop-graphics/cop-element-styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script>
+    // set up which elements can be edited
+    function onPageLoad() {
+      const isIframe = window.location !== window.parent.location;
+      if (isIframe) {
+        const allElements = document.querySelectorAll(
+          "div, th, td, text, h1, h2, h3, h4, h5, h6, h7, h8"
+        );
+        console.log("PAGELOAD");
+        allElements.forEach((element) => {
+          if (element.id.length > 0) element.className += " editable";
+        });
+      } else {
+        const allElements = document.querySelectorAll(".editable, .changed");
+        allElements.forEach((element) => {
+          let newClassName = element.className.replace(/editable/g, "");
+          newClassName = newClassName.replace(/changed/g, "");
+          element.className = newClassName;
+        });
+      }
+    }
+    window.addEventListener("load", onPageLoad);
+
+    // notify parent when scrolling
+    function onScroll(e) {
+      const top = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollData = { top };
+      window.parent.postMessage({ type: "SCROLL", payload: scrollData }, "*");
+    }
+    window.addEventListener("scroll", onScroll);
+
+    // notify parent on click ediable element
+    function onClick(e) {
+      const id = e.target.id;
+      const innerHTML = e.target.innerHTML;
+      const boundingRect = e.target.getBoundingClientRect();
+      const left = boundingRect.left + (boundingRect.right - boundingRect.left) / 2;
+      const top = boundingRect.top + window.pageYOffset;
+      const data = {
+        id,
+        innerHTML,
+        original: innerHTML,
+        pos: { top, left },
+      };
+      window.parent.postMessage({ type: "CLICK", payload: data }, "*");
+    }
+    window.addEventListener("click", onClick);
+
+    // recieving info from parents
+    window.addEventListener("message", recieveMessageReducer);
+    function recieveMessageReducer(msg) {
+      const action = msg.data;
+      switch (action.type) {
+        case "UPDATE_CONTENT":
+          onRecieveChanges(action.payload);
+          break;
+        case "DOWNLOAD_REPORT":
+          downloadMe(action.payload);
+          break;
+        case "SCROLL":
+        case "CLICK":
+          break;
+        default:
+          console.log({ unknownAction: action });
+      }
+    }
+
+    function onRecieveChanges(changes) {
+      // list of changes
+      changes.forEach((change) => {
+        const element = document.getElementById(change.id);
+        if (element) {
+          element.innerHTML = change.innerHTML;
+          if (change.innerHTML !== change.original) element.className += " changed";
+          else element.className = element.className.replace("changed", "");
+        }
+      });
+    }
+
+    function downloadMe(name) {
+      const content = document.documentElement.outerHTML;
+      const dataURI = "data:text/plain;charset=UTF-8," + encodeURIComponent(content);
+      let linkElement = document.createElement("a");
+      linkElement.setAttribute("href", dataURI);
+      linkElement.setAttribute("download", `${name}.html`);
+      linkElement.click();
+    }
+
+  </script>
+</head>
+
+<body>
+  <div class="fixed-header" id="fixed-header">
+    <div class="fixed-header-container">
+      <div class="fixed-header-container-left">
+        <h2><b>My Organization</b></h2>
+        <h2><b>My First Report</b>, but not the last, at all<h2>
+      </div>
+      <div class="fixed-header-container-right-num">
+        <img id="header-fixed-logo" class="fixed-header-logo">
+      </div>
+    </div>
+  </div>
+  <div class="report">
+    <div>
+      <a id="header-logo-link" href="https://www.numerous.com"><img id="header-logo" class="header-logo-num topLogo"></a>
+      <h1 id="header-report">My Organization</h1>
+      <div class="header">
+        <h1 id="header-title">My First Report</h1>
+        <h2 id="header-system">but not the last</h2>
+        <h4 id="header-subtitle">at all</h4>
+        <h4 id="header-sign"> 06-02-2023</h4>
+      </div>
+    </div>
+
+    <div><h1 class="section_title editable">Section 1</h1></div><div class='figure_div'>
+<div>                            <div id="1a10e617-bcb2-4b9c-9641-3fbbbe5ad6b2" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("1a10e617-bcb2-4b9c-9641-3fbbbe5ad6b2")) {                    Plotly.newPlot(                        "1a10e617-bcb2-4b9c-9641-3fbbbe5ad6b2",                        [{"x":[1,2,3],"y":[1,3,2],"type":"bar"}],                        {"title":{"text":"A Figure Specified By Python Dictionary"},"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmapgl":[{"type":"heatmapgl","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}}},                        {"displayModeBar": true, "responsive": true}                    )                };                            </script>        </div>
+</div>
+<div class="caption-section"><div class="caption"><b>Figure 1:</b> Test figure</div><div class="note"> <i>Note: Please notice x </i></div><div class="note"> <i>Note: Please notice y </i></div></div><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>a</th>
+      <th>b</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table><div class="caption-section"><div class="caption"><b>Table 1:</b> This is a test table</div></div>
+
+    <div class='disclaimer'>
+      <h2>My first footer</h2>
+      <h5>This is the end!</h5>
+    </div>
+  </div>
+
+  <script>
+    templateHeaderImage();
+  </script>
+
+  <script>
+    $('head').append('<link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/static.numerously.com/report/styling-graph_20012101.css">');
+    setTimeout(function () {
+      window.dispatchEvent(new Event('resize'));
+    }, 1000);
+  </script>
+
+  <script>
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+      if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+        document.getElementById("fixed-header").style.top = "0";
+      } else {
+        document.getElementById("fixed-header").style.top = "-65px";
+      }
+    }
+  </script>
+
+</body>
+</html>
