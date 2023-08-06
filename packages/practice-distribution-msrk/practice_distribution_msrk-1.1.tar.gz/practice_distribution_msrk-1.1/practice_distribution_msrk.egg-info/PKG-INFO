@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: practice-distribution-msrk
+Version: 1.1
+Summary: Gaussian distributions
+Author: Satya Rohith Kumar
+Author-email: rohithmeduri24@gmail.com
+Requires: matplotlib
+Requires: math
