@@ -1,0 +1,13 @@
+dotpack/__init__.py,sha256=mjXc_uzxhEsXc1VtsQSV09zZJtH4seMxuwVT-ilmuJI,147
+dotpack/ledbag.py,sha256=PPfNF1dikbAvdtSdGmyTMCpGUPzLPhHK2yGq2YIfzCg,13907
+dotpack/microblocks_client.py,sha256=4pXxBLeZCIXbGN9-2eC7EgSj9T6HLbw8ULhQE_-erQs,5592
+dotpack/simulator_tk.py,sha256=JmZAv7MwkWy35nqqcpOC5aW_vIRjY8YwbXpRvdRakHA,1905
+dotpack/utils.py,sha256=OIQNMxLWOi_pw6-jcBRc2D1GnaPepIS2mwLH4A-tRJQ,549
+dotpack/src/seguiemj.ttf,sha256=hr4oju1lYWhL5kX2cUCSEMkUgV44M6D8O1h8v2TAOSg,676304
+dotpack_tk-0.0.5.dist-info/AUTHORS.rst,sha256=GIr-qKkEPCBjfL_3ntIO7qns_zHOZO-Q2IrsT3AjBag,147
+dotpack_tk-0.0.5.dist-info/LICENSE,sha256=VIaUBMd7LjHk-PKeSmnYiBboJ8F_fsvFKqctTdZ7Ipc,1596
+dotpack_tk-0.0.5.dist-info/METADATA,sha256=UhiKdeVzl81Hl6JyTcRwRzkyhNFgEu5JGFmoZhJYMcI,1439
+dotpack_tk-0.0.5.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+dotpack_tk-0.0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+dotpack_tk-0.0.5.dist-info/top_level.txt,sha256=VomztdWdb4UpKguqXKI4lF8DsrQderEMaazCB1CQ7-A,8
+dotpack_tk-0.0.5.dist-info/RECORD,,
