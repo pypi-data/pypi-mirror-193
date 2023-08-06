@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/beautifultxt.egg-info/PKG-INFO
+src/beautifultxt.egg-info/SOURCES.txt
+src/beautifultxt.egg-info/dependency_links.txt
+src/beautifultxt.egg-info/requires.txt
+src/beautifultxt.egg-info/top_level.txt
