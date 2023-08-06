@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shacrypt
+Version: 0.0.1
+Summary: SHA256 Encryption Algorithm.
+Home-page: 
+Author: 64biit
+Author-email: sixtyfourblit@gmail.com
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+SHA256 is Encryption Algorithm for encrypting certain values. It was created by The National Security Agency and this is my implementation for the Python programming language.
