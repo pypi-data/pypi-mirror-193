@@ -1,0 +1,9 @@
+[console_scripts]
+expander-api = expander.api:main
+expander-cache-responder = expander.cache.responder:ExpanderCacheResponder.main
+expander-correlator = expander.correlator:ExpanderCorrelator.main
+expander-deduper = expander.deduper:ExpanderDeduper.main
+expander-peekaboo-submitter = expander.peekaboo.submitter:ExpanderPeekabooSubmitter.main
+expander-peekaboo-tracker = expander.peekaboo.tracker:ExpanderPeekabooTracker.main
+expander-poker = expander.poker:ExpanderPoker.main
+
