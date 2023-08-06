@@ -1,0 +1,10 @@
+bundleb2b_api_management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bundleb2b_api_management/company/__init__.py,sha256=T2m0vncLR2-BxA6im2qURoRbep4_vtlKs0uvRbCMqJs,184
+bundleb2b_api_management/company/company.py,sha256=pfBYxGKr4R9OYbQNS-nEGT4lp7Ex6cH0byuZRd5IF-A,11230
+bundleb2b_api_management/dataclass_functions/__init__.py,sha256=qwGVmxfU0xmB4G_CZTfh9gHVw46Dbi-dZHttV2midyQ,2818
+bundleb2b_api_management/settings.py,sha256=aJf4R2BbJnvCxdMdCWkv_5I_zVa6JDWOwQFiCYYdK9Q,63
+bundleb2b_api_management/user/__init__.py,sha256=FdzNMF1m1LnDglja83MFe5jAgnFfG2lOLvLHp7k8PHM,98
+bundleb2b_api_management/user/user.py,sha256=Eli3sPLUzHJxKsK64G0lTxyEApy7L_BWQspnNuQMKJo,5947
+bundleb2b_api_management-0.1.0.dist-info/METADATA,sha256=FkQ8F-i9KfDSqB894IxIazDdHgXtioV1a-pHY7b9X6w,446
+bundleb2b_api_management-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+bundleb2b_api_management-0.1.0.dist-info/RECORD,,
