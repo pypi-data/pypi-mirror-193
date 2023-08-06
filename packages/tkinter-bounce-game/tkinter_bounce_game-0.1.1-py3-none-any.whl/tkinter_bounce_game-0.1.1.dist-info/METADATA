@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tkinter-bounce-game
+Version: 0.1.1
+Summary: Simple bounce game with Python and tkinter
+License: MIT
+Author: 4513ECHO
+Author-email: 4513echo@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Games/Entertainment
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+# tkinter-bounce-game
+
+[![PyPI](https://img.shields.io/pypi/v/tkinter-bounce-game?color=blue)](https://pypi.org/project/tkinter-bounce-game/)
+
+Simple bounce game with Python and tkinter
+
+## Usage
+
+```sh
+python -m tkinter_bounce_game
+```
+
+Press `<Space>` to start and press `<Left>`/`<Right>` to move paddle.
+
+## Installation
+
+tkinter-bounce-game requires Python 3.10 or later with `tkinter` module.
+
+```sh
+pip install tkinter-bounce-game
+```
+
