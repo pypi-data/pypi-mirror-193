@@ -1,0 +1,10 @@
+README.md
+setup.py
+onnxdecoder/__init__.py
+onnxdecoder/main.py
+onnxdecoder/version.py
+onnxdecoder.egg-info/PKG-INFO
+onnxdecoder.egg-info/SOURCES.txt
+onnxdecoder.egg-info/dependency_links.txt
+onnxdecoder.egg-info/requires.txt
+onnxdecoder.egg-info/top_level.txt
