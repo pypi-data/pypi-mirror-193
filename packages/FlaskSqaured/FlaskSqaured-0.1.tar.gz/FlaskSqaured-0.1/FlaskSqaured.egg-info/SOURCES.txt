@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+FlaskSqaured/__init__.py
+FlaskSqaured/main.py
+FlaskSqaured.egg-info/PKG-INFO
+FlaskSqaured.egg-info/SOURCES.txt
+FlaskSqaured.egg-info/dependency_links.txt
+FlaskSqaured.egg-info/requires.txt
+FlaskSqaured.egg-info/top_level.txt
