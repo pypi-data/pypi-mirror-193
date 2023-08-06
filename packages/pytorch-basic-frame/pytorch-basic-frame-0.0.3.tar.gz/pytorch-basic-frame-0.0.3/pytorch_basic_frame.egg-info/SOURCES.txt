@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+pytorch_basic_frame.egg-info/PKG-INFO
+pytorch_basic_frame.egg-info/SOURCES.txt
+pytorch_basic_frame.egg-info/dependency_links.txt
+pytorch_basic_frame.egg-info/top_level.txt
+torchframe/__init__.py
+torchframe/main.py
+torchframe/mean_loss.py
+torchframe/parse_args.py
