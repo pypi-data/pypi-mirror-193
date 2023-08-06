@@ -1,0 +1,77 @@
+"""
+Represents the downpayment (up-front payment) price component of the total price for an offered product that has additional installment payments.
+
+https://schema.org/Downpayment
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class DownpaymentInheritedProperties(TypedDict):
+    """Represents the downpayment (up-front payment) price component of the total price for an offered product that has additional installment payments.
+
+    References:
+        https://schema.org/Downpayment
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+
+class DownpaymentProperties(TypedDict):
+    """Represents the downpayment (up-front payment) price component of the total price for an offered product that has additional installment payments.
+
+    References:
+        https://schema.org/Downpayment
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+
+class AllProperties(DownpaymentInheritedProperties , DownpaymentProperties, TypedDict):
+    pass
+
+
+class DownpaymentBaseModel(SchemaOrgBase):
+    id_ : Optional[Any] = Field(default="Downpayment",alias='@id')
+    context_ : Optional[Any] = Field(default=None,alias='@context')
+    graph_ : Optional[Any] = Field(default=None,alias='@graph')
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(type_: Union[DownpaymentProperties, DownpaymentInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "Downpayment"
+    return model
+    
+
+Downpayment = create_schema_org_model()
+
+
+def create_downpayment_model(model: AllProperties):
+    _type =  AllProperties.__annotations__.copy()
+    for k in model.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: AllProperties):
+    pydantic_type =  create_downpayment_model(model=model)
+    return pydantic_type(model).schema_json()
+
+

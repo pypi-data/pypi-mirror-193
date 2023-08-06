@@ -1,0 +1,105 @@
+"""
+A class of medical drugs, e.g., statins. Classes can represent general pharmacological class, common mechanisms of action, common physiological effects, etc.
+
+https://schema.org/DrugClass
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class DrugClassInheritedProperties(TypedDict):
+    """A class of medical drugs, e.g., statins. Classes can represent general pharmacological class, common mechanisms of action, common physiological effects, etc.
+
+    References:
+        https://schema.org/DrugClass
+    Note:
+        Model Depth 3
+    Attributes:
+        recognizingAuthority: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): If applicable, the organization that officially recognizes this entity as part of its endorsed system of medicine.
+        relevantSpecialty: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): If applicable, a medical specialty in which this entity is relevant.
+        medicineSystem: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): The system of medicine that includes this MedicalEntity, for example 'evidence-based', 'homeopathic', 'chiropractic', etc.
+        funding: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): A [[Grant]] that directly or indirectly provide funding or sponsorship for this item. See also [[ownershipFundingInfo]].
+        legalStatus: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): The drug or supplement's legal status, including any controlled substance schedules that apply.
+        study: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): A medical study or trial related to this entity.
+        guideline: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): A medical guideline related to this entity.
+        code: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): A medical code for the entity, taken from a controlled vocabulary or ontology such as ICD-9, DiseasesDB, MeSH, SNOMED-CT, RxNorm, etc.
+    """
+
+    recognizingAuthority: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    relevantSpecialty: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    medicineSystem: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    funding: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    legalStatus: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    study: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    guideline: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    code: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    
+
+
+class DrugClassProperties(TypedDict):
+    """A class of medical drugs, e.g., statins. Classes can represent general pharmacological class, common mechanisms of action, common physiological effects, etc.
+
+    References:
+        https://schema.org/DrugClass
+    Note:
+        Model Depth 3
+    Attributes:
+        drug: (Optional[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]): Specifying a drug or medicine used in a medication procedure.
+    """
+
+    drug: NotRequired[Union[List[Union[str, SchemaOrgObj]], str, SchemaOrgObj]]
+    
+
+
+class AllProperties(DrugClassInheritedProperties , DrugClassProperties, TypedDict):
+    pass
+
+
+class DrugClassBaseModel(SchemaOrgBase):
+    id_ : Optional[Any] = Field(default="DrugClass",alias='@id')
+    context_ : Optional[Any] = Field(default=None,alias='@context')
+    graph_ : Optional[Any] = Field(default=None,alias='@graph')
+
+    class Config:
+        
+        fields = {'recognizingAuthority': {'exclude': True}}
+        fields = {'relevantSpecialty': {'exclude': True}}
+        fields = {'medicineSystem': {'exclude': True}}
+        fields = {'funding': {'exclude': True}}
+        fields = {'legalStatus': {'exclude': True}}
+        fields = {'study': {'exclude': True}}
+        fields = {'guideline': {'exclude': True}}
+        fields = {'code': {'exclude': True}}
+        fields = {'drug': {'exclude': True}}
+        
+
+
+def create_schema_org_model(type_: Union[DrugClassProperties, DrugClassInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "DrugClass"
+    return model
+    
+
+DrugClass = create_schema_org_model()
+
+
+def create_drugclass_model(model: AllProperties):
+    _type =  AllProperties.__annotations__.copy()
+    for k in model.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: AllProperties):
+    pydantic_type =  create_drugclass_model(model=model)
+    return pydantic_type(model).schema_json()
+
+
