@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+rubbrband/cli.py
+rubbrband.egg-info/PKG-INFO
+rubbrband.egg-info/SOURCES.txt
+rubbrband.egg-info/dependency_links.txt
+rubbrband.egg-info/entry_points.txt
+rubbrband.egg-info/requires.txt
+rubbrband.egg-info/top_level.txt
