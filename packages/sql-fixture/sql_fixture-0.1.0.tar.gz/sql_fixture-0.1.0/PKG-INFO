@@ -1,0 +1,183 @@
+Metadata-Version: 2.1
+Name: sql_fixture
+Version: 0.1.0
+Summary: Load YAML data fixtures for SQLAlchemy ✨
+Project-URL: Homepage, https://github.com/yezz123/sql-fixture
+Project-URL: Funding, https://github.com/sponsors/yezz123
+Author-email: Yasser Tahiri <hello@yezz.me>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Requires-Dist: colorama
+Requires-Dist: pyyaml
+Requires-Dist: sqlalchemy<2.1.0,>=1.3.18
+Requires-Dist: typing-extensions<4.6.0,>=3.7.4
+Provides-Extra: lint
+Requires-Dist: mypy==1.0.1; extra == 'lint'
+Requires-Dist: pre-commit==3.1.0; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: codecov==2.1.12; extra == 'test'
+Requires-Dist: pytest-asyncio==0.20.3; extra == 'test'
+Requires-Dist: pytest-cov==4.0.0; extra == 'test'
+Requires-Dist: pytest-pretty; extra == 'test'
+Requires-Dist: pytest==7.2.1; extra == 'test'
+Description-Content-Type: text/markdown
+
+
+<p align="center">
+    <em>Define data in YAML format and load it into a relational database using SQLAlchemy✨</em>
+</p>
+
+<p align="center">
+<a href="https://codecov.io/gh/yezz123/sql-fixture">
+    <img src="https://codecov.io/gh/yezz123/sql-fixture/branch/main/graph/badge.svg"/>
+</a>
+</p>
+
+## Features
+
+- The YAML root contains a sequence of `mapper names`, such as `- User` and `- Profile.`
+- These names should be ordered based on relationship dependencies.
+- Each mapper name should contain a sequence of `instances`.
+- An `instance` is a mapping of attributes to values.
+- The attributes are derived from the mapper's `__init__()` method, which typically maps attributes to columns.
+- A special field called `__key__` can be used to identify instances in relationship references, such as `Profile.user.`
+- It is crucial to note that any `__key__` must be globally unique.
+- In a `to-one relationships`, data can be nested directly in the parent data definition.
+- References can access attributes using a dot notation, such as `xyz.profile.`
+- `To-many relationships` can be added as a list of references.
+
+### Example
+
+This module expose a single function `load(ModelBase, session, fixture_text, loader=None)`.
+
+- `ModelBase` is SQLAlchemy declarative base.
+- Session is SQLAlchemy session.
+- `fixture_text` is a string contain the `YAML` fixtures
+
+```py
+from sqlalchemy import create_engine
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import Session
+
+from sql_fixture import fixture
+
+BaseModel = declarative_base()
+
+class User(BaseModel):
+    __tablename__ = 'user'
+    id = Column(Integer, primary_key=True)
+    username = Column(String(150), nullable=False, unique=True)
+    email = Column(String(254), unique=True)
+
+
+def main():
+    engine = create_engine('sqlite://')
+    BaseModel.metadata.create_all(engine)
+    connection = engine.connect()
+    session = Session(bind=connection)
+
+    fixtures = """
+    - User:
+      - username: xyz
+        email: xyz@example.com
+      - username: abc
+        email: abc@example.com
+    """
+    fixture.load(BaseModel, session, fixtures)
+
+    print('\n'.join(u.username for u in session.query(User).all()))
+
+if __name__ == '__main__':
+    main()
+```
+
+__Note__: the `fixture.load()` function performs a `session.commit()`.
+
+> The `load()` function yields a `fixture.Store` instance. With this instance, you can utilize the `get()` method by providing a key argument to obtain a reference to the object that was added to the database. This approach is convenient for accessing attributes that were produced by the database.
+
+```py
+data = fixture.load(BaseModel, session, fixtures)
+my_obj = data.get('my_key')
+print(f"The id of my_obj is {my_obj.id}")
+```
+
+__Warning__ : The default YAML loading method employs `yaml.FullLoader`. However, this method is insecure when used to load untrusted input. To address this, it is feasible to replace the default loader with a different one by specifying the loader parameter within the `load()` function.
+
+## Installation
+
+You can add sql-fixture in a few easy steps. First of all, install the dependency:
+
+```shell
+$ pip install sql_fixture
+
+---> 100%
+
+Successfully installed sql_fixture
+```
+
+## Development 🚧
+
+### Setup environment 📦
+
+You should create a virtual environment and activate it:
+
+```bash
+python -m venv venv/
+```
+
+```bash
+source venv/bin/activate
+```
+
+And then install the development dependencies:
+
+```bash
+# Install dependencies
+pip install -e .[test,lint]
+```
+
+### Run tests 🌝
+
+You can run all the tests with:
+
+```bash
+bash scripts/test.sh
+```
+
+> Note: You can also generate a coverage report with:
+
+```bash
+bash scripts/test_html.sh
+```
+
+### Format the code 🍂
+
+Execute the following command to apply `pre-commit` formatting:
+
+```bash
+bash scripts/format.sh
+```
+
+Execute the following command to apply `mypy` type checking:
+
+```bash
+bash scripts/lint.sh
+```
+
+## License
+
+This project is licensed under the terms of the MIT license.
