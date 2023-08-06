@@ -1,0 +1,10 @@
+setup.py
+practice_distribution_msrk/Binomialdistribution.py
+practice_distribution_msrk/Gaussiandistribution.py
+practice_distribution_msrk/Generaldistribution.py
+practice_distribution_msrk/__init__.py
+practice_distribution_msrk.egg-info/PKG-INFO
+practice_distribution_msrk.egg-info/SOURCES.txt
+practice_distribution_msrk.egg-info/dependency_links.txt
+practice_distribution_msrk.egg-info/not-zip-safe
+practice_distribution_msrk.egg-info/top_level.txt
