@@ -1,0 +1,7 @@
+jsoncomment
+numpy
+scipy
+matplotlib
+pandas
+requests
+tqdm
