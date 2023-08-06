@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+.github/workflows/publish.yml
+requirements/build.txt
+requirements/dev.txt
+src/__init__.py
+src/password.py
+src/johanalmquist_secret_generator.egg-info/PKG-INFO
+src/johanalmquist_secret_generator.egg-info/SOURCES.txt
+src/johanalmquist_secret_generator.egg-info/dependency_links.txt
+src/johanalmquist_secret_generator.egg-info/top_level.txt
