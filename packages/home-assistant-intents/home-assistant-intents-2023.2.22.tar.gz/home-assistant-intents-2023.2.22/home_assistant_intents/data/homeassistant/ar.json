@@ -1,0 +1,34 @@
+{
+  "language": "ar",
+  "intents": {},
+  "responses": {
+    "errors": {
+      "no_intent": "عفوا, لم افهم هذا",
+      "no_area": "TODO No area named {{ area }}",
+      "no_domain": "TODO {{ area }} does not contain a {{ domain }}",
+      "no_device_class": "TODO {{ area }} does not contain a {{ device_class }}",
+      "no_entity": "TODO No device or entity named {{ entity }}",
+      "handle_error": "TODO An unexpected error occurred while handling the intent"
+    },
+    "intents": {
+      "HassGetState": {},
+      "HassTurnOff": {
+        "default": "TODO: Turned off {{ state.domain }}",
+        "lights_area": "TODO: Turned off lights",
+        "fans_area": "TODO: Turned off fans",
+        "cover": "TODO: Closed",
+        "cover_device_class": "TODO: Closed {{ slots.device_class }}"
+      },
+      "HassTurnOn": {
+        "default": "TODO: Turned on {{ state.domain }}",
+        "lights_area": "TODO: Turned on lights",
+        "fans_area": "TODO: Turned on fans",
+        "cover": "TODO: Opened",
+        "cover_device_class": "TODO: Opened {{ slots.device_class }}"
+      }
+    }
+  },
+  "lists": {},
+  "expansion_rules": {},
+  "skip_words": []
+}
