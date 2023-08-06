@@ -1,0 +1,13 @@
+browsercontroller/Hardcoded.py,sha256=LNDXvINxIgSIuZPP9wPkXZocx9NJl-Fts4Vaiq8vB6w,2056
+browsercontroller/__init__.py,sha256=uYtc0P9Z4WCjQfkmeLVMPlTKnVR4EDBvG5t8mPwZUsk,141
+browsercontroller/__main__.py,sha256=0lhCmtKmb3kxC9k0pmFo0B85BSBfldpUfxeIG04qjB0,607
+browsercontroller/check_if_firefox_is_installed.py,sha256=OsrNcDjHdouQ_Eeku4QPJftsqIki3seIT9K-0lhdQtA,1239
+browsercontroller/control_website.py,sha256=f-JMiPnd_o5q9Y3X-UQWPh9OxYG3X6ZRa7BVpTlNLSQ,842
+browsercontroller/get_controller.py,sha256=Dm3I_CReAQSNzdrJUx3T2LlLyU_sKMIj6aMo3B4JF24,2716
+browsercontroller/get_firefox_profile.py,sha256=wH9L93c4Ns0NO6LRN4uVuxm75fFb3xhbQk-OSFoX354,529
+browsercontroller/helper.py,sha256=g76fGZVosOLiSMLUwOkQU5f9c6o6QEzAGkn_-428O8w,7428
+browsercontroller-0.0.6.dist-info/METADATA,sha256=lECDgxYuJg1keeP987cDfPe9RWSh7jVU2rgDcUAH9Jk,2389
+browsercontroller-0.0.6.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+browsercontroller-0.0.6.dist-info/entry_points.txt,sha256=1TQt_hObhLRsgJfy_iQlF2--QaILEbMk7BiEwzgbFXI,61
+browsercontroller-0.0.6.dist-info/top_level.txt,sha256=tIvmH8qXjK6QD2CQFvjf0TmTNlUftDOojJhJJ369P5I,18
+browsercontroller-0.0.6.dist-info/RECORD,,
