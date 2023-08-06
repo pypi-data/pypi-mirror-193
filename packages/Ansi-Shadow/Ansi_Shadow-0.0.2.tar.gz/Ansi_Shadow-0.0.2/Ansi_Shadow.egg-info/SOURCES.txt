@@ -1,0 +1,6 @@
+setup.py
+Ansi_Shadow/__init__.py
+Ansi_Shadow.egg-info/PKG-INFO
+Ansi_Shadow.egg-info/SOURCES.txt
+Ansi_Shadow.egg-info/dependency_links.txt
+Ansi_Shadow.egg-info/top_level.txt
