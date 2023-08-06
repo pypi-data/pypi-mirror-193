@@ -1,0 +1,13 @@
+alacorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alacorder/__main__.py,sha256=Lje8_XylLh-udNBK-_v37Hym25OZEiCA-6K7QiZNFXQ,7525
+alacorder/config.py,sha256=kgP1Ei1ObXKOdQhKb97Z9tCEQ06jo-R3W8tKCVJDODs,7538
+alacorder/get.py,sha256=I6pIWVpiWOCEDYLUXXN0ys8NAHJVjnYXcahvpCN207Y,29098
+alacorder/logs.py,sha256=dopq9XFnR_W-TEc82z8Eas7Ob0rnYZBWjio22ADBpPw,3219
+alacorder/parse.py,sha256=em248kqkDVH85O9eYg1PN8MUqSisQJMEBq-4aSCUkEo,27016
+alacorder/test.py.py,sha256=md0p9c-mCFDCG_mwrn09j9tJgMzUyM8j2zvW-7XAU8k,1115
+alacorder/write.py,sha256=tSvZdjP4vOl8tWx_m0h1PiwTXhg7W-F_DgKRgQJqLcU,5001
+alacorder-74.1.7.dist-info/LICENSE,sha256=ANhTokIcqsS_ltXVHn_bpHVIhmUrrG2OTCZX91m9_80,1066
+alacorder-74.1.7.dist-info/METADATA,sha256=5rUQo9TuMqWHOWmqnNYikA_HuiARdqXkjOAUtXP5ZrQ,10686
+alacorder-74.1.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alacorder-74.1.7.dist-info/top_level.txt,sha256=SvBoMJWQYC6yFZy9U9jZHYK_TyPPODTNXI4_sMpC0xU,10
+alacorder-74.1.7.dist-info/RECORD,,
