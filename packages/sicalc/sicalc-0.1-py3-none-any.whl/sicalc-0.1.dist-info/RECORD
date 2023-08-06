@@ -1,0 +1,15 @@
+phycalc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phycalc/_frap.py,sha256=DSYZiBAU1HA1nbeY0YrtMJfl7L6xlG29uK5Isvqsxo4,733
+phycalc/constants.py,sha256=hZdNzV60wkaS1BwjiLn_ycbk00VXqktVLcQHZ6JZPQY,275
+phycalc/func.py,sha256=nK7e5RSoBQQx1rNDk0327Bw3muN7bqRULIuaepw6ncE,596
+phycalc/units.py,sha256=dWNDdFxxa_1Lc77Gq5BginumbYZmMivw9zNDg3vKdRc,6643
+sicalc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sicalc/_frap.py,sha256=DSYZiBAU1HA1nbeY0YrtMJfl7L6xlG29uK5Isvqsxo4,733
+sicalc/constants.py,sha256=hZdNzV60wkaS1BwjiLn_ycbk00VXqktVLcQHZ6JZPQY,275
+sicalc/func.py,sha256=nK7e5RSoBQQx1rNDk0327Bw3muN7bqRULIuaepw6ncE,596
+sicalc/units.py,sha256=dWNDdFxxa_1Lc77Gq5BginumbYZmMivw9zNDg3vKdRc,6643
+sicalc-0.1.dist-info/LICENSE.txt,sha256=DjVA7YHPUM218NLOtnvORtCTnIYZrFxixsqT_L3a1-s,418
+sicalc-0.1.dist-info/METADATA,sha256=J4yg2pWoGBngZFcr-3Jj31eeQypKdn4h6P40NvBZJqA,98
+sicalc-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sicalc-0.1.dist-info/top_level.txt,sha256=g9B1pVMpLutXYiq39fcxGgVTh2xpm3SA4YFHWYnJIGQ,7
+sicalc-0.1.dist-info/RECORD,,
