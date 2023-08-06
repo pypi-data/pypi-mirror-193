@@ -1,0 +1,7 @@
+lsv2test-ext==1.4.3.dev20230222121537
+
+[full]
+lsv2test-ext[runtime]==1.4.3.dev20230222121537
+
+[runtime]
+lsv2test-ext[runtime]==1.4.3.dev20230222121537
