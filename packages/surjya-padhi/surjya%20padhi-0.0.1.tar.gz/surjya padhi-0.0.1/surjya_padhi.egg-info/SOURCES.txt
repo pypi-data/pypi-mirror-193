@@ -1,0 +1,7 @@
+setup.py
+srjbasiccalc/__init__.py
+srjbasiccalc/calc.py
+surjya_padhi.egg-info/PKG-INFO
+surjya_padhi.egg-info/SOURCES.txt
+surjya_padhi.egg-info/dependency_links.txt
+surjya_padhi.egg-info/top_level.txt
