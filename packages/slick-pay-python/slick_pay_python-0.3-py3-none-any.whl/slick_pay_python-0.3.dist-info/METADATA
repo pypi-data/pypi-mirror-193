@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: slick-pay-python
+Version: 0.3
+Summary: slick-pay Gateway (Python Library)
+Home-page: UNKNOWN
+Author: slick-pay
+Author-email: hala.rahim@azimutbs.com
+License: UNKNOWN
+Keywords: e-pay,slick-pay,edahabia,cib,python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+UNKNOWN
+
