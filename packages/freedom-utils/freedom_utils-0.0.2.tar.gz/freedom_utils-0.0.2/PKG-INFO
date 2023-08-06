@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: freedom_utils
+Version: 0.0.2
+Summary: dev utils, help developer coding, then have more freedom
+Home-page: https://github.com/wujunwei928/freedom_utils
+Author: wujunwei
+Author-email: 1399952803@qq.com
+License: MIT Licence
+Keywords: dev tools,dev utils
+Platform: any
+Requires-Python: >=3.7
+License-File: LICENSE
+
+dev utils, help developer coding, then have more freedom
+
