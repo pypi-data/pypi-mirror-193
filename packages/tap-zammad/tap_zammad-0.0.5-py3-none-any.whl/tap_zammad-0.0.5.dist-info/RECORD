@@ -1,0 +1,11 @@
+tap_zammad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_zammad/client.py,sha256=4uI9LFqkMegppGtZ9iwg2ZDuidBtEvTXqK-WXXKB3IU,2564
+tap_zammad/paginators.py,sha256=z7sDba-5gEYR3EkNHE02i8CHyQR2se1PUMz5aNAI8dQ,3891
+tap_zammad/streams.py,sha256=YsTg2bemOQRhLYGg8VIQcp_eBx7J-Mz855agbWDhCTg,10279
+tap_zammad/tap.py,sha256=36KAkm8DSqa40m-Xd-dFD75biVk_1wafwP6Tdcp4_K4,1258
+tap_zammad/tests/__init__.py,sha256=rit6tiWiVmerFgMhPvU6mmNf5O7tho-mZwIvIjp-6Pc,33
+tap_zammad/tests/test_core.py,sha256=odp2y1QUoBUdh6LOWG5z0gN2v2_ECfoB0HF5eFhCo1s,664
+tap_zammad-0.0.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tap_zammad-0.0.5.dist-info/entry_points.txt,sha256=-dyis4Kklb76xsalxLFtGQu1PqRTo6kkmRr2Zmt9LNs,59
+tap_zammad-0.0.5.dist-info/METADATA,sha256=ZszWjo_f1rAjRmBS2KZjfWtnfh9DZQ-qUB042fpzgzM,524
+tap_zammad-0.0.5.dist-info/RECORD,,
