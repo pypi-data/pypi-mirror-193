@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: quickindex
+Version: 1.1.0
+Summary: An easy way to index lists in python
+Project-URL: Homepage, https://github.com/dbernadett/quickindex
+Project-URL: Bug Tracker, https://github.com/dbernadett/quickindex/issues
+Author-email: David Bernadett <djbernadett@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# quickindex
+A simple way to re-index json data in python
+## Example Usage
+### Input
+```
+from quickindex import TreeIndex
+data_list = [
+    {
+        "first_name": "Davina",
+        "last_name": "Emmy",
+        "age": 25
+    },
+    {
+        "first_name": "Kondwani",
+        "last_name": "Busch",
+        "age": 25
+    },
+    {
+        "first_name": "Betty",
+        "last_name": "Shannon",
+        "age": 32
+    },
+    {
+        "first_name": "Claude",
+        "last_name": "Shannon",
+        "age": 38
+    }
+]
+age_index = TreeIndex(lambda x: (x["age"], x["last_name"]), lambda x: x["first_name"])
+age_index.add_list(data_list)
+print(age_index.as_dict())
+```
+### Output
+```
+{
+    25: {
+        'Emmy': ['Davina'], 
+        'Busch': ['Kondwani']
+    }, 
+    32: {
+        'Shannon': ['Betty']
+    }, 
+    38: {
+        'Shannon': ['Claude']
+    }
+}
+```
+### Input
+```
+from quickindex import FlatIndex
+data_list = [
+    {
+        "first_name": "Davina",
+        "last_name": "Emmy",
+        "age": 25
+    },
+    {
+        "first_name": "Kondwani",
+        "last_name": "Busch",
+        "age": 25
+    },
+    {
+        "first_name": "Betty",
+        "last_name": "Shannon",
+        "age": 32
+    },
+    {
+        "first_name": "Claude",
+        "last_name": "Shannon",
+        "age": 38
+    }
+]
+age_index = FlatIndex(lambda x: (x["age"], x["last_name"]), lambda x: x["first_name"])
+age_index.add_list(data_list)
+print(age_index.as_dict())
+```
+### Output
+```
+{
+    (25, 'Emmy'): ['Davina'], 
+    (25, 'Busch'): ['Kondwani'], 
+    (32, 'Shannon'): ['Betty'], 
+    (38, 'Shannon'): ['Claude']
+}
+```
