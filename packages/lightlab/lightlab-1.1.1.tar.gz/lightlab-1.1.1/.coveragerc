@@ -1,0 +1,7 @@
+[run]
+omit = lightlab/equipment/lab_instruments/*
+
+[report]
+skip_covered = True
+omit = lightlab/equipment/lab_instruments/*
+show_missing = True

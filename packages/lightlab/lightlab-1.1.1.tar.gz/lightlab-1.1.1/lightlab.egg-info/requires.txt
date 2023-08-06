@@ -1,0 +1,8 @@
+dpath
+jsonpickle>=1.4.1
+matplotlib
+IPython
+PyVISA
+scipy
+scikit-learn
+dill

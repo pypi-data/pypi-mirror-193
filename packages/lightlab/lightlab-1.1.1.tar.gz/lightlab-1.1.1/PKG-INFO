@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: lightlab
+Version: 1.1.1
+Summary: Lightwave Lab instrument automation tools
+Author-email: Alex Tait <atait@ieee.org>, Thomas Ferreira de Lima <github@tlima.me>
+Maintainer-email: Thomas Ferreira de Lima <github@tlima.me>
+License: MIT License
+        
+        Copyright (c) 2018 Lightwave Lab, Princeton University
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/lightwave-lab/lightlab
+Keywords: gpib,visa,instrument control
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Lightlab
+========
+
+.. image:: https://zenodo.org/badge/131508614.svg
+   :target: https://zenodo.org/badge/latestdoi/131508614
+
+
+A python library for remote laboratory control. Laboratory remoting facilitates experimental research:
+
+* access from anywhere
+* large dataset gathering, storage, and analysis
+* repeatability
+* real-time status and progress monitoring,
+* intra- and inter-group collaboration
+
+This package includes:
+
+* A shared library of instrument drivers
+* Representation of state for labs of multiple users
+* Driver-independent abstractions of instruments
+* Utilities for data structures, advanced sweeping, search procedures, spectrum analysis, and characterization
+* Constructs of laboratory virtualization for repeatability and rapid user code development
+* Detailed documentation of tips, tricks, and instructions for prepping your lab for remoting
+
+Here is our `philosophy <http://lightlab.readthedocs.io/en/development/_static/gettingStarted/engineersGuide.html>`__ of how a modern lab can look.
+
+Installation
+------------
+
+From PyPI:
+
+::
+
+    pip install lightlab
+
+From source (developer mode):
+
+::
+
+    git clone https://github.com/lightwave-lab/lightlab.git
+    cd lightlab
+    pip install -e .  # install in editable mode.
+
+Getting started
+---------------
+
+1. Configure GPIB/ethernet communication on a `personal computer or instrumentation server <https://lightlab.readthedocs.io/en/latest/_static/installation/index.html>`__
+2. Initialize the representation of your `lab state <http://lightlab.readthedocs.io/en/latest/_static/developers/labState.html>`__
+3. `Write a driver <http://lightlab.readthedocs.io/en/latest/_static/tutorials/drivers/drivers.html>`__ or use an existing one
+4. Read about advanced features and `tutorials <http://lightlab.readthedocs.io/en/latest/_static/tutorials/index.html>`__
+5. Get going! Need more help? Have suggestions? File an `issue <https://github.com/lightwave-lab/lightlab/issues>`__
+
+Readthedocs: `lightlab.readthedocs.io <http://lightlab.readthedocs.io/en/latest/>`_
+
+Github: https://github.com/lightwave-lab/lightlab
+
+Supported platforms
+-------------------
+
+Server: Mac OS and Linux running ≥python3.6; not tested on Windows (to do).
+
+Auxiliary hosts: Mac OS, Linux, Windows
+
+Acknowledgements
+----------------
+
+This  material  is  based  in part upon  work  supported  by  the  National Science Foundation under Grant Number E2CDA-1740262. Any  opinions,  findings,  and  conclusions  or  recommendations expressed  in  this  material  are  those  of  the  author(s)  and  do  not necessarily reflect the views of the National Science Foundation.

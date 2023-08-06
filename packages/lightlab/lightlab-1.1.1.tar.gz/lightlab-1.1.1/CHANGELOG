@@ -1,0 +1,44 @@
+# CHANGELOG
+
+1.1.1:
+    - Bug fixes (including security fixes)
+    - SR830 lockin amplifier driver
+    - Create CITATION.cff
+    - Experimental BOSA driver (by Zhimu)
+    - CI deployment via github
+
+1.1.0:
+    - Bug fixes in various instruments
+    - Included PRBS algorithms for the Anritsu PPG
+    - Improvements to MeasuredFunction
+    - Adding support for Keithley 2606B
+    - PRBS functionality in one_dim
+
+1.0.7:
+    - Bugfixes in PPG3202, DPO4032, and HP_8152A_PM
+    - Housekeeping in test environments
+    - Making DSA8300 work with Prologix driver
+
+1.0.6:
+    - Major bug in Prologix driver
+    - Minor improvement to APEX driver
+    - Some documentation improvements
+
+1.0.5:
+    - added new driver for APEX OSA, which use TCP sockets directly, refactored from the Prologix controller (PR #8)
+    - refactored NI_PCI_6723's driver, and added the the example labview programs that go with it (PR #9)
+    - minimum current to 1nA in keithleys, down from 1uA (minor change 8b1527b)
+    - bugfix in keithley: not sourcing negative currents correctly (bugfix 2268980)
+
+1.0.4:
+    - compatibility with python 3.7
+    - Prologix gpib controller implemented (major feature #6)
+    - Function bundle feedthrough maps (minor feature #1)
+    - fixed major bug that caused wrong readings in waveform scales for Tektronix Scopes (bugfix daabc26)
+    - adding measure functions if functionSource is given (bugfix 0c0fb9c)
+    - fixed bug in electrical source unit conversions (critical bugfix 5532232)
+
+1.0.3:
+    - added documentation for lightlab command line tool
+    - added a driver for HP 8157A Optical Variable attenuator
+    - added travis-ci integration
