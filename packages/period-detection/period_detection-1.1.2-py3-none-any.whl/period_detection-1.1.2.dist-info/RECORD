@@ -1,0 +1,9 @@
+period_detection/__init__.py,sha256=YdoT7hdw6EroXV909M9ymQ03hzxNnlwt-TkaEjicPfo,84
+period_detection/auxiliary_funcs.py,sha256=o_6EvWqVuARcmR7ZW9HEBXnx81C5XK8tK8KT58JXg54,6137
+period_detection/find_period.py,sha256=LmTDD3_ouV7m7KMcTb9ar-vKWBnDFyLQ8iTAuTHYztc,14925
+period_detection/plot_funcs.py,sha256=IoYE5TCuC0XDj0ARUR_WBtiMhKLHqIqtwFxImxqIcHU,5334
+period_detection-1.1.2.dist-info/LICENSE,sha256=vLiS120qCOFrUqVaRGc0rWVPxrVYLuCcCHlFJF7YrMI,1618
+period_detection-1.1.2.dist-info/METADATA,sha256=vDRhWP2SXuF3OJsY2tkVHIK6FFUS8TUgebVwrzOIa44,4649
+period_detection-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+period_detection-1.1.2.dist-info/top_level.txt,sha256=Lq-EAW-SLKmEOqoApNxhsmiX7waiao_S0IbWpBF4qMk,17
+period_detection-1.1.2.dist-info/RECORD,,
