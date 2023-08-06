@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: passwordgenerator-uz
+Version: 0.0.0
+Summary: Ushbu kutubxona yordamida parol generatsiya qilib olishingiz mumkin!
+Author: Ozodbek Sobirjonovich
+Author-email: ozodbeksobirjonovich@gmail.com
+
+## Bu kutubxona yordamida taxminiy parol yaratib olishingiz mumkin!
+
+```python
+from passwordgenerator_uz import random_passwd
+random_passwd(length=5) # 1%rT2
+```
