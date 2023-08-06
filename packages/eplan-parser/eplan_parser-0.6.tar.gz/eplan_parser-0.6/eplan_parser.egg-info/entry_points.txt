@@ -1,0 +1,2 @@
+[console_scripts]
+eplan_parser = eplan_parser.output_parser:run_from_terminal
