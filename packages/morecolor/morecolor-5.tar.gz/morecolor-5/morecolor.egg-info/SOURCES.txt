@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+morecolor/__init__.py
+morecolor/morecolor_file.py
+morecolor.egg-info/PKG-INFO
+morecolor.egg-info/SOURCES.txt
+morecolor.egg-info/dependency_links.txt
+morecolor.egg-info/requires.txt
+morecolor.egg-info/top_level.txt
