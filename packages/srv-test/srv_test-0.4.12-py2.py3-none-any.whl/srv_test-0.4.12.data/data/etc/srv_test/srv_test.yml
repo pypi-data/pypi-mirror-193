@@ -1,0 +1,8 @@
+---
+server:
+  ip: localhost
+  port: 8080
+
+logger:
+  path: "/var/log/srv_test/"
+...
