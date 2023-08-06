@@ -1,0 +1,2 @@
+[console_scripts]
+fullwait = fullwait.main:run
