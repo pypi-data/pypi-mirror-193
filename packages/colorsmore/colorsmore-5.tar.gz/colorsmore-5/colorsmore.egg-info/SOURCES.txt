@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+colorsmore/__init__.py
+colorsmore/colorsmore_file.py
+colorsmore.egg-info/PKG-INFO
+colorsmore.egg-info/SOURCES.txt
+colorsmore.egg-info/dependency_links.txt
+colorsmore.egg-info/requires.txt
+colorsmore.egg-info/top_level.txt
