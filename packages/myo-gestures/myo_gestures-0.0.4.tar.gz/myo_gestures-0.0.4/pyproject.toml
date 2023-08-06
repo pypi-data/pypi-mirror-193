@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "myo_gestures"
+version = "0.0.4"
+authors = [
+  { name="Allan Garcia", email="allang@u.northwestern.edu" },
+]
+description = "Package for real time gesture classification using the Myo Armband"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
