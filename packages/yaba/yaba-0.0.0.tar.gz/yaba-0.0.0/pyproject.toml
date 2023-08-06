@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yaba"
+version = "0.0.0"
+authors = [
+  { name="Yakup Akbay", email="yakbay@gmail.com" },
+]
+description = "YAML Actions Based Automation"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yakbay/yaba"
+"Bug Tracker" = "https://github.com/yakbay/yaba/issues"
