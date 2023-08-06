@@ -1,0 +1,5 @@
+numba
+numpy
+opencv-python
+pillow
+torch
