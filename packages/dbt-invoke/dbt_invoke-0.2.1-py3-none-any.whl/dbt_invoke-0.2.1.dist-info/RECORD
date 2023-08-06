@@ -1,0 +1,12 @@
+dbt_invoke/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbt_invoke/main.py,sha256=88hbRcQtNJLh1Js0T2Ux2zHf12TTLpt-pVpcvEvyZFs,226
+dbt_invoke/properties.py,sha256=KA28I9Vy-iIlLlo_DfQniay8JzoeTBEVcdpqjnpyPCo,33712
+dbt_invoke/internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbt_invoke/internal/_utils.py,sha256=Wq3eYU0vUMCa5xaZqJn4-hqJ0v_0T2DfvM5tgQVo44E,14975
+dbt_invoke/internal/_version.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+dbt_invoke-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dbt_invoke-0.2.1.dist-info/METADATA,sha256=viK0bPLa3orUfl1sADTq4Oa8fyzEsCOhC_u6SW7K554,8657
+dbt_invoke-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dbt_invoke-0.2.1.dist-info/entry_points.txt,sha256=6OiE9hMjI6zcXvA_b0bGVmCfXextEbeoOYBOBCZ56a0,60
+dbt_invoke-0.2.1.dist-info/top_level.txt,sha256=N_PU2QsiKdTX2Crf1NlEyf2nKrHZ84MvQMP4KgdWr7M,11
+dbt_invoke-0.2.1.dist-info/RECORD,,
