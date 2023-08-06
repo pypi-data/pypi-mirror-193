@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: prepper
+Version: 0.1.2
+Summary: Allows python objects to be stored and loaded from an HDF5 file in a language-agnostic manner
+Author-email: Varchas Gopalaswamy <vgop@lle.rochester.edu>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Documentation TBD!!

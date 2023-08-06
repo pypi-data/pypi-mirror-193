@@ -1,0 +1,52 @@
+[project]
+name = "prepper"
+authors = [
+    {name = "Varchas Gopalaswamy", email = "vgop@lle.rochester.edu"},
+]
+description = "Allows python objects to be stored and loaded from an HDF5 file in a language-agnostic manner"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "h5py ~= 3.8.0",
+    "loguru >= 0.6.0",
+    "aenum ~= 3.1.11",
+    "numpy ~= 1.23.5",
+    "pandas ~= 1.5.1",
+]
+dynamic = ["version"]
+
+[build-system]
+requires = ["setuptools >= 67.0.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "prepper/_version.py"
+
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+
+[tool.isort]
+profile = "black"
+line_length = 79
+force_alphabetical_sort_within_sections = true
+add_imports = ["from __future__ import annotations"]
