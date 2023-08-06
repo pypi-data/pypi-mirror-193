@@ -1,0 +1,2 @@
+[console_scripts]
+whisper = replicate_api_utils.whisper.cli:main
