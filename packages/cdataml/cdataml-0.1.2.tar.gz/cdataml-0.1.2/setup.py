@@ -1,0 +1,26 @@
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setup(
+    name="cdataml",
+    version='0.1.2',
+    author="Joshua Williams",
+    author_email="<jowillia@nbi.ac.uk>",
+    description='CDA Data for Machine Learning',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/joshuandwilliams/cdataml",
+    install_requires=['opencv-python', 'pandas', 'natsort'],
+    py_modules=['cdataml.generate'],
+    keywords=['python', 'plant pathology', 'cell death', 'machine learning'],
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3",
+        "Operating System :: Unix",
+        "Operating System :: MacOS :: MacOS X",
+        "Operating System :: Microsoft :: Windows",
+    ]
+)
