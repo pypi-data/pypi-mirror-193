@@ -1,0 +1,6 @@
+README.md
+setup.py
+freakingfruitflies.egg-info/PKG-INFO
+freakingfruitflies.egg-info/SOURCES.txt
+freakingfruitflies.egg-info/dependency_links.txt
+freakingfruitflies.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: freakingfruitflies
+Version: 0.1
+Summary: A simple Python library that displays "Amir is great!"
+Home-page: https://github.com/cumbersomeamir
+Author: Your Name
+Author-email: findamirkidwai@gmail.com
+License: MIT
+Description: This is my library welcome. I hope you're here for a run. This is going to be your most exciting journey. Let's do this and create something useful. Grow towards business intelligence which has a competitive advantage.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
