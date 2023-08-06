@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: docker-pyo3
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Python bindings to the docker-api-rs crate
+Home-Page: https://github.com/dylanbstorey/docker-pyo3
+License: GPL-3.0-only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/dylanbstorey/docker-pyo3
+
+# docker-pyo3
+
+
