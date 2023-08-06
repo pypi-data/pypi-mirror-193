@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rapticoressvc"
+version = "0.0.12"
+authors = [
+  { name="Rapticore", email="ahsan.mir@rapticore.com" },
+]
+description = "Rapticore SSVC"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+'cvss',
+'pandas',
+'nested_lookup',
+'xlsxwriter',
+'requests',
+'setuptools'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rapticore/ssvc_ore_miner"
+"Bug Tracker" = "https://github.com/rapticore/ssvc_ore_miner/issues"
