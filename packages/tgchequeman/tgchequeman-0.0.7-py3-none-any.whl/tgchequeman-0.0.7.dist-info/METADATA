@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tgchequeman
+Version: 0.0.7
+Summary: This package is designed to automate the activation of multi-checks from multiple Telegram accounts. The package uses the Telethon library to interact with the Telegram API.
+Project-URL: Homepage, https://github.com/Conradk10/tgchequeman
+Project-URL: Bug Tracker, https://github.com/Conradk10/tgchequeman/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru (==0.6.0)
+Requires-Dist: numpy (==1.23.4)
+Requires-Dist: opencv-python (==4.6.0.66)
+Requires-Dist: Pillow (==9.3.0)
+
+# tgchequeman
+
+This package is designed to automate the activation of multi-checks from multiple Telegram accounts. The package uses the Telethon library to interact with the Telegram API.
