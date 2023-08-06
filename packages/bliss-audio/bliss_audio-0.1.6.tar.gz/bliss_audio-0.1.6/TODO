@@ -1,0 +1,9 @@
+docker run --name charlie -it --rm -v $(pwd):/io --entrypoint "/bin/bash" c66e0f547cbe
+inside docker:
+yum localinstall --nogpgcheck https://download1.rpmfusion.org/free/el/rpmfusion-free-release-7.noarch.rpm
+yum install clang epel-release ffmpeg ffmpeg-devel centos-release-scl llvm-toolset-7
+scl enable llvm-toolset-7 bash
+maturin build -f
+maturin publish -f
+then
+twine upload target/wheels/...

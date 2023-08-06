@@ -1,0 +1,1 @@
+docker run --name charlie -it --rm -v $(pwd):/io --entrypoint "/bin/bash" c66e0f547cbe
