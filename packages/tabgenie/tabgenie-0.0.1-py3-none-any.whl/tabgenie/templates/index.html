@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TabGenie</title>
+  <link rel="stylesheet" media="screen" href="{{ host_prefix }}/static/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ host_prefix }}/static/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="{{ host_prefix }}/static/css/d3graphs.css">
+  <link rel="stylesheet" type="text/css" href="{{ host_prefix }}/static/css/jquery.highlight-within-textarea.css">
+  <link rel="shortcut icon" href="{{ host_prefix }}/static/img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="{{ host_prefix }}/static/js/jquery.min.js"></script>
+  <script src="{{ host_prefix }}/static/js/popper.min.js"></script>
+  <script src="{{ host_prefix }}/static/js/bootstrap.min.js"></script>
+  <script src="{{ host_prefix }}/static/js/jquery.highlight-within-textarea.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.3.5/split.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+
+<body class="body">
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="{{ host_prefix }}/static/img/genie.png" width="25px"> <b>TabGenie</b>
+      </a>
+      <div class="navblock">
+        <ul class="pagination" id="nav-example-cnt">
+          <li class="page-item">
+            <a class="page-link" id="start-btn" onclick="startbtn();">«</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" id="prev-btn" onclick="prevbtn();">‹</a>
+          </li>
+          <li class="page-item">
+            <input class="form-control" id="page-input" onfocusout="gotobtn();"></a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" id="total-examples" style="min-height: 30px;"></a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" id="next-btn" onclick="nextbtn();">›</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" id="end-btn" onclick="endbtn();">»</a>
+          </li>
+        </ul>
+
+        <ul class="pagination" id="nav-examples">
+          <li class="page-item">
+            <a class="page-link" id="random-btn" onclick="randombtn();" data-bs-toggle="tooltip"
+              data-bs-placement="bottom" title="Go to a random example">
+              🎲
+            </a>
+          </li>
+          <li class="page-item">
+            <span data-bs-toggle="modal" data-bs-target="#note-modal">
+              <a class="page-link" id="note-btn" class="btn btn-outline-secondary btn-sm" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" title="Add a note">
+                📝
+              </a>
+            </span>
+          </li>
+          <li class="page-item">
+            <a class="page-link" id="favourite-btn" onclick="favouritebtn();" data-bs-toggle="tooltip"
+              data-bs-placement="bottom" title="Add to favourites">
+              ★
+            </a>
+          </li>
+        </ul>
+
+
+      </div>
+      <div class="navblock">
+        <div style="font-size: 15px">
+          <b>Table-to-Text Generation Playground</b>
+        </div>
+        <ul class="pagination" style="margin-left: 10px;">
+          <li class="page-item">
+            <a class="page-link" id="about-btn" onclick="show_info();" data-bs-toggle="modal"
+              data-bs-target="#about-modal" title="About">
+              <img src="{{ host_prefix }}/static/img/about.png" id="about-icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="large-container container">
+    <div class="row">
+      <div id="leftpanel" class="col-2">
+        <div class="infoarea">
+
+          <div class="selectarea">
+            <b>dataset</b>
+            <select id="dataset-select" class="form-select form-select-sm">
+              {% for dataset_name in datasets %}
+              <option value="{{ dataset_name }}">{{ dataset_name }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="selectarea">
+            <b>split</b>
+            <select id="split-select" class="form-select form-select-sm">
+              <option value="dev" selected>dev</option>
+              <option value="test">test</option>
+              <option value="train">train</option>
+            </select>
+          </div>
+
+
+          <div class="selectarea" id="actions-area">
+            <div class="d-grid gap-2">
+              <input type="checkbox" class="btn-check" id="interactive-btn" onclick="toggle_interactive();"
+                autocomplete="off">
+              <label class="btn btn-sm btn-outline-secondary" for="interactive-btn">🗲 Interactive mode</label>
+              <!-- <input type="checkbox" class="btn-check" id="edit-btn" onclick="toggle_edit();" autocomplete="off"> -->
+              <!-- <label class="btn btn-sm btn-outline-secondary" for="edit-btn">✎ Edit mode</label> -->
+              <!-- <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
+                data-bs-target="#your-edits-modal">
+                📝 Your edits <div id="your-edits-count"></div>
+              </button> -->
+              <button type="button" class="btn btn-outline-secondary  btn-sm" onclick="toggle_props();">
+                ✚ Toggle properties
+              </button>
+              <button type="button" class="btn btn-outline-secondary  btn-sm" onclick="toggle_view();">
+                ⇋ Toggle view
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
+                data-bs-target="#favourites-modal">
+                ★ Favourites
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
+                data-bs-target="#notes-modal">
+                ✎ Notes
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
+                data-bs-target="#export-modal">
+                <b>⭳</b> Export
+              </button>
+              <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
+                data-bs-target="#info-modal">
+                ⓘ Dataset info
+              </button>
+            </div>
+          </div>
+
+          <div class="selectarea" id="mode-selectarea" style="display: none;">
+            <b>mode</b>
+            <select id="mode-select" class="form-select form-select-sm">
+              <option value="select" selected>select</option>
+              <option value="highlight">highlight</option>
+              <option value="edit">edit</option>
+            </select>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="split col-10">
+        <div id="centerpanel" class="collapse show">
+          <div class="tab-content">
+            <div id='tabulararea' class="tab-pane sidepanel-panel active" role="tabpanel">
+              <div class="d-flex align-items-center justify-content-center">
+                <div id="dataset-spinner" class="spinner-border" role="status" style="display: none">
+                  <span class="sr-only"></span>
+                </div>
+              </div>
+              <div id='tablearea' class='table-responsive font-mono'> </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="rightpanel" class="collapse show">
+
+          <div id='sidepanel-content' class="tab-content">
+            <div id='pipelinearea' class="tab-pane sidepanel-panel active" role="tabpanel" style="display: none;">
+              {% for pipeline_name, attrs in pipelines.items() if attrs.interactive %}
+              <div class="output-box pipeline-box" id="out-{{ pipeline_name }}">
+                <label class="label-name" for="pipeline-checkbox-{{ pipeline_name }}">{{ pipeline_name }}</label>
+                <label class="label-reload" onclick="reload_pipeline('{{ pipeline_name }}');">⟳</label>
+                <label class="label-on-off"><input
+                    class="form-check-input custom-checkbox pipeline-checkbox output-checkbox" type="checkbox"
+                    id="pipeline-checkbox-{{ pipeline_name }}" checked></label>
+
+                {% if pipeline_name in pipelines_cfg_templates %}
+                <label class="label-settings" data-bs-toggle="modal" data-bs-target="#{{ pipeline_name }}-modal"><img
+                    src="{{ host_prefix }}/static/img/settings.png" width="12px" /></label>
+                <div class="modal fade" id="{{ pipeline_name }}-modal" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="{{ pipeline_name }}-modal-label">Settings: {{ pipeline_name }}
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        {{ pipelines_cfg_templates[pipeline_name]|safe }}
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+                <div id="pipeline-{{ pipeline_name }}-spinner" class="spinner-border" role="status"
+                  style="display: none">
+                  <span class="sr-only"></span>
+                </div>
+                <div id="out-{{ pipeline_name }}-placeholder" class="font-mono"></div>
+              </div>
+              {% endfor %}
+            </div>
+
+            <div id='outputarea'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal windows -->
+
+  <!-- // TODO save on close note-modal dialogue -->
+  <div class="modal fade" id="note-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="note-modal-label">Edit note</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input class="modalNoteInput form-control" placeholder="Add your note" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="delete-note-button btn btn-primary" onclick="delete_note();">Delete</button>
+          <button type="button" class="save-note-button btn btn-primary" data-bs-dismiss="modal"
+            onclick="save_note();">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="modal fade" id="export-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="export-modal-label">Export</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="export-block">
+            <h5>Format</h5>
+
+            <select class="form-select form-select-sm" id="export-format-select" style="width: 200px;">
+              <option value="xlsx" selected>XLSX</option>
+              <option value="html">HTML</option>
+              <option value="json">JSON</option>
+              <option value="csv">CSV</option>
+              <option value="txt">TXT</option>
+            </select>
+          </div>
+
+          <div class="export-block">
+            <h5>Options</h5>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="checkbox-table-props">
+              <label class="form-check-label" for="checkbox-table-props">Include table properties</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="checkbox-edited-cells" disabled>
+              <label class="form-check-label" for="checkbox-edited-cells">Include edited cells (current
+                only)</label>
+            </div>
+          </div>
+
+          <div class="export-block">
+            <h5>Export</h5>
+            <button type="button" id="btn-export-current" class="btn btn-sm btn-primary"
+              onclick="export_table('current');">Current
+              example</button>
+            <button type="button" id="btn-export-favourites" class="btn btn-sm btn-secondary"
+              onclick="export_table('favourites');" disabled>Favourite examples
+              (ZIP)</button>
+            <button type="button" id="btn-export-notes" class="btn btn-sm btn-secondary"
+              onclick="export_table('notes');" disabled>Exaples with notes
+              (ZIP)</button>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="info-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="info-modal-label">Dataset info</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id='infoarea' class="tab-pane sidepanel-panel" role="tabpanel" tabindex="0">
+            <div id="dataset-info" class="area-content"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="modal fade" id="your-edits-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="your-edits-modal-label">Your edits</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group list-group-flush" id="your-edits-dataset-mode-box"></ul>
+          <ul class="list-group list-group-flush" id="your-edits-notes-mode-box"></ul>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="clear_edits();">Delete all</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="modal fade" id="favourites-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="favourites-modal-label">Favourites</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group list-group-flush" id="favourites-box"></ul>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="clear_favourites();">Delete all</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="notes-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="notes-modal-label">Notes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group list-group-flush" id="notes-box"></ul>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" onclick="clear_notes();">Delete all</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="about-modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="about-modal-label">About TabGenie</h5> <img
+            src="{{ host_prefix }}/static/img/genie.png" width="20px" style="margin-left: 5px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id='aboutarea' class="tab-pane sidepanel-panel" role="tabpanel" tabindex="0">
+            <div id="about-info" class="area-content">
+              <p>TabGenie is a toolkit for <i>table-to-text generation</i> – the task of generating a description for
+                the tabular data.
+              </p>
+              <p>The web interface enables to explore existing table-to-text generation datasets and interact with
+                processing pipelines.</p>
+
+              <p>Built using HTML5, CSS, <a href="https://jquery.com">jQuery</a>, <a
+                  href="https://getbootstrap.com/">Bootstrap 5</a>, <a
+                  href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>, and <a
+                  href="https://huggingface.co/docs/datasets/index">Huggingface Datasets</a>.</p>
+
+              <p><b>Developers:</b>
+
+              <ul>
+                <li><b>Zdeněk Kasner</b> – <code>kasner (at) ufal.mff.cuni.cz</code></li>
+                <li><b>Kate Garanina</b> – <code>katgerasimenko (at) gmail.com</code></li>
+                <li><b>Ondřej Plátek</b> – <code>oplatek (at) ufal.mff.cuni.cz</code></li>
+                <li><b>Ondřej Dušek</b> – <code>odusek (at) ufal.mff.cuni.cz</code></li>
+              </ul>
+              </p>
+              <p>
+                The project is being actively developed, please report any issues at <a
+                  href="https://github.com/kasnerz/tabgenie">https://github.com/kasnerz/tabgenie</a>.
+              </p>
+
+              <p>Available as open-source under MIT License.</p>
+              <p>
+                © 2023 <a href="https://ufal.mff.cuni.cz/">
+                  Institute of Formal and Applied
+                  Linguistics, Charles University</a>.
+              </p>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+<script>
+  // variable to be used in custom.js
+  window.url_prefix = "{{ host_prefix }}";
+  window.default_dataset = "{{ default_dataset }}";
+  window.pipelines = {{ pipelines | tojson | safe }};
+  window.prompts = {{ prompts | tojson | safe }};
+  window.favourites = {{ session.get("favourites", {}) | tojson | safe }};
+  window.notes = {{ session.get("favourites", {}) | tojson | safe }};
+  window.editedCells = {{ session.get("editedCells", {}) | tojson | safe }};
+</script>
+
+<script src="{{ host_prefix }}/static/js/custom.js"></script>
+<script src="{{ host_prefix }}/static/js/d3graphs.js"></script>
