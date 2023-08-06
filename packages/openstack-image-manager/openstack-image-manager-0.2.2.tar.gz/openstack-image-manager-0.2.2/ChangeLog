@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.2.2
+------
+
+* Remove old k8s-capi-images (#485)
