@@ -1,0 +1,5 @@
+[console_scripts]
+dumppicks = pickax.dumppicks:main
+mergepicks = pickax.mergepicks:main
+pickax = pickax.pickax_main:main
+usgspicks = pickax.usgspicks:main
