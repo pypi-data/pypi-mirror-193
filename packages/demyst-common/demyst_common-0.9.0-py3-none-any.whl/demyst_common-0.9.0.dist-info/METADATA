@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: demyst-common
+Version: 0.9.0
+Author: Demyst Data
+Author-email: info@demystdata.com
+Requires-Dist: requests
+Requires-Dist: glom
+Requires-Dist: simplejson
+
