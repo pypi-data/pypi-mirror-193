@@ -1,0 +1,13 @@
+{
+  "memory_length": 3,
+  "max_token": 200,
+  "ai_temperature": 75,
+  "bot_active": 1,
+  "level": 2,
+  "model": "text-curie-001",
+  "daily_limit": 50,
+  "admin_limit": 50,
+  "password": "",
+  "empty_response": "OK; Cool; I see; Nice; Hmmm",
+  "no_idea_response": "No idea; I can't say; You know better; I don't know; Don't ask me"
+}
