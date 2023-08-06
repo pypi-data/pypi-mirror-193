@@ -1,0 +1,7 @@
+oarepo-model-builder>=3.2.16
+
+[tests]
+pytest
+black
+autoflake
+isort
