@@ -1,0 +1,11 @@
+adafruit_platformdetect/__init__.py,sha256=qBOjDcQWJRCcQyP7u3ROv-M0BlcGYNmm-HD5NZ1tDs8,4272
+adafruit_platformdetect/board.py,sha256=egHav95BO_DC9m4ehd3wnrbcZ3sJbUoI4Vz1qLJ2aqk,34139
+adafruit_platformdetect/chip.py,sha256=E9E1PVMliAxyo_3AFcA1LRgLoogmOkVjOIrp4a5areU,14960
+adafruit_platformdetect/constants/__init__.py,sha256=73ItGwyF7Z_AoaSaSMQF9ooLuEyQXOV1Zv9yqAU8G4k,163
+adafruit_platformdetect/constants/boards.py,sha256=gxCEWttsOF6xEOPtC3c9ZLcNor-vE__ro6FuybtMIL8,14893
+adafruit_platformdetect/constants/chips.py,sha256=lFdHPX0jWJCCX2-VIXi1Ey7y1XI6RS4nrWLCuDh5abw,1494
+Adafruit_PlatformDetect-3.40.3.dist-info/LICENSE,sha256=UODDtbRIa-DtQgY5-KH28RXykQH-7mvNlUpLgdsE0PM,1086
+Adafruit_PlatformDetect-3.40.3.dist-info/METADATA,sha256=fQ54niBzINmjGVmGqVERckwWDXvFtf2IfhPnGlzT1a4,3768
+Adafruit_PlatformDetect-3.40.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Adafruit_PlatformDetect-3.40.3.dist-info/top_level.txt,sha256=xyO_mesQw7M0Gaxa5eePp8_s0PUwdPu7XFC00EDyXDc,24
+Adafruit_PlatformDetect-3.40.3.dist-info/RECORD,,
