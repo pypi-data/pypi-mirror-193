@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/IPTV_Subscription_IP_TV_Subscription_IPTV_premium_Subscription_Worldwide_Channels.egg-info/PKG-INFO
+src/IPTV_Subscription_IP_TV_Subscription_IPTV_premium_Subscription_Worldwide_Channels.egg-info/SOURCES.txt
+src/IPTV_Subscription_IP_TV_Subscription_IPTV_premium_Subscription_Worldwide_Channels.egg-info/dependency_links.txt
+src/IPTV_Subscription_IP_TV_Subscription_IPTV_premium_Subscription_Worldwide_Channels.egg-info/top_level.txt
