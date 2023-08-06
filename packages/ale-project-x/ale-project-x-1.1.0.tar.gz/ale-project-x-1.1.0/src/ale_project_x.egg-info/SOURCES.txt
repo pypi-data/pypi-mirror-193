@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/ale_project_x.egg-info/PKG-INFO
+src/ale_project_x.egg-info/SOURCES.txt
+src/ale_project_x.egg-info/dependency_links.txt
+src/ale_project_x.egg-info/entry_points.txt
+src/ale_project_x.egg-info/requires.txt
+src/ale_project_x.egg-info/top_level.txt
+src/report/__init__.py
+src/report/__main__.py
+src/report/config.toml
+src/report/worker.py
