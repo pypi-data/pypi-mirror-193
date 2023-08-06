@@ -1,0 +1,2 @@
+[console_scripts]
+cli-srv_test = srv_test_lib:hello_world
