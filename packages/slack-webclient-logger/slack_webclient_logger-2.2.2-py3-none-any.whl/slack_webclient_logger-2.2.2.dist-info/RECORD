@@ -1,0 +1,7 @@
+nmrbox_slack/__init__.py,sha256=JcxZMralTLEWP_-wB2DVP7q_8n6bnBqHTAComvU8bfQ,79
+nmrbox_slack/slacklogger.py,sha256=Nt9HBTbGjYZGI7vCCjOTihm6eBAeTqH6wNo-eKCR3Hk,7639
+slack_webclient_logger-2.2.2.dist-info/LICENSE,sha256=xlZXmi1OvB583sv5H6GoIi3APsvxeDV55dcsOdyYKMs,1204
+slack_webclient_logger-2.2.2.dist-info/METADATA,sha256=2hewP_3dqkdD4NE9uTnt8BsX6tLjhT4QgMXVsLcIXK8,3213
+slack_webclient_logger-2.2.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slack_webclient_logger-2.2.2.dist-info/top_level.txt,sha256=pxFMdqvnxklCmljyQ0S2jHf2zHdPJ7giHhSpGidCcgs,13
+slack_webclient_logger-2.2.2.dist-info/RECORD,,
