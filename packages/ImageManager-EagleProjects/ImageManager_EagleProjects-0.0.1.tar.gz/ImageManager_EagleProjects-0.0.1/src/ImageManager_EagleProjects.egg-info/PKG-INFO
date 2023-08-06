@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: ImageManager-EagleProjects
+Version: 0.0.1
+Summary: package handling click on image and waiting with pyautogui
+Author-email: Example Giovanni Gargiulo <ggargiulo@eagleprojects.it>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Package Image Manager
+
+Il package gestisce gli screenshot\foto indicati manualmente con un path specifico. Prendendoli, in input, 
+puo utilizzare tre funzioni che servono rispettivamente a: la prima, ad aspettare un caricamento, cioe' finche non riesce a fare la comparazione tra la foto\screenshot passato e lo schermo nel trovare l'elemento.
+La seconda a cliccare un elemento che trova con varie opzioni che si possono
+passare. La terza ed ultima e' una switch. Cioe' serve ad indicare due foto che, se una fallisce, prova con un altra per trovarla e cliccarla.
+
+## Prerequisiti
+
+ - **OS**: Windows 11
+ - **Python** >= 3.6
+
+## Installazione
+
+ 1. Selezione dell'ambiente virtuale (opzionale)
+
+    `...\python-env\Scripts\activate`
+
+ 2. Installazione pacchetto
+
+`pip install \\10.1.0.42\divisioni\20_RS\40_RPA\CustomPythonPackages\ImageManager\ImageManager-0.0.1_ggargiulo-py3-none-any.whl`
+ 
+ 3. Check installazione
+		 1.  Aprire il terminale
+		 2. Avviare python nell'ambiente virtuale
+		 3. Eseguire `import ImageManager`
+		 4. In caso di errori, sarà ritornata l'eccezione ModuleNotFoundError
+## Import ed uso
+import ImageManager
+
+exemple_var = ImageManager.ImageManager()
+
+exmple_var.clickCustom(nome_foto)
+
+## Funzione ClickCustom
+
+La sua funzione principale. Praticamente serve a cliccare l'elemento di cui bisogna indicare il nome_foto della foto dell'elemento da trovare.
+e, il package, in automatico lo andra' a cercare.
+
+    clickCustom(nome_foto) #Default: dove nome_foto e' letteralmente il nome con estensione della foto.
+
+    clickCustom(nome_foto,x=4,y=4) #cliccare con coordinate: passando la sua x e/o y e' possibile far cliccare un elemento alle coordinate esatte indicate che, chiaramente, partono dalla sua foto. E possono essere passate sia singolarmente che insieme e sia negativamente che positivamente. La misura e' espressa in pixel
+
+    clickCustom(nome_foto,clicks_number) #Passando al poter indicare al numero di click ,e' possibile, quantificare quanti click deve fare la funzione. Quindi sia doppio che piu'
+    
+    clickCustom(nome_foto,click_right=True) #Passando al click_right, True, e' possibile dire al package di cliccare col tasto destro sul elemento.
+
+
+NB: nome_foto e' OBBLIGATORIO altrimenti , il package, non saprebbe dove cliccare. 
+
+## Funzione waitLoading
+
+La funzione si occupa di aspettare un elemento indicato nella foto passata.
+E' possibile utilizzarlo sia per aspettare in modo indefinito finche quel elemento non appare (da usare con attenzione se non si vuole rimanere in un loop infinito). Altrimenti indicando un timeout ben chiaro ("e' possibile anche non indicarlo. In quel caso, la funzione, aspettera' 240 secondi di default)
+
+    waitLoading(nome_foto) #Default: aspettera' 240 secondi finche non apparira' l'elemento nella foto indicata provandoci per 5 volte sempre per quei secondi. Nel caso non apparisse cioe' non trovasse l'elemento ,il programma, avanzerebbe andando semplicemente avanti senza rimanere fermo dopo l'attesa.
+
+    waitLoading(nome_foto,timeout=4) #aggiugendo manualmente il timeout, e' possibile dire alla funzione di aspettare , come sopra indicato per 5 volte massimo come tentativo, per i secondi indicati. Nell'esempio descritto, per esempio, gli ho detto di aspettare 4 secondi.
+
+    waitLoading(nome_foto,loading=True) #questo parametro comunica alla funzione di aspettare finche l'elemento non appare nella foto passata in maniera indefinita.
+    Per cui fare attenzione poiche, appunto, si entrerebbe in un loop infinito.
+    Sarebbe da utilizzare se, effettivamente, sarebbe importante che il programma attenda indefinitivamente quel elemento.
+
+NB: nome_foto e' un parametro obbligatorio da passare alla funzione.
+
+### Extra
+
+Se si assegna waitLoading ad una variabile, essa, ritornera' una variabile con delle coordinate oppure un valore NULL.
+Per cui e' utilizzabile casomai si voglia verificare o serva sapere se quel elemento esista o meno dopo l'attesa desiderata.
+
+    var_exemple = waitLoading(nome_foto)
+
+# switchLoading
+
+La funzione indicata permette di , indicando i due path necessari e quindi obbligatori, testare uno dei due click tramite due foto differente.
+Si potrebbe utilizzare quando non si ha certezza che l'elemento si trovi a schermo e tenda a cambiare per cui sarebbe utile un click differente.
+Per quanto essa sia base. Cioe' e' solo click sinistro senza coordinate.
+
+    switchLoading(nome_foto_estensione_principale,nome_foto_estensione_secondario) #come fa' capire i parametri da passare sono entrambi necessari ed una indica una foto principale da passare e l'altra quella da utilizzare casomai la prima fallisca.

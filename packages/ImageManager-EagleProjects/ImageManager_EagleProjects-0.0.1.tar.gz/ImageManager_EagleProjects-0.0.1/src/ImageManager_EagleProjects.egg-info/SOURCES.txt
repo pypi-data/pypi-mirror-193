@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/ImageManager.py
+src/__init__.py
+src/ImageManager_EagleProjects.egg-info/PKG-INFO
+src/ImageManager_EagleProjects.egg-info/SOURCES.txt
+src/ImageManager_EagleProjects.egg-info/dependency_links.txt
+src/ImageManager_EagleProjects.egg-info/top_level.txt
