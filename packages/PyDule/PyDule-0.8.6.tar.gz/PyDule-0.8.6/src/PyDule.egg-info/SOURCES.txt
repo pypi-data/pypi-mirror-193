@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/PyDule.egg-info/PKG-INFO
+src/PyDule.egg-info/SOURCES.txt
+src/PyDule.egg-info/dependency_links.txt
+src/PyDule.egg-info/requires.txt
+src/PyDule.egg-info/top_level.txt

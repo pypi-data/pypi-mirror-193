@@ -1,0 +1,7 @@
+beautifulsoup4
+pyttsx3
+pywhatkit
+playsound
+datetime
+requests
+AppOpener
