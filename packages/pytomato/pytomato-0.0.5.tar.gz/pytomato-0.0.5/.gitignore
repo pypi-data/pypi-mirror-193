@@ -1,0 +1,6 @@
+.idea/
+pytomato.egg-info/
+build/
+dist/
+local.properties
+local.ini
