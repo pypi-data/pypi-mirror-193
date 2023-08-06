@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/borgmqtt/__init__.py
+src/borgmqtt/actions.py
+src/borgmqtt/const.py
+src/borgmqtt/repo.py
+src/borgmqtt.egg-info/PKG-INFO
+src/borgmqtt.egg-info/SOURCES.txt
+src/borgmqtt.egg-info/dependency_links.txt
+src/borgmqtt.egg-info/entry_points.txt
+src/borgmqtt.egg-info/requires.txt
+src/borgmqtt.egg-info/top_level.txt
