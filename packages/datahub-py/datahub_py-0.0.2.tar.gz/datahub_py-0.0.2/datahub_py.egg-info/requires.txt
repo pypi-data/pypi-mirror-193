@@ -1,0 +1,10 @@
+
+[flask]
+Flask==2.2.2
+Flask_RESTful==0.3.9
+
+[numpy]
+numpy==1.23.5
+
+[requests]
+requests==2.28.1
