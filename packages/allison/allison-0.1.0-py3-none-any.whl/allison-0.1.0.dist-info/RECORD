@@ -1,0 +1,16 @@
+allison/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allison/clustering/k_means.py,sha256=Nhu8LmKLuXDlXZDhpIHv1NN5UHlCDykyofn5AnpKttA,2335
+allison/linear_models/functional_regression.py,sha256=uezojxXAmthd-XFrHZwCrGaXkjsmHV-6jYIbPbEiOtw,3317
+allison/linear_models/linear_regression.py,sha256=zEIkz8_X2jQWRgyySyUMPQ2sZPyA8F7kinfpCUf901A,2474
+allison/linear_models/logistic_regression.py,sha256=3DSr_FRLjohpHbWcqmo-kqZWRCsN-M254qVXkUTrS8w,2944
+allison/linear_models/polinomic_regression.py,sha256=mNXjXxY3GkhWMvy2vlBRSuaPs6uIRg18fYiwHa71faI,2702
+allison/nn/layers.py,sha256=4FqVmwYD0xC0NF0L9_GeZGLbaQxHU8m-27kXO66ZKFQ,1582
+allison/nn/models.py,sha256=agevNOgnC9u7aM5-U4jhROhG_W6GHQJJW-OAmq4h2QA,2620
+allison/utils/functions/activation.py,sha256=cAf6ZcXH73K9DnuAMOyJeDEhMOTSskgDdcGpyusfivk,439
+allison/utils/functions/loss.py,sha256=cj3AERaTQy0s0OsPEe6ihNYGrnM6ynUPe1SJNIZ4TWQ,560
+allison/utils/functions/transforms.py,sha256=2sSReWDYe8wxIY7Cu9c_4xO7aL0nvlRVHQP_HO36HNk,197
+allison/utils/metrics.py,sha256=aVem_W4Y2Twq5WOz_zTOG95YyA59xlmwkjiD_4s3MIM,1369
+allison-0.1.0.dist-info/METADATA,sha256=hF62BN5jQ0uKjEPQBZAaBOfuaDJHfXuqHF_xH_CwcuU,1231
+allison-0.1.0.dist-info/LICENSE,sha256=ffX1zxbo6NPNKY7Nwv4aviv_3PPBiuusgXAk7V_yFNQ,1072
+allison-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+allison-0.1.0.dist-info/RECORD,,
