@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: robotic-manipulator-rloa
+Version: 1.0.0
+Summary: Framework for training Robotic Manipulators on the Obstacle Avoidance task through Reinforcement Learning.
+Author-email: Javier Martinez <jmartinezojeda5upv@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Javier Martinez
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/JavierMtz5/robotic_manipulator_rloa
+Project-URL: Repository, https://github.com/JavierMtz5/robotic_manipulator_rloa
+Project-URL: Documentation, https://javiermtz5.github.io/robotic_manipulator_rloa/
+Keywords: Robotics,Manipulator,Framework,Reinforcement Learning,Obstacle Avoidance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Framework :: Robot Framework
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# robotic_manipulator_rloa
+
+**robotic_manipulator_rloa** is a framework for training Robotic Manipulators on the Obstacle Avoidance task through Reinforcement Learning.
+
+## Installation
+
+Install the package with [pip](https://pip.pypa.io/en/stable/).
+
+```bash
+$ pip install robotic-manipulator-rloa
+```
+
+> **_For Windows:_**  If the installation is not successful because Microsoft Visual C++ 14.0 or greater is required, 
+> download and install the Microsoft C++ Build Tools from here: https://visualstudio.microsoft.com/es/visual-cpp-build-tools/
+
+## Usage
+
+### Execution of a demo training and testing process for the KUKA IIWA Robotic Manipulator
+
+```python
+from robotic_manipulator_rloa import ManipulatorFramework
+
+# Initialize the framework
+mf = ManipulatorFramework()
+
+# Run a demo of the training process for the KUKA IIWA Robotic Manipulator
+mf.run_demo_training('kuka_training', verbose=False)
+
+# Run a demo of the testing process for the KUKA IIWA Robotic Manipulator
+mf.run_demo_testing('kuka_testing')
+```
+
+### Execution of a training for the KUKA IIWA Robotic Manipulator
+
+```python
+from robotic_manipulator_rloa import ManipulatorFramework
+
+# Initialize the framework
+mf = ManipulatorFramework()
+
+# Initialize KUKA IIWA Robotic Manipulator environment
+mf.initialize_environment(manipulator_file='kuka_iiwa/kuka_with_gripper2.sdf',
+                          endeffector_index=13,
+                          fixed_joints=[6, 7, 8, 9, 10, 11, 12, 13],
+                          involved_joints=[0, 1, 2, 3, 4, 5],
+                          target_position=[0.4, 0.85, 0.71],
+                          obstacle_position=[0.45, 0.55, 0.55],
+                          initial_joint_positions=[0.9, 0.45, 0, 0, 0, 0],
+                          initial_positions_variation_range=[0, 0, 0.5, 0.5, 0.5, 0.5],
+                          visualize=False)
+
+# Initialize NAF Agent (checkpoint files will be generated every 100 episodes)
+mf.initialize_naf_agent(checkpoint_frequency=100)
+
+# Run training for 3000 episodes, 400 timesteps per episode
+mf.run_training(3000, 400, verbose=False)
+```
+
+### Execution of a testing process for the KUKA IIWA Robotic Manipulator (must execute a training for 3000 episodes before)
+
+```python
+import os
+import pybullet_data
+from robotic_manipulator_rloa import ManipulatorFramework
+
+# Initialize the framework
+mf = ManipulatorFramework()
+
+# Initialize KUKA IIWA Robotic Manipulator environment
+kuka_path = os.path.join(pybullet_data.getDataPath(), 'kuka_iiwa/kuka_with_gripper2.sdf')
+mf.initialize_environment(manipulator_file=kuka_path,
+                          endeffector_index=13,
+                          fixed_joints=[6, 7, 8, 9, 10, 11, 12, 13],
+                          involved_joints=[0, 1, 2, 3, 4, 5],
+                          target_position=[0.4, 0.85, 0.71],
+                          obstacle_position=[0.45, 0.55, 0.55],
+                          initial_joint_positions=[0.9, 0.45, 0, 0, 0, 0],
+                          initial_positions_variation_range=[0, 0, .5, .5, .5, .5],
+                          visualize=False)
+
+# Initialize NAF Agent
+mf.initialize_naf_agent()
+
+# Load pretrained weights from .p file
+mf.load_pretrained_parameters_from_episode(3000)
+
+# Test the pretrained model for 50 test episodes, 750 timesteps each
+mf.test_trained_model(50, 750)
+
+```
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first
+to discuss what you would like to change. Please make sure to update and execute the tests!
+
+```bash
+robotic_manipulator_rloa$ pytest --cov-report term-missing --cov=robotic_manipulator_rloa/ tests/robotic_manipulator_rloa/
+```
+
+## License
+
+[MIT License](https://choosealicense.com/licenses/mit/)
