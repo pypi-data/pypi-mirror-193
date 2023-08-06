@@ -1,0 +1,10 @@
+pyreadstat/__init__.py,sha256=en9EXa7qzcM8dd4ShBUxzHszpWy5hySHl2eQ6Hfaw1g,1124
+pyreadstat/_readstat_parser.cpython-38-darwin.so,sha256=AS6Q4uTb04cNUPjCZKSMyt6LXC-J2EVVC47d3VhgYcA,479440
+pyreadstat/_readstat_writer.cpython-38-darwin.so,sha256=yxIIhqN75Bpa3i6eobNDSEwgGGtqKqM2BlVBU2jKfmg,572464
+pyreadstat/pyreadstat.cpython-38-darwin.so,sha256=-5p1hWFOqKAgiD1VS4vk9qaGp-r7Xap0Pp0c8PWrjtI,534928
+pyreadstat/worker.py,sha256=DHA7KXzZ3KSUSiYrepD7RpABPSLCYDq3-hOcoaFNBaI,972
+pyreadstat-1.2.1.dist-info/LICENSE,sha256=Tjohfl1RlkuDoTF5ctnLvkGnr8TU27PEy7PhOHjRz5c,12903
+pyreadstat-1.2.1.dist-info/METADATA,sha256=xZAttaBjjLXvxz-h8xYVwzjoQaKxIPXLDrIzXheNR94,1051
+pyreadstat-1.2.1.dist-info/WHEEL,sha256=I1bcPHHR6tn3lGqH6h9j_EhkVKjU_znt4i8IyWREJLE,109
+pyreadstat-1.2.1.dist-info/top_level.txt,sha256=7LlluhR4SADp00dJTEVpKMet_Jki7JHA6abJ-wu831E,11
+pyreadstat-1.2.1.dist-info/RECORD,,
