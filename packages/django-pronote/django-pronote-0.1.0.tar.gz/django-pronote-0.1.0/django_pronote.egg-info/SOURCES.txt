@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+django_pronote.egg-info/PKG-INFO
+django_pronote.egg-info/SOURCES.txt
+django_pronote.egg-info/dependency_links.txt
+django_pronote.egg-info/not-zip-safe
+django_pronote.egg-info/requires.txt
+django_pronote.egg-info/top_level.txt
+pronote/__init__.py
+pronote/authentication.py
+pronote/renderers.py
+pronote/settings.py
+pronote/urls.py
+pronote/views.py
