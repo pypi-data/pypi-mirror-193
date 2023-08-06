@@ -1,0 +1,14 @@
+meshkernel-2.0.1.data/purelib/meshkernel/MeshKernelApi.dll,sha256=msZGdq6aBVMseJFq2bkrRzTaV8cfne4omWaM7RiszWI,728064
+meshkernel-2.0.1.data/purelib/meshkernel/__init__.py,sha256=1ndDRptJQm114MuqzITNKoi6xXLnKx7NA_uSqn8hqBg,656
+meshkernel-2.0.1.data/purelib/meshkernel/c_structures.py,sha256=l1Bi2_MtUr3OBJzzgUC6yqrSoNZ2NGlnGsC5U7H_5SU,26961
+meshkernel-2.0.1.data/purelib/meshkernel/errors.py,sha256=cdqBdbfWARJFg3GcGxBHu-FAGbpSxa0gacNQozLxAFk,271
+meshkernel-2.0.1.data/purelib/meshkernel/factories.py,sha256=eJkZkPyQTs-xX2i2zVagRjs_tLXMRh770YAENCSFCP8,3406
+meshkernel-2.0.1.data/purelib/meshkernel/meshkernel.py,sha256=981N3y4EfRdimfvKGTJV4sziPUvp5EJhDPYuQmfdCXk,71825
+meshkernel-2.0.1.data/purelib/meshkernel/py_structures.py,sha256=8x0AcL-jaepv523LTNj8lMkEgz3wO-mOcnoaDsHpKH0,16211
+meshkernel-2.0.1.data/purelib/meshkernel/utils.py,sha256=5ssDrha_SyNCzeWw1PAF7N-Y5hPN393hT0EaZGrKtFc,1180
+meshkernel-2.0.1.data/purelib/meshkernel/version.py,sha256=EgEJhWtAAGZAn9XkSu1qi6E0eb_NXxJbsIIQsXrVyWg,23
+meshkernel-2.0.1.dist-info/LICENSE,sha256=lMA1O5mkI54RB9ZfouO6Hg41Y_-LDKFckjPf5Cl-bME,1086
+meshkernel-2.0.1.dist-info/METADATA,sha256=MTCSENgmbKh7B10Wl3BKPY1hSJllWBz1DT10yBscuOM,3636
+meshkernel-2.0.1.dist-info/WHEEL,sha256=7j5KnvZx7iXyUVyZ-9vLjWs2ne94AvsHS18_YLLWbeE,99
+meshkernel-2.0.1.dist-info/top_level.txt,sha256=xYNpL-Wj8YTkM0U0U804EqDsO-rc9d91pttk7jesk-4,11
+meshkernel-2.0.1.dist-info/RECORD,,
