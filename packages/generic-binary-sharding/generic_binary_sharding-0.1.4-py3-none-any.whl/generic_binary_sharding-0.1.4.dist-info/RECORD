@@ -1,0 +1,9 @@
+generic_binary_sharding/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+generic_binary_sharding/dcp_package_serialize.py,sha256=JfKAs5iJqzvOe47x5QLdZojRJ2ahEPERYfhqw_1xFI0,4028
+generic_binary_sharding/node_module_serialize.py,sha256=HR650fQ29LoQZQ2SoEGsTuUhHtwHW2B9AwmEWK3v6mU,2488
+generic_binary_sharding/serialize.py,sha256=eKgW1B__vtw7w99ASFeHba4CXuogR4r_VYrzUEk1quA,1809
+generic_binary_sharding/utils.py,sha256=AKio7GduJJ34je0-xiJTENVz-eGK17mkIUjN9QPN4AM,8231
+generic_binary_sharding-0.1.4.dist-info/entry_points.txt,sha256=8y3DFMr023oBsg7bSUTAdUVQdtXkYgItVXPUkHwYWpY,70
+generic_binary_sharding-0.1.4.dist-info/METADATA,sha256=2MY7tq5tsSvTtCat9lQ2PwceLH7g_WwJsqmnR5TsCvA,1426
+generic_binary_sharding-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+generic_binary_sharding-0.1.4.dist-info/RECORD,,
