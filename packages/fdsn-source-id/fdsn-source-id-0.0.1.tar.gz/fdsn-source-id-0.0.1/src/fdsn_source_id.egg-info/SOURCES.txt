@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/fdsn_source_id.py
+src/fdsn_source_id.egg-info/PKG-INFO
+src/fdsn_source_id.egg-info/SOURCES.txt
+src/fdsn_source_id.egg-info/dependency_links.txt
+src/fdsn_source_id.egg-info/top_level.txt

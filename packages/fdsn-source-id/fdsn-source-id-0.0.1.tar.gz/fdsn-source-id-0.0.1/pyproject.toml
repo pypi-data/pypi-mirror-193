@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fdsn-source-id"
+version = "0.0.1"
+authors = [
+  { name="Chad Trabant", email="chad.trabant@earthscope.org" },
+  { name="Adam Clark", email="adam.clark@earthscope.org" },
+]
+description = "A Python package for parsing and validating FDSN Source Identifiers"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/fdsn/fdsn-source-id-py"
+
