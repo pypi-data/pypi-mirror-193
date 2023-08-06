@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+cwikibot.egg-info/PKG-INFO
+cwikibot.egg-info/SOURCES.txt
+cwikibot.egg-info/dependency_links.txt
+cwikibot.egg-info/top_level.txt
