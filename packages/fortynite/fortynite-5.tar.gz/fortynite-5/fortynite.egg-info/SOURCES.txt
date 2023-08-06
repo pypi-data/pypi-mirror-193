@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+fortynite/__init__.py
+fortynite/fortynite_file.py
+fortynite.egg-info/PKG-INFO
+fortynite.egg-info/SOURCES.txt
+fortynite.egg-info/dependency_links.txt
+fortynite.egg-info/requires.txt
+fortynite.egg-info/top_level.txt
