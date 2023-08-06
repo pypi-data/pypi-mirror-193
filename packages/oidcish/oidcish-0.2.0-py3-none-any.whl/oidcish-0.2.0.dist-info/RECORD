@@ -1,0 +1,10 @@
+oidcish/__init__.py,sha256=DEwSjNu8MCz7dve7ebzFd9qbDU_zgFmydbAS7LioxKE,194
+oidcish/code.py,sha256=ML_zxwkpPbRVp7MmIohQiruHuU4twMrTsjcI7pqIpvA,11854
+oidcish/conn.py,sha256=yS97ToRHAZqUuw3rv6gqlVIwyD5LYydBW2gS948BHTI,1247
+oidcish/crypt.py,sha256=9tG8xRnk6qaWZccCHJp-UgS-6VLrthfBARAm-Y41vcU,3416
+oidcish/device.py,sha256=RTJoed1yEi6tt60QJzndwhrFK6Ypmrzlz7lqB6DI2X0,9432
+oidcish/flow.py,sha256=EOnVusINDRab6Vzgoc3HTYTgOBjIGWzFC_N_Kb9sYzE,3781
+oidcish/models.py,sha256=UBr3zlYx1hbw1n7kBsOpV94uKhm0Vu0vfXme15TvCAs,1951
+oidcish-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+oidcish-0.2.0.dist-info/METADATA,sha256=V0ZqTHRdgrLJOynsBfZi9HnKnFybQbFLhHwobu-VUJQ,3037
+oidcish-0.2.0.dist-info/RECORD,,
