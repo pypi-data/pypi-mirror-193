@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: profyle
+Version: 0.0.1
+Summary: Analyze and profiling code
+License: MIT
+Author: Carlos Valdivia
+Author-email: vpcarlos97@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.92.0,<0.93.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: snakeviz (>=2.1.1,<3.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Requires-Dist: uvicorn[standard] (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+Analyze and profiling code
