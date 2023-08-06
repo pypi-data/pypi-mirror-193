@@ -1,0 +1,10 @@
+monticello/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monticello/monticello.py,sha256=-ArRn2SDmuRlrYU6ZNZUjUEV_8S0Gkm7li7-Bl4KRjI,6767
+monticello/responses.py,sha256=XhQZ4RlZVL17rU-0RpKP2aw0fR0GfHDATe4uVS6Po4Y,301
+monticello/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monticello/tests/fixtures/__init__.py,sha256=xMnzGuDcxAJqJKgcbG2ipWFy4r1X_7bjT9_-z27pHp4,35
+monticello/tests/test_monticello.py,sha256=9wIuky2T7RGRj26Xwz4HoZhdIWWFUm-NP3XQ4dgSmmg,2682
+monticello-0.1.0.dist-info/LICENSE,sha256=A7qeTqH3QcfCvqGldfGDMpVqWyvRFDHobnSyoqgCzg4,1086
+monticello-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+monticello-0.1.0.dist-info/METADATA,sha256=Wdl9mOXUABj755HAqOyiJ4swtaNkFOKw6Tk5Z1FUnts,2060
+monticello-0.1.0.dist-info/RECORD,,
