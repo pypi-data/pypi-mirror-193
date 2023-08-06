@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ml-impute"
+version = "0.0.6"
+authors = [
+  { name="Joshua Weiner", email="joshuaweinernyc@gmail.com" },
+]
+description = "A package for synthetic data generation for imputation using single and multiple imputation methods."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+dependencies=["pandas", "numpy", "jax", "jaxlib", "dask", "tqdm"]
+
+[build.system]
+requires = [
+"pandas",
+"numpy",
+"jax",
+"jaxlib",
+"dask",
+"tqdm"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JoshWeiner/ml-impute"
+"Bug Tracker" = "https://github.com/JoshWeiner/ml-impute/issues"
