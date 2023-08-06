@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: minetest-python-nsi
+Version: 0.3.0
+Summary: Exécuter des scripts Python dans Minetest
+Author: Christophe Viroulaud
+Author-email: christophe.viroulaud@ac-bordeaux.fr
+License: GPL V3
+Keywords: minetest NSI Python
+Platform: ALL
+Classifier: Topic :: Education
+Classifier: Topic :: Games/Entertainment
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+### Présentation
+
+Cette bibliothèque permet d'exécuter des scripts Python dans le jeu Minetest (un jeu largement inspiré de Minecraft mais open source et gratuit).
+
+Ce travail s'appuie sur celui de Alessandro Norfo (sprintingkiwi) [https://github.com/sprintingkiwi/pycraft_lib](https://github.com/sprintingkiwi/pycraft_lib), également inspiré de Aron Nieminen et Mojang AB pour la partie connexion.
+
+### Installation
+
+#### Côté jeu
+
+###### **Windows**: 
+- Télécharger une version de Minetest préconfigurée [https://github.com/sprintingkiwi/pycraft_mod/releases/download/0.22/Pycraft_Minetest.exe](https://github.com/sprintingkiwi/pycraft_mod/releases/download/0.22/Pycraft_Minetest.exe).Il s'agit d'une version 4.16, portable. 
+
+###### **Linux**: 
+- Installer le jeu Minetest: [https://www.minetest.net/downloads/](https://www.minetest.net/downloads/)
+- Installer Lua (5.1)
+- Installer Luarocks
+- Dans un terminal, exécuter:
+
+```
+luarocks install luasocket
+```
+
+- Décompresser le **pycraft_mod** de sprintingkiwi dans le dossier **mods** de Minetest: [https://github.com/sprintingkiwi/pycraft_mod/releases/tag/0.22](https://github.com/sprintingkiwi/pycraft_mod/releases/tag/0.22)
+- Renommer le dossier du pycraft_mod, pour qu'il n'y ait pas de point, d'espace...
+- Dans le jeu, créer un monde et activer le pycraft_mod dans la configuration.
+
+###### Côté Python
+
+- Installer la bibliothèque **minetest-python-nsi**
+
+```
+pip install minetest-python-nsi
+```
+
+- Importer la bibliothèque
+
+```Python
+from minetest_python_nsi import *
+```
+
+#### Utilisation
+
+```Python
+from minetest_python_nsi import *
+
+# Connexion en local
+connexion()
+
+pos = recuperer_ma_position()
+x, y, z = pos[0], pos[1], pos[2]+1
+
+# Pose un bloc de diamant à côté du joueur
+poser_bloc((x, y, z), 57)
+```
+
+```Python
+from minetest_python_nsi import *
+
+# Connexion à un serveur distant
+# port par défaut: 4711
+connexion("mon_pseudo", "mon_serveur.fr", 4711)
+```
+
+La <a href="https://cviroulaud.gitlab.io/minetest-doc/index.html" target="_blank">documentation</a> complète de la librairie.
