@@ -1,0 +1,13 @@
+srtranslator/__init__.py,sha256=M5IGrMdFHjaLm9GFX7aUDH9A7S4F0Aor67zmvJOn_go,78
+srtranslator/__main__.py,sha256=HVRUnd93g-S-FvzxxL8lEkfv0Sbi4lyN4egGqUB6xHY,1730
+srtranslator/srt_file.py,sha256=WzrZZKf_YOjuxJNYSvKr9wnq6Zq1hZhYqs2Yi48v310,5978
+srtranslator/translators/__init__.py,sha256=w02kgVJFjvz-9Ps1HM5YIMqn3QtVqBZDCTEj_biq6_I,30
+srtranslator/translators/base.py,sha256=JFZovZFv2Gs6xegYbOcRHjQ1MvlPp49pU-iPyexokbc,336
+srtranslator/translators/deepl.py,sha256=w-PZ5LJLPR47O2KzcxpnsgZx3dG9k_b8jtagyUdPy8I,4299
+srtranslator/translators/selenium_utils.py,sha256=m2Fmf4-xhyykM2ZBqGyMEvQ_Hq1DnF38O7oB0Wc-RXA,4055
+srtranslator/translators/translatepy.py,sha256=Vcw_DtIIeY_qfapLl1RPvDQvmhfz6Q2Ogd3a-mq_0mg,1076
+srtranslator-0.1.93.dist-info/LICENSE.md,sha256=WyQtAN1f9igUit5RsTjExH1Rtoj38o1j6qANSAu0_30,485
+srtranslator-0.1.93.dist-info/METADATA,sha256=nvS8nvIbBLTfj-WtFHrWf4qaZFnww-DJ8FKSdzXyb2A,3578
+srtranslator-0.1.93.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+srtranslator-0.1.93.dist-info/top_level.txt,sha256=O7TUuFGkbC4CPyb3hPNBH36zOr2VTz7XNfma4WjppHo,13
+srtranslator-0.1.93.dist-info/RECORD,,
