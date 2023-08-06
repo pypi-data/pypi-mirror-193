@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+asyncpyspapi/__init__.py
+asyncpyspapi/api.py
+asyncpyspapi/models.py
+asyncpyspapi.egg-info/PKG-INFO
+asyncpyspapi.egg-info/SOURCES.txt
+asyncpyspapi.egg-info/dependency_links.txt
+asyncpyspapi.egg-info/requires.txt
+asyncpyspapi.egg-info/top_level.txt
