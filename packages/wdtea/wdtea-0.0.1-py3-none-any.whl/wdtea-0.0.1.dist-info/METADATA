@@ -1,0 +1,194 @@
+Metadata-Version: 2.1
+Name: wdtea
+Version: 0.0.1
+Summary: Basically a module with stuff that I find helpful
+Home-page: https://replit.com/@LabboLab/wdtea?v=1
+Author: jaxbax
+Author-email: labbolabyt@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WDTEA `v0.0.1`
+
+> *"Why Doesn't This Exist Already"*
+> 
+(Basically a module with stuff that I find helpful)
+
+---
+
+So you don't have to go through the code yourself, have the...
+
+
+## ✨*Documentation*✨
+
+[`newLine`](#newLine)
+
+[`sleep`](#sleep)
+
+[`randRange`](#randRange)
+
+[`clear`](#clear)
+
+[`floor`](#floor)
+
+[`ceil`](#ceil)
+
+---
+
+### newLine
+
+> prints *x* amount of newlines
+
+*Code:*
+
+```py
+def newLine(x):
+  for i in range(x):
+    print() #Blank print makes a new line
+```
+*Usage:*
+
+```py
+print("hello")
+wdtea.newLine(3)
+print("world")
+
+```
+*Output:*
+```
+hello
+
+
+
+world
+```
+
+---
+
+### sleep
+> Waits for *x* millilseconds
+
+*Code:*
+
+```py
+def sleep(x):
+  time.sleep(x/1000) #Converted to milliseconds
+```
+
+*Example Usage:*
+
+```py
+print("hello")
+sleep(1000)
+print("world")
+
+```
+*Example Output:*
+
+```
+hello
+```
+
+---
+
+### randRange
+> Returns a random integer between *min* and *max*
+
+*Code:*
+
+```py
+def randRange(min, max):
+  return random.randrange(min, max)
+```
+*Example Usage:*
+
+```py
+randRange(1,10)
+```
+*Example Output:*
+
+```
+9
+```
+---
+
+### clear
+> Clears the console
+
+*Code:*
+
+```py
+def clear():
+  os.system('clear')
+  ```
+*Example Usage*:
+
+```py
+clear()
+```
+
+*Example Output:*
+
+```
+  
+```
+(It clears the console what did you expect for the example output?)
+
+---
+
+### floor
+> Rounds down
+
+*Code:*
+
+```py
+def floor(x):
+  return math.floor(x)
+```
+
+*Example Usage:*
+
+```py
+floor(15.75)
+
+```
+*Example Output:*
+
+```
+15
+```
+---
+
+### ceil
+> Rounds up
+
+*Code:*
+
+```py
+def ceil(x)
+  return math.ceil(x)
+```
+
+*Example Usage:*
+
+```py
+ceil(21.23)
+```
+
+*Example Output:*
+
+```
+22
+```
+
+---
+
+## To-Do:
+
+ - [ ] Fix progBar function
+ - [ ] Fix delLine function
+ - [ ] Profit
