@@ -1,0 +1,7 @@
+bobbin
+devenv
+docs
+examples
+log
+requirements
+tests
