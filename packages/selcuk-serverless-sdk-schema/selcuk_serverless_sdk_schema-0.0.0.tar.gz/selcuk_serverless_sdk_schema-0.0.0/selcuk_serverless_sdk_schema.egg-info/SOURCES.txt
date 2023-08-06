@@ -1,0 +1,9 @@
+pyproject.toml
+selcuk_serverless_sdk_schema/__init__.py
+selcuk_serverless_sdk_schema.egg-info/PKG-INFO
+selcuk_serverless_sdk_schema.egg-info/SOURCES.txt
+selcuk_serverless_sdk_schema.egg-info/dependency_links.txt
+selcuk_serverless_sdk_schema.egg-info/requires.txt
+selcuk_serverless_sdk_schema.egg-info/top_level.txt
+selcuk_serverless_sdk_schema/tests/__init__.py
+selcuk_serverless_sdk_schema/tests/test_schema.py
