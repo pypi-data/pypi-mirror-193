@@ -1,0 +1,12 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+src/constants.py
+src/protocolplus.py
+src/specs.py
+src/protocolplus.egg-info/PKG-INFO
+src/protocolplus.egg-info/SOURCES.txt
+src/protocolplus.egg-info/dependency_links.txt
+src/protocolplus.egg-info/entry_points.txt
+src/protocolplus.egg-info/top_level.txt
+tests/test.py
