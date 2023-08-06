@@ -1,0 +1,17 @@
+almdrlib/__init__.py,sha256=0UF4wnDFZhA2xWeOKc3mlMZ7oUmXrbek5wEPQNdWvB4,2313
+almdrlib/client.py,sha256=k_SVsTLx534iijG32-oaxUqUhmyL-N4ZvAmnYgDZVCU,33218
+almdrlib/config.py,sha256=LH56CIAARn7-uYfcP7I2mAwe0H-TRV0pJNQeQgRERJw,10114
+almdrlib/constants.py,sha256=tBjHCqt8J1N7olctA_WGgIXu1Np1vQjl9TtTGQOD4Hk,434
+almdrlib/environment.py,sha256=thScSSsNz83NyaLRKcTFgJMsxMwXe2KuEcBc9FYqXLI,5004
+almdrlib/exceptions.py,sha256=pSmRPgWyGg-eyiHCgaxBD4AJxoN9ipj6VluhYFhWoTY,507
+almdrlib/region.py,sha256=cb5wd5apoHyGzEVWv0ah2VnZj8YQihXTbxsEk17Rg2c,1396
+almdrlib/session.py,sha256=XLFaxaN9dcQYAMLdVSrXsVWG2Vu-Uurdr92T0y7kFEo,13847
+almdrlib/version.py,sha256=WBNnS-vc7CzFoaXh_LvVuXOu9B5A_IpuxnreuDY3EWA,162
+almdrlib/docs/__init__.py,sha256=t2Yd43bvoyOWqYZfImyblwKbdZ68o1HXyugSOOWdwmY,978
+almdrlib/docs/service.py,sha256=ZPtaWtOvRO9Gri7h_05DHRSAkzwSve3TY3tR3hNBP_I,12309
+alertlogic_sdk_python-1.0.72.dist-info/AUTHORS.rst,sha256=avwD1APR8ks8pUPY-pdqfUDii1Pj7Ne347WC7um6VMc,168
+alertlogic_sdk_python-1.0.72.dist-info/LICENSE,sha256=ilVPENu2JmctbUXAW8ddL0lKWFGlHihXb-Y8z6-1QMU,1076
+alertlogic_sdk_python-1.0.72.dist-info/METADATA,sha256=ZWK_riJmomBVlrK7QwoyjgJ1J3-sriZ9V5O_M43Rk4c,24056
+alertlogic_sdk_python-1.0.72.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alertlogic_sdk_python-1.0.72.dist-info/top_level.txt,sha256=LevbszFLSqdS3yOClOap4s8tc9OvBWCcPxnLaiN41PQ,9
+alertlogic_sdk_python-1.0.72.dist-info/RECORD,,
