@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+google_cloud_ndbm/__init__.py
+google_cloud_ndbm/flask.py
+google_cloud_ndbm.egg-info/PKG-INFO
+google_cloud_ndbm.egg-info/SOURCES.txt
+google_cloud_ndbm.egg-info/dependency_links.txt
+google_cloud_ndbm.egg-info/requires.txt
+google_cloud_ndbm.egg-info/top_level.txt

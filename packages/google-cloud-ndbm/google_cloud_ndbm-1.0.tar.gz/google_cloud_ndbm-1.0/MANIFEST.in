@@ -1,0 +1,2 @@
+recursive-include google_cloud_ndbm *
+global-exclude *.py[cod]
