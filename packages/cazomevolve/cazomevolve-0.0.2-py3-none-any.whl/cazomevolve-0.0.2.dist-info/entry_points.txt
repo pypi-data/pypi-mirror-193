@@ -1,0 +1,5 @@
+[console_scripts]
+cevolve_download_genomes = cazomevolve.genomes.download_genomes:main
+cevolve_get_cazy_cazymes = cazomevolve.cazome.cazy.get_cazy_cazymes:main
+cevolve_get_dbcan_cazymes = cazomevolve.cazome.dbcan.get_dbcan_cazymes:main
+cevolve_invoke_dbcan = cazomevolve.cazome.dbcan.invoke_dbcan:main
