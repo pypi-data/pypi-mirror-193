@@ -1,0 +1,8 @@
+{
+    "StatusesNoNeedAnticipateSort": [
+        "SPRINT COMPLETE",
+        "PENDING RELEASE",
+        "PRODUCTION TESTING",
+        "CLOSED"
+    ]
+}
