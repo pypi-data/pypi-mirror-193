@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+requirements/main.txt
+requirements/test.txt
+src/my_project/__init__.py
+src/my_project/_version.py
+src/my_project/something.py
+src/my_project_andre.egg-info/PKG-INFO
+src/my_project_andre.egg-info/SOURCES.txt
+src/my_project_andre.egg-info/dependency_links.txt
+src/my_project_andre.egg-info/requires.txt
+src/my_project_andre.egg-info/top_level.txt
