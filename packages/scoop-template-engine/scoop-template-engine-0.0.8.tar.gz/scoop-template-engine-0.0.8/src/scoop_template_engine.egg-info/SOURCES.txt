@@ -1,0 +1,13 @@
+DESCRIPTION.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/scoop_template_engine.egg-info/PKG-INFO
+src/scoop_template_engine.egg-info/SOURCES.txt
+src/scoop_template_engine.egg-info/dependency_links.txt
+src/scoop_template_engine.egg-info/entry_points.txt
+src/scoop_template_engine.egg-info/requires.txt
+src/scoop_template_engine.egg-info/top_level.txt
+src/ste/__init__.py
+src/ste/__main__.py

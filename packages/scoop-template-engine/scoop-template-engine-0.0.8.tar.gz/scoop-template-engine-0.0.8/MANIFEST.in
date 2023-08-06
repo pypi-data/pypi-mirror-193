@@ -1,0 +1,8 @@
+include DESCRIPTION.md
+include LICENSE
+recursive-include src/scoop-template-engine/manuscripts/ init.py
+recursive-include src/scoop-template-engine/manuscripts/ template-*.tex
+recursive-include src/scoop-template-engine/manuscripts/ prepreamble-*.sty
+recursive-include src/scoop-template-engine/manuscripts/ preamble-*.sty
+recursive-include src/scoop-template-engine/manuscripts/ postpreamble-*.sty
+recursive-include src/scoop-template-engine/manuscripts/ *.patch
