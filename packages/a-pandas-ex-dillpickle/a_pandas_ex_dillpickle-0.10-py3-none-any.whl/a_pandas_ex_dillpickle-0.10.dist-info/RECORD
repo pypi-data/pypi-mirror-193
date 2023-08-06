@@ -1,0 +1,9 @@
+a_pandas_ex_dillpickle/README.MD,sha256=g5vlNDbsmuXhulsyVX1bcVPH8KWPzQKJMeCtX8sF2f0,3394
+a_pandas_ex_dillpickle/__init__.py,sha256=O46a9Xifj56athT9Sd_dIHQ5t4lLx3OgqO653Ygsh50,638
+a_pandas_ex_dillpickle/requirements.txt,sha256=IFfpypkUVvQJelulqIABCGwIF5G7lT2utQjZWcQtDLY,24
+a_pandas_ex_dillpickle/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+a_pandas_ex_dillpickle-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+a_pandas_ex_dillpickle-0.10.dist-info/METADATA,sha256=pdl7ey4LZhiCZd6muAs9_rge_tNVw-ad5HJ3oYsU-R8,4383
+a_pandas_ex_dillpickle-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+a_pandas_ex_dillpickle-0.10.dist-info/top_level.txt,sha256=84elEze3meVsT0yKFth_Tr-XIGHluDsZ4rYXSvn6nCc,23
+a_pandas_ex_dillpickle-0.10.dist-info/RECORD,,
