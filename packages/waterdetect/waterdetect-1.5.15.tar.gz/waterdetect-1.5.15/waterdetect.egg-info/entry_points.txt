@@ -1,0 +1,4 @@
+[console_scripts]
+process_ext_masks = runWaterDetect:process_ext_masks
+waterdetect = runWaterDetect:main
+
