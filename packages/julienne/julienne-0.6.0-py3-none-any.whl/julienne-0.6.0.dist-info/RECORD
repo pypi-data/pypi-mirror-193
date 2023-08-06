@@ -1,0 +1,11 @@
+julienne/__init__.py,sha256=CBY3jsC-9HCm7eZ6CKD-sYLCejqOJ1pYWPQM4LGIXcI,22
+julienne/cmd.py,sha256=p_WSTsmKXWuOnXcTFoUffK-enfAIPmEtH_ik25lx16o,1108
+julienne/filemodel.py,sha256=gq1dJcAUXKvZcGg5aai-puIMfUOtX5K0Bm3GNnNfklI,9345
+julienne/nodes.py,sha256=zhVeoja7VbonaqR0kajmhTDreJS38Fp4nolqdXvpubw,6627
+julienne/parsers.py,sha256=ND3kIvv_vZuE2SF9tc5hkjkUyD723HdyM77GoBii1kw,12009
+julienne-0.6.0.dist-info/LICENSE,sha256=dA1zrZyjxgTOpl-DVfYBCLL8jcQM1lo2ClQfqXg0nYI,1076
+julienne-0.6.0.dist-info/METADATA,sha256=vNSbuL_Hv9QyFVwQmPoDzzzu3ZTU1u8jYIUxKX9yhWU,11642
+julienne-0.6.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+julienne-0.6.0.dist-info/entry_points.txt,sha256=wMLc4FIsAZXpUQ5EMlfyQCR2-jFE7R9O4aWS1p7_mxU,43
+julienne-0.6.0.dist-info/top_level.txt,sha256=abev_yu53a1iI4dt7ugziSsvr_5IdPElZ0C3e9Ep8Ug,9
+julienne-0.6.0.dist-info/RECORD,,
