@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "easyflake"
+version = "0.0.5"
+description = "EasyFlake is a Python package for generating 64-bit IDs similar to Snowflake or Sonyflake."
+authors = ["Takeru Furuse <tsuperis@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/tsuperis/easyflake"
+repository = "https://github.com/tsuperis/easyflake"
+packages = [{include = "easyflake"}]
+keywords = ["snowflake", "sonyflake", "easyflake"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+
+[tool.poetry.group.test.dependencies]
+freezegun = "^1.2.2"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^5.0.4"
+mypy = "^1.0.1"
+isort = "^5.12.0"
+black = "^23.1.0"
+
+[tool.black]
+target-version = ['py38', 'py39', 'py310', 'py311']
+include = '\.(pyi|py)$'
+exclude = '''
+/(
+    \.eggs/|
+    \.git/|
+    \.mypy_cache/|
+    \.pytest_cache/|
+    \.tox/|
+    \.venv/|
+    build/|
+    dist/
+)/
+'''
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+ignore_missing_imports = true
+show_error_context = true
+pretty = true
+
+[build-system]
+requires = ["poetry-core>=1.2"]
+build-backend = "poetry.core.masonry.api"
