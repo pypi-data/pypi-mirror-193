@@ -1,0 +1,11 @@
+starfyre-0.4.2.dist-info/METADATA,sha256=3sTCjxHORci0uJtzSBt7LYTLa0C5loQ3s6iKIFHfu-M,2228
+starfyre-0.4.2.dist-info/WHEEL,sha256=2DQs5z_cpyzhobEj5mmg6jhuayiCCgXzrDlCBNlOgX8,106
+starfyre-0.4.2.dist-info/license_files/LICENCE.md,sha256=Q-8EqoaPoCaAVncl9QqK-Di8B9t6VrCNt7N1CalFTL4,1302
+starfyre/store.py,sha256=3r3ZvAlhggmYbpdzgil0muYdsN6kqx38Wg7EqLpHhIc,1099
+starfyre/dom_methods.py,sha256=YndZs-jRxoz3fO_at1FaAiqMMl-HUwcTOK7_-LFGq9E,2613
+starfyre/__init__.py,sha256=dviu6YHnD7SmfOz63gXgcbQzMpjG6KmTs0yZfTENVUo,1871
+starfyre/parser.py,sha256=O2Bl6PinBmPJcmj805k66GgKEGcMLRB94mqg9dVa95s,7897
+starfyre/global_components.py,sha256=qDmQneg-DTSCnSlaIHDiI9rI3murrlRZeHc8dnJzql0,126
+starfyre/component.py,sha256=aq5rn_LoUuN0X5H7aZ9bR54saqgpZZ9_3gQzS1wmrx4,1282
+starfyre/starfyre.cpython-310-darwin.so,sha256=TTqQaqTC7tDmCo_xzOvXftyurKVzacdn2A4IVO7C5RQ,373131
+starfyre-0.4.2.dist-info/RECORD,,
