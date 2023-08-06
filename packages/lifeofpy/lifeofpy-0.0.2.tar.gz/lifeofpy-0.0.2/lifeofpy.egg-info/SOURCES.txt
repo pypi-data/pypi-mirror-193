@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+lifeofpy/__init__.py
+lifeofpy/lifeofpy.py
+lifeofpy.egg-info/PKG-INFO
+lifeofpy.egg-info/SOURCES.txt
+lifeofpy.egg-info/dependency_links.txt
+lifeofpy.egg-info/not-zip-safe
+lifeofpy.egg-info/top_level.txt
