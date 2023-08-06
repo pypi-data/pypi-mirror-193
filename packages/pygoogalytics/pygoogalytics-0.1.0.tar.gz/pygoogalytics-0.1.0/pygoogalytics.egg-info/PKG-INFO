@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pygoogalytics
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/Blink-SEO/pygoogalytics
+Author: Joshua Prettyman
+Author-email: joshua@blinkseo.co.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+
+UNKNOWN
+
