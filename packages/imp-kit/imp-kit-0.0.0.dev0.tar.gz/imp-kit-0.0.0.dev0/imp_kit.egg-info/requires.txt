@@ -1,0 +1,6 @@
+numpy
+typing_extensions
+Pillow
+opencv-python
+scikit-learn
+progress

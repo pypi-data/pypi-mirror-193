@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+imp/__init__.py
+imp/config.py
+imp/features.py
+imp/image.py
+imp/samplers.py
+imp/sys.py
+imp/utils.py
+imp_kit.egg-info/PKG-INFO
+imp_kit.egg-info/SOURCES.txt
+imp_kit.egg-info/dependency_links.txt
+imp_kit.egg-info/requires.txt
+imp_kit.egg-info/top_level.txt
+tests/__init__.py
+tests/main.py
