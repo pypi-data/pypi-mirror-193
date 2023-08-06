@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ionsc/__init__.py
+ionsc.egg-info/PKG-INFO
+ionsc.egg-info/SOURCES.txt
+ionsc.egg-info/dependency_links.txt
+ionsc.egg-info/top_level.txt
