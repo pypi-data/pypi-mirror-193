@@ -1,0 +1,11 @@
+$def with ()
+$ url = f"https://player.twitch.tv/?parent={tx.host.name}&channel="
+<iframe id=video src=$:(url)djmissshelton width=640 height=360 allowfullscreen></iframe>
+<label>Channel: <input id=channel></label>
+<button id=change>Change</button>
+
+<script type=module>
+change.addEventListener('click', e => {
+  video.src = `$:(url)$${channel.value}`
+})
+</script>
