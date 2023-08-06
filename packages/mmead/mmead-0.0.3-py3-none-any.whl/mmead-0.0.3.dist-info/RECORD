@@ -1,0 +1,14 @@
+mmead/__init__.py,sha256=4qG2qGXiWhwx_cHwjE97Ki3C9m0JRlWSs1v8tu_MBlg,383
+mmead/connection.py,sha256=EjfwCNJMECGSLF-JB0NNYQwSD07sunfnVx5sKjys_8M,1214
+mmead/download_info.py,sha256=TKjaeiN08HdSv661VNpQtXiGAZQPlm7TrS5_18Zpd48,4358
+mmead/retrieve.py,sha256=IwrUkmuLtoDAmaqY6oH4KIkPA55a6ulfpPXCH-KT9ps,8010
+mmead/util.py,sha256=rHUAfkH-rF_-H--mwFzs5BtsdgjElHDEZsl6d2uQTUI,16015
+mmead/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mmead/data/embeddings.py,sha256=RpboOT32PwgGjwAyyx4TViCHL2eT_XZsFd1152_L4dc,1307
+mmead/data/links.py,sha256=D9cAxHOvnGVjpH56nSoiKBCK8Dy55rK7EPKbrw57VgM,8094
+mmead/data/mappings.py,sha256=Lp1H4zH5QLxnyKxWWnsKIixKsuQdHXC7J2szejtataw,962
+mmead-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mmead-0.0.3.dist-info/METADATA,sha256=bjkhSMcwsRg5qA1DMUcfaxbdFN_W8nfGibAV9_uKc3g,250
+mmead-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mmead-0.0.3.dist-info/top_level.txt,sha256=AS_PUiLOd7aAwXCWA_m0HyxSQi2Qg_kciRF1OQLO1Co,6
+mmead-0.0.3.dist-info/RECORD,,
