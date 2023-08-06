@@ -1,0 +1,91 @@
+{
+    "FixedBond": [
+        "info",
+        "pv",
+        "cfs"
+    ],
+    "FloatBond": [
+        "info",
+        "pv",
+        "cfs",
+        "cleanDirty"
+    ],
+    "CallableBond": [
+        "info",
+        "pv",
+        "cleanDirty",
+        "cfInfo",
+        "additionalInfo"
+    ],
+    "CallableFixedBond": [
+        "info",
+        "pv",
+        "cfs",
+        "cleanDirty",
+        "additionalInfo"
+    ],
+    "CapFloor": [
+        "info",
+        "pv",
+        "cfs",
+        "cleanDirty"
+    ],
+    "Bond": [
+        "info",
+        "pv",
+        "cfInfo",
+        "cleanDirty",
+        "additionalInfo"
+    ],
+    "Swap": [
+        "info",
+        "pv",
+        "cfInfo",
+        "cleanDirty",
+        "rho",
+        "additionalInfo"
+    ],
+    "CrossCurrencySwap": [
+        "info",
+        "pv",
+        "cfs",
+        "cleanDirty"
+    ],
+    "FxContinuousBarrierOption": [
+        "info",
+        "pv",
+        "cfs"
+    ],
+    "FxEuropeanOption": [
+        "pv",
+        "info",
+        "cfs"
+    ],
+    "FxForward": [
+        "pv",
+        "info",
+        "cfs",
+        "additionalInfo",
+        "marketDataRange"
+    ],
+    "StockForward": [
+        "pv",
+        "info",
+        "cfs"
+    ],
+    "Swaption": [
+        "pv",
+        "info",
+        "cfs"
+    ],
+    "VanillaSwap": [
+        "pv",
+        "info",
+        "cfs"
+    ],
+    "ZeroBond": [
+        "pv",
+        "info",
+        "cfs"
+    ]
+}
