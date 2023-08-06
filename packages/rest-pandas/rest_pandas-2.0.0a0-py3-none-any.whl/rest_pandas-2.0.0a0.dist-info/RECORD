@@ -1,0 +1,17 @@
+rest_pandas/__init__.py,sha256=w3BXWddModvOj3UBv_gWbvUnYp0D9HPBREpVilxCB1Y,1033
+rest_pandas/renderers.py,sha256=gOlJ4TEzBfYuX2-h0fX5rx-pGzgE2DA9Zw2wlVu4Org,6827
+rest_pandas/serializers.py,sha256=xjDlMmHnA_80bQVe56Qt6EEF-1zdD_s8mskFov_nedI,13773
+rest_pandas/settings.py,sha256=DVco1JiE8wuAmOdo4HRrE08UpwplnjMcqS9n64I9MDw,1001
+rest_pandas/test.py,sha256=_iNWx_qX1xHB_7D4bDMGam3Nzp-_Y349LyU4KqUziUE,2358
+rest_pandas/views.py,sha256=JvngYC_tUyRC4ntARDEcAHkavjDduAemeXBxNjAy-RE,3878
+rest_pandas/static/app/js/analyst.js,sha256=28Zyo7w_-DR_07TIWYd0uL2W5tVo-_h9m7bE9nE8h88,120880
+rest_pandas/static/app/js/analyst.js.map,sha256=UgQr8qb7xO01ZgJUnmipS5h6Aeq0KS2PiHtg9Rp4Vm8,654025
+rest_pandas/static/app/js/chart.js,sha256=yJT46ad0PpP7Yx9X2SZ3U8PhGyR8Akovhvrj0ejdxAc,98811
+rest_pandas/static/app/js/chart.js.map,sha256=x6Kb6-ElToTZDbYB9vuuX0WeXlr-LjCH1ooKOHrxqyo,435153
+rest_pandas/templates/rest_pandas/base_site.html,sha256=jPLlp6X1OjzwLMLOhkThrfGcjp7RgmT9eYrWArZWPnI,426
+rest_pandas/templates/rest_pandas/viewer.html,sha256=TS9asupugzS-9A6Z6wT4NIUy4_m5PZv0XptLn6_iYDY,795
+rest_pandas-2.0.0a0.dist-info/LICENSE,sha256=LxcgzEh2EhV8SiPYoOBQDtQLKlvOlPtmOGkWu6eG4Ks,1084
+rest_pandas-2.0.0a0.dist-info/METADATA,sha256=uhem7AqNVJtJ8sArWH65jU01uNevujwKRRLJDzPfAmE,5413
+rest_pandas-2.0.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rest_pandas-2.0.0a0.dist-info/top_level.txt,sha256=qvWJJ_K8CcDckm27Wex2-JXdVLK2JIAFgamNr6meK84,12
+rest_pandas-2.0.0a0.dist-info/RECORD,,
