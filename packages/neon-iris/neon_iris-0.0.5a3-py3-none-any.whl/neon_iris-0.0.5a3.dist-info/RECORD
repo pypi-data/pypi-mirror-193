@@ -1,0 +1,10 @@
+neon_iris/__init__.py,sha256=2AwtZbd8r3OwlQQjExpaQ3oLz4Z6dDOgNSPPDPjTNX0,1685
+neon_iris/cli.py,sha256=LebMoA-ys7dP36fbwI8uRB7RzUgRyc0iNPJQICDfBiU,4897
+neon_iris/client.py,sha256=0urR1aGN7CXuMnPSUo2o5UUqSVyYZVE4SkFD46uj5nc,16789
+neon_iris/version.py,sha256=_fJGJXAseKY5yNNlrOXr5kKITZd41q5ZpNluLaxUmpo,1856
+neon_iris-0.0.5a3.dist-info/LICENSE.md,sha256=KxXbLh0XZkaLbNrj5ksC1Hl04EeiMbY-I0pGhKTPBRc,1635
+neon_iris-0.0.5a3.dist-info/METADATA,sha256=JZ9bDfQo-0Q20tECX1R4G_2KBPXD5Ef-5F-SgM-w4rU,948
+neon_iris-0.0.5a3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+neon_iris-0.0.5a3.dist-info/entry_points.txt,sha256=yP5B-QidmyuAPtpNJkbujYsDgd2xjxoUS8TeG2C2FVE,53
+neon_iris-0.0.5a3.dist-info/top_level.txt,sha256=Qr8puTs7ZWOQgBzllZqQNCnVYJLC0IvaWkRyYddrx1g,10
+neon_iris-0.0.5a3.dist-info/RECORD,,
