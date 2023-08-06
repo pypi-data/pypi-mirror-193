@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Django Migration Dependencies Graph</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js" integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <div id="container" style="height: 100vh; width: 100vw"></div>
+        <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.23.0/dist/cytoscape.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dagre@0.8.5/dist/dagre.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.min.js"></script>
+
+        <script type="text/javascript">
+            let nodes = [
+            {% for node in nodes %}
+                {
+                    id: "{{node.id}}",
+                    name: "{{node.name}}",
+                    type: "{{node.type}}",
+                    {% if node.parent %}parent: "{{node.parent}}",{% endif %}
+                    {% if node.runs_special %}runsSpecial: "{{ node.runs_special }}" === "True",{% endif %}
+                },
+            {% endfor %}
+            ]
+            let edges = [
+            {% for edge in edges %}
+                {
+                    id: "{{edge.id}}",
+                    source: "{{edge.source}}",
+                    target: "{{edge.target}}",
+                },
+            {% endfor %}]
+
+            let apps = nodes.filter(n => !n.parent)
+            let colorsByApp = {}
+            apps.forEach(app => {
+                colorsByApp[app.name] = chroma.random().hex();
+            })
+
+            nodes = nodes.map(n => {
+                let app = n.type === 'app' ? n.name : n.parent
+                let color = colorsByApp[app]
+                n.color = n.type === 'app' ? color : chroma(color).darken().hex()
+                n.app = app
+                return n
+            })
+
+            edges.forEach(n => {
+                let sourceApp = n.source.split('-')[0];
+                let targetApp = n.target.split('-')[0];
+                if (sourceApp !== targetApp) {
+                    n.color = chroma(colorsByApp[sourceApp]).darken().hex()
+                } else {
+                    n.color = "gray"
+                }
+                n.sourceApp = sourceApp
+                n.targetApp = targetApp
+            })
+
+            cytoscape.use( cytoscapeDagre );
+            const layoutName = "{% if layout %}{{ layout }}{% endif %}" || "dagre";
+            const layoutFactory = (layout) => {
+                const options = {name: layout}
+                if (layout === "breadthfirst") {
+                    options['directed'] = true
+                }
+                return options
+            }
+            const cy = cytoscape({
+                container: document.getElementById('container'),
+                elements: {
+                    nodes: nodes.map(n => {
+                        const node =  {data: n}
+                        if (n.runsSpecial) {
+                            node["style"] = {
+                                'background-image': "{{ special_icon }}",
+                                'background-fit': "cover",
+                                'background-offset-x': "1.5",
+                                'background-offset-y': "2.5",
+                            }
+                        }
+                        return node
+                    }),
+                    edges: edges.map(n => { return {data: n}})
+                },
+                layout: layoutFactory(layoutName),
+                style: [
+                    {
+                        selector: 'node',
+                        style: {
+                            label: 'data(name)',
+                            'background-color': 'data(color)',
+                        }
+                    },
+                    {selector: 'edge', style: {'line-color': 'data(color)'}}
+                ]
+            })
+        </script>
+    </body>
+</html>
