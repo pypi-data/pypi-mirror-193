@@ -1,0 +1,107 @@
+# Datahub-py
+
+ Pip version of Datahub core
+
+I am building my first pip library "datahub_py", but I am running into an issue and I need help.
+
+I have the following file structure:
+
+/Datahub
+|--setup.py
+|--LICENSE
+|--README.md
+|--datahub_py
+|  |--__init__.py
+|  |--Beacon
+|     |--Beacon.py
+|     |--Network.py
+|  |--Project
+|     |--Project.py
+
+
+**/Datahub/setup.py**:
+```
+from setuptools import setup, find_packages
+
+from datahub_py import __version__
+
+setup(
+    name='datahub_py',
+    version=__version__,
+    description='Datahub core',
+
+    url='https://github.com/26medias/Datahub-py',
+    author='Julien L',
+    author_email='julien@leap-forward.ca',
+
+    packages=find_packages(exclude=['tests', 'tests.*']),
+
+    extras_require=[
+        "Flask==2.2.2",
+        "Flask_RESTful==0.3.9",
+        "numpy==1.23.5",
+        "requests==2.28.1"
+    ],
+
+    classifiers=[
+        'Intended Audience :: Developers',
+
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+    ],
+)
+```
+
+**/Datahub/datahub_py/__init__.py**:
+```
+__version__ = '1.2'
+
+from Project.Project import Project
+from Beacon.Beacon import Beacon
+
+def hello_world():
+    print("This is my first pip package!")
+```
+
+**/Datahub/datahub_py/Beacon/Beacon.py**:
+```
+class Beacon:
+  def __init__(self):
+    print("Beacon Init")
+  
+  def hello(self):
+    return "Hi from Beacon!"
+```
+
+**/Datahub/datahub_py/Beacon/Network.py**:
+```
+class Network:
+  def __init__(self):
+    print("Network Init")
+  
+  def hello(self):
+    return "Hi from Network!"
+```
+
+**/Datahub/datahub_py/Project/Project.py**:
+```
+class Project:
+  def __init__(self):
+    print("Project Init")
+  
+  def hello(self):
+    return "Hi from Project!"
+```
+
+-----------
+
+If I do `pip install -e .`, everything is fine, no error.
+
+But here is what's happening when I test:
+```
+import datahub_py as Datahub
+Datahub.hello_world() # Works, prints "This is my first pip package!"
+(Datahub.Project()).hello() # Error: "AttributeError: module 'datahub_py' has no attribute 'Project'"
+```
+
+Do you know why I get `AttributeError: module 'datahub_py' has no attribute 'Project'` ?
