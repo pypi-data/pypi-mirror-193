@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+petrioneos.egg-info/PKG-INFO
+petrioneos.egg-info/SOURCES.txt
+petrioneos.egg-info/dependency_links.txt
+petrioneos.egg-info/top_level.txt
