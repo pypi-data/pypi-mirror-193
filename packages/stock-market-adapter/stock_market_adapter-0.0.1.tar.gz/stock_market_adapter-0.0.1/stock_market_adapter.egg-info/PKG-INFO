@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: stock-market-adapter
+Version: 0.0.1
+Author: Pletnev D
+Requires-Python: ~=3.7.0
+Provides-Extra: dev

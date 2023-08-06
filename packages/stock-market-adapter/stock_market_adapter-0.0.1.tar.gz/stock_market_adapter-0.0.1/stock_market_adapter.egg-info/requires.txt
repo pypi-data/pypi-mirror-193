@@ -1,0 +1,11 @@
+requests==2.28.2
+urllib3==1.26.14
+
+[dev]
+pytest~=6.2.5
+pytest-cov~=2.12.1
+isort~=5.10.0
+yapf~=0.32.0
+toml~=0.10.2
+flake8~=5.0.4
+Flake8-pyproject~=1.1.0
