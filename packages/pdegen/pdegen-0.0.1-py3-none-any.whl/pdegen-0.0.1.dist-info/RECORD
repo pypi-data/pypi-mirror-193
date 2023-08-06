@@ -1,0 +1,13 @@
+pdegen/__init__.py,sha256=0PBWmTNWzD81gBJg2DcMqe1gbeiiUQZWnYjnz6ECpME,48
+pdegen/generate.py,sha256=zZSqUCUWS2zfrym2LXaHg_OzCzwxqY_kYCMXGgEl6RU,385
+pdegen/interface.py,sha256=qo87wOlt5BOaaa6tvUjoDqEG4nzvUdAXWAZoxFAoM4Y,1332
+pdegen/problems/__init__.py,sha256=Szj2LwePfJgE6xCOnpp-1HrUawSKo3JEk8A67vIsIII,62
+pdegen/problems/adr.py,sha256=ayNntlHu9xsFGM1r98h1sqLgmcoYE55rZcTb5FfNWAQ,3823
+pdegen/problems/burgers.py,sha256=yoJjx9ab5SqjderTFFGwvgIPyAfmVrpsrkPC-H27YGI,3255
+pdegen/problems/heat.py,sha256=gIfYvnPBmf0ErQLk4a2Ck9h-63su8El7P1S6NzQght8,3396
+pdegen/problems/utils.py,sha256=H7UaVrNu9knR3c6sF8kFCDNuEz8_Q7DYQYJM6da1Fco,1015
+pdegen-0.0.1.dist-info/LICENSE,sha256=7tBeCY0iD8Zvys-sIHG57vAyJdNp4NP26eEa53Wm32g,1071
+pdegen-0.0.1.dist-info/METADATA,sha256=5sEBnjL4YrefdOrURf0kurMTrdX7OUhQttP7KNylIN0,516
+pdegen-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdegen-0.0.1.dist-info/top_level.txt,sha256=ULQe1NtsFSeqWOS7uwttFEt7RVbqiDit2zGYLPXzpG8,7
+pdegen-0.0.1.dist-info/RECORD,,
