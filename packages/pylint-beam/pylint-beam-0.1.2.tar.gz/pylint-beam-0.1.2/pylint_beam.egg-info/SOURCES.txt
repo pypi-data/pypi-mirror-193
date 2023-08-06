@@ -1,0 +1,8 @@
+README.md
+setup.py
+pylint_beam/__init__.py
+pylint_beam/checkers.py
+pylint_beam.egg-info/PKG-INFO
+pylint_beam.egg-info/SOURCES.txt
+pylint_beam.egg-info/dependency_links.txt
+pylint_beam.egg-info/top_level.txt
