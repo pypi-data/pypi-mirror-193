@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+pydependabot/__init__.py
+pydependabot/consts.py
+pydependabot/main.py
+pydependabot/repository_vulnerablity_alert_node.py
+pydependabot/repository_vulnerablity_alert_query.py
+pydependabot/utils.py
+pydependabot.egg-info/PKG-INFO
+pydependabot.egg-info/SOURCES.txt
+pydependabot.egg-info/dependency_links.txt
+pydependabot.egg-info/requires.txt
+pydependabot.egg-info/top_level.txt
