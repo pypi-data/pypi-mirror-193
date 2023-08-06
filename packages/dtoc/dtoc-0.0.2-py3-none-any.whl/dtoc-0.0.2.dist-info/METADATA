@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dtoc
+Version: 0.0.2
+Summary: Devicetree-to-C generator
+Author-email: Simon Glass <sjg@chromium.org>
+Project-URL: Homepage, https://u-boot.readthedocs.io/en/latest/develop/driver-model/of-plat.html
+Project-URL: Bug Tracker, https://source.denx.de/groups/u-boot/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pylibfdt
+Requires-Dist: u-boot-pylib
+
+.. SPDX-License-Identifier: GPL-2.0+
+
+Devicetree-to-C generator
+=========================
+
+This is a Python program and associated utilities, which supports converting
+devicetree files into C code. It generates header files containing struct
+definitions, as well as C files containing the data. It does not require any
+modification of the devicetree files.
+
+Some high-level libraries are provided for working with devicetree. These may
+be useful in other projects.
+
+This package also includes some U-Boot-specific features, such as creating
+`struct udevice` and `struct uclass` entries for devicetree nodes.
