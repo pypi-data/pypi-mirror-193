@@ -1,0 +1,9 @@
+event_ami_gnew/__init__.py,sha256=WrSElBuh7Gyrqr9vikKfM5yDcuddKKcGF4Ai30dJnWw,284
+event_ami_gnew/entities.py,sha256=90CESEKJq2BRMu1yz6eR9hEORrIQUtKLZyXIFo0scaA,10916
+event_ami_gnew/events.py,sha256=H_y2JDLyxhfe0HHwty6zG_lnP-r8aksXcwmTC59u-qc,732
+event_ami_gnew/managers.py,sha256=LhVYhKwp3UqpL7VxfxZkgsof1AVft2UVLew281r-Jik,5436
+event_ami_asterisk-0.1.0.dist-info/LICENSE,sha256=hvw_R5dFRm8lcubQec7UMRQMdmm1UlpZ3lEE_7qR5Ro,1080
+event_ami_asterisk-0.1.0.dist-info/METADATA,sha256=0bw_J7KYZ7l2ir04m6q_SidofwgxSaDUCfbj8sNlX_Y,791
+event_ami_asterisk-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+event_ami_asterisk-0.1.0.dist-info/top_level.txt,sha256=vElXJf2-vfa1wEaoEslTnpSua3v97GE8yw68Pvxnc70,15
+event_ami_asterisk-0.1.0.dist-info/RECORD,,
