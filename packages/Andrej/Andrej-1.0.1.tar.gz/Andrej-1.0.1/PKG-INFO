@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Andrej
+Version: 1.0.1
+Summary: A colorful module
+Home-page: https://github.com/AndrejLocka/coloramas
+Author: Andrej
+License: WTFPL
+Requires-Python: >=2.7

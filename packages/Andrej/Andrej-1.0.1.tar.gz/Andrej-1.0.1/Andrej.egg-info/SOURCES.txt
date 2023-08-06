@@ -1,0 +1,5 @@
+setup.py
+Andrej.egg-info/PKG-INFO
+Andrej.egg-info/SOURCES.txt
+Andrej.egg-info/dependency_links.txt
+Andrej.egg-info/top_level.txt
