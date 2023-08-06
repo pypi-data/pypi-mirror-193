@@ -1,0 +1,13 @@
+numpy
+six
+scipy
+
+[aipy]
+aipy>=3.0.5
+
+[dev]
+pytest
+pytest-cov
+aipy>=3.0.5
+pre-commit
+pyuvdata

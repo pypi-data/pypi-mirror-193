@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hera-filters
+Version: 0.1.3
+Summary: Underlying filtering methods for 21cm analysis.
+Author: HERA Team
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: aipy
+Provides-Extra: dev
+License-File: LICENSE
+
+# hera_filters -- Core foreground filtering functionality for 21cm analysis.
+Underlying filtering methods for 21cm analysis with minimal dependancies. This repository is meant to deprecate https://github.com/HERA-Team/uvtools/blob/main/uvtools/dspec.py
