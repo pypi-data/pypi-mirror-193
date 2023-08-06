@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mecord-cli
+Version: 0.0.1
+Summary: mecord tools
+Author: pengjun
+Author-email: mr_lonely@foxmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Mecord Cli for Stable Diffusion (Mecord-SD)
+===============================================
+The Mecord-SD is a cli of tools for Using Stable Diffusion, you can use it to **Register** device to mecord server, other persion can use **Mecord Application** post generate task to you
+
+Installation
+------------
+
+The SD-MC requires [Python](http://www.python.org/download) 3.10.6
+or later.
+
+### Installing
+
+    pip3 install Mecord-SD
+
+### Uninstalling
+
+    pip3 uninstall Mecord-SD
