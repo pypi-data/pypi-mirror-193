@@ -1,0 +1,11 @@
+summarizedexperiment>=0.2.0
+anndata>=0.7.8
+h5py
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
