@@ -1,0 +1,2 @@
+[console_scripts]
+nostream_exporter = nostream_exporter.collector:main
