@@ -1,0 +1,2 @@
+class GoogleTvException(Exception):
+    pass
