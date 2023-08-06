@@ -1,0 +1,10 @@
+borgmqtt/__init__.py,sha256=DYAs9av9tN3vmqUxuuigq5mzr-6cLtlXVrYLJxkipzE,2008
+borgmqtt/actions.py,sha256=_EpufO49-p17DPKXBTTqHHhIoZ93xprtzGpujj0l6YU,2025
+borgmqtt/const.py,sha256=4yFWQCgxnsea2Ctlr_TcW5gJHD6RK7D9vHWi76ejT9I,140
+borgmqtt/repo.py,sha256=9vbrgcvkwsbEIKGm7KdwmFG7XkdBpo0YLXODdcB8W5Y,6048
+borgmqtt-0.1.0.dist-info/LICENSE,sha256=OZeSZPHhTOBPd9APPEmd8CZdyGeXreG45gqbNLVl2qg,1071
+borgmqtt-0.1.0.dist-info/METADATA,sha256=K0DuFoz4uhyDJYNC1Y2a4_j8ihkTj4g_WsoOFk0eqyo,3675
+borgmqtt-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+borgmqtt-0.1.0.dist-info/entry_points.txt,sha256=9ZWSkw5DXoLdAyIpnfwoCaiT1---M-daFap7ZkskcDM,51
+borgmqtt-0.1.0.dist-info/top_level.txt,sha256=Hw10ZjBBA2z8bcT6gWRzqxVQ_xLk1CH4jvdzOZ4Hzh4,9
+borgmqtt-0.1.0.dist-info/RECORD,,
