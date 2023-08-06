@@ -1,0 +1,9 @@
+Flask<2.2
+Flask-SQLAlchemy
+celery
+billiard
+SQLAlchemy<2
+PyYAML
+
+[dbapi]
+psycopg2
