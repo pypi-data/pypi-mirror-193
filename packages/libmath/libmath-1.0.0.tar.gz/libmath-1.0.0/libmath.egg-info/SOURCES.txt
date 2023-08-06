@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+libmath/__init__.py
+libmath.egg-info/PKG-INFO
+libmath.egg-info/SOURCES.txt
+libmath.egg-info/dependency_links.txt
+libmath.egg-info/top_level.txt
