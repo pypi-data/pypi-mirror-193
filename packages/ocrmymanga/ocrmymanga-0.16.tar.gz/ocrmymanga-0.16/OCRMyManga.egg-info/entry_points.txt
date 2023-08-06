@@ -1,0 +1,2 @@
+[console_scripts]
+ocrmymanga = OCRMyManga.__init__:main
