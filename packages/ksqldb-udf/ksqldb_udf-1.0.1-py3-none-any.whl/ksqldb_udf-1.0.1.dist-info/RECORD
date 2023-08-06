@@ -1,0 +1,14 @@
+ksqldb_udf/__init__.py,sha256=_CmK__0NCH8eNK0dgTmz5ARgqpOgHpvigYdXwFDO-nk,345
+ksqldb_udf/adapter.py,sha256=8IEREgBrN6prbJG40rWYXbI3NcA692Kbi_6b9ajXN54,12370
+ksqldb_udf/ksqldb-udf-python-core-0.1.0-SNAPSHOT-jar-with-dependencies.jar,sha256=1jYxjdbPELjM5lsaQyateBlwSXvZt9WIr00WpQ5kwQ0,15798857
+ksqldb_udf/mvnw,sha256=tLRxQo12ezjoHSkBVxgcG6NB3RpBVDDU4BSAMyOYXM4,9536
+ksqldb_udf/mvnw.cmd,sha256=dPxP6yKPOZsTenX9TzDes84xjt1lWP5bE_z4uBUda6I,6696
+ksqldb_udf/pom-template.xml,sha256=yZqhy2qEBTx_Kan-GdgZeoa7lYtVPlC_Re7sBioZczA,3163
+ksqldb_udf/wheel.py,sha256=bbXNW552TKggzFOmdz2TAdzpNRIuUSW7ctwJe6k-8Mc,4519
+ksqldb_udf/mvn/wrapper/maven-wrapper.properties,sha256=LUmvA-nLSL2jNniSlThYVekc2JM0wKjvhvaH_Ti2RGA,1019
+ksqldb_udf-1.0.1.dist-info/LICENSE.txt,sha256=HetWBzgZVSNxYJOcLO3BMNYeG7dxVQaB9xCeE8qXcrk,7002
+ksqldb_udf-1.0.1.dist-info/METADATA,sha256=tmXftDOxJhW7AqFMBxHbUfETGEhv2SZTxe11OXUs6s4,8620
+ksqldb_udf-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ksqldb_udf-1.0.1.dist-info/entry_points.txt,sha256=avk1mt9lQvOiTfC36qFaZmFgBsgM6DGwzZqhhBm_m4s,55
+ksqldb_udf-1.0.1.dist-info/top_level.txt,sha256=i21QaRX9EjF2jRxiIyMngDBalszy8-u5woEMkHX7TtA,11
+ksqldb_udf-1.0.1.dist-info/RECORD,,

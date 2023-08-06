@@ -1,0 +1,201 @@
+Metadata-Version: 2.1
+Name: ksqldb-udf
+Version: 1.0.1
+Summary: A library for creating ksqlDB UDFs written in Python
+Home-page: https://github.com/confluentinc/csid-ksqldb-udf-python
+License: Confluent Community License Agreement
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: fire (==0.4.*)
+Requires-Dist: wheel-inspect (==1.7.*)
+Requires-Dist: pyyaml (==5.4.*)
+
+# ksqlDB Python UDF
+
+A library for creating ksqlDB UDFs written in Python.
+
+ksqlDB resources:
+- [Home-page](https://docs.ksqldb.io/en/latest/)
+- [GitHub](https://github.com/confluentinc/ksql)
+- [General Docs](https://docs.ksqldb.io/en/latest/)
+- [UDF Docs](https://docs.ksqldb.io/en/latest/reference/user-defined-functions/)
+
+## Usage
+
+### CLI
+
+1. Create your python package as normal
+2. Ensure your entry-point functions have annotated parameters and return types e.g. `def my_udf(num: int, word: str) -> bool:`
+   - Providing default arguments is supported
+3. Advertise your ksqlDB entry-points via your setuptools configuration e.g.
+
+```python
+from setuptools import setup, find_packages
+setup(name='package_name',
+      version='0.1.0',
+      packages=find_packages(),
+      install_requires=['pandas'],
+      entry_points=dict(
+          ksqldb=[
+              'udfDisplayName = package_name.module:udf_fn',
+              'otherUdfDisplayName = package_name:other_udf_fn'
+          ])
+      )
+```
+4. Optionally define dependencies only needed by your UDF and not by other package code, under the `udf`name in your `extras_require` configuration  e.g.
+
+```python
+setup(
+   ...
+   extras_require=dict(udf=['scikit-learn']),
+   ...
+)
+```
+
+5. Build your package as a wheel `python setup.py bdist_wheel`
+6. Install this library `pip install ksqldb_udf`
+7. Run the now installed command line tool `package-udf`, giving it the path to your wheel `package-udf ./dist/package_name-0.1.0-py3-none-any.whl`
+   - This will create `package_name-0.1.0.jar`
+8. Place your jar in ksqlDB's extension dir and restart ksqlDB if running, for it to load your UDF(s)
+
+Run `package-udf --help` for more information on using the CLI
+
+### Build from Wheel API
+
+You can use the same functionality as the CLI but directly from a python script via the `build_jar_from_wheel` function.
+
+```python
+from ksqldb_udf.wheel import build_jar_from_wheel
+...
+build_jar_from_wheel(f'{dist_dir}/{package_name}-{version}-py3-none-any.whl', output_dir)
+```
+
+### Low Level API
+
+If you don't wish to package your code into a wheel using setuptools,
+or if you require more fine-grained control over the produced UDF Jar, you can utilise the low-level adapter APIs.
+
+```python
+from pathlib import Path
+from ksqldb_udf.adapter import UdfHandler, UdfClass, UdfPackage, UdfParameter, KsqlDbBasicTypes
+
+repo_root = Path(__file__).parent
+deployed_udf_dir = repo_root / 'udfs'
+source_code = (repo_root / 'my_udf_script.py').read_text()
+requirements = ['pandas']
+
+udf_parameter = UdfParameter('input_text', KsqlDbBasicTypes.String)
+udf_handler = UdfHandler('my_udf_fn', [udf_parameter], KsqlDbBasicTypes.String, 'ERROR')
+udf_class = UdfClass('myUdfFn', source_code, requirements, [udf_handler])
+package = UdfPackage('io.confluent.csid', 'myudf', '0.1.0', [udf_class])
+package.build(deployed_udf_dir)
+```
+
+### Configuration
+
+UDFs are configured via environment variables with the `KSQL_FUNCTIONS_{UDF_NAME}` prefix.
+See [How to create a user-defined function](https://docs.ksqldb.io/en/latest/how-to-guides/create-a-user-defined-function/) 
+for more information.
+
+#### Python Path
+
+All generated Python UDFs support configuring a custom Python path, with the `PYTHON_PATH` key.
+
+E.g. to have your UDF named `myUdf` use the Python environment located at `/python/envs/myudf/bin/python`, set this environment variable:
+`KSQL_FUNCTIONS_MYUDF_PYTHON_PATH=/python/envs/myudf/bin/python`
+
+If no value is supplied, a virtual environment will be generated, using the default system Python.
+This virtual environment will have the same Python version as the default and will reference the dependencies installed
+in the base environment.
+
+#### Custom Configuration
+
+You can accept configuration values in your Python function via the `function_configs` parameter. This is a reserved
+keyword, and is optionally defined.
+
+E.g. Say your UDF is the formula for a straight line: `y = mx+c`, you could define your function like this:
+
+```python
+def formula(m: float, x: float, c: float) -> float:
+    return m * x + c
+```
+
+This could be altered to make `c` configurable per deployment via a key named `OFFSET` like so:
+
+```python
+def formula(m: float, x: float, function_configs: dict) -> float:
+    c = float(function_configs['ksql.functions.formula.offset'])
+    return m * x + c
+```
+
+With the offset configured with an environment variable like so: `KSQL_FUNCTIONS_FORMULA_OFFSET=3.5`
+
+### Returning Arrays
+
+A standard scalar ksqlDB function returns a single value, which is contained within a _column_.
+To return an `Array` from a scalar function annotate your function with the `Tuple` class from the `typing` module e.g.
+```python
+from typing import Tuple
+
+def triplicate(num: int) -> Tuple[int]:
+    return [num] * 3
+```
+
+[Table functions](https://docs.ksqldb.io/en/latest/developer-guide/ksqldb-reference/table-functions/) (UDTFs) return a
+set of zero or more _rows_.
+To use your function as a UDTF annotate your function with the `List` class from the `typing` module e.g.
+```python
+import re
+from typing import List
+
+def extract_integers(text: str) -> List[int]:
+    return [int(num) for num in re.findall(r'\d+', text)]
+```
+
+### Limitations
+
+1. ksqlDB's security manager must be turned off with env var `KSQL_UDF_ENABLE_SECURITY_MANAGER="false"`
+2. Doesn't work with default ksqldb-server Docker image. Altered version found in this repo is required
+3. Supports the primitive types `bigint`, `double`, `String` and `boolean` only, or an `Array` of one of these types
+4. Cannot install multiple Python UDF packages on the same ksqlDB instance. (Can make multiple UDFs available from the same package). On registration ksqlDB will log a warning:
+`Caused by: java.lang.IllegalArgumentException: {IMPORT} referenced from a method is not visible from class loader`
+   1. This results from all Python UDFs sharing dependencies and ksqlDB not supporting multiple uber-jars with the same dependencies. Using a shading plugin does not overcome this issue. See [this discussion](https://stackoverflow.com/a/68986353/6272544) outlining challenges of uber-jars and shaded jars.
+
+## Examples
+
+- [ECG Anomaly Detection using TensorFlow](./python/examples/anomalous_ecg)
+- [Geospatial Operations](./python/examples/geospatial)
+- [Personalized Banking Marketing driven by ML](./python/examples/personalized_marketing)
+
+You can try an example by running these steps:
+- [Setup your local python environment](./python/README.md#developer-setup)
+- Install this library `pip install ksqldb_udf`
+- Build and install the example `./python/examples/{PROJECT_NAME}/build-and-install.sh`
+- Build a JAR from the python wheel, and place it in a `udfs` folder for ksqlDB to find `package-udf ./python/examples/{PROJECT_NAME}/dist/{PACKAGE_NAME}.whl --target_dir ./udfs`
+- Build a variant of the `ksqldb-server` Docker image that supports Python UDFs `docker build . -t ksqldb-with-python-udf-support`
+- Bring up Confluent Platform including ksqlDB via Docker with: `docker-compose up -d`
+- Open the ksqlDB CLI with: `docker exec -it ksqldb-cli ksql http://ksqldb-server:8088`
+- Checkout out the example README for guidance on running an example specific data generator and ksql scripts that will
+use these UDFs
+
+## Development
+
+The `python` directory includes the Python SDK for generating a ksqlDB UDF. See more in the [Python SDK README](./python/README.md).
+
+The `kotlin` directory includes a Kotlin adapter library the generated UDF depends on. See more in the [Kotlin Adapter README](./kotlin/README.md).
+
+### Release Process
+
+- Bump version number in `setup.py`
+- Commit version number increase and merge into `master`
+- Create [a new release on GitHub](https://github.com/confluentinc/csid-ksqldb-udf-python/releases/new) from the tag
+- Verify build succeeds on [SemaphoreCI](https://semaphore.ci.confluent.io/projects/csid-ksqldb-udf-python) and that the package is successfully published to [PyPi](https://pypi.org/project/ksqldb-udf/)
+
+## License
+
+The project is licensed under the [Confluent Community License](LICENSE.txt).
+
+*Apache, Apache Kafka, Kafka, and associated open source project names are trademarks of the [Apache Software Foundation](https://www.apache.org/).*
+
+
