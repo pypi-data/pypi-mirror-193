@@ -1,0 +1,17 @@
+gyver/attrs/__init__.py,sha256=FZNvMScq0ZtGQplmBDLOS4tOZjYvdIDRqbSZTWaj3x8,351
+gyver/attrs/converters/__init__.py,sha256=WtsrGj7efrcW9j2MoZVem3bO62Mz3MP7qjO-GuIPwx0,146
+gyver/attrs/converters/json.py,sha256=1iiGK8j169t85mVuXgELJtTJyjOnsT85IazLigXEBa8,751
+gyver/attrs/converters/utils.py,sha256=HW3L2pmcwyS5dUw_Ck6QGNb0j4-a6SMDUf8Ec50eBjg,1516
+gyver/attrs/field.py,sha256=2qRV4kQcFkf22uYbktJNeG9SenbF_JXKTXgWY35XcXU,3530
+gyver/attrs/main.py,sha256=ZynZXYOImfsCwlFay-r1Z-_7lIcd_lOwt7LX-yHqVeg,17513
+gyver/attrs/methods.py,sha256=qIpgqt9IzOVXM5i8yyls9bI71Hhd-vEeWlnYuikwJN4,4718
+gyver/attrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gyver/attrs/resolver.py,sha256=RuXhSRxChzoPRu6dENsDC-1460qms_MwqecIWzMT3fQ,2562
+gyver/attrs/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gyver/attrs/utils/factory.py,sha256=Eq7BFR3qg8YB_J20TXNosPLkAXgErykbcRSdXQJ_DCU,604
+gyver/attrs/utils/functions.py,sha256=mXNP_IS1Yg6zCTjpk_zWE7uU1auepoqXVcDh-c5awgE,1144
+gyver/attrs/utils/typedef.py,sha256=2zE_xoO8nXa2eboXCVWFVqst96fUMfhLVWDc2LGgghg,298
+gyver_attrs-0.1.0.dist-info/LICENSE,sha256=Tj1gPtDGNDumzjrs994WuthO_jjrzzMUQC0VwzNAz7g,11352
+gyver_attrs-0.1.0.dist-info/METADATA,sha256=nfKmtco0J0bkSePZaqXAzRbmYycl2nTgtjFIK4Si4Y4,5759
+gyver_attrs-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gyver_attrs-0.1.0.dist-info/RECORD,,
