@@ -1,0 +1,5 @@
+include *.py
+include startwork/projects_list.json
+recursive-include startwork/constants *.py
+recursive-include startwork/actions *.py
+recursive-include startwork/scripts *.sh
