@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pypgpeed
+Version: 0.1.3
+Summary: Python local PGP tool
+Home-page: https://github.com/lewis-morris/pypgped
+Author: Lewis Morris
+Author-email: lewis.morris@gmail.com
+License: mit

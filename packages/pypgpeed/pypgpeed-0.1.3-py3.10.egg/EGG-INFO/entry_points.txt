@@ -1,0 +1,2 @@
+[console_scripts]
+pypgpeed = pypgpeed.run:run
