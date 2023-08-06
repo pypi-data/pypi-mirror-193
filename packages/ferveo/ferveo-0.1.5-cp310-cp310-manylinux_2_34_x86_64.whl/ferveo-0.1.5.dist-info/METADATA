@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ferveo
+Version: 0.1.5
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Author: Piotr Roslaniec <p.roslaniec@gmail.com>
+Author-email: Piotr Roslaniec <p.roslaniec@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Python bindings for `ferveo`
+
+## Build
+
+You will need to have `setuptools-rust` installed. Then, for development, you can just do `pip install -e .` as usual.
+
