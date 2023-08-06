@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PPVD/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PPVD/parsing.py,sha256=Ga6zayhNESgRBD4CnOTfEb5Pd2HfLfCnfYhXU28LGP4,5678
+PPVD/style.py,sha256=hxiJijkWGKZmgwmZmwzmkeA7uws59zq7fu7Hk7F2O-E,303
+PPVD/validation.py,sha256=oZWjpTLWMCrRdEXa9FzaDUjlo874woVY4CJCeDMXzZo,9715
+PPVD-0.0.4.dist-info/LICENSE,sha256=LsooDY8WX_UNzOV9uYvGPH6NkUlZfLfiX7GUKZLGiDA,1094
+PPVD-0.0.4.dist-info/METADATA,sha256=1CjClSYk73NIP1V8jKgsyI_VksTzmI4bIip4mQpgm3Y,3563
+PPVD-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PPVD-0.0.4.dist-info/top_level.txt,sha256=Ekh4lEHQgwuE3NX89E8aJj8HE7U4psxwgOQgSYTip0Y,14
+PPVD-0.0.4.dist-info/RECORD,,
