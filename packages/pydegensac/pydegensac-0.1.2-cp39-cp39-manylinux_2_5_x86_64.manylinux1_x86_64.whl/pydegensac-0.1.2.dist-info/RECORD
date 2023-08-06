@@ -1,0 +1,11 @@
+pydegensac/pydegensac.cpython-39-x86_64-linux-gnu.so,sha256=cDZZ7BDuAnK7hwNOsLqW-2QSpVqSU-wTbNjLKHdScMs,256689
+pydegensac/__init__.py,sha256=tRDNTMt6YlQsqpsS3ZVKq6FFPLmPKsyHQuVq2jSRV_I,150
+pydegensac/utils.py,sha256=R8gZaeZCXTK7ld1_PTYCtCuFPGs7yJPu_p-I0iWH84U,5384
+pydegensac.libs/liblapack-78e59728.so.3.0.3,sha256=c9-f8bmks07wYQhGabm_vQDvNv4-e5uzGiV9tVyuHz8,4251105
+pydegensac.libs/libgfortran-bfa58d52.so.1.0.0,sha256=pekhpcYSjDI0SoRO-xtGIJ6bjNoOluYu581MAkI71Nk,646841
+pydegensac.libs/libblas-2d5b9174.so.3.0.3,sha256=anFRv9A6QMS2l6W9Nub2rnk9r0Rn8i0I9UKI319dAqU,353633
+pydegensac-0.1.2.dist-info/METADATA,sha256=GkXe6CNogrbXrSEE3fZ63mL2-6NXH3kEeIBw-_qsvcM,5305
+pydegensac-0.1.2.dist-info/top_level.txt,sha256=IiZZZeTzMtUpkp5VtPkPgjlHhEvPBi9vEa8c8TRuN7M,33
+pydegensac-0.1.2.dist-info/RECORD,,
+pydegensac-0.1.2.dist-info/WHEEL,sha256=5_y2VIZoYUgB-QyuHu3FN-ZmT6PFnCM4sEs12b6oJp4,144
+pydegensac-0.1.2.dist-info/LICENSE,sha256=pBmg0hBajpZpvn8GVn0DPWBr9WQ7BC4FgYdmMc0QcBQ,1084
