@@ -1,0 +1,7 @@
+README.md
+setup.py
+bikenv.egg-info/PKG-INFO
+bikenv.egg-info/SOURCES.txt
+bikenv.egg-info/dependency_links.txt
+bikenv.egg-info/requires.txt
+bikenv.egg-info/top_level.txt
