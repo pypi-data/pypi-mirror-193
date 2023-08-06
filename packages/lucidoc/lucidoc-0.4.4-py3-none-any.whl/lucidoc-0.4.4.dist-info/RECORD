@@ -1,0 +1,13 @@
+lucidoc/__init__.py,sha256=pLkes4ubnNIpVB2S_-3l_eozPFw5GB2vzg0nbgtG6d4,260
+lucidoc/_version.py,sha256=6G_giX6Ucuweo7w5OiftoXmbNLoqiU_soXJoU8aiLmY,22
+lucidoc/docparse.py,sha256=ORC6EnI7MTAhaoy2jv1A4Sb1Sm8vvmF9d86TIK35J0I,10953
+lucidoc/docstyle.py,sha256=Bc7lOgouAQwRPIYWYBlkzSsk-879PpzcI3Ykem8BkBs,2332
+lucidoc/doctags.py,sha256=SS97JxBC1c3WotE4DyZsJWxdUum5JJTujFdrIVXsTMw,3214
+lucidoc/exceptions.py,sha256=M-WUE1d_wcPaerPJUpbMBNuA8d7Svz_nu7zJeESKxCY,181
+lucidoc/helpers.py,sha256=izppNewF0pHhPF3RJCzqyn1Fhsb0purGOVBXczXdL8M,920
+lucidoc/lucidoc.py,sha256=U0IAncxIf-FwueuUWuTOGufMxSqFx6El75rJcvjqsA0,29243
+lucidoc-0.4.4.dist-info/METADATA,sha256=qshR6KqmG7_rAQDiNaaWxeyFxqWEsZ7rA9AH4YgOKzM,1316
+lucidoc-0.4.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lucidoc-0.4.4.dist-info/entry_points.txt,sha256=a0grVmY1G5Qw1Iv9S5RasCbt8i2lHYOVqldDtnWysMM,49
+lucidoc-0.4.4.dist-info/top_level.txt,sha256=RMESN-QB3jA4gc8ckvIlLoWt67bqTSzlfr_4oqhb8SE,8
+lucidoc-0.4.4.dist-info/RECORD,,

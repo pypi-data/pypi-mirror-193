@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lucidoc
+Version: 0.4.4
+Summary: API documentation in Markdown
+Home-page: https://github.com/databio/lucidoc/
+Author: Vince Reuter
+License: BSD2
+Keywords: documentation,API,docs,mkdocs,autodoc
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: logmuse (>=0.2.7)
+Requires-Dist: ubiquerg (>=0.0.5)
+
+# lucidoc
+
+[![Build Status](https://travis-ci.org/vreuter/lucidoc.svg?branch=master)](https://travis-ci.org/vreuter/lucidoc)
+[![Coverage Status](https://coveralls.io/repos/github/vreuter/lucidoc/badge.svg?branch=master)](https://coveralls.io/github/vreuter/lucidoc?branch=master)
+
+Lucidoc is a Python package that makes it easier to automatically document Python packages. It is specifically useful for documenting Python packages using `mkdocs`. 
+
+It parses Python docstrings and uses them to autogenerate a package API documentation page in `markdown` format. Since `lucidoc` outputs `markdown` format, it's convenient to link with `mkdocs` for building automatic documentation web pages. 
+
