@@ -1,0 +1,10 @@
+hrefs/__init__.py,sha256=qdb_YibyzabZk5yJtX2cV1jaYBjB79nMR2Jvz2bOKpQ,145
+hrefs/_hypothesis_plugin.py,sha256=kZjLB-7Fe530yPNx_QzZ6mD-7rQjP9ePrSPU_L0_WII,971
+hrefs/href.py,sha256=DK25BXEvWjuPoRDLjMUnpwZ-BJ3zkoeeZUbYYE7XvNc,8382
+hrefs/model.py,sha256=efgqzFc8hFNUl54878wkS1WQZ9YDlnaTo5AQJBG-xmc,13295
+hrefs/starlette.py,sha256=JjdRImOApnpowhrNXAr7xqI22l3tH_mqCLLvwofpdXc,7911
+hrefs-0.7.dist-info/entry_points.txt,sha256=9AKLETAQrbh7D-GCh-5ExfPtYFqIbv4XYnpRNLqbrVk,64
+hrefs-0.7.dist-info/LICENSE,sha256=yjlP0_lrH_mOow8VrNLqv-sUTZAbAPdm6h9gP4xrP4Y,1086
+hrefs-0.7.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+hrefs-0.7.dist-info/METADATA,sha256=LBYAwzC88cWriRjek94QOk70KkdVcn5P6NYA3nTsy1o,3261
+hrefs-0.7.dist-info/RECORD,,
