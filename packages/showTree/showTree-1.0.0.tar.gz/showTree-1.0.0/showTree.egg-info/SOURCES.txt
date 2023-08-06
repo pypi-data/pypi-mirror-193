@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+showTree/__init__.py
+showTree/showTree.py
+showTree.egg-info/PKG-INFO
+showTree.egg-info/SOURCES.txt
+showTree.egg-info/dependency_links.txt
+showTree.egg-info/requires.txt
+showTree.egg-info/top_level.txt
