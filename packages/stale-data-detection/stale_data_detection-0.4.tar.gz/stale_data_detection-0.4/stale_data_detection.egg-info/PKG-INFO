@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: stale-data-detection
+Version: 0.4
+Summary: Python package to extract table names from github url and check whether the tables are stale
+Author: HaiLe
+Author-email: hai.le@csvhealth.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# stale_data_detection
+Extract table names from GitHub Repositories and check whether the tables are stale.
+
+## Requirements
+- boa package to read the table into DataFrame. Install at: https://github.aetna.com/analytics-org/boa
+- sql-metadata package to extract table names from query.
+```bash 
+pip install sql-metadata
+```
+
+## Folder Structures:
+```
+stale_data_detection
+├── test
+│   ├── __init__.py
+│   └── demo.ipynb
+│   └── test_flag_stale_table.py
+│   └── test_extract_tables.py
+├── stale_data_detection
+│   ├── __init__.py
+│   ├── extract_table_names.py
+│   ├── flag_stale_table.py
+│   └── get_table_update_status.py
+└── README.md
+```
+
+### extract_table_names.py
+
+Get raw download urls of all files given a GitHub repo or subdirectory and files extension (default .hql file).
+Read file content and extract names of all tables mentioned in the .hql files.
+
+### flag_stale_table.py
+
+Read table content into Pandas DataFrame and check whether a table is stale 
+given the table name.
+
+### get_table_update_status.py
+
+Identify all columns that likely contain update dates and return the last update date
+given a table Pandas DataFrame
+
+### test_extract_tables.py
+
+Test module in extract_table_names.py. \
+Usage:
+```bash
+python test_extract_tables.py -u github/repo/url -b branch_name -a access_token -e file_extension
+```
+GitHub repo URL and branch name are required. Other arguments are optional.
+
+### test_flag_stale_table.py
+
+Test module in flag_stale_table.py. \
+Usage: 
+```bash
+python test_extract_tables.py -u github/repo/url -b branch_name -a access_token -e file_extension -o path/to/output/file
+```
+
+GitHub repo URL and branch name are required. Other arguments are optional.
+
+### demo.ipynb
+
+Demo functions in Jupyter notebook.

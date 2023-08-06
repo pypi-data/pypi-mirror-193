@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+stale_data_detection/__init__.py
+stale_data_detection/extract_table_names.py
+stale_data_detection/flag_stale_table.py
+stale_data_detection/get_table_update_status.py
+stale_data_detection.egg-info/PKG-INFO
+stale_data_detection.egg-info/SOURCES.txt
+stale_data_detection.egg-info/dependency_links.txt
+stale_data_detection.egg-info/requires.txt
+stale_data_detection.egg-info/top_level.txt
+test/__init__.py
+test/test_extract_tables.py
+test/test_flag_stale_table.py
