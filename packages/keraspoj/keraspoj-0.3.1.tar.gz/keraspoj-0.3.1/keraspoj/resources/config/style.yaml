@@ -1,0 +1,89 @@
+default-flags: &default-node-flags
+  - rectangle split
+  - rectangle split ignore empty parts
+  - very thick
+default-options: &default-node-options
+  "rectangle split parts": 5
+  draw: pink!80
+  fill: pink!5
+  "minimum width": 4cm
+  "outer sep": 0cm
+  "inner sep": 2pt
+
+default-style:
+  flags: *default-node-flags
+  options: *default-node-options
+
+styles:
+  - name: major_grid
+    description: Grid
+    style:
+      flags:
+        - black
+      options:
+        step: 20pt
+  - name: minor_grid
+    description: Grid
+    style:
+      flags:
+        - very thin
+      options:
+        step: 10pt
+  - name: defaultEdge
+    description: Default edge style
+    style:
+      flags:
+        - thick
+      options:
+        out: -90
+        in: 90
+        "out distance": 1.5cm
+        "in distance": 1.5cm
+        looseness: 1.5
+  - name: defaultLabel
+    description: Default label style
+    style:
+      flags:
+        - auto
+      options:
+        anchor: south west
+  - name: operation_layer_style
+    description: Style for operation layers
+    style:
+      flags: *default-node-flags
+      options:
+        <<: *default-node-options
+        draw: violet!80
+        fill: violet!5
+  - name: pool_layer_style
+    description: Style for pooling layers
+    style:
+      flags: *default-node-flags
+      options:
+        <<: *default-node-options
+        draw: brown!80
+        fill: brown!5
+  - name: utility_layer_style
+    description: Style for utility layers
+    style:
+      flags: *default-node-flags
+      options:
+        <<: *default-node-options
+        draw: gray!80
+        fill: gray!5
+  - name: default_layer_style
+    description: Style for the default layers (probably training layers)
+    style:
+      flags: *default-node-flags
+      options:
+        <<: *default-node-options
+        draw: blue!80
+        fill: blue!5
+  - name: misc_layer_style
+    description: Style for the misc layers
+    style:
+      flags: *default-node-flags
+      options:
+        <<: *default-node-options
+        draw: teal!80
+        fill: teal!5

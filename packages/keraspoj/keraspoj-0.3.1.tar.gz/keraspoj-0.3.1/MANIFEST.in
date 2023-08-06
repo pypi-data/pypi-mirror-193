@@ -1,0 +1,3 @@
+include keraspoj/requirements.txt
+include keraspoj/__init__.py
+recursive-include keraspoj/resources *
