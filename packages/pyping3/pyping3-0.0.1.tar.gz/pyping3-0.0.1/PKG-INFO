@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: pyping3
+Version: 0.0.1
+Summary: A pure python ICMP ping implementation using raw sockets
+Home-page: https://github.com/giokara/pyping/
+Author: giokara
+Author-email: giokara.pyping@gmail.com
+License: The original code derived from ping.c distributed in Linux's netkit.
+That code is copyright (c) 1989 by The Regents of the University of California.
+That code is in turn derived from code written by Mike Muuss of the
+US Army Ballistic Research Laboratory in December, 1983 and
+placed in the public domain. They have my thanks.
+
+Copyright (c) Matthew Dixon Cowles, <http://www.visi.com/~mdc/>.
+Distributable under the terms of the GNU General Public License
+version 2. Provided with no warranties of any sort.
+
+See AUTHORS for complete list of authors and contributors.
+Description: file: README.rst
+Keywords: ping icmp network latency
+Platform: UNKNOWN
