@@ -1,0 +1,12 @@
+README.md
+setup.py
+my_risk_mgmt/VaR.py
+my_risk_mgmt/__init__.py
+my_risk_mgmt/cov_matrix.py
+my_risk_mgmt/linear_regression.py
+my_risk_mgmt/simulation.py
+my_risk_mgmt.egg-info/PKG-INFO
+my_risk_mgmt.egg-info/SOURCES.txt
+my_risk_mgmt.egg-info/dependency_links.txt
+my_risk_mgmt.egg-info/requires.txt
+my_risk_mgmt.egg-info/top_level.txt
