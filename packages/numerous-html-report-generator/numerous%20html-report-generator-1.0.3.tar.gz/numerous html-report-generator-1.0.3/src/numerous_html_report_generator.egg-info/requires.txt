@@ -1,0 +1,5 @@
+jinja2>=3.0.0
+plotly>=5.8.2
+pytest>=7.1.2
+beautifulsoup4>=4.11.1
+pandas
