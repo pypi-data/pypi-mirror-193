@@ -1,0 +1,4 @@
+numpy
+tqdm
+plotly
+graph_read_simulator
