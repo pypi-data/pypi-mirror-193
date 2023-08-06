@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+hierarchymaker/__init__.py
+hierarchymaker.egg-info/PKG-INFO
+hierarchymaker.egg-info/SOURCES.txt
+hierarchymaker.egg-info/dependency_links.txt
+hierarchymaker.egg-info/top_level.txt
