@@ -1,0 +1,9 @@
+berri_ai/ComplexInformationQA.py,sha256=tz5qm3UA8wq1TiZO5R78rc_pT1fMVWoc3U-Xy0fc-04,1763
+berri_ai/DocStore.py,sha256=NRFxAEwoa_PwrQI5hb5Xv_xtzBdY7pfOkxkJyqBAYys,2820
+berri_ai/QAAgent.py,sha256=Q9sVfnSZKDNNhZOBtcN07rk3pfg1CEIlg4PL_5Vv7W8,3188
+berri_ai/__init__.py,sha256=xi_LXiua5KIyXP9vYLc5R4n-Auuv97CuxMYQh_tqlHw,24166
+berri_ai/search_strategies/bm25/DocStore.py,sha256=Uhp9a_uhTGAszzv0ctAYa68gphg_IuK3i0alpVdGKtk,2049
+berri_ai/search_strategies/bm25/DocStore_CSV.py,sha256=kxRUm1c7qyZ79cG26sFxSIB1aaTOfTDxaZ6IX-Iybv8,1839
+berri_ai-0.17.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+berri_ai-0.17.6.dist-info/METADATA,sha256=gaDDYhLCq9a8lMhjTnEO_AiwYkFnMJ44zy2bwfQaDv8,791
+berri_ai-0.17.6.dist-info/RECORD,,
