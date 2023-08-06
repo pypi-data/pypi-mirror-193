@@ -1,0 +1,11 @@
+numpy<1.24,>=1.18
+ase
+matplotlib
+cymem
+scikit-learn
+
+[full]
+dscribe
+ray==2.0.0
+pytest
+jax

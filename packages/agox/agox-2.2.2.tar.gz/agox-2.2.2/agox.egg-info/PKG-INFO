@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: agox
+Version: 2.2.2
+Summary: Atomistic Global Optimziation X is a framework for structure optimization in materials science.
+Home-page: https://agox.gitlab.io/agox/
+Author: Mads-Peter V. Christiansen, Nikolaj Ronne, Bjork Hammer
+Author-email: hammer@phys.au.dk
+License: GNU GPLv3
+Project-URL: Source Code, https://gitlab.com/agox/agox
+Project-URL: Documentation, https://agox.gitlab.io/agox
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: full
+License-File: LICENSE.txt
+
+# AGOX
+
+Check out the documentation at 
+
+https://agox.gitlab.io/agox/
+
+# Contributions
+
+To contribute request access to the [agox-contributors](https://gitlab.com/agox-contributors)
+group and make a merge request 
+
+# Issues
+
+If you have an issue or a question please post it on the issue board! 
+
+# Authors 
+
+AGOX has been written by Mads-Peter Verner Christiansen, Nikolaj Rønne and Bjørk Hammer
+with inspiration and help from current and previous members of the Hammer group at Aarhus University, Denmark.
+
+## License
+
+AGOX is released under the GPLv3 license. 
+
