@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: artificial-neural-network
+Version: 0.2
+Summary: Easy to use artificial neural network library in Python based from Keras library
+Home-page: https://github.com/ivandustin/neural
+Author: Ivan Dustin B. Bilon
+Author-email: ivan22.dust@gmail.com
+License: gpl-2.0
+Description: UNKNOWN
+Keywords: easy to use,artificial neural network,beginners
+Platform: UNKNOWN
