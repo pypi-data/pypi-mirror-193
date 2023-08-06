@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+imsteg/__init__.py
+imsteg/codec.py
+imstegapy.egg-info/PKG-INFO
+imstegapy.egg-info/SOURCES.txt
+imstegapy.egg-info/dependency_links.txt
+imstegapy.egg-info/requires.txt
+imstegapy.egg-info/top_level.txt

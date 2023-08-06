@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: imstegapy
+Version: 0.1.0
+Summary: A small image steganography tool.
+Home-page: https://github.com/Jedddy/imsteg
+Author: Jedddy
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Imsteg
+An image steganography tool used for hiding text inside images made as a hobby project.
+
+# Installation
+```
+pip install imstegapy
+```
+
+# Example Usage
+```py
+import imsteg
+
+codec = imsteg.StegCodec()
+
+img = codec.encode("path/to/file.png", "text here")
+img.save("imagename.png")  # only pngs seems to work properly.
+
+print(codec.decode("imagename.png"))
+>>> text here
