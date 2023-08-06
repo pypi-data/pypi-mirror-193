@@ -1,0 +1,5 @@
+hf_transfer-0.1.1.dist-info/METADATA,sha256=JUUJM4fCeZAddH90i5z2UyLD9bUChXFRco1HW4sl86g,260
+hf_transfer-0.1.1.dist-info/WHEEL,sha256=74Vp7u92eHOwN8KE7T8R4AGEP4XDPbJkMbArgKDpKG4,97
+hf_transfer/__init__.py,sha256=0OjYn5WBWp_eK3hJKyYtyMWxAStjTCTRjSh_eXoOldE,127
+hf_transfer/hf_transfer.cp310-win_amd64.pyd,sha256=4c74EdtuAw-9C3B6ICAFEnYd1UEsy1yB5UvxQNBI_X4,3331584
+hf_transfer-0.1.1.dist-info/RECORD,,
