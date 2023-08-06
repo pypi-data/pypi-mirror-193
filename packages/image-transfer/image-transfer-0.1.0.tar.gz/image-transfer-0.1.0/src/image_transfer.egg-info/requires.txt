@@ -1,0 +1,12 @@
+Pillow
+ffmpeg-python
+typer[all]
+rich
+
+[dev]
+imgtrf[test]
+black
+
+[test]
+piexif
+pytest>=6.0
