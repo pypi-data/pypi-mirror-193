@@ -1,0 +1,8 @@
+wranglertools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wranglertools/get_field_info.py,sha256=Dz_SNiSdo48nJfOaOr3LyYMt3JJMyT4Md6MSlnKvsjs,22110
+wranglertools/import_data.py,sha256=MECeoIVV4f0Xbctm4UV298D3Udt3kp0TqUqu_qQCmgo,70749
+submit4dn-3.2.0.dist-info/LICENSE.txt,sha256=InLZNyrICvNa9WFkpMN0fTbPaJABkuwpJdkHR4IRI0c,1083
+submit4dn-3.2.0.dist-info/entry_points.txt,sha256=eldf-mINSfP2jQtZijplm6HykwbzCMltwtNB3bOgY3Q,111
+submit4dn-3.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+submit4dn-3.2.0.dist-info/METADATA,sha256=ooZfmo_71Gign8jvj2JdkiG3M0PzY2zA_4dhCINt6UA,8715
+submit4dn-3.2.0.dist-info/RECORD,,
