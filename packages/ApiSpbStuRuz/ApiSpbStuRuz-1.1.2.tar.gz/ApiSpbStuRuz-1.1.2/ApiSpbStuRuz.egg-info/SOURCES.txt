@@ -1,0 +1,15 @@
+License.md
+README.md
+setup.cfg
+setup.py
+ApiSpbStuRuz/__init__.py
+ApiSpbStuRuz/apiPaths.py
+ApiSpbStuRuz/apiSpbStuRuz.py
+ApiSpbStuRuz/apiSpbStuRuzExeptions.py
+ApiSpbStuRuz/dataClasses.py
+ApiSpbStuRuz/logConfig.py
+ApiSpbStuRuz.egg-info/PKG-INFO
+ApiSpbStuRuz.egg-info/SOURCES.txt
+ApiSpbStuRuz.egg-info/dependency_links.txt
+ApiSpbStuRuz.egg-info/requires.txt
+ApiSpbStuRuz.egg-info/top_level.txt
