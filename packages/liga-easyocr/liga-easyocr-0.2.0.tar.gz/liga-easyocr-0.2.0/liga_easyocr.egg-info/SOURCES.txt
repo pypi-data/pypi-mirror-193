@@ -1,0 +1,14 @@
+MANIFEST.in
+backend_shim.py
+setup.py
+liga/easyocr/__init__.py
+liga/easyocr/codegen.py
+liga/easyocr/models/__init__.py
+liga/easyocr/models/ch_sim.py
+liga/easyocr/models/ocr.py
+liga_easyocr.egg-info/PKG-INFO
+liga_easyocr.egg-info/SOURCES.txt
+liga_easyocr.egg-info/dependency_links.txt
+liga_easyocr.egg-info/namespace_packages.txt
+liga_easyocr.egg-info/requires.txt
+liga_easyocr.egg-info/top_level.txt
