@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+politicsnlp/__init__.py
+politicsnlp/hello.py
+politicsnlp.egg-info/PKG-INFO
+politicsnlp.egg-info/SOURCES.txt
+politicsnlp.egg-info/dependency_links.txt
+politicsnlp.egg-info/top_level.txt

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: politicsnlp
+Version: 0.0.1
+Summary: An open-source politics package,aiming at Narrating Politics just using Python.
+Home-page: https://cpanlp.com
+Author: Draco Deng
+Author-email: dracodeng6@gmail.com
+License: MIT
+Keywords: python,politics,party,intelligent politics,linguistic turn,linguistic,intelligent party,natural language processing,machine learning,policy
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# politicsnlp🎺: Say the truth
+### Talk is cheap ,show me the code
+#### Narrating Politics using Python
+
+
+
+## Install & Import
+#### Dependencies
+- scipy 
+- numpy
+- pandas
+  
+For detailed installation instructions, see the
+[documentation](https://cpanlp.com/documentation).
+```python
+pip install politicsnlp
+import politicsnlp as p
+```
+
+
+Check out: https://cpanlp.com
