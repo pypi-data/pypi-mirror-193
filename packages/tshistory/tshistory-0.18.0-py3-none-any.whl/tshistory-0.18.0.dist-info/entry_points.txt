@@ -1,0 +1,2 @@
+[console_scripts]
+tsh = tshistory.cli:tsh
