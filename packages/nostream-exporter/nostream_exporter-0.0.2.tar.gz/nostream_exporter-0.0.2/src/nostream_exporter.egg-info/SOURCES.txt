@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/nostream_exporter/collector.py
+src/nostream_exporter.egg-info/PKG-INFO
+src/nostream_exporter.egg-info/SOURCES.txt
+src/nostream_exporter.egg-info/dependency_links.txt
+src/nostream_exporter.egg-info/entry_points.txt
+src/nostream_exporter.egg-info/requires.txt
+src/nostream_exporter.egg-info/top_level.txt
