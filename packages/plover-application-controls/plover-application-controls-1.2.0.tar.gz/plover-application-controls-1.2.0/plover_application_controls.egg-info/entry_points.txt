@@ -1,0 +1,8 @@
+[plover.command]
+application = plover_application_controls.command:command
+
+[plover.extension]
+application_controls = plover_application_controls:ApplicationControlExtension
+
+[plover.meta]
+application_name = plover_application_controls.meta:meta
