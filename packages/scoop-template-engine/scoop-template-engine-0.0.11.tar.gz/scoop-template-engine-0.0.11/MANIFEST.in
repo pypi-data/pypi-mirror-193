@@ -1,0 +1,8 @@
+include DESCRIPTION.md
+include LICENSE
+recursive-include src/ste/manuscripts/ init.py
+recursive-include src/ste/manuscripts/ template-*.tex
+recursive-include src/ste/manuscripts/ prepreamble-*.sty
+recursive-include src/ste/manuscripts/ preamble-*.sty
+recursive-include src/ste/manuscripts/ postpreamble-*.sty
+recursive-include src/ste/manuscripts/ *.patch
