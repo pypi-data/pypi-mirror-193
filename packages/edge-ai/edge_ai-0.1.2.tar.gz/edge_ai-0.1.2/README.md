@@ -1,0 +1,200 @@
+# edge-ai
+
+`edge-ai` is a python module and CLI to transform data into hardware-agnostic AI models, using the Edge Impulse API.
+
+## Installation
+
+```console
+pip install edge-ai
+```
+
+## CLI Usage
+
+### `ei`
+
+Transform data into hardware-agnostic AI models, using the Edge Impulse API
+
+**Usage**:
+
+```console
+$ ei [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `portals`: Work with Edge Impulse Upload Portals
+* `transformations`: Manage organization data transformations...
+
+#### `ei portals`
+
+Work with Edge Impulse Upload Portals
+
+**Usage**:
+
+```console
+$ ei portals [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `create`: Create an organization data upload portal...
+* `delete`: Delete an organization portal from Edge...
+* `download`: Download the contents of an Edge Impulse...
+* `show`: Show upload portal details of an Edge...
+
+##### `ei portals create`
+
+Create an organization data upload portal on Edge Impulse
+
+**Usage**:
+
+```console
+$ ei portals create [OPTIONS]
+```
+
+**Options**:
+
+* `--org-id INTEGER`: the ID of the Edge Impulse organization that the portal belongs to  [env var: EI_ORG_ID; required]
+* `--org-key TEXT`: an Edge Impulse Organization API key  [env var: EI_ORG_KEY; required]
+* `--name TEXT`: the name of the portal to create  [required]
+* `--help`: Show this message and exit.
+
+##### `ei portals delete`
+
+Delete an organization portal from Edge Impulse
+
+**Usage**:
+
+```console
+$ ei portals delete [OPTIONS]
+```
+
+**Options**:
+
+* `--org-id INTEGER`: the ID of the Edge Impulse organization that the portal belongs to  [env var: EI_ORG_ID; required]
+* `--org-key TEXT`: an Edge Impulse Organization API key  [env var: EI_ORG_KEY; required]
+* `--portal-id INTEGER`: the ID of the portal to download files from  [required]
+* `--help`: Show this message and exit.
+
+##### `ei portals download`
+
+Download the contents of an Edge Impulse organization portal
+
+**Usage**:
+
+```console
+$ ei portals download [OPTIONS]
+```
+
+**Options**:
+
+* `--org-id INTEGER`: the ID of the Edge Impulse organization that the portal belongs to  [env var: EI_ORG_ID; required]
+* `--username TEXT`: the Edge Impulse username to login with  [env var: EI_USERNAME; required]
+* `--password TEXT`: the Edge Impulse user password  [env var: EI_PASSWORD; required]
+* `--portal-id INTEGER`: the ID of the portal to download files from  [required]
+* `--path TEXT`: the path where the portal files should be downloaded  [required]
+* `--help`: Show this message and exit.
+
+##### `ei portals show`
+
+Show upload portal details of an Edge Impulse organization
+
+If --portal-id is provided, only the details for that portal will be shown
+
+**Usage**:
+
+```console
+$ ei portals show [OPTIONS]
+```
+
+**Options**:
+
+* `--org-id INTEGER`: the ID of the Edge Impulse organization that the portal belongs to  [env var: EI_ORG_ID; required]
+* `--org-key TEXT`: an Edge Impulse Organization API key  [env var: EI_ORG_KEY; required]
+* `--portal-id INTEGER`: the ID of the portal to download files from
+* `--contents / --no-contents`: Show the contents of the portal  [default: no-contents]
+* `--help`: Show this message and exit.
+
+#### `ei transformations`
+
+Manage organization data transformations on Edge Impulse
+
+**Usage**:
+
+```console
+$ ei transformations [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `create`: Create a data transformation block on Edge...
+* `delete`: Delete a data transformation block for an...
+* `list`: List data transformation blocks for an...
+
+##### `ei transformations create`
+
+Create a data transformation block on Edge Impulse
+
+Organization portals and buckets are mounted as /portals/<id> and /buckets/<id> respectively.
+
+**Usage**:
+
+```console
+$ ei transformations create [OPTIONS]
+```
+
+**Options**:
+
+* `--org-id INTEGER`: the ID of the Edge Impulse organization that the portal belongs to  [env var: EI_ORG_ID; required]
+* `--org-key TEXT`: an Edge Impulse Organization API key  [env var: EI_ORG_KEY; required]
+* `--container TEXT`: the URI of the Docker container to run (may include version tag)  [required]
+* `--name TEXT`: the name of the transformation block
+* `--description TEXT`: a summary describing the transformation block
+* `--help`: Show this message and exit.
+
+##### `ei transformations delete`
+
+Delete a data transformation block for an Edge Impulse organization
+
+**Usage**:
+
+```console
+$ ei transformations delete [OPTIONS]
+```
+
+**Options**:
+
+* `--org-id INTEGER`: the ID of the Edge Impulse organization that the portal belongs to  [env var: EI_ORG_ID; required]
+* `--org-key TEXT`: an Edge Impulse Organization API key  [env var: EI_ORG_KEY; required]
+* `--transformation-id TEXT`: the ID of the data transformation to delete  [required]
+* `--help`: Show this message and exit.
+
+##### `ei transformations list`
+
+List data transformation blocks for an Edge Impulse organization
+
+**Usage**:
+
+```console
+$ ei transformations list [OPTIONS]
+```
+
+**Options**:
+
+* `--org-id INTEGER`: the ID of the Edge Impulse organization that the portal belongs to  [env var: EI_ORG_ID; required]
+* `--org-key TEXT`: an Edge Impulse Organization API key  [env var: EI_ORG_KEY; required]
+* `--help`: Show this message and exit.
