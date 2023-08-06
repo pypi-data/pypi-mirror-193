@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sakurapkg
+Version: 0.0.1.2
+Summary: sakurapkg: Python pyproject.toml Genelator
+Home-page: https://github.com/sonyakun/sakurapkg
+Download-URL: https://github.com/sonyakun/sakurapkg/releases
+Author: sonyakun
+Author-email: sonyakun217@gmail.com
+Maintainer: sonyakun
+Maintainer-email: sonyakun217@gmail.com
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: toml
+Requires-Dist: cleo
+
+# sakurapkg
+sakurapkg: Python pyproject.toml Genelator
+
+Have a bug report or feature request? Please go to [lssues](https://github.com/sonyakun/pypkg/issues).
+# commands
+### sakura add (package)
+pyproject.toml add requiements package(not working)
+### sakura install (package)
+pyproject.toml add requiements package and install package(Adding packages to pyproject.toml is not working.)
+### sakura init
+You can generate pyproject.toml as close as possible to npm init.
