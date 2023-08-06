@@ -1,0 +1,11 @@
+uvicorn[standard]
+pydantic>=1.10.5
+tinydb>=4.7.1
+orjson>=3.8.6
+rich>=13.3.1
+
+[full]
+redis>=4.5.1
+pymongo>=4.3.3
+python-jose>=3.3.0
+bpython>=0.24
