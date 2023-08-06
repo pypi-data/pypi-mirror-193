@@ -1,0 +1,4 @@
+scikit-learn>=1.0
+jieba
+indxr
+numba>=0.54.1
