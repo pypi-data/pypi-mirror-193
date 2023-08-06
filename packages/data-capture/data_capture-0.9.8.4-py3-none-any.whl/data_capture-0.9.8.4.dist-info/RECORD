@@ -1,0 +1,10 @@
+capture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+capture/client.py,sha256=bpN2S25W8zkU6D1M9kzqkxkkXOyponITr0bGOyV19Lo,10939
+capture/constants.py,sha256=Ohd0noevEHO05IYbLvg2hp1a44ROTzuOEjyNWae1AjY,672
+capture/data_types.py,sha256=n8ACVV8stksuzXguTt0DCUmcX0mizBLph3fMxbR5zCM,675
+capture/setup.py,sha256=fQfNMJ9TdLwVYuzQYwmMrj3IGt7rqhQCgBzGjz2iz3g,182
+capture/utils.py,sha256=0SW8SWGXwM-EIDe41oG2ONWuHahA3b2KoavIvTwg6aQ,1614
+data_capture-0.9.8.4.dist-info/METADATA,sha256=3caLMnrgUuLQ1u4Eg-IegG2rZixCwWSgi6tnn3tl81o,730
+data_capture-0.9.8.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+data_capture-0.9.8.4.dist-info/top_level.txt,sha256=qc_wcJ-fi3u5o4HuOlqI_bcUNWViHY8P2Dr9EvmceOA,8
+data_capture-0.9.8.4.dist-info/RECORD,,
