@@ -1,0 +1,8 @@
+img_packages/Image_Inference.py,sha256=3AUWfoWTPZdItTHyCgPicTRmx1Ja4OVIjCc8o_OieFA,188
+img_packages/Image_Postprocessor.py,sha256=IEX2GR9k9sGp0tyhiv62s_eQLvIMPalREb0nVNeUJlk,208
+img_packages/Image_Preprocessor.py,sha256=3Ds5JCujLn683xkeh5RZfsnr2-VLVm2C-M1QJEPRu8I,255
+img_packages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processor_perfios-0.1.1.dist-info/METADATA,sha256=KSNoPvKqIjwWH7A7b7aigxLkxqonDFTxaQLSrm1B6sI,279
+image_processor_perfios-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+image_processor_perfios-0.1.1.dist-info/top_level.txt,sha256=JIo0BwpLHKkn8PVOGXZeVNRUnwSfuW9QtAcHBqG0ucA,13
+image_processor_perfios-0.1.1.dist-info/RECORD,,
