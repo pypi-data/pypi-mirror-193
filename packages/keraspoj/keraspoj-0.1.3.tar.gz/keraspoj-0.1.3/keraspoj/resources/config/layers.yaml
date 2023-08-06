@@ -1,0 +1,238 @@
+layer-types:
+  - name: utility
+    description: Layers that may play a big role during training, but are not/minimally used during inference.
+    layers:
+      - Dropout
+      - BatchNormalization
+      - SpatialDropout1D
+      - SpatialDropout2D
+      - SpatialDropout3D
+      - GaussianNoise
+      - GaussianDropout
+      - AlphaDropout
+      - ActivityRegularization
+      - Masking
+  - name: operation
+    description: Layers that perform an operation on the input. But do not have any trainable parameters themselves.
+    layers:
+      - Add
+      - Subtract
+      - Multiply
+      - Average
+      - Maximum
+      - Minimum
+      - Concatenate
+      - Dot
+  - name: pool
+    description: Layers that reduce the dimensionality of the input.
+    layers:
+      - MaxPooling1D
+      - MaxPooling2D
+      - MaxPooling3D
+      - AveragePooling1D
+      - AveragePooling2D
+      - AveragePooling3D
+      - GlobalMaxPooling1D
+      - GlobalAveragePooling1D
+      - GlobalMaxPooling2D
+      - GlobalAveragePooling2D
+      - GlobalMaxPooling3D
+      - GlobalAveragePooling3D
+  - name: misc
+    description: Layers that do not fit into any other category.
+    layers:
+      - Activation
+
+
+layer-content:
+  default:
+    - label: name
+      property: name
+      type: string
+  groups:
+    - name: Input
+      layers:
+        - InputLayer
+      content:
+        - label: input shape
+          property: batch_input_shape
+          type: shape
+    - name: Dense
+      layers:
+        - Dense
+      content:
+        - label: units
+          property: units
+          type: number
+        - label: activation
+          property: activation
+          type: string
+    - name: Convolution
+      layers:
+        - Conv1D
+        - Conv2D
+        - Conv3D
+        - Conv2DTranspose
+        - Conv3DTranspose
+        - SeparableConv1D
+        - SeparableConv2D
+        - Conv1DTranspose
+        - Conv2DTranspose
+        - Conv3DTranspose
+      content:
+        - label: filters
+          property: filters
+          type: number
+        - label: kernel
+          property: kernel_size
+          type: shape
+        - label: activation
+          property: activation
+          type: string
+    - name: Depthwise Convolution
+      layers:
+        - DepthwiseConv2D
+      content:
+        - label: kernel
+          property: kernel_size
+          type: shape
+        - label: depth multiplier
+          property: depth_multiplier
+          type: number
+        - label: activation
+          property: activation
+          type: string
+    - name: Pooling
+      layers:
+        - MaxPooling1D
+        - MaxPooling2D
+        - MaxPooling3D
+        - AveragePooling1D
+        - AveragePooling2D
+        - AveragePooling3D
+      content:
+        - label: pool
+          property: pool_size
+          type: shape
+        - label: output shape
+          property: output_shape
+          type: shape
+
+    - name: Global Pooling
+      layers:
+        - GlobalMaxPooling1D
+        - GlobalAveragePooling1D
+        - GlobalMaxPooling2D
+        - GlobalAveragePooling2D
+        - GlobalMaxPooling3D
+        - GlobalAveragePooling3D
+      content:
+        - label: output shape
+          property: output_shape
+          type: shape
+    - name: Activation
+      layers:
+        - Activation
+      content:
+        - label: activation
+          property: activation
+          type: string
+    - name: Activation Functions
+      layers:
+        - ReLU
+        - LeakyReLU
+        - ELU
+      content:
+        -
+    - name: Dropout
+      layers:
+        - Dropout
+        - SpatialDropout1D
+        - SpatialDropout2D
+        - SpatialDropout3D
+        - GaussianNoise
+        - GaussianDropout
+        - AlphaDropout
+      content:
+        - label: rate
+          property: rate
+          type: float
+    - name: BatchNormalization
+      layers:
+        - BatchNormalization
+      content:
+        -
+    - name: Embedding
+      layers:
+        - Embedding
+      content:
+        - label: input dim
+          property: input_dim
+          type: int
+        - label: output dim
+          property: output_dim
+          type: int
+        - label: input length
+          property: input_length
+          type: int
+    - name: Recurrent
+      layers:
+        - SimpleRNN
+        - GRU
+        - LSTM
+        - ConvLSTM2D
+        - SimpleRNNCell
+        - GRUCell
+        - LSTMCell
+        - CuDNNGRU
+        - CuDNNLSTM
+      content:
+        - label: units
+          property: units
+          type: int
+        - label: dropout
+          property: dropout
+          type: float
+        - label: return sequences
+          property: return_sequences
+          type: boolean
+
+    - name: Padding
+      layers:
+        - ZeroPadding1D
+        - ZeroPadding2D
+        - ZeroPadding3D
+      content:
+        - label: padding
+          property: padding
+          type: shape
+        - label: input shape
+          property: input_shape
+          type: shape
+        - label: output shape
+          property: output_shape
+          type: shape
+    - name: Operation
+      layers:
+        - Add
+        - Subtract
+        - Multiply
+        - Average
+        - Concatenate
+      content:
+        - label: output shape
+          property: output_shape
+          type: shape
+    - name: Rescaling
+      layers:
+        - Rescaling
+      content:
+        - label: scale
+          property: scale
+          type: float
+        - label: input shape
+          property: input_shape
+          type: shape
+        - label: output shape
+          property: output_shape
+          type: shape
