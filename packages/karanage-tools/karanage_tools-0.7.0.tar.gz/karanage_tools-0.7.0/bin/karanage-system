@@ -1,0 +1,2 @@
+#!/bin/python3
+from karanage_tools import karanage_system
