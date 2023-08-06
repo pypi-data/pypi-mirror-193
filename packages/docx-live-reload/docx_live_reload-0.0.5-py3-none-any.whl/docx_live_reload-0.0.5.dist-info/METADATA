@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: docx-live-reload
+Version: 0.0.5
+Summary: Preview a Docx file in MS Word. Modify the Docx file or the extracted document.xml or style.xml and the document will reload in MS Word and show the changes.
+Home-page: https://github.com/idtareq/docx-live-reload
+Author: Tareq Ibrahim
+Author-email: idtareq@gmail.com
+License: MIT
+Keywords: word,reload,docx,preview
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: pywin32
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+
+# docx-live-reload
+
+This is a command line tool that is useful for experimenting with Word documents and learning about WordprocessingML structures.
+
+## Requirements
+
+It works on Windows only and MS Word must be installed.
+
+## Usage
+
+Running: `docx-live-reload example.docx`
+
+Will create extract the content of the document to a `test.docx__extracted` folder, making changes to `example.docx__extracted\word\document.xml` or `..styles.xml` will cause the document to reload in MS Word and show the changes.
+
+Also making changes to `example.docx` using `python-docx` for example will also cause the document to reload in MS Word and show the changes.
+
+After running the tool you can type `r` to manaually reload the document in MS Word and type `q` to quit.
+
+## Installation
+
+`pip install docx-live-reload`
