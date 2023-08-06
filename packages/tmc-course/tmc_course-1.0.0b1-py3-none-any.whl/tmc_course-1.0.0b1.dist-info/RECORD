@@ -1,0 +1,17 @@
+tmc_course/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmc_course/__main__.py,sha256=_Lz5mhzUm4Q0DGtdyeBbKysKE5Uhp3EScG6DoacFCQQ,86
+tmc_course/tmc_course.py,sha256=3y5xCdaKFh-rlQ7XzCgiSCVB0yl4uaAiaLYjx5QSkDg,18142
+tmc_course/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tmc_course/resources/assignment_solution_en.template,sha256=OIIEuogq-Ox90gFR5MBZ2h21ZGsSHXXF9MvLkeYGz0I,103
+tmc_course/resources/assignment_solution_fi.template,sha256=5TE9TXCloJPyl9Hm-96auuPRXgkdayWWjBOgAfR7GNs,105
+tmc_course/resources/assignment_test_en.template,sha256=OUt9-z6QGhKkARuRHBj9tebCnbYtoAKcnsjlCUevTTs,872
+tmc_course/resources/assignment_test_fi.template,sha256=zXh5knnlPkKJVt3gdcXQKX7SDhs4M6FWMFbEfGVetkA,852
+tmc_course/resources/assignment_tmcproject_yml.template,sha256=OSKKRPYOqzK99_opqEOHCWMXLFetC-zhCt4pVm4mwEw,24
+tmc_course/resources/course_gitignore.template,sha256=RCNYzhs9Ff2mi0GQc6NZXJOo-TKS9klc2u1rKDVWhpc,46
+tmc_course/resources/course_tmcproject_yml.template,sha256=OQO5w7gD_6zNHOrJsZxg7OdTpQ147lRUUJHEX2L8VG0,60
+tmc_course-1.0.0b1.dist-info/LICENSE,sha256=DgUjdD5N14WLFK72HrQ2DXNixO3lKebdN2-eftCYk_I,1057
+tmc_course-1.0.0b1.dist-info/METADATA,sha256=H3ImAf8j9c0QtwqGz7U3_gn9a-onluAtWPaG6UtXDJY,3037
+tmc_course-1.0.0b1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tmc_course-1.0.0b1.dist-info/entry_points.txt,sha256=6bw2-hYAp0JxDihGKTQQGMUVRDS-QyRG7qeWce816pQ,58
+tmc_course-1.0.0b1.dist-info/top_level.txt,sha256=EYbwqNumQSUFyYjDIpWwZNyJAIcfCyyVZFFHbUr6zpE,11
+tmc_course-1.0.0b1.dist-info/RECORD,,
