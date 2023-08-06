@@ -1,0 +1,5 @@
+[console_scripts]
+de1-profile-as-json = pyDE1.services.runnable.legacy_to_json:run_as_script
+pyde1-replay = pyDE1.services.runnable.replay:pyde1_replay
+pyde1-run = pyDE1.run:pyde1_run
+pyde1-run-visualizer = pyDE1.services.runnable.pyde1_visualizer:pyde1_run_visualizer

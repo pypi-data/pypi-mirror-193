@@ -1,0 +1,20 @@
+[Unit]
+Description=Auto-upload to Visualizer
+Wants=mosquitto.service
+After=syslog.target mosquitto.service
+
+[Service]
+# This needs to be the same user that "owns" the database
+User=pyde1
+Group=pyde1
+
+# The executable name can't be a variable
+ExecStart=/home/pyde1/venv/pyde1/bin/pyde1-run-visualizer
+
+Restart=always
+StandardError=journal
+# Sets the process name to that of the service
+SyslogIdentifier=%N
+
+[Install]
+WantedBy=multi-user.target
