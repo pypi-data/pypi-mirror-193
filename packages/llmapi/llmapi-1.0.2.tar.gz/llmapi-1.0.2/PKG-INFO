@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: llmapi
+Version: 1.0.2
+Summary: LLMs API
+Home-page: https://github.com/llmapi/
+Author: llmapi
+Author-email: llmapi@163.com
+License: MIT
+Description: # llmapi
+        
+        llms api
+        
+        ## 安装(Install)
+        
+        ```bash
+        sudo pip install llmapi
+        ```
+        
+        ## 用法(Usage)
+        TODO
+        
+Keywords: LLM OpenAPI LargeLanguageModel
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Classifier: Topic :: Terminals
+Classifier: Topic :: System :: Distributed Computing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
