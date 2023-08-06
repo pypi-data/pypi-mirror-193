@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/topsisGod.py
+src/topsisGod.egg-info/PKG-INFO
+src/topsisGod.egg-info/SOURCES.txt
+src/topsisGod.egg-info/dependency_links.txt
+src/topsisGod.egg-info/top_level.txt
