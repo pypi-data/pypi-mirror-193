@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+yonk/__init__.py
+yonk/app.py
+yonk/createcli.py
+yonk.egg-info/PKG-INFO
+yonk.egg-info/SOURCES.txt
+yonk.egg-info/dependency_links.txt
+yonk.egg-info/entry_points.txt
+yonk.egg-info/top_level.txt
