@@ -1,0 +1,2 @@
+[console_scripts]
+keepass-env = keepass_env:print_env
