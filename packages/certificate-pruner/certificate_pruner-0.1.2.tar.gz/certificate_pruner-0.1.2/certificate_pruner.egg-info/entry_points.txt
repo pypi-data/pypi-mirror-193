@@ -1,0 +1,2 @@
+[console_scripts]
+certificate_pruner = certificate_pruner.__init__:main

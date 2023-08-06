@@ -1,0 +1,8 @@
+README.md
+setup.py
+certificate_pruner/__init__.py
+certificate_pruner.egg-info/PKG-INFO
+certificate_pruner.egg-info/SOURCES.txt
+certificate_pruner.egg-info/dependency_links.txt
+certificate_pruner.egg-info/entry_points.txt
+certificate_pruner.egg-info/top_level.txt
