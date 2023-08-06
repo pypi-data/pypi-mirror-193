@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: textwatermark
+Version: 0.1.0
+Summary: A watermark library for text.
+License: MIT
+Author: Monyer
+Author-email: monyer@126.com
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: bitstring (>=4.0.1,<5.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: dynaconf (>=3.1.9,<4.0.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# TextWatermark
+
+watermark for text
+
+For more info see docs
+
