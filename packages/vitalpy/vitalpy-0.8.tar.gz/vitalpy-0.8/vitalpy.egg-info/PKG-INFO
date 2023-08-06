@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: vitalpy
+Version: 0.8
+Summary: vitalpy - the ultimate package for everything
+Author-email: Dylan Rogers <opendylan@proton.me>
+Project-URL: Homepage, http://123web.uk/vitalpy
+Project-URL: Bug Tracker, http://123web.uk/vitalpy
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# vitalpy
+
+Welcome to vitalpy - essential tools for programming in Python!
+
+## Installation
+
+Linux / macOS (python3):
+
+``` zsh
+python3 -m pip install vitalpy
+```
+
+Linux  / macOS (python2):
+
+``` zsh
+python -m pip install vitalpy
+```
+
+Windows:
+
+``` zsh
+py -m pip install vitalpy
+```
+
+## Docs
+
+[vitalpy documentation](http://123web.uk/dcoded/python/docs)
