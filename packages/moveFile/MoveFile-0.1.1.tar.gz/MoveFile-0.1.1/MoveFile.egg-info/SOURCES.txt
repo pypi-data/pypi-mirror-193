@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+MoveFile.egg-info/PKG-INFO
+MoveFile.egg-info/SOURCES.txt
+MoveFile.egg-info/dependency_links.txt
+MoveFile.egg-info/top_level.txt
+Ui/__init__.py
+Ui/moveFileUi.py
