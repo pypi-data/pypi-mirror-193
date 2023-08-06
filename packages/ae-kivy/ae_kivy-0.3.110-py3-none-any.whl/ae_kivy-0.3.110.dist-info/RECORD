@@ -1,0 +1,12 @@
+ae/kivy/__init__.py,sha256=_bABNetvgUDfca0BvM2X-XdsFOyqbNj2FRTsjUG2LZM,1450
+ae/kivy/apps.py,sha256=reDKY2nc7zmeFnWYIvTWwsdcgiq8nFfJXbc8Sgz_rIc,28400
+ae/kivy/behaviors.py,sha256=ax68PenxUXMxNCwHeG-1PDIp6SJrdiTddQk02SbEmqs,31946
+ae/kivy/i18n.py,sha256=SdCpq6ddq6bAagd2tsYNa8qv9clIysdfHVB2-PcCjc8,6434
+ae/kivy/tours.py,sha256=ok-32VuZY9J69gDFBydNHDH9_FLKQQxuO_oI-h9F82w,32950
+ae/kivy/widgets.kv,sha256=4U42AtxyWbZAv0n2xO3bmXLaIlTwTRZUyWFOzAPRwC0,25567
+ae/kivy/widgets.py,sha256=XfjsH9uGa6fxhqktUitV4Xy5FKXUveBqQq79bAbpTVM,76555
+ae_kivy-0.3.110.dist-info/LICENSE.md,sha256=KU-CRTNGAZA5H39bQ57vpNC7EBMLmSk6q4Ql88IApCk,35002
+ae_kivy-0.3.110.dist-info/METADATA,sha256=Cw-7rAL8Ksm6qpRdGnpk2_7iwy9rftOP2aSaGw5ODJk,5684
+ae_kivy-0.3.110.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ae_kivy-0.3.110.dist-info/top_level.txt,sha256=vUdgAslSmhZLXWU48fm8AG2BjVnkOWLco8rzuW-5zY0,3
+ae_kivy-0.3.110.dist-info/RECORD,,
