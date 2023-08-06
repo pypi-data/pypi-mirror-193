@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: launchflow
+Version: 0.0.1
+Summary: flow cli application
+Author-email: Caleb Van Dyke <caleb@launchflow.com>, Josh Tanke <josh@launchflow.com>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: apache-beam
+Requires-Dist: duckdb (==0.6.0)
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-bigquery-storage
+Requires-Dist: google-cloud-pubsub
+Requires-Dist: grpcio (==1.48.2)
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-sdk
+Requires-Dist: opentelemetry-exporter-otlp
+Requires-Dist: opentelemetry-exporter-jaeger
+Requires-Dist: pandas
+Requires-Dist: ray
+Requires-Dist: redis
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# launchflow
+
+![CI](https://github.com/launchflow/launchflow/actions/workflows/python_ci.yaml/badge.svg)
+
