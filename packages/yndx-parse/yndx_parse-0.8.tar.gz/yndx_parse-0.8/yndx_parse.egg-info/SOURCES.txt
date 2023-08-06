@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+yndx_parse/__init__.py
+yndx_parse/main.py
+yndx_parse.egg-info/PKG-INFO
+yndx_parse.egg-info/SOURCES.txt
+yndx_parse.egg-info/dependency_links.txt
+yndx_parse.egg-info/requires.txt
+yndx_parse.egg-info/top_level.txt
