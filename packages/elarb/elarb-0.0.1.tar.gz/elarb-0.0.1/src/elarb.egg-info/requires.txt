@@ -1,0 +1,9 @@
+cvxpy
+pandas
+numpy
+
+[tests]
+build
+twine
+pytest
+flake8
