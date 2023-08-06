@@ -1,0 +1,4 @@
+Django>=3.2
+djangorestframework<4.0,>=3.12
+django-filter>=0.13.0
+Inflector>=3.0.1
