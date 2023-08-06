@@ -1,0 +1,5 @@
+pyperclip
+pysodium
+requests
+click
+desktop-notifier
