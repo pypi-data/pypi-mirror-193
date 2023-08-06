@@ -1,0 +1,11 @@
+Tahoma/__init__.py,sha256=ZWZFKcBcAba_H3mMhugWRgUF7GJhH6jJvoTrm3raZTg,122
+Tahoma/__version__.py,sha256=4Yxft_MNOtwQG58mZpa8eoM0XBHa8VNkTPH9_i0gDaM,22
+Tahoma/get_devices_url.py,sha256=FWvn2xFBEVSUvexMok-TLerxb_b2Zf_qbegGKXBltPo,4857
+Tahoma/install_tahoma.py,sha256=tY1dSfBWFxy3MfHnlpM-33m_aNNVZKCl58XJ-IOPUo0,552
+Tahoma/tahoma.py,sha256=KRjtGBXZ72gHJ4F5xRZlDsU9DFz99X8tVKLW9QFEIfg,32394
+tahoma-2.0.6.dist-info/LICENSE,sha256=a0k-_JAe48NcEYapHMa6iR1kfDW_a6QQLYfP9vpWOWM,1070
+tahoma-2.0.6.dist-info/METADATA,sha256=4ow2I3FXVQ4gSnHCh1hhIrgINpgFQEaWp-b-oVX4On0,3884
+tahoma-2.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tahoma-2.0.6.dist-info/entry_points.txt,sha256=36QvY_D1hNWXa3HibWSu4lLdf-dDeYSn48An7JD8guU,92
+tahoma-2.0.6.dist-info/top_level.txt,sha256=5LB2KOza5G6VPz7IGJY-94RrjZM8caZtoqziOJIt-pg,14
+tahoma-2.0.6.dist-info/RECORD,,
