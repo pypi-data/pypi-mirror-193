@@ -1,0 +1,6 @@
+README.md
+setup.py
+memebayes.egg-info/PKG-INFO
+memebayes.egg-info/SOURCES.txt
+memebayes.egg-info/dependency_links.txt
+memebayes.egg-info/top_level.txt
