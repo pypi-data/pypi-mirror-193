@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyfolio-tekton
+Version: 1.1
+Summary: PyFolio Tekton
+Author: Quantopian and Everton Mendes
+Author-email: emendes@tektonfinance.com
+
+author_email opensource@quantopian.com
+
+author quantopian
+
+pyfolio is a Python library for performance and risk analysis of
+financial portfolios developed by Quantopian Inc. It works well with the
+Zipline open source backtesting library.
+
+At the core of pyfolio is a so-called tear sheet that consists of
+various individual plots that provide a comprehensive performance
+overview of a portfolio.
+
+This package is designed to fix the error - AttributeError:
+'numpy.int64' object has no attribute 'to_pydatetime'
+
+Solution: - find def get_max_drawdown_underwater(underwater)
+
+-   'change line valley = underwater.index\[np.argmin(underwater)\] \#
+    np.argmin(underwater)'
