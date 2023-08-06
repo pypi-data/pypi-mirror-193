@@ -1,0 +1,14 @@
+rfcctl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rfcctl/context.py,sha256=ka_9Uz24d7KGgj4mkYpn3_oarUej4XgOY69Vx9pW2L8,2133
+rfcctl/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rfcctl/data/contexts.py,sha256=B6fP4x-DCeL6ptvGSEDn7RwRZHIIxDPrDGImQ1VqUQk,1491
+rfcctl/data/rfcs.py,sha256=Y1tTo06W19An4mjfU7yG0vO3yjhA8HULwQkAfQs15EE,2032
+rfcctl/data/skeleton.py,sha256=UMCYmWYsHgkZcNNeN0gjnsq87mxqPArL3V_EONeVRaI,611
+rfcctl/main.py,sha256=bmhFJNzWzivNtpfXNTDjzXZTsZ_-odIRh-hmOUv96j8,470
+rfcctl/parser.py,sha256=pPaPGYbiE2BYn-VcN-6gX6-FXqQ1ubOXeJgV54buAe0,578
+rfcctl/rfc.py,sha256=b9ZCXRwgSh09WxqP9ZHXQ0-yZZTpdVJh6yimkqOBMfw,7248
+rfcctl-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rfcctl-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+rfcctl-0.1.0.dist-info/entry_points.txt,sha256=Y4QYfJKJQ61nV5wnMAmwOw9j6VkiIXVmw9CcXUgB7ZA,43
+rfcctl-0.1.0.dist-info/METADATA,sha256=y7ZXQERzeiUIwrj_0cRrJayi5ty9BeUf3H117w9V_JY,1863
+rfcctl-0.1.0.dist-info/RECORD,,
