@@ -1,0 +1,12 @@
+dataexec/',sha256=oqnSv6cwWWreagNIoOVBy1EvlSwZHUSreUSOn2CPrhs,1957
+dataexec/__about__.py,sha256=8rNZ_Q-ha1eR_S2vT1lGTrFVxdBoF5p56mSNZB8WTC8,120
+dataexec/__init__.py,sha256=SO9C9s1UR6HHUyHCG3yF8ni8SyifVJIWgxEmOeFCisI,98
+dataexec/assets.py,sha256=oWmKzbuZA32Lhdr97QjApeJXL2bQ7Lml03pvh-XxfJ4,1758
+dataexec/base.py,sha256=ifGCaeZh1TPgM8_IXIOYPMX6oQwS8G99KXvSecL8Ufw,4733
+dataexec/tasks.py,sha256=44dJ7_pP52j2ZRKk7_-R-4jQEdjKkdeCswuJxbDnupQ,1037
+dataexec/types.py,sha256=AdLQNnAtRG8pgPOlAwGannvodp247kpMOWNyAI2WIH8,2807
+dataexec/utils.py,sha256=4vFJh-PUzOZBgQwelbOlCAb2HrKVuddmpms1c6CBsG8,329
+dataexec-0.0.1.dist-info/METADATA,sha256=get_gZdT2Shnm92Y8cTjuRs9gvNM0f_XAfwhbHrTpo0,1387
+dataexec-0.0.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+dataexec-0.0.1.dist-info/licenses/LICENSE.txt,sha256=r6ID7M1vApeCgEDJ6jTau8bfigpKJE8NbfmTCoE8WMY,1090
+dataexec-0.0.1.dist-info/RECORD,,
