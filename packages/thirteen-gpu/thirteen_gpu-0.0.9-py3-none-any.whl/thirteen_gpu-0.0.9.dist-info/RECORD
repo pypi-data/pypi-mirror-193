@@ -1,0 +1,15 @@
+thirteen_gpu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thirteen_gpu/dashboard.py,sha256=aU3Ci_uENTpuv5TDGCi44Xq2C4nSIP5C6ZHw8Y6P0Qg,2288
+thirteen_gpu/definition.py,sha256=tOvQ8xWpq5Wsl0RMgze6MsCkonV-5moxZ6GXz93IVhw,430
+thirteen_gpu/delete.py,sha256=0SuUn17CqvrMnwBUe3xtg85ubMJ7KL7en-fm4GeuUp8,743
+thirteen_gpu/job.py,sha256=ArvS6zU-vCzw3IAyJLT20IwkswXTyzj2rwJ58ekIxTg,2529
+thirteen_gpu/main.py,sha256=oxvJF1n1nmA-O67kZZ0PXqIbEdEZwgrv8veNepRGwLs,6859
+thirteen_gpu/project.py,sha256=V1TQYKfg_stVm59P202NwPRKvbyBB4uJxf3BITQHl4g,1090
+thirteen_gpu/ssh.py,sha256=XF-EE5F5O8ZV7D761zWsiPzv2Sh_DZNqcQhQrE8mKRU,801
+thirteen_gpu/submit.py,sha256=R4rN69y4Nm0H-kNIzCXYe_2QsyqGCB4PEAyDEKPO0xs,1241
+thirteen_gpu/worker.py,sha256=nn6ydWTzcHC3ue_KJCBFuwPttXYDijlvtEpFvthqlxA,4662
+thirteen_gpu-0.0.9.dist-info/METADATA,sha256=ygC-g4WGUPRicIowxolZiZdYcKwKGV_pMF3NKU0CQp4,420
+thirteen_gpu-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thirteen_gpu-0.0.9.dist-info/entry_points.txt,sha256=rHFVMq1Mmd6axPqGeekLjY5KezjMUvQZ0fo4Uevo-pk,87
+thirteen_gpu-0.0.9.dist-info/top_level.txt,sha256=1Sioy-V6PaCrOzGiOcSU7oKrpSJGO5uRK-fO-XPoLm8,13
+thirteen_gpu-0.0.9.dist-info/RECORD,,
