@@ -1,0 +1,31 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pygments_anyscript"
+authors = [{name = "Morten Enemark Lund", email = "mel@anybodytech.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pygments",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[project.entry-points."pygments.lexers"]
+AnyScript = "pygments_anyscript:AnyScriptLexer"
+AnyScriptDoc = "pygments_anyscript:AnyScriptDocLexer"
+
+[project.entry-points."pygments.styles"]
+AnyScript = "pygments_anyscript:AnyScriptStyle"
+
+
+[project.urls]
+Home = "https://github.com/AnyBody/pygments-anyscript"
