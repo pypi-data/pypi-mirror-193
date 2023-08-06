@@ -1,0 +1,16 @@
+tickit_devices/__init__.py,sha256=ZSD5vLUV-s436K-ArZrGhwQHwOMTNsy_4MDq6u4Lz5w,119
+tickit_devices/__main__.py,sha256=RPsyvT8oTw98cjkPF1KHm3dRym3e0pe9PiNaFCaZbFQ,325
+tickit_devices/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+tickit_devices/synchrotron/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tickit_devices/synchrotron/synchrotron_current.py,sha256=CamrPCW-LLF2qqO9vHFlyex0zaC_W6NXdo0fD7-6CsI,6911
+tickit_devices/synchrotron/synchrotron_machine.py,sha256=en36XIr8ZOkEdCJNbY1lMh4srDFHYvHBJWOPbQSJZ1w,7426
+tickit_devices/synchrotron/synchrotron_topup.py,sha256=SV_XVf9a8jORvNCzVNvqKMDAi4ZCO5hxWEl2KADIrfw,8331
+tickit_devices/synchrotron/db_files/DCCT.db,sha256=aI8DnJiILNfKdM7vc8-fYNHFhIv_8AB_Xd7orFYdhPY,265
+tickit_devices/synchrotron/db_files/FILL.db,sha256=8eGt-WH_qFKTaXtsxaJ7RGoT-bJLOVWYF5XOTq18XjU,451
+tickit_devices/synchrotron/db_files/MSTAT.db,sha256=j8LjQS06XMhrcn86a6eVu5n-Nwo27KMkYd2alTU5yqs,1595
+tickit_devices-0.1.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+tickit_devices-0.1.0.dist-info/METADATA,sha256=NFOTE3rcMegUBg62Sxn0lmil-fpWQZ5KPYPK9UpM9co,16747
+tickit_devices-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tickit_devices-0.1.0.dist-info/entry_points.txt,sha256=-WPSQnJDVj1Tnb6KagmX_wy1wGm3cU_IWGqiTcXSso4,64
+tickit_devices-0.1.0.dist-info/top_level.txt,sha256=hKpmpTKk4WhjcJZO4JgVDj_V0yUXVG1kIe-0xh2P-gw,15
+tickit_devices-0.1.0.dist-info/RECORD,,
