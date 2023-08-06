@@ -1,0 +1,2 @@
+[console_scripts]
+gotypist-stats = gotypist_stats.__main__:main
