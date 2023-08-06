@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+fixme/__init__.py
+fixme/__main__.py
+fixme/cli.py
+fixme.egg-info/PKG-INFO
+fixme.egg-info/SOURCES.txt
+fixme.egg-info/dependency_links.txt
+fixme.egg-info/entry_points.txt
+fixme.egg-info/requires.txt
+fixme.egg-info/top_level.txt
+tests/test_fixme.py
