@@ -1,0 +1,16 @@
+stock_market/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stock_market/constants.py,sha256=_qIK6gOftGxgxRofd96R0c7R_i39ZGXw7vO6FYUFbJI,94
+stock_market/dto.py,sha256=wXJa-8ECtOrKR8yci0iRgriuu6iYZHvkUPR7pW0iUcA,178
+stock_market/interfaces.py,sha256=RY6lFYYRUTcuu5vy4MebSt2FpJ4aDaoqP7n4P2l6Pfw,306
+stock_market/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stock_market/adapters/base/__init__.py,sha256=AKtwgiTLlTtJd9IrKnE87dEnUTD1F19NfAfXGYT4Zro,65
+stock_market/adapters/base/response.py,sha256=QouY1iRhb0-IR6MmLABw6Ek05KtYVABjbR-go_uyWzI,535
+stock_market/adapters/exchangerate/__init__.py,sha256=smi7ZB2-5cVy0yLlFfP23JK01jSsL1EEtb7CuZbf0Ik,64
+stock_market/adapters/exchangerate/dto.py,sha256=E0r7bk0rVidNm5z9fvXY69Vpvpm7QshUMJrwYofTVXk,186
+stock_market/adapters/exchangerate/params.py,sha256=KdGc2bRI2xubY11SNrInbe8vlNtPwUrl16rR8Wf4VTs,1048
+stock_market/adapters/exchangerate/response.py,sha256=4E9Qr6dj089kA12KkqHIPsDjm-DgPzmA4SIaW54dV7M,725
+stock_market/adapters/exchangerate/settings.py,sha256=8T4i1HGZ2fEEFhED2Ze4sTpVPu9BeSAp8GHjSLl4Xjw,83
+stock_market_adapter-0.0.3.dist-info/METADATA,sha256=Qkkd8trfmKuREViW0X8S2Ry58m5U8DLhGDWlpOj8Oy8,554
+stock_market_adapter-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+stock_market_adapter-0.0.3.dist-info/top_level.txt,sha256=CHvOGbSwUhF_tH7AW5_yJEbFAMBT2ZJRf12fRiNG90g,13
+stock_market_adapter-0.0.3.dist-info/RECORD,,
