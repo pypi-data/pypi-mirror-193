@@ -1,0 +1,13 @@
+metabase_api/__init__.py,sha256=uKau9xIMXlUkzNoQtWWdBnj4SKLQSnXjQHjtb_0hzWU,40
+metabase_api/_helper_methods.py,sha256=8-dwXg8EzFn117oyCtahIJMBVn0pUOagifnLl7348Is,13026
+metabase_api/_rest_methods.py,sha256=ZY6hlnupj7ZadLQQ8gQApxIR7QeHtCfCFtZv7dn8JzE,1144
+metabase_api/copy_methods.py,sha256=QZGzI0YQKrSNQ-5nOKt279_2t-bU0U6yCMLrl5iaWYw,17495
+metabase_api/create_methods.py,sha256=j7ORk2mpQm6g3cPYLIaP0pOKYKnUe8iS3SuV2GWsJwM,12109
+metabase_api/metabase_api.py,sha256=wMY8jTJK0Bo7WPMp5i_awKgANmEc8-f3cUI4bcnM62M,15454
+tests/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+tests/test_metabase_api.py,sha256=J9_GPsZ1Um5y_SRVnS6v9sPlt7k0kCANhrdMG8jbinE,10420
+metabase_api-0.3.0.dist-info/LICENSE,sha256=wvTpuzuL9AgnLCaTEWxBiOwvMdTiz8ljb0GvOQ5kG7w,1101
+metabase_api-0.3.0.dist-info/METADATA,sha256=_oZ8035IoX7nmK__wgLHKFypBMprXBs_NJqxmAh4Ul4,13152
+metabase_api-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+metabase_api-0.3.0.dist-info/top_level.txt,sha256=XClx8BtOSxaovq1tUO-dVsMdxb8IP1qmHeGAnAYorUM,19
+metabase_api-0.3.0.dist-info/RECORD,,
