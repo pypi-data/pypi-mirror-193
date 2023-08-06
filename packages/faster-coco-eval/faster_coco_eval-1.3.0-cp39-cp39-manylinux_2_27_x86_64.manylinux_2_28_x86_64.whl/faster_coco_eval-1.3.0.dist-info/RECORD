@@ -1,0 +1,16 @@
+faster_coco_eval/faster_eval_api_cpp.cpython-39-x86_64-linux-gnu.so,sha256=KGg5kmRR579xo1GGLWqGKgRW1srSR3WqDKq0YTvU4OI,273360
+faster_coco_eval/version.py,sha256=3nndrmpSFmA6bkyCZkj3gc1kIFGutEr3ddEnkfF1j2s,47
+faster_coco_eval/mask_api_cpp.cpython-39-x86_64-linux-gnu.so,sha256=TvvkOESTZF91ttQEM1yyeP44uOot5SxxSS9Qb_Y35t0,1261568
+faster_coco_eval/__init__.py,sha256=v8duwLeK-jWSaih2DvjyjDg4OsLk-idNxTGtVyx-Bi8,123
+faster_coco_eval/core/mask.py,sha256=PDkZhQPh_xW8KYV7xkD3QozHBPv7yKnRIPRVbOyuYJY,4596
+faster_coco_eval/core/faster_eval_api.py,sha256=tOfi6851OZXwM5SuU090tD8C2FqemV2VTSExBuqMQ0Q,5430
+faster_coco_eval/core/coco.py,sha256=y2V2ZbHDLiUFXcfZo1bEHJPwao24OZd2eYUzs-QeX5s,15024
+faster_coco_eval/core/cocoeval.py,sha256=ooqNje1KcUHZIBieev1KIAusfD23jMbCcElCq4LZzrY,26867
+faster_coco_eval/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faster_coco_eval/extra/curves.py,sha256=zHWoF7124mkSVs2OcP-enYhb83Z0alCauVb2CXa-HzA,16344
+faster_coco_eval/extra/__init__.py,sha256=ti7NdMDqVRnFntL3KRa4iimuRLY_cxmbBn-NNpf9CaE,27
+faster_coco_eval-1.3.0.dist-info/METADATA,sha256=8elYsRz2-wQHxpRgeZMmuuziXuYS_500e8ss0s8v0HY,4515
+faster_coco_eval-1.3.0.dist-info/WHEEL,sha256=6ljQ6TyTtfXuZXWGs_EsXXvVe_C846BGQdpWyCrNvQE,149
+faster_coco_eval-1.3.0.dist-info/top_level.txt,sha256=zryiQcZL5iJ4Mz6IN5z0cuUTTQK09zm3heAI32UdUTE,17
+faster_coco_eval-1.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+faster_coco_eval-1.3.0.dist-info/RECORD,,
