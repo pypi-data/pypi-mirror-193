@@ -1,0 +1,14 @@
+riccati/__init__.py,sha256=fGTcAivYoGxh2dbGXQLz3m3pqpTSKBdgX77FxeAILC4,1969
+riccati/_version.py,sha256=x99YC42eoRJvpGXJcKaKhLGxg_e10DlQXEDGMaE5Pfs,497
+riccati/chebutils.py,sha256=ynDbVlQvEgvnC5wf0FlIpsW4nIWmioKt32_gw_i0Jeg,9486
+riccati/evolve.py,sha256=A8mCIuOiYj9c0hKQEB0PC_DWU_G2g8SNn7ziuwP842U,12900
+riccati/solversetup.py,sha256=RO95ZyF-Be6rfY4kbZwyEfRZocon_fKN1HyxsPJIuxY,10622
+riccati/step.py,sha256=pVifwHHUTJotaR4Rf-ewPZK6MrW-Iaa30ymzZzbh0WA,6103
+riccati/stepsize.py,sha256=HSkpoqjEtlH24LXseeVQYXftoT5yydd49u8nEjwBICM,3586
+riccati/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+riccati/tests/test_riccati.py,sha256=OxRC09e_NfWErbn5GbfZxI81FTZu2gaiYjxMvplhfso,10478
+riccati-1.0.7.dist-info/LICENSE,sha256=f1keg_2MFPym4_JZxJ2A8cx3XyD9AD0sOo13tv7NtW4,1162
+riccati-1.0.7.dist-info/METADATA,sha256=uhZ79mkBBzTqrnJynt_sk9iJE07brnHMC6Qfg1E9vGA,3522
+riccati-1.0.7.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+riccati-1.0.7.dist-info/top_level.txt,sha256=CV9ZE08zwul2MIeiIH3YJcfxGVWQuVujaSrMZ5CSIpc,8
+riccati-1.0.7.dist-info/RECORD,,
