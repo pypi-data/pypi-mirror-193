@@ -1,0 +1,11 @@
+pydependabot/__init__.py,sha256=SlOqtYDTrtfLU6Kpg28xdFy8yIJkbssTH_Zo-SYiZe8,40
+pydependabot/consts.py,sha256=NF33-yXn5uSQgG3_jc52dnejUsKBc98e1FmV_oxvs7k,31
+pydependabot/main.py,sha256=Og98he-si2HaMpRWybya7JxxIbyK54iNNC4-C6hyUcM,4160
+pydependabot/repository_vulnerablity_alert_node.py,sha256=iQduegg7UGpjhvLZxp8TD98MYeVr4KeWudgD1tQt9jA,4265
+pydependabot/repository_vulnerablity_alert_query.py,sha256=7jh80wSIobm6SjjCtyTrQFoftsZQ8PnrML26xX_fISw,866
+pydependabot/utils.py,sha256=eD9hZZ_aF-fWcKXLRoFHFUN8oqYIWht-XKP9NqCJg90,757
+pydependabot-0.8.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+pydependabot-0.8.dist-info/METADATA,sha256=sVloWDEeZm0j8QolYrwq7SJIY8D14R7MoSUcMfHzWjQ,3014
+pydependabot-0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydependabot-0.8.dist-info/top_level.txt,sha256=HSgDtlJAgZFeP-UHeaswZS1rGNH_Ibevt8GTzZKwM4k,13
+pydependabot-0.8.dist-info/RECORD,,
