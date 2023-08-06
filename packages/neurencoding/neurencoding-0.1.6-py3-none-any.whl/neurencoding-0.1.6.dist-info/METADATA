@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: neurencoding
+Version: 0.1.6
+Summary: Neural encoding models made easy. Describe neuronal activity as a function of other variables
+Author-email: Berk Gercek <berkgercek@duck.com>
+Project-URL: Homepage, https://github.com/berkgercek/neurencoding
+Project-URL: Bug Tracker, https://github.com/berkgercek/neurencoding/issues
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Neurencoding
+
+Neurencoding is a python package for implementing encoding models of single-unit activity for (at the moment) units recorded using electrophysiology. This package provides tools for expressing single-unit firing as a function of many external variables, such as task-related events and values.
+
+This is the package used for the International Brain Lab (IBL) brain-wide map paper.
+
+## Getting started
+
+### Installation
+
+In order to install `neurencoding`, please use pip to install the package in your choice of python environment (e.g. using virtualenv or Anaconda):
+
+```
+pip install neurencoding
+```
+
+### Loading in data
+
+TBD
+
+## Source work
+
+All work based on code from pillowlab/neuroGLM, translated and extended.
