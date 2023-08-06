@@ -1,0 +1,7 @@
+neurobooth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neurobooth/face_landmarks.py,sha256=wQp0-Z_XBfemax1rmhR3HMl38xXxNSdCnoTn3ybzTrE,3876
+neurobooth/pose_landmarks.py,sha256=L80iPzcMUcbOTuYj6pVJrY61zQ5fjmY3cdHXc1flAXA,2898
+neurobooth-0.1.1.dist-info/LICENSE,sha256=aeTXz4RtiT8-eIIDUq-ImazKoXl1pcUyo-IMA4UrJc8,1518
+neurobooth-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+neurobooth-0.1.1.dist-info/METADATA,sha256=QFlRI_FHsvRzetuEtKMdEbUnuntKJiGtp994dhJq_cU,1310
+neurobooth-0.1.1.dist-info/RECORD,,
