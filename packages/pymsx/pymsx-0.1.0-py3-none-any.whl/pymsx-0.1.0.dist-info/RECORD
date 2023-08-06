@@ -1,0 +1,9 @@
+pymsx/__init__.py,sha256=W6gSXIEU0yiJwoh7y05GjWPy1ZiDeCRBzdpMn3_kfAs,58
+pymsx/client.py,sha256=oTyqPYuHtxAb5OF-E4QFDpKGLa23fQuMMGoSsoTNx08,5902
+pymsx/config.py,sha256=pqFEsGb5hp59WRwUrBrlMNipTx5B4S_JRSqhwlLCHcM,633
+pymsx/exceptions.py,sha256=-wtAlK9M5ugfDGBrn6_QShzOHAmy817P-ymD-MtPHlY,706
+pymsx/schemas.py,sha256=7P60YiydlFL1llrbYY8lchvayiZ9wGsjzPQLI5clRA4,733
+pymsx-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pymsx-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pymsx-0.1.0.dist-info/METADATA,sha256=45Zn0nM9e3lcM5XkKuNE7CPlVyLntR4LjVk-q4mduIk,4145
+pymsx-0.1.0.dist-info/RECORD,,
