@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+gisfordemo/__init__.py
+gisfordemo/gisfordemo.py
+gisfordemo.egg-info/PKG-INFO
+gisfordemo.egg-info/SOURCES.txt
+gisfordemo.egg-info/dependency_links.txt
+gisfordemo.egg-info/not-zip-safe
+gisfordemo.egg-info/top_level.txt
