@@ -1,0 +1,93 @@
+"""
+A medical test performed on a sample of a patient's blood.
+
+https://schema.org/BloodTest
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class BloodTestInheritedProperties(TypedDict):
+    """A medical test performed on a sample of a patient's blood.
+
+    References:
+        https://schema.org/BloodTest
+    Note:
+        Model Depth 4
+    Attributes:
+        affectedBy: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Drugs that affect the test's results.
+        normalRange: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Range of acceptable values for a typical patient, when applicable.
+        signDetected: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A sign detected by the test.
+        usedToDiagnose: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A condition the test is used to diagnose.
+        usesDevice: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Device used to perform the test.
+    """
+
+    affectedBy: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    normalRange: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    signDetected: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    usedToDiagnose: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    usesDevice: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    
+
+
+class BloodTestProperties(TypedDict):
+    """A medical test performed on a sample of a patient's blood.
+
+    References:
+        https://schema.org/BloodTest
+    Note:
+        Model Depth 4
+    Attributes:
+    """
+
+    
+
+
+class AllProperties(BloodTestInheritedProperties , BloodTestProperties, TypedDict):
+    pass
+
+
+class BloodTestBaseModel(SchemaOrgBase):
+    id_ : Optional[Any] = Field(default="BloodTest",alias='@id')
+    context_ : Optional[Any] = Field(default=None,alias='@context')
+    graph_ : Optional[Any] = Field(default=None,alias='@graph')
+
+    class Config:
+        
+        fields = {'affectedBy': {'exclude': True}}
+        fields = {'normalRange': {'exclude': True}}
+        fields = {'signDetected': {'exclude': True}}
+        fields = {'usedToDiagnose': {'exclude': True}}
+        fields = {'usesDevice': {'exclude': True}}
+        
+
+
+def create_schema_org_model(type_: Union[BloodTestProperties, BloodTestInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "BloodTest"
+    return model
+    
+
+BloodTest = create_schema_org_model()
+
+
+def create_bloodtest_model(model: AllProperties):
+    _type =  AllProperties.copy()
+    for k in model.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: AllProperties):
+    pydantic_type =  create_bloodtest_model(model=model)
+    return pydantic_type(model).schema_json()
+
+
