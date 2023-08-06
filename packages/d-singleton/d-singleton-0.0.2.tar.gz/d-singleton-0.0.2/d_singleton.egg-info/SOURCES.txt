@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup-singleton.py
+setup.py
+d_singleton.egg-info/PKG-INFO
+d_singleton.egg-info/SOURCES.txt
+d_singleton.egg-info/dependency_links.txt
+d_singleton.egg-info/namespace_packages.txt
+d_singleton.egg-info/top_level.txt
+devjoyvn/libs/__init__.py
+devjoyvn/libs/caching/__init__.py
+devjoyvn/libs/singleton/__init__.py
