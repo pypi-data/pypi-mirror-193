@@ -1,0 +1,2 @@
+[console_scripts]
+static_sox = static_sox.run:main_static_sox
