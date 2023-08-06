@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sunpeek-demo
+Version: 0.0.0.dev1
+Summary: Demonstration data and scripts for the sunpeek solar thermal performance assessment tool
+License: CC-BY-SA-4.0
+Author: Philip Ohnewein, Daniel Tschopp, Lukas Feierl, Marnoch Hamilton-Jones
+Maintainer: Philip Ohnewein
+Maintainer-email: p.ohnewein@aee.at
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Free To Use But Restricted
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: sqlalchemy (<2)
+Requires-Dist: sunpeek
+Description-Content-Type: text/markdown
+
+# SunPeek Demonstration Package
+This package contains data and scripts for demonstrating the features [SunPeek](https://pypi.org/project/sunpeek/) 
+solar thermal performance assessment package. To install this package with sunpeek, run `pip install sunpeek[demo]`
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This package is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

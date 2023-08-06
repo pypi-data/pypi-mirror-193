@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sunpeek-demo"
+version = "0.0.0.dev1"
+description = "Demonstration data and scripts for the sunpeek solar thermal performance assessment tool"
+authors = ["Philip Ohnewein, Daniel Tschopp, Lukas Feierl, Marnoch Hamilton-Jones"]
+maintainers = [
+    "Philip Ohnewein <p.ohnewein@aee.at>",
+    "Marnoch Hamilton-Jones <m.hamilton-jones@aee.at>",
+    "Lukas Feierl <l.feierl@solid.at>"
+    ]
+license = "CC-BY-SA-4.0"
+readme = "README.md"
+packages = [{include = "sunpeek_demo",from = '..'}]
+
+classifiers= ["License :: Free To Use But Restricted"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+sunpeek = "*"
+sqlalchemy = "<2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
