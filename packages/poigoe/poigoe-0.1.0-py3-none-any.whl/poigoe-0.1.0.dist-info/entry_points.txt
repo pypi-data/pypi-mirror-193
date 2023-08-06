@@ -1,0 +1,3 @@
+[console_scripts]
+poigoe=poigoe.__main__:cli
+
