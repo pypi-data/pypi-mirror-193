@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: concurrent-loop
+Version: 1.1.4
+Summary: Helper for running functions in a concurrent loop.
+Author-email: KC Lee <lathe-rebuke.0c@icloud.com>
+Project-URL: Homepage, https://bitbucket.org/kclee/concurrent/src/master/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# README #
+
+## Package overview ##
+
+`concurrent_loop` provides helpers for running functions in a continuous 
+  loop in a separate thread or process.
+
+## Installation ##
+
+<pre>
+pip install concurrent_loop
+</pre>
+
+## Example usage ##
+
+### Code set up ###
+
+The following code creates a class which increments a counter in a looped 
+process using the `ProcessLoop` class (replace with `ThreadLoop` instead to 
+run in a separate thread rather than process).
+
+<pre>
+from concurrent_loop.loops import ProcessLoop
+
+
+class CounterIterator(object):
+  """
+  Iterates a counter in a loop that runs in an independent process.
+  """
+  counter = 0  # Value to be incremented
+
+  concurrent_loop_runner = ProcessLoop(100)  # Set up the controller that
+  # will run any requested function every 100 ms in a separate process.
+
+  def _increment(self, increment_val):
+    """
+    Increment the internal counter once and print value. 
+
+    This will be run repeatedly in a process.
+
+    Args:
+      increment_val (int): The value to increment the internal counter by.
+    """
+    self.counter += increment_val
+    print(self.counter)
+
+  def concurrent_start(self):
+    """
+    Run the _increment() function in the process loop.
+    """
+    # Increments the internal counter in steps of 2. Arg must be supplied
+    # as a tuple.
+    self.concurrent_loop_runner.start(self._increment, (2,))
+
+  def concurrent_stop(self):
+    """
+    Stop the process loop.
+    """
+    self.concurrent_loop_runner.stop()
+</pre>
+
+### Start up ###
+
+Finally, in the main code:
+
+<pre>
+iter = CounterIterator()
+
+iter.concurrent_start()
+sleep(1)
+iter.concurrent_stop()
+</pre>
+
+### Exception handling ###
+
+When an exception is raised in the underlying concurrent loop, the concurrent
+loop stops, but the main process thread has no automatic knowledge of it. 
+The user code can read any exceptions raised from the `ThreadLoop.
+exception` or `ProcessLoop.exception` property.
+
+In the above example, we would read:
+
+<pre>
+iter.concurrent_loop_runner.exception
+</pre>
+
+## Asynchronous communication with Queue() ##
+
+Both `multiprocessing.Queue` and `queue.Queue` allow asynchronous 
+communications with the concurrent loop. However, to ensure correct 
+functioning of the queue, the following rules must be adhered to:
+
+- The class that calls the `ThreadLoop` or `ProcessLoop` (which is the 
+  `CounterIterator` class in above example) must create the `Queue` 
+  instance as an instance attribute, and not as a class attribute.
+- The `Queue` instance must be passed into looped function (the 
+  `_increment` function in above example) as a function parameter, and 
+  not called from the looped function as an attribute.
+
+To extend the above example so that `_increment` function sends the 
+counter value to a results queue on each loop, we do the following.
+
+Import the queue module (for this example, we'll use the simpler 
+`multiprocessing.Queue`):
+
+<pre>
+from multiprocessing import Queue
+</pre>
+
+Instantiate a results queue in `CounterIterator.__init__`:
+
+<pre>
+class CounterIterator(object):
+  _results_q = None
+
+  def __init__(self):
+    self._results_q = Queue()
+</pre>
+
+Modify the `_increment` function to put the counter value into the results 
+queue:
+
+<pre>
+  def _increment(self, res_q, increment_val)
+    self.counter += increment_val
+    res_q.put_nowait(self._counter)
+</pre>
+
+Pass the results queue from `concurrent_start` method into the `_increment` 
+function.
+
+<pre>
+  def concurrent_start(self):
+    self.concurrent_loop_runner.start(self._increment, (self._results_q, 2))
+</pre>
+
+Define a counter getter that gets the counter value from the FIFO results 
+queue:
+
+<pre>
+  @property
+  def counter(self):
+    return self._results_q.get()
+</pre>
+
+In the main code, to print out the counter value from the first 10 loops:
+
+<pre>
+iter = CounterIterator()
+
+iter.concurrent_start()
+
+for _ in range(10):
+  print(iter.counter)
+
+iter.concurrent_stop()
+</pre>
+
+## Who do I talk to? ##
+
+* The author: KCLee
+* Email: lathe-rebuke.0c@icloud.com
