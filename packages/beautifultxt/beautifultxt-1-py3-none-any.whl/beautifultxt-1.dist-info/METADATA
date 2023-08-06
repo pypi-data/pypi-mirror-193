@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: beautifultxt
+Version: 1
+Home-page: https://github.com/gmyrianthous/example-publish-pypi
+Author: Beautiful Text Official
+Author-email: kxekip@gmail.com
+License: MIT
+Keywords: colors
+Requires-Dist: colorama
+Requires-Dist: zipfile
+Requires-Dist: requests
+
