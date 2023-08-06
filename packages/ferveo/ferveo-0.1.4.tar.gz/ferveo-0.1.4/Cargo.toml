@@ -1,0 +1,20 @@
+[package]
+name = "ferveo-python"
+authors = ["Piotr Roslaniec <p.roslaniec@gmail.com>"]
+version = "0.1.4"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+name = "ferveo_py"
+
+[dependencies]
+ferveo = { path = "local_dependencies/ferveo" }
+ferveo-common = { path = "local_dependencies/ferveo-common" }
+pyo3 = { version = "0.17.3", features = ["macros", "extension-module"] }
+group-threshold-cryptography = { path = "local_dependencies/group-threshold-cryptography" }
+derive_more = { version = "0.99", default-features = false, features = ["from", "as_ref"] }
+rand = "0.8"
+
+[build-dependencies]
+pyo3-build-config = "*"
