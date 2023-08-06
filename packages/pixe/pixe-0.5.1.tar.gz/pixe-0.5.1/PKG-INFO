@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pixe
+Version: 0.5.1
+Summary: A digital helper to keep your files neat and tidy
+Home-page: https://github.com/ithuna/pixe
+Author: Chris Wells
+Author-email: chris@ithuna.com
+License: Apache-2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Topic :: System :: Archiving
+License-File: LICENSE

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pixe.py
+setup.py
+pixe.egg-info/PKG-INFO
+pixe.egg-info/SOURCES.txt
+pixe.egg-info/dependency_links.txt
+pixe.egg-info/entry_points.txt
+pixe.egg-info/requires.txt
+pixe.egg-info/top_level.txt
