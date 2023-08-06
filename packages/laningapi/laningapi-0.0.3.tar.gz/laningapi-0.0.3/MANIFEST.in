@@ -1,0 +1,2 @@
+include laningapi/*.py
+exclude ./* test/*
