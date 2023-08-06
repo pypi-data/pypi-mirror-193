@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: simple-cpf
+Version: 0.1.2
+Summary: A simple script to manipulate and validate CPF
+Author: czargodoi
+Author-email: czargodoi@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# cpf
+
