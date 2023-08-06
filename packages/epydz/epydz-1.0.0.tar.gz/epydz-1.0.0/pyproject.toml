@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "epydz"
+version = "1.0.0"
+authors = [{ email = "monwin966@gmail.com" }, { name = "talbi mohamed,alexmm" }]
+description = "A Python library containing useful functions in the Algerian language"
+readme = "README.md"
+license = { file = "LISENSE" }
+keywords = ["Algerian","language", "library", "useful", "functions"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+]

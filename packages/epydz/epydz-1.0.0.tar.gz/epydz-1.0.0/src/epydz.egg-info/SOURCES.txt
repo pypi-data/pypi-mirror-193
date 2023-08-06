@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/epydz.py
+src/epydz.egg-info/PKG-INFO
+src/epydz.egg-info/SOURCES.txt
+src/epydz.egg-info/dependency_links.txt
+src/epydz.egg-info/top_level.txt
