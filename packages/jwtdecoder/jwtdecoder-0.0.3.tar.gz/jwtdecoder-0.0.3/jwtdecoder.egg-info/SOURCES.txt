@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+jwtdecoder/__init__.py
+jwtdecoder.egg-info/PKG-INFO
+jwtdecoder.egg-info/SOURCES.txt
+jwtdecoder.egg-info/dependency_links.txt
+jwtdecoder.egg-info/top_level.txt
