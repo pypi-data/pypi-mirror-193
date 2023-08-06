@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+nlecloud_framework/__init__.py
+nlecloud_framework/demo.py
+nlecloud_framework.egg-info/PKG-INFO
+nlecloud_framework.egg-info/SOURCES.txt
+nlecloud_framework.egg-info/dependency_links.txt
+nlecloud_framework.egg-info/top_level.txt
