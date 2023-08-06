@@ -1,0 +1,2 @@
+[console_scripts]
+vtt2txt = pm.vtt2txt.__main__.main
