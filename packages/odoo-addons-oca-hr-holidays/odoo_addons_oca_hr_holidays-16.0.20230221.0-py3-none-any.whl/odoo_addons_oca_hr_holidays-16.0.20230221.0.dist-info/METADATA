@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odoo-addons-oca-hr-holidays
+Version: 16.0.20230221.0
+Summary: Meta package for oca-hr-holidays Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Requires-Dist: odoo-addon-hr-holidays-public (<16.1dev,>=16.0dev)
+
+UNKNOWN
+
