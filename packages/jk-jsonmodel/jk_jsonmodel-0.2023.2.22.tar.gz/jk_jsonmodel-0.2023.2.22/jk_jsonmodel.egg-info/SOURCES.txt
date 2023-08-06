@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jk_jsonmodel/AbstractConstraint.py
+jk_jsonmodel/JMLocation.py
+jk_jsonmodel/JsonParserRelaxedModel.py
+jk_jsonmodel/__init__.py
+jk_jsonmodel/constraints.py
+jk_jsonmodel/jclasses.py
+jk_jsonmodel.egg-info/PKG-INFO
+jk_jsonmodel.egg-info/SOURCES.txt
+jk_jsonmodel.egg-info/dependency_links.txt
+jk_jsonmodel.egg-info/not-zip-safe
+jk_jsonmodel.egg-info/requires.txt
+jk_jsonmodel.egg-info/top_level.txt
