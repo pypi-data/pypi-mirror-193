@@ -1,0 +1,455 @@
+$def with (resource)
+$ path = tx.request.uri.path
+$ owner = tx.host.owner
+
+$def render_breadcrumbs(breadcrumbs, separator="&#x25b8;", padding="&ensp;"):
+    $ """
+    $ Render a `separator` delimited list of linkified `breadcrumbs`.
+    $
+    $ `breadcrumbs` should be a single tuple that will be read two items at a time:
+    $
+    $     ("path", "Name", "subpath", "Subname", ...)
+    $
+    $ """
+    $ remaining = int(len(breadcrumbs) / 2)
+    $ path = ""
+    $for crumb_path, crumb_title in zip(*(breadcrumbs[i::2] for i in (0, 1))):
+        $ crumb_path = str(crumb_path)
+        $ crumb_icon, crumb_classes = None, None
+        $if isinstance(crumb_title, tuple):
+            $ crumb_icon, crumb_classes, crumb_title = crumb_title
+        $ path = path + "/" + crumb_path
+        $ ups = " ".join(["up"] * remaining)
+        $ remaining = remaining - 1
+        <span>\
+        $if crumb_icon:
+            <span class="crumb-icon-$crumb_icon"></span>&thinsp;\
+        <a href=$path \
+        $if crumb_classes:
+            class="$' '.join(crumb_classes)"
+        rel="$ups">$:crumb_title</a>\
+        $:padding<span class=crumb-sep>$:separator</span></span>\
+
+<html lang=en-us class=dark>
+<head>
+<meta charset=utf-8>
+<meta name=viewport
+  content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
+<link rel=icon href=/static/photo.png>
+$if not tx.request.uri.path:
+    <link rel=manifest href=/manifest.json>
+<link rel=stylesheet href=/static/screen.css media=screen>
+<title>\
+$if "title" in resource:
+    $:Document(resource.title).doc.text_content()&thinsp;&mdash;&thinsp;\
+$owner["name"][0]</title>
+
+$if not isinstance(resource, str) and "head" in resource:
+    $:resource.head()
+
+$# <script type=module>
+$# import { cookies } from '/static/web.js'
+$# 
+$# window.addEventListener('load', () => {
+$#   if (cookies.get('rhythm') == 'on') {
+$#     document.querySelector('body').style.backgroundImage = 'url(/static/measure.png)'
+$#   }
+$#   document.addEventListener('keypress', (e) => {
+$#     if (e.key == '.') {
+$#       if (cookies.get('rhythm') == 'on') {
+$#         document.querySelector('body').style.backgroundImage = 'none'
+$#         cookies.set('rhythm', 'off')
+$#       } else {
+$#         document.querySelector('body').style.backgroundImage = 'url(/static/measure.png)'
+$#         cookies.set('rhythm', 'on')
+$#       }
+$#     }
+$#   })
+$# })
+$# </script>
+
+<style>
+$if tx.user.is_owner:
+    .h-card img {
+        border: .15em solid #007ba7; }
+</style>
+
+</head>
+<body
+$if "body_classes" in resource:
+     class="$' '.join(resource.body_classes)"\
+>
+
+<nav>
+<div class=h-card>
+<div>
+<!--img class=u-photo src=/static/photo.png-->
+<p style=margin-top:.5em><a href=/ rel=me class="p-name u-url u-uid" style="color:#444;text-shadow:.03em .03em 0 #aaa;font-size:3.75em;left:.25em;line-height:.9em;margin:0 0 0 -.25em;position:relative;text-align:center;text-indent:0em"><strong>$owner["name"][0]</strong></a></p>
+<p style=font-size:.8em;left:5.35em;position:relative;bottom:.25em><a href=/about>About</a>&ensp;&mdash;&ensp;<a href=/now>Now</a></p>
+$ email = get_first(owner, "email")
+$# <a class=u-url href="acct:$get_first(owner, email)"></a>
+$if "note" in owner:
+    <p class=p-note style="font-size:.7em;margin:0 0 .2em 0;text-align:center">$owner["note"][0]</p>
+<!--code><a href=/key.asc rel=me class=u-key>DEADBEEF</a></code><br-->
+<p style="text-align:center"><small>
+<!--📧--> <a rel=me class=u-email href=mailto:$email>$email</a><!--br>
+📱 <a rel=me class=u-tel
+href=sms:+16262437654>+1&thinsp;(626)&thinsp;243-7654</a><br>
+🗽 <a rel=me class=u-url href=irc://irc.libera.chat/,isnick></a><br-->
+</small></p>
+<!--p style="text-align:center"><small><!--🌎--> <a href=//></a></small></p-->
+<p style="text-align:center"><small><!--small><abbr
+title="The Onion Router">TOR</abbr>:</small-->
+$ onion = get_first(owner, "onion")
+$if onion:
+    <a rel=me href=http://$onion><code>$onion</code></a><!--/small></p-->
+$ key = get_first(owner, "key")
+$if key:
+    <!--p style=text-align:center><small><small>Key:</small--> <a href=/owner/key
+    rel=me><code>$:"&ndash;".join(key.split()[:2])</code></a></small></p>
+</div>
+</div>
+
+<form action=/search style="margin:1em 0;text-align:center">
+<input name=q style=width:65%><br>
+<button style=width:28%>Search</button>
+</form>
+
+<ul style="margin:.5em 0;text-align:center">
+$for app_prefix, app_name in [("code", "Code"), ("media", "Media")]:
+    <li>\
+    $if path.startswith(app_prefix):
+        <strong style=display:block;padding:.5em>$app_name</strong>\
+    $else:
+        <a href=/$app_prefix style=display:block;padding:.5em>$app_name</a>\
+    </li>
+</ul>
+
+$# <ul class=dates>
+$# $for year, months in get_months().items():
+$#     <li><small><a href=/$year>$year</a></small>\
+$#     <div style=columns:6>
+$#     $for month in range(1, 13):
+$#         $ MO = f"{month:02}"
+$#         $if months[month]:
+$#             <a href=/$year/$MO>\
+$#         $MO\
+$#         $if months[month]:
+$#             </a>\
+$#         &thinsp;\
+$#     </div>
+$#     </li>
+$# </ul>
+
+$# <p>\
+$# $for category in get_categories():
+$#     $category
+$# </p>
+
+<p style="text-shadow:.01em .01em .01em #2aa198;font-family:fleurondingbats;font-size:5em;line-height:.5;margin:.2em 0 .35em 0;text-align:center"><a href=/colophon style=color:#d33682;display:block;text-decoration:none title=Colophon>Y</a></p>
+
+$if tx.user.is_owner:
+    <ul class=admin style=font-size:.75em;text-align:center>
+    <li><a href=/editor>Editor</a></li>
+    <li><a href=/auth>Auth</a></li>
+    <li><a href=/owner>Owner</a></li>
+    <li><a href=/data>Data</a></li>
+    <li><a href=/jobs>Jobs</a></li>
+    <li><a href=/system>System</a></li>
+    </ul>
+
+<div id=connection></div>
+<div id=version></div>
+
+$ followees = set([])  # ("Tantek Çelik", "tantek.com"), ("Maxwell Joslyn", "maxwelljoslyn.com")])
+$ followers = set([])  # ("Maxwell Joslyn", "maxwelljoslyn.com")])
+<ul class=blogroll>
+$for ff_name, ff_url in followers & followees:
+    <li><a rel="followee follower" href=//$ff_url>$ff_name</a></li>
+$for followee_name, followee_url in followees.difference(followers):
+    <li><a rel=followee href=//$followee_url>$followee_name</a></li>
+</ul>
+
+<div id="ball"></div>
+</nav>
+
+$# <p>
+$# $ rel_mes = [
+$# $ ]
+$# $for rel_me in rel_mes:
+$#     $ domain = rel_me.partition(".")[0]
+$#     <a rel=me href=https://$rel_me><img src=/static/$(domain).ico
+$#     alt="$rel_me.partition('.')[0]" style=height:.8em></a>\
+$# </p>
+
+
+<article id=content\
+$if "classes" in resource:
+     class="$' '.join(resource.classes)"\
+>
+$if path:
+    $ breadcrumbs = []
+    $ parts = path.split("/")
+    $ app = parts[0]
+    $if len(parts) > 1:
+        $ breadcrumbs += [app, app.capitalize()]
+    $if "breadcrumbs" in resource:
+        $ breadcrumbs += list(resource["breadcrumbs"])
+    $if breadcrumbs:
+        <nav class=breadcrumbs>$:render_breadcrumbs(breadcrumbs)</nav>
+
+$if "title" in resource:
+    $if getattr(resource, "show_title", True):
+        <header>
+        <h1
+        $if "title_classes" in resource:
+             class="$' '.join(resource.title_classes)"\
+        >$:resource.title</h1>
+        </header>
+
+$:resource
+$if "aside" in resource:
+    <aside>
+    $:resource.aside()
+    </aside>
+</article>
+
+$# $if "prefix" in resource:
+$#     $:resource.prefix
+$# <div class=article>
+$# XXX $if path and "breadcrumbs" in resource:
+$# XXX     $:render_breadcrumbs(resource["breadcrumbs"])
+$# <header>
+$# $if "title" in resource and getattr(resource, "show_title", True):
+$#     <h1>$:resource.title</h1>
+$# $if "header" in resource:
+$#     $:resource.header()
+$# </header>
+$# <div>
+$# $:resource
+$# </div>
+
+$# </div>
+$# $if "suffix" in resource:
+$#     $:resource.suffix
+$# </article>
+$# <nav id=site>
+$# <div class=h-card>
+$# <strong><big class=p-name><a class="u-url u-uid" rel="author home index"
+$# href=$owner["uid"][0]>$owner["name"][0]</a></big></strong>
+$# $ note = owner.get("note")
+$# $if note:
+$#     <p class=p-note>$note[0]</p>
+$# <ul class=elsewhere>
+$# $for url in owner.get("url", []):
+$#     $if tx.request.uri.host in url:
+$#         $continue
+$#     <li>
+$#     $for service, pattern in SILOS.items():
+$#         $ match = re.match(pattern, url)
+$#         $if match:
+$#             <a rel=me href=$url title=$service><img
+$#             src=/static/logos/$(service.lower()).svg alt=$service
+$#             style="height:1em"><span>$match.groupdict()["user"]</span></a>
+$#             $break
+$#     $else:
+$#         <a rel=me href=$url>$url</a>
+$#     </li>
+$# </ul>
+$# <!--p style=text-align:right><small><a href=/about>more about me</a></small></p-->
+$# </div>
+$# $if not getattr(tx.user, "is_authenticating", False) and path != "sign-in":
+$#     $if "uid" in tx.user.session:
+$#         $if tx.user.is_owner:
+$#             $ action = "/owner/sign-out"
+$#         $else:
+$#             $ action = "/guests/sign-out"
+$#         <form id=user method=post action=$action>
+$#         <input type=hidden name=return_to value=$path>
+$#         $if not tx.user.is_owner:
+$#             <p><strong>$tx.user.session["name"][0]</strong><br>
+$#             <small>$tx.user.session["uid"][0].partition("//")[2]</small></p>
+$#         <button>Sign Out</button>
+$#         </form>
+$#     $elif path != "sign-in":
+$#         <form action=/sign-in><input type=hidden name=return_url value="$path">
+$#         <button>Sign In</button>
+$#         </form>
+$# <ul>
+$# <li><a href=/posts>Posts</a></li>
+$# <li><a href=/people>People</a></li>
+$# </ul>
+$# $if not path.startswith("search"):
+$#     <form action=/search>
+$#     <label class=bounding><input type=text name=q></label><br>
+$#     <div class=buttons><button>Search</button></div>
+$#     </form>
+$# $if tx.user.session and tx.user.is_owner:
+$#     <ul class=admin>
+$#     <li><a href=/owner>Owner</a></li>
+$#     <li><a href=/guests>Guests</a></li>
+$#     <li><a href=/mentions>Mentions</a></li>
+$#     <li><a href=/subscriptions>Subscriptions</a></li>
+$#     <li><a href=/auth>Authorizations</a></li>
+$#     <li><a href=/system>System</a></li>
+$#     <li><a href=/sites>Sites</a></li>
+$#     </ul>
+$# </nav>
+
+<nav>
+$# $ MENTION_CONTEXT_WORDS = 5
+$# $for mention in tx.host.mentions:
+$#     $ mention = dict(mention)
+$#     $if mention["target"].rstrip("/") == tx.origin and not mention["source"].startswith(tx.origin):
+$#         $if data := mention.pop("data"):
+$#             <p><small>
+$#             $data
+$#             $# <a href=$data["url"]>$data["published"][0].diff_for_humans()</a>
+$#             $# <a href=$data["author"]["url"]>@$data["author"]["url"]</a>
+$#             $# $ content_parts = data["content-plain"].split()
+$#             $# $for mention_index, mention_word in enumerate(content_parts):
+$#             $#     $if tx.host.domain in mention_word:
+$#             $#         &ldquo;&hellip;$" ".join(content_parts[mention_index-MENTION_CONTEXT_WORDS:mention_index+MENTION_CONTEXT_WORDS])&hellip;&rdquo;
+$#             </small></p>
+</nav>
+
+$if "hide_footer" not in resource:
+    <footer>
+    <p><small><small>Site content licensed <a
+    href=//creativecommons.org/licenses/by-nc-sa/4.0/ rel=license><abbr
+    title="Creative Commons Attribution-NonCommercial-ShareAlike">CC
+    BY-NC-SA</abbr></a> unless otherwise noted.</small></small></p>
+    <a href=//indieweb.rocks/$tx.host.name rel=me><img alt="IndieMark score"
+    src=//indieweb.rocks/sites/$tx.host.name/scoreboard.svg style=height:4em></a>
+    </footer>
+
+<style>
+  #ball {
+    display: none;
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 1.25em;
+    background-color: cornflowerblue;
+    background-image: \
+        -webkit-radial-gradient(40% 40%, circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));;
+    background-image: \
+        -moz-radial-gradient(40% 40%, circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));;
+    background-image: \
+        -ms-radial-gradient(40% 40%, circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));;
+    background-image: \
+        radial-gradient(circle at 40% 40%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    opacity: 50%;
+    left: 2em;
+    position: absolute;
+    top: 2em;
+  }
+</style>
+
+<script>
+// var ball = document.getElementById('ball')
+var start
+var a = 16
+var b = 16
+
+var rAF = window.mozRequestAnimationFrame ||
+  window.webkitRequestAnimationFrame ||
+  window.requestAnimationFrame
+
+var rAFStop = window.mozCancelRequestAnimationFrame ||
+  window.webkitCancelRequestAnimationFrame ||
+  window.cancelRequestAnimationFrame
+
+window.addEventListener('gamepadconnected', function() {
+  ball.style.display = 'block'
+  var gp = navigator.getGamepads()[0]
+  gameLoop()
+})
+
+window.addEventListener('gamepaddisconnected', function() {
+  ball.style.display = 'none'
+  rAFStop(start)
+})
+
+if(!('GamepadEvent' in window)) {
+  var interval = setInterval(pollGamepads, 500)
+}
+
+function pollGamepads() {
+  var gamepads = navigator.getGamepads ? navigator.getGamepads() : (navigator.webkitGetGamepads ? navigator.webkitGetGamepads : [])
+  for (var i = 0; i < gamepads.length; i++) {
+    var gp = gamepads[i]
+    if(gp) {
+      gameLoop()
+      clearInterval(interval)
+    }
+  }
+}
+
+function buttonPressed(b) {
+  if (typeof(b) == "object") {
+    return b.pressed
+  }
+  return b == 1.0
+}
+
+let escapingBack = false
+let escapingForward = false
+let tabIndex = 0
+let changingTab = false
+
+switchFocus = offset => {
+  if (!changingTab) {
+    tabIndex = tabIndex + offset
+    if (tabIndex < 0)
+      tabIndex = 0
+    changingTab = true
+    try {
+      document.querySelectorAll('a')[tabIndex].focus()
+    }
+    catch(err) {
+      tabIndex = tabIndex - 1
+    } 
+    setTimeout(() => {
+      changingTab = false
+    }, 50)
+  }
+}
+
+function gameLoop() {
+  var gamepads = navigator.getGamepads ? \
+    navigator.getGamepads() : (navigator.webkitGetGamepads ? \
+    navigator.webkitGetGamepads : [])
+  if (!gamepads)
+    return
+  var gp = gamepads[0]
+  if (buttonPressed(gp.buttons[0])) {         // X
+    document.elementFromPoint(a*2+1, b*2+1).click()
+  } else if (buttonPressed(gp.buttons[2])) {  // B
+    document.querySelectorAll('a')[tabIndex].click()
+  } else if (buttonPressed(gp.buttons[1])) {  // Y
+    switchFocus(1)
+  } else if (buttonPressed(gp.buttons[3])) {  // A
+    switchFocus(-1)
+  } else if (buttonPressed(gp.buttons[4])) {  // L
+    if (!escapingBack) {
+      window.history.back()
+      escapingBack = true
+    }
+  } else if (buttonPressed(gp.buttons[5])) {  // R
+    if (!escapingForward) {
+      window.history.forward()
+      escapingForward = true
+    }
+  }
+  a = a + (gp.axes[0] * 4)
+  b = b + (gp.axes[1] * 4)
+  ball.style.left = a*2 + "px"
+  ball.style.top = b*2 + "px"
+  var start = rAF(gameLoop)
+}
+</script>
+
+</body>
+</html>
