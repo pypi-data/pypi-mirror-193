@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "formula_detection"
+version = "0.3.0"
+description = "Python tooling to detect formulaic language use in text corpora"
+authors = ["Marijn Koolen <marijn.koolen@huygens.knaw.nl>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/marijnkoolen/formula_detection"
+repository = "https://github.com/marijnkoolen/formula_detection"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+packages = [{ include = "formula_detection" }]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.11"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/marijnkoolen/formula_detection/issues"
+
+[tool.poetry.scripts]
+version = 'poetry_scripts:version'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bumpver]
+current_version = "0.3.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = "{version}"',
+]
+"formula_detection/__init__.py" = [
+    '__version__ = "{version}"'
+]
