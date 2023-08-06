@@ -1,0 +1,5 @@
+antimony
+matplotlib
+numpy
+pydot
+scipy
