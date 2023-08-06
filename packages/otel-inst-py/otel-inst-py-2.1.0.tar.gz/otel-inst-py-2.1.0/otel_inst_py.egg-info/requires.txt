@@ -1,0 +1,14 @@
+opentelemetry-api<1.16.0
+opentelemetry-sdk<1.16.0
+opentelemetry-exporter-otlp-proto-grpc<1.16.0
+opentelemetry-exporter-otlp-proto-http<1.16.0
+
+[dev]
+build
+coverage
+coverage-badge
+black
+pylint
+pdoc
+pydeps
+python-dotenv
