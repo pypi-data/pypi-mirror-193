@@ -1,0 +1,121 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+boil/__init__.py
+boil/__version__.py
+boil/exceptions.py
+boil.egg-info/PKG-INFO
+boil.egg-info/SOURCES.txt
+boil.egg-info/dependency_links.txt
+boil.egg-info/entry_points.txt
+boil.egg-info/not-zip-safe
+boil.egg-info/requires.txt
+boil.egg-info/top_level.txt
+boil/cli/__init__.py
+boil/cli/commands.py
+boil/common/__init__.py
+boil/common/filters.py
+boil/plate/__init__.py
+boil/plate/manager.py
+boil/plate/runner.py
+boil/plates/__init__.py
+boil/plates/__pycache__/__init__.cpython-310.pyc
+boil/plates/ansible_role/README.md
+boil/plates/ansible_role/__init__.py
+boil/plates/ansible_role/__pycache__/__init__.cpython-310.pyc
+boil/plates/ansible_role/templates/{{ role_name }}/README.md
+boil/plates/ansible_role/templates/{{ role_name }}/defaults/main.yml
+boil/plates/ansible_role/templates/{{ role_name }}/handlers/main.yml
+boil/plates/ansible_role/templates/{{ role_name }}/meta/main.yml
+boil/plates/ansible_role/templates/{{ role_name }}/tasks/main.yml
+boil/plates/ansible_role/templates/{{ role_name }}/tests/inventory
+boil/plates/ansible_role/templates/{{ role_name }}/tests/test.yml
+boil/plates/ansible_role/templates/{{ role_name }}/vars/main.yml
+boil/plates/bash_script/__init__.py
+boil/plates/bash_script/__pycache__/__init__.cpython-310.pyc
+boil/plates/bash_script/templates/{{ script_name }}
+boil/plates/flask-api/__init__.py
+boil/plates/flask-api/templates/flask_api/.gitignore
+boil/plates/flask-api/templates/flask_api/Dockerfile
+boil/plates/flask-api/templates/flask_api/MANIFEST.in
+boil/plates/flask-api/templates/flask_api/Procfile
+boil/plates/flask-api/templates/flask_api/README.md
+boil/plates/flask-api/templates/flask_api/README.rst
+boil/plates/flask-api/templates/flask_api/requirements.txt
+boil/plates/flask-api/templates/flask_api/setup.py
+boil/plates/flask-api/templates/flask_api/test-requirements.txt
+boil/plates/flask-api/templates/flask_api/tox.ini
+boil/plates/flask-api/templates/flask_api/flask_api/__init__.py
+boil/plates/flask-api/templates/flask_api/flask_api/exceptions.py
+boil/plates/flask-api/templates/flask_api/flask_api/api/__init__.py
+boil/plates/flask-api/templates/flask_api/flask_api/api/app.py
+boil/plates/flask-api/templates/flask_api/flask_api/api/resources/__init__.py
+boil/plates/flask-api/templates/flask_api/flask_api/api/resources/__init__.pyc
+boil/plates/flask-api/templates/flask_api/flask_api/api/resources/v1/__init__.py
+boil/plates/flask-api/templates/flask_api/flask_api/api/resources/v1/__init__.pyc
+boil/plates/flask-api/templates/flask_api/flask_api/api/resources/v1/product.py
+boil/plates/flask-api/templates/flask_api/flask_api/api/resources/v1/product.pyc
+boil/plates/flask-api/templates/flask_api/flask_api/cmd/__init__.py
+boil/plates/flask-api/templates/flask_api/flask_api/cmd/api.py
+boil/plates/flask-api/templates/flask_api/tests/integration/__init__.py
+boil/plates/flask-api/templates/flask_api/tests/integration/test_example.py
+boil/plates/flask-api/templates/flask_api/tests/unit/__init__.py
+boil/plates/flask-api/templates/flask_api/tests/unit/test_example.py
+boil/plates/license/README.md
+boil/plates/license/__init__.py
+boil/plates/license/__pycache__/__init__.cpython-310.pyc
+boil/plates/license/templates/LICENSE
+boil/plates/license/templates/_includes/apache
+boil/plates/license/templates/_includes/gnu
+boil/plates/license/templates/_includes/mit
+boil/plates/plate/README.md
+boil/plates/plate/__init__.py
+boil/plates/plate/__pycache__/__init__.cpython-310.pyc
+boil/plates/plate/templates/{{ plate_name }}/README.md
+boil/plates/plate/templates/{{ plate_name }}/__init__.py
+boil/plates/plate/templates/{{ plate_name }}/templates/sample_file.txt
+boil/plates/python_package/README.md
+boil/plates/python_package/__init__.py
+boil/plates/python_package/__pycache__/__init__.cpython-310.pyc
+boil/plates/python_package/templates/{{ package_name }}/.gitignore
+boil/plates/python_package/templates/{{ package_name }}/MANIFEST.in
+boil/plates/python_package/templates/{{ package_name }}/Makefile
+boil/plates/python_package/templates/{{ package_name }}/README.rst
+boil/plates/python_package/templates/{{ package_name }}/pyproject.toml
+boil/plates/python_package/templates/{{ package_name }}/requirements.txt
+boil/plates/python_package/templates/{{ package_name }}/setup.cfg
+boil/plates/python_package/templates/{{ package_name }}/setup.py
+boil/plates/python_package/templates/{{ package_name }}/test-requirements.txt
+boil/plates/python_package/templates/{{ package_name }}/tox.ini
+boil/plates/python_package/templates/{{ package_name }}/.github/workflows/integrate.yml
+boil/plates/python_package/templates/{{ package_name }}/tests/integration/__init__.py
+boil/plates/python_package/templates/{{ package_name }}/tests/integration/test_example.py
+boil/plates/python_package/templates/{{ package_name }}/tests/unit/__init__.py
+boil/plates/python_package/templates/{{ package_name }}/tests/unit/test_example.py
+boil/plates/python_package/templates/{{ package_name }}/{{ package_name }}/__init__.py
+boil/plates/python_package/templates/{{ package_name }}/{{ package_name }}/exceptions.py
+boil/plates/ruby_gem/__init__.py
+boil/plates/ruby_gem/__pycache__/__init__.cpython-310.pyc
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/.gitignore
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/.rubocop.yml
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/.ruby-version
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/Gemfile
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/README.md
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/Rakefile
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/{{ gem_name | underscore }}.gemspec
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/lib/{{ gem_name | underscore }}.rb
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/lib/{{ gem_name | underscore }}/version.rb
+boil/plates/ruby_gem/templates/{{ gem_name | underscore }}/spec/spec_helper.rb
+boil/template/__init__.py
+boil/template/environment.py
+boil/template/renderer.py
+boil/utils/__init__.py
+boil/utils/ansi.py
+boil/utils/display.py
+boil/utils/file_utils.py
+boil/vars/__init__.py
+boil/vars/loader.py
