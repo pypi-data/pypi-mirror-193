@@ -1,0 +1,4 @@
+[console_scripts]
+consume_substrait = consume_substrait:main
+prepare_tpch_data = consume_substrait:prepare_data
+produce_substrait = produce_substrait:main

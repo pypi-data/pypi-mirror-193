@@ -1,0 +1,11 @@
+consume_substrait/__init__.py,sha256=UgKP8lpJxOAX3cvyv85W6bYf5r983vt2htLcUbBScrg,2183
+consume_substrait/consumers.py,sha256=Z2vEHbo7c6VGOOjDZeG0is27f63eKh6Zf0Qz4UzyN1Y,2115
+produce_substrait/__init__.py,sha256=VRqr6t_Xsq24AEgAsmKkNsXAtoRR_PJ2grmyaT8Xk0k,3251
+produce_substrait/java_definitions.py,sha256=1Uoxht7-Loh9kRtiXRiKGnixAMg9hrMSrPJ84duIkZ0,834
+produce_substrait/producers.py,sha256=9oSn2Mg2cVDl9kVyj7CIYyDMAg0eXJKlHzXIwmDruUU,3216
+produce_substrait/jars/isthmus-0.5.0-all.jar,sha256=KpSGyvTsQcHo86wXi6Pl7Itgc9Rag9EjdR3DooBhn3c,47520311
+substrait_tools-0.0.3.dist-info/METADATA,sha256=P6almpY-xYHk7boe_SCdDgaP1oCzUQ5HGiTXBFClEhk,4738
+substrait_tools-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+substrait_tools-0.0.3.dist-info/entry_points.txt,sha256=1cN4zeJXeALbShD8FHdmqpHfyA0JdLxsJGIVVyBqYDY,155
+substrait_tools-0.0.3.dist-info/top_level.txt,sha256=SMOjKMsQ8VNhFmoWVL234vh0DmNZECqv-_beMo_F3Co,36
+substrait_tools-0.0.3.dist-info/RECORD,,
