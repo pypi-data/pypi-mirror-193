@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+skadoosh/__init__.py
+skadoosh.egg-info/PKG-INFO
+skadoosh.egg-info/SOURCES.txt
+skadoosh.egg-info/dependency_links.txt
+skadoosh.egg-info/top_level.txt
