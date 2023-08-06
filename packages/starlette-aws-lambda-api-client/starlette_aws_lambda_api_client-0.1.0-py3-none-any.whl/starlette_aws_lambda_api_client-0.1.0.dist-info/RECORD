@@ -1,0 +1,9 @@
+starlette_aws_lambda_api_client/__init__.py,sha256=q6NSHSM_2kGDJxfhUcaSFVb0ajnBSXf73VvQwYSeS7w,285
+starlette_aws_lambda_api_client/_json.py,sha256=Eroz59qL95SNStMrd8fUY1HtrS1hi61IggaUJ57l7S8,668
+starlette_aws_lambda_api_client/_lambda.py,sha256=X6wlW_cV3psol3bag-A6LgGH8B4149T-jxy9-Y29xdE,11725
+starlette_aws_lambda_api_client/_session.py,sha256=2TdD0QTJhOMOqlAFajBETbmluTK5Asqf7hRbALcLAE4,5428
+starlette_aws_lambda_api_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starlette_aws_lambda_api_client-0.1.0.dist-info/LICENSE,sha256=L2N7a3CNFvLq29K6HI4dmX5XO-tUbYPXvun580X0Nbs,1261
+starlette_aws_lambda_api_client-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+starlette_aws_lambda_api_client-0.1.0.dist-info/METADATA,sha256=thzOQ_hLHyBsphD9OeD0dYVTT3c8GezFFWsTp2djmvg,1499
+starlette_aws_lambda_api_client-0.1.0.dist-info/RECORD,,
