@@ -1,0 +1,6 @@
+[
+  "tc_graph.py::test_connect_to",
+  "tc_graph.py::test_has_path",
+  "tc_graph.py::test_print_adj_list",
+  "tc_graph.py::test_print_edge_matrix"
+]
