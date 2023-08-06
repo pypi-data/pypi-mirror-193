@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+cupy_xarray/__init__.py
+cupy_xarray/_version.py
+cupy_xarray/accessors.py
+cupy_xarray.egg-info/PKG-INFO
+cupy_xarray.egg-info/SOURCES.txt
+cupy_xarray.egg-info/dependency_links.txt
+cupy_xarray.egg-info/requires.txt
+cupy_xarray.egg-info/top_level.txt
