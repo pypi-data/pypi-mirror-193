@@ -1,0 +1,27 @@
+Crudence : powerful yet discrete templates for CRUD endpoint controllers
+========================================================================
+
+*I think you’re a very special young man, or I wouldn’t have asked you
+to help me, now would I ?*
+
+Installation
+------------
+
+.. code:: bash
+
+   pip install crud-templates
+
+Usage
+-----
+
+   A thorough documentation is in construction
+
+The module provides template classes for CRUD controllers using
+SQLAlchemy connexions to a database. They are meant to provide easy to
+use methods for executing ``GET``, ``PUT``, ``PATCH``, ``DELETE``
+statements on single a table, or searches for entities using ``POST``
+statements, within a model-views-controllers framework.
+
+For all templates, the simplest usage is to inherit the template,
+supercharge the ``__init__`` method to provide the target table and the
+SQLAlchemy session, and use the appropriate CRUD method.
