@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/integrations/flask.py,sha256=HpI1fM4KmFq9Jbht6nxVqR7l0uc8OQcLQA43-LrVHRw,1086
+src/jsonrpc.py,sha256=sal4qBlxSzI7dTEEUrUYUgJhDdXTdmRpxLK6aEr9eFI,3705
+src/verlib.py,sha256=lfDJGP8w0o5wIZyMB47AErhFCBHh4FnK7mc--ouKCKg,5298
+src/verliberr.py,sha256=5cAGU8LCuz351I3Hal9hBRSkcmtHpMQvYeloqHjbnpk,1398
+verlib_py-0.1.0.dist-info/METADATA,sha256=vUZqBH3bPbUNKvEQDO_jsyDf5TlcK46m_Jt3MyEJfkE,750
+verlib_py-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+verlib_py-0.1.0.dist-info/LICENSE.txt,sha256=QrXQ9XRd8-2B3WXl517ynMi3ZEq_4vBlwDjgwsnfQ3o,1072
+verlib_py-0.1.0.dist-info/RECORD,,
