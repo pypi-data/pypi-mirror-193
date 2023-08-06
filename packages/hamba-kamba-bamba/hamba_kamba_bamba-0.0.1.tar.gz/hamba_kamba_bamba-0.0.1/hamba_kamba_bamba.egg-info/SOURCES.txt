@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+hamba_kamba_bamba.egg-info/PKG-INFO
+hamba_kamba_bamba.egg-info/SOURCES.txt
+hamba_kamba_bamba.egg-info/dependency_links.txt
+hamba_kamba_bamba.egg-info/top_level.txt
