@@ -1,0 +1,15 @@
+jsonschema-stubs/METADATA.toml,sha256=2LLMoC_f3WcxY0ibuva03VwwE7Az134-IMm3VIvYRkY,83
+jsonschema-stubs/__init__.pyi,sha256=OgQaH2DRA7npNXDsjFPQBNUiPVrYnvTCYp8g8ZKF6aM,1088
+jsonschema-stubs/_format.pyi,sha256=pdhd-fKMVK8TLPzwyqFbvdIUiyTMnsChnCl_TJ2Sfn0,2129
+jsonschema-stubs/_legacy_validators.pyi,sha256=HB01wfaa7HncjzGzZTAktd5s0Zbdd9X22seBjF464QM,1067
+jsonschema-stubs/_types.pyi,sha256=0xopkPh1hAAkoEm9U7b4FkgsaJyfAA28KtHD-cYhOLc,1008
+jsonschema-stubs/_utils.pyi,sha256=uxjX5kgWsS0jB93R7QqSG7Qx98xwL1ON2uJesFug2BY,1238
+jsonschema-stubs/_validators.pyi,sha256=jJ6-IkcIlI0LuSk9vFDRk63t0Xy3J__C46SH3OpsOGs,2441
+jsonschema-stubs/cli.pyi,sha256=b9xu8IAm_jnZKishO1j6D1bmwQtHqoUzC0i6-pN-Tw4,1110
+jsonschema-stubs/exceptions.pyi,sha256=RMLFMqH7jESTRBq4CszCImgF7pFJCWUoV0yiPYdKvuQ,2822
+jsonschema-stubs/protocols.pyi,sha256=1zUiEysmuTrrhKTcg9VddkLEVBWrnv0bLDwoFBgksUY,1243
+jsonschema-stubs/validators.pyi,sha256=X86cMNUx7kiYGea0iLuPmg1pz7d_Du_6mYvdCRbh3Kg,4170
+types_jsonschema-4.17.0.6.dist-info/METADATA,sha256=fPU31ssgPU3rJthVRSB6wEx_NzT5nfBqi5Lnbiecf88,1316
+types_jsonschema-4.17.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+types_jsonschema-4.17.0.6.dist-info/top_level.txt,sha256=Q49upbsobYN6k9WtGrY_p7hc3Kda7fCbfhuCjQIwkQs,17
+types_jsonschema-4.17.0.6.dist-info/RECORD,,
