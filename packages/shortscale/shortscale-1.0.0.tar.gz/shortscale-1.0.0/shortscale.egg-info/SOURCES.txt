@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+shortscale.py
+shortscale.egg-info/PKG-INFO
+shortscale.egg-info/SOURCES.txt
+shortscale.egg-info/dependency_links.txt
+shortscale.egg-info/entry_points.txt
+shortscale.egg-info/top_level.txt
+tests/test_shortscale.py
