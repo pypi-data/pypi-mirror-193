@@ -1,0 +1,7 @@
+toml
+coloredlogs
+metawear
+numpy
+pandas
+pyarrow
+boto3

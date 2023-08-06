@@ -1,0 +1,14 @@
+license.md
+pyproject.toml
+readme.md
+metaprocessor/__init__.py
+metaprocessor/__main__.py
+metaprocessor/config.py
+metaprocessor/main.py
+metaprocessor.egg-info/PKG-INFO
+metaprocessor.egg-info/SOURCES.txt
+metaprocessor.egg-info/dependency_links.txt
+metaprocessor.egg-info/entry_points.txt
+metaprocessor.egg-info/requires.txt
+metaprocessor.egg-info/top_level.txt
+metaprocessor/command/config.py
