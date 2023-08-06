@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+greeting_by_time/greeting_by_time.py
+greeting_by_time.egg-info/PKG-INFO
+greeting_by_time.egg-info/SOURCES.txt
+greeting_by_time.egg-info/dependency_links.txt
+greeting_by_time.egg-info/not-zip-safe
+greeting_by_time.egg-info/top_level.txt
