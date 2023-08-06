@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "metaschema"
+version = "0.0.1"
+description = "Repository of Pydantic models for metadata schema."
+license = "MIT License"
+authors = ["Aivin V. Solatorio <avsolatorio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+pydantic = "^1.10.5"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.10.0"
+flake8 = "^6.0.0"
+black = "^23.1.0"
+pytest = "^7.2.1"
+mypi = "^0.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
