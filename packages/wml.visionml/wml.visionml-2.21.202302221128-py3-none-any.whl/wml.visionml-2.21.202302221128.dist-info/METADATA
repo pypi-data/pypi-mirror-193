@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wml.visionml
+Version: 2.21.202302221128
+Summary: Winnow Vision dataset loader
+Author: ['Phong Dinh Vo', 'Minh-Tri Pham']
+Requires-Dist: mtbase (>=3.7)
+Requires-Dist: mtsql (>=0.13)
+Requires-Dist: mtopencv (>=1.9)
+Requires-Dist: mtimageio (>=0.1)
+Requires-Dist: mtpandas (>=1.11)
+Requires-Dist: wml.core (>=3.8)
+Requires-Dist: shapely
+Requires-Dist: mysql-connector
+Requires-Dist: networkx
+Requires-Dist: slack-sdk
+
