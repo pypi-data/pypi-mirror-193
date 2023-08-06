@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pylint-beam
+Version: 0.1.0
+Author: Krishna Vudata
+Author-email: kvudata@gmail.com
+Requires-Python: >=3.7
+
