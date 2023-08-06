@@ -1,0 +1,8 @@
+README.md
+setup.py
+jameskuluhelloworld.egg-info/PKG-INFO
+jameskuluhelloworld.egg-info/SOURCES.txt
+jameskuluhelloworld.egg-info/dependency_links.txt
+jameskuluhelloworld.egg-info/top_level.txt
+libname/__init__.py
+libname/hello.py
