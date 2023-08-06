@@ -1,0 +1,17 @@
+unimenu/__init__.py,sha256=w-w6kZgmIMVlxqZGzWJG3j4sAmDfCmp1rsCMKpdDfXg,357
+unimenu/core.py,sha256=vUW4XNlMZ8SKHcwW_Bo2lkoSrcs0jJCnIHDfqOtKyXI,6539
+unimenu/utils.py,sha256=ra6aaBVwG9pycDr4ABAsZY_mt0HnDmJZC9LAtNp_d3A,1022
+unimenu/dccs/__init__.py,sha256=u3WxoMjYxyIGmJ_NKBOF7UhWUKZ_E7sHj8ugeSZPtR4,2160
+unimenu/dccs/_abstract.py,sha256=s3LsgMcosAF9GNTQsS6K9spb3aV4fymFVIAyzDF4eU0,7341
+unimenu/dccs/blender.py,sha256=pjSjbcffpwY00IbCXBAdC8BhM64hCYIgL_JHM4Y18ec,4580
+unimenu/dccs/krita.py,sha256=1nOaTAO7zNYzp_Pq2sK0QF3__D7SifhseZsX_b84zeA,698
+unimenu/dccs/marmoset.py,sha256=lIYnBqut1qOT0lCOPB50_Xfr2GSjSseB53hD6z4NU2o,1571
+unimenu/dccs/max.py,sha256=_JCkjC8jp01KfuIX6-fJi08hVio7SgxbXqDwhb5cocw,3909
+unimenu/dccs/maya.py,sha256=JA5OiGXPsSeHbGqmvGBLLi_MWYb-80syrW1DCn-vLwQ,3788
+unimenu/dccs/qt.py,sha256=L8fgKnZWj42V_2xJ07_ZAn88D3s7AFkJ7jK0O4pqp0k,2393
+unimenu/dccs/substance_painter.py,sha256=HDYllQO7KH45gNJcb1bvtMvrH_-BqAYaSRTAT7Tdg1Q,878
+unimenu/dccs/unreal.py,sha256=aIElvDcKg3E_TaoRL-_utRZG-4qbTj1HTQvmTQGHpPQ,2502
+unimenu-0.2.3.dist-info/METADATA,sha256=RUIO-vASar-C5zm0svsSN0P3jlAATQsmBmcIv3e1nws,3577
+unimenu-0.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+unimenu-0.2.3.dist-info/top_level.txt,sha256=G9qFXEEkQohCYr8q1RJg5MLhLQK5yClx7m8bvx30hKQ,8
+unimenu-0.2.3.dist-info/RECORD,,
