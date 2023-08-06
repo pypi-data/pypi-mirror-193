@@ -1,0 +1,6 @@
+
+[all]
+pydantic<2
+
+[settings]
+pydantic<2
