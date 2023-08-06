@@ -1,0 +1,11 @@
+srv_test-0.4.11.data/data/etc/srv_test/srv_test.install.sh,sha256=CFN1LzQNVR08ftv47jgKs5k-4A6Rvnqjp87G226dtTw,2831
+srv_test-0.4.11.data/data/etc/srv_test/srv_test.yml,sha256=TUjOeLMqxfLw-5iJmulV-gRpcKLXpU2SxRCzHgPjI3g,82
+srv_test-0.4.11.data/data/etc/systemd/system/srv_test.service,sha256=jlS3IwavfrUr_lCej9jcjjGLZIRhbEZJuESl4wj_Ots,1066
+srv_test-0.4.11.data/data/etc/systemd/system/srv_test.socket,sha256=7py0WqGnEklcFqJQxoy3b9bq6-9iPxHEl7vQTXzm9eI,131
+srv_test-0.4.11.data/data/usr/local/lib/srv_test/srv_test.py,sha256=NdbS0mzpzisNeJmEHinjQk3VVSQUvIOdvu8NITeetRs,7757
+srv_test-0.4.11.data/scripts/srv_test.install.sh,sha256=CFN1LzQNVR08ftv47jgKs5k-4A6Rvnqjp87G226dtTw,2831
+srv_test-0.4.11.dist-info/LICENSE,sha256=NlLvrK33SgUc68VZ9JBiGk9lbUfhqyn4pLeXGJbOLP8,1072
+srv_test-0.4.11.dist-info/METADATA,sha256=dzcmbrKH8PDWUCKy67ZskWUSRXX-PNqGRb76zg1tk2o,339
+srv_test-0.4.11.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+srv_test-0.4.11.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+srv_test-0.4.11.dist-info/RECORD,,
