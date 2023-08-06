@@ -1,0 +1,10 @@
+LICENSE
+README.md
+builder.py
+pyproject.toml
+setup.py
+zamlmodule.zig
+zaml.egg-info/PKG-INFO
+zaml.egg-info/SOURCES.txt
+zaml.egg-info/dependency_links.txt
+zaml.egg-info/top_level.txt
