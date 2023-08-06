@@ -1,0 +1,8 @@
+board_game_bot/__init__.py,sha256=7tSU0bV7BCPZQCdw7abQja3-6vuGGoH9i0wOi1I-J80,83
+board_game_bot/mastodon.py,sha256=GxqUls3V4tTnNFBxs3GML_bAmtraFYqJ__egtngE_dU,5603
+board_game_bot/twitter.py,sha256=GjFebF0159c3U1V5RtDT6a0SnRn9IRy4RURN2fMR1c8,5634
+board_game_bot/utils.py,sha256=SJhi8G0ctNqY2t1cTn13rk-ia-AIHdRy_cWWy65UlkA,3604
+board_game_bot-0.4.0.dist-info/LICENSE,sha256=W1GjCOvQxeq4xW8O_1T_loD5TTkBiyhuyAsbIlLBKWo,1072
+board_game_bot-0.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+board_game_bot-0.4.0.dist-info/METADATA,sha256=jNWW3QCrLDtf5wXaatuu12Q5nuA22HrLQLfEPW-qupU,898
+board_game_bot-0.4.0.dist-info/RECORD,,
