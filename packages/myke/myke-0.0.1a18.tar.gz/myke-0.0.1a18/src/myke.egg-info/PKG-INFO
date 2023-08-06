@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: myke
+Version: 0.0.1a18
+Summary: WIP
+Home-page: https://codeberg.org/Fresh2dev/myke
+Author: donald
+Author-email: hello@Fresh2.dev
+Project-URL: Repository, https://codeberg.org/Fresh2dev/myke
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/myke/i
+Project-URL: License, https://www.Fresh2.dev/code/r/myke/i/license
+Project-URL: Issues, https://codeberg.org/Fresh2dev/myke/issues
+Project-URL: Funding, https://www.Fresh2.dev/funding
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+Provides-Extra: io
+Provides-Extra: pydantic
+Provides-Extra: extras
+License-File: LICENSE
+
+# myke
+
+![](https://img.fresh2.dev/fresh2dev.svg)
+
+|               |                           |
+| ------------- | ------------------------- |
+| Code Repo     | https://codeberg.org/Fresh2dev/myke              |
+| Mirror Repo   | https://www.Fresh2.dev/code/r/myke           |
+| Funding       | https://www.Fresh2.dev/funding           |
+
+myke is <_>. I created myke to <_>. This is valuable because <_>.
+
+myke is similar to/inspired by <_>, <_>, <_>. The distinguishing feature of myke its ability to <_>.
+
+To learn more, [read the docs]() and find examples in the page of [**recipes**](https://www.Fresh2.dev/code/r/myke/i/recipes).
+
+If this project delivers value to you, I ask that you [provide feedback](https://codeberg.org/Fresh2dev/myke/issues), code contributions, and/or [funding](https://www.Fresh2.dev/funding).
+
+See my other projects @ https://www.Fresh2.dev/projects.
+
+---
