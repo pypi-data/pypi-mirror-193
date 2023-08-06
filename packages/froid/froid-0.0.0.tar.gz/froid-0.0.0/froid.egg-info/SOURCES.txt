@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+froid/datasets.py
+froid/plotting.py
+froid/preprocessing.py
+froid/quantification.py
+froid/transcription.py
+froid.egg-info/PKG-INFO
+froid.egg-info/SOURCES.txt
+froid.egg-info/dependency_links.txt
+froid.egg-info/requires.txt
+froid.egg-info/top_level.txt
+froid/tests/test_datasets.py

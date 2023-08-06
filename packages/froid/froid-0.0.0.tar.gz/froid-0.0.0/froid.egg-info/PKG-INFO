@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: froid
+Version: 0.0.0
+Summary: Dream analysis in Python
+Home-page: https://github.com/remrama/froid
+Author: Remington Mallett
+Author-email: mallett.remy@gmail.com
+Project-URL: Homepage, https://github.com/remrama/froid
+Project-URL: Source, https://github.com/remrama/froid
+Project-URL: Bug Tracker, https://github.com/remrama/froid/issues
+Project-URL: Release Notes, https://github.com/remrama/froid/releases
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# froid: dream analysis in Python
+
+**froid** is a Python toolbox for analyzing dream reports.
+
+The raw format of dream reports are text, and there are many other packages with tools to process text. Thus, froid only focuses on text analyses that might be specific to dream research. The main features of froid are to:
+
+* preprocessing
+    - determing if a text is a dream report or not
+    - remove non-dream content from a dream report
+* quantification
+    - Hall and Van de Castle ratings
+    - lucidity ratings
+    - presence of common dream themes
+* datasets
+    - easily access public dream datasets
+* normalization
+    - compare to published dream "norms"
+
+See tutorials for more.
