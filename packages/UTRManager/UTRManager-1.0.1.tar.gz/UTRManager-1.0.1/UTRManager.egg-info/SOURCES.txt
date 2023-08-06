@@ -1,0 +1,7 @@
+setup.py
+UTRManager/UTRLibrary.py
+UTRManager/__init__.py
+UTRManager.egg-info/PKG-INFO
+UTRManager.egg-info/SOURCES.txt
+UTRManager.egg-info/dependency_links.txt
+UTRManager.egg-info/top_level.txt
