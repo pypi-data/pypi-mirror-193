@@ -1,0 +1,8 @@
+stevenpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stevenpdf/pdf2image.py,sha256=JE1vM4cTt85zUIl2HaWPBukN6xqxoDH7OpPPLKqtLiY,64
+stevenpdf/pdf2text.py,sha256=1nExnuo7b9zyEDvEItMs4DCaJcI8qAqGIv1p83SvBno,63
+stevenpdf-1.1.dist-info/LICENSE,sha256=5gxtQo5BoGpbDTvtiSxKT-fXfGKYmTyZXfbD680CA-k,12345
+stevenpdf-1.1.dist-info/METADATA,sha256=1AF1I35-XpIlSIktrhaDdD5eVBgiR6cucwJ3n73-qXU,111
+stevenpdf-1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+stevenpdf-1.1.dist-info/top_level.txt,sha256=VzXusU8j3qzi44bVUbXHlExWmbgbX8-1A4DXU6WUkN8,10
+stevenpdf-1.1.dist-info/RECORD,,
