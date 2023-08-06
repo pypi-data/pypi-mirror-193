@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+.github/scripts/release.py
+.github/workflows/publish.yml
+.github/workflows/release.yml
+src/survivalopt/__init__.py.py
+src/survivalopt/version.py
+src/survivalopt.egg-info/PKG-INFO
+src/survivalopt.egg-info/SOURCES.txt
+src/survivalopt.egg-info/dependency_links.txt
+src/survivalopt.egg-info/entry_points.txt
+src/survivalopt.egg-info/top_level.txt

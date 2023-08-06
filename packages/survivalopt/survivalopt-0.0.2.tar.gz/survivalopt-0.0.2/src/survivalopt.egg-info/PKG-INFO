@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: survivalopt
+Version: 0.0.2
+Summary: Optimisation algorithm
+Home-page: https://github.com/husam94/survivalopt
+Project-URL: Bug Tracker, https://github.com/husam94/survivalopt/issues
+Project-URL: Changelog, https://github.com/husam94/survivalopt/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
