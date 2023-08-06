@@ -1,0 +1,16 @@
+matplotlib
+numpy
+pandas
+requests
+scipy
+statsmodels
+tzlocal
+PyYAML
+seaborn
+scikit-learn
+tqdm
+tsfresh
+lttb
+
+[dev]
+sphinx_rtd_theme
