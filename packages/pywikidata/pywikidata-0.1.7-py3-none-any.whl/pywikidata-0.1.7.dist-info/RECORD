@@ -1,0 +1,9 @@
+pywikidata/__init__.py,sha256=-bE4rLZ81Azuumdm7fYT55UMLRlVt6VUp8BDyRnSxC4,27
+pywikidata/config.py,sha256=chBDSAJWF-2Iu2EVYnMHLKpGvubz5nx3JJO2sKQDSq0,218
+pywikidata/entity.py,sha256=98wCAKELK8V3ovtb1ORzShMUq0oMoMnzxbQnKVQVj8A,11300
+pywikidata/logger.py,sha256=uqV8760SRnLRZ3GPwkuJ5shRSPGU3wdLjtHhi6XmXfQ,1278
+pywikidata/utils.py,sha256=QOHkWuTxxhl1Izm6Z_Ltcn4LVl97ei00d0YC1sR9KkQ,3280
+pywikidata-0.1.7.dist-info/LICENSE,sha256=JSSElurU1VadfN8wd6Uttlb_oBJLUXphpE8OIso_TbI,1084
+pywikidata-0.1.7.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pywikidata-0.1.7.dist-info/METADATA,sha256=ojw9ye79s2wv7Kv3zOzfQc9bDvbbJQ8kNkCsOVtYqaw,1366
+pywikidata-0.1.7.dist-info/RECORD,,
