@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/example.py
+src/example_package_dhruvsaraiya/__init__.py
+src/example_package_dhruvsaraiya.egg-info/PKG-INFO
+src/example_package_dhruvsaraiya.egg-info/SOURCES.txt
+src/example_package_dhruvsaraiya.egg-info/dependency_links.txt
+src/example_package_dhruvsaraiya.egg-info/requires.txt
+src/example_package_dhruvsaraiya.egg-info/top_level.txt

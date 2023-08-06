@@ -1,0 +1,29 @@
+[project]
+name = "example_package_dhruvsaraiya"
+version = "0.0.3"
+authors = [
+  { name="Dhruv Saraiya", email="author@example.com" },
+  { name="Anupam", email="anupam@example.com" },
+  { email="anupam@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["egg", "bacon", "sausage", "tomatoes", "Lobster Thermidor"]
+dependencies = [
+  "httpx",
+  "gidgethub[httpx]>4.0.0",
+  "django>2.1; os_name != 'nt'",
+  "django>2.0; os_name == 'nt'",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"GitHub Repository" = "http://github.localhost:80/monalisa/smile.git"

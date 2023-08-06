@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: example_package_dhruvsaraiya
+Version: 0.0.3
+Summary: A small example package
+Author-email: Dhruv Saraiya <author@example.com>, Anupam <anupam@example.com>, anupam@example.com
+License: this is license
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Project-URL: GitHub Repository, http://github.localhost:80/monalisa/smile.git
+Keywords: egg,bacon,sausage,tomatoes,Lobster Thermidor
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+this is readme
