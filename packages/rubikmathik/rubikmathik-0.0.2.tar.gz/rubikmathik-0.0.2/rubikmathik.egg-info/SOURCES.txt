@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+rubiker/__init__.py
+rubiker/calculadorCubo.py
+rubikmathik.egg-info/PKG-INFO
+rubikmathik.egg-info/SOURCES.txt
+rubikmathik.egg-info/dependency_links.txt
+rubikmathik.egg-info/requires.txt
+rubikmathik.egg-info/top_level.txt
