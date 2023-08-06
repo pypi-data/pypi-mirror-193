@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ddfasdf4325_myproject.egg-info/PKG-INFO
+src/ddfasdf4325_myproject.egg-info/SOURCES.txt
+src/ddfasdf4325_myproject.egg-info/dependency_links.txt
+src/ddfasdf4325_myproject.egg-info/top_level.txt
