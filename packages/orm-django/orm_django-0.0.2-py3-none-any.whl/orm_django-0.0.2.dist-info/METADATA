@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: orm-django
+Version: 0.0.2
+Summary: A package for using Django ORM standalone in scripts
+Author-email: Stamatios Stamou Jr <ssjunior@gmail.com>
+Project-URL: Homepage, https://github.com/ssjunior/orm-django
+Project-URL: Bug Tracker, https://github.com/ssjunior/orm-django/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# orm-django
+
+The power of Django ORM for use in standalone scripts
+
+## Install
+
+```
+pip install orm-django
+```
+
+## Define Django settings
+
+By default the ORM settings will use DJANGO_SETTINGS_MODULE from environment variable
+
+If not found we will fallback to settings module
+
+you should configure your APPS in settings to be able to user its models
