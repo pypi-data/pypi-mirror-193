@@ -1,0 +1,12 @@
+cnxtransforms/__init__.py,sha256=bNs3b_UJ25eRPXOH7LminmhzUsaYgf2221NnIGvvme4,377
+cnxtransforms/_version.py,sha256=oFzf01EoS_omq5_T6cznttGqFy3Rz_fOkXV37_UHVf0,498
+cnxtransforms/converters.py,sha256=VyTCB6RaoQftP3mI1ngEHoJJtAgl342XILJa8ih7OgA,3642
+cnxtransforms/xsl/cnxml-to-html5-metadata.xsl,sha256=u7zb3ri7_RIx7y7QcrJri2OBV1WFy9dX5Y79Seio2zo,3073
+cnxtransforms/xsl/cnxml-to-html5.xsl,sha256=-qgze-3uhhRr4PUO5Ma5s-sO833nBkLsDwDaSxoZ-xc,69279
+cnxtransforms/xsl/content2presentation.xsl,sha256=-_iUFJC4rRzVcKXblcp0CbDV-buLlaUVKptjr7lp39Q,406
+cnxtransforms/xsl/content2presentation-files/cnxmathmlc2p.xsl,sha256=HtRmRwzyrCYywIckGBqVX7tgqHFvBoIlhV1r86xMvrs,88645
+cnxtransforms/xsl/content2presentation-files/w3-c2p.xsl,sha256=fnnwkZnAKv61faTb3yBjC1NlAS77NSsxLLuYNyJu2Pg,44650
+cnx_transforms-1.14.0.dist-info/METADATA,sha256=85Z5-5QTh8_8hmbSbFvuan378W3VPQ9kSoSqBEGSHUc,246
+cnx_transforms-1.14.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cnx_transforms-1.14.0.dist-info/top_level.txt,sha256=QF62xUv71Lz0dQ0yre7lYYIG_pII4ozbuQU7Td03oYE,14
+cnx_transforms-1.14.0.dist-info/RECORD,,
