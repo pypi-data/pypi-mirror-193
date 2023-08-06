@@ -1,0 +1,3 @@
+[console_scripts]
+psh-schema-from-json=pyspark_helpers.schema:main
+
