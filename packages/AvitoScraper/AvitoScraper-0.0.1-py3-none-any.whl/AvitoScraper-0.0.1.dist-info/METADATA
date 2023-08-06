@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: AvitoScraper
+Version: 0.0.1
+Summary: A tool for scraping Avito listings
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+

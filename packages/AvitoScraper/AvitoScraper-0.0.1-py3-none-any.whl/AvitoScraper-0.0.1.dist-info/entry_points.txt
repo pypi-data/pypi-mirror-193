@@ -1,0 +1,5 @@
+[console_scripts]
+avito-scraper = AvitoScraper:main
+
+[mypackage_init]
+mypackage_init = mypackage.__init__:my_function
