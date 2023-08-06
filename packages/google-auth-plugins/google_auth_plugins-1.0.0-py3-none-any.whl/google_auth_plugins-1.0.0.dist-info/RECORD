@@ -1,0 +1,6 @@
+google_auth_plugins/__init__.py,sha256=nDyYfiX6GG-2QG5d2J9e2mxx8nNvGtEnElJ2W1r4miI,98
+google_auth_plugins/dwd_credentials.py,sha256=sLR32A3UsXNrjSBIUZXoN3d4rYE0E4N4przYeN_mp2E,13364
+google_auth_plugins-1.0.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+google_auth_plugins-1.0.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+google_auth_plugins-1.0.0.dist-info/METADATA,sha256=efFvNtL8LRPAXS2dFEPGjWLd_nJ_ru4UmLUdYiwTWEQ,5458
+google_auth_plugins-1.0.0.dist-info/RECORD,,
