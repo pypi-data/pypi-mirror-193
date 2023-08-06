@@ -1,0 +1,20 @@
+<div>
+    <h5>Model API input</h5>
+    {% set default_prompt = cfg.default_prompt %}
+    <textarea class="form-control {{ pipeline_name }}-input custom-prompt-input"
+        id="model-api-{{ pipeline_name }}-textarea">{{ prompts[default_prompt] }}</textarea>
+
+    <div><b>Available prompts (see <code>templates/prompts</code>):</b></div>
+
+    <div class="btn-group btn-group-sm prompt-btns" role="group">
+        {% for name in prompts.keys() %}
+        <button type="button" class="btn btn-outline-secondary btn-sm"
+            onclick="insert_prompt('{{ name }}', 'model-api-{{ pipeline_name }}-textarea');">{{ name
+            }}</button>
+
+        {% endfor %}
+    </div>
+
+    <div>See <a href="https://github.com/yizhongw/Tk-Instruct">https://github.com/yizhongw/Tk-Instruct</a> for more
+        details.</div>
+</div>
