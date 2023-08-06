@@ -1,0 +1,15 @@
+grpcio
+numpy
+psutil
+protobuf
+redis
+bcrypt
+opentelemetry-api
+
+[dev]
+grpcio-tools
+black
+isort
+
+[mn4]
+ansible
