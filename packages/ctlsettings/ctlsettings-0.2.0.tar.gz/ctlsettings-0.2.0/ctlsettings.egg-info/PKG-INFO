@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ctlsettings
+Version: 0.2.0
+Summary: Columbia CTL common Django base settings
+Home-page: https://github.com/ccnmtl/ctlsettings
+Author: Columbia University Center for Teaching and Learning
+Author-email: ctl-dev@columbia.edu
+License: GPL-3.0-or-later
+Platform: any
+License-File: LICENSE
+
+common settings we use across all our projects
