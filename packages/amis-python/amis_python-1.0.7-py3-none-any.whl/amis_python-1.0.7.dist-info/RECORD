@@ -1,0 +1,10 @@
+amis/__init__.py,sha256=8O_8iLo5sOyzRM1EI-rGsJelTdCV9oPz2L4TY9bG2f0,227
+amis/components.py,sha256=Xg709_T6_iJiYLrpvWK9juJjVa72tS-2FXBWH35j_fY,134169
+amis/constants.py,sha256=kNNVwKHFC5L3diiu72ETgPNvn8xGbplVCosEP-kvC84,1287
+amis/templates/app.jinja2,sha256=_ZG6GFdm1JJreHi1U1N0JZphFF9cHggox1_d0_gmZyU,7392
+amis/templates/page.jinja2,sha256=xoy9N9s7gGDMW9QHZvn7JVKAw9m3r-ldO9pqXKXgX1Q,1634
+amis/types.py,sha256=Cx1Nrvzv1mZB9YXGlViPnZNaqbdIB3TIn7quYNnh-CM,4550
+amis_python-1.0.7.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+amis_python-1.0.7.dist-info/METADATA,sha256=wBp3dOYM4fEn0AS1OKCLjhOWGMrYmF3_1Rqdo1Xdi1g,2351
+amis_python-1.0.7.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+amis_python-1.0.7.dist-info/RECORD,,
