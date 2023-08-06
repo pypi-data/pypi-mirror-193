@@ -1,0 +1,20 @@
+[project]
+name = "TerCuz"
+version = "1.10"
+authors = [
+  { name="Clarence Parmar", email="git.clarence@gmail.com" },
+]
+
+description = "Advance Terminal Customizer"
+readme = "README.md"
+requires-python = ">=3.7"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/clarenceparmar/TerCuz"
+

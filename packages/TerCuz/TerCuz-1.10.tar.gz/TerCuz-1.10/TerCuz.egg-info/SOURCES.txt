@@ -1,0 +1,6 @@
+pyproject.toml
+tercuz.py
+TerCuz.egg-info/PKG-INFO
+TerCuz.egg-info/SOURCES.txt
+TerCuz.egg-info/dependency_links.txt
+TerCuz.egg-info/top_level.txt
