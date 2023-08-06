@@ -1,0 +1,1 @@
+from rashifal.func import rashi
