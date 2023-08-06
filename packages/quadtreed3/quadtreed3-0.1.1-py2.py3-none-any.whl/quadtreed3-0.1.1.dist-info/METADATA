@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: quadtreed3
+Version: 0.1.1
+Summary: Quadtree implementation in Python following the d3-quadtree's structure
+Home-page: https://github.com/xiaohk/quadtreed3
+Author: Quadtree
+Author-email: jay@zijie.wang
+License: MIT license
+Keywords: quadtreed3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: numpy
+
+# Quadtree
+
+[![build](https://github.com/xiaohk/quadtree-d3/actions/workflows/build.yml/badge.svg)](https://github.com/xiaohk/quadtree-d3/actions/workflows/build.yml)
+[![pypi](https://img.shields.io/pypi/v/quadtreed3?color=blue)](https://pypi.python.org/pypi/quadtreed3)
+[![license](https://img.shields.io/badge/License-BSD--3-brightgreen)](https://github.com/xiaohk/quadtreed3/blob/master/LICENSE)
+
+A Python implementation of [Quadtree](https://en.wikipedia.org/wiki/Quadtree). The tree structure is compatible with [d3-quadtree](https://github.com/d3/d3-quadtree).
