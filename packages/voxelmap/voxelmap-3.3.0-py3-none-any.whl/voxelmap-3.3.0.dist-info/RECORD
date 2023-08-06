@@ -1,0 +1,10 @@
+voxelmap/__init__.py,sha256=vg_cZlHPzmaBw2drP20QogUBXA5YO60-c1O3Yo7QWT8,172
+voxelmap/annex.py,sha256=6jp_JZCg3uiE0puaqTMGFXTot1NmkUANuuAkKXGDYnQ,13207
+voxelmap/image.py,sha256=SgFZ9ZLray8AWFFxXWNC8p86YGM4FijZpy2RqoF6RXw,11090
+voxelmap/main.py,sha256=LhxzoZ41CyZTaDfzLVGSBq1ECq9FhT83KD5J4fSZls0,11944
+voxelmap/objloader.py,sha256=kscUfToufGJJA6nRE-Ll5EB1fwDqAm0TOLRlIeMMSY8,4565
+voxelmap/objviewer.py,sha256=Cfd7vmM6wpWS2clEhaAIAjY6_UzR7C6vyxZGFUEFH4Y,2790
+voxelmap-3.3.0.dist-info/METADATA,sha256=M0llaISoweUjaGdp3hzhpGoOybaK-kJY8oDeSBTVIg8,2811
+voxelmap-3.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+voxelmap-3.3.0.dist-info/LICENSE,sha256=VF3VTdGLU6hmRzSbcEyTLdJF3ZvY2jfEPko4A2YrUho,1073
+voxelmap-3.3.0.dist-info/RECORD,,
