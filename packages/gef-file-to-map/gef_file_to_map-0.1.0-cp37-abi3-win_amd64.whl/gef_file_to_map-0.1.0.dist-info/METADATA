@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gef-file-to-map
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Utility library for parsing .gef files
+Keywords: gef,pygef
+Author-email: Thomas Versteeg <t.versteeg@cemsbv.io>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/cemsbv/gef-file-to-map
+
+# gef-file-to-map
+
+Utility library for parsing of .gef files, written for [pygef](https://github.com/cemsbv/pygef).
+
+### Run locally
+
+```sh
+# Install maturin inside a Python environment
+python3 -m venv .env
+source .env/bin/activate
+pip install maturin
+
+# Create a Python package from the Rust code
+maturin develop
+
+# Open a GEF file locally
+python
+
+>>> from gef_file_to_map import parse
+>>> gef_to_map(open('./tests/test.gef').read())
+```
+
