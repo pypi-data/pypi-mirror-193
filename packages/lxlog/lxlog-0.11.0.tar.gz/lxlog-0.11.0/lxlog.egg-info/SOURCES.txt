@@ -1,0 +1,8 @@
+README.md
+setup.py
+lxlog/__init__.py
+lxlog/lxlog.py
+lxlog.egg-info/PKG-INFO
+lxlog.egg-info/SOURCES.txt
+lxlog.egg-info/dependency_links.txt
+lxlog.egg-info/top_level.txt
