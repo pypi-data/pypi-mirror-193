@@ -1,0 +1,110 @@
+
+import _QA
+import pandas as pd
+
+
+class QA(_QA.QA):
+
+    def __init__(self, df: pd.DataFrame, df2: pd.DataFrame = None, ds1_nm: str = 'Source #1', ds2_nm: str = 'Source #2',
+                 case_sens: bool = True, print_analysis: bool = True, check_match_by=None, breakdown_grain=None):
+        self.__df = df
+        self.__df2 = df2
+        self.__ds1_nm = ds1_nm
+        self.__ds2_nm = ds2_nm
+        self.__case_sens = case_sens
+        self.__print_analysis = print_analysis
+        self.__check_match_by = check_match_by
+        self.__breakdown_grain = breakdown_grain
+
+    # Getter and Setter Methods for Instance Variables
+    @property
+    def df(self):
+        return self.__df
+
+    @df.setter
+    def df(self, value):
+        self.__df = value
+
+    @property
+    def df2(self):
+        return self.__df2
+
+    @df2.setter
+    def df2(self, value):
+        self.__df2 = value
+
+    @property
+    def ds1_nm(self):
+        return self.__ds1_nm
+
+    @ds1_nm.setter
+    def ds1_nm(self, value):
+        self.__ds1_nm = value
+
+    @property
+    def ds2_nm(self):
+        return self.__ds2_nm
+
+    @ds2_nm.setter
+    def ds2_nm(self, value):
+        self.__ds2_nm = value
+
+    @property
+    def case_sens(self):
+        return self.__case_sens
+
+    @case_sens.setter
+    def case_sens(self, value):
+        self.__case_sens = value
+
+    @property
+    def print_analysis(self):
+        return self.__print_analysis
+
+    @print_analysis.setter
+    def print_analysis(self, value):
+        self.__print_analysis = value
+
+    @property
+    def check_match_by(self):
+        return self.__check_match_by
+
+    @check_match_by.setter
+    def check_match_by(self, value):
+        self.__check_match_by = value
+
+    @property
+    def breakdown_grain(self):
+        return self.__breakdown_grain
+
+    @breakdown_grain.setter
+    def breakdown_grain(self, value):
+        self.__breakdown_grain = value
+
+    def column_gap_analysis(self, df: pd.DataFrame = None, df2: pd.DataFrame = None, ds1_nm: str = 'Source #1',
+                            ds2_nm: str = 'Source #2', case_sens: bool = True, print_analysis: bool = True,
+                            check_match_by=None, breakdown_grain=None):
+
+        if df is None:
+            df = self.__df
+        if df2 is None:
+            df2 = self.__df2
+        if df2 is None:
+            raise ValueError(f'Please insert pandas.DataFrame for df2')
+        if ds1_nm == 'Source #1':
+            ds1_nm = self.__ds1_nm
+        if ds2_nm == 'Source #2':
+            ds2_nm = self.__ds2_nm
+        if case_sens:
+            case_sens = self.__case_sens
+        if print_analysis:
+            print_analysis = self.__print_analysis
+        if check_match_by is None:
+            check_match_by = self.__check_match_by
+        if breakdown_grain is None:
+            breakdown_grain = self.__breakdown_grain
+
+        return _QA.QA.column_gap_analysis(self, df1=df,  df2=df2, ds1_nm=ds1_nm, ds2_nm=ds2_nm, case_sens=case_sens,
+                                          print_analysis=print_analysis, check_match_by=check_match_by,
+                                          breakdown_grain=breakdown_grain)
+
