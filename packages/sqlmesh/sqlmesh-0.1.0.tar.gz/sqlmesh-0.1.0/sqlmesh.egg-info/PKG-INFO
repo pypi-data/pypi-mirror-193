@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sqlmesh
+Version: 0.1.0
+Home-page: https://github.com/TobikoData/sqlmesh
+Author: TobikoData Inc.
+Author-email: engineering@tobikodata.com
+License: Apache License 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: SQL
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: web
+Provides-Extra: snowflake
+Provides-Extra: bigquery
+Provides-Extra: databricks
+Provides-Extra: redshift
+License-File: LICENSE
+
+# What is SQLMesh?
+
+SQLMesh is a next-generation SQL transformation platform. It provides you with powerful automation for versioning, backfilling, deployment, and testing &mdash; allowing you to focus on simply writing SQL.
+
+SQLMesh is able to achieve all of this with minimal setup; there are no additional services or dependencies required to get started using SQLMesh other than a connection to your existing data warehouse or engine.
