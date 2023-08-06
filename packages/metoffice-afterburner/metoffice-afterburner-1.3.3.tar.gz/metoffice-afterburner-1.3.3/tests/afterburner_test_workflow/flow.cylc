@@ -1,0 +1,56 @@
+#!jinja2
+
+# Use the following commands to run this workflow:
+#   export CYLC_VERSION=8
+#   cylc install .
+#   cylc play afterburner_test_workflow
+
+[scheduler]
+    UTC mode = True
+
+# Note: the 'production-os44-2' environment is excluded from the 'module' list
+# below as it does not contain 'nose' (which is used to run the tests).
+
+[task parameters]
+    module = default-current, default-previous, default-next, default-2021_03_18-1, production-os42-1, production-os43-1, production-os43-2, production-os44-1, production-os45-1, preproduction-os46, production-os46-1, production_legacy-os42-1, production_legacy-os43-1, production_legacy-os43-2
+
+[scheduling]
+    [[graph]]
+        R1 = test<module>
+
+[runtime]
+    [[root]]
+        platform = spice
+        [[[directives]]]
+            --wckey = Afterburner
+            --ntasks = 4
+            --time = 1
+            --mem = 2G
+
+    [[test<module>]]
+        script = """
+            module load scitools/${MODULE_NAME}
+            cd ${ROOT_TEST_PATH}/${BRANCH_NAME}
+            ${TEST_COMMAND}
+        """
+        [[[environment]]]
+            MODULE_NAME = ${CYLC_TASK_PARAM_module}
+            # Edit the following variables, as appropriate:
+            ROOT_TEST_PATH = ${HOME}/afterburner
+            BRANCH_NAME = turbofan
+            TEST_COMMAND = python setup.py test
+
+    [[test<module=default-next>]]
+        script = """
+            module load scitools/${MODULE_NAME}
+            # Workaround for the Cartopy / PROJ issue in the '2022_11_22'
+            # version (must be set after running the 'module load'
+            # command):
+            export PROJ_NETWORK=OFF
+            cd ${ROOT_TEST_PATH}/${BRANCH_NAME}
+            ${TEST_COMMAND}
+        """
+    
+    [[test<module=*legacy*>]]
+        [[[environment]]]
+            PYTHONPATH = ~fcm/rose/lib/python/
