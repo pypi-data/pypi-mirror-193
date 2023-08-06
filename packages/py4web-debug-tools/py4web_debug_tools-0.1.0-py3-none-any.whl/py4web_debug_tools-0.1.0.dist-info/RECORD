@@ -1,0 +1,11 @@
+py4web_debug/__init__.py,sha256=OC9yuI3jIBjwi7KGL4uUNtQbyuzZcq913z31gfgSK7s,108
+py4web_debug/core.py,sha256=spcZJ_GyAT3EVGOqZ7FZ_OPMQ2QMVpZom86fPTG8Bv0,1128
+py4web_debug/debugbar.py,sha256=Mp8bvedE1z0fj2XvKw5mz7G70UXhC7kRT8l0HL1fsqc,6980
+py4web_debug/dumping.py,sha256=Jj15zWrbcdn32Ys0nquv1G0aa9wMLCh7njhU4SJD1FU,3515
+py4web_debug/env.py,sha256=CXJX6nmNgGYL0Z9rt8fmQPO1UAydhW-Cv-zWObPlleQ,82
+py4web_debug/internals.py,sha256=znp3lgsXxCgkYQWaJ6mh2QOnaMawsWei8LHzQXjbk8o,4442
+py4web_debug/templates/debugbar.html,sha256=gbaBLBJpDIti9QAkDWXRP10_LEvCrQmK1GxFlbsHasA,7169
+py4web_debug_tools-0.1.0.dist-info/METADATA,sha256=4OHBlPPp0Bxwm8O3usUmTqw4FVAY5Yp6dpR5gL7tXzY,2014
+py4web_debug_tools-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+py4web_debug_tools-0.1.0.dist-info/top_level.txt,sha256=sZikb7uiewpax6SbMw-PL1La6xqDq8ZUbN7J9kFKodA,13
+py4web_debug_tools-0.1.0.dist-info/RECORD,,
