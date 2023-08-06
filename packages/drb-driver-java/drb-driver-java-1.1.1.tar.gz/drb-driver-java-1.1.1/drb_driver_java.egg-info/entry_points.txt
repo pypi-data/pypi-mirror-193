@@ -1,0 +1,3 @@
+[drb.driver]
+java = drb.drivers.java:DrbJavaFactory
+
