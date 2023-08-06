@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+
+[project]
+name = "pytomato"
+version = "0.0.7"
+authors = [
+    { name = "sunlulu.tomato", email = "sunlulu.tomato@bytedance.com" },
+]
+description = "python base libs"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sunlulu427/tomato"
+"Bug Tracker" = "https://github.com/sunlulu427/tomato/issues"
