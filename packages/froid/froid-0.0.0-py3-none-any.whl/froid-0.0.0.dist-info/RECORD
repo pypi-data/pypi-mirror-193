@@ -1,0 +1,10 @@
+froid/datasets.py,sha256=G_coTfpwbbVA_HxbYg0vVK3UnCiOcfXEO3b8R4JJf-o,351
+froid/plotting.py,sha256=WWiCYc5hjzKd6pD5ySZx0VkSDpZ-VgQfk7nc8SeZa7g,45
+froid/preprocessing.py,sha256=LRYr43dU2Xph6Yl3ujoYU4celg_ZytQckbdfb2ocKwM,1420
+froid/quantification.py,sha256=VpbnENejDL1liK48QEjSDbhgF7OE2YdxYa6Vf-LHejA,795
+froid/transcription.py,sha256=BVHEIKSW2PPu_V3oe_b01hzg1sZyAilnmLafeDWw5-U,304
+froid/tests/test_datasets.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+froid-0.0.0.dist-info/METADATA,sha256=66R2GEYyFGxagaSD_m7N9BCqyvwqU8IBxBvhDSh3PeM,1550
+froid-0.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+froid-0.0.0.dist-info/top_level.txt,sha256=Q2k08yNslc7aDyVYWiCYRuvcfa2yuHQcY75LhSLtdd4,6
+froid-0.0.0.dist-info/RECORD,,
