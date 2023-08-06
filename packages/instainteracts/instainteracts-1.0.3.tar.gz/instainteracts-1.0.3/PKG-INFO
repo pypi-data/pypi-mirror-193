@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: instainteracts
+Version: 1.0.3
+Summary: Instainteracts is an automation tool for Instagram interactions
+Author: Manuel
+Author-email: hi@manugmg.anonaddy.me
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyperclip (>=1.8.2,<2.0.0)
+Requires-Dist: selenium (>=4.8.0,<5.0.0)
+Requires-Dist: webdriver-manager (>=3.8.5,<4.0.0)
+Description-Content-Type: text/markdown
+
+# InstaInteracts
+InstaInteracts is an automation tool for Instagram interactions (follow, like, comment).
+
+## How to install
+You can install instainteracts by running the following command:
+```
+pip install instainteracts
+```
+
+## Basic usage
+The following example shows how to use InstaInteracts:
+```py
+from instainteracts import InstaInteracts
+
+username = '' # your username
+password = '' # your password
+hashtag = 'insta' # hashtag to interact with
+
+insta = InstaInteracts(username, password)
+# for all optional arguments, read the docs below
+
+insta.comment_by_hashtag(
+    hashtag,
+    ['Comment', u'Emojis supported 🔥'], # list of comments
+    only_recent=True, # interact only with recent posts
+    limit=1 # limit of comments
+)
+
+insta.follow_by_hashtag(
+    hashtag,
+    limit=2 # limit of follows
+)
+
+insta.like_by_hashtag(
+    hashtag,
+    limit=3 # limit of likes
+)
+
+insta.unfollow(5) # will unfollow 5 users
+```
+
+## Docs
+All InstaInteracts methods are documented at https://instainteracts.pages.dev
