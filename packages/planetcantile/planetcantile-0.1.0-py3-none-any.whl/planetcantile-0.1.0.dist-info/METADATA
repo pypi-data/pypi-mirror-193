@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: planetcantile
+Version: 0.1.0
+Summary: TMS tilesets for Planets
+Home-page: https://github.com/AndrewAnnex/planetcantile
+Keywords: morecantile,TMS,TileMatrixSet,GIS
+Author: Andrew Annex
+Author-email: ama6fy@virginia.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: morecantile (>=3.2.1,<4.0.0)
+Requires-Dist: pyproj (>=3.4.0,<4.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Project-URL: Repository, https://github.com/AndrewAnnex/planetcantile
+Description-Content-Type: text/markdown
+
+# Planetcantile
+
+
+Adds TileMatrixSets for other planets.
+Aims to be home to a wide range of tilesets for the Moon, Mars, and more.
+
+Integrates with [morecantile](https://github.com/developmentseed/morecantile), ideally should allow downstream projects to benefit from additional TMSs defined here.
+
+Definitions go into the generate.py script to have fine grain control, alternatively json files can just be added directly to the data directory.
+
+
