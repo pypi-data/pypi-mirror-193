@@ -1,0 +1,11 @@
+cad/CDS.py,sha256=bBY6EzmT7R4bJzFgtC8oiCPW_BQzegPEyoxXSMVXqfs,125
+cad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cad/main.py,sha256=vjFkvIs58vyXstgqZOqPsOi5MahdlRntiyysYDg3v5c,1257
+cad/pyhik_mod.py,sha256=WWOYn0YL7k5LKeFWxVSxm7b-_Ki6Asz7KpQB7kSy_Kk,4617
+cad/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cad/tests/test_main.py,sha256=JhOSp1dNktqFFLvmH4X3Luiqj6TUD7cdRBku90Pu3F8,293
+qcad-0.7.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+qcad-0.7.2.dist-info/METADATA,sha256=VXiZ68qpuve_XBdc2_Vjxr2-KAr-lJIAP1x95pdi39M,257
+qcad-0.7.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+qcad-0.7.2.dist-info/top_level.txt,sha256=bzNErnRyjP3bJFcZ1rz2dZ_SClCg1j1hu9ch4BxCng8,4
+qcad-0.7.2.dist-info/RECORD,,
