@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+adbescapes/README.MD
+adbescapes/__init__.py
+adbescapes/requirements.txt
+adbescapes/thirdparty.json
+adbescapes.egg-info/PKG-INFO
+adbescapes.egg-info/SOURCES.txt
+adbescapes.egg-info/dependency_links.txt
+adbescapes.egg-info/requires.txt
+adbescapes.egg-info/top_level.txt

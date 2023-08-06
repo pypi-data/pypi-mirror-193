@@ -1,0 +1,3 @@
+include adbescapes/requirements.txt
+include adbescapes/thirdparty.json
+include adbescapes/README.MD
