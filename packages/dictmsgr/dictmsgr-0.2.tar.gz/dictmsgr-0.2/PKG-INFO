@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dictmsgr
+Version: 0.2
+Summary: Single-thread dict-based messenger inspired by the Robot Operation System.
+Keywords: dict,messenger
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dictmsgr
+
+Dict Messenger inspired by Robot Operation System, publish topic by setting item to a dict-like `Context` object. Callback subscription can be registered to be used in a single thread. The callback function should have signature `callback(ctx, msg)` and will be called when `Context.__setitem__()` is fired. This dict is designed to function like a project-wide globals() that you can read&write. '/' is used to specify multi-level nested dict keys.
+
+`pip install dictmsgr`

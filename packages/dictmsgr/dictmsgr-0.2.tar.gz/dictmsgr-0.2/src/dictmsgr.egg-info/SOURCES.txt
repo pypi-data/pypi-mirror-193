@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/dictmsgr/__init__.py
+src/dictmsgr.egg-info/PKG-INFO
+src/dictmsgr.egg-info/SOURCES.txt
+src/dictmsgr.egg-info/dependency_links.txt
+src/dictmsgr.egg-info/top_level.txt
