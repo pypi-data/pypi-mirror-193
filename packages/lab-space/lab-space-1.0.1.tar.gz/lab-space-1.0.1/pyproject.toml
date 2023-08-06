@@ -1,0 +1,29 @@
+
+[build-system]
+requires = ["setuptools>=61.0", "nestifydict", "reconfigurator"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lab-space"
+version = "1.0.1"
+authors = [
+  { name="Jared J. Beard", email="jbeard6@mix.wvu.edu" },
+]
+description = "The purpose of this project is to provide a user friendly pipeline for defining and running experiments."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[tools.setuptools]
+include_package_data = true
+
+[tools.setuptools.packages.find]
+where = ["lab_space"]
+
+[project.urls]
+"Homepage" = "https://github.com/jaredjbeard/lab-space"
+"Documentation" = "https://lab-space.readthedocs.io/en/latest/introduction.html"
