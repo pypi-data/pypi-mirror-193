@@ -1,0 +1,12 @@
+libtfr.cpython-38-x86_64-linux-gnu.so,sha256=6VXw0qxK1T1E5nHRL8jbObHYJ7krzVocYlOcfCbwIu0,3252201
+libtfr.libs/libblas-1ce36338.so.3.9.0,sha256=K7fz3kaBJJXl1he9DAKLdyaq91Pjd4-w5eIqFdGQAUI,550321
+libtfr.libs/liblapack-b06c4f08.so.3.9.0,sha256=EQe1_EXfoOQrhZB1MVaqrZpGFyCfMiYpXqRPXWM5o0k,9405985
+libtfr.libs/libfftw3-a2731c0c.so.3.5.8,sha256=U7CjTSX95p8OXXv65TSk5VyLJyz6cZZ7iwK9IusIYio,2032449
+libtfr.libs/libquadmath-1b17c16b.so.0.0.0,sha256=rFF-dkyIYN0bRtl4Gk381TnLbxaY1iifH_BmSbFwF6I,235681
+libtfr.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+libtfr.libs/libgfortran-c4ef5775.so.5.0.0,sha256=VV8S6d6KyONmJ4pJLtdLXzIotosK0meKxdvYQ1zGqU4,1892585
+libtfr-2.1.7.dist-info/COPYING,sha256=5tagCVBeNF_pSeExAzT8sHR_KNrihWdZ3hAqtmtyLLQ,18011
+libtfr-2.1.7.dist-info/top_level.txt,sha256=MR8dUvlM_hc8S2FbBa2ODH9ZvgGfO5mmJf4AXX2KPv8,7
+libtfr-2.1.7.dist-info/WHEEL,sha256=lb6q83cSSjN97qvFUVTL3e2aOZEde7r_eqCDzXmlUgA,111
+libtfr-2.1.7.dist-info/METADATA,sha256=gl8fiREN5SVpOHxMmMEnKfue0vvMsEqI6lPqVF8v2YU,1091
+libtfr-2.1.7.dist-info/RECORD,,
