@@ -1,0 +1,2 @@
+[console_scripts]
+python-tree-sitter-types = tree_sitter_types.cli:generate_types
