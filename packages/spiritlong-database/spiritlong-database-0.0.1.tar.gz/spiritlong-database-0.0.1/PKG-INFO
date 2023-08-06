@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: spiritlong-database
+Version: 0.0.1
+Summary: A package for mysql
+Home-page: https://spiritlong-exon.com/pypa/databse
+Author: xiaoxx
+Author-email: 1192382297@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#	database package
+## 对数据库得处理
