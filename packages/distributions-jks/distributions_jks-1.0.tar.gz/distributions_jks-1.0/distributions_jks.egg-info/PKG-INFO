@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: distributions-jks
+Version: 1.0
+Summary: Gaussian distributions
+Author: Jaya Krishna with Udacity
+Author-email: jayakrishnas.work@gmail.com
+Requires: matplotlib
+Requires: math
