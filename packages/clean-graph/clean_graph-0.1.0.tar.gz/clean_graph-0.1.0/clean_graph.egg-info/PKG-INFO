@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: clean-graph
+Version: 0.1.0
+Summary: Clean Graph is a Python package for IBCS-like graphs based on matplotlib.
+Home-page: https://github.com/marcelw1323/clean_graph
+Author: Marcel Wuijtenburg
+Author-email: marcelw1323@gmail.com
+License: MIT license
+Keywords: clean_graph
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+===========
+Clean Graph
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/clean_graph.svg
+        :target: https://pypi.python.org/pypi/clean_graph
+
+.. image:: https://img.shields.io/travis/marcelw1323/clean_graph.svg
+        :target: https://travis-ci.com/marcelw1323/clean_graph
+
+.. image:: https://readthedocs.org/projects/clean-graph/badge/?version=latest
+        :target: https://clean-graph.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Clean Graph is a Python package for IBCS-like graphs based on matplotlib.
+
+
+* Free software: MIT license
+* Documentation: https://clean-graph.readthedocs.io.
+
+
+Features
+--------
+
+* ColumnWithWaterfall, the first chart released with clean-graph!
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2023-02-21)
+------------------
+
+* First release on PyPI. Column chart with waterfall.
+
+
