@@ -1,0 +1,10 @@
+ci_rvm/__ci_rvm_mpinv.py,sha256=sc0vUSEjEIVxST4Dlp-Pw-j7P00VQhMWEfbhvpwBrmA,50959
+ci_rvm/__init__.py,sha256=YQAGRYrW24TWngWtsqL1LX3oMpV9O87unQHN8Fbtj1s,104
+ci_rvm/ci_rvm.py,sha256=8sYC0TLDV6-7X5clfyUR19cyOOD7TEiduiH2rnozg-8,66478
+ci_rvm/ci_rvm_mpinv.py,sha256=sc0vUSEjEIVxST4Dlp-Pw-j7P00VQhMWEfbhvpwBrmA,50959
+ci_rvm/test_ci_rvm.py,sha256=p3qxR4Y2894VgSmFxMjnC3sCs7EWjKgksy1JDsQ0b4M,61614
+ci_rvm-0.10.1b3.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+ci_rvm-0.10.1b3.dist-info/METADATA,sha256=wk2oxGSygNc6uBeXF6izsWe0rhmZ-XC9-5ORTOR5zAc,1986
+ci_rvm-0.10.1b3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ci_rvm-0.10.1b3.dist-info/top_level.txt,sha256=iZ1msPy6nFYD09WZj6KQ1hnJLoSDIdwnKtj4nVtQajY,7
+ci_rvm-0.10.1b3.dist-info/RECORD,,
