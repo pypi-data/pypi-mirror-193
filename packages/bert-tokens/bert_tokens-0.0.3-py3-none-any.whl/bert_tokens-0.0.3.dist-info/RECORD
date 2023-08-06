@@ -1,0 +1,9 @@
+bert_tokens/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bert_tokens/bert_tokenizer.py,sha256=ElAvEdYGSYWUpQdZRqzkTAW1_PQ2a5TIN_BDsg1ThAc,11039
+bert_tokens/convert_word_span.py,sha256=CVcrDEYQv9owNwa83DAdDDVisl1fa5nK7Roe-ZIqOI8,1185
+bert_tokens/demo.py,sha256=i0XpBRJ6PACm0h6ULha1KUSa_21wjKHGi5MrN_k9KMQ,490
+bert_tokens-0.0.3.dist-info/LICENSE,sha256=Bnemyxy7Fqvhrc4wlndFYA3nDYjyDim6KZbROK00zMU,1063
+bert_tokens-0.0.3.dist-info/METADATA,sha256=1I_828S3y8hMgJZ4d0BW2nsxgFSP0i7EmIl7xsTqjp4,2085
+bert_tokens-0.0.3.dist-info/WHEEL,sha256=_OfpK4bWOib5kHbXgC6xhPw-kdAw9Ks7_xlOUIiTiwQ,92
+bert_tokens-0.0.3.dist-info/top_level.txt,sha256=t0UNHa3Zf2XEKUYKq8_zvjl8A-djBRNWnpc1HavlUtc,12
+bert_tokens-0.0.3.dist-info/RECORD,,
