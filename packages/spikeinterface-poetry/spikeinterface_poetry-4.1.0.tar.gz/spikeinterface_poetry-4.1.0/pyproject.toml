@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "spikeinterface_poetry"
+version = "4.1.0"
+license = "BSD-4"
+
+authors = ["Can H. Tartanoglu <canhtart@gmail.com>"]
+
+homepage = "https://github.com/caniko/spikeinterface_poetry"
+description = "Poetry packaging with extras for working with spikeinterface"
+readme = "README.md"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+
+spikeinterface = {version = "*", extras = ["full", "widgets"]}
+
+# spikeinterface_poetry additions
+phy-poetry = {version = "*", optional = true}
+spikeinterface-gui = {version = "*", optional = true, allow-prereleases = true}
+
+# sorters
+tridesclous = {version = "^1.6.5", optional = true}
+pyopencl = {version = "^2022.1", optional = true}
+loky = {version = "^3.0.0", optional = true}
+
+spyking-circus = {version = "^1.1.0", optional = true}
+
+herdingspikes = {version = "^0.3.99", optional = true}
+
+mountainsort4 = {version = "^1.0.0", optional = true}
+
+#cupy = {version = "^10.2.0", optional = true}
+#phylib = {version = "^2.4.1", optional = true}
+#pypandoc = {version = "^1.7.2", optional = true}
+#pykilosort = {git = "https://github.com/MouseLand/pykilosort.git", optional = true}
+
+Cython = {version = "*", optional = true}
+klusta = {version = "^3.0.16", optional = true}
+klustakwik2 = {version = "^0.2.7", optional = true}
+
+# Dependencies
+PyQt5 = {version = "*", optional = true}
+numba = {version = "*", optional = true}
+jupyter = {version = "*", optional = true}
+
+# Containerisation frameworks
+spython = {version = "*", optional = true}
+docker = {version = "*", optional = true}
+
+[tool.poetry.extras]
+docker = ["docker"]
+spython = ["spython"]
+singularity = ["spython"]
+
+phy = ["phy-poetry"]
+gui = ["PyQt5", "spikeinterface-gui"]
+jupyter = ["jupyter"]
+
+tridesclous = ["tridesclous", "PyQt5", "loky", "pyopencl"]
+spyking-circus = ["spyking-circus", "PyQt5"]
+herdingspikes = ["herdingspikes"]
+pykilosort = ["cupy", "phylib", "pypandoc", "pykilosort"]
+klusta = ["Cython", "klusta", "klustakwik2"]
+mountainsort = ["mountainsort4"]
+
+all_sorters = [
+    "PyQt5",
+    "tridesclous", "loky",
+    "spyking-circus",
+    "herdingspikes",
+    "cupy", "phylib", "pypandoc", "pykilosort",
+    "Cython", "klusta", "klustakwik2",
+    "mountainsort4"
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0.1"
+addopts = "-ra -q --lf"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
