@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sxbwc-toolbox
+Version: 0.0.1
+Summary: 山西博维创python工具包
+Home-page: http://www.sxbwc.cn
+Author: sxbwc
+Author-email: 65489942@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
