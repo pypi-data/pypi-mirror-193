@@ -1,0 +1,9 @@
+crypto_qr_codes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto_qr_codes/qr.py,sha256=itrIpI2r6eOdMXIrwkD3SYdoSdypkol8a4vyd78fikw,661
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_qr.py,sha256=tg2LAixJ_r_ou98GZygo4Vz0fdBGst5-Hdoyy6VMa5U,608
+crypto_qr_codes-0.1.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+crypto_qr_codes-0.1.0.dist-info/METADATA,sha256=KJmeBOotn4dBwdjjAwIyGIcZ4V8QxQIp6gvn4sQ9MDg,231
+crypto_qr_codes-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+crypto_qr_codes-0.1.0.dist-info/top_level.txt,sha256=VDoW7p5uVbcFryk0lIco8JGvv8Nvb3zej2FMF__hDaM,22
+crypto_qr_codes-0.1.0.dist-info/RECORD,,

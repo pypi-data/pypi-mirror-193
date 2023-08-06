@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: crypto-qr-codes
+Version: 0.1.0
+Summary: Python package for generating QR codes for crypto payments
+Author: Robert Capla
+Author-email: robert.capla@icloud.com
+License-File: LICENSE
+Requires-Dist: qrcode
+
