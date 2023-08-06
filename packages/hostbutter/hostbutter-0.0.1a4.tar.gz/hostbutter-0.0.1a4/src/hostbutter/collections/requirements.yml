@@ -1,0 +1,22 @@
+---
+collections:
+  - name: ansible.posix
+  - name: community.general
+  # - source: ./ansible_collections/fresh2dev/hostbutter
+  #   type: dir
+  # - name: git+https://codeberg.org/fresh2dev/hostbutter.git
+  #   type: git
+  #   version: dev
+
+roles:
+  - name: geerlingguy.docker
+    version: 6.0.4
+
+  - name: geerlingguy.nfs
+    version: 2.0.0
+
+  - name: oefenweb.dnsmasq
+    version: v2.2.27
+
+  - name: stuvusit.systemd-timesyncd
+    version: master

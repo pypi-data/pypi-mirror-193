@@ -1,0 +1,42 @@
+---
+- name: reboot swarm
+  hosts: docker_swarm
+  become: true
+  tasks:
+    - name: cleanup nodes before draining
+      shell: >
+        docker system prune --all --volumes --force
+        && (docker volume rm $(docker volume ls -q) 2>/dev/null || true)
+
+    - name: drain all nodes
+      shell: docker node ls -q | xargs -n1 docker node update --availability=drain
+      when: ansible_hostname == groups['docker_swarm_manager'][0]
+
+    - name: wait for hosts to drain
+      shell: test -z $(docker ps -q)
+      register: result
+      delay: 5
+      retries: 12
+      until: result.rc == 0
+      changed_when: false
+
+    - name: cleanup nodes
+      command: "docker {{ item }} prune --force"
+      loop:
+        - container
+
+    - name: reboot nodes
+      reboot: &reboot_opts
+        # test_command: 'docker ps >/dev/null'
+        post_reboot_delay: 10
+        reboot_timeout: 600
+      when: nfs_exports is not defined
+
+    - name: reboot nfs servers
+      reboot:
+        <<: *reboot_opts
+      when: nfs_exports is defined
+
+    - name: resume
+      shell: docker node ls -q | xargs -n1 docker node update --availability=active
+      when: ansible_hostname == groups['docker_swarm_manager'][0]

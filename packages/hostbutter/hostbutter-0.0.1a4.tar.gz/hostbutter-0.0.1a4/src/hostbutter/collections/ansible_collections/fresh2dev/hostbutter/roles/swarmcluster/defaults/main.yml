@@ -1,0 +1,161 @@
+---
+### fresh2dev.hostbutter
+domain: ""
+create_local_contexts: true
+docker_swarm_networks:
+  - proxy-net
+  - metrics-net
+  - ldap-net
+docker_swarm_interface: "{{ ansible_default_ipv4['interface'] }}"
+docker_swarm_listen_on_interface: true
+docker_swarm_ip: "{{ docker_swarm_interface if docker_swarm_listen_on_interface else hostvars[inventory_hostname]['ansible_' + docker_swarm_interface]['ipv4']['address'] }}"
+docker_swarm_port: 2377
+
+apt_packages:
+  - software-properties-common
+  - dnsutils
+  - aptitude
+  - curl
+  - wget
+  - htop
+  - vim
+  - systemd-timesyncd
+
+# path to 'pem' or 'crt' CA cert.
+root_ca_cert: ""
+image_registry_subdomain: "registry"
+
+### dnsmasq
+dnsmasq_dns_servers: ["9.9.9.9"]
+dnsmasq_wildcard_addresses: {}
+dnsmasq_host_records: {}
+dnsmasq_conf:
+  - |
+    port=53
+    bind-dynamic
+    no-hosts
+    no-resolv
+    domain-needed
+    bogus-priv
+    strict-order
+    stop-dns-rebind
+    {% for value in dnsmasq_dns_servers | default([]) %}
+    server={{ value }}
+    {% endfor %}
+    {% for key, value in dnsmasq_wildcard_addresses.items() %}
+    rebind-domain-ok=/{{ key }}/
+    address=/{{ key }}/{{ value }}
+    {% endfor %}
+    {% for key, value in dnsmasq_host_records.items() %}
+    host-record={{ key }},{{ value }}
+    {% endfor %}
+dnsmasq_extra_conf: []
+systemd_bypass_dnsmasq: false
+
+### geerlingguy.firewall
+firewall_state: started
+firewall_enabled_at_boot: true
+firewall_flush_rules_and_chains: false
+firewall_allowed_tcp_ports: ["{{ ansible_port }}"]
+firewall_allowed_udp_ports: []
+firewall_forwarded_tcp_ports: []
+firewall_forwarded_udp_ports: []
+firewall_enable_ipv6: false
+firewall_disable_ufw: true
+firewall_log_dropped_packets: true
+firewall_rules:
+  - iptables -A INPUT -i docker_gwbridge -p tcp --dport 53 -j ACCEPT
+  - iptables -A INPUT -i docker_gwbridge -p udp --dport 53 -j ACCEPT
+  - iptables -A INPUT -i docker_gwbridge -p udp --dport 5355 -j ACCEPT
+  - iptables -A INPUT -i docker_gwbridge -p tcp --dport 7946 -j ACCEPT
+  - iptables -A INPUT -i docker_gwbridge -p udp --dport 7946 -j ACCEPT
+  - iptables -A INPUT -i docker_gwbridge -p udp --dport 4789 -j ACCEPT
+  - iptables -A INPUT -i docker_gwbridge -p tcp --dport 9323 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p udp --dport 5355 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p tcp --dport 7946 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p udp --dport 7946 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p udp --dport 4789 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p tcp --dport 9323 -j ACCEPT
+firewall_rules_manager:
+  # swarm; manager node communication.
+  - iptables -A INPUT -i docker_gwbridge -p tcp --dport 2377 -j ACCEPT
+  - iptables -A INPUT -i docker_gwbridge -p udp --dport 2377 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p tcp --dport 2377 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p udp --dport 2377 -j ACCEPT
+firewall_rules_nfs:
+  # nfs port on nfs server(s)
+  - iptables -A INPUT -i docker_gwbridge -p tcp --dport 2049 -j ACCEPT
+  - iptables -A INPUT -i {{ docker_swarm_interface }} -p tcp --dport 2049 -j ACCEPT
+firewall_rules_proxy:
+  # http(s)
+  - iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+  - iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+firewall_rules_dns:
+  # dns+dns-over-tls
+  - iptables -A INPUT -i docker0 -p tcp --dport 53 -j ACCEPT
+  - iptables -A INPUT -i docker0 -p udp --dport 53 -j ACCEPT
+  - iptables -A INPUT -i docker0 -p tcp --dport 853 -j ACCEPT
+firewall_additional_rules: []
+
+### geerlingguy.nfs
+nfs_exports: []
+
+### stuvusit.systemd-timesyncd
+timesync_timezone: "Etc/UTC"
+timesync_ntp_hosts:
+  - 0.pool.ntp.org
+  - 1.pool.ntp.org
+  - 2.pool.ntp.org
+  - 3.pool.ntp.org
+timesync_fallback_ntp_hosts: []
+timesync_write_hwclock_on_change: false
+
+### geerlingguy.docker
+docker_edition: 'ce'
+docker_packages:
+  - "docker-{{ docker_edition }}"
+  - "docker-{{ docker_edition }}-cli"
+  - "docker-{{ docker_edition }}-rootless-extras"
+  - "containerd.io"
+docker_packages_state: present
+
+# Service options.
+docker_service_manage: true
+docker_service_state: started
+docker_service_enabled: true
+docker_restart_handler_state: restarted
+
+# Docker Compose Plugin options.
+docker_install_compose_plugin: false
+
+# Docker Compose options.
+docker_install_compose: false
+
+# Docker repo URL.
+docker_repo_url: https://download.docker.com/linux
+
+# Used only for Debian/Ubuntu. Switch 'stable' to 'nightly' if needed.
+docker_apt_release_channel: stable
+docker_apt_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+docker_apt_repository: "deb [arch={{ docker_apt_arch }}] {{ docker_repo_url }}/{{ ansible_distribution | lower }} {{ ansible_distribution_release }} {{ docker_apt_release_channel }}"
+docker_apt_ignore_key_error: true
+docker_apt_gpg_key: "{{ docker_repo_url }}/{{ ansible_distribution | lower }}/gpg"
+
+# A list of users who will be added to the docker group.
+docker_users: []
+
+# Docker daemon options as a dict
+docker_daemon_options:
+  dns: []
+  default-address-pools:
+    - base: "10.10.0.0/16"
+      size: 24
+  log-driver: "json-file"
+  log-opts:
+    max-size: "10m"
+    max-file: "5"
+  metrics-addr: '0.0.0.0:9323'
+  experimental: true
+
+### fail2ban
+fail2ban_install: false

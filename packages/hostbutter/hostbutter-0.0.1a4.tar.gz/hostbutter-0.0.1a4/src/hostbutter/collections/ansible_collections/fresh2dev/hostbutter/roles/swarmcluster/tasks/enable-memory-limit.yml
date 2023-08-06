@@ -1,0 +1,35 @@
+---
+# intended to resolve this issue on pi:
+# https://github.com/me-box/databox/issues/303#issue-384680304
+- set_fact:
+    cgroup_opts:
+      - 'cgroup_enable=memory'
+      - 'cgroup_memory=1'
+      - 'swapaccount=1'
+
+- name: check if cmdline.txt exists
+  stat:
+    path: /boot/cmdline.txt
+  register: bootopts
+
+- name: check for cgroup params in cmdline.txt
+  lineinfile:
+    path: /boot/cmdline.txt
+    regexp: '.*{{ item }}.*'
+    state: absent
+  check_mode: true
+  changed_when: false
+  when: bootopts.stat.exists
+  register: lineexists
+  loop: '{{ cgroup_opts }}'
+
+- name: set cgroup params in cmdline.txt
+  lineinfile:
+    path: /boot/cmdline.txt
+    backrefs: true
+    regexp: '^(.+)'
+    line: '\1 {{ item.item }}'
+  when: bootopts.stat.exists and not item.found|bool
+  register: result
+  loop: '{{ lineexists.results }}'
+  notify: reboot

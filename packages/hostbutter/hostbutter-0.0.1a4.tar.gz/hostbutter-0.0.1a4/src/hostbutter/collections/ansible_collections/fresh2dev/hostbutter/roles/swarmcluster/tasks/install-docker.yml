@@ -1,0 +1,28 @@
+---
+- name: install docker
+  include_role:
+    name: geerlingguy.docker
+  #when: ansible_architecture == 'armv7l'
+#- name: install docker - x86
+#  include_role:
+#    name: geerlingguy.docker
+#  when: ansible_architecture == 'x86_64'
+
+- name: Ensure /etc/docker/ directory exists.
+  file:
+    path: /etc/docker
+    state: directory
+    mode: 0755
+  when: docker_daemon_options.keys() | length > 0
+
+- name: Configure Docker daemon options.
+  copy:
+    content: "{{ docker_daemon_options | to_nice_json }}"
+    dest: /etc/docker/daemon.json
+    mode: 0644
+  when: docker_daemon_options.keys() | length > 0
+  notify: restart docker
+
+- name: enable memory limit
+  include_tasks: enable-memory-limit.yml
+  when: ansible_architecture == 'armv7l'

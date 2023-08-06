@@ -1,0 +1,61 @@
+---
+- name: reboot
+  reboot:
+    test_command: "docker ps >/dev/null"
+    post_reboot_delay: 10
+    reboot_timeout: 600
+  listen: "reboot"
+
+- name: restart dhcpcd
+  service:
+    name: dhcpcd
+    state: restarted
+  tags: ['dns']
+
+- name: restart NetworkManager
+  service:
+    name: NetworkManager
+    state: restarted
+  tags: ['dns']
+
+- name: restart dns
+  service:
+    name: systemd-resolved
+    state: restarted
+  tags: ['dns']
+
+- name: reset iptables when rules change.
+  include_tasks: reset-iptables.yml
+  vars:
+    iptables: "{{ item }}"
+  loop: ["iptables", "ip6tables"]
+  listen: "reset iptables"
+  tags: ['firewall']
+
+- name: Restart docker to reapply iptables chains
+  service:
+    name: docker
+    state: restarted
+  when: ansible_facts.services["docker.service"] is defined
+  listen: "reset iptables"
+  tags: ['firewall']
+
+- name: Restart fail2ban to reapply iptables chains
+  service:
+    name: fail2ban
+    state: restarted
+  when: ansible_facts.services["fail2ban.service"] is defined
+  listen: "reset iptables"
+  tags: ['firewall']
+
+- name: restart firewall
+  service:
+    name: firewall
+    state: restarted
+  listen: "reset iptables"
+  tags: ['firewall']
+
+- name: restart fail2ban
+  service:
+    name: fail2ban
+    state: restarted

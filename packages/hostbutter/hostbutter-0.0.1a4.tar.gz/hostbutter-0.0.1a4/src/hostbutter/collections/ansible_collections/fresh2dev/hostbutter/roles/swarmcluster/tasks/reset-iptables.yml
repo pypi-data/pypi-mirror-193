@@ -1,0 +1,26 @@
+---
+
+- set_fact:
+    iptables: "iptables"
+  when: "iptables is not defined"
+
+- name: reset iptables
+  command: "{{ iptables }} -P INPUT ACCEPT"
+
+- name: reset iptables
+  command: "{{ iptables }} -P FORWARD ACCEPT"
+
+- name: reset iptables
+  command: "{{ iptables }} -P OUTPUT ACCEPT"
+
+- name: reset iptables
+  command: "{{ iptables }} -t nat -F"
+
+- name: reset iptables
+  command: "{{ iptables }} -t mangle -F"
+
+- name: reset iptables
+  command: "{{ iptables }} -F"
+
+- name: reset iptables
+  command: "{{ iptables }} -X"
