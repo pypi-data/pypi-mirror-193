@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "webloader"
+version = "0.1.0"
+description = "Python project fetching a webpage"
+authors = ["Shubham Raj <shubhamraj2202@gmail.com>"]
+license = "LICENSE"
+readme = "README.md"
+keywords = ["webloader"]
+include = ["fetch.py", "webloader*"]
+exclude = ["tests*"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bs4 = "*"
+pydantic = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+isort = "*"
+pre-commit = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^6.0.0"
+pytest-cov = "*"
+codecov = "*"
+
+[tool.poetry.scripts]
+fetch = "fetch:run"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
