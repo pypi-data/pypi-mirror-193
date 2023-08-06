@@ -1,0 +1,6 @@
+setup.py
+EduardoFerramentas.egg-info/PKG-INFO
+EduardoFerramentas.egg-info/SOURCES.txt
+EduardoFerramentas.egg-info/dependency_links.txt
+EduardoFerramentas.egg-info/requires.txt
+EduardoFerramentas.egg-info/top_level.txt

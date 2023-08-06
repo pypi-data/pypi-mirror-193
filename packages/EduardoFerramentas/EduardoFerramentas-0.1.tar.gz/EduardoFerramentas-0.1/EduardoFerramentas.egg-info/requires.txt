@@ -1,0 +1,7 @@
+numpy
+matplotlib
+wikipedia
+pyttsx3
+datetime
+pywhatkit
+tkinter
