@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+rtdicomtools/__init__.py
+rtdicomtools/dcmMLC.py
+rtdicomtools/dcmStructureSet.py
+rtdicomtools/npViewer3D.py
+rtdicomtools.egg-info/PKG-INFO
+rtdicomtools.egg-info/SOURCES.txt
+rtdicomtools.egg-info/dependency_links.txt
+rtdicomtools.egg-info/requires.txt
+rtdicomtools.egg-info/top_level.txt
