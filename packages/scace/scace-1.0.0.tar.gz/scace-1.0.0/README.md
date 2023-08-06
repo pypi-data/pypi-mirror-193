@@ -1,0 +1,62 @@
+# scAce: an adaptive embedding and clustering method
+
+## Overview
+
+重写
+
+## Installation
+
+You can install `scAce` from pypi with:
+
+```
+pip install scace
+```
+Or clone this repository and using
+
+```
+pip install -e .
+```
+in the root of this repository.
+## Usage
+
+Load the data to be analyzed:
+
+```
+import scanpy as sc
+
+adata = sc.AnnData(data)
+```
+
+Perform data pre-processing:
+
+```
+# Basic filtering
+sc.pp.filter_genes(adata, min_cells=3)
+sc.pp.filter_cells(adata, min_genes=200)
+
+adata.raw = adata.copy()
+
+# Total-count normlize, logarithmize and scale the data  
+sc.pp.normalize_per_cell(adata)
+adata.obs['scale_factor'] = adata.obs.n_counts / np.median(adata.obs.n_counts)
+
+sc.pp.log1p(adata)
+sc.pp.scale(adata)
+```
+
+Run scAce algorithm:
+
+```
+from scace import run_scace
+adata = run_scace(adata)
+```
+
+The output adata contains cluster labels in `adata.obs['scace_cluster']` and the resulting embedding in `adata.obsm['scace_emb']`, this embedding can be used as input of other downstream task.
+
+To see an example, please refer to `tutorial.ipynb`.
+
+## Reproduce results
+
+See folder `reproducibility`.
+
+Follow `README.md` in `data` and `pkgs` to prepare data and packages.
