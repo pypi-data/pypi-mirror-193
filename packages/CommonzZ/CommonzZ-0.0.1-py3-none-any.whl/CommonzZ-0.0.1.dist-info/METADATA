@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: CommonzZ
+Version: 0.0.1
+Requires-Dist: loguru (>=0.6.0)
+Requires-Dist: pycryptodome (>=3.17)
+Requires-Dist: PyYAML (>=6.0)
+
