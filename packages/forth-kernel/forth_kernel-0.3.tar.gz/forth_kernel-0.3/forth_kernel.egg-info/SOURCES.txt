@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+forth_kernel.py
+setup.py
+forth_kernel.egg-info/PKG-INFO
+forth_kernel.egg-info/SOURCES.txt
+forth_kernel.egg-info/dependency_links.txt
+forth_kernel.egg-info/requires.txt
+forth_kernel.egg-info/top_level.txt
+kernelspec/kernel.json

@@ -1,0 +1,3 @@
+pexpect>=3.3
+jupyter_client
+ipykernel
