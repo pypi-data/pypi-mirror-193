@@ -1,0 +1,13 @@
+pyPilot/__init__.py,sha256=eiL0Uvav-3xI9Gdq8Gsh32UkPr7giegOV3-2FJHg9bk,76
+pyPilot/coordinate.py,sha256=I16_hct2Usl-iQRY943Aq5MKUp8CLzB05L4MYRSNOXA,29318
+pyPilot/earth.py,sha256=EHgxcErRHDxHmQ8_m6iveBEffZy3E3nammi0bXepoEY,12014
+pyPilot/inputs.py,sha256=iqg18ZOYM6qS4ZJELBZnK4AihmNZ9DzekJm3IXNATNc,1827
+pyPilot/pilotUtils.py,sha256=ZHbF6c_Vr2Ig0ut2tSoTTvr2Ntq-CwUPEpvf4nBBy4I,1943
+pyPilot/pose.py,sha256=cGGoRTVUJeVhQDnG3Yxq84JILFi470zAw0x0XCfPOvA,22739
+pyPilot/rotation.py,sha256=M8z2pJalNzWwBLBhyt_QDwhRkWDh24eLZDa7Z9JK-Xs,22942
+pyPilot/wgs84.py,sha256=TH2bcUuCdevNNcB9CxjRID5Bi11Ets7oXWFnbpwUBxw,2237
+pyPilot-0.2.1.dist-info/LICENSE,sha256=T1N55tm3-GgOgWHf-mkRqECQ1l-xrXcZiUUnBCU_QoU,1081
+pyPilot-0.2.1.dist-info/METADATA,sha256=_KADEUBlSo7ZkZa1CXsTp-rbt_Hzzk3bfqGTQk4uDd0,3565
+pyPilot-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyPilot-0.2.1.dist-info/top_level.txt,sha256=kUR_FNpT-QFWAP-O-QqLRAgoMQU5fmsnZgA0t0xTuTg,8
+pyPilot-0.2.1.dist-info/RECORD,,
