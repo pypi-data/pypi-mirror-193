@@ -1,0 +1,7 @@
+from Beta_Demo_AutoEIS import *
+
+
+__version__ = "0.0.4"
+__description__ = "A program for fully automated EIS analysis based on ECMs"
+__author__ = "Runze Zhang, Robert Black, Parisa Karimi, Jason Hattrick-Simpers"
+__contact_information = "runzee.zhang@mail.utoronto.ca"
