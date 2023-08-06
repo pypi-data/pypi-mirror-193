@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+area-calculator-Kraetzi/src/area_calculator_Kraetzi.py
+area-calculator-Kraetzi/src/area_calculator_Kraetzi.egg-info/PKG-INFO
+area-calculator-Kraetzi/src/area_calculator_Kraetzi.egg-info/SOURCES.txt
+area-calculator-Kraetzi/src/area_calculator_Kraetzi.egg-info/dependency_links.txt
+area-calculator-Kraetzi/src/area_calculator_Kraetzi.egg-info/top_level.txt
