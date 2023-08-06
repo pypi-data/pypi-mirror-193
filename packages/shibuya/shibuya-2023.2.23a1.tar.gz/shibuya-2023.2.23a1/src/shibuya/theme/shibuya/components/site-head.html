@@ -1,0 +1,52 @@
+{%- macro render_logo(src, classname) -%}
+  {% if src and src.startswith(('https://', 'http://')) %}
+    <img class="{{ classname }}" src="{{ src }}" alt="{{ project }}" />
+  {% elif src %}
+    <img class="{{ classname }}" src="{{ pathto(src, 1) }}" alt="{{ project }}" />
+  {% elif logo_url %}
+    <img class="{{ classname }}" src="{{ logo_url }}" alt="{{ project }}" />
+  {% endif %}
+{%- endmacro %}
+
+<div class="sy-head">
+  <div class="sy-head-blur"></div>
+  <div class="sy-head-inner sy-container mx-auto">
+    <div class="md:hidden flex items-center">
+      <button class="hamburger js-menu mr-3" aria-label="Menu" type="button" aria-controls="m-navbar" aria-expanded="false">
+        <span class="hamburger_1"></span>
+        <span class="hamburger_2 -translate-x-2"></span>
+        <span class="hamburger_3 -translate-x-1"></span>
+      </button>
+    </div>
+    <div class="sy-head-brand flex items-center justify-center">
+      <a href="{% if theme_logo_target %}{{ theme_logo_target }}{% else %}{{ pathto(root_doc) }}{% endif %}">
+        {{ render_logo(theme_light_logo, 'light-logo') }}
+        {{ render_logo(theme_dark_logo, 'dark-logo') }}
+        <strong>{{ project }}</strong>
+      </a>
+      {%- if current_version %}
+        <div class="rst-versions">
+          <label for="__versions">
+            <span>{{ current_version }}</span>
+            <i class="i-icon chevron"></i>
+          </label>
+          <input class="hidden" id="__versions" type="checkbox">
+          <div class="rst-other-versions"></div>
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="sy-head-actions flex gap-2 items-center print:hidden">
+      <nav class="sy-head-nav hidden md:block">
+        {%- include "components/nav-links.html" %}
+      </nav>
+      <div class="hidden md:block">
+        {%- include "components/searchbox.html" %}
+      </div>
+      {% if display_toc and toc %}
+        <label class="xl:hidden flex items-center cursor-pointer text-xl" for="__rside" aria-label="Table of Contents">
+          <i class="i-icon outdent"></i>
+        </label>
+      {%- endif %}
+    </div>
+  </div>
+</div>
