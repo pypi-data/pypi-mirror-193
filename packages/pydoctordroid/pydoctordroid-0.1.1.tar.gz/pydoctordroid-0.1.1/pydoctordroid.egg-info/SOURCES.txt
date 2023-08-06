@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+pydoctordroid/__init__.py
+pydoctordroid/_event_exporter.py
+pydoctordroid/_events.py
+pydoctordroid/_logger.py
+pydoctordroid/_value.py
+pydoctordroid/lib.py
+pydoctordroid.egg-info/PKG-INFO
+pydoctordroid.egg-info/SOURCES.txt
+pydoctordroid.egg-info/dependency_links.txt
+pydoctordroid.egg-info/requires.txt
+pydoctordroid.egg-info/top_level.txt
