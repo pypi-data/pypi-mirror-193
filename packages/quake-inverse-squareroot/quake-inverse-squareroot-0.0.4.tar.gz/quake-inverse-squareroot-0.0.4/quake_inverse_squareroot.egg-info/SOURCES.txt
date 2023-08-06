@@ -1,0 +1,9 @@
+README.md
+setup.py
+quake_inverse_sq/__init__.py
+quake_inverse_sq/_sqrt.c
+quake_inverse_sq/_sqrt.py
+quake_inverse_squareroot.egg-info/PKG-INFO
+quake_inverse_squareroot.egg-info/SOURCES.txt
+quake_inverse_squareroot.egg-info/dependency_links.txt
+quake_inverse_squareroot.egg-info/top_level.txt
