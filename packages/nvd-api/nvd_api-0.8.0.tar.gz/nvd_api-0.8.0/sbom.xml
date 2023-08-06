@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1" serialNumber="urn:uuid:efa87a4e-84c4-47b7-90da-384bf052d96f"><metadata><timestamp>2023-02-21T12:24:37.892428+00:00</timestamp><tools><tool><vendor>CycloneDX</vendor><name>cyclonedx-bom</name><version>3.11.0</version></tool><tool><vendor>CycloneDX</vendor><name>cyclonedx-python-lib</name><version>3.1.0</version><externalReferences><reference type="build-system"><url>https://github.com/CycloneDX/cyclonedx-python-lib/actions</url></reference><reference type="distribution"><url>https://pypi.org/project/cyclonedx-python-lib/</url></reference><reference type="documentation"><url>https://cyclonedx.github.io/cyclonedx-python-lib/</url></reference><reference type="issue-tracker"><url>https://github.com/CycloneDX/cyclonedx-python-lib/issues</url></reference><reference type="license"><url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE</url></reference><reference type="release-notes"><url>https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md</url></reference><reference type="vcs"><url>https://github.com/CycloneDX/cyclonedx-python-lib</url></reference><reference type="website"><url>https://cyclonedx.org</url></reference></externalReferences></tool></tools></metadata><components><component type="library" bom-ref="0f00b318-64a8-4050-a0df-7684ed5ccc83"><author>Armin Ronacher</author><name>Babel</name><version>2.11.0</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/babel@2.11.0</purl></component><component type="library" bom-ref="9a815009-e6f2-42fb-bea8-5089003a339b"><author>Armin Ronacher</author><name>Jinja2</name><version>3.1.2</version><licenses><license><name>BSD License</name></license><license><name>BSD-3-Clause</name></license></licenses><purl>pkg:pypi/jinja2@3.1.2</purl></component><component type="library" bom-ref="a1acd631-8580-452a-b7a8-6d1e55f977bd"><author>Manfred Stienstra, Yuri takhteyev and Waylan limberg</author><name>Markdown</name><version>3.4.1</version><licenses><license><name>BSD License</name></license></licenses><purl>pkg:pypi/markdown@3.4.1</purl></component><component type="library" bom-ref="9e2ecc19-d157-4fe2-bb5f-292c2cfb4fb1"><author>Armin Ronacher</author><name>MarkupSafe</name><version>2.1.1</version><licenses><license><name>BSD License</name></license><license><name>BSD-3-Clause</name></license></licenses><purl>pkg:pypi/markupsafe@2.1.1</purl></component><component type="library" bom-ref="25709e68-163c-4286-a498-9ad9cacd50cc"><author>Georg Brandl</author><name>Pygments</name><version>2.13.0</version><licenses><license><name>BSD License</name></license></licenses><purl>pkg:pypi/pygments@2.13.0</purl></component><component type="library" bom-ref="45853649-a3de-46f0-9eb6-a4bf00bd89df"><author>Dmitry Shachnev</author><name>SecretStorage</name><version>3.3.3</version><licenses><license><name>BSD 3-Clause License</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/secretstorage@3.3.3</purl></component><component type="library" bom-ref="78499b97-caeb-40fc-bc91-315db5e72f8e"><author>Jeff Forcier</author><name>alabaster</name><version>0.7.12</version><licenses><license><name>BSD License</name></license></licenses><purl>pkg:pypi/alabaster@0.7.12</purl></component><component type="library" bom-ref="8bc65c85-dd44-4d9e-8ead-4681a3367edc"><author>Dmitry Sagalovskiy, Grist Labs</author><name>asttokens</name><version>2.2.1</version><licenses><license><name>Apache 2.0</name></license></licenses><purl>pkg:pypi/asttokens@2.2.1</purl></component><component type="library" bom-ref="50b747d1-d962-4f6f-b4f3-073607f81499"><author>Hynek Schlawack</author><name>attrs</name><version>22.1.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/attrs@22.1.0</purl></component><component type="library" bom-ref="1c7d95b3-f3dd-453a-aa5e-4006b7b89c1f"><author>Hideo Hattori</author><name>autopep8</name><version>1.6.0</version><licenses><license><name>Expat License</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/autopep8@1.6.0</purl></component><component type="library" bom-ref="26c73d49-4c3c-41fc-93c1-1162e89c13c5"><author>Thomas Kluyver</author><name>backcall</name><version>0.2.0</version><licenses><license><name>BSD License</name></license></licenses><purl>pkg:pypi/backcall@0.2.0</purl></component><component type="library" bom-ref="bcbfe6fb-1521-49ea-88fc-c1f88bf76743"><name>bleach</name><version>5.0.1</version><licenses><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/bleach@5.0.1</purl></component><component type="library" bom-ref="d4f3e3aa-0403-405a-9e07-112d0d878bf9"><author>Kenneth Reitz</author><name>certifi</name><version>2022.12.7</version><licenses><license><name>MPL-2.0</name></license><license><name>Mozilla Public License 2.0 (MPL 2.0)</name></license></licenses><purl>pkg:pypi/certifi@2022.12.7</purl></component><component type="library" bom-ref="e22c3d30-637a-4d1f-8244-e7215de9a136"><author>Armin Rigo, Maciej Fijalkowski</author><name>cffi</name><version>1.15.1</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/cffi@1.15.1</purl></component><component type="library" bom-ref="c5e38418-4673-4168-8daf-d6dba38d174f"><author>Ahmed TAHRI @Ousret</author><name>charset-normalizer</name><version>2.1.1</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/charset-normalizer@2.1.1</purl></component><component type="library" bom-ref="61934051-b1b0-49f5-ac59-32c7110e52d5"><author>Jupyter contributors</author><name>comm</name><version>0.1.2</version><licenses><license><name>BSD 3-Clause License
+
+Copyright (c) 2022, Jupyter
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/comm@0.1.2</purl></component><component type="library" bom-ref="417f89cd-bcc4-45d0-a521-cf23f833b7ad"><author>Bibek Kafle &lt;bkafle662@gmail.com&gt;, Roland Shoemaker &lt;rolandshoemaker@gmail.com&gt;</author><name>commonmark</name><version>0.9.1</version><licenses><license><name>BSD License</name></license><license><name>BSD-3-Clause</name></license></licenses><purl>pkg:pypi/commonmark@0.9.1</purl></component><component type="library" bom-ref="01af77e7-e42d-4a75-942c-443ea164521a"><author>Ned Batchelder and 161 others</author><name>coverage</name><version>6.5.0</version><licenses><license><name>Apache 2.0</name></license><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/coverage@6.5.0</purl></component><component type="library" bom-ref="39015652-db9b-46ac-ba4d-bff9d75f4482"><author>The Python Cryptographic Authority and individual contributors</author><name>cryptography</name><version>39.0.1</version><licenses><license><name>(Apache-2.0 OR BSD-3-Clause) AND PSF-2.0</name></license><license><name>Apache Software License</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/cryptography@39.0.1</purl></component><component type="library" bom-ref="7dba72b5-c996-4f7a-9c75-d79af94e6dd5"><author>Steven Springett</author><name>cyclonedx-bom</name><version>3.11.0</version><licenses><license><name>Apache Software License</name></license><license><name>Apache-2.0</name></license></licenses><purl>pkg:pypi/cyclonedx-bom@3.11.0</purl></component><component type="library" bom-ref="e235fc4c-593a-47f1-840b-9c6933986d4e"><author>Paul Horton</author><name>cyclonedx-python-lib</name><version>3.1.0</version><licenses><license><name>Apache Software License</name></license><license><name>Apache-2.0</name></license></licenses><purl>pkg:pypi/cyclonedx-python-lib@3.1.0</purl></component><component type="library" bom-ref="ef817f1f-607d-42d4-8833-2d1b54e8451d"><author>Microsoft Corporation</author><name>debugpy</name><version>1.6.6</version><licenses><license><name>Eclipse Public License 2.0 (EPL-2.0)</name></license><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/debugpy@1.6.6</purl></component><component type="library" bom-ref="7ef909a4-2c9a-4c55-bfb1-16cd02bce769"><author>Michele Simionato</author><name>decorator</name><version>5.1.1</version><licenses><license><name>BSD License</name></license><license><name>new BSD License</name></license></licenses><purl>pkg:pypi/decorator@5.1.1</purl></component><component type="library" bom-ref="5f99317c-e67c-4778-8029-3279d1268955"><author>David Goodger</author><name>docutils</name><version>0.18.1</version><licenses><license><name>BSD License</name></license><license><name>GNU General Public License (GPL)</name></license><license><name>Public Domain</name></license><license><name>Python Software Foundation License</name></license><license><name>public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)</name></license></licenses><purl>pkg:pypi/docutils@0.18.1</purl></component><component type="library" bom-ref="f62d48c8-8877-43cb-9fea-a56391b4445c"><name>exceptiongroup</name><version>1.0.4</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/exceptiongroup@1.0.4</purl></component><component type="library" bom-ref="ff0c707d-6b21-4aec-bdf2-20f265f60428"><author>Alex Hall</author><name>executing</name><version>1.2.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/executing@1.2.0</purl></component><component type="library" bom-ref="41c16f2c-c111-4fc8-8b4e-bb1f5173e12e"><author>Tarek Ziade</author><name>flake8</name><version>4.0.1</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/flake8@4.0.1</purl></component><component type="library" bom-ref="a8bf1629-66fe-4723-9c6e-0767958e9e50"><author>Asato Wakisaka</author><name>flake8-formatter-junit-xml</name><version>0.0.6</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/flake8-formatter-junit-xml@0.0.6</purl></component><component type="library" bom-ref="222f0205-b0d3-494b-aa15-283d8cff677a"><author>Daniel Pope</author><name>flake8-html</name><version>0.4.3</version><licenses><license><name>Apache Software License</name></license><license><name>Apache Software License 2.0</name></license></licenses><purl>pkg:pypi/flake8-html@0.4.3</purl></component><component type="library" bom-ref="d83c07c8-9ce5-4380-a020-873e0079e97b"><author>Marco Sulla</author><name>frozendict</name><version>2.3.5</version><licenses><license><name>GNU Lesser General Public License v3 (LGPLv3)</name></license><license><name>LGPL v3</name></license></licenses><purl>pkg:pypi/frozendict@2.3.5</purl></component><component type="library" bom-ref="78a1beb8-d536-45be-8cc4-f58a673bad13"><name>idna</name><version>3.4</version><licenses><license><name>BSD License</name></license></licenses><purl>pkg:pypi/idna@3.4</purl></component><component type="library" bom-ref="a2011ca8-a52b-42c7-bbab-7dd54bc333e8"><author>Yoshiki Shibukawa</author><name>imagesize</name><version>1.4.1</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/imagesize@1.4.1</purl></component><component type="library" bom-ref="93793ca9-57c2-4342-aa69-a749c77e3f02"><author>Jason R. Coombs</author><name>importlib-metadata</name><version>5.1.0</version><licenses><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/importlib-metadata@5.1.0</purl></component><component type="library" bom-ref="ccf76deb-b421-4cb4-a687-f1ebcc55aede"><name>in-toto</name><version>1.3.1</version><licenses><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/in-toto@1.3.1</purl></component><component type="library" bom-ref="df2eef79-5c51-4295-a5d3-460a1a5fe2d7"><author>Ronny Pfannschmidt, Holger Krekel</author><name>iniconfig</name><version>1.1.1</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/iniconfig@1.1.1</purl></component><component type="library" bom-ref="e56e0ff8-a207-4d11-bcb5-7f6657385c2e"><name>ipykernel</name><version>6.21.2</version><licenses><license><name># Licensing terms
+
+This project is licensed under the terms of the Modified BSD License
+(also known as New or Revised or 3-Clause BSD), as follows:
+
+- Copyright (c) 2015, IPython Development Team
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+Neither the name of the IPython Development Team nor the names of its
+contributors may be used to endorse or promote products derived from this
+software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## About the IPython Development Team
+
+The IPython Development Team is the set of all contributors to the IPython project.
+This includes all of the IPython subprojects.
+
+The core team that coordinates development on GitHub can be found here:
+https://github.com/ipython/.
+
+## Our Copyright Policy
+
+IPython uses a shared copyright model. Each contributor maintains copyright
+over their contributions to IPython. But, it is important to note that these
+contributions are typically only changes to the repositories. Thus, the IPython
+source code, in its entirety is not the copyright of any single person or
+institution. Instead, it is the collective copyright of the entire IPython
+Development Team. If individual contributors want to maintain a record of what
+changes/contributions they have specific copyright on, they should indicate
+their copyright in the commit message of the change, when they commit the
+change to one of the IPython repositories.
+
+With this in mind, the following banner should be used in any source code file
+to indicate the copyright and license terms:
+
+```
+# Copyright (c) IPython Development Team.
+# Distributed under the terms of the Modified BSD License.
+```</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/ipykernel@6.21.2</purl></component><component type="library" bom-ref="2ef5a0b0-00b8-43a2-a8cc-4e476c87243e"><author>The IPython Development Team</author><name>ipython</name><version>8.10.0</version><licenses><license><name>BSD License</name></license><license><name>BSD-3-Clause</name></license></licenses><purl>pkg:pypi/ipython@8.10.0</purl></component><component type="library" bom-ref="326c674e-164d-4a0e-8dc3-5862929c802f"><author>Michael Twomey</author><name>iso8601</name><version>1.1.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/iso8601@1.1.0</purl></component><component type="library" bom-ref="550bbf99-5492-45df-b053-a38e6d45ff38"><author>Jason R. Coombs</author><name>jaraco.classes</name><version>3.2.3</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/jaraco.classes@3.2.3</purl></component><component type="library" bom-ref="6d0a2632-0f48-4c92-bf17-fe50b3e2ce5b"><author>David Halter</author><name>jedi</name><version>0.18.2</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/jedi@0.18.2</purl></component><component type="library" bom-ref="d2fa6c80-078b-41a5-aad2-3253d5340d7a"><author>Thomas Kluyver</author><name>jeepney</name><version>0.8.0</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/jeepney@0.8.0</purl></component><component type="library" bom-ref="3b006d88-bd79-412c-9610-8cbc2cb965e5"><author>Brian Beyer</author><name>junit-xml</name><version>1.9</version><licenses><license><name>Freely Distributable</name></license><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/junit-xml@1.9</purl></component><component type="library" bom-ref="dee20ff9-9993-40fb-93af-10a6dd211ebe"><name>jupyter-client</name><version>8.0.2</version><licenses><license><name># Licensing terms
+
+This project is licensed under the terms of the Modified BSD License
+(also known as New or Revised or 3-Clause BSD), as follows:
+
+- Copyright (c) 2001-2015, IPython Development Team
+- Copyright (c) 2015-, Jupyter Development Team
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+Neither the name of the Jupyter Development Team nor the names of its
+contributors may be used to endorse or promote products derived from this
+software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## About the Jupyter Development Team
+
+The Jupyter Development Team is the set of all contributors to the Jupyter project.
+This includes all of the Jupyter subprojects.
+
+The core team that coordinates development on GitHub can be found here:
+https://github.com/jupyter/.
+
+## Our Copyright Policy
+
+Jupyter uses a shared copyright model. Each contributor maintains copyright
+over their contributions to Jupyter. But, it is important to note that these
+contributions are typically only changes to the repositories. Thus, the Jupyter
+source code, in its entirety is not the copyright of any single person or
+institution. Instead, it is the collective copyright of the entire Jupyter
+Development Team. If individual contributors want to maintain a record of what
+changes/contributions they have specific copyright on, they should indicate
+their copyright in the commit message of the change, when they commit the
+change to one of the Jupyter repositories.
+
+With this in mind, the following banner should be used in any source code file
+to indicate the copyright and license terms:
+
+```
+# Copyright (c) Jupyter Development Team.
+# Distributed under the terms of the Modified BSD License.
+```</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/jupyter-client@8.0.2</purl></component><component type="library" bom-ref="af0ef05f-11a8-46f3-9ee4-6f6d00fb3a16"><name>jupyter-core</name><version>5.2.0</version><licenses><license><name># The Jupyter licensing terms
+
+Jupyter is licensed under the terms of the Modified BSD License (also known as
+New or Revised or 3-Clause BSD), as follows:
+
+- Copyright (c) 2015-, Jupyter Development Team
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+Neither the name of the Jupyter Development Team nor the names of its
+contributors may be used to endorse or promote products derived from this
+software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## About the Jupyter Development Team
+
+The Jupyter Development Team is the set of all contributors to the Jupyter
+project. This includes all of the Jupyter subprojects. A full list with
+details is kept in the documentation directory, in the file
+`about/credits.txt`.
+
+The core team that coordinates development on GitHub can be found here:
+https://github.com/ipython/.
+
+## Our Copyright Policy
+
+Jupyter uses a shared copyright model. Each contributor maintains copyright
+over their contributions to Jupyter. It is important to note that these
+contributions are typically only changes to the repositories. Thus, the Jupyter
+source code in its entirety is not the copyright of any single person or
+institution. Instead, it is the collective copyright of the entire Jupyter
+Development Team. If individual contributors want to maintain a record of what
+changes/contributions they have specific copyright on, they should indicate
+their copyright in the commit message of the change, when they commit the
+change to one of the Jupyter repositories.
+
+With this in mind, the following banner should be used in any source code file
+to indicate the copyright and license terms:
+
+```
+# Copyright (c) Jupyter Development Team.
+# Distributed under the terms of the Modified BSD License.
+```</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/jupyter-core@5.2.0</purl></component><component type="library" bom-ref="b62b214e-53e9-4e17-8a2f-f31eee3f23f4"><author>Kang Zhang</author><name>keyring</name><version>23.13.1</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/keyring@23.13.1</purl></component><component type="library" bom-ref="7eade1c5-5c90-420c-bd4a-cb0e06c04505"><author>IPython Development Team</author><name>matplotlib-inline</name><version>0.1.6</version><licenses><license><name>BSD 3-Clause</name></license></licenses><purl>pkg:pypi/matplotlib-inline@0.1.6</purl></component><component type="library" bom-ref="f3d69af1-0740-4523-9bb5-7a0af43b2a44"><author>Ian Cordasco</author><name>mccabe</name><version>0.6.1</version><licenses><license><name>Expat license</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/mccabe@0.6.1</purl></component><component type="library" bom-ref="59a9179f-de65-48de-86ff-b226de722d97"><name>more-itertools</name><version>9.0.0</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/more-itertools@9.0.0</purl></component><component type="library" bom-ref="05396c60-b6fc-451b-a1a0-6c3f084252c4"><author>Ewald R. de Wit</author><name>nest-asyncio</name><version>1.5.6</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/nest-asyncio@1.5.6</purl></component><component type="library" bom-ref="abab7ffd-af2c-418b-9e37-b2999f18c13b"><author>kannkyo</author><name>nvd-api</name><version>0.8.0</version><purl>pkg:pypi/nvd-api@0.8.0</purl></component><component type="library" bom-ref="b1150334-c8ad-4c7a-a400-3d74cab8fd9c"><author>the purl authors</author><name>packageurl-python</name><version>0.10.4</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/packageurl-python@0.10.4</purl></component><component type="library" bom-ref="c38309d7-57bd-4e8b-869b-9c9ffeb61858"><author>Donald Stufft and individual contributors</author><name>packaging</name><version>21.3</version><licenses><license><name>Apache Software License</name></license><license><name>BSD License</name></license><license><name>BSD-2-Clause or Apache-2.0</name></license></licenses><purl>pkg:pypi/packaging@21.3</purl></component><component type="library" bom-ref="76b7b54e-3965-4289-88f9-00401e82dc8b"><author>David Halter</author><name>parso</name><version>0.8.3</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/parso@0.8.3</purl></component><component type="library" bom-ref="f7e34cdd-cd24-4eef-a970-53006f078efd"><author>Caleb P. Burns</author><name>pathspec</name><version>0.10.2</version><licenses><license><name>MPL 2.0</name></license><license><name>Mozilla Public License 2.0 (MPL 2.0)</name></license></licenses><purl>pkg:pypi/pathspec@0.10.2</purl></component><component type="library" bom-ref="96af8dd3-af77-4b3c-8498-cdd798814d8e"><author>Noah Spurrier; Thomas Kluyver; Jeff Quast</author><name>pexpect</name><version>4.8.0</version><licenses><license><name>ISC License (ISCL)</name></license><license><name>ISC license</name></license></licenses><purl>pkg:pypi/pexpect@4.8.0</purl></component><component type="library" bom-ref="611df43f-51a7-468f-b442-ac5d7d127fc1"><author>Ville Vainio</author><name>pickleshare</name><version>0.7.5</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pickleshare@0.7.5</purl></component><component type="library" bom-ref="e2b7ad12-00b4-4b36-8ed9-99db07c35962"><author>The pip developers</author><name>pip</name><version>23.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pip@23.0</purl></component><component type="library" bom-ref="7c808af2-a304-408f-bb6f-13eb60f626fa"><author>The pip authors, nexB. Inc. and others</author><name>pip-requirements-parser</name><version>32.0.0</version><licenses><license><name>MIT</name></license></licenses><purl>pkg:pypi/pip-requirements-parser@32.0.0</purl></component><component type="library" bom-ref="31f9037e-4317-4b45-850c-ef7478eabdac"><author>Tres Seaver, Agendaless Consulting</author><name>pkginfo</name><version>1.9.5</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pkginfo@1.9.5</purl></component><component type="library" bom-ref="5ac1982c-a6d5-4c8e-83fd-ae2fb8c68ae5"><name>platformdirs</name><version>3.0.0</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/platformdirs@3.0.0</purl></component><component type="library" bom-ref="9465774f-0ce2-4255-9a5b-a8568c39d872"><author>Holger Krekel</author><name>pluggy</name><version>1.0.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pluggy@1.0.0</purl></component><component type="library" bom-ref="c7f7f8a8-f586-4592-a594-95d2705ebd72"><author>Jonathan Slenders</author><name>prompt-toolkit</name><version>3.0.36</version><licenses><license><name>BSD License</name></license></licenses><purl>pkg:pypi/prompt-toolkit@3.0.36</purl></component><component type="library" bom-ref="473b72fb-ff21-4b80-9e35-f68812fc5ce8"><author>Giampaolo Rodola</author><name>psutil</name><version>5.9.4</version><licenses><license><name>BSD License</name></license><license><name>BSD-3-Clause</name></license></licenses><purl>pkg:pypi/psutil@5.9.4</purl></component><component type="library" bom-ref="989e12f9-213e-486f-8c1a-f7dbd97cf0a8"><author>Thomas Kluyver</author><name>ptyprocess</name><version>0.7.0</version><licenses><license><name>ISC License (ISCL)</name></license></licenses><purl>pkg:pypi/ptyprocess@0.7.0</purl></component><component type="library" bom-ref="0bf64c09-5bc3-4e4a-a5f8-a01ca527ae24"><author>Alex Hall</author><name>pure-eval</name><version>0.2.2</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pure-eval@0.2.2</purl></component><component type="library" bom-ref="8ad94d98-36e0-452f-b7da-070c133f12bf"><author>holger krekel, Ronny Pfannschmidt, Benjamin Peterson and others</author><name>py</name><version>1.11.0</version><licenses><license><name>MIT License</name></license><license><name>MIT license</name></license></licenses><purl>pkg:pypi/py@1.11.0</purl></component><component type="library" bom-ref="5898c4bc-d90f-4d7f-ad0e-dd5640a161ee"><author>Johann C. Rocholl</author><name>pycodestyle</name><version>2.8.0</version><licenses><license><name>Expat license</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pycodestyle@2.8.0</purl></component><component type="library" bom-ref="a77bc97f-0292-4689-a89a-5385b16d1f63"><author>Eli Bendersky</author><name>pycparser</name><version>2.21</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/pycparser@2.21</purl></component><component type="library" bom-ref="ec55390b-65f2-4cfe-9def-be44aa48b0f3"><author>A lot of people</author><name>pyflakes</name><version>2.4.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pyflakes@2.4.0</purl></component><component type="library" bom-ref="7d738b4d-311d-4c24-bcbe-e690291f0afc"><name>pyparsing</name><version>3.0.9</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pyparsing@3.0.9</purl></component><component type="library" bom-ref="1388fbcd-c4ee-4997-acdf-bbcffb4a5489"><author>Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others</author><name>pytest</name><version>7.2.1</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pytest@7.2.1</purl></component><component type="library" bom-ref="d1f9ce81-689f-4c1a-b65b-c543a505d89a"><author>Marc Schlaich</author><name>pytest-cov</name><version>4.0.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pytest-cov@4.0.0</purl></component><component type="library" bom-ref="23a102c3-251d-488e-b86c-fb85eceedf4c"><author>Dave Hunt</author><name>pytest-html</name><version>3.2.0</version><licenses><license><name>Mozilla Public License 2.0 (MPL 2.0)</name></license></licenses><purl>pkg:pypi/pytest-html@3.2.0</purl></component><component type="library" bom-ref="daa0b26c-f756-43db-84c7-819f9704cd81"><author>Dave Hunt</author><name>pytest-metadata</name><version>2.0.4</version><licenses><license><name>MPL-2.0</name></license><license><name>OSI Approved</name></license></licenses><purl>pkg:pypi/pytest-metadata@2.0.4</purl></component><component type="library" bom-ref="0d10c1d4-fef2-47ea-a9c1-d189f8f9669c"><author>Adam Johnson</author><name>pytest-randomly</name><version>3.12.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pytest-randomly@3.12.0</purl></component><component type="library" bom-ref="0e1e3b85-b76f-4462-b1e9-4b9e97f984e6"><author>Gustavo Niemeyer</author><name>python-dateutil</name><version>2.8.2</version><licenses><license><name>Apache Software License</name></license><license><name>BSD License</name></license><license><name>Dual License</name></license></licenses><purl>pkg:pypi/python-dateutil@2.8.2</purl></component><component type="library" bom-ref="d97dd37f-2e1d-43a0-a4ba-c6f46838af6a"><author>Stuart Bishop</author><name>pytz</name><version>2022.6</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/pytz@2022.6</purl></component><component type="library" bom-ref="aac0c666-312a-495d-8daa-32ec62132926"><author>Brian E. Granger, Min Ragan-Kelley</author><name>pyzmq</name><version>25.0.0</version><licenses><license><name>BSD License</name></license><license><name>GNU Library or Lesser General Public License (LGPL)</name></license><license><name>LGPL+BSD</name></license></licenses><purl>pkg:pypi/pyzmq@25.0.0</purl></component><component type="library" bom-ref="b57e597d-15c1-4e07-82ec-05d078a487a2"><author>The Python Packaging Authority</author><name>readme-renderer</name><version>37.3</version><licenses><license><name>Apache License, Version 2.0</name></license><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/readme-renderer@37.3</purl></component><component type="library" bom-ref="bae2e581-66e6-4c21-8abb-44be9bc8b020"><author>UNKNOWN</author><name>recommonmark</name><version>0.7.1</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/recommonmark@0.7.1</purl></component><component type="library" bom-ref="4a171862-80dd-4d81-8b15-f8590fa9ae53"><author>Kenneth Reitz</author><name>requests</name><version>2.28.1</version><licenses><license><name>Apache 2.0</name></license><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/requests@2.28.1</purl></component><component type="library" bom-ref="bd437c92-c4c9-486b-b448-b32e3e7b5135"><author>Ian Cordasco, Cory Benfield</author><name>requests-toolbelt</name><version>0.10.1</version><licenses><license><name>Apache 2.0</name></license><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/requests-toolbelt@0.10.1</purl></component><component type="library" bom-ref="bb7920f3-0062-4a10-bfbe-0d190927dc4c"><author>Ian Stapleton Cordasco</author><name>rfc3986</name><version>2.0.0</version><licenses><license><name>Apache 2.0</name></license><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/rfc3986@2.0.0</purl></component><component type="library" bom-ref="eb2465e3-6a16-4fc7-951d-2cb98db43319"><author>Will McGugan</author><name>rich</name><version>13.0.1</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/rich@13.0.1</purl></component><component type="library" bom-ref="6b3fe229-a034-4650-945c-a30b9d1da893"><author>https://www.updateframework.com</author><name>securesystemslib</name><version>0.25.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/securesystemslib@0.25.0</purl></component><component type="library" bom-ref="e211e824-ac84-4062-a65a-6debb72660c9"><author>Python Packaging Authority</author><name>setuptools</name><version>67.3.3</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/setuptools@67.3.3</purl></component><component type="library" bom-ref="8b368329-4375-47d2-8407-c507182ad29b"><author>Benjamin Peterson</author><name>six</name><version>1.16.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/six@1.16.0</purl></component><component type="library" bom-ref="94ca241f-7953-44c4-916c-04848a0a9bf4"><author>Snowball Developers</author><name>snowballstemmer</name><version>2.2.0</version><licenses><license><name>BSD License</name></license><license><name>BSD-3-Clause</name></license></licenses><purl>pkg:pypi/snowballstemmer@2.2.0</purl></component><component type="library" bom-ref="0678b222-0f21-4502-ab85-55d75350d7ee"><author>Grant Jenks</author><name>sortedcontainers</name><version>2.4.0</version><licenses><license><name>Apache 2.0</name></license><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/sortedcontainers@2.4.0</purl></component><component type="library" bom-ref="0e1ecd36-5461-49a3-a700-16ff260681c7"><name>sphinx</name><version>6.1.3</version><licenses><license><name>BSD License</name></license></licenses><purl>pkg:pypi/sphinx@6.1.3</purl></component><component type="library" bom-ref="99364e69-3253-498d-9709-231657b0164f"><author>Ryan Fox</author><name>sphinx-markdown-tables</name><version>0.0.17</version><licenses><license><name>GNU General Public License v3 (GPLv3)</name></license></licenses><purl>pkg:pypi/sphinx-markdown-tables@0.0.17</purl></component><component type="library" bom-ref="653df055-ecfe-4ace-b0b9-72e18c874566"><author>Dave Snider, Read the Docs, Inc. &amp; contributors</author><name>sphinx-rtd-theme</name><version>1.2.0</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/sphinx-rtd-theme@1.2.0</purl></component><component type="library" bom-ref="2dd5b585-63e9-4233-bab3-3263f6c9577f"><author>Georg Brandl</author><name>sphinxcontrib-applehelp</name><version>1.0.2</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/sphinxcontrib-applehelp@1.0.2</purl></component><component type="library" bom-ref="09f2c73a-c7fb-434b-a3df-a16f8cf923d5"><author>Georg Brandl</author><name>sphinxcontrib-devhelp</name><version>1.0.2</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/sphinxcontrib-devhelp@1.0.2</purl></component><component type="library" bom-ref="97f62ec6-bec0-44bf-8928-5b2ddbb6fd6d"><author>Georg Brandl</author><name>sphinxcontrib-htmlhelp</name><version>2.0.0</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/sphinxcontrib-htmlhelp@2.0.0</purl></component><component type="library" bom-ref="b3638d48-f7e7-4c64-b14b-84e30e8784fe"><author>Adam Turner</author><name>sphinxcontrib-jquery</name><version>2.0.0</version><licenses><license><name>BSD License</name></license><license><name>BSD Zero Clause License</name></license></licenses><purl>pkg:pypi/sphinxcontrib-jquery@2.0.0</purl></component><component type="library" bom-ref="1fae2ab5-c928-4951-b123-9a1d8d3f009d"><author>Georg Brandl</author><name>sphinxcontrib-jsmath</name><version>1.0.1</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/sphinxcontrib-jsmath@1.0.1</purl></component><component type="library" bom-ref="50fd065b-9654-47fe-85d5-6ada5b56fd4a"><author>Georg Brandl</author><name>sphinxcontrib-qthelp</name><version>1.0.3</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/sphinxcontrib-qthelp@1.0.3</purl></component><component type="library" bom-ref="364bc3a1-a122-46f9-adca-aaf5539a9652"><author>Georg Brandl</author><name>sphinxcontrib-serializinghtml</name><version>1.1.5</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/sphinxcontrib-serializinghtml@1.1.5</purl></component><component type="library" bom-ref="c14d8a96-2d99-4cea-800a-18748027c1f6"><author>Alex Hall</author><name>stack-data</name><version>0.6.2</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/stack-data@0.6.2</purl></component><component type="library" bom-ref="c33550c2-859e-4a79-a3ec-c1abff09d476"><author>William Pearson</author><name>toml</name><version>0.10.2</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/toml@0.10.2</purl></component><component type="library" bom-ref="3c561002-13aa-4df5-b180-c5bb177e6acc"><name>tomli</name><version>2.0.1</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/tomli@2.0.1</purl></component><component type="library" bom-ref="812ff0e9-f090-4315-be67-7825dbeedd9a"><author>Facebook</author><name>tornado</name><version>6.2</version><licenses><license><name>Apache Software License</name></license><license><name>http://www.apache.org/licenses/LICENSE-2.0</name></license></licenses><purl>pkg:pypi/tornado@6.2</purl></component><component type="library" bom-ref="fec190f7-affd-4cea-9e20-ca34a6f7052d"><name>traitlets</name><version>5.9.0</version><licenses><license><name># Licensing terms
+
+Traitlets is adapted from enthought.traits, Copyright (c) Enthought, Inc.,
+under the terms of the Modified BSD License.
+
+This project is licensed under the terms of the Modified BSD License
+(also known as New or Revised or 3-Clause BSD), as follows:
+
+- Copyright (c) 2001-, IPython Development Team
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+Redistributions in binary form must reproduce the above copyright notice, this
+list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+Neither the name of the IPython Development Team nor the names of its
+contributors may be used to endorse or promote products derived from this
+software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+## About the IPython Development Team
+
+The IPython Development Team is the set of all contributors to the IPython project.
+This includes all of the IPython subprojects.
+
+The core team that coordinates development on GitHub can be found here:
+https://github.com/jupyter/.
+
+## Our Copyright Policy
+
+IPython uses a shared copyright model. Each contributor maintains copyright
+over their contributions to IPython. But, it is important to note that these
+contributions are typically only changes to the repositories. Thus, the IPython
+source code, in its entirety is not the copyright of any single person or
+institution. Instead, it is the collective copyright of the entire IPython
+Development Team. If individual contributors want to maintain a record of what
+changes/contributions they have specific copyright on, they should indicate
+their copyright in the commit message of the change, when they commit the
+change to one of the IPython repositories.
+
+With this in mind, the following banner should be used in any source code file
+to indicate the copyright and license terms:
+
+```
+# Copyright (c) IPython Development Team.
+# Distributed under the terms of the Modified BSD License.
+```</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/traitlets@5.9.0</purl></component><component type="library" bom-ref="499ea4f0-e723-4580-9610-c1a8ea319da1"><author>Donald Stufft and individual contributors</author><name>twine</name><version>4.0.2</version><licenses><license><name>Apache Software License</name></license></licenses><purl>pkg:pypi/twine@4.0.2</purl></component><component type="library" bom-ref="c9678eed-42a4-4bb1-b7eb-a82554992704"><name>typing-extensions</name><version>4.5.0</version><licenses><license><name>Python Software Foundation License</name></license></licenses><purl>pkg:pypi/typing-extensions@4.5.0</purl></component><component type="library" bom-ref="f0d2696b-779d-4707-a811-b534b8332a88"><author>Andrey Petrov</author><name>urllib3</name><version>1.26.14</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/urllib3@1.26.14</purl></component><component type="library" bom-ref="0617f1ce-a62c-4c05-96a9-5db8aafdb548"><author>Jeff Quast</author><name>wcwidth</name><version>0.2.6</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/wcwidth@0.2.6</purl></component><component type="library" bom-ref="c792316f-4223-4957-bcef-406321ba4e2f"><author>Geoffrey Sneddon</author><name>webencodings</name><version>0.5.1</version><licenses><license><name>BSD</name></license><license><name>BSD License</name></license></licenses><purl>pkg:pypi/webencodings@0.5.1</purl></component><component type="library" bom-ref="4aecdc7e-5c9d-49dd-8099-e0118e902814"><author>Daniel Holth</author><name>wheel</name><version>0.38.4</version><licenses><license><name>MIT</name></license><license><name>MIT License</name></license></licenses><purl>pkg:pypi/wheel@0.38.4</purl></component><component type="library" bom-ref="81530b6f-c609-4773-99f2-f2d710faaa28"><author>Jason R. Coombs</author><name>zipp</name><version>3.11.0</version><licenses><license><name>MIT License</name></license></licenses><purl>pkg:pypi/zipp@3.11.0</purl></component></components><dependencies><dependency ref="0f00b318-64a8-4050-a0df-7684ed5ccc83" /><dependency ref="9a815009-e6f2-42fb-bea8-5089003a339b" /><dependency ref="a1acd631-8580-452a-b7a8-6d1e55f977bd" /><dependency ref="9e2ecc19-d157-4fe2-bb5f-292c2cfb4fb1" /><dependency ref="25709e68-163c-4286-a498-9ad9cacd50cc" /><dependency ref="45853649-a3de-46f0-9eb6-a4bf00bd89df" /><dependency ref="78499b97-caeb-40fc-bc91-315db5e72f8e" /><dependency ref="8bc65c85-dd44-4d9e-8ead-4681a3367edc" /><dependency ref="50b747d1-d962-4f6f-b4f3-073607f81499" /><dependency ref="1c7d95b3-f3dd-453a-aa5e-4006b7b89c1f" /><dependency ref="26c73d49-4c3c-41fc-93c1-1162e89c13c5" /><dependency ref="bcbfe6fb-1521-49ea-88fc-c1f88bf76743" /><dependency ref="d4f3e3aa-0403-405a-9e07-112d0d878bf9" /><dependency ref="e22c3d30-637a-4d1f-8244-e7215de9a136" /><dependency ref="c5e38418-4673-4168-8daf-d6dba38d174f" /><dependency ref="61934051-b1b0-49f5-ac59-32c7110e52d5" /><dependency ref="417f89cd-bcc4-45d0-a521-cf23f833b7ad" /><dependency ref="01af77e7-e42d-4a75-942c-443ea164521a" /><dependency ref="39015652-db9b-46ac-ba4d-bff9d75f4482" /><dependency ref="7dba72b5-c996-4f7a-9c75-d79af94e6dd5" /><dependency ref="e235fc4c-593a-47f1-840b-9c6933986d4e" /><dependency ref="ef817f1f-607d-42d4-8833-2d1b54e8451d" /><dependency ref="7ef909a4-2c9a-4c55-bfb1-16cd02bce769" /><dependency ref="5f99317c-e67c-4778-8029-3279d1268955" /><dependency ref="f62d48c8-8877-43cb-9fea-a56391b4445c" /><dependency ref="ff0c707d-6b21-4aec-bdf2-20f265f60428" /><dependency ref="41c16f2c-c111-4fc8-8b4e-bb1f5173e12e" /><dependency ref="a8bf1629-66fe-4723-9c6e-0767958e9e50" /><dependency ref="222f0205-b0d3-494b-aa15-283d8cff677a" /><dependency ref="d83c07c8-9ce5-4380-a020-873e0079e97b" /><dependency ref="78a1beb8-d536-45be-8cc4-f58a673bad13" /><dependency ref="a2011ca8-a52b-42c7-bbab-7dd54bc333e8" /><dependency ref="93793ca9-57c2-4342-aa69-a749c77e3f02" /><dependency ref="ccf76deb-b421-4cb4-a687-f1ebcc55aede" /><dependency ref="df2eef79-5c51-4295-a5d3-460a1a5fe2d7" /><dependency ref="e56e0ff8-a207-4d11-bcb5-7f6657385c2e" /><dependency ref="2ef5a0b0-00b8-43a2-a8cc-4e476c87243e" /><dependency ref="326c674e-164d-4a0e-8dc3-5862929c802f" /><dependency ref="550bbf99-5492-45df-b053-a38e6d45ff38" /><dependency ref="6d0a2632-0f48-4c92-bf17-fe50b3e2ce5b" /><dependency ref="d2fa6c80-078b-41a5-aad2-3253d5340d7a" /><dependency ref="3b006d88-bd79-412c-9610-8cbc2cb965e5" /><dependency ref="dee20ff9-9993-40fb-93af-10a6dd211ebe" /><dependency ref="af0ef05f-11a8-46f3-9ee4-6f6d00fb3a16" /><dependency ref="b62b214e-53e9-4e17-8a2f-f31eee3f23f4" /><dependency ref="7eade1c5-5c90-420c-bd4a-cb0e06c04505" /><dependency ref="f3d69af1-0740-4523-9bb5-7a0af43b2a44" /><dependency ref="59a9179f-de65-48de-86ff-b226de722d97" /><dependency ref="05396c60-b6fc-451b-a1a0-6c3f084252c4" /><dependency ref="abab7ffd-af2c-418b-9e37-b2999f18c13b" /><dependency ref="b1150334-c8ad-4c7a-a400-3d74cab8fd9c" /><dependency ref="c38309d7-57bd-4e8b-869b-9c9ffeb61858" /><dependency ref="76b7b54e-3965-4289-88f9-00401e82dc8b" /><dependency ref="f7e34cdd-cd24-4eef-a970-53006f078efd" /><dependency ref="96af8dd3-af77-4b3c-8498-cdd798814d8e" /><dependency ref="611df43f-51a7-468f-b442-ac5d7d127fc1" /><dependency ref="e2b7ad12-00b4-4b36-8ed9-99db07c35962" /><dependency ref="7c808af2-a304-408f-bb6f-13eb60f626fa" /><dependency ref="31f9037e-4317-4b45-850c-ef7478eabdac" /><dependency ref="5ac1982c-a6d5-4c8e-83fd-ae2fb8c68ae5" /><dependency ref="9465774f-0ce2-4255-9a5b-a8568c39d872" /><dependency ref="c7f7f8a8-f586-4592-a594-95d2705ebd72" /><dependency ref="473b72fb-ff21-4b80-9e35-f68812fc5ce8" /><dependency ref="989e12f9-213e-486f-8c1a-f7dbd97cf0a8" /><dependency ref="0bf64c09-5bc3-4e4a-a5f8-a01ca527ae24" /><dependency ref="8ad94d98-36e0-452f-b7da-070c133f12bf" /><dependency ref="5898c4bc-d90f-4d7f-ad0e-dd5640a161ee" /><dependency ref="a77bc97f-0292-4689-a89a-5385b16d1f63" /><dependency ref="ec55390b-65f2-4cfe-9def-be44aa48b0f3" /><dependency ref="7d738b4d-311d-4c24-bcbe-e690291f0afc" /><dependency ref="1388fbcd-c4ee-4997-acdf-bbcffb4a5489" /><dependency ref="d1f9ce81-689f-4c1a-b65b-c543a505d89a" /><dependency ref="23a102c3-251d-488e-b86c-fb85eceedf4c" /><dependency ref="daa0b26c-f756-43db-84c7-819f9704cd81" /><dependency ref="0d10c1d4-fef2-47ea-a9c1-d189f8f9669c" /><dependency ref="0e1e3b85-b76f-4462-b1e9-4b9e97f984e6" /><dependency ref="d97dd37f-2e1d-43a0-a4ba-c6f46838af6a" /><dependency ref="aac0c666-312a-495d-8daa-32ec62132926" /><dependency ref="b57e597d-15c1-4e07-82ec-05d078a487a2" /><dependency ref="bae2e581-66e6-4c21-8abb-44be9bc8b020" /><dependency ref="4a171862-80dd-4d81-8b15-f8590fa9ae53" /><dependency ref="bd437c92-c4c9-486b-b448-b32e3e7b5135" /><dependency ref="bb7920f3-0062-4a10-bfbe-0d190927dc4c" /><dependency ref="eb2465e3-6a16-4fc7-951d-2cb98db43319" /><dependency ref="6b3fe229-a034-4650-945c-a30b9d1da893" /><dependency ref="e211e824-ac84-4062-a65a-6debb72660c9" /><dependency ref="8b368329-4375-47d2-8407-c507182ad29b" /><dependency ref="94ca241f-7953-44c4-916c-04848a0a9bf4" /><dependency ref="0678b222-0f21-4502-ab85-55d75350d7ee" /><dependency ref="0e1ecd36-5461-49a3-a700-16ff260681c7" /><dependency ref="99364e69-3253-498d-9709-231657b0164f" /><dependency ref="653df055-ecfe-4ace-b0b9-72e18c874566" /><dependency ref="2dd5b585-63e9-4233-bab3-3263f6c9577f" /><dependency ref="09f2c73a-c7fb-434b-a3df-a16f8cf923d5" /><dependency ref="97f62ec6-bec0-44bf-8928-5b2ddbb6fd6d" /><dependency ref="b3638d48-f7e7-4c64-b14b-84e30e8784fe" /><dependency ref="1fae2ab5-c928-4951-b123-9a1d8d3f009d" /><dependency ref="50fd065b-9654-47fe-85d5-6ada5b56fd4a" /><dependency ref="364bc3a1-a122-46f9-adca-aaf5539a9652" /><dependency ref="c14d8a96-2d99-4cea-800a-18748027c1f6" /><dependency ref="c33550c2-859e-4a79-a3ec-c1abff09d476" /><dependency ref="3c561002-13aa-4df5-b180-c5bb177e6acc" /><dependency ref="812ff0e9-f090-4315-be67-7825dbeedd9a" /><dependency ref="fec190f7-affd-4cea-9e20-ca34a6f7052d" /><dependency ref="499ea4f0-e723-4580-9610-c1a8ea319da1" /><dependency ref="c9678eed-42a4-4bb1-b7eb-a82554992704" /><dependency ref="f0d2696b-779d-4707-a811-b534b8332a88" /><dependency ref="0617f1ce-a62c-4c05-96a9-5db8aafdb548" /><dependency ref="c792316f-4223-4957-bcef-406321ba4e2f" /><dependency ref="4aecdc7e-5c9d-49dd-8099-e0118e902814" /><dependency ref="81530b6f-c609-4773-99f2-f2d710faaa28" /></dependencies></bom>
