@@ -1,0 +1,10 @@
+LICENSE
+README.md
+casting.cpp
+pyproject.toml
+setup.py
+CL/convert.py
+pysidocast.egg-info/PKG-INFO
+pysidocast.egg-info/SOURCES.txt
+pysidocast.egg-info/dependency_links.txt
+pysidocast.egg-info/top_level.txt
