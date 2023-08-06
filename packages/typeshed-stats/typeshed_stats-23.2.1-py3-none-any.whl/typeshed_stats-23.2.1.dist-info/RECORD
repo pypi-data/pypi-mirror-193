@@ -1,0 +1,12 @@
+typeshed_stats/__init__.py,sha256=gaFaMY0SlKm7WImMH-upRKLOLyO5atq4KLQYI_bqhUQ,397
+typeshed_stats/__main__.py,sha256=5Cjugxk2fVU-utNVtDfj5kDkacCgftglJLb0CIQtFg8,271
+typeshed_stats/_cli.py,sha256=brm_nHAYLCZbrKb7lJKqfmfv9axUegUO8Ntxsi0f9XU,10916
+typeshed_stats/_markdown_template.md.jinja,sha256=Z7WsC8L2Ovr7LR6D4jp5uv_KrAGo9ntibbRqLDjQqMI,2831
+typeshed_stats/gather.py,sha256=S4WH2I8zMXcJo-NT4KE-3Ub7hX5Ae0Y5Uy-WvwY9mIM,44887
+typeshed_stats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typeshed_stats/serialize.py,sha256=yuw7py8-8sb5KlFlpv7T2rJLJvqFvXDDlq1ARUHL3tI,7598
+typeshed_stats-23.2.1.dist-info/METADATA,sha256=Tqs7XGz_pEHe-czqCjCTqRMeK-HhRk_gRY3GIuXoB6U,8329
+typeshed_stats-23.2.1.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+typeshed_stats-23.2.1.dist-info/entry_points.txt,sha256=wzOEKjVv36kiGkT1qzSjE_RV0F9pn7MT33KwCoM7Pvo,60
+typeshed_stats-23.2.1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+typeshed_stats-23.2.1.dist-info/RECORD,,
