@@ -1,0 +1,6 @@
+numpy
+precession
+tqdm
+tqdm-pathos
+h5py
+h5ify
