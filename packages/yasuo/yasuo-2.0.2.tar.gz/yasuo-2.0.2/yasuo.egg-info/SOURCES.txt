@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+yasuo/__init__.py
+yasuo.egg-info/PKG-INFO
+yasuo.egg-info/SOURCES.txt
+yasuo.egg-info/dependency_links.txt
+yasuo.egg-info/requires.txt
+yasuo.egg-info/top_level.txt
