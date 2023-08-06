@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+markdown-it-py
+psutil
+pandas
+typer[all]
+starlette-session
+
+[dev]
+mkdocs
+mkdocstrings[python]
+mkdocs-material
+jupytext

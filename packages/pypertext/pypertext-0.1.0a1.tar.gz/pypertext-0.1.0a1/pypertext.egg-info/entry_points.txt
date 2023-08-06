@@ -1,0 +1,2 @@
+[console_scripts]
+pypertext = pypertext.__main__:cli
