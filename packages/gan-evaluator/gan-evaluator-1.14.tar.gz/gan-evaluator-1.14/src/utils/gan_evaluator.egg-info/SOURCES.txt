@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+src/utils/__init__.py
+src/utils/gan_evaluator.py
+src/utils/gan_evaluator.egg-info/PKG-INFO
+src/utils/gan_evaluator.egg-info/SOURCES.txt
+src/utils/gan_evaluator.egg-info/dependency_links.txt
+src/utils/gan_evaluator.egg-info/requires.txt
+src/utils/gan_evaluator.egg-info/top_level.txt
