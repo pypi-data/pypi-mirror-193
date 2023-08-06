@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+aliasify/__init__.py
+aliasify/_entity_replacer.py
+aliasify/main.py
+aliasify.egg-info/PKG-INFO
+aliasify.egg-info/SOURCES.txt
+aliasify.egg-info/dependency_links.txt
+aliasify.egg-info/entry_points.txt
+aliasify.egg-info/requires.txt
+aliasify.egg-info/top_level.txt
