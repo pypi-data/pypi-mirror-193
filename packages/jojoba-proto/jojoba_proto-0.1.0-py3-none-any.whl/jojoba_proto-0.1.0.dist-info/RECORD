@@ -1,0 +1,11 @@
+jojoba_proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jojoba_proto/auth_pb2.py,sha256=T-HkOSdXEuAtHgTs6lrLQr_dGI3a3D9T4lgc8t5nWtY,2794
+jojoba_proto/auth_pb2.pyi,sha256=WIPu4fubmwJbvPKy8dKdAPil-847Op7oVQx4e0Czt1s,2530
+jojoba_proto/auth_pb2_grpc.py,sha256=nNMRHJod_8GtiyB3xB8GANyEpRgjwDcGdJLE15Gxggo,7401
+jojoba_proto/profile_pb2.py,sha256=z2H3tJoaS8ZL7FmiMShRRtniBhLLt3vRA7RDgM70ddM,4181
+jojoba_proto/profile_pb2.pyi,sha256=5Gl4NKaGpMfKO1-9MEY8AFv02uJjk84nBT0CzxU4uBo,4004
+jojoba_proto/profile_pb2_grpc.py,sha256=q9e14jjKXv9HCrETgX4C-zfpS93CJKZtOpPaUy_e9vc,17672
+jojoba_proto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jojoba_proto-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+jojoba_proto-0.1.0.dist-info/METADATA,sha256=4wp6_rSJ7wNNl56FeDGl7CsFXsDiMNojqcM_n_xN6ls,494
+jojoba_proto-0.1.0.dist-info/RECORD,,
