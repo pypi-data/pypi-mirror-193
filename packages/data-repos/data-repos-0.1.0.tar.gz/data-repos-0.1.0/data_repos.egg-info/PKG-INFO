@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: data-repos
+Version: 0.1.0
+Author-email: Ian Currie <iansedano@gmail.com>, Geir Arne Hjelle <geirarne@gmail.com>, Real Python <info@realpython.com>
+License: MIT
+Project-URL: Homepage, https://realpython.com/namespace-package
+Project-URL: Source Code, https://github.com/realpython/data-repo
+Project-URL: Tutorial, https://realpython.com/namespace-package
+Keywords: namespace,data
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# DataRepo
+
+This package provides a namespace intended for data files.
+
+DataRepo let's you have a common package to read data files, but with the ability to distribute the namespace over multiple packages.
+
+For example, if you have various data files which are very large (in the order of hundreds of megabytes or larger), you can divide the data files into different packages, but that will be callable from the same namespace in your Python code.
+
+That means you could install the data packages you need from PyPI:
+
+```shell
+$ python -m pip install data-repos-cars data-repos-countries
+```
+
+Once installed, you can just import `read` from `data_repos` and all your data sets will be available, if there's a reader registed for the datatype:
+
+```python
+>>> from data_repos import read
+>>> read.data("cars")
+...
+>>> read.data("countries")
+...
+```

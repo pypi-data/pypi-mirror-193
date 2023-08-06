@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+dev-requirements.in
+pyproject.toml
+.github/workflows/unit_tests.yml
+data_repos/read.py
+data_repos.egg-info/PKG-INFO
+data_repos.egg-info/SOURCES.txt
+data_repos.egg-info/dependency_links.txt
+data_repos.egg-info/requires.txt
+data_repos.egg-info/top_level.txt
+tests/test_data_repos.py
