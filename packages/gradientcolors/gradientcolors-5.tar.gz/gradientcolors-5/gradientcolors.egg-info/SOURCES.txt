@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+gradientcolors/__init__.py
+gradientcolors/gradientcolors_file.py
+gradientcolors.egg-info/PKG-INFO
+gradientcolors.egg-info/SOURCES.txt
+gradientcolors.egg-info/dependency_links.txt
+gradientcolors.egg-info/requires.txt
+gradientcolors.egg-info/top_level.txt
