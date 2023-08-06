@@ -1,0 +1,11 @@
+coscmos/__init__.py,sha256=K1KhPGrxUnG3avjdARgOFv4Xr9N2kYR9AYAyqwRmJtE,221
+coscmos/_version.py,sha256=0E2q3bbXSYHV7qQaXVj0To-J2XdlP2Roo0TsM8oQtR4,160
+coscmos/core.py,sha256=5dJo7L4Fjrgsj6RwRnT9lRi5yCwWzYMLNuopeGScvP4,22536
+coscmos/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coscmos/_tests/conftest.py,sha256=SMSWuh_iPpbPpgEh33-soCeRbvWeVIhwpFC8pqBPe4Q,3368
+coscmos/_tests/test_core.py,sha256=GTXr01R5cR_oEfk8aQpuSaMRCNz1YTAtGPCCwJ5M6Xg,11045
+coscmos-0.0.1.dist-info/LICENSE,sha256=CbzDoOD1iO4v2L34EeWFPlthc8Gv6Yxmq7JAvEhXAbU,1489
+coscmos-0.0.1.dist-info/METADATA,sha256=VtQunxB_OY0LnzCuqK1qBoPG1_JY9yuHcsVkNW4vEXs,3304
+coscmos-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+coscmos-0.0.1.dist-info/top_level.txt,sha256=LlzV39IWWhU-TViOZTjeTu-nGPrYpGA7SusJxn7TloU,8
+coscmos-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: coscmos
+Version: 0.0.1
+Summary: cosCMOS ( "correct sCMOS", pronounced as cosmos ) is a Python package designed to cancel the fixed-pattern noise of sCMOS cameras.
+Home-page: https://github.com/LemonJust/coscmos
+Author: Anna Nadtochiy
+Author-email: lemonjustgithub@gmail.com
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/LemonJust/coscmos/issues
+Project-URL: Documentation, https://github.com/LemonJust/coscmos#README.md
+Project-URL: Source Code, https://github.com/LemonJust/coscmos
+Project-URL: User Support, https://github.com/LemonJust/coscmos/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: vodex (==1.0.11)
+Provides-Extra: testing
+Requires-Dist: tox ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# coscmos
+
+[![License BSD-3](https://img.shields.io/pypi/l/coscmos.svg?color=green)](https://github.com/LemonJust/coscmos/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/coscmos.svg?color=green)](https://pypi.org/project/coscmos)
+[![Python Version](https://img.shields.io/pypi/pyversions/coscmos.svg?color=green)](https://python.org)
+[![tests](https://github.com/LemonJust/coscmos/workflows/tests/badge.svg)](https://github.com/LemonJust/coscmos/actions)
+[![codecov](https://codecov.io/gh/LemonJust/coscmos/branch/main/graph/badge.svg)](https://codecov.io/gh/LemonJust/coscmos)
+
+**cosCMOS** ( "**co**rrect **sCMOS**", pronounced as cosmos ) is a Python package designed to cancel the fixed-pattern noise of sCMOS cameras.
+
+The noise is estimated through a one-time calibration. The package contains methods to estimate the fixed-pattern noise component from the calibration data and remove it from the images.
+
+----------------------------------
+## Installation
+
+You can install `coscmos` via [pip]:
+
+    pip install coscmos
+
+
+
+To install latest development version:
+
+    pip install git+https://github.com/LemonJust/coscmos.git
+
+## Contributing
+
+Contributions are very welcome. Tests can be run with [tox], please ensure
+the coverage at least stays the same before you submit a pull request.
+
+## License
+
+Distributed under the terms of the [BSD-3] license,
+"coscmos" is free and open source software
+
+## Issues
+
+If you encounter any problems, please [file an issue] along with a detailed description.
+
+[napari]: https://github.com/napari/napari
+[Cookiecutter]: https://github.com/audreyr/cookiecutter
+[MIT]: http://opensource.org/licenses/MIT
+[BSD-3]: http://opensource.org/licenses/BSD-3-Clause
+
+[file an issue]: https://github.com/LemonJust/coscmos/issues
+
+[tox]: https://tox.readthedocs.io/en/latest/
+[pip]: https://pypi.org/project/pip/
+[PyPI]: https://pypi.org/
