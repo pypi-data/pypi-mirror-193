@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: convertjson1
+Version: 1.0.2
+Summary: Json to tree Hierarchy converter
+Author: PavanPawar
+Author-email: pppawar124@gmail.com
+Keywords: json,graph,nodeId,child,name
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package to Plot the nodes based on type in the attached hierarchy JSON to an image so that when humans try to look at it it will be much easier for them to debug.
