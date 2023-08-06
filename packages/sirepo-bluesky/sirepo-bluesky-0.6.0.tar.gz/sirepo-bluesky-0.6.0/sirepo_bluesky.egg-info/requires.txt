@@ -1,0 +1,15 @@
+area-detector-handlers
+bluesky
+databroker
+inflection
+ipython
+matplotlib
+numconv
+numpy
+ophyd
+peakutils
+pymongo
+pyqt5>=5.9
+requests
+tfs-pandas
+unyt
