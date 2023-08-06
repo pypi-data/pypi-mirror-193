@@ -1,0 +1,14 @@
+smunger/__init__.py,sha256=7nFvcpTmyx95PVe7Ksci8_84KrlthxDlSve3IYNMgp8,857
+smunger/annotate.py,sha256=a5quZMc7mfL11j-0wf4ygQ_hlTwLQPup4arr8qWXng4,1723
+smunger/cli.py,sha256=uOgKL4UzEE7ffmod2vDLHU-G2S2rS42yk3oAFfHd2KA,5606
+smunger/console.py,sha256=Vwlbd4ZimGQQC36sdGlloL5Hy1U1S0CUUHM8HWFoOns,83
+smunger/constant.py,sha256=PvWbfWD6bMdPRLSNNGJJSI221OxQlsSWKfLGnV2JCNk,6220
+smunger/io.py,sha256=1lmDuGiRg65VRYGiVXXDw3TNbL_POljnFtIN4WkVahE,3317
+smunger/liftover.py,sha256=-BygCgd_eW1dOhi7xo2hmY_XGh1ZHmx0tYqOMII1JQ8,3665
+smunger/mapheader.py,sha256=3TMXsN6MvfmbbsW2Idnd8F4bnb84qTUpLGnOYPT3z_c,4784
+smunger/smunger.py,sha256=HVl_9VYoS5Yl9GtAa-8_bHRXfUzz0tyEgzh8TUZUFYo,10463
+smunger-0.0.8.dist-info/LICENSE,sha256=jZPzDis_IZxFJVLyy5Rr9XCFixXoluU_vTMTlx6RKIQ,1070
+smunger-0.0.8.dist-info/entry_points.txt,sha256=U12PdaR7dAC4xj5QeI7q7pTWdiWd6dl22vxpHymWF-8,43
+smunger-0.0.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+smunger-0.0.8.dist-info/METADATA,sha256=Ou0Vm2svRjUZkPVsH8woz4HQkbroYFu_anSOlDE9GIE,5273
+smunger-0.0.8.dist-info/RECORD,,
