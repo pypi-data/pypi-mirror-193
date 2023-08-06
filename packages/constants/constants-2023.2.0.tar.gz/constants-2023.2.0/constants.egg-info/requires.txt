@@ -1,0 +1,9 @@
+tox
+distutils
+distutils.core
+pytest
+functools
+unittest
+logging
+warnings
+configparser
