@@ -1,0 +1,10 @@
+betterproto[compiler]<3.0.0,>=2.0.0b5
+grpcio-tools<2.0.0,>=1.51.1
+poethepoet<1.0.0,>=0.17.1
+protobuf>=4.21.12
+typing-extensions>=4.4
+
+[tests]
+black>=22.12
+pytest>=7.2
+ruff>=0.0.199
