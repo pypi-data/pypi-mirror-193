@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: startwork
+Version: 0.0.10
+Summary: Fast change between projects
+Home-page: UNKNOWN
+Author: JorbFreire
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: python,inquirer
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Requires-Dist: inquirer (==3.1.2)
+
+UNKNOWN
+
+

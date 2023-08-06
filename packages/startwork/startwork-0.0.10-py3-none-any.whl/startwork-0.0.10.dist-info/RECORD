@@ -1,0 +1,17 @@
+startwork/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+startwork/main.py,sha256=SXXMB_8wNbifT_4CiPsK3DN7dMlBV9CMIN9dmNH2DQs,1381
+startwork/projects_list.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+startwork/actions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+startwork/actions/create_project.py,sha256=V0wF0pTDEEMqoCV4yulmhVy1uw94OPOWfY4jcqM5G_c,1198
+startwork/actions/delete_project.py,sha256=DnM1uCmOG1f7BqQha6iB0fl1j7YaXb-19wf6RPp-oIE,1086
+startwork/actions/select_project.py,sha256=ijP55oDU0GZ_CdRGBEPOhvw1TOazbuC-uCnYsLAa1NY,784
+startwork/constants/__version__.py,sha256=op0YgbBDjpD8XP_2_aEIvFkIRz9w0nlrOp56GUt0XxQ,23
+startwork/scripts/try_node.sh,sha256=-GDZu2QaPVTgs6LUYILsrvnyDK1AyqK8CqjeiuXtLI8,488
+startwork/scripts/try_python.sh,sha256=FldKEkSbFp_LoNOB6VixoHHSGRMXsaHB4ggaIW1Bn5M,401
+startwork/scripts/work.sh,sha256=3ZjCaUkWDaO5gVaeYpP_RrR0cAnleN-lSN3QmIB4FWM,322
+startwork-0.0.10.dist-info/LICENSE,sha256=3Fu_knRqFQIv6OXnpBwcx_swLLWAPghvSfxZbBUkmMk,1068
+startwork-0.0.10.dist-info/METADATA,sha256=eXA9nurFMLa-nAhHmoc76V__z0PTOW47GpHw5KAILDU,434
+startwork-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+startwork-0.0.10.dist-info/entry_points.txt,sha256=E4yQcTlccLB66YqqOgHacmcQeRdeMy6MWg6apExkB7A,46
+startwork-0.0.10.dist-info/top_level.txt,sha256=od0JXNM1txcQsYMTTbJZ2MC5DRstHbMcE0BX4DQUnvE,10
+startwork-0.0.10.dist-info/RECORD,,
