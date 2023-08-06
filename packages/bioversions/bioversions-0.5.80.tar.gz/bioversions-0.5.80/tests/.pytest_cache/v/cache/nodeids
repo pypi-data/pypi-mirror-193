@@ -1,0 +1,6 @@
+[
+  "test_bioversions.py::TestGetter::test_bioregistry_ids",
+  "test_bioversions.py::TestGetter::test_date",
+  "test_bioversions.py::TestGetter::test_get",
+  "test_bioversions.py::TestGetter::test_getter"
+]
