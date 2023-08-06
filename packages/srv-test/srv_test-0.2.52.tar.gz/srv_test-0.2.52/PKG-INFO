@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: srv_test
+Version: 0.2.52
+Summary: SRV TEST
+Home-page: http://github/bartoszkaron/srv_test/
+Author: Bartosz Karon
+Author-email: bartosz.karon@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Long description srv_test service.
