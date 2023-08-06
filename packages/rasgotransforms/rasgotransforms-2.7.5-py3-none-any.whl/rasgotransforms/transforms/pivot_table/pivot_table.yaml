@@ -1,0 +1,46 @@
+name: pivot_table
+tags:
+  - table
+  - reshape
+  - math
+  - aggregate
+description: |
+  ## Pivot table, powered by SQL.
+
+  ### Required Inputs
+  - Values: a dictionary of the column with values you want to aggregate & the method of aggregation for your values
+
+  ### Optional Inputs
+  - Rows: column(s) to group by down
+  - Columns: column(s) to pivot across
+  - Filters: filters to apply
+
+  ### Notes
+  - Applies a hard limit of 500 distinct values in the 'columns' column
+
+arguments:
+  values:
+    type: column_agg_list
+    description: columns to aggregate
+  rows:
+    type: column_list
+    description: Columns to group by (column values will become rows)
+    is_optional: true
+  columns:
+    type: column
+    description: column with row values that will become columns
+    is_optional: true
+  filters:
+    type: filter_list
+    description: Filters to apply to the table
+    is_optional: true
+example_code: |
+  ds2 = ds.pivot_table(
+    rows=['DATE'],
+    values={
+        'CLOSE': ['SUM', 'AVG'],
+        'OPEN': ['SUM', 'AVG']
+    },
+    columns='SYMBOL',
+  )
+  ds2.preview()
