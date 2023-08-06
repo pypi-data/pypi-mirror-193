@@ -1,0 +1,8 @@
+networkx
+numpy
+pysmt
+pywmi
+sympy
+
+[nra]
+pysmt@ git+ssh://git@github.com/masinag/pysmt@nrat#egg=pysmt
