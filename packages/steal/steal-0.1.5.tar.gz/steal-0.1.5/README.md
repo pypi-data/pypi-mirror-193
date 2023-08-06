@@ -1,0 +1,237 @@
+```
+ ______     ______   ______     ______     __
+/\  ___\   /\__  _\ /\  ___\   /\  __ \   /\ \
+\ \___  \  \/_/\ \/ \ \  __\   \ \  __ \  \ \ \____
+ \/\_____\    \ \_\  \ \_____\  \ \_\ \_\  \ \_____\
+  \/_____/     \/_/   \/_____/   \/_/\/_/   \/_____/
+
+                 (teal makes sense)
+```
+
+## Write meaningful teal in s-expressions!
+
+STEAL is a minimlistic language with its powerful cross-compiler designed to simplify the process of writing Algorand TEAL programs using s-expressions. With STEAL, developers can write TEAL programs in a more readable and efficient way, making it accessible to both beginners and experienced developers alike. STEAL is built to take advantage of the easy-to-read nature of s-expressions, which makes it even easier to write and read TEAL programs. This tool is perfect for anyone looking to develop on the Algorand blockchain and write smart contracts in an efficient and streamlined way.
+
+See a minimal example below to experience how STEAL enhances the readability and ease-of-use of TEAL:
+
+```
+#pragma.version.8
+
+(box_put "BoxA" "Hello World")
+
+(assert (== (box_len "BoxA") 11))
+```
+
+Simply compile your steal code to convert it to a valid TEAL language.
+
+```
+% steal compile box.steal
+>>> #pragma version 8
+>>> byte "BoxA"
+>>> byte "Hello World"
+>>> box_put
+>>> byte "BoxA"
+>>> box_len
+>>> int 11
+>>> ==
+>>> assert
+```
+
+STEAL does not add any additional layers of abstraction to the TEAL language. By building upon the existing foundations of TEAL and leveraging the readability and simplicity of s-expressions, STEAL provides a unique and innovative way of writing TEAL programs that is accessible to developers of all levels of experience. STEAL is designed to preserve the core functionality and "opcodes" of TEAL, while making it easier to read, write, and deploy programs on the Algorand blockchain. With STEAL, developers can benefit from a more streamlined and efficient workflow, without sacrificing the power and flexibility of TEAL. If you're looking for a tool that makes writing TEAL programs more accessible and easier than ever before, then STEAL is the perfect choice.
+
+## Get Started
+
+To get started with STEAL, simply follow the installation instructions below and once installed, you can start writing TEAL programs in s-expressions and use STEAL to convert them into TEAL bytecode that can be deployed to the Algorand blockchain.
+
+```
+% pip install steal
+```
+
+Cli tool can be accessed simply typing `steal` in your commmand prompt
+
+```
+% steal
+>>> usage: steal [-h] [-v] {compile} ...
+>>>
+>>> positional arguments:
+>>>   {compile}
+>>>
+>>> optional arguments:
+>>>   -h, --help     show this help message and exit
+>>>   -v, --version  show program's version number and exit
+```
+
+## Examples
+
+### Loops
+
+```
+#pragma.version.4
+
+0
+(loop:
+  (bnz.loop
+    (<= (dup (+ 1)) 10))
+)
+```
+
+Output:
+
+```
+#pragma version 4
+int 0
+loop:
+int 1
++
+dup
+int 10
+<=
+bnz loop
+```
+
+### Subroutines
+
+```
+#pragma.version.8
+
+b.main
+
+(my_subroutine: (retsub +))
+
+(main: (return (callsub.my_subroutine 1 5)))
+```
+
+Output:
+
+```
+#pragma version 8
+b main
+my_subroutine:
++
+retsub
+main:
+int 1
+int 5
+callsub my_subroutine
+return
+```
+
+# Inner Transactions
+
+```
+#pragma.version.8
+
+(itxn_submit
+    itxn_begin
+    (itxn_field.AssetAmount 1000)
+    (itxn_field.XferAsset txn.Assets.0)
+    (itxn_field.AssetReceiver txn.Sender)
+    (itxn_field.TypeEnum int.axfer)
+)
+```
+
+Output:
+
+```
+#pragma version 8
+itxn_begin
+int 1000
+itxn_field AssetAmount
+txn Assets 0
+itxn_field XferAsset
+txn Sender
+itxn_field AssetReceiver
+int axfer
+itxn_field TypeEnum
+itxn_submit
+
+```
+
+### Sample Program 1
+
+```
+#pragma.version.8
+
+(&&
+  (&&
+    (== txn.RekeyTo global.ZeroAddress)
+    (< txn.Fee 1000000)
+  )
+  (||
+    (&&
+      (> 67240 txn.FirstValid)
+      (&&
+        (== txn.Receiver addr.RFGEHKTFSLPIEGZYNVYALM6J4LJX4RPWERDWYS2PFKNVDWW3NG7MECQTJY)
+        (== txn.CloseRemainderTo addr.RFGEHKTFSLPIEGZYNVYALM6J4LJX4RPWERDWYS2PFKNVDWW3NG7MECQTJY)
+      )
+    )
+    (&&
+      (== byte.base64.QzYhq9JlYbn2QdOMrhyxVlNtNjeyvyJc/I8d8VAGfGc= (sha256 arg.0))
+      (&&
+        (== 46 (len arg.0))
+        (&&
+          (== txn.Receiver addr.SOEI4UA72A7ZL5P25GNISSVWW724YABSGZ7GHW5ERV4QKK2XSXLXGXPG5Y)
+          (== txn.CloseRemainderTo addr.SOEI4UA72A7ZL5P25GNISSVWW724YABSGZ7GHW5ERV4QKK2XSXLXGXPG5Y)
+        )
+      )
+    )
+  )
+)
+```
+
+Output:
+
+```
+#pragma version 8
+txn RekeyTo
+global ZeroAddress
+==
+txn Fee
+int 1000000
+<
+&&
+int 67240
+txn FirstValid
+>
+txn Receiver
+addr RFGEHKTFSLPIEGZYNVYALM6J4LJX4RPWERDWYS2PFKNVDWW3NG7MECQTJY
+==
+txn CloseRemainderTo
+addr RFGEHKTFSLPIEGZYNVYALM6J4LJX4RPWERDWYS2PFKNVDWW3NG7MECQTJY
+==
+&&
+&&
+byte base64 QzYhq9JlYbn2QdOMrhyxVlNtNjeyvyJc/I8d8VAGfGc=
+arg 0
+sha256
+==
+int 46
+arg 0
+len
+==
+txn Receiver
+addr SOEI4UA72A7ZL5P25GNISSVWW724YABSGZ7GHW5ERV4QKK2XSXLXGXPG5Y
+==
+txn CloseRemainderTo
+addr SOEI4UA72A7ZL5P25GNISSVWW724YABSGZ7GHW5ERV4QKK2XSXLXGXPG5Y
+==
+&&
+&&
+&&
+||
+&&
+```
+
+## Disclaimer
+
+Very much in early stages, please use it at your own risk.
+
+## Licence
+
+Copyright (c) 2023 Kadir Pekel.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
