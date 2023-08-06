@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "jhelabtoolkit"
+authors = [{name = "Joon-Hyuk Ko", email = "jhko725@snu.ac.kr"}, {name = "Hankyul Koh", email = "physics113@snu.ac.kr"}, {name = "Wonho Jhe", email = "whjhe@snu.ac.kr"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = ["python >= 3.10", "numpy", "xarray", "pydantic>=3.9", "scikit-image", "matplotlib"]
+
+[project.urls]
+Home = "https://github.com/Jhko725/jhelabtoolkit"
