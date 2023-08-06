@@ -1,0 +1,11 @@
+snaplib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snaplib/counter.py,sha256=GI1hfxLQ6RLA6_zujBIh_hQMx9NMUX87FXdUocZSbww,168
+snaplib/encoder.py,sha256=kQw7U6MfYfLICFWtmfg5Zim7mCzq0QN9XkBu66l1gWs,2585
+snaplib/nans.py,sha256=NJNoiGdDHU3nuNtyt6hMmlNtFLBbeVblEcgjSjDrGig,2618
+snaplib/snaplib.py,sha256=D33qbKe4VAGAPXHXeQNjXxJ2tEYPD1GH0zbUdLjoJQQ,71786
+snaplib/splitter.py,sha256=qZ2BMNNiRsF4ZHtb32KffebEBRE_ltWyVKNLjI0w3v4,7523
+snaplib-0.3.37.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+snaplib-0.3.37.dist-info/METADATA,sha256=ERgoT1NjAi8DEhgb5nR6on0VERTl3oMG0kIEwt6fn0Y,1446
+snaplib-0.3.37.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+snaplib-0.3.37.dist-info/top_level.txt,sha256=wC3OSDMmV3M8GmM5YhSno45CtTUqbP8kVIBeT9qmIdY,8
+snaplib-0.3.37.dist-info/RECORD,,
