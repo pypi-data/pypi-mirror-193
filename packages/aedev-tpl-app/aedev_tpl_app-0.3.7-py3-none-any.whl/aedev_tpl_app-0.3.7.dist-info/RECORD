@@ -1,0 +1,14 @@
+aedev/tpl_app/__init__.py,sha256=Ille3-tOh2hJu50wXFgeLuuveonxWQGw9umMOGSrcws,64
+aedev/tpl_app/templates/de_tpl_main.py,sha256=AW9ShhrL7f-f5p2SFmMh_rTeDd_JHXvhEtSO9VS2k-w,2641
+aedev/tpl_app/templates/main.kv,sha256=5Bi9Ogt5p4jBRLPDtKBkglGJXBVkKqIKVjZsmb9NeQQ,693
+aedev/tpl_app/templates/requirements.txt,sha256=pLzN2e-Dj9PzHMFrLzSexonSDTVPzWSlNCruQIxz_t4,185
+aedev/tpl_app/templates/de_mtp_ae_updater_moves/{package_name}.ini,sha256=uq_BojnzweDgRGUjWJj_8kftYxnWmM69P1hNFdz293E,625
+aedev/tpl_app/templates/de_mtp_img/app_icon.jpg,sha256=KVi3OKoUWDxeDN3HreEuRaeJ5hKPnS6C0XFmM7BdP-8,122012
+aedev/tpl_app/templates/de_mtp_loc/de/Msg.txt,sha256=HA40yPxt62vYF-Ppvvq4ijNq0SZ87o-7ybZYeiHhG8U,40
+aedev/tpl_app/templates/de_mtp_loc/en/Msg.txt,sha256=HA40yPxt62vYF-Ppvvq4ijNq0SZ87o-7ybZYeiHhG8U,40
+aedev/tpl_app/templates/de_mtp_loc/es/Msg.txt,sha256=HA40yPxt62vYF-Ppvvq4ijNq0SZ87o-7ybZYeiHhG8U,40
+aedev_tpl_app-0.3.7.dist-info/LICENSE.md,sha256=LHNdf01TgtXxpznPMoQpIuW5u4k_Sm_lbFqGAopNTVs,35002
+aedev_tpl_app-0.3.7.dist-info/METADATA,sha256=fFrdq8fkjJ-YpiV6k3o68YjnjFTHl-FtUTNhNoa-tro,5599
+aedev_tpl_app-0.3.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aedev_tpl_app-0.3.7.dist-info/top_level.txt,sha256=mWQVNYhgjRLaFceFJH-NDKFiTfKip7vqDESYWJGkKqg,6
+aedev_tpl_app-0.3.7.dist-info/RECORD,,
