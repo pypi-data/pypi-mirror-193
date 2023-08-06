@@ -1,0 +1,15 @@
+aiofiles
+fastapi
+pydantic
+PyJWT
+pytz
+requests
+requests-async
+SQLAlchemy
+PyDrive2
+pymongo
+boto3
+asyncpg
+shortuuid
+python-multipart
+uvicorn
