@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+gamesdb_api/__init__.py
+gamesdb_api/constantes.py
+gamesdb_api/gamesdb_api.py
+gamesdb_api.egg-info/PKG-INFO
+gamesdb_api.egg-info/SOURCES.txt
+gamesdb_api.egg-info/dependency_links.txt
+gamesdb_api.egg-info/requires.txt
+gamesdb_api.egg-info/top_level.txt
