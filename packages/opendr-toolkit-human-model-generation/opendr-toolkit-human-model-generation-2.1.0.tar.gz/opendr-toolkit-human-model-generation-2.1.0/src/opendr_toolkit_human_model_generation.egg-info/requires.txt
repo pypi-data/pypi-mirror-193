@@ -1,0 +1,10 @@
+pillow>=8.3.2
+matplotlib>=2.2.2
+opencv-python==4.5.1.48
+torch==1.9.0
+opendr-toolkit-engine
+pyglet>=1.5.16
+torchvision==0.10.0
+trimesh==3.5.23
+tqdm
+scikit-image>0.16.2
