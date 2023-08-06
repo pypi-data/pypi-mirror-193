@@ -1,0 +1,15 @@
+coloredlogs~=15.0
+pyyaml~=6.0
+
+[dev]
+bandit~=1.7
+black~=22.3
+build~=0.8
+flake8~=4.0
+ipython~=8.4
+isort~=5.10
+mypy
+pylint~=2.14
+pytest~=7.1
+pytest-cov~=4.0
+tox~=3.25
