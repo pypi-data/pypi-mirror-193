@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: stablerandom
+Version: 0.2.21
+Summary: Create stable/repeatable numpy.random applications
+Author: John Heintz
+Author-email: john@gistlabs.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
