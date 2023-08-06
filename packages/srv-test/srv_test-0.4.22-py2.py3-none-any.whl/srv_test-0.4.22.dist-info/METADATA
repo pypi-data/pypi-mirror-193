@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: srv-test
+Version: 0.4.22
+Summary: SRV TEST
+Home-page: http://github/bartoszkaron/srv_test/
+Author: Bartosz Karon
+Author-email: bartosz.karon@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pysocket
+Requires-Dist: pyyaml
+
+Long description srv_test service.
+
