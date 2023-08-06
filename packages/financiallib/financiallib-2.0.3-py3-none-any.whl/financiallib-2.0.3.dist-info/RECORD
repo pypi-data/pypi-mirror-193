@@ -1,0 +1,14 @@
+financiallib/__init__.py,sha256=9hSyw0LJ4AZdTst2nWdl1u4_ErVYdZYYBmWT1v1YwOo,224
+financiallib/chartpack.py,sha256=9T4YUR1dPh-rPi2c8d7LUWHNz4p9Cakt1hyjKZXRGaA,17743
+financiallib/finstats.py,sha256=YnLj1TuP0_HdfT0a3uh1uap9IEvZax_S19sk5BHikRc,16962
+financiallib/new_optimizers.py,sha256=M50KP34yOU8CbHhIdCC2Qp77GBTtD_vVL7nviz9K9bA,7366
+financiallib/optimizers.py,sha256=e7Wapie3Rr3sXFuq8Fm8J8qDkpQqoT_1SOOUPMCK_E4,4202
+financiallib/plots.py,sha256=2NAAMH29nTGjLGUVoV8Wipt2Rragh4fb4lHrtQdfGfQ,67247
+financiallib/statistical_tests.py,sha256=nffGh3PkRJDpvsUAwKAyLIt0KNAeExllQF4UmCmCQT8,7568
+financiallib/technical_indicators.py,sha256=NqYV5b7bJBsSaYKNkWsazFTGxcenbAdYPJ-_u-xDA6Q,9950
+financiallib/utils.py,sha256=s2CGMcLE5q09s9jElKMoGZg_2GE4LoO9YsDgudU34XQ,20837
+financiallib-2.0.3.dist-info/LICENSE.txt,sha256=GCyiWXzzeMFnevrFdV8rXO2XBazvY-DmFAISiYf4lCU,32
+financiallib-2.0.3.dist-info/METADATA,sha256=UVs64l-mVfVp0ip6N8RrOphC7BxyQejAyWN_5Givppo,706
+financiallib-2.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+financiallib-2.0.3.dist-info/top_level.txt,sha256=DjaYR2QU9fFrYsgIqFE65iq4E5WILCYWFgQTQBf2cMQ,13
+financiallib-2.0.3.dist-info/RECORD,,
