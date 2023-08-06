@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/print_torch/__init__.py
+src/print_torch.egg-info/PKG-INFO
+src/print_torch.egg-info/SOURCES.txt
+src/print_torch.egg-info/dependency_links.txt
+src/print_torch.egg-info/top_level.txt
