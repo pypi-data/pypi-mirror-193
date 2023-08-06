@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: sqlmesh
+Version: 0.1.0
+Home-page: https://github.com/TobikoData/sqlmesh
+Author: TobikoData Inc.
+Author-email: engineering@tobikodata.com
+License: Apache License 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: SQL
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astor
+Requires-Dist: click
+Requires-Dist: croniter
+Requires-Dist: duckdb
+Requires-Dist: dateparser
+Requires-Dist: hyperscript
+Requires-Dist: jinja2
+Requires-Dist: pandas
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: ruamel.yaml
+Requires-Dist: sqlglot (>=11.2.0)
+Provides-Extra: bigquery
+Requires-Dist: google-cloud-bigquery[pandas] ; extra == 'bigquery'
+Provides-Extra: databricks
+Requires-Dist: databricks-sql-connector ; extra == 'databricks'
+Provides-Extra: dev
+Requires-Dist: apache-airflow (==2.3.3) ; extra == 'dev'
+Requires-Dist: autoflake (==1.7.7) ; extra == 'dev'
+Requires-Dist: black (==22.6.0) ; extra == 'dev'
+Requires-Dist: Faker ; extra == 'dev'
+Requires-Dist: google-auth ; extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; extra == 'dev'
+Requires-Dist: mkdocs-include-markdown-plugin (==4.0.3) ; extra == 'dev'
+Requires-Dist: mkdocs-material (==9.0.5) ; extra == 'dev'
+Requires-Dist: mypy (~=1.0.0) ; extra == 'dev'
+Requires-Dist: ipywidgets ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pandas-stubs ; extra == 'dev'
+Requires-Dist: pdoc ; extra == 'dev'
+Requires-Dist: psycopg2-binary ; extra == 'dev'
+Requires-Dist: PyGithub ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pyspark ; extra == 'dev'
+Requires-Dist: sqlalchemy-stubs ; extra == 'dev'
+Requires-Dist: tenacity (==8.1.0) ; extra == 'dev'
+Requires-Dist: types-croniter ; extra == 'dev'
+Requires-Dist: types-dateparser ; extra == 'dev'
+Requires-Dist: types-requests (==2.28.8) ; extra == 'dev'
+Provides-Extra: redshift
+Requires-Dist: redshift-connector ; extra == 'redshift'
+Provides-Extra: snowflake
+Requires-Dist: snowflake-connector-python[pandas] ; extra == 'snowflake'
+Provides-Extra: web
+Requires-Dist: fastapi (==0.89.1) ; extra == 'web'
+Requires-Dist: hyperscript (==0.0.1) ; extra == 'web'
+Requires-Dist: uvicorn (==0.20.0) ; extra == 'web'
+
+# What is SQLMesh?
+
+SQLMesh is a next-generation SQL transformation platform. It provides you with powerful automation for versioning, backfilling, deployment, and testing &mdash; allowing you to focus on simply writing SQL.
+
+SQLMesh is able to achieve all of this with minimal setup; there are no additional services or dependencies required to get started using SQLMesh other than a connection to your existing data warehouse or engine.
