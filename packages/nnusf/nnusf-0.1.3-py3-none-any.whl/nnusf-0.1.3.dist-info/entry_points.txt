@@ -1,0 +1,3 @@
+[console_scripts]
+nnu=nnusf.cli:command
+
