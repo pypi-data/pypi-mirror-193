@@ -1,0 +1,2 @@
+[console_scripts]
+deepurify = Deepurify.deepurify:main
