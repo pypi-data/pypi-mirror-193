@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "csiro-spectral-tools"
+version = "0.2.1"
+description = "A small collection of tools that I have used to work with spectral data. A bunch of IO stuff, some spectral extraction stuff and some convex hull correction stuff."
+authors = ["Andrew Rodger", "Sam Bradley <sam.bradley@csiro.au>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+numpy = ">=1.18"
+scipy = ">=1.7.2"
+pandas = ">=1.1"
+spectral = "^0.23"
+simplejpeg = "^1.6.5"
+
+[tool.poetry.group.dev.dependencies]
+Cython = "^0.29.32"
+setuptools = "^65.3.0"
+hdbscan = "*"
+black = "^23.1.0"
+ruff = "^0.0.247"
+matplotlib = "^3.7.0"
+pytest = "^7.2.1"
+plotly = "^5.13.0"
+sphinx = "^6.1.3"
+sphinx-rtd-theme = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.2", "cython"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 110
+target-version = ['py310']
+#include = '\.pyi?$'
+#extend-exclude = '''
+
+[tool.pylint.messages_control]
+max-line-length = 110
+
+[tool.ruff]
+ignore = [
+  # zip=strict only valid for py3.10+
+  "B905",
+  "B006", # Allow for [] as argument default
+  "B008",
+  "D",
+]
+line-length = 110
+select = ["B", "D", "E", "F", "Q", "W", "I"]
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "double"
+
+[tool.ruff.per-file-ignores]
+"**/__init__.py" = ["F401"]
