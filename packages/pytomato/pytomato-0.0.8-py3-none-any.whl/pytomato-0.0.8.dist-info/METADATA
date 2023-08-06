@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pytomato
+Version: 0.0.8
+Summary: python base libs
+Project-URL: Homepage, https://github.com/sunlulu427/tomato
+Project-URL: Bug Tracker, https://github.com/sunlulu427/tomato/issues
+Author-email: "sunlulu.tomato" <sunlulu.tomato@bytedance.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: configparser; python_version >= '3.7'
+Requires-Dist: requests>=2.26.0
+Description-Content-Type: text/markdown
+
+# tomato
