@@ -1,0 +1,9 @@
+sqlalchemy_timescaledb/__init__.py,sha256=Wzb4bFHEGimPf4JrUPu8k7yo-q7O-C0eF_qUP6kaZzM,392
+sqlalchemy_timescaledb/dialect.py,sha256=_-pVfs1d4zpYuCcG1I_sPQFcO--3FWIPtsD4xP9jmzY,1725
+sqlalchemy_timescaledb/functions.py,sha256=blzpQCBl3oUvpU1Y78dVzsEmCzyYPeYIZeqkq9U6ue4,215
+sqlalchemy_timescaledb-0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+sqlalchemy_timescaledb-0.4.dist-info/METADATA,sha256=st5zo1mtJ-uloF7II6h4V1hhV8FxKqZx5FVSdQ8OK6M,2704
+sqlalchemy_timescaledb-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sqlalchemy_timescaledb-0.4.dist-info/entry_points.txt,sha256=P9D5EJYgJMecUBCSk1cRSNqTAy5brFILzwsaoEIYGn4,254
+sqlalchemy_timescaledb-0.4.dist-info/top_level.txt,sha256=tYcNXAHIo4tEix1t2QWBCr3ZsvkCtzPcu_ey5aX2HbY,23
+sqlalchemy_timescaledb-0.4.dist-info/RECORD,,
