@@ -1,0 +1,9 @@
+*~
+*.pyc
+*.py#
+.ini
+.idea
+.swp
+dist/
+__pycache__
+*.swp
