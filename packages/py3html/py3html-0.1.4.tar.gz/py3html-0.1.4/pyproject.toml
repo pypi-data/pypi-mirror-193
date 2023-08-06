@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py3html"
+version = "0.1.4"
+description = "A very simple tool to generate html with python code."
+authors = ["Ozcan Yarimdunya <ozcanyd@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+mkdocs = "^1.4.2"
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
