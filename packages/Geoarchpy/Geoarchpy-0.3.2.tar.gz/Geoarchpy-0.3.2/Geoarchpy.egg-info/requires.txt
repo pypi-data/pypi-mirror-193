@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pyvista
+scipy
+numba
+scikit-learn
+pyyaml
+pandas
+shapely<2.0
