@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fib-prusty
+Version: 0.0.2
+Summary: Calculates a Fibonacci number
+Home-page: https://github.com/sshu2017/fib-prusty.git
+Author: sshu2017
+Author-email: sshu2017@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fib-prusty
+learn how to use python and rust together
+
+# dmmuy change #2
+# dummy change to test publish workflow
+# dummy change to test publish workflow 2nd time
+
