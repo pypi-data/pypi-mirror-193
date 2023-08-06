@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+daorionpkg/__init__.py
+daorionpkg/daorion.py
+daorionpkg_daorion.egg-info/PKG-INFO
+daorionpkg_daorion.egg-info/SOURCES.txt
+daorionpkg_daorion.egg-info/dependency_links.txt
+daorionpkg_daorion.egg-info/requires.txt
+daorionpkg_daorion.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pytest-runner]
+pytest_args = ["tests"]
+
+[project]
+name = "daorionpkg_daorion"
+version = "0.0.1"
+authors = [
+  { name="daorion", email="himangshu.biswas@daorion.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SurjeetSingh2022/daorion_pdf_automation_version2"
+"Bug Tracker" = "https://github.com/SurjeetSingh2022/daorion_pdf_automation_version2"
