@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fastapi-oauth2-mongodb
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fastapi
+Requires-Dist: pymongo
+Requires-Dist: uvicorn
+Requires-Dist: passlib
+Requires-Dist: pydantic
+Requires-Dist: python-jose[cryptography]
+Requires-Dist: python-multipart
+Requires-Dist: bcrypt
+
+UNKNOWN
+
