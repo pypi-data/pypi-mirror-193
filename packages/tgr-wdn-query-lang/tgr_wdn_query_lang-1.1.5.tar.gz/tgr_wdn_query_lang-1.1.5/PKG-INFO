@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tgr-wdn-query-lang
+Version: 1.1.5
+Summary: A library for parsing simple query expression.
+Author: Ivan Choo
+Author-email: ivan@horangi.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: antlr4-python3-runtime (>=4.9.2,<5.0.0)
