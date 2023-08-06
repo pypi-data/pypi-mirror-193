@@ -1,0 +1,9 @@
+ng_bot/__init__.py,sha256=NdGM12Eem126L3iFUPsdpggdPpvEjapbVY19GnwgNmw,125
+ng_bot/__main__.py,sha256=GCUtbkuFHz0WFKZVd2fV2PIaLtKFrzHlGsjRliA0wmE,4005
+ng_bot/bot.py,sha256=rLUAgGkYaCAEfBWGsC4GETZKl4Ql_N3JP3Q4kVGb4SU,2408
+ng_bot/discord.py,sha256=VR7N-JqNkm1lY6PKK7w3fyi-QJ12EPg_kS9koiwo30k,351
+ng_bot/ngrok_wrapper.py,sha256=fqvkhUVitAh5ULCndp43yNF0UI9UWQOSNUuw-rizB2s,2651
+ng_bot-1.0.2.dist-info/LICENSE,sha256=iGE0Q1VaFDc62j9DPcxjuPX5txnRa_Q7q01dABvAbfA,1092
+ng_bot-1.0.2.dist-info/METADATA,sha256=rtwZYj4Fbjyifmad7g63-x3QD6LyO1MLbfVrotu3e2U,2024
+ng_bot-1.0.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ng_bot-1.0.2.dist-info/RECORD,,
