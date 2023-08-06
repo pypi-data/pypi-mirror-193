@@ -1,0 +1,13 @@
+talkkeeper/__init__.py,sha256=Vvq_VdMLXwcKlUeRi6Rp1EjPFWsr3S8Wkz0-vZWbHA4,86
+talkkeeper/__main__.py,sha256=oqKgg1emfPMQXnWuGvNk1cZXslm8cjnHGfLx8cKccRM,81
+talkkeeper/cli/application.py,sha256=_MnbbUEuuqoLJ0L_18bfRjSI91x1pCXjKfhRlonbNa8,344
+talkkeeper/core/settings.py,sha256=gU21zSzWl-Sf_gURGlERYjIqT-Aa6Zcvp7tMJDLsRGM,246
+talkkeeper/handlers/audio.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talkkeeper/handlers/events.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talkkeeper/handlers/video.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talkkeeper/packages/s3.py,sha256=rvM0y_7fB1hefkkHB57Knuj_FlCgxAFHG4a8ZOR4e1E,3870
+talkkeeper/talkkeeper.py,sha256=xmcqBZaubPpXlJNL3Yz16EFf3kQHfZSpndKG-jTkeKI,1911
+talkkeeper-0.0.1.dist-info/entry_points.txt,sha256=W_hmB90edOHSQj_rSCUhuZJ5KEFa1lFpjLShi7YTySA,45
+talkkeeper-0.0.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+talkkeeper-0.0.1.dist-info/METADATA,sha256=LALlyrj6ep7hnPPJisb5JJ2IQihQOPxjC0oqhrr1Nw0,2117
+talkkeeper-0.0.1.dist-info/RECORD,,
