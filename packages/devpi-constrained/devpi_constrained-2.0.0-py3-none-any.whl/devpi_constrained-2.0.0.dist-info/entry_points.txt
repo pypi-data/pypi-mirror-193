@@ -1,0 +1,2 @@
+[devpi_server]
+devpi-constrained = devpi_constrained.main
