@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['orwynn',
+ 'orwynn.shared',
+ 'orwynn.src',
+ 'orwynn.src.app',
+ 'orwynn.src.apprc',
+ 'orwynn.src.boot',
+ 'orwynn.src.boot.api_version',
+ 'orwynn.src.cls',
+ 'orwynn.src.config',
+ 'orwynn.src.controller',
+ 'orwynn.src.controller.endpoint',
+ 'orwynn.src.controller.http',
+ 'orwynn.src.controller.websocket',
+ 'orwynn.src.crypto',
+ 'orwynn.src.database',
+ 'orwynn.src.di',
+ 'orwynn.src.di.collecting',
+ 'orwynn.src.di.init',
+ 'orwynn.src.dt',
+ 'orwynn.src.error',
+ 'orwynn.src.error.http',
+ 'orwynn.src.error.websocket',
+ 'orwynn.src.file',
+ 'orwynn.src.fmt',
+ 'orwynn.src.indication',
+ 'orwynn.src.log',
+ 'orwynn.src.mapping',
+ 'orwynn.src.middleware',
+ 'orwynn.src.model',
+ 'orwynn.src.module',
+ 'orwynn.src.mongo',
+ 'orwynn.src.mp',
+ 'orwynn.src.parsing',
+ 'orwynn.src.proxy',
+ 'orwynn.src.rnd',
+ 'orwynn.src.router',
+ 'orwynn.src.service',
+ 'orwynn.src.singleton',
+ 'orwynn.src.sql',
+ 'orwynn.src.testing',
+ 'orwynn.src.uio',
+ 'orwynn.src.validation',
+ 'orwynn.src.web',
+ 'orwynn.src.web.context',
+ 'orwynn.src.web.http',
+ 'orwynn.src.web.websocket',
+ 'orwynn.src.worker']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['bcrypt==4.0.1',
+ 'colorama==0.4.6',
+ 'coverage==6.5.0',
+ 'dictdiffer==0.9.0',
+ 'fastapi==0.88.0',
+ 'httpx==0.23.1',
+ 'loguru==0.6.0',
+ 'psycopg2==2.9.5',
+ 'pyjwt==2.6.0',
+ 'pymongo==4.3.3',
+ 'pytest-asyncio==0.20.3',
+ 'pytest==7.2.0',
+ 'python-benedict==0.28.1',
+ 'python-dotenv==0.21.0',
+ 'pyyaml==6.0',
+ 'sqlalchemy==2.0.3',
+ 'uvicorn[standard]==0.20.0',
+ 'websockets==10.4']
+
+setup_kwargs = {
+    'name': 'orwynn',
+    'version': '1.0.0a0',
+    'description': 'Scalable web-framework with out-of-the-box architecture',
+    'long_description': '# Orwynn',
+    'author': 'ryzhovalex',
+    'author_email': 'thed4rkof@gmail.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'None',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.11,<4.0',
+}
+
+
+setup(**setup_kwargs)
