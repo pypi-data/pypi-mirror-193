@@ -1,0 +1,61 @@
+{
+  "investmentCreatedAt": "Opened: {date} at {time}",
+  "@investmentCreatedAt": {
+    "description": "Displays a position's creation date",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "followersCount": "{amount} Followers",
+  "@followersCount": {
+    "description": "Displays user's follower count",
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "no": "No",
+  "@no": {},
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "joinedDate": "Joined {date}",
+  "@joinedDate": {
+    "description": "When a user signed up",
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "manyItems": "{first} and {count} others",
+  "@manyItems": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notificationRequestedToFollow": "@{username} {count, plural, offset:1 zero{has requested to follow you} one{and 1 other user have requested to follow you} other{and # other users have requested to follow you}}!",
+  "@notificationRequestedToFollow": {
+    "description": "When 1 or more users request to follow someone they receive this notification",
+    "placeholders": {
+      "username": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  }
+}
