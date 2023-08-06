@@ -1,0 +1,4 @@
+---
+mounts:
+  chime: "move_test/data/chime/baseband/processed"
+  canfar: "move_test/arc/projects/chime_frb/data/canfar/processed"
