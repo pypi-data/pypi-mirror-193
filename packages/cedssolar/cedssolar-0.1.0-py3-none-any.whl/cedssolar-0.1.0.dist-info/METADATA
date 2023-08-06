@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: cedssolar
+Version: 0.1.0
+Summary: A python package to differentially privately infer solar metadata information
+License: MIT
+Author: Nikhil Ravi
+Author-email: nr337@cornell.edu
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: SQLAlchemy (>=2.0.4,<3.0.0)
+Requires-Dist: matplotlib (>=3.7.0,<4.0.0)
+Requires-Dist: multiprocess (>=0.70.14,<0.71.0)
+Requires-Dist: nbformat (>=4.2.0,<5.0.0)
+Requires-Dist: nrel-pysam (==3.0.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: pandas-dataclasses (>=0.11.0,<0.12.0)
+Requires-Dist: plotly (>=5.13.0,<6.0.0)
+Requires-Dist: psycopg2 (>=2.9.5,<3.0.0)
+Requires-Dist: pvlib (>=0.9.4,<0.10.0)
+Requires-Dist: pydantic (>=1.10.5,<2.0.0)
+Requires-Dist: python-dotenv (>=0.21.1,<0.22.0)
+Requires-Dist: pytz (>=2022.7.1,<2023.0.0)
+Requires-Dist: scikit-learn (>=1.2.1,<2.0.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+## CEDS Solar
+
+A Differential Private Solar Metadata inference package.
+
+## Installation
+
+Install the package using the following command:
+
+```
+pip install git+https://github.com/lbnl-cybersecurity/CEDSSolar.git
+pip install git+https://github.com/fmfn/BayesianOptimization
+```
+
+## Usage
+
+The package may be used as follows:
+
+- Import packages:
+
+```python
+from CEDSSolar.gridSearch.GridSearchKevala import SolarPVMetaData
+from CEDSSolar.gridSearch import fit
+from CEDSSolar.gridSearch.fit import Fit
+from CEDSSolar.gridSearch.results import aggregate_across_months, filter_grid_search_results
+from CEDSSolar.gridSearch.plot import plot_grid_search_results, plotly_final
+from CEDSSolar.gridSearch.query import get_data
+
+import pandas as pd
+import numpy as np
+from bayes_opt import SequentialDomainReductionTransformer
+import sqlalchemy
+import json
+import plotly.express as px
+import pytz
+from dotenv import dotenv_values
+```
+
+- Initialize database connection:
+
+```python
+config = dotenv_values("../.env")
+engine = sqlalchemy.create_engine(
+    f'postgresql://{config["USERNAME"]}:{config["PASSWORD"]}@{config["HOSTNAME"]}:{config["PORT"]}/{config["DB_NAME"]}'
+)
+```
+
+- Ingest relevant solar generation data:
+
+```python
+system_id, year = '824950', '2016'
+df, lat, lon, info = get_data(engine, system_id, year)
+true_fit = Fit(json.loads(info)["azimuth"], 90)
+```
+
+- Initialize the SolarPVMetaData class:
+
+```python
+smd = SolarPVMetaData(df.copy(), lat=lat, lon=lon, year=year)
+```
+
+- Perform a smart grid search:
+
+```python
+yearly_results_list = smd.smart_grid_search(
+    top_percent_to_retain_per_month=0.1, rmse_filtered=False
+)
+```
+
+- Plot the results:
+
+```python
+plotly_final(
+    yearly_results_list,
+    true_fit,
+    [
+        fit.best_fit(yearly_results_list[0]),
+        fit.best_fit(yearly_results_list[1]),
+    ],
+    "count",
+)
+```
+
+![me](README.png)
+
+- Alternatively, to perform inference via DP Bayesian Optimization:
+
+```python
+
+bayes_results = smd.bayesian_search(
+    (0, 360),
+    (0, 90),
+    dict(bounds_transformer=SequentialDomainReductionTransformer()),
+    dict(init_points=10, n_iter=80),
+)
+yearly_results = (
+    pd.concat(
+        [
+            pd.DataFrame(pd.DataFrame(bayes_results.res).params.tolist()),
+            pd.DataFrame(bayes_results.res).target,
+        ],
+        axis=1,
+    )
+    .set_index(["surface_azimuth", "surface_tilt"])
+    .rename(columns={"target": "count"})
+)
+plotly_final(
+    [yearly_results], true_fit, [fit.best_fit(yearly_results)], "count", -1, -3
+)
+```
+
