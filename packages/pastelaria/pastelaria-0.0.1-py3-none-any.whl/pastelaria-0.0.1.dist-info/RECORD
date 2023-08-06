@@ -1,0 +1,16 @@
+pastelaria.py,sha256=F93Zzv-khmTbRUC82w_zGeLeOVJGNBXh4tpEt4f99xo,4062
+frameworks/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+frameworks/django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frameworks/fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frameworks/fastapi/framework.py,sha256=MSg0D2sCA9YdhHsHi_BB3IaatKemqvUaKfrjNBwQdRk,2110
+frameworks/fastapi/utils.py,sha256=SA_kXK7bQEZ3MPQfeEOzuFYOMY3V-_iLLq8n-H7H1F0,1515
+frameworks/fastapi/dbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frameworks/fastapi/dbs/templates_mongo.py,sha256=UkUyPMJ5C2d_YSfkIMxS5wNzFbTBjTp7TG9Jheiz2cU,5342
+frameworks/fastapi/dbs/templates_relational.py,sha256=_7yvvHyvFoqanYey2EH8EEOZsEfbdG3OxS-6CopQZcs,6205
+frameworks/flask/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pastelaria-0.0.1.dist-info/LICENSE,sha256=5JSJp5Zrzq0aprZJFqxoDaQ6a-w7Z7M-873w-L24O1c,1070
+pastelaria-0.0.1.dist-info/METADATA,sha256=Bw8dllyNOKn0bOmsaDWz9pvx8rsu1vl5sTA0Re4ZgfE,1918
+pastelaria-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pastelaria-0.0.1.dist-info/entry_points.txt,sha256=vU0fH8dW25ky7Hh3RFAOJYYZjN97Lz4AoNbduQS_B3I,46
+pastelaria-0.0.1.dist-info/top_level.txt,sha256=kyxbdz9UTJJmRl2R_ol4h9rL0TBjXfTaPELAVgCmahs,22
+pastelaria-0.0.1.dist-info/RECORD,,
