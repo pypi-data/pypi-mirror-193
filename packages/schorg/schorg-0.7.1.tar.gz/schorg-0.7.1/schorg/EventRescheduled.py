@@ -1,0 +1,77 @@
+"""
+The event has been rescheduled. The event's previousStartDate should be set to the old date and the startDate should be set to the event's new date. (If the event has been rescheduled multiple times, the previousStartDate property may be repeated.)
+
+https://schema.org/EventRescheduled
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class EventRescheduledInheritedProperties(TypedDict):
+    """The event has been rescheduled. The event's previousStartDate should be set to the old date and the startDate should be set to the event's new date. (If the event has been rescheduled multiple times, the previousStartDate property may be repeated.)
+
+    References:
+        https://schema.org/EventRescheduled
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+    
+
+
+class EventRescheduledProperties(TypedDict):
+    """The event has been rescheduled. The event's previousStartDate should be set to the old date and the startDate should be set to the event's new date. (If the event has been rescheduled multiple times, the previousStartDate property may be repeated.)
+
+    References:
+        https://schema.org/EventRescheduled
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+    
+
+
+class AllProperties(EventRescheduledInheritedProperties , EventRescheduledProperties, TypedDict):
+    pass
+
+
+class EventRescheduledBaseModel(SchemaOrgBase):
+    id_ : Optional[Any] = Field(default="EventRescheduled",alias='@id')
+    context_ : Optional[Any] = Field(default=None,alias='@context')
+    graph_ : Optional[Any] = Field(default=None,alias='@graph')
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(type_: Union[EventRescheduledProperties, EventRescheduledInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "EventRescheduled"
+    return model
+    
+
+EventRescheduled = create_schema_org_model()
+
+
+def create_eventrescheduled_model(model: AllProperties):
+    _type =  AllProperties.__annotations__.copy()
+    for k in model.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: AllProperties):
+    pydantic_type =  create_eventrescheduled_model(model=model)
+    return pydantic_type(model).schema_json()
+
+
