@@ -1,0 +1,8 @@
+nrpys-0.1.0.dist-info/METADATA,sha256=jKX9oc1VLV7SdwURsnTeJ6khf4G2IlMiokgasv0pZnM,784
+nrpys-0.1.0.dist-info/WHEEL,sha256=0CJ2-cpQcMcP59XUJ0ATI6it82CHa_YOuWZEzm4qMdA,129
+nrpys-0.1.0.dist-info/license_files/LICENSE.txt,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+nrpys/__init__.py,sha256=4ZEaLtt2wjmm3PEkS4G_V4S_YhqJjSBKo8hyqwxonjs,103
+nrpys/__init__.pyi,sha256=37ja3tGTGhYctVig8nEzB47i22rtT5ZLVWTXOvm_MBE,1310
+nrpys/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nrpys/nrpys.cpython-312-s390x-linux-gnu.so,sha256=ziy64gYFlDlCBeVNagdcQ1SN4vL6zHcT0iVzpt3Zw8A,6221632
+nrpys-0.1.0.dist-info/RECORD,,
