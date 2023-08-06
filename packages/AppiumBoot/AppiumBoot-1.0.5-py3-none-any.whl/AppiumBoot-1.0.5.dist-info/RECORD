@@ -1,0 +1,15 @@
+AppiumBoot/__init__.py,sha256=RJ_bVltO3p5f68EXs8mFAcA9eOYKqhQWIUNg7_tOT44,404
+AppiumBoot/boot.py,sha256=lpbkKl-BTl6ucz6QwU09HfflMEzBwcof2eDj_vtzznY,35142
+AppiumBoot/extractor.py,sha256=QJViDJ8sB9HzJiFcMP7LSGtRjgZjHj21H29krtt2NEo,1973
+AppiumBoot/helpers.py,sha256=P6hcq253Iyzil9wcka_fyeR1Pz2h-qAHyctEhxVfjjA,1781
+AppiumBoot/response_wrapper.py,sha256=eYbH_r8srs68uPBvvkfSUzug8WdzZ2fQEjc1526nS0o,2084
+AppiumBoot/util.py,sha256=esNiM8rKVV0xNRUfo3bwpsAcKz4BpxoEfC4c_LxO500,5431
+AppiumBoot/validator.py,sha256=JdvO7lU6UcVKABByKaryXkmUQAbo1A-jslJ7diB1m1E,3196
+AppiumBoot/ocr/__init__.py,sha256=hlnnDACSbiYXlQkr_Y5aMVyIFVvGEK-hWzXmJdV9iFM,48
+AppiumBoot/ocr/ocr_baidu.py,sha256=MxKqFrwrcNqMhedU3irWIEvr6plWD5mDyiGeF-37Abg,2888
+AppiumBoot/ocr/ocr_youdao.py,sha256=EeCzA4HJE8-6Qatrqnekh8ReMBO233ogqFWm3rFW5wQ,2856
+AppiumBoot-1.0.5.dist-info/METADATA,sha256=g-tfm8Myfa_cU-X4KNpAWN2eEBaY99pxA1K4Vv3-zJA,34400
+AppiumBoot-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+AppiumBoot-1.0.5.dist-info/entry_points.txt,sha256=eqZbCI09YHZlc1RJL4UnGosVKkiLyICC6X5W0Uu8zGw,52
+AppiumBoot-1.0.5.dist-info/top_level.txt,sha256=ZNAXpWg34t7yaKmEsx0GiRc5bfqqjjn4JmKCI4cvWoE,11
+AppiumBoot-1.0.5.dist-info/RECORD,,
