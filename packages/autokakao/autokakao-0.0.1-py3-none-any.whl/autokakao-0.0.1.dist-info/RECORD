@@ -1,0 +1,10 @@
+autokakao/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autokakao/utils.py,sha256=_pHPJL7Ltd1v2M1-hrxyNQooLO40kAS0gxoPkqg27s0,498
+autokakao/wrapper.py,sha256=Hz8y6Yc7hwLc9aiG1uOlwPEhsMryaOxULaJZ7hMJpBE,2423
+autokakao/applescript/__init__.py,sha256=8JN8V4sp7J6_U9K82qND7ksLxrXBI8vIeAZZuS4nbsg,80
+autokakao/applescript/_run.py,sha256=8DsJwguEWJMi3TsTBKFrLvyc-y4hl-jQDL7i1Bhdqa0,630
+autokakao-0.0.1.dist-info/LICENSE,sha256=a-lYpIgwfn-z6MnzvMmnutPlvhNr9wrdjw56Mgxo7Ko,1073
+autokakao-0.0.1.dist-info/METADATA,sha256=qywx782wx-0g_fjvD8gY_mtCkmuCaxZE9l9xLD9so8c,1277
+autokakao-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autokakao-0.0.1.dist-info/top_level.txt,sha256=ZyJjSalJA52zMngjoM7UcbL9tI8-07Oj2UlmS3YPxtI,10
+autokakao-0.0.1.dist-info/RECORD,,
