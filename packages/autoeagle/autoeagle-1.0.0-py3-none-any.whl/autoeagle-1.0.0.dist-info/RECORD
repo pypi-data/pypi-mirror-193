@@ -1,0 +1,12 @@
+autoeagle/__init__.py,sha256=vU-dexYAV8r1H0nVCQMY2KcNNlTwbDxKvEk8eNskFRg,28
+autoeagle/autoeagle.toml,sha256=7YcVqHCEefhchxpyweHpViT0FwBgPPgsiEksEjmIR6E,45
+autoeagle/autoeagle_config.py,sha256=jirm1A2GG3Jgzachl7ilP01DWraztYze9oW4Dbuo4Vo,2920
+autoeagle/core.py,sha256=CwEYFFkAoSP3llRlF3PjBDlWTLyIFT1nQs8ShSLEzIY,13846
+autoeagle/ulp_generator.py,sha256=MYX_0j-THZQlbBR6jhueUBQeIvINNxEISf6_5MofMO8,1844
+autoeagle/ulp_script_template.txt,sha256=Fn8U9ZFSn7aFDvhlT3ZogkFnloThPoCAdx6yFeBJ48w,211
+autoeagle/ulp_template.txt,sha256=lqbnU-0n34NQVTlga3zfAxU5z0O_YHL4kLhH0_uSy0A,171
+autoeagle-1.0.0.dist-info/METADATA,sha256=Zfqt-3zwiJVXsCV4x4NwTOjrKCiVIRwDM_JsLrx98q0,9174
+autoeagle-1.0.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+autoeagle-1.0.0.dist-info/entry_points.txt,sha256=y2LdgRJwfmS9xODyzP3gpuwQSyfNdPjdQwowKkWT-Z8,113
+autoeagle-1.0.0.dist-info/licenses/LICENSE.txt,sha256=GA4k0f8zyJsPeXl_v_6h0BQT4BnMtK-NX8QSGL0JbCQ,1086
+autoeagle-1.0.0.dist-info/RECORD,,

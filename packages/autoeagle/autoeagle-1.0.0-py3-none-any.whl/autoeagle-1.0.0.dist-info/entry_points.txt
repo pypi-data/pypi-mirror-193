@@ -1,0 +1,3 @@
+[console_scripts]
+autoeagle_config = autoeagle.autoeagle_config:main
+generate_ulp = autoeagle.ulp_generator:main
