@@ -1,0 +1,9 @@
+dgp>=0.0.98
+gunicorn
+aiohttp
+aiohttp_sse
+psycopg2-binary
+
+[develop]
+pylama
+tox
