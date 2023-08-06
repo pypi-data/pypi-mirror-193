@@ -1,0 +1,2 @@
+[console_scripts]
+tsg-cli = tsg_export_cli:execute_tsg_interface
