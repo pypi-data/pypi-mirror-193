@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9d85967-63a5-40df-8b75-1a322335289c" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/westat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westat/examples/HereWeGo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/westat/examples/HereWeGo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westat/get_data_iv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/westat/get_data_iv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westat/get_data_woe.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/westat/get_data_woe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westat/get_modify_bins.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/westat/set_modify_bins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westat/get_psi.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/westat/get_psi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/westat/get_vif.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/westat/get_vif.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KXDrvmSNq5fGoLBz4RVsLVTzwD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/about/Desktop/git/westat",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\about\Desktop\git\westat\src\westat" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e9d85967-63a5-40df-8b75-1a322335289c" name="变更" comment="" />
+      <created>1674112236537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674112236537</updated>
+    </task>
+    <servers />
+  </component>
+</project>
