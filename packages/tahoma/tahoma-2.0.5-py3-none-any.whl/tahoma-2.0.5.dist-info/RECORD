@@ -1,0 +1,12 @@
+Tahoma/__init__.py,sha256=4dSzjn9lgRUW7FHDNgPWz_lz2lbk9nVgzJ2-b-kBHuM,119
+Tahoma/__version__.py,sha256=xEb7Z4b8xalXXExBg42XPAhbJKniHzcsEPjp-6S3ppg,22
+Tahoma/get_devices_url.py,sha256=HH9w4gBuliYlDbbpxzffr5r5nMym6T58PkK6-VaT3o4,4843
+Tahoma/install_tahoma.py,sha256=tY1dSfBWFxy3MfHnlpM-33m_aNNVZKCl58XJ-IOPUo0,552
+Tahoma/tahoma,sha256=Yf_U4n0TZqzvKl6Ln3iPIlyNrmQ3kNq_5hFv_j6G-UY,30339
+Tahoma/tahoma.py,sha256=Yf_U4n0TZqzvKl6Ln3iPIlyNrmQ3kNq_5hFv_j6G-UY,30339
+tahoma-2.0.5.dist-info/LICENSE,sha256=a0k-_JAe48NcEYapHMa6iR1kfDW_a6QQLYfP9vpWOWM,1070
+tahoma-2.0.5.dist-info/METADATA,sha256=-6zdUPk4HON1PXEQOyafctC5OvIFnrg20kTa2cbsJkQ,3884
+tahoma-2.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tahoma-2.0.5.dist-info/entry_points.txt,sha256=36QvY_D1hNWXa3HibWSu4lLdf-dDeYSn48An7JD8guU,92
+tahoma-2.0.5.dist-info/top_level.txt,sha256=5LB2KOza5G6VPz7IGJY-94RrjZM8caZtoqziOJIt-pg,14
+tahoma-2.0.5.dist-info/RECORD,,
