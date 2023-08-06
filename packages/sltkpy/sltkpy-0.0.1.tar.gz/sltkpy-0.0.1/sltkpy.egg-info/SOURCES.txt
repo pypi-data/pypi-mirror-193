@@ -1,0 +1,9 @@
+LICENSE
+README.md
+sltkpy/__init__.py
+sltkpy/setup.py
+sltkpy/sltk.py
+sltkpy.egg-info/PKG-INFO
+sltkpy.egg-info/SOURCES.txt
+sltkpy.egg-info/dependency_links.txt
+sltkpy.egg-info/top_level.txt
