@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: polyblur
+Version: 0.1.6
+Summary: Breaking down Polyblur: Fast blind Correction of Small Anisotropic Blurs [IPOL2022]
+Home-page: https://github.com/teboli/polyblur
+Author: Thomas Eboli
+Author-email: thomas.eboli@ens-paris-saclay.fr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+License-File: LICENSE
+
+# Polyblur Python package
+
+Pytorch-based implementation of "Polyblur: Removing mild blur by polynomial reblurring" [Delbracio2021] and detailed in "Breaking down Polyblur: Fast blind correction of small anisotropic blurs" [Eboli2022]. Any question at thomas.eboli@ens-paris-saclay.fr.
+
+Import the package as
+
+```shell
+import polyblur
+```
+
+In your Python script, run the functional interface
+
+```shell
+polyblur.polyblur_deblurring
+```
+
+or the torch.nn.Module interface
+
+```shell
+polyblur.PolyblurDeblurring
+```
