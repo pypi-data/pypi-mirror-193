@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chrome-boss
+Version: 0.5.0
+Summary: Chrome client
+Home-page: https://bitbucket.org/zavx0z/chrome_boss
+Author: zavx0z
+Author-email: zavx0z@yahoo.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: parse-schema
+
+# ChromeBoss
