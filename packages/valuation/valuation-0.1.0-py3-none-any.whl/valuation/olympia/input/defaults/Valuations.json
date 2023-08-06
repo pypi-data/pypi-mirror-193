@@ -1,0 +1,47 @@
+{
+    "FixedBond": [
+        "AnalyticQuantlib"
+    ],
+    "FloatBond": [
+        "AnalyticQuantlib"
+    ],
+    "Bond": [
+        "AnalyticQuantlib"
+    ],
+    "Swap": [
+        "AnalyticQuantlib"
+    ],
+    "CrossCurrencySwap": [
+        "AnalyticQuantlib"
+    ],
+    "CallableFixedBond": [
+        "TreeQuantlib"
+    ],
+    "CallableBond": [
+        "TreeQuantlib"
+    ],
+    "CapFloor": [
+        "AnalyticQuantlib"
+    ],
+    "VanillaSwap": [
+        "AnalyticQuantlib"
+    ],
+    "FxForward": [
+        "Analytic"
+    ],
+    "StockForward": [
+        "Analytic"
+    ],
+    "FxEuropeanOption": [
+        "AnalyticQuantlib"
+    ],
+    "FxContinuousBarrierOption": [
+        "AnalyticQuantlib"
+    ],
+    "Swaption": [
+        "AnalyticQuantlib"
+    ],
+    "ZeroBond": [
+        "AnalyticQuantlib"
+    ]
+}
