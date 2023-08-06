@@ -1,0 +1,6 @@
+﻿ramp.User.\_\_eq\_\_
+====================
+
+.. currentmodule:: ramp
+
+.. automethod:: User.__eq__

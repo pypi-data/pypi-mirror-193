@@ -1,0 +1,6 @@
+﻿ramp.Appliance.rand\_total\_time\_of\_use
+=========================================
+
+.. currentmodule:: ramp
+
+.. automethod:: Appliance.rand_total_time_of_use

@@ -1,0 +1,6 @@
+﻿ramp.Appliance.switch\_on
+=========================
+
+.. currentmodule:: ramp
+
+.. automethod:: Appliance.switch_on

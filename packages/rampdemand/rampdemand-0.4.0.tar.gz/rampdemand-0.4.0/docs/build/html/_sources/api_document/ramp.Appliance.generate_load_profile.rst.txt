@@ -1,0 +1,6 @@
+﻿ramp.Appliance.generate\_load\_profile
+======================================
+
+.. currentmodule:: ramp
+
+.. automethod:: Appliance.generate_load_profile

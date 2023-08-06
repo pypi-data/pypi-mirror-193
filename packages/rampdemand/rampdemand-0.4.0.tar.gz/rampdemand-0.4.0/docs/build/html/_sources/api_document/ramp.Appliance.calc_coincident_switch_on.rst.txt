@@ -1,0 +1,6 @@
+﻿ramp.Appliance.calc\_coincident\_switch\_on
+===========================================
+
+.. currentmodule:: ramp
+
+.. automethod:: Appliance.calc_coincident_switch_on

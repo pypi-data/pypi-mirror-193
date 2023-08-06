@@ -1,0 +1,6 @@
+﻿ramp.Appliance.calc\_indexes\_for\_rand\_switch\_on
+===================================================
+
+.. currentmodule:: ramp
+
+.. automethod:: Appliance.calc_indexes_for_rand_switch_on

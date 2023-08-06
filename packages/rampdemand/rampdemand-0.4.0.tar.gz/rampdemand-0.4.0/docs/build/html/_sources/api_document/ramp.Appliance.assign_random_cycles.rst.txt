@@ -1,0 +1,6 @@
+﻿ramp.Appliance.assign\_random\_cycles
+=====================================
+
+.. currentmodule:: ramp
+
+.. automethod:: Appliance.assign_random_cycles

@@ -1,0 +1,6 @@
+﻿ramp.Appliance.update\_daily\_use
+=================================
+
+.. currentmodule:: ramp
+
+.. automethod:: Appliance.update_daily_use
