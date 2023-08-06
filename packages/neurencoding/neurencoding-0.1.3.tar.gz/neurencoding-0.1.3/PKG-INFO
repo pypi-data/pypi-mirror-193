@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: neurencoding
+Version: 0.1.3
+Summary: Neural encoding models made easy. Describe neuronal activity as a function of other variables
+Author-email: Berk Gercek <berkgercek@duck.com>
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a placeholder.
+
+All work based on code from pillowlab/neuroGLM, translated and extended.
