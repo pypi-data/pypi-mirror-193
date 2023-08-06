@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: testpublishzhangxin
+Version: 0.0.6rc0
+Summary: a test
+Home-page: https://github.com/sola7693/test_github_action
+Author: zhangxin
+Author-email: 394845773@qq.com
+License: MIT License
+Description: test 
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries

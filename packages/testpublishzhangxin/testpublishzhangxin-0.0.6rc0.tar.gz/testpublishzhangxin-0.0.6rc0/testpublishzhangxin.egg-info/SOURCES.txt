@@ -1,0 +1,8 @@
+README.md
+setup.py
+testpublishzhangxin.egg-info/PKG-INFO
+testpublishzhangxin.egg-info/SOURCES.txt
+testpublishzhangxin.egg-info/dependency_links.txt
+testpublishzhangxin.egg-info/top_level.txt
+testpypizhangxin/__init__.py
+testpypizhangxin/day.py
