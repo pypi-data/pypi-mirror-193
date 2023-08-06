@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/calc_files_control_sum/__init__.py
+src/calc_files_control_sum/cfcs.py
+src/calc_files_control_sum/config.py
+src/calc_files_control_sum/my_int.py
+src/calc_files_control_sum/my_strings.py
+src/calc_files_control_sum/my_utils.py
+src/calc_files_control_sum/str_without_trans.py
+src/calc_files_control_sum/translated.csv
+src/calc_files_control_sum.egg-info/PKG-INFO
+src/calc_files_control_sum.egg-info/SOURCES.txt
+src/calc_files_control_sum.egg-info/dependency_links.txt
+src/calc_files_control_sum.egg-info/entry_points.txt
+src/calc_files_control_sum.egg-info/top_level.txt

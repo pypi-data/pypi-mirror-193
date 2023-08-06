@@ -1,0 +1,2 @@
+[console_scripts]
+cfcs = calc_files_control_sum.cfcs:main
