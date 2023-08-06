@@ -1,0 +1,12 @@
+[[source]]
+url = "https://github.com/GalaxyGamerYT/Galaxy-Personal-Lib"
+verify_ssl = true
+name = "GalaxyPersonalLib"
+
+[packages]
+cryptography = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
