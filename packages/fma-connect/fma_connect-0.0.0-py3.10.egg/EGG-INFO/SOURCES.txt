@@ -1,0 +1,5 @@
+setup.py
+fma_connect.egg-info/PKG-INFO
+fma_connect.egg-info/SOURCES.txt
+fma_connect.egg-info/dependency_links.txt
+fma_connect.egg-info/top_level.txt
