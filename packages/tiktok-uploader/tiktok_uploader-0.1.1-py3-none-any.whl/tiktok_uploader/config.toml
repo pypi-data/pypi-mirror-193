@@ -1,0 +1,41 @@
+# TikTok Uploader Default Configuation File
+
+headless = false
+quit_on_end = true
+
+# Selenium Webdriver Waits (in seconds)
+implicit_wait = 5
+explicit_wait = 60 
+
+supported_file_types = ["mp4", "mov", "avi", "wmv", "flv", "webm", "mkv", "m4v", "3gp", "3g2", "gif"]
+
+[paths]
+main = "https://www.tiktok.com/"
+login = "https://www.tiktok.com/login/phone-or-email/email"
+upload = "https://www.tiktok.com/upload"
+
+[disguising]
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+
+[selectors] # Selenium XPATH selectors
+
+	[selectors.login]
+	username_field = "//input[@name=\"username\"]"
+	password_field = "//input[@type=\"password\"]"
+	login_button = "//button[@type=\"submit\"]"
+	
+	alert_user_if_failed = true # sends an alert and waits instead of failing
+	
+	cookie_of_interest = "sessionid" # cookie to check if login was successful
+	
+	[selectors.upload]
+	iframe = "//iframe"
+	
+	upload_video = "//input[@type=\"file\"]"
+	upload_confirmation = "//video" 
+	process_confirmation = "//img[@draggable=\"false\"]"
+
+	description = "//div[@contenteditable=\"true\"]"
+
+	post = "//button[.=\"Post\"]"
+	post_confirmation = "//div[.=\"Your videos are being uploaded to TikTok!\"]"
