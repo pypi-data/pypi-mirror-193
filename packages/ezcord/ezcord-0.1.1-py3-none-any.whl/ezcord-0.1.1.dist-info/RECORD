@@ -1,0 +1,12 @@
+ezcord/__init__.py,sha256=BQedqxZnZMzgpCCXFtWESAnS3gHtpX4ikaeDj86uDfU,108
+ezcord/bot.py,sha256=s8EqsQvxXiXB8pkdKxH4SAh6oO6I-zL93VjAHSy2QPE,4729
+ezcord/emb.py,sha256=kIlOTYkzvDR8pcZSMzh9P4nwLRBtx4CA5Kaq3_u3bVM,2035
+ezcord/log.py,sha256=TDr5vh3igkx-JASAQ4wY9gFGJE67Flmp05uQepjmAUc,2874
+ezcord/times.py,sha256=BW_vywuuxWdjAt7IThuZGbFRerOEk0eleafxtJppzLg,1793
+ezcord/translation.py,sha256=_B8Typ1Pxe-9MaZ_dBPx7WEGTJsK6SglYgUfzddeev0,780
+ezcord/utils.py,sha256=NqqF3CB247T3TewNJbVFdos3OzkD9gcCSWfEA13YZb0,2998
+ezcord-0.1.1.dist-info/LICENSE,sha256=4TVnDyAw6mu8im0XTlHPQAZROnu6WfUQWAIOoeUOXrc,1071
+ezcord-0.1.1.dist-info/METADATA,sha256=pqFy3Q-2QY3a1VmvTfyAsxdIK34JkKyB5QyYNjk7U50,2911
+ezcord-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ezcord-0.1.1.dist-info/top_level.txt,sha256=leP6h82sCS2D0aITZUjq1a6nV6NVQQ-dFxpNXQhSNvc,7
+ezcord-0.1.1.dist-info/RECORD,,
