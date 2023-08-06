@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+capture/__init__.py
+capture/client.py
+capture/constants.py
+capture/data_types.py
+capture/setup.py
+capture/utils.py
+data_capture.egg-info/PKG-INFO
+data_capture.egg-info/SOURCES.txt
+data_capture.egg-info/dependency_links.txt
+data_capture.egg-info/not-zip-safe
+data_capture.egg-info/requires.txt
+data_capture.egg-info/top_level.txt
