@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/consentiumthings.py
+src/micropython_consentiumthings.egg-info/PKG-INFO
+src/micropython_consentiumthings.egg-info/SOURCES.txt
+src/micropython_consentiumthings.egg-info/dependency_links.txt
+src/micropython_consentiumthings.egg-info/top_level.txt
