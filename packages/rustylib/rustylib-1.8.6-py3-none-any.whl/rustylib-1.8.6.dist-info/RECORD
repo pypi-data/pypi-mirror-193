@@ -1,0 +1,13 @@
+rustylib/Rcolor.py,sha256=C37vvAx6R3BO-aCQy0ItjVjXlPEVQzjlmmfiwJ0SHpU,239
+rustylib/Rkon.py,sha256=zQVQLvEUldBq7VDZ3r7LnVKzbYG00b9gaqbK6WTrT3k,3921
+rustylib/Rmath.py,sha256=AHyp9fW2zSOhXXJB0wKRK0sa5_4_MghqdLB2ZHRVsc4,4552
+rustylib/Rrandom.py,sha256=XtwgKjhqh4CjiUwaUUzg0S7ieSFUfj-Q0V1Q4rx8TDc,2740
+rustylib/Rrequests.py,sha256=0TFQQxGL5oyqGxH1WHnfBZa1BOKn6RYC1hcmb8SEJIw,1460
+rustylib/Rsugaku.py,sha256=93wrN6t3v3MdFpheYdKsxyjhsjM6dtwgOB48YEoe0xs,1771
+rustylib/Rusty.py,sha256=mh4oKC2HXf-6xqq6Eoa_0MwY6Fxca-PZaFFH4seRjPY,11279
+rustylib/__init__.py,sha256=I94eQWl1mSXz4GKRQHW-8qlTzBwTtkpBq7o6EyqS0eY,475
+rustylib/kon.wav,sha256=hnqVVctAAPF0jWdpYkZRjSdu4X16DaHe7tPbHFDSRHY,32001404
+rustylib-1.8.6.dist-info/METADATA,sha256=QgzgOTcNDZEwycesYH6tLyi6NhBl5n1AlFDMmMZae7Q,1427
+rustylib-1.8.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rustylib-1.8.6.dist-info/top_level.txt,sha256=3aiRWOzXeTvLkkST2PXRI1BFlt4da7NkEDHhedc1UlU,9
+rustylib-1.8.6.dist-info/RECORD,,
