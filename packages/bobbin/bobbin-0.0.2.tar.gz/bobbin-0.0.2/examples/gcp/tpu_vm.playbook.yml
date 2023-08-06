@@ -1,0 +1,124 @@
+# Run this as:
+# ansible-playbook ./examples/gcp/tpu_vm.playbook.yml \
+#   "zone=us-central1-c project=some_project node_name=bobbin-tpu"
+# The current configuration doesn't support multi-host configuration,
+# i.e. TPU accelerator_type has to be set as "v*-8".
+- name: Creating TPU host(s)
+  hosts: localhost
+  gather_facts: false
+  vars:
+    zone: CONFIG_NOT_PROVIDED
+    project: CONFIG_NOT_PROVIDED
+    node_name: CONFIG_NOT_PROVIDED
+    accelerator_type: v3-8
+    vm_version: tpu-vm-base
+  tasks:
+    - name: Enabling TPU API
+      ansible.builtin.command:
+        cmd: gcloud --quiet services enable tpu.googleapis.com --project {{ vars.project }}
+      register: enable_api_result
+      changed_when: "'successfully' in enable_api_result.stderr"
+    - name: Creating TPU node
+      ansible.builtin.shell:
+        cmd: |
+          NUM_VMS=$(gcloud --quiet compute tpus tpu-vm list --zone {{ vars.zone }} \
+            --project {{ vars.project }} --filter "name:{{ vars.node_name }}" \
+            --format json | jq '. | length')
+          if [[ 0 -eq "${NUM_VMS}" ]]; then
+            gcloud --quiet compute tpus tpu-vm create {{ vars.node_name }} --zone {{ vars.zone }} \
+              --project {{ vars.project }} --accelerator-type {{ vars.accelerator_type }} \
+              --version {{ vars.vm_version }} || exit 1
+            echo "CREATED"
+          else
+            echo "ALREADY_CREATED"
+          fi
+          SSH_CMD=$(gcloud --quiet compute tpus tpu-vm ssh {{ vars.node_name }} --zone {{ vars.zone }} --project {{ vars.project }} --dry-run)
+          SSH_OPTS=$(echo "${SSH_CMD}" | sed 's/^[^ ]* //' | sed 's/ [^ ]*$//' | sed 's/-t //')
+          TARGET=$(echo "${SSH_CMD}" | sed 's/^.* \([^ ]*\)$/\1/')
+          USER=$(echo "${TARGET}" | cut -d'@' -f 1)
+          HOST=$(echo "${TARGET}" | cut -d'@' -f 2)
+          echo ${SSH_OPTS}
+          echo ${USER}
+          echo ${HOST}
+      changed_when: "'ALREADY_CREATED' not in create_tpu_result.stdout"
+      register: create_tpu_result
+    - name: Setting SSH options
+      ansible.builtin.set_fact:
+        tpu_ssh_common_args: "{{ create_tpu_result.stdout_lines[1] }}"
+        tpu_ssh_user: "{{ create_tpu_result.stdout_lines[2] }}"
+        tpm_vm_name: "{{ node_name }}"
+    - name: Collecting SSH endpoints
+      ansible.builtin.shell:
+        cmd: |
+          gcloud compute tpus tpu-vm describe {{ vars.node_name }} \
+              --zone {{ vars.zone }} --project {{ vars.project }} \
+              --format json \
+              | jq '.networkEndpoints[].accessConfig.externalIp' -r
+      register: ssh_endpoint_results
+      # noqa no-changed-when
+    - name: Setting SSH host IP address
+      ansible.builtin.add_host:
+        name: "{{ item }}"
+        group: tpus
+      loop: "{{ ssh_endpoint_results.stdout_lines }}"
+    - name: Waiting for SSH connection
+      ansible.builtin.wait_for:
+        host: "{{ item }}"
+        port: 22
+      loop: "{{ ssh_endpoint_results.stdout_lines }}"
+- name: Setting up TPU Host
+  hosts: tpus
+  vars:
+    zone: CONFIG_NOT_PROVIDED
+    project: CONFIG_NOT_PROVIDED
+    node_name: CONFIG_NOT_PROVIDED
+    ansible_ssh_common_args: "{{ hostvars.localhost.tpu_ssh_common_args }}"
+    ansible_ssh_user: "{{ hostvars.localhost.tpu_ssh_user }}"
+    bobbin_root: "{{ ansible_facts.env.PWD }}/bobbin"
+    gcloud_credential_file: "{{ lookup('env', 'HOME') }}/.config/gcloud/application_default_credentials.json"
+  tasks:
+    - name: Creating credential directory
+      ansible.builtin.file:
+        path: "{{ ansible_facts.env.HOME }}/.config/gcloud/"
+        state: directory
+        mode: '0750'
+    - name: Copying credential
+      ansible.builtin.copy:
+        src: "{{ gcloud_credential_file }}"
+        dest: "{{ ansible_facts.env.HOME }}/.config/gcloud/application_default_credentials.json"
+        mode: '0600'
+    - name: Installing jax
+      ansible.builtin.pip:
+        name: "jax[tpu]"
+        extra_args: "--find-links=https://storage.googleapis.com/jax-releases/libtpu_releases.html"
+      become: true
+    - name: Synchronizing bobbin dir
+      ansible.posix.synchronize:
+        src: "{{ playbook_dir }}/../.."
+        dest: "{{ bobbin_root }}"
+        use_ssh_args: true
+        rsync_opts:
+          - "--exclude=devenv"
+          - "--exclude=.*"
+          - "--exclude=*.pyc"
+          - "--exclude=__pycache*"
+          - "--exclude=build"
+          - "--exclude=*.egg-info"
+      # noqa args  # `use_ssh_args` is relatively new and ansible-lint may not support.
+    - name: Installing bobbin prerequiments
+      ansible.builtin.pip:
+        requirements: "{{ bobbin_root }}/requirements/requirements.txt"
+      become: true
+    - name: Installing bobbin
+      ansible.builtin.pip:
+        chdir: "{{ bobbin_root }}"
+        name: "."
+        state: "forcereinstall"
+    - name: Installing utilities for example trainers
+      ansible.builtin.pip:
+        name:
+          - "tensorboard"
+          - "tensorflow-io"
+          - "tensorflow_datasets"
+          - "fiddle"
+      become: true
