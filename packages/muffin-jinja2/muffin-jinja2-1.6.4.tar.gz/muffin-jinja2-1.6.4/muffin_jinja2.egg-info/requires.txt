@@ -1,0 +1,15 @@
+muffin
+jinja2>=3.1.1
+
+[:python_version < "3.8"]
+cached_property
+typing-extensions
+
+[build]
+bump2version
+wheel
+
+[tests]
+pytest
+pytest-aio[curio,trio]
+pytest-mypy
