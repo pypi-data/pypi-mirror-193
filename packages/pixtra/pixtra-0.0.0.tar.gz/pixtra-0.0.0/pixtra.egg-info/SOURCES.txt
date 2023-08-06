@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pixtra/__init__.py
+pixtra.egg-info/PKG-INFO
+pixtra.egg-info/SOURCES.txt
+pixtra.egg-info/dependency_links.txt
+pixtra.egg-info/top_level.txt
+requirements/base.txt
