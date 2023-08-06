@@ -1,0 +1,35 @@
+[project]
+name = "sqlalchemy-timescaledb"
+version = "0.4"
+authors = [
+  { name="Andrei Kliatsko", email="andrey.daraschenka@gmail.com" },
+]
+description = "A SQLAlchemy dialect for TimescaleDB"
+readme = "README.md"
+dependencies = [
+    "sqlalchemy>=1.3"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest==7.2.1",
+    "pytest-cov==4.0.0",
+    "pytest-factoryboy==2.5.1",
+    "sqlalchemy[asyncio]>=1.3",
+    "psycopg2-binary==2.9.5",
+    "alembic==1.9.4",
+    "asyncpg==0.27.0",
+    "pytest-asyncio==0.20.3"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dorosch/sqlalchemy-timescaledb"
+
+[project.entry-points."sqlalchemy.dialects"]
+"timescaledb" = "sqlalchemy_timescaledb.dialect:TimescaledbPsycopg2Dialect"
+"timescaledb.psycopg2" = "sqlalchemy_timescaledb.dialect:TimescaledbPsycopg2Dialect"
+"timescaledb.asyncpg" = "sqlalchemy_timescaledb.dialect:TimescaledbAsyncpgDialect"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
