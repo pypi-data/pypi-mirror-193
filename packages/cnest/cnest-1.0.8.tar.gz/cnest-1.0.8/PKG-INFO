@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cnest
+Version: 1.0.8
+Summary: An efficient library providing operators on Python's nested data structures, implemented in C++
+Author: Haonan Yu
+Author-email: haonan.yu@horizon.ai
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pybind11 (>=2.6.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# cnest
+
+An efficient library providing operators on Python's nested data structures. It includes C++ implementation of several key nest functions that are performance critical.
+
+This library is developed by [Haonan Yu](https://github.com/hnyu) and alf contributors.
+
