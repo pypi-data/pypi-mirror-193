@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RPG-text-engine
+Version: 0.1.2
+Summary: Library to easily generate text with all kinds of different effects
+Author: LowRezCat (Ivan Resetnikov)
+Author-email: ivan.resetnikov.alpha@gmail.com
+Keywords: python,pygame,text,rpg,font,text effects
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENCE.txt
+Requires-Dist: pygame-ce
+
