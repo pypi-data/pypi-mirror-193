@@ -1,0 +1,9 @@
+solvis/__init__.py,sha256=bC7oeqTxExY6Hyw2V-tHmU2BMBMQTqpkr9RLz51O-qM,208
+solvis/config.py,sha256=QzKNR0J6eWvNswQOiKxDIL7DeQwC3V3W24kfej_Ws04,411
+solvis/geometry.py,sha256=PYIkX6mYSl5Lc8ZRfd0JQVwuJa_c3-9tJVWc-ly2Yr4,8175
+solvis/inversion_solution.py,sha256=pNMjrxKVtJsDRmm3nKJeSbPoQL_hT8bdeSFyGqiEE44,13953
+solvis/solvis.py,sha256=kiqa5LwCYMpgqQ1Oz6muBYIl-GYVuGOXZwnncU-HNCs,2147
+solvis-0.4.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+solvis-0.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+solvis-0.4.0.dist-info/METADATA,sha256=8Xb88-8c7comxGUMetyJNSd6g7seh0Vr0cuwEU1XYPo,4115
+solvis-0.4.0.dist-info/RECORD,,
