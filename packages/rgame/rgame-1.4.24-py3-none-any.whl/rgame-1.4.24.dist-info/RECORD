@@ -1,0 +1,10 @@
+rgame/__init__.py,sha256=6BFxufr1F7EzHaG2scdABxrjcN5ZEFr9Xody5GPMDY0,73
+rgame/rgame.py,sha256=QA1Vlm6-CkoAs_5gJ4K5pIb_pOgNDtmBxj2PvjOxUws,116384
+rgame/RGame/Physics.dll,sha256=RfDUPWOlktZge0JwZjUbuGuOzVJKL_4pWSN3l_kamAU,16384
+rgame/RGame/RGamePic.png,sha256=FrFhWoVJ0No5vCgKSp74Z-0YU1HatAnfR3SOkt0Bntk,2173
+rgame/RGame/Time.dll,sha256=5CF31QQbTuKbMPtxl8ClQOasy-mQyq3Vy_CANzhqUHM,82944
+rgame-1.4.24.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+rgame-1.4.24.dist-info/METADATA,sha256=i82mkijj7HAWa3m_O5Rf7cPtBO0aE0CTzCK4UsEKYds,587
+rgame-1.4.24.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rgame-1.4.24.dist-info/top_level.txt,sha256=EhOonaw32HEc3BSSZbZQQJ1dniGVh1dWjX2czg4ZP64,6
+rgame-1.4.24.dist-info/RECORD,,
