@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyhmtai
+Version: 0.1.6
+Summary: HMtai python port.
+Home-page: https://github.com/MagM1go/pyhmtai
+Author: MagMigo
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# PyHMTai
+Simple python port of HMtai
+
+# Examples
+```python
+from pyhmtai import PyHMTai, AIOPyHMTai
+
+sync_api = PyHMTai()
+async_api = AIOPyHMTai()
+
+sync_api.nsfw_image(endpoint="ass")
+await async_api.nsfw_image(endpoint="ass")
+```
