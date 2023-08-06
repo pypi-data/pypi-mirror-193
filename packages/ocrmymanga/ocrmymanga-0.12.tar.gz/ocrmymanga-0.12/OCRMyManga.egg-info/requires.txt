@@ -1,0 +1,5 @@
+requests
+pillow
+reportlab
+PyPDF2
+google-cloud-vision
