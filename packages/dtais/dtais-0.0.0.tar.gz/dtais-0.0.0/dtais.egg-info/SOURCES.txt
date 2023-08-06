@@ -1,0 +1,8 @@
+setup.py
+dtais/__init__.py
+dtais/dtais.py
+dtais/img_aug.py
+dtais.egg-info/PKG-INFO
+dtais.egg-info/SOURCES.txt
+dtais.egg-info/dependency_links.txt
+dtais.egg-info/top_level.txt
