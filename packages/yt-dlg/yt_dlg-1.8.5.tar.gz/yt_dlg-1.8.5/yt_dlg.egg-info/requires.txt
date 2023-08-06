@@ -1,0 +1,6 @@
+pypubsub>=4.0.3
+wxPython<=4.2.1a1,>=4.0.7.post2
+
+[binaries]
+polib>=1.1.0
+pyinstaller<=5.8.0,>=3.6
