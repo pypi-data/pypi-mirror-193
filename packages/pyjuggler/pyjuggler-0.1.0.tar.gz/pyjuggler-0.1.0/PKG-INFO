@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyjuggler
+Version: 0.1.0
+Summary: Multi-processing for Python
+License: MIT
+Author: chinmay
+Author-email: hi@chinmayshah.xyz
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# pyjuggler
+
+Multi-processing for Python simplified

@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "pyjuggler"
+version = "0.1.0"
+description = "Multi-processing for Python"
+authors = ["chinmay <hi@chinmayshah.xyz>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+black = "^23.1.0"
+twine = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "pyjuggler"
+version = "0.1.0"
+description = "Multi-processing for Python"
+readme = "README.md"
+authors = ["chinmay <hi@chinmayshah.xyz>"]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["multiprocessing"]
+requires-python = ">=3.8"
