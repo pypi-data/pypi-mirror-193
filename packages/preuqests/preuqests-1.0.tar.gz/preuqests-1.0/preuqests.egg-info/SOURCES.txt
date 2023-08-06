@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+preuqests.egg-info/PKG-INFO
+preuqests.egg-info/SOURCES.txt
+preuqests.egg-info/dependency_links.txt
+preuqests.egg-info/requires.txt
+preuqests.egg-info/top_level.txt
