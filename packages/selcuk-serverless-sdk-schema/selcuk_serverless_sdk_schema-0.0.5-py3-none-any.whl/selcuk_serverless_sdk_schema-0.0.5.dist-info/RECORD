@@ -1,0 +1,13 @@
+selcuk_serverless_sdk_schema/__init__.py,sha256=g55SXmREIlhw2Enk4fxVVFV0OC3mBdF4hsgYQMLJHEI,139
+selcuk_serverless_sdk_schema/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selcuk_serverless_sdk_schema/schema/serverless/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selcuk_serverless_sdk_schema/schema/serverless/instrumentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selcuk_serverless_sdk_schema/schema/serverless/instrumentation/tags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selcuk_serverless_sdk_schema/schema/serverless/instrumentation/tags/v1/__init__.py,sha256=DEeM2DxRUIl-vMgWybIjiXb5lhmh438_npCdK4WQ-UI,23102
+selcuk_serverless_sdk_schema/schema/serverless/instrumentation/v1/__init__.py,sha256=SDiCl2U1M_3xAQ9v25bGMxKMgHj0d0XC3EmMLGb9vYw,16204
+selcuk_serverless_sdk_schema/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selcuk_serverless_sdk_schema/tests/test_schema.py,sha256=A2Qnn1PM5eqdu-dAaQBg2Yyz3jrYIh8DrWfrEsxh-iI,2806
+selcuk_serverless_sdk_schema-0.0.5.dist-info/METADATA,sha256=UH3qufZev9gaNRI4O5BUpNXj8zZPqKX_0Ban8j4LuXw,561
+selcuk_serverless_sdk_schema-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+selcuk_serverless_sdk_schema-0.0.5.dist-info/top_level.txt,sha256=MVobGw5a2cdm4xtMJp1Qg94ia3RzlLTGygdUcgDgtzc,29
+selcuk_serverless_sdk_schema-0.0.5.dist-info/RECORD,,
