@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: board-game-bot
+Version: 0.4.0
+Summary: Board game recommender bots 🤖
+Home-page: https://recommend.games/
+License: MIT
+Keywords: board games,tabletop games,bot,twitter,mastodon
+Author: Markus Shepherd
+Author-email: markus@recommend.games
+Requires-Python: >=3.8,<3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment :: Board Games
+Requires-Dist: board-game-utils (<0.2.0)
+Requires-Dist: html2text
+Requires-Dist: mastodon-py
+Requires-Dist: pretty-errors
+Requires-Dist: python-dotenv
+Requires-Dist: pytility
+Requires-Dist: requests
+Requires-Dist: tweepy (<4.0.0)
+Requires-Dist: urllib3
+Project-URL: Repository, https://gitlab.com/recommend.games/board-game-bot
+Description-Content-Type: text/markdown
+
+# 🎲 Board Game Bot 🤖
+
