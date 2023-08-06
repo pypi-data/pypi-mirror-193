@@ -1,0 +1,16 @@
+amusing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amusing/printing.py,sha256=pJrZEKMrOLjNOSnrMJ37vgQKZ7mKIizjJgMQtNVZMzE,1909
+amusing/munim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amusing/munim/audiomanip.py,sha256=hulwBzJBxd8HNEQfV9aSGANXbhJiOpWYvwwo8GtybbA,993
+amusing/munim/colormaps.py,sha256=nvOUy6z2VNOaJU5SDe_oxuSg07cJwW1FTYjIQmMMsxY,1777
+amusing/munim/munim.py,sha256=9F8enMqBqJoZQDdohOdBPpdL6KaXYDQZyp49ptqTxsE,1414
+amusing/munim/oscilloscope.py,sha256=oMILtLxFys3BzKCMSYwJuc3cpUMqflUBhT51-Nb-4WM,1661
+amusing/munim/spectogram.py,sha256=l7Onika1WvbDuE63U6dA-dX1KmPIDEF1dbVFvkzQ5vs,6217
+amusing/score/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amusing/score/animate.py,sha256=2mVKNKv5RuIcaFCe4sBqvo-uaPzliMKzqOWGyo-pCrM,15326
+amusing/score/mscx.py,sha256=n2O25Utsm8OOPwT3EgFHYnm9tfFyM15dJSEWE1IG3Qc,8467
+amusing-0.1.1.dist-info/LICENCE,sha256=E7UR4CvCOiOmvpaq2_l_bU-gObK-l6UyL5aOyEd_768,1098
+amusing-0.1.1.dist-info/METADATA,sha256=sCpSTxjhwPHLx8S8jzv-8bpDfZRCK8OcCfGg_6ZXE74,3414
+amusing-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+amusing-0.1.1.dist-info/top_level.txt,sha256=7yxdyv0EXyt3vPsifCBeGr8B8JFLpuiunEuTT0rluq4,8
+amusing-0.1.1.dist-info/RECORD,,
