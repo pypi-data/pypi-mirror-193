@@ -1,0 +1,15 @@
+README.md
+setup.py
+qiplot/__init__.py
+qiplot/colors.py
+qiplot/logconf.py
+qiplot/plot1d.py
+qiplot/plot2d_todo.py
+qiplot/reader.py
+qiplot/safe_plotdada.py
+qiplot.egg-info/PKG-INFO
+qiplot.egg-info/SOURCES.txt
+qiplot.egg-info/dependency_links.txt
+qiplot.egg-info/entry_points.txt
+qiplot.egg-info/requires.txt
+qiplot.egg-info/top_level.txt
