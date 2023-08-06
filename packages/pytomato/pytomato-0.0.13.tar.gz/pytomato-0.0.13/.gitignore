@@ -1,0 +1,9 @@
+.idea/
+pytomato.egg-info/
+build/
+dist/
+local.properties
+local.ini
+*/__pycache/
+*/__pycache__/
+*/.pytest_cache/
