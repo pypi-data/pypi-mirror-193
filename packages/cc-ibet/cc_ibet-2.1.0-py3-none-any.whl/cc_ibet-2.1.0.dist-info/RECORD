@@ -1,0 +1,8 @@
+ibet/__init__.py,sha256=oVE_mmLqzGFeM7KlcbcKmdlFtjBSiegsHmGur9w-rkM,90
+ibet/client.py,sha256=yQrrGsKEz6FaXLW-FAeNyeBUy8LSiARxVulXiZHk0SA,19287
+ibet/exceptions.py,sha256=i4f5O5OJhqeCJfngSAUuIh2ATbmayaUeqQ-wEQsGYrc,155
+ibet/settings.py,sha256=XOKKv1Bw99Uh1fmXeQvN8-ZHJqa1jPd6Gp0MWwAIdAc,886
+cc_ibet-2.1.0.dist-info/METADATA,sha256=iuYLcAmu2Ix7E6lspRhF_6c6vmQD6gDKyFS_63yYn4o,400
+cc_ibet-2.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cc_ibet-2.1.0.dist-info/top_level.txt,sha256=RV6260ojYJuBQXhaKRd8kSLEpK3t8ICW4Bc8iB6twso,5
+cc_ibet-2.1.0.dist-info/RECORD,,
