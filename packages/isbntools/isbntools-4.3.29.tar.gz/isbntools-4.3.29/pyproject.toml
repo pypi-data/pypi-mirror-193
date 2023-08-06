@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "isbntools"
+version = "4.3.29"
+description = "app/framework for 'all things ISBN' including metadata, descriptions, covers..."
+authors = ["xlcnd <xlcnd@outlook.com>"]
+license = "LGPLv3"
+readme = "README.rst"
+repository = "https://github.com/xlcnd/isbntools"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+isbnlib = "^3.10.12"
+
+[tool.poetry.dev-dependencies]
+bandit = "^1.7.0"
+coverage = "^5.5"
+flake8 = "^3.9.0"
+isort = "^5.8.0"
+pytest = "^6.2"
+pytest-cov = "^3.0"
+pylint = "^2.15"
+radon = "^4.5.0"
+tox = "^4.0"
+yapf = "^0.31.0"
+
+[tool.poetry.urls]
+issues = "https://github.com/xlcnd/isbntools/issues"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
