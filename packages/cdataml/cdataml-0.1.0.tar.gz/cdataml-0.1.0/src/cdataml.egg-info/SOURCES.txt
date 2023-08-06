@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/generate.py
+src/cdataml.egg-info/PKG-INFO
+src/cdataml.egg-info/SOURCES.txt
+src/cdataml.egg-info/dependency_links.txt
+src/cdataml.egg-info/requires.txt
+src/cdataml.egg-info/top_level.txt
