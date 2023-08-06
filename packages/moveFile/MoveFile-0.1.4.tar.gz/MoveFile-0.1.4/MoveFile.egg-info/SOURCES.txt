@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+MoveFile.egg-info/PKG-INFO
+MoveFile.egg-info/SOURCES.txt
+MoveFile.egg-info/dependency_links.txt
+MoveFile.egg-info/top_level.txt
+moveFile/__init__.py
+moveFile/find_file_return_path_m1.py
+moveFile/moveFileUi.py
+moveFile/msg_yidongwenjian.py
+moveFile/optionDb.py
+moveFile/Ui/__init__.py
+moveFile/Ui/moveFileUi.py
