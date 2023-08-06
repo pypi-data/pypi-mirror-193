@@ -1,0 +1,10 @@
+pyreadstat/__init__.py,sha256=en9EXa7qzcM8dd4ShBUxzHszpWy5hySHl2eQ6Hfaw1g,1124
+pyreadstat/_readstat_parser.cp310-win_amd64.pyd,sha256=S8YImayAADdSI0S7AcDGegPZx86X6Ggzj57Ym0ylvwU,1087488
+pyreadstat/_readstat_writer.cp310-win_amd64.pyd,sha256=0Fe1DLjVWmxaO4n1lsY7V96rJAjQk_W-vQG8IGXNmMA,1192960
+pyreadstat/pyreadstat.cp310-win_amd64.pyd,sha256=GsJEuT3ChfRoqEKQECgSFgnKgzI3X_4U6-Cr6fYox9A,1247744
+pyreadstat/worker.py,sha256=DHA7KXzZ3KSUSiYrepD7RpABPSLCYDq3-hOcoaFNBaI,972
+pyreadstat-1.2.1.dist-info/LICENSE,sha256=Tjohfl1RlkuDoTF5ctnLvkGnr8TU27PEy7PhOHjRz5c,12903
+pyreadstat-1.2.1.dist-info/METADATA,sha256=ppTeiiOAG3uZnH55ILdCLaxrb5gcJVjs6mBJsIxXFpk,1076
+pyreadstat-1.2.1.dist-info/WHEEL,sha256=rneS2j8QNmAwdNKHN86s6-qP7AMcWZgqiEoH3bdbh_Y,102
+pyreadstat-1.2.1.dist-info/top_level.txt,sha256=7LlluhR4SADp00dJTEVpKMet_Jki7JHA6abJ-wu831E,11
+pyreadstat-1.2.1.dist-info/RECORD,,
