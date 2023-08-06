@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: testpyd
+Version: 0.0.1
+Summary: Ferelegan's test.
+Home-page: https://github.com/Adenialzz/SongUtils
+Author: Adenialzz
+Author-email: ferelegan111@163.com
+License: MIT
+Keywords: pip,testpyd
+Platform: any
+Requires-Python: >=3
+
+Ferelegan's test.
+
