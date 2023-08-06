@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_dillpickle/README.MD
+a_pandas_ex_dillpickle/__init__.py
+a_pandas_ex_dillpickle/requirements.txt
+a_pandas_ex_dillpickle/thirdparty.json
+a_pandas_ex_dillpickle.egg-info/PKG-INFO
+a_pandas_ex_dillpickle.egg-info/SOURCES.txt
+a_pandas_ex_dillpickle.egg-info/dependency_links.txt
+a_pandas_ex_dillpickle.egg-info/requires.txt
+a_pandas_ex_dillpickle.egg-info/top_level.txt
