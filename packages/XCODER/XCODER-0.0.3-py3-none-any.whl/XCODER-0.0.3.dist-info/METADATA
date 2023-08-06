@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: XCODER
+Version: 0.0.3
+Summary: Source Rubika
+Home-page: https://rubika.ir/X_CODER_2721
+Author: X_CODER
+Author-email: x.coder.2721@gmail.com
+Keywords: rubika
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.7
+Requires-Dist: requests
+Requires-Dist: rubiran
+Requires-Dist: ArseinRubika
+Requires-Dist: pyrubi
+
