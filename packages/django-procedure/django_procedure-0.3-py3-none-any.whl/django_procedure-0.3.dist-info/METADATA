@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: django-procedure
+Version: 0.3
+Summary: A minimal Django app for procedure management.
+Author: Ray
+Author-email: ridcorix@gmail.com
+License: MIT  # Example license
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Django
+Requires-Dist: termcolor
+
+==========
+Procedure
+==========
+
+Procedure is a minimal process management system, capable of retrying and logging your tasks
+
+Quick start
+-----------
+
+1. Add "procedure" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'procedure',
+    ]
+
+2. Run ``python manage.py migrate`` to create the Procedure models.
