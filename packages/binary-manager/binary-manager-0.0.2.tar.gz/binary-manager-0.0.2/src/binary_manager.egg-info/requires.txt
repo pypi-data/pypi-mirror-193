@@ -1,0 +1,3 @@
+pylibfdt
+u_boot_pylib
+dtoc
