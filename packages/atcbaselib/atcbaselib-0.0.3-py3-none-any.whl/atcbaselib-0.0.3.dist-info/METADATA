@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: atcbaselib
+Version: 0.0.3
+Summary: Log check and auto rdm bug
+Author: zw
+Author-email: zwwwww@163.com
+License: apache 3.0
+Requires: numpy
+Requires: matplotlib
+Requires: re
+Requires: os
+Requires: datetime
+Requires: csv
+Requires: fuzzywuzzy
+
