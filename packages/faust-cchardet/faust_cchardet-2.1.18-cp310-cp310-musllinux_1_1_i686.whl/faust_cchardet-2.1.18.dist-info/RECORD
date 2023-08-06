@@ -1,0 +1,11 @@
+faust_cchardet-2.1.18.data/scripts/cchardetect,sha256=ZQNvs4FsZh88VbRkDHnNIjtgZNsCQLIn_NKHGfGUweU,1281
+faust_cchardet.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+faust_cchardet.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+cchardet/version.py,sha256=oyt0K2P8u25m_97_Tz5poUV17ojcL4iyq7e3-BUa0WE,23
+cchardet/__init__.py,sha256=6a7mBjZQL553qcSRwQkzdux4Wrxuv3_Aw0SEe_sP8wc,1161
+cchardet/_cchardet.cpython-310-i386-linux-gnu.so,sha256=HSfGCGAElTirecIAL-qWXqScpryOsO2-ZXNoSsd5UJs,655220
+faust_cchardet-2.1.18.dist-info/top_level.txt,sha256=Khgls4j_ipUgHqU5JjsYDtlYEsM7uP3jV8o1ZlZPSfA,9
+faust_cchardet-2.1.18.dist-info/RECORD,,
+faust_cchardet-2.1.18.dist-info/WHEEL,sha256=_i-QVQ3Dn0MLcEV4jXxMbN6ObyGGbM79E9LUcR-AAI8,111
+faust_cchardet-2.1.18.dist-info/METADATA,sha256=R_zoV8dqceCmdz0u0ONWVl-fOOBs5qGcjmCvWUWEXT0,8071
+faust_cchardet-2.1.18.dist-info/COPYING,sha256=EHopzN0td4qi31Ri-F3d-gmQWavSLgZOB-wsybr8N80,70517
