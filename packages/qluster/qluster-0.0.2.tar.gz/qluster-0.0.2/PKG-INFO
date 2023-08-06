@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: qluster
+Version: 0.0.2
+Summary: qluster
+Home-page: https://github.com/mdmould/qluster
+Author: Matthew Mould
+Author-email: mattdmould@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# qluster
+
+Quick clusters of merging binary black holes.
