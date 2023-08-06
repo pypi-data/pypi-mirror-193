@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: easilyb
+Version: 0.27.3
+Summary: Frequently used functions library for Python3 By Khalid Grandi (github.com/xaled).
+Home-page: https://github.com/xaled/easilyb/
+Author: Khalid Grandi
+Author-email: kh.grandi@gmail.com
+Keywords: library utils common
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Frequently used functions library for Python3 By Khalid Grandi (github.com/xaled).
