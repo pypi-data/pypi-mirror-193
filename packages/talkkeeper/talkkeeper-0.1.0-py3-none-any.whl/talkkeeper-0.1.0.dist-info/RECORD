@@ -1,0 +1,16 @@
+talkkeeper/__init__.py,sha256=Vvq_VdMLXwcKlUeRi6Rp1EjPFWsr3S8Wkz0-vZWbHA4,86
+talkkeeper/__main__.py,sha256=oqKgg1emfPMQXnWuGvNk1cZXslm8cjnHGfLx8cKccRM,81
+talkkeeper/cli/application.py,sha256=jMT0cRLQcO7sYhCZtlhn7gLf_en4jzsM_yTZwA6gtMw,394
+talkkeeper/core/settings.py,sha256=RaXPj8M8oMHqPwYQ1LayaQXmhCevPQYI9VZTRzKgnFo,454
+talkkeeper/handlers/audio.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talkkeeper/handlers/events.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talkkeeper/handlers/video.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+talkkeeper/index.db,sha256=3rMvRGcp18EfVfDMdf_8Lj-udq9-CerPBcSFaBIGtHE,12288
+talkkeeper/packages/index.py,sha256=JpogunjLYWKCghoBC_BLiO2FlHhzRB7Mrnzf6UpI6Nc,3634
+talkkeeper/packages/s3.py,sha256=rvM0y_7fB1hefkkHB57Knuj_FlCgxAFHG4a8ZOR4e1E,3870
+talkkeeper/packages/uploader.py,sha256=0SzjjdOV2hkMBUQPj2DyxuxkQrZZbV5o-lfp1QvTKsE,1271
+talkkeeper/talkkeeper.py,sha256=Y86glG9u61k5f152Z3CS7oF6dnhZCI1sgbg7WXHQMEY,1378
+talkkeeper-0.1.0.dist-info/entry_points.txt,sha256=W_hmB90edOHSQj_rSCUhuZJ5KEFa1lFpjLShi7YTySA,45
+talkkeeper-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+talkkeeper-0.1.0.dist-info/METADATA,sha256=CUJ6loJHqcw89rN8ce0vG_u8lObeVSK-ZC1Y7mPkP30,2181
+talkkeeper-0.1.0.dist-info/RECORD,,
