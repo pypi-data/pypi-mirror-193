@@ -1,0 +1,6 @@
+mturk_template
+mturk_template_cli
+mturk_template_tests
+tts_mos_test_mturk
+tts_mos_test_mturk_cli
+tts_mos_test_mturk_tests
