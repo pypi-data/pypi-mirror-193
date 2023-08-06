@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+smyg/metrics/code_changes.py
+smyg/metrics/code_churn.py
+smyg/smyg.egg-info/PKG-INFO
+smyg/smyg.egg-info/SOURCES.txt
+smyg/smyg.egg-info/dependency_links.txt
+smyg/smyg.egg-info/requires.txt
+smyg/smyg.egg-info/top_level.txt
+smyg/templates/code_changes.j2
+smyg/templates/commit.j2
+smyg/templates/commits.j2
+tests/test_edge_file.py
+tests/test_source_line.py
+tests/test_utils.py

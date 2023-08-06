@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smyg"
+version = "0.3.1"
+authors = [
+  { name="Nikolay Mikhaylichenko", email="nn.mikh@yandex.ru" },
+]
+description = "git metric calculation"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "typer ~= 0.7.0",
+    "pydriller ~= 2.3",
+    "rich ~= 13.1.0",
+    "jinja2 ~= 3.1.2",
+    "prometheus-client ~= 0.16",
+    "python-dateutil ~= 2.8.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nmix/showmeyourgit"
+"Bug Tracker" = "https://github.com/nmix/showmeyourgit/issues"
+
+[tool.setuptools.packages.find]
+where = ["smyg"]
+
+[tool.setuptools.package-data]
+templates = ["*.j2"]
