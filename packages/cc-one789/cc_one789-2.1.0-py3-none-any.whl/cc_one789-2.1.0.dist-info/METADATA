@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cc-one789
+Version: 2.1.0
+Author: 
+Author-email: 
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# cc-one789
+
+
+
+## Requirement
+
+Python >=3.7
+
+## Installation
+
+```bash
+pip install cc-one789
+```
+
+## License
+
+MIT
