@@ -1,0 +1,2 @@
+recursive-include rubbrband/models *
+recursive-include rubbrband/helpers *
