@@ -1,0 +1,6 @@
+README.md
+setup.py
+shraddha_pkg.egg-info/PKG-INFO
+shraddha_pkg.egg-info/SOURCES.txt
+shraddha_pkg.egg-info/dependency_links.txt
+shraddha_pkg.egg-info/top_level.txt
