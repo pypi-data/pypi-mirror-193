@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: valuation
+Version: 0.1.8
+Summary: Financial Valuation Engine
+Home-page: https://github.com/Deloitte-Audit-Analytics/DaaValuationEngine
+Author: Deloitte Audit Analytics GmbH | Valuation
+Author-email: daa-valuation@deloitte-audit-analytics.com
+Project-URL: Bug Tracker, https://scdm-financial.atlassian.net/jira/software/projects/OP/boards/48/backlog
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DaaValuationEngine
+[Repository](https://github.com/Deloitte-Audit-Analytics/DaaValuationEngine)
+
+[Project](https://github.com/Deloitte-Audit-Analytics/DaaValuationEngine/projects/2)
+
+[Releases](https://github.com/Deloitte-Audit-Analytics/DaaValuationEngine/releases)
+## Setting up the project for development in PyCharm (on Windows)
+
+### Prerequisites:
+* `BeyondCompare` installed
+* `PyCharm Community` installed
+* `Python >= 3.9` installed
+* `git` installed
+
+### Setting up the development environment and working with PyCharm
+1) Clone the repository into `C:\Users\<user_name>\<your choice>`, then in `<your choice>` right click `DaaValuationEngine` -> `Open Folder as PyCharm Community Edition Project`
+2) Setting up a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/). This can be done in PyCharm:
+    * `File -> Settings -> Project: DaaValuationEngine -> Python Interpreter -> Small gear in the upper right -> Add -> Virtualenv Environment`
+    * Make sure that the Python installation is correctly mentioned under `Base interpreter` -> click `OK`, the virtual environment will be created in `DaaValuationEngine\venv`.
+3) Setting up PyCharm Terminal
+
+    The PyCharm `Terminal` works with both PowerShell and `cmd.exe`. The option to switch between the two is under:  
+    `File -> Settings -> Tools -> Terminal -> Shell path` (requires Terminal restart by closing the `Local` terminal window and reopening `Terminal`)
+    <br />  
+    If `cmd.exe` is used and the `venv` is activated, the `Terminal` will look like this
+
+    ```
+    Microsoft Windows [Version 10.0.19042.1766]
+    (c) Microsoft Corporation. All rights reserved.
+    
+    (venv) C:\Users\sbohlen\GitHubProjects\_2022_DaaValuationEngine\DaaValuationEngine>
+    ```
+    If the `(venv)` is missing, it is not activated, in this case check `File -> Settings -> Tools -> Terminal -> Activate virtualenv` (requires Terminal restart).  
+    It is recommended to use `cmd.exe`. However, if PowerShell is used (default in newer PyCharm versions), the terminal should look like this
+    ```
+    Windows PowerShell
+    Copyright (C) Microsoft Corporation. All rights reserved.
+
+    Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+    PS C:\Users\sbohlen\GitHubProjects\_2022_DaaValuationEngine\DaaValuationEngine>
+    ```
+    In this case you can run
+    ```
+    python
+    import os
+    import sys
+    os.path.dirname(sys.executable)
+    ```
+    to check if the venv is activated.
+4) Installing dependencies of the library
+    ```
+    (venv) C:\Users\sbohlen\GitHubProjects\_2022_DaaValuationEngine\DaaValuationEngine>cd src
+    (venv) C:\Users\sbohlen\GitHubProjects\_2022_DaaValuationEngine\DaaValuationEngine\src>py -m pip install -r requirements.txt
+   ```
+5) Marking `src` as sources root (so that PyCharm recognizes the import structure of the library)  
+`DaaValuationEngine\src -> Right click -> Mark Directory as -> Sources Root`
+6) BeyondCompare   
+    If BeyondCompare is installed in `C:\Users\<user_name>\AppData\Local\Beyond Compare 4\BCompare.exe`, this part can be skipped. Otherwise:
+    * Create an empty python file `user.py` in `C:\Users\<user_name>`
+    * Add your version of the following line:
+    ```
+    COMPARISON_COMMAND = r'C:\Users\sbohlen\AppData\Local\Beyond Compare 4\BCompare.exe'
+    ```
+7) Test the setup  
+`DaaValuationEngine\test\RegressionTest\run_regression_fast.py -> Right click -> Run 'run_regression_fast'`  
+The tests should run and a file comparison should be opened after the run by BeyondCompare.  
+Sometimes BeyondCompare will mark files as not equal (red) even though there are no visible differences. In this case:
+    * [Optional] Rerun the test so that BeyondCompare is open
+    * `Session -> Session Settings -> Comparison -> Requires opening files ->` check `Compare contents` and `Binary comparison`
+    * Change `Use for this view only` to `Also update session defaults`
+
+8) [Optional] Integrate GitHub with PyCharm  
+The local PyCharm project can be configured to be linked to the GitHub [Project](https://github.com/Deloitte-Audit-Analytics/DaaValuationEngine/projects/2)
+This can be done in `Tools -> Tasks & Contexts -> Configure Servers...`.  
+This is e.g. useful for creating feature branches associated directly to GitHub issues. After the server configuration, this can be done in `Tools -> Tasks & Contexts -> Open Task`.
+
+
+## Project Structure
+
+This project contains source code and supporting files for a serverless application that you can deploy either with the 
+gcloud CLI or locally. It includes the following files and folders.
+
+
+```
+.
++-- src                         -> SOURCE ROOT
+|   +-- consts                  -> Constants, type definitions, field definitions
+|   +-- inputs                  -> General data input handling
+|   +-- universal_transfer      -> Handles the transformation from raw inputs to internal storage objects
+|   +-- engine                  -> QuantLib environment and functions
+|   +-- universal_output        -> Handles the general output provisioning
+|   +-- olmypia                 -> wraps the process around in- and outputs and provides an compatible interface
+|   ... several helper modules
+|   main.py                     -> External entry points (Provides the entpoints for an API)
+|   run_valuation.py            -> Internal entry points
+|   ... 
+|
++-- docs                            -> Supporting literature and screenshots
++-- test                            -> Unit-, regression-, and library tests for the application code.   
+|   +-- InitialTests                -> Tests that are performed initially (Proof of concept)
+|   +-- InterfaceTest               -> Tests all external interfaces (excel, market data connection, etc.)
+|   +-- LibraryTest                 -> Tests the financial-mathematical correctness of the library
+|   +-- RegressionTest              -> General Regression
+|   +-- unit                        -> Single unit tests
+|   ...
+...
+```
+
+The version is globally defined in the first init.
+
+## Build the sample application
+
+Everytime the application is pushed to the master, the following steps are automatically applied:
+
+    1. Creates a new version tag
+    2. Releases the code under that version tag
+    3. Adds the __version__ to the __init__.py
+    4. Builds the application with python -m build (preferences in setup.cfg)
+    5. Adds the built assets to the release
+
+This procedure is controlled by [GitHub actions](https://docs.github.com/en/actions/learn-github-actions)
+
+### Version Tags
+
+Semantic version tags are used, consisting of v```major```.```minor```.```patch``` (e.g. v1.0.0). By default, when 
+pushing on the master, the ```minor``` is increased to create the new version tag. Include ```#major``` or ```#patch```
+to the commit message to increase the others instead.
+
+**_NOTE:_** The version will always be increased by the highest of ```#major```, ```#minor```, and ```#patch``` contained
+in all commit messages in a given push to the master. If none of the commits contains a flag, the ```minor``` 
+is increased.
+
+For further documentation see: [anothrNick/github-tag-action](https://github.com/anothrNick/github-tag-action)
+
+## Install the application
+
+Download the wheel (```.whl```) of any version from the [release page](https://github.com/Deloitte-Audit-Analytics/DaaValuationEngine/releases).
+The current version is always flagged with a ```latest``` label. Then execute:
+
+```bash
+pip install --target <INSTALLATION PATH> <WHEEL PATH>
+```
+## Deploying the cloud functions and the main service 
+
+To deploy the cloud functions make sure you are in the same directory of the `app.yaml` folder and run the following commands
+
+```bash
+Write-Output "Deploying functions"
+gcloud functions deploy get_schedule --runtime python39 --region europe-west3 --entry-point get_schedule --trigger-http
+gcloud functions deploy roll_date --runtime python39 --region europe-west3 --entry-point date_roller --trigger-http
+gcloud functions deploy get_calendars --runtime python39 --region europe-west3 --entry-point get_calendars --trigger-http
+```
+
+To deploy the main service function, you need to first set the project id using the following command
+```bash
+gcloud config set project PROJECT_ID
+```
+and after setting the ```PROJECT_ID``` make sure to do the appropriate changes in the following folders
+```app-engine-main```,```olympia.config.ini``` and ```local.config.ini``` where you should replace the project ID in the url and references.
+
+after setting all these up, you can now deploy the function with the command
+
+```bash
+gcloud app deploy
+```
+For further documentation see: [Deploying code to the App Engine](https://cloud.google.com/sdk/gcloud/reference/app/deploy)
+
