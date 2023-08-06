@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multicat/mc.py
+multicat.egg-info/PKG-INFO
+multicat.egg-info/SOURCES.txt
+multicat.egg-info/dependency_links.txt
+multicat.egg-info/entry_points.txt
+multicat.egg-info/top_level.txt
