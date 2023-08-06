@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+autokakao/__init__.py
+autokakao/utils.py
+autokakao/wrapper.py
+autokakao.egg-info/PKG-INFO
+autokakao.egg-info/SOURCES.txt
+autokakao.egg-info/dependency_links.txt
+autokakao.egg-info/top_level.txt
+autokakao/applescript/__init__.py
+autokakao/applescript/_run.py
