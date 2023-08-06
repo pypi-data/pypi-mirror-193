@@ -1,0 +1,8 @@
+hk/__init__.py,sha256=o-o3iMk6u3gvWh8_VgRV8_rzy2GsAj2aWsIP1BzUgAs,55
+hk/client.py,sha256=reBHu4abTzY_6RafOOqcg0G2fXcdPq0rgcq18Dg6i68,4907
+hk/exceptions.py,sha256=ldB4nX3CWEn_CCWWPbRkSqpIGtiD2gztorgBPiuUle8,148
+hk/settings.py,sha256=r_0VOwNwoNBQjitPqAjiFgdI_5-JwEy2sJ0VqA01_gA,84
+cc_hk-2.0.4.dist-info/METADATA,sha256=GgAkT3ciWOr4wnsKTVB0SX0MVS9fr0i5mS67u30rxtU,255
+cc_hk-2.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cc_hk-2.0.4.dist-info/top_level.txt,sha256=URLsnZsq5tT4MXSbq975vomziwngup_r-WpiHE_dF5s,3
+cc_hk-2.0.4.dist-info/RECORD,,
