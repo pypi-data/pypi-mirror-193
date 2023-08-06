@@ -1,0 +1,17 @@
+mobile_strings_converter/__init__.py,sha256=l9L6wKEY_n1fpAGlb3hUSOJQJlw2cxD2T7wV2enbr-w,581
+mobile_strings_converter/__main__.py,sha256=qoMov-0BibTKV2V_MhKD2gJnfd1sSq3OUihwwIng4do,3691
+mobile_strings_converter/assets/fonts/Aakar.ttf,sha256=sHtxPJcjk8GQPLw3sBOhx81KjEA12-xkAh8wMYd0by0,77096
+"mobile_strings_converter/assets/fonts/AnekTelugu-VariableFont_wdth,wght.ttf",sha256=N4_36TRTGvYPQF8m-_BPz48gHgXNqIt05BozHwGq7xM,1796568
+mobile_strings_converter/assets/fonts/DejaVuSansCondensed.ttf,sha256=hVDNXKGstlqPx4d8RpOc0LTZCfjnvB4kcWhz2RjF5Uk,680264
+mobile_strings_converter/assets/fonts/Eunjin.ttf,sha256=24OtuMtujrDHt2nDL0y69I0QcjGywnrCHhMqwn-nmVg,584324
+mobile_strings_converter/assets/fonts/Gurvetica_a8_Heavy.ttf,sha256=KLTtDymgOilQBA7_pA7lG-81912Q3cbO9Zw_Xt7RlwM,28568
+mobile_strings_converter/assets/fonts/Latha.ttf,sha256=UUUhuZWvVzhSvt98cti-PdJGPwyRG3O_abqUJPCUWiQ,73292
+mobile_strings_converter/assets/fonts/Waree.ttf,sha256=tVQfHrvgtuN-BEUwu-9D0oYNXJlsksQkl7-Bt0Z11I4,86820
+mobile_strings_converter/assets/fonts/fireflysung.ttf,sha256=BrGvUQ3no5a2lLjCrA1xptHcGzXGZAnH2AcKezUVrVY,15443432
+mobile_strings_converter/assets/fonts/gargi.ttf,sha256=jAvQ_7fHHpbfxqyCLOUBuWKbcr691emuSeDRQUbKfig,72500
+mobile_strings_converter/console_style.py,sha256=q3P2bwcZyAzB7JR7mPQaFcmZDYgwSxfJDDuYePIhYIs,108
+mobile_strings_converter/converter.py,sha256=y7dXKNUCPSj-_fPdH4sPMnJU_uJ5njxjr-DQsvjVDsw,11766
+mobile_strings_converter-0.1.0.dist-info/LICENSE,sha256=VzOmcrVOqd_e6c63ZLRH5Sx7V6ZKE9z87z3mcVu9XKw,1074
+mobile_strings_converter-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mobile_strings_converter-0.1.0.dist-info/METADATA,sha256=Ri0rIdHHyxg8Gxw22mX-JXU1WObsaUY8AnQqqOIIFmY,13331
+mobile_strings_converter-0.1.0.dist-info/RECORD,,
