@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./downloader/__init__.py
+./downloader/downloader.py
+./downloader/main.py
+./downloader/progress.py
+fire_downloader.egg-info/PKG-INFO
+fire_downloader.egg-info/SOURCES.txt
+fire_downloader.egg-info/dependency_links.txt
+fire_downloader.egg-info/entry_points.txt
+fire_downloader.egg-info/requires.txt
+fire_downloader.egg-info/top_level.txt
+test/test_multiple.py
