@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+src/postbox/__init__.py
+src/postbox.egg-info/PKG-INFO
+src/postbox.egg-info/SOURCES.txt
+src/postbox.egg-info/dependency_links.txt
+src/postbox.egg-info/top_level.txt
