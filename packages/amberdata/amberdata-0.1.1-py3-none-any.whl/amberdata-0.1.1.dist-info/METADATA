@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: amberdata
+Version: 0.1.1
+Summary: Amberdata is a Python library to access the Amberdata API
+Home-page: https://github.com/amberdata/amberdata-py
+Author: Patrick Doyle
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: gql[requests] (>=3.4.0,<4.0.0)
+Requires-Dist: sphinx (>=4.3.2,<5.0.0) ; extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=1.0.0,<2.0.0) ; extra == "docs"
+Requires-Dist: typing-extensions (>=4.0.1,<5.0.0) ; python_version >= "3.7" and python_version < "3.8"
+Project-URL: Repository, https://github.com/amberdata/amberdata-py
+Description-Content-Type: text/markdown
+
+## Demo
+
+## Install
+
+```bash
+pip install amberdata
+```
+## for reference
+
+```python
+from amberdata import Amberdata
+
+ad_client = Amberdata(x_api_key="ENTER YOUR API KEY HERE")
+
+blockchain_address_logs = ad_client.blockchain_address_logs(
+    address="0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB", topic="0x58e5d5a525e3b40bc15abaa38b5882678db1ee68befd2f60bafe3a7fd06db9e3"
+)
+
+print(blockchain_address_logs)
+```
+
