@@ -1,0 +1,9 @@
+README.md
+setup.py
+coloramas/__init__.py
+coloramas/coloramas_file.py
+coloramas.egg-info/PKG-INFO
+coloramas.egg-info/SOURCES.txt
+coloramas.egg-info/dependency_links.txt
+coloramas.egg-info/requires.txt
+coloramas.egg-info/top_level.txt
