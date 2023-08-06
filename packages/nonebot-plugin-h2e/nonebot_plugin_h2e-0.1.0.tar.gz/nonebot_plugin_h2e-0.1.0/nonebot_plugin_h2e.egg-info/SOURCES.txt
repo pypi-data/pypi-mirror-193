@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nonebot_plugin_h2e/__init__.py
+nonebot_plugin_h2e/h2e_info.py
+nonebot_plugin_h2e/h2e_sports_type.py
+nonebot_plugin_h2e/h2e_tool.py
+nonebot_plugin_h2e/utils.py
+nonebot_plugin_h2e.egg-info/PKG-INFO
+nonebot_plugin_h2e.egg-info/SOURCES.txt
+nonebot_plugin_h2e.egg-info/dependency_links.txt
+nonebot_plugin_h2e.egg-info/top_level.txt
