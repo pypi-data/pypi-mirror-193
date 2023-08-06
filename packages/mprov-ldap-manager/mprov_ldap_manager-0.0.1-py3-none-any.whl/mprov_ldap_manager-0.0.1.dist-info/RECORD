@@ -1,0 +1,12 @@
+mprov_ldap_manager/__init__.py,sha256=kplgWURb8x3MJfhfEJHNfqO3NwLyHtbsAHaG-k63wtI,60
+mprov_ldap_manager/admin.py,sha256=wPlO_7sVbqArsOl9cJWjRml4ndu-PdSUwnCCC6duSOE,1336
+mprov_ldap_manager/apps.py,sha256=jVYfT-ilWDGm7KnzUfTZQcO9FQJNq3VGbTs30KB0PzU,238
+mprov_ldap_manager/middleware.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mprov_ldap_manager/models.py,sha256=Q-NnvGV27WpCFn58DjEAOuIiiJxLi5bUy_Q6mVmVxNo,3183
+mprov_ldap_manager/serializers.py,sha256=zXXKqYk1Ig3C9bWdlCs-1u1ZureT6lXjhvZuUoyVCf4,86
+mprov_ldap_manager/views.py,sha256=WSybPDC6nbuC2el4PPzWAYXjW7Uo8hjgpTV4BmSPeg4,244
+mprov_ldap_manager-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mprov_ldap_manager-0.0.1.dist-info/METADATA,sha256=cHDIS98JVnqH9YTkAzCFEjVzVOQ00fnKeXkNqjLqOr0,1946
+mprov_ldap_manager-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mprov_ldap_manager-0.0.1.dist-info/top_level.txt,sha256=c42faT86aE79XeD85FD8WuXh0Un13Fzk6YqHf6JU00Q,19
+mprov_ldap_manager-0.0.1.dist-info/RECORD,,
