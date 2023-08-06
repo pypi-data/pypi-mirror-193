@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: myst_tools
+Version: 0.0.1
+Summary: Javascript based tool chain and command line for MyST
+Home-page: https://myst-tools.org
+Author: Executable Books Project
+Author-email: executablebooks@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# myst-tools
+
+An awesome Javascript based toolchain for writing in Markedly Restructured Text - [myst-tools.org](https://myst-tools.org)
