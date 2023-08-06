@@ -1,0 +1,3 @@
+[console_scripts]
+compatibility_checker = compatibility_checker:main
+parser = parser:main

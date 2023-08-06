@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: py_proto_parser
+Version: 0.0.1
+Summary: A Python protobuf parser library.
+Home-page: https://github.com/shaldengeki/py_proto
+Author: Charles OuGuo
+Author-email: shaldengeki@gmail.com
+Keywords: protobuf,protocol,buffers
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py_proto
+
+This is a Python-based protobuf parser. It is intended to serve as a reference implementation and is _not_ production-ready.
+
+![Build status](https://github.com/shaldengeki/py_proto/actions/workflows/main.yml/badge.svg)
+
+## Usage
+
+Right now, the primary way to use this as a library in your Bazelified Python code.
+
+Mount this repo in your Bazel workspace, then add `@py_proto//src/util:parser` as a dependency:
+```
+py_library(
+    name = "your_python_code",
+    # ...
+    deps = [
+        "@py_proto//src/util:parser",
+    ]
+)
+```
+
+Then, in your Python code, use the parser:
+```python
+from src.util.parser import ParseError, Parser
+with open("your.proto", "r") as proto_file:
+    parsed_proto = Parser.loads(proto_file.read())
+
+print(parsed_proto.syntax)
+```
+
+## Development
+
+We support building & running via Bazel. See the `TODO.md` for what's on the roadmap.
+
+### Bazel
+
+Do `bazel test //...`.
