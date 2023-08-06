@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: economynlp
+Version: 0.0.2
+Summary: Narrating Economy just using Python.
+Home-page: https://economynlp.com
+Author: Draco Deng
+Author-email: dracodeng6@gmail.com
+License: MIT
+Keywords: python,economy,intelligent economy,linguistic turn,linguistic
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+### Due to the existence of framing bias in natural language, we have developed Python narrative packages that includes [politicsnlp](https://pypi.org/project/politicsnlp/), [religionnlp](https://pypi.org/project/religionnlp/), [lawnlp](https://pypi.org/project/lawnlp/), and [economynlp](https://pypi.org/project/economynlp/), enabling us to communicate effectively within a common framework and avoid misunderstandings caused by different frames of reference.
+
+
+## Install & Import
+#### Dependencies
+- scipy 
+- numpy
+- pandas
+  
+For detailed installation instructions, see the
+[documentation](https://economynlp.com/documentation).
+```python
+pip install economynlp
+import economynlp as p
+```
+## Module:
+|  Module   | Content  |
+|  :----:  | :----:  |
+| **Abnormal**  | `Winner Curse`，`Bubble`|
+| **Environment**  | `Economic Environment`，`Industry Environment`，`Credit Environment`，`Market Environment`|
+| **Market**  | `Commodity`，`Goods`，`Market`|
+| **Structure**  | `Monopoly`，`Oligopoly`，`PerfectlyCompetitive`|
+| **System** |  `Digital Economy` ，`Physical Economy` ，`Market Economy`，`Planned  Economy` |
+
+
+Check out: https://economynlp.com
