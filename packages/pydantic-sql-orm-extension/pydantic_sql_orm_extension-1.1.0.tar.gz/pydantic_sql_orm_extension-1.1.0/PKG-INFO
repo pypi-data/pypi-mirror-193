@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pydantic_sql_orm_extension
+Version: 1.1.0
+Summary: Base class for serializing data using pydantic Flask
+Home-page: https://github.com/Jeep123Samuels/pydantic_sql_orm_extension
+Author: J Samuels
+Author-email: jeep123samuels@gmail.com
+License: MIT
+Download-URL: https://github.com/Jeep123Samuels/pydantic_sql_orm_extension/archive/main.zip
+Description: UNKNOWN
+Keywords: Flask,pydantic,serializers,sql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
