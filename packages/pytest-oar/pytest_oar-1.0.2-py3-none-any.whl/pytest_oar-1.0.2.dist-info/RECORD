@@ -1,0 +1,8 @@
+setup.py,sha256=oIWhtZR86Ey4tXiYn6HNb7izKCTy3AnmJT9hu7U43tQ,70
+oar/__init__.py,sha256=JlaEYhYB1L62UClWBt3ycQ2dwDB3WTCptoAN7xyg6N4,180
+oar/client.py,sha256=qdN8X00guo3qss6QZDRX3MOBzaWJNtxWUy2cHpL0JDY,3220
+oar/models.py,sha256=dLzJwC8QY5L6ndFzJYhHXy0ijN5PE3mS2stqsINWzSM,6046
+oar/plugin.py,sha256=w3AH8YrIVincbrOp_vLjswQqXpYWK2gZ1ejmzAURbHI,6438
+pytest_oar-1.0.2.dist-info/METADATA,sha256=IZrbmcv9sSKPQmxFzEvV9L5XT8idEB4u-JAcCrI8-kc,12632
+pytest_oar-1.0.2.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pytest_oar-1.0.2.dist-info/RECORD,,
