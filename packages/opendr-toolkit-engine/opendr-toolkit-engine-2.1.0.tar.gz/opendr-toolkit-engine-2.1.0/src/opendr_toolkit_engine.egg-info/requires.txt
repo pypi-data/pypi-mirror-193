@@ -1,0 +1,5 @@
+wheel
+Cython
+numpy<=1.23.5
+opencv-python==4.5.1.48
+torch==1.9.0
