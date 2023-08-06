@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+scientific_experiment_manager.egg-info/PKG-INFO
+scientific_experiment_manager.egg-info/SOURCES.txt
+scientific_experiment_manager.egg-info/dependency_links.txt
+scientific_experiment_manager.egg-info/requires.txt
+scientific_experiment_manager.egg-info/top_level.txt
+sem/__init__.py
+sem/manager.py
+sem/re_patterns.py
+sem/str_to_type.py
+sem/structure_parsing.py
+test/test_result_manager.py
