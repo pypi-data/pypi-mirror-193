@@ -1,0 +1,12 @@
+imp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imp/config.py,sha256=eJBh467i8A329MiO8om1ZdWeoB6u2fYCvjIEbfl1OQg,133
+imp/features.py,sha256=tOCXpVE50m4vsMktGwOw8OxAiDIrrHZhyTNxNIyfNEU,9932
+imp/image.py,sha256=2tds6dk4b0y6nbLNNJsyqEh4bHyi6Rg3_F895Rh-5Eo,360
+imp/samplers.py,sha256=iYsvEYbQghrV-PeHlpRBP8HrTh2R2Act4ziWdbL4Wf0,4565
+imp/sys.py,sha256=IKYkvdbtDhDBcCMReTxBT1xk4117oVi2J-wBcVo8Mts,489
+imp/utils.py,sha256=dLFVq9r5u74JlRTc5xTHdEGYbbqRMYZx7jxT-VCdprY,4219
+imp_kit-0.0.0.dev0.dist-info/LICENSE,sha256=dvjbaFg3KNv_ahE6vOysy8blOiMWT-kLaT5sWFPpdes,748
+imp_kit-0.0.0.dev0.dist-info/METADATA,sha256=rZxTWwts9ws6A5F_A-VycQ5D2mofcphC1E52cLVy408,2985
+imp_kit-0.0.0.dev0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+imp_kit-0.0.0.dev0.dist-info/top_level.txt,sha256=jGbxqpHVFcZp-rb5LT07-jq5vvGFSeQeyVpntE9A7zU,4
+imp_kit-0.0.0.dev0.dist-info/RECORD,,
