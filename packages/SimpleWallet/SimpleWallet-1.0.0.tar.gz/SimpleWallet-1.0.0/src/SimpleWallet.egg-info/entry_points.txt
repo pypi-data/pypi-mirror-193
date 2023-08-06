@@ -1,0 +1,2 @@
+[console_scripts]
+simplewallet = simplewallet.main:main
