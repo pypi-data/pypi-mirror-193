@@ -1,0 +1,90 @@
+[tool.poetry]
+name = "qibocal"
+version = "0.0.1"
+description = ""
+authors = ["andrea-pasquale <andreapasquale97@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/qiboteam/qibocal/"
+documentation = ""
+keywords = []
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+    ]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <4"
+qibolab = "^0.0.1"
+qibo = "^0.1.9"
+pandas = "^1.4.3"
+Pint-Pandas = "^0.3"
+dash = "^2.6.0"
+lmfit = "^1.0.3"
+# docs dependencies (for readthedocs, https://github.com/readthedocs/readthedocs.org/issues/4912#issuecomment-664002569)
+Sphinx = { version = "^4.3.2", optional = true }
+furo = { version = "^2022.9.29", optional = true }
+sphinxcontrib-bibtex = { version = "^2.4.1", optional = true }
+recommonmark = { version = "^0.7.1", optional = true }
+sphinx_markdown_tables = { version = "^0.0.17", optional = true }
+
+[tool.poetry.dev-dependencies]
+pylint = "2.12.2"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+poethepoet = "^0.16.0"
+Sphinx = "^4.3.2"
+furo = "^2022.9.29"
+sphinxcontrib-bibtex = "^2.4.1"
+recommonmark = "^0.7.1"
+sphinx_markdown_tables = "^0.0.17"
+
+[tool.poetry.extras]
+docs = ["sphinx", "furo", "sphinxcontrib-bibtex", "recommonmark", "sphinx_markdown_tables"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+qq = "qibocal:command"
+qq-live = "qibocal:live_plot"
+qq-upload = "qibocal:upload"
+qq-compare = "qibocal:compare"
+
+[tool.poe.tasks]
+test = "pytest src/qibocal/tests"
+lint = "pylint src/**/*.py -E"
+lint-warnings = "pylint src/**/*.py --exit-zero"
+docs = "make -C doc html"
+docs-clean = "make -C doc clean"
+test-docs = "make -C doc doctest"
+
+[tool.pytest.ini_options]
+testpaths = ['src/qibocal/tests/']
+addopts = [
+    '--cov=qibocal',
+    '--cov-report=xml'
+]
+
+[tool.pylint.master]
+# extensions not to check
+extension-pkg-whitelist = ["numpy"]
+jobs = 1
+
+[tool.pylint.messages_control]
+disable = ["invalid-name", "fixme"]
+
+[tool.pylint.reports]
+# Available formats are:
+# text, parseable, colorized, json and msvs (visual studio).
+output-format = "colorized"
+
+[tool.pylint.format]
+# Maximum number of characters on a single line.
+max-line-length = 100
+
+[tool.pylint.design]
+# Maximum number of arguments for function / method
+max-args = 10
