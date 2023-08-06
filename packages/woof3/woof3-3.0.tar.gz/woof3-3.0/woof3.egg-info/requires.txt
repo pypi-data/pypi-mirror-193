@@ -1,0 +1,3 @@
+six
+kafka-python
+gevent
