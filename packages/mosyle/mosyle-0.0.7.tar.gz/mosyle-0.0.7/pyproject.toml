@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mosyle"
+authors = [
+    {name = "Nathan McGuire", email = "mcguiren@osageschools.org" } 
+]
+maintainers = [
+    {name = "Nathan McGuire", email = "mcguiren@osageschools.org" }
+]
+description = "Mosyle Manager Python API"
+requires-python = ">=3.7"
+keywords = ["python", "api", "apple", "mdm", "mosyle"]
+#license = "MIT"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
+
+dynamic = ["readme","version"]
+
+[project.optional-dependencies]
+dev = ["check-manifest"]
+test = ["coverage"]
+
+[project.scripts]
+mosyle = "mosyle.__main__:main"
+
+[project.urls]
+"Github" = "https://github.com/SchoolOfTheOsage/mosyle"
+"Bug Reports" = "https://github.com/SchoolOfTheOsage/mosyle/issues"
+"Source" = "https://github.com/SchoolOfTheOsage/mosyle"
+
+[tool.setuptools.packages.find]
+where = ['src']
+
+[tool.setuptools.dynamic]
+readme = {file="readme.md", content_type="text/markdown"}
+#version = {attr = "mosyle._version:__version__"}
+
+[tool.setuptools_scm]
+write_to = "src/mosyle/__version__.py"
+
+[tool.distutils.bdist_wheel]
+universal = true
