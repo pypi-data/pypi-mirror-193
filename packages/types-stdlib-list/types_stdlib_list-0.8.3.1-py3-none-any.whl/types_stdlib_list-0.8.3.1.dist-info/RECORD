@@ -1,0 +1,8 @@
+stdlib_list-stubs/METADATA.toml,sha256=SB4otb2IYQzLEIi3qoS5KkovMIIrDQDMP3W8JFbABGg,18
+stdlib_list-stubs/__init__.pyi,sha256=BhmGzhOT4HjQHlJtlATh1P-rbHSzDKNXscfPAM-7GaA,226
+stdlib_list-stubs/_version.pyi,sha256=iJmvKXwhHB8msmv8REZJ72EolhBfIP1AOXnQJWyckqU,85
+stdlib_list-stubs/base.pyi,sha256=_mb9KCoAcqInyoHCyq0zodjswGFCNTpbh4jPg5pkTSc,237
+types_stdlib_list-0.8.3.1.dist-info/METADATA,sha256=sQX5w7J4cZ0LU0s6Xjrv-vEFg2MeXj5jY8c04BJvRjo,1322
+types_stdlib_list-0.8.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+types_stdlib_list-0.8.3.1.dist-info/top_level.txt,sha256=mlhf86gbUxR4IQt0bU485V6Pr95z2ZfiqHIzHYSJRrM,18
+types_stdlib_list-0.8.3.1.dist-info/RECORD,,
