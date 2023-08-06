@@ -1,0 +1,6 @@
+setup.py
+xbox-authorization/main.py
+xbox_authorization.egg-info/PKG-INFO
+xbox_authorization.egg-info/SOURCES.txt
+xbox_authorization.egg-info/dependency_links.txt
+xbox_authorization.egg-info/top_level.txt
