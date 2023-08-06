@@ -1,0 +1,8 @@
+addseconds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addseconds/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+addseconds/templatetags/addseconds.py,sha256=yfwebepejizsxvA9vXiH77jlNHSIlils7zb56AzXoJQ,1760
+django_addseconds-0.0.2b1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+django_addseconds-0.0.2b1.dist-info/METADATA,sha256=IsWLzx63TshR8kmxRyGy_ClLt0sHGuDaKAqdk7g8NdI,1355
+django_addseconds-0.0.2b1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+django_addseconds-0.0.2b1.dist-info/top_level.txt,sha256=ZFef4-vRJpu2gZQdecVUE3Pfks90DfCxghfYkEi0vqo,11
+django_addseconds-0.0.2b1.dist-info/RECORD,,
