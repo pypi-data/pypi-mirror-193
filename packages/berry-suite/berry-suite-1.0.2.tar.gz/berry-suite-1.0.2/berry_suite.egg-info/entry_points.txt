@@ -1,0 +1,4 @@
+[console_scripts]
+berry = berry.cli:berry_cli
+berry-vis = berry.cli:berry_vis_cli
+
