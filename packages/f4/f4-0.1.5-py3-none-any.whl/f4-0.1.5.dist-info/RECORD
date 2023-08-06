@@ -1,0 +1,12 @@
+f4/Builder.py,sha256=uiOvxmHWSTL2BFo_9egkeyiBi4Dsv6bNLU-G4tL4HAw,16987
+f4/Filters.py,sha256=RObWMUiW9DmXexVVKxi-Fd4H6Bj2Xzy1cNNxmsrBx5s,16651
+f4/IndexBuilder.py,sha256=KxfJ4bVRKTW_Bc7jSA9MW6f4KgOMychD1ioIDyDAz_g,9884
+f4/IndexSearcher.py,sha256=ZjW19YT3LCVujlnvZehV5JMYbi1D_jVma9Oodi9X40A,12068
+f4/Parser.py,sha256=zLj4XnUUY0escPz5WekLm46dliaUR6hfac5lnrGqxko,21040
+f4/Utilities.py,sha256=d-C3FBTEY9QgYNVQCjpUofeUP-88qJgPIQhkHuaQ4Z4,8637
+f4/__init__.py,sha256=omGCsbDC0z9FD4TGWO8624VNnP7ikK12wbNeQyX_0eQ,469
+f4-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+f4-0.1.5.dist-info/METADATA,sha256=Co5zWv9edVFeL_ZrNKAptxlRWkofUAIJeMRQYh6D4Kc,723
+f4-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+f4-0.1.5.dist-info/top_level.txt,sha256=gFd-ayfKUcVhzxhS_U6oZKzrwjOY4Wp1P82NrupTk7Y,3
+f4-0.1.5.dist-info/RECORD,,
