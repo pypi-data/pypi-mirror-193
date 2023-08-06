@@ -1,0 +1,3 @@
+[console_scripts]
+knock-knock=knock_knock.knock:main
+
