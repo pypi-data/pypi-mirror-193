@@ -1,0 +1,11 @@
+scampy/Activation.py,sha256=KUZtR7mOLQBdYtNH1btsLR_PTkKpv-1tczFQP9j-_TM,1294
+scampy/Layer.py,sha256=yH5lnbPBvnjvu2AbtVjSviJNAZYfcdk6zN18C29fsc4,2003
+scampy/Loss.py,sha256=1AP5JL0kvICpx7mWHE_MpZGa4hoHPFEZnd3AmDi0y18,3144
+scampy/Model.py,sha256=n8M3QJox_Ugp3nAvdCbWcRg8GGfT7lzVst2JY3tl4LI,4115
+scampy/Optimizer.py,sha256=oqdHLHwF2qbGuXeNuz4oewIQoLAlJw7tn2eiNPaMwxo,4692
+scampy/Util.py,sha256=NVY-Nh1eUw7tdjA3rRsC6Dmp4nA6_K7CAEJkDuVNF78,1865
+scampy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scampy-1.0.3.dist-info/METADATA,sha256=3FiypGFAmZVmchqBjHF1O-rHG23r7VIl73D8yqSsWoA,560
+scampy-1.0.3.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+scampy-1.0.3.dist-info/licenses/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+scampy-1.0.3.dist-info/RECORD,,

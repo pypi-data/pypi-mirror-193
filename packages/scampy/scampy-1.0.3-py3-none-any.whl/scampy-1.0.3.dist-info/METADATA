@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scampy
+Version: 1.0.3
+Summary: A small neural network library
+Project-URL: Homepage, https://github.com/LucasCzerny/scampy
+Project-URL: Bug Tracker, https://github.com/LucasCzerny/scampy/issues
+Author-email: Lucas Czerny <czernylucas@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# scampy
