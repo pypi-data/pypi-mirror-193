@@ -1,0 +1,24 @@
+{
+    "antithetic": true,
+    "brownianBridge": false,
+    "continuousTimeSteppingInDaysMC": 1.0,
+    "deltaAnalytic": 1e-05,
+    "deltaMC": 0.001,
+    "logNumberOfPaths": 15,
+    "maximalTimeSteppingInDaysMC": 20.0,
+    "randomGeneratorType": "Standard",
+    "rhoAnalytic": 0.001,
+    "rhoMC": 0.1,
+    "rhoScenarios": [
+        "0D"
+    ],
+    "toleranceForEquality": 0.005,
+    "vegaAnalytic": 0.001,
+    "vegaMC": 0.1,
+    "enableExtrapolation": true,
+    "enableBroadieGlassermann": false,
+    "symmetricGreeks": true,
+    "allowTradeDateMismatch": false,
+    "compounding": "Compounded",
+    "naturalFloor": true
+}
