@@ -1,0 +1,7 @@
+onnxdecoder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onnxdecoder/main.py,sha256=_HniFvoy17cP_YgIHd0z4T1wsGVCxoKOYI93cmcEngg,7357
+onnxdecoder/version.py,sha256=tCyaVVl4yu5eab5T7PjyCz95_vhoiTntp2_iC2ydDcw,22
+onnxdecoder-0.0.2.dist-info/METADATA,sha256=wZGhENXcqaQy7e6GlloyT1vtrRIXShzV-_h0C78URuo,1600
+onnxdecoder-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+onnxdecoder-0.0.2.dist-info/top_level.txt,sha256=ZV2Wz161qjEzFDtijiD40cUz5-v4vol2bWQZ15c47yc,12
+onnxdecoder-0.0.2.dist-info/RECORD,,
