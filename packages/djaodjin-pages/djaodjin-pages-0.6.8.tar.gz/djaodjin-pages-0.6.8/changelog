@@ -1,0 +1,135 @@
+0.6.8
+
+  * supports for bleach 6.0 released Jan 2023 introducing breaking changes
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Thu, 23 Feb 2023 17:25:00 -0700
+
+0.6.7
+
+  * redirects to uploaded document when assets APIis copy/pasted in URL bar
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Sun,  6 Nov 2022 14:33:00 -0700
+
+0.6.6
+
+  * optionally loads content directly through View instead of API
+  * LOCALE keys can be up to 8 characters
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Thu,  8 Sep 2022 23:55:00 -0700
+
+0.6.5
+
+  * fixes uploaded document not found when going through S3 direct upload
+  * compatibles with Django4.0
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Fri, 19 Aug 2022 20:06:00 -0700
+
+0.6.4
+
+  * whitelists HTML tags used by PageElement editor
+  * compatibles with bleach 5+
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Tue,  9 Aug 2022 10:15:00 -0700
+
+0.6.3
+
+  * uses content API for non-leafs elements in PageElementView
+  * fixes computation of number of pages in pagination
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Wed,  5 Jul 2022 15:33:00 -0700
+
+0.6.0
+
+  * adds feature to upload documents
+  * fixes accounts for obj.extra being None
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Wed,  8 Jun 2022 15:03:00 -0700
+
+0.5.0
+
+  * moves theme template editor to djaodjin-extended-templates
+        where it fits best.
+  * adds dynamic layout for page elements
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Sun,  1 May 2022 11:37:00 -0700
+
+0.4.3
+
+  * adds public parameter for profile pictures
+  * sorts while flattening content tree
+  * adds breadcrumbs in context
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Thu,  21 Apr 2022 22:39:00 -0700
+
+0.4.2
+
+  * clears cache for Jinja2>=2.9
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Sat,  2 Oct 2021 16:40:00 -0700
+
+0.4.1
+
+  * adds comment_was_posted signal
+  * enables to customize html/css for pagination links
+  * fitlers list of page elements by search criteria
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Thu,  30 Sep 2021 00:00:00 -0700
+
+0.4.0
+
+  * edits template wysiwyg-style directly
+  * settles API for PageElements
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Sun,  18 Jul 2021 17:05:00 -0700
+
+0.3.6
+
+  * uses the correct active theme on create and read
+  * switches default from S3BotoStorage to S3Boto3Storage
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Mon,  26 Apr 2021 23:40:00 -0700
+
+0.3.5
+
+  * chages DELETE media to take a query parameter instead of a body
+  * moves all translated strings to the server
+  * fixes installing theme with unicode characters in template files
+  * fixes reactions APIs
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Wed,  24 Mar 2020 23:37:00 -0700
+
+0.3.4
+
+  * adds reactions in API for page element detail
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Thu,  26 Nov 2020 21:06:00 -0700
+
+0.3.3
+
+  * adds follow/upvote/comment reactions
+  * insures API endpoint consistently ends without a trailing '/'
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Wed,  28 Oct 2020 14:33:00 -0700
+
+0.3.0
+
+  * adds an API end point to retrieve a content tree
+  * adds an API end point to search for page elements
+  * replaces api_page_elements by api_page_element_base
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Sun,  14 Jul 2020 13:59:00 -0700
+
+0.2.9
+
+  * compatibles with Django3
+  * uses `detail` consistently to return user-friendly messages
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Sun,  7 Jun 2020 11:41:00 -0700
+
+0.2.8
+
+  * uses acl option to add ?public=1
+  * updates API docs
+  * adds blacklist for template files
+
+ -- Sebastien Mirolo <smirolo@djaodjin.com>  Thu,  5 Mar 2020 09:45:00 -0700

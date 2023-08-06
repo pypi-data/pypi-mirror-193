@@ -1,0 +1,13 @@
+# djaodjin-pages
+bleach==2.0.0
+Django==1.11.29
+djangorestframework==3.9.4
+djaodjin-deployutils==0.10.2
+python-dateutil==2.8.1
+requests==2.22.0
+
+# testsite-only
+coverage==4.0.3
+django-extensions==2.0.6
+gunicorn==19.7.1
+whitenoise==4.1.2

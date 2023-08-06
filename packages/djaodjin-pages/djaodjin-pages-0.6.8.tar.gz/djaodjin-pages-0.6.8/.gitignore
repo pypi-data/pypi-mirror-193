@@ -1,0 +1,9 @@
+*.pyc
+*~
+*.xcodeproj
+.DS_Store
+db.sqlite
+credentials
+site.conf
+gunicorn.conf
+htdocs/
