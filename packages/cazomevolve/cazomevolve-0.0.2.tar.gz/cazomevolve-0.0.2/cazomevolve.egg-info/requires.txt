@@ -1,0 +1,9 @@
+cazy_webscraper
+biopython
+pandas
+tqdm
+saintbioutils
+numpy
+seaborn
+sqlalchemy
+upsetplot
