@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simple_cpf"
+version = "0.1.4"
+description = "A simple script to manipulate and validate CPF"
+authors = ["czargodoi <czargodoi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+ipython = "^8.10.0"
+ipdb = "^0.13.11"
+black = "^23.1.0"
+
+[tool.poetry.scripts]
+CPF = 'simple_cpf.simple_cpf:CPF'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
