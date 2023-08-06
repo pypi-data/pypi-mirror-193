@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: aws-ossm
+Version: 0.1.0
+Summary: Repository manager for ElasticSearch on AWS OpenSearch
+Author: Semen Shestakov
+Author-email: shestakovsemen@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

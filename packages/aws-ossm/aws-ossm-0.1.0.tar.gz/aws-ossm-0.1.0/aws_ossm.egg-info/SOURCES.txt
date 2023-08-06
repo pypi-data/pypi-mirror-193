@@ -1,0 +1,8 @@
+setup.py
+aws_ossm.egg-info/PKG-INFO
+aws_ossm.egg-info/SOURCES.txt
+aws_ossm.egg-info/dependency_links.txt
+aws_ossm.egg-info/entry_points.txt
+aws_ossm.egg-info/requires.txt
+aws_ossm.egg-info/top_level.txt
+lib/cli.py
