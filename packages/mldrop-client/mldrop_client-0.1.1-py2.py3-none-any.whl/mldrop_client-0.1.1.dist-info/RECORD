@@ -1,0 +1,13 @@
+mldrop_client/__init__.py,sha256=6j9ny-48jfx8LGXqpSNhVoimXH-ICxT5F82STo54e-k,355
+mldrop_client/client.py,sha256=tt23jqdYaBTyYwtVlmi7om-UxBesH22cK0bZp8V5EIs,12093
+mldrop_client/domain.py,sha256=dJsYyuWOsX5Rld7eJqkzxa-SVbxa3jYYe0eVEvppZZ4,1904
+mldrop_client/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mldrop_client/common/http_client.py,sha256=-xeAT05uCRS8G7VskhjHOWtPrBmrxxlfAoggjnl3ymM,3391
+mldrop_client/common/utils.py,sha256=wS6IkaIyXQemx4WQNKwY-flXKu60mNyV00NAbB3_uD4,1288
+mldrop_client/tf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mldrop_client/tf/test_tf_models.py,sha256=Tn2qsLwAyvkJZaSraZYP5RBgz2TI5xi9r3A9wmN8M-Q,2617
+mldrop_client/tf/tf_stuff.py,sha256=KVZXhESWinhnq6ZhafTVRhTg1ixfT4WGWsonza9HXt0,1581
+mldrop_client-0.1.1.dist-info/METADATA,sha256=-yRE2hefb9XwhRNXH7-hs_FYpzdlDyGmaXLjEMkuh8Q,951
+mldrop_client-0.1.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+mldrop_client-0.1.1.dist-info/top_level.txt,sha256=5wwqV-CY5h8PoQr4TzZgbu8HCT3CdORr7ELPjDLLIJc,14
+mldrop_client-0.1.1.dist-info/RECORD,,

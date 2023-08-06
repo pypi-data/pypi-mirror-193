@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mldrop-client
+Version: 0.1.1
+Summary: Python client for MLDrop by Scattering AI
+Home-page: https://github.com/scattering-ai/mldrop
+Author: Scattering AI
+Author-email: info@scattering.ai
+License: MIT
+Keywords: ai pytorch serving deployment production
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: torch
+
+Python client for MLDrop by Scattering AI, https://www.scattering.ai. MLDrop is a platform that allows you to easily deploy PyTorch models for inference.
