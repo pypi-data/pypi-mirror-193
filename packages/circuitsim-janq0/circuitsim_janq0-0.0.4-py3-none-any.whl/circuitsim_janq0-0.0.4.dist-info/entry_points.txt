@@ -1,0 +1,2 @@
+[console_scripts]
+circuitsim_janq0 = circuitsim_janq0:main
