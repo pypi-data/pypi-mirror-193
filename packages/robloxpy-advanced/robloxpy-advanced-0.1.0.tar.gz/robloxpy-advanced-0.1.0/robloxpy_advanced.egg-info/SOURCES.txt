@@ -1,0 +1,8 @@
+README.md
+setup.py
+robloxpy-advanced/__init__.py
+robloxpy_advanced.egg-info/PKG-INFO
+robloxpy_advanced.egg-info/SOURCES.txt
+robloxpy_advanced.egg-info/dependency_links.txt
+robloxpy_advanced.egg-info/requires.txt
+robloxpy_advanced.egg-info/top_level.txt
