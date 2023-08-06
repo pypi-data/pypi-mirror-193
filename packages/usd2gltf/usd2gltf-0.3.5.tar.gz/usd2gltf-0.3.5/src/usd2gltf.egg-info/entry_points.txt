@@ -1,0 +1,3 @@
+[console_scripts]
+usd2gltf = usd2gltf.cli:main
+
