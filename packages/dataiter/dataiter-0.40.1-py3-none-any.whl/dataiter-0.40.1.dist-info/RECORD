@@ -1,0 +1,16 @@
+dataiter/__init__.py,sha256=g1IUy7N8HMVaYFR6Xk6-X3ZqcSKV95UtFTZqtlqI_A0,3254
+dataiter/aggregate.py,sha256=zbjGLu7nV-r1Bo9JZNadU7lR0QyHZhFJ-dNiDOCyOGE,20829
+dataiter/data_frame.py,sha256=-UGBkZLw9pv0lZisP0ht_-eGUkXQ_f7zjG9evYI0WEs,47773
+dataiter/deco.py,sha256=yDUJY8LpMllFwXFwl268147iyT0fafhbU1SceM70u_g,1910
+dataiter/dt.py,sha256=j7-C-sHpxaQsHzLfln_RP-k88v5McRTPkcBR_c31RA8,7089
+dataiter/geojson.py,sha256=erY9fHwXI2pXyQBgaG5kEGWakfZXcTSw0jMJu1FyOVc,7482
+dataiter/io.py,sha256=PMpidvR2IOBmmCjm0NAGsgWD8SUuyQWbRb5_-DxpuhI,2740
+dataiter/list_of_dicts.py,sha256=MQyR-lyDKP5lStlNzGCmG4cVMlLnpc446UreL_NkIQg,31712
+dataiter/util.py,sha256=giCqyAVMcQjsEa0ntgpwxgeUZxjIvX635tOADhzAsy4,5429
+dataiter/vector.py,sha256=r4gtwqEQiFtk1Lcn_VIfrl-_mYD_zCn2sYQPw30mL5U,22146
+dataiter-0.40.1.dist-info/AUTHORS.md,sha256=DkBUjOMQs21VsurU8QyVx5n-jK86HvFckGhLpDWeRps,31
+dataiter-0.40.1.dist-info/COPYING,sha256=MZ5E8Q6-E1gfTT3B3L8ZwFBnbERFE4L3W3duaLAdOTw,1084
+dataiter-0.40.1.dist-info/METADATA,sha256=-Y5-VNR6QeelrQD6Vmf8Q03gVykcu6M-Ok3TPqO-eSs,2766
+dataiter-0.40.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dataiter-0.40.1.dist-info/top_level.txt,sha256=AyzhuconxSL0vtzMidFUK3fSaDR7vds2QLyM3Xt6C0Y,9
+dataiter-0.40.1.dist-info/RECORD,,
