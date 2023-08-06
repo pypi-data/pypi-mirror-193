@@ -1,0 +1,9 @@
+mcp/file/v1/file_pb2.py,sha256=qHTuzdytdCl7sdEIxJO82BHjJuCP7K6f0GLHzTBp96w,16900
+mcp/operand/v1/operand_pb2.py,sha256=30vkl1cd1Z24V4dN-R_X5nTByVlKp0RHX8DeNqVpCEs,6454
+mcp/tenant/v1/tenant_pb2.py,sha256=8STeZD5ZdHVomITtwZ7p4Qu2O1hce_JtPqsahLBXKwA,9784
+operand/client.py,sha256=B4KkOFL_x_EX3Yb2-cXyEKLALZgQcji8rMRjn0KDNtc,7371
+operand-0.2.7.dist-info/LICENSE,sha256=XBuM4w1HzsvfV1HKMe0LBVp6lqK7A1MljbufB-V8jZY,1070
+operand-0.2.7.dist-info/METADATA,sha256=wGvXTXRuhaUeiNqbpUyEW27c5jOiPvO__PyiGQiLrF4,279
+operand-0.2.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+operand-0.2.7.dist-info/top_level.txt,sha256=QSc6WMWRWrueWY8tAF0d9OfyMYKo0SDeDoTbXyUS4qg,12
+operand-0.2.7.dist-info/RECORD,,
