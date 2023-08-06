@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+convertjson1/__init__.py
+convertjson1/convertjson1.py
+convertjson1.egg-info/PKG-INFO
+convertjson1.egg-info/SOURCES.txt
+convertjson1.egg-info/dependency_links.txt
+convertjson1.egg-info/top_level.txt
