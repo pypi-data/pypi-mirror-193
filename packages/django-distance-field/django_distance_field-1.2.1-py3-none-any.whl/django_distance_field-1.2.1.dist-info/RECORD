@@ -1,0 +1,14 @@
+distance/__init__.py,sha256=cckz66cQ2GiWN87B9fGtvgynUqDzMgr3r8J9yaHxA9A,252
+distance/fields.py,sha256=yf3KA2_mHnfoiKT4ZuxIPKLKx5qVmZ7i3pN_owqIbi4,14636
+distance/forms.py,sha256=UB_refylyBsSvuOW9jbJaLY3kP1MJmDVNXtxk1Mud-M,403
+distance/models.py,sha256=VBN2c1vsJcK2VGjPRu94cbRLrnpMp5M9hvzRyVR0D44,773
+distance/tests.py,sha256=rdYxWoKjjGSMpHwQPGxOh3s3Gy9nTDdxAy5v4RQ9VQM,4959
+distance/validators.py,sha256=4kJRFaJQGUtC9AEfat9gpK2pbuSrk8kS0AcxGCZyzuo,769
+distance/migrations/0001_initial.py,sha256=JkjFxTsTVd6JzFuiENsGVDMtWzq83XMwvwguIJGGcno,1263
+distance/migrations/0002_testmodel_no_unit_field.py,sha256=YupaQ8BxUqlaVwLO3OdhET3bFnXtVBayxGRkfRyWkR0,495
+distance/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_distance_field-1.2.1.dist-info/LICENSE,sha256=_1YE9tKoCe2Bg-WH-uKQng-T6QVrl861gURvVqUxR1w,1107
+django_distance_field-1.2.1.dist-info/METADATA,sha256=RZWL5e7791CLc2hbUuBpC-wfqTH2vmFxkeBmeApMwZg,8491
+django_distance_field-1.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_distance_field-1.2.1.dist-info/top_level.txt,sha256=hnTFM66SVRDBguzUeV5-aHdI5YSlX30pTSSA4dmvTZI,9
+django_distance_field-1.2.1.dist-info/RECORD,,
