@@ -1,0 +1,17 @@
+# Sphinx documentation
+docs/_build/
+docs/_autosummary/
+
+__pycache__/
+venv/
+
+.idea
+.DS_Store
+.vscode/settings.json
+Pipfile
+Pipfile.lock
+.env
+
+build/
+dist/
+*.egg-info
