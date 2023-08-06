@@ -1,0 +1,2 @@
+devpi-common
+devpi-server>=6.2.0
