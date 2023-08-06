@@ -1,0 +1,8 @@
+README.md
+setup.py
+dhiaulproject.egg-info/PKG-INFO
+dhiaulproject.egg-info/SOURCES.txt
+dhiaulproject.egg-info/dependency_links.txt
+dhiaulproject.egg-info/entry_points.txt
+dhiaulproject.egg-info/not-zip-safe
+dhiaulproject.egg-info/top_level.txt

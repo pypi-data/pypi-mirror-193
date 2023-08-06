@@ -1,0 +1,2 @@
+[console_scripts]
+gfg = dhiaulproject.gfg:main
