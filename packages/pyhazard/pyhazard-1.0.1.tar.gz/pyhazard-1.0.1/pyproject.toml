@@ -1,0 +1,22 @@
+[build-system]
+requires      = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name    = "pyhazard"
+version = "1.0.1"
+authors = [
+  { name = "blyona", email = "benjalyona@gmail.com" },
+]
+description = "Python package for probabilistic seismic hazard analysis (PSHA)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage"    = "https://github.com/blyona/HAZARD"
+"Bug Tracker" = "https://github.com/blyona/HAZARD/issues"
