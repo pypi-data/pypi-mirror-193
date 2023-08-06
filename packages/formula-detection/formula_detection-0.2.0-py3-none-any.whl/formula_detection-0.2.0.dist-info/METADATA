@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: formula-detection
+Version: 0.2.0
+Summary: Python tooling to detect formulaic language use in text corpora
+Home-page: https://github.com/marijnkoolen/formula_detection
+License: MIT
+Author: Marijn Koolen
+Author-email: marijn.koolen@huygens.knaw.nl
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Project-URL: Bug Tracker, https://github.com/marijnkoolen/formula_detection/issues
+Project-URL: Repository, https://github.com/marijnkoolen/formula_detection
+Description-Content-Type: text/markdown
+
+# Formula Detection
+
+Python tooling to detect formulaic language use in historic documents. 
+
+

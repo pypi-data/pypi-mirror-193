@@ -1,0 +1,15 @@
+formula_detection/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+formula_detection/context.py,sha256=jyXcfxmvbe00ORssQMRztJYCXURQeIFLMuwZcqnhr98,11398
+formula_detection/cooccurrence.py,sha256=8QZQpNiaUWthn_AwXc50TIaXsCeNdiGEx4tjYQIPDI0,4889
+formula_detection/merge_bigrams.py,sha256=ir7lrY6mjHCbyRCVS9-B1dLJUOVl_CSjWYnIaWUMaZ8,18526
+formula_detection/phrases.py,sha256=Uj2yK8NdRXA0b6TFrdSkB5u5jp3iPW5KgYrqld5qRFk,10400
+formula_detection/search.py,sha256=7cyQ9WeS82FHlzL092KVGjG2U3jMWIWz7wRQ5zp-S4g,19082
+formula_detection/sentence.py,sha256=LcNXmj7TW5-fEEP68olpCawsglMeAGXO-b6uHf8g7Bo,728
+formula_detection/transitions.py,sha256=razEfDZk0DdUYN2uTkhJ3rLnnqaTVtI9D_Ahfz5-tC4,8636
+formula_detection/variants.py,sha256=WIhFq-b5g_bSVGl3ddpP8dRhrvGF7HcFTXmz9zFobdg,10637
+formula_detection/vocabulary.py,sha256=IqhTYAlQ7m4IS46KNsZh5hQoN8VOIfascdOmMR93UB4,2700
+formula_detection-0.2.0.dist-info/LICENSE,sha256=MEPdffL7uU0ArwI2X4ENZqxXw-pm3Fc0DDCEMBbbipA,1070
+formula_detection-0.2.0.dist-info/METADATA,sha256=O0fys7LHh6KnJq7ozG_YTRzdtxCHNI-aWASJ4sftm94,1079
+formula_detection-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+formula_detection-0.2.0.dist-info/entry_points.txt,sha256=5Q_hKc6KVT9-6B5gPcuJWKJUDGmlg2vZGQUTAc41V4o,50
+formula_detection-0.2.0.dist-info/RECORD,,
