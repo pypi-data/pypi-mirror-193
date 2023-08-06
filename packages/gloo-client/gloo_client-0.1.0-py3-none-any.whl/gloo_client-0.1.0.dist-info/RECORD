@@ -1,0 +1,14 @@
+gloo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gloo/db/__init__.py,sha256=viejY60tvXoT49PnNBbzdo6c8etibXap4EIUWCdU3fY,73
+gloo/db/document.py,sha256=V8WsnamWc9wyU0psm9FZH5kBXBd52l_XY_o1t20MR6E,6521
+gloo/main.py,sha256=T8x3EFb5u6a--vDnxiFTYku9jukhWxSh_RSXv7ovkBo,2204
+gloo/measure.py,sha256=BSLa8F-5JYucjGLdarnowqqDKUpw0R4y_ookkjSjWeM,691
+gloo/pinecone_integration.py,sha256=6r6Y2Z1FSulFac8spBDTO6pDlUPf57AAiQWeU_ioP5A,5922
+gloo/tasks/__init__.py,sha256=mwLUsFfnMtuOGqoCVNnujtthsr1Ip3hsoLAMN6fqKOY,53
+gloo/tasks/task.py,sha256=F7mMS_88v_0TyRz41SRYXI2bgC3xIE3F4LzW12HiSb0,5937
+gloo/token_chunker.py,sha256=PE8B3TWSxW8KLOv96B6L21opOVE5wcVHS25mSs3kxaI,15332
+gloo/types.py,sha256=-KglJ4r2cfIp7usux3FEQjSkIE5J6zs6MksReVHw10w,2682
+gloo_client-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gloo_client-0.1.0.dist-info/entry_points.txt,sha256=M3AKJQTeoofV88yuDbvViC-wOjRtHtrkb3Gv-ZcCk2A,63
+gloo_client-0.1.0.dist-info/METADATA,sha256=bUJ1Clh091T80g-qAL831vpVI7Xkqom3AGsslnbaW-Y,834
+gloo_client-0.1.0.dist-info/RECORD,,

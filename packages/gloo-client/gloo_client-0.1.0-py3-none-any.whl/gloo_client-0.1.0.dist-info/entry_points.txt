@@ -1,0 +1,4 @@
+[console_scripts]
+gloo_cli=gloo_cli:cli
+start=gloo.main:start
+
