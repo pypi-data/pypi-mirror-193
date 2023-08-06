@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: neurobooth
+Version: 0.1.0
+Summary: A python library and framework for fast neural network computations.
+Home-page: https://github.com/neurobooth/landmark-detection
+License: BSD-3-Clause
+Author: Andrew Chang
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: h5io (>=0.1.7,<0.2.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: jupyterlab (>=2.2.9,<3.0.0)
+Requires-Dist: matplotlib (>=3.3.3,<4.0.0)
+Requires-Dist: mediapipe (==0.8.9.1)
+Requires-Dist: moviepy (>=1.0.3,<2.0.0)
+Requires-Dist: opencv-python (>=4.7.0,<5.0.0)
+Requires-Dist: transformers (>=4.0.0,<5.0.0)
+Requires-Dist: wget (>=3.2,<4.0)
+Project-URL: Repository, https://github.com/neurobooth/landmark-detection
+Description-Content-Type: text/markdown
+
+# Landmark Detection
+
+Neurobooth library for landmark detection of face features, face mesh, pose, etc. 
+
+Installable with `pip install neurobooth`
+
+If you have docker and docker-compose installed, you can run the following to set up a jupyter environment:
+
+```
+docker-compose build
+docker-compose up
+```
