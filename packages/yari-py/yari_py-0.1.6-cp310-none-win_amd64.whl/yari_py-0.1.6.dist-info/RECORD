@@ -1,0 +1,5 @@
+yari_py-0.1.6.dist-info/METADATA,sha256=ThZoPf7i-PLPDDo1K5-ZnCL_KTkV24yrO4UAtFU8LJE,402
+yari_py-0.1.6.dist-info/WHEEL,sha256=74Vp7u92eHOwN8KE7T8R4AGEP4XDPbJkMbArgKDpKG4,97
+yari/__init__.py,sha256=HZndvozz885TU-NYswZm8xlXLhXMz7ah2_6vdOsh684,99
+yari/yari.cp310-win_amd64.pyd,sha256=lHfB8xHnhx4fiZnlde5tOjEu8As7H9hw1sCAav4LOSo,3650560
+yari_py-0.1.6.dist-info/RECORD,,
