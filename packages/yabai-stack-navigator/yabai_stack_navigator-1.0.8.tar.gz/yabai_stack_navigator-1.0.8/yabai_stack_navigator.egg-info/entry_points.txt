@@ -1,0 +1,2 @@
+[console_scripts]
+yabai-stack-navigator = yabai_stack_navigator.cli:main

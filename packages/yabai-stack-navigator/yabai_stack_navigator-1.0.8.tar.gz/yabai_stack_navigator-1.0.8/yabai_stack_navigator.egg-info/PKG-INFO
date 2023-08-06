@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: yabai-stack-navigator
+Version: 1.0.8
+Summary: Script to make navigating between stacks on Yabai easier.
+Author: Sendhil Panchadsaram
+License: MIT
+Project-URL: GitHub, https://github.com/sendhil/yabai-stack-navigator
+License-File: LICENSE
+
+A simple script to make navigating between stacks and windows in Yabai(https://github.com/koekeishiya/yabai) easier. Details at https://github.com/sendhil/yabai-stack-navigator.
