@@ -1,0 +1,3 @@
+[console_scripts]
+mechbattle=mechlib.mechbattle:start
+
