@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: launchflow
+Version: 0.0.1
+Summary: flow cli application
+Author-email: Caleb Van Dyke <caleb@launchflow.com>, Josh Tanke <josh@launchflow.com>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# launchflow
+
+![CI](https://github.com/launchflow/launchflow/actions/workflows/python_ci.yaml/badge.svg)
+
