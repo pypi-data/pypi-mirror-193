@@ -1,0 +1,55 @@
+[project]
+name = "proxy-enabled-api"
+version = "0.0.1"
+license = {file = "LICENSE.txt"}
+authors = [
+    { name = "Jake Ballantyne", email = "jake.david.ballantyne@gmail.com"},
+]
+maintainers = [
+    { name = "Jake Ballantyne", email = "jake.david.ballantyne@gmail.com"},
+]
+description = "Asynchronous API (in Python)"
+dependencies = []
+keywords = [
+    "API",
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/jbal/proxy-enabled-api"
+Issues = "https://github.com/jbal/proxy-enabled-api/issues"
+Repository = "https://github.com/jbal/proxy-enabled-api"
+
+[project.optional-dependencies]
+test = []
+dev = [
+    "pre-commit>=2.20.0",
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 79
+target-version = ["py310"]
+include = '\.pyi?$'
+preview = true
+
+[tool.setuptools.packages.find]
+where = ["api"]
+include = ["*.py"]
+namespaces = false
