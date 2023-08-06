@@ -1,0 +1,16 @@
+arducomm/__init__.py,sha256=gFkk5khpyQHIQ1h3BCDdqlucgfTCeYeMXZElo5-uOJY,92
+arducomm/arducomm.py,sha256=3qg2VD1n7SKk7IQqKylt7YAwL2i9Z_ExHK18XnY4IEo,14317
+arducomm/serialization/__init__.py,sha256=CU-qW0Evjo0vM5UfrE6PWCvcoR3v-2g62BFDgB-zd9o,58
+arducomm/serialization/serialization.py,sha256=XExRhG2QWq_Badp1AQ772iVIZTdALxAbRYkEd_V9-BA,2802
+arducomm/types/__init__.py,sha256=MODGXWxV7j9haWpk8ZmvliMqaW73M3NIelEk7ujWSoo,287
+arducomm/types/float_array.py,sha256=ystnXS_pGWlGT3lAvqLpvzHB1Zo1pPdtgMikMQ7ZS9o,780
+arducomm/types/imu.py,sha256=rEYeAzfkmh023XkFFiGJe1vVfCxOybZabwMIpuVOTlA,1317
+arducomm/types/pose.py,sha256=tF_ycO5UJFYZFEmGueJ2LA0fImib6BAQMQ9cWUcDVSY,1022
+arducomm/types/pose2d.py,sha256=3M7ETP4QBSBSoENjL6FrZZgKvLYhf5RFrQ3VzsBXnpc,1019
+arducomm/types/quaternion.py,sha256=6ZeMoNBoVC6tfkfZ4ayf5Y8WxMApQ7DGjad-zUUUX_g,1142
+arducomm/types/vector2.py,sha256=oYi4gfSAMnjRyZws7QqhhJmwGD1c7SQHzF6_xAYDlPE,835
+arducomm/types/vector3.py,sha256=JmUtji7IdE5pYPFDEtHjkhRi9FlXPn1NmGPaUCnCGLk,996
+arducomm-0.1.0.dist-info/METADATA,sha256=n0n2-Klg4LUoG7o6tGXIIQ-TGZXC2rDUUaZDr1f1JdA,3964
+arducomm-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+arducomm-0.1.0.dist-info/top_level.txt,sha256=RUto0AnBz9_ODBWUXlinRA9R8KDWxrPPXw-ca0MxLv8,9
+arducomm-0.1.0.dist-info/RECORD,,
