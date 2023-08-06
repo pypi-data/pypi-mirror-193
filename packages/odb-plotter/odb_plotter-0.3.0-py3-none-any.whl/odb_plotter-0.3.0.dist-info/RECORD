@@ -1,0 +1,15 @@
+odbp/__init__.py,sha256=UcKZmgvdFgrTLx2WgQ4WfWXQEC6mR0aMdbE0aD66k2M,85
+odbp/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+odbp/cli.py,sha256=ppteqMozjJjLlGdXiBYNw4_Dzzrbrdi4ow7Bc-KePY0,42360
+odbp/npz_to_hdf.py,sha256=6lTAuJGg8wbNJ56ZuLDjqc8JExGwAW8tq6CIc3roJyk,1365
+odbp/odb.py,sha256=MUURvRdMM0NUKWR5flKpgOxml9MVqGC6wJaOs6439SY,11225
+odbp/odb_to_npz.py,sha256=UJQJAFi_ZdTSkkjkYP8AnGflZ5puqdqPdhNwZFqAG1k,7528
+odbp/odb_visualizer.py,sha256=ZTAhQ8UxCWqhDV59vBcGGURdsceMHg6VIfNBvlKD3CU,4655
+odbp/read_hdf5.py,sha256=pp3AFtX-NqoFGykWqdjRr4R5B-DX4j7bdVCv3X2r950,1995
+odbp/util.py,sha256=coqk6hit5Wx97hwDswiQvO_WVoUnbl-fDdH6U295uf8,930
+odbp/views.json,sha256=aGhw2ciqTtMNf_eyDe-4jV04-FUE0knbVJewxgzAtjo,4393
+odb_plotter-0.3.0.dist-info/LICENSE,sha256=LNfW0mBDSRQVJEEzAZMuIbsN677ChKnnTNFy4Ad42BQ,1074
+odb_plotter-0.3.0.dist-info/METADATA,sha256=3PXRfjHbl-73OU62AksE3l59xG9SbjMj8KU-mKSb-W8,2710
+odb_plotter-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+odb_plotter-0.3.0.dist-info/top_level.txt,sha256=C4i11u5JX4uybRZH9KLKYa0LyUibWvMKP3SbxbyV9Z0,5
+odb_plotter-0.3.0.dist-info/RECORD,,
