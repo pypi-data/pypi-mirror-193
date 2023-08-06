@@ -1,0 +1,22 @@
+Introduction
+============
+
+``osirispy`` is a python package for reading simulation output
+for the particle-in-cell code OSIRIS. 
+
+It utilizes the numpy interface to provide a simple way to read 
+simulation output.
+
+
+
+Installation
+************
+
+``osirispy`` is available on `PyPI <https://pypi.org/project/osirispy/>`_. 
+
+You can install it by running the following command inside your terminal
+
+.. code-block:: shell
+
+    pip3 install osirispy
+

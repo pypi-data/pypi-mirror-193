@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>osirispy &mdash; osirispy 0.0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> osirispy
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Examples/Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../osirispy.html">osirispy module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">osirispy</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Module code</a></li>
+      <li class="breadcrumb-item active">osirispy</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for osirispy</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">h5py</span>
+
+<div class="viewcode-block" id="read"><a class="viewcode-back" href="../osirispy.html#osirispy.read">[docs]</a><span class="k">def</span> <span class="nf">read</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span><span class="n">req_quants</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;x1&quot;</span><span class="p">,</span><span class="s2">&quot;x2&quot;</span><span class="p">)):</span>
+    <span class="sd">&quot;&quot;&quot;Reads an OSIRIS output data file.</span>
+
+<span class="sd">    :param fname: The path to the data file</span>
+<span class="sd">    :type fname: str</span>
+<span class="sd">    :param req_quants: The quantities required when reading RAW or TRACKS files, defaults to (&quot;x1&quot;,&quot;x2&quot;)</span>
+<span class="sd">    :type req_quants: tuple of str, optional</span>
+<span class="sd">    :return: An os_data object</span>
+<span class="sd">    :rtype: :class:`os_data`</span>
+<span class="sd">    &quot;&quot;&quot;</span>  
+
+    <span class="c1">#retrieve the data type of the file</span>
+    <span class="n">f</span><span class="o">=</span><span class="n">h5py</span><span class="o">.</span><span class="n">File</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">)</span>
+    <span class="n">datatype</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;TYPE&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span>    
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">data</span><span class="o">=</span><span class="kc">None</span>
+
+    <span class="c1">#initialize the data object according to dataype</span>
+    <span class="k">match</span> <span class="n">datatype</span><span class="p">:</span>
+        <span class="k">case</span> <span class="s2">&quot;grid&quot;</span><span class="p">:</span>
+            <span class="n">data</span><span class="o">=</span><span class="n">grid</span><span class="p">(</span><span class="n">fname</span><span class="p">)</span>
+        <span class="k">case</span> <span class="s2">&quot;particles&quot;</span><span class="p">:</span>
+            <span class="n">data</span><span class="o">=</span><span class="n">raw</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span><span class="n">req_quants</span><span class="p">)</span>
+        <span class="k">case</span> <span class="s2">&quot;tracks-2&quot;</span><span class="p">:</span>
+            <span class="n">data</span><span class="o">=</span><span class="n">track</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span><span class="n">req_quants</span><span class="p">)</span>
+        <span class="k">case</span> <span class="k">_</span><span class="p">:</span>
+             <span class="n">exit</span><span class="p">()</span>
+
+    <span class="k">return</span> <span class="n">data</span></div>
+
+<div class="viewcode-block" id="os_data"><a class="viewcode-back" href="../osirispy.html#osirispy.os_data">[docs]</a><span class="k">class</span> <span class="nc">os_data</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot; A class to represent a generic OSIRIS output data object.</span>
+
+<span class="sd">    :param datatype: The type of OSIRIS data (&#39;grid&#39;, &#39;particles&#39; our &#39;tracks&#39;)</span>
+<span class="sd">    :type datatype: str</span>
+<span class="sd">    &quot;&quot;&quot;</span>    
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">datatype</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Constructs all the necessary attributes for the os_data object.</span>
+
+<span class="sd">        :param datatype: The type of OSIRIS data (&#39;grid&#39;, &#39;particles&#39; our &#39;tracks&#39;)</span>
+<span class="sd">        :type datatype: str</span>
+<span class="sd">        &quot;&quot;&quot;</span>        
+        <span class="bp">self</span><span class="o">.</span><span class="n">_datatype</span><span class="o">=</span><span class="n">datatype</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">datatype</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_datatype</span></div>
+
+
+<div class="viewcode-block" id="axis"><a class="viewcode-back" href="../osirispy.html#osirispy.axis">[docs]</a><span class="k">class</span> <span class="nc">axis</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot; A class used to represent an axis object</span>
+
+<span class="sd">    :param nx : The number of points along the axis</span>
+<span class="sd">    :type nx: int</span>
+<span class="sd">    :param ax_arr : The array containing the axis poins        </span>
+<span class="sd">    :type ax_arr : :class:`np.array`</span>
+<span class="sd">    :param label: The axis label</span>
+<span class="sd">    :type label : str</span>
+<span class="sd">    &quot;&quot;&quot;</span>    
+
+<div class="viewcode-block" id="axis.__init__"><a class="viewcode-back" href="../osirispy.html#osirispy.axis.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">nx</span><span class="p">,</span><span class="n">lims</span><span class="p">,</span><span class="n">label</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Constructs all the necessary attributes for the os_data object.</span>
+
+<span class="sd">        :param nx: The number of points along the axis</span>
+<span class="sd">        :type nx: int</span>
+<span class="sd">        :param ax_arr: The array containing the axis poins        </span>
+<span class="sd">        :type ax_arr: :class:`np.array`</span>
+<span class="sd">        :param label: The axis label</span>
+<span class="sd">        :type label: str </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">_nx</span><span class="o">=</span><span class="n">nx</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="o">=</span><span class="n">label</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_ax_arr</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">lims</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">lims</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">nx</span><span class="p">)</span></div>
+        
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">nx</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_nx</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_label</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">ax_arr</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_ax_arr</span></div>
+
+<div class="viewcode-block" id="grid"><a class="viewcode-back" href="../osirispy.html#osirispy.grid">[docs]</a><span class="k">class</span> <span class="nc">grid</span><span class="p">(</span><span class="n">os_data</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A class used to represent a grid data object</span>
+
+<span class="sd">    :param dims: A formatted string to print out what the animal says</span>
+<span class="sd">    :type dims: int</span>
+<span class="sd">    :param axis: A list of axis objects containg the spatial limits of the grid</span>
+<span class="sd">    :type axis: list of :class:`axis`</span>
+<span class="sd">    :param data: The grid data</span>
+<span class="sd">    :type data: :class:`np.array`</span>
+<span class="sd">    :param label: The label of the quantity in the grid</span>
+<span class="sd">    :type label: str</span>
+<span class="sd">    :param time_s: The timestamp of the grid file</span>
+<span class="sd">    :type time_s: :class:`np.float`</span>
+<span class="sd">    </span>
+<span class="sd">    &quot;&quot;&quot;</span>    
+
+<div class="viewcode-block" id="grid.__init__"><a class="viewcode-back" href="../osirispy.html#osirispy.grid.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">fname</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Constructs all the necessary attributes for the grid object.</span>
+
+<span class="sd">        :param fname: The path to the osiris data file</span>
+<span class="sd">        :type fname: str</span>
+<span class="sd">        &quot;&quot;&quot;</span>        
+
+        <span class="c1">#initialize the parent class</span>
+        <span class="n">os_data</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="s2">&quot;grid&quot;</span><span class="p">)</span>
+        <span class="c1">#initialize the axis list</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_axis</span><span class="o">=</span><span class="p">[]</span>
+        <span class="c1">#open the file</span>
+        <span class="n">f</span><span class="o">=</span><span class="n">h5py</span><span class="o">.</span><span class="n">File</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">)</span>
+        <span class="c1">#read the dataset</span>
+        <span class="n">objs</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">objs</span><span class="p">:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">name</span><span class="p">],</span> <span class="n">h5py</span><span class="o">.</span><span class="n">Dataset</span><span class="p">):</span>
+                <span class="n">dat</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">name</span><span class="p">])</span> <span class="c1">#charge for density, e2 for OSIRIS fields, e3_x2_slice for slices</span>
+        <span class="c1">#loop through the axis and fill the axis array</span>
+        <span class="n">objs</span><span class="o">=</span><span class="n">f</span><span class="p">[</span><span class="s2">&quot;AXIS&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span><span class="n">axis_n</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">objs</span><span class="p">):</span>
+            <span class="n">ax1</span><span class="o">=</span><span class="n">f</span><span class="p">[</span><span class="s2">&quot;AXIS/&quot;</span><span class="o">+</span><span class="n">axis_n</span><span class="p">]</span>   
+            <span class="n">axis1</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">ax1</span><span class="p">)</span>
+            <span class="c1">#retrieve number of point along axis</span>
+            <span class="n">np</span><span class="o">.</span><span class="n">shape</span><span class="p">(</span><span class="n">dat</span><span class="p">)[</span><span class="o">-</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)]</span>
+            <span class="c1">#retrive axis label</span>
+            <span class="n">ax1name</span><span class="o">=</span><span class="n">ax1</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;NAME&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot; [&quot;</span><span class="o">+</span><span class="n">ax1</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;UNITS&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;]&quot;</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_axis</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">axis</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">shape</span><span class="p">(</span><span class="n">dat</span><span class="p">)[</span><span class="o">-</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)],</span><span class="n">axis1</span><span class="p">,</span><span class="n">ax1name</span><span class="p">))</span>     
+        <span class="c1">#retrive data label</span>
+        <span class="n">dataname</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;NAME&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot; [&quot;</span><span class="o">+</span><span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;UNITS&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;]&quot;</span>
+        <span class="c1">#retrive data timestamp</span>
+        <span class="n">time_s</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;TIME&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+        <span class="c1">#close the files</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+        <span class="c1">#fill in the attributes</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dims</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_axis</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="o">=</span><span class="n">dat</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="o">=</span><span class="n">dataname</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_time_s</span><span class="o">=</span><span class="n">time_s</span></div>
+        
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">axis</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_axis</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">dims</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dims</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_data</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_label</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_data</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">time_s</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_time_s</span></div>
+
+
+
+
+<div class="viewcode-block" id="raw"><a class="viewcode-back" href="../osirispy.html#osirispy.raw">[docs]</a><span class="k">class</span> <span class="nc">raw</span><span class="p">(</span><span class="n">os_data</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A class used to represent a particles data object</span>
+
+<span class="sd">    :param data: a dictionary containing the required quantities</span>
+<span class="sd">    :type data:  dict of (str,np.arrays)</span>
+<span class="sd">    :param label: a dictionary containing the labels of required quantities</span>
+<span class="sd">    :type label: dict of (str,str)</span>
+<span class="sd">    :param time_s: the timestamp of the grid file</span>
+<span class="sd">    :type time_s: np.float</span>
+<span class="sd">    &quot;&quot;&quot;</span>    
+
+<div class="viewcode-block" id="raw.__init__"><a class="viewcode-back" href="../osirispy.html#osirispy.raw.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">fname</span><span class="p">,</span><span class="n">req_quants</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Constructs all the necessary attributes for the raw object.</span>
+<span class="sd">        Loads the required quantities (if available) into a dictionary of np.arrays whose keys are the requeired quantities.</span>
+
+<span class="sd">        :param fname: The path to the osiris data file</span>
+<span class="sd">        :type fname: str</span>
+<span class="sd">        :param req_quants: A list containing the required quantities</span>
+<span class="sd">        :type req_quants:  list of str</span>
+<span class="sd">        :raises KeyError: If a required quantity is not available on the file</span>
+<span class="sd">        &quot;&quot;&quot;</span>        
+        <span class="c1"># initialize the parent class</span>
+        <span class="n">os_data</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="s2">&quot;particles&quot;</span><span class="p">)</span>
+        <span class="c1">#initialize the dictionaries</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="o">=</span><span class="nb">dict</span><span class="o">.</span><span class="n">fromkeys</span><span class="p">(</span><span class="n">req_quants</span><span class="p">,</span><span class="kc">None</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="o">=</span><span class="nb">dict</span><span class="o">.</span><span class="n">fromkeys</span><span class="p">(</span><span class="n">req_quants</span><span class="p">,</span><span class="kc">None</span><span class="p">)</span>
+        <span class="c1">#open the file</span>
+        <span class="n">f</span><span class="o">=</span><span class="n">h5py</span><span class="o">.</span><span class="n">File</span><span class="p">(</span><span class="n">fname</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">)</span>
+        <span class="c1">#retrieve the available quantities</span>
+        <span class="n">quants</span><span class="o">=</span><span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;QUANTS&quot;</span><span class="p">]]</span>
+        <span class="c1">#retrieve the corresponding labels</span>
+        <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;LABELS&quot;</span><span class="p">]]</span>
+        <span class="c1">#retrieve the corresponding units</span>
+        <span class="n">units</span><span class="o">=</span><span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;UNITS&quot;</span><span class="p">]]</span>
+        <span class="c1">#build the aux dictionaries</span>
+        <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">quants</span><span class="p">,</span> <span class="n">labels</span><span class="p">))</span>
+        <span class="n">units</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">quants</span><span class="p">,</span> <span class="n">units</span><span class="p">))</span>
+        <span class="c1">#try to build the class dictionaries</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">quant</span> <span class="ow">in</span> <span class="n">req_quants</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="n">quant</span><span class="p">])</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">=</span><span class="n">labels</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot; [&quot;</span><span class="o">+</span><span class="n">units</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot;]&quot;</span>
+        <span class="k">except</span> <span class="ne">KeyError</span> <span class="k">as</span> <span class="n">ke</span><span class="p">:</span>
+            <span class="n">err_str</span><span class="o">=</span><span class="s2">&quot;Available Objects: &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">quants</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="ne">KeyError</span><span class="p">(</span><span class="n">err_str</span><span class="p">)</span>
+        <span class="c1">#retrieve data timestamp</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_time_s</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;TIME&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+        <span class="c1">#close the files</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span></div>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_label</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_data</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">time_s</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_time_s</span></div>
+
+
+<div class="viewcode-block" id="track"><a class="viewcode-back" href="../osirispy.html#osirispy.track">[docs]</a><span class="k">class</span> <span class="nc">track</span><span class="p">(</span><span class="n">os_data</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A class used to represent a tracks data object</span>
+
+<span class="sd">    :param data: a dictionary containing the required quantities for each particle</span>
+<span class="sd">    :type data:  dict of (str,list of np.arrays)</span>
+<span class="sd">    :param label: a dictionary containing the labels of required quantities</span>
+<span class="sd">    :type label: dict of (str,str)</span>
+<span class="sd">    &quot;&quot;&quot;</span>   
+
+<div class="viewcode-block" id="track.__init__"><a class="viewcode-back" href="../osirispy.html#osirispy.track.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">fname</span><span class="p">,</span><span class="n">req_quants</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Constructs all the necessary attributes for the tracks object.</span>
+<span class="sd">        Reads fname and loads the required quantities (if available) into a dictionary of lists np.arrays whose keys are the requeired quantities.</span>
+
+
+<span class="sd">        :param fname: The path to the osiris data file</span>
+<span class="sd">        :type fname: str</span>
+<span class="sd">        :param req_quants: A list containing the required quantities</span>
+<span class="sd">        :type req_quants:  list of str</span>
+<span class="sd">        :raises KeyError: If a required quantity is not available on the file</span>
+<span class="sd">        &quot;&quot;&quot;</span>        
+
+        <span class="c1"># initialize the parent class        </span>
+        <span class="n">os_data</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="s2">&quot;tracks-v2&quot;</span><span class="p">)</span>
+        <span class="c1">#initialize the dictionaries</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="o">=</span><span class="nb">dict</span><span class="o">.</span><span class="n">fromkeys</span><span class="p">(</span><span class="n">req_quants</span><span class="p">,</span><span class="kc">None</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="o">=</span><span class="nb">dict</span><span class="o">.</span><span class="n">fromkeys</span><span class="p">(</span><span class="n">req_quants</span><span class="p">,</span><span class="kc">None</span><span class="p">)</span>
+        <span class="c1">#open the file</span>
+        <span class="n">f</span><span class="o">=</span><span class="n">h5py</span><span class="o">.</span><span class="n">File</span><span class="p">(</span><span class="n">file</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">)</span>
+        <span class="c1">#retrieve the available quantities, labels and units</span>
+        <span class="n">quants</span><span class="o">=</span><span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;QUANTS&quot;</span><span class="p">]][</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="n">labels</span><span class="o">=</span><span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;LABELS&quot;</span><span class="p">]][</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="n">units</span><span class="o">=</span><span class="p">[</span><span class="n">i</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;UTF-8&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;UNITS&quot;</span><span class="p">]][</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="c1">#build auxiliary dictionaries</span>
+        <span class="n">labels</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">quants</span><span class="p">,</span> <span class="n">labels</span><span class="p">))</span>
+        <span class="n">units</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">quants</span><span class="p">,</span> <span class="n">units</span><span class="p">))</span>
+        <span class="c1">#retrieve the itermap array</span>
+        <span class="n">itermap</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="s2">&quot;itermap&quot;</span><span class="p">])</span>
+        <span class="c1">#retrieve the number of tracks in the file</span>
+        <span class="n">ntracks</span><span class="o">=</span><span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;NTRACKS&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+        <span class="c1">#modify the itermap array to contain the actual starting index for each particle instead of the relative index</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">itermap</span><span class="p">)):</span>
+            <span class="n">itermap</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">itermap</span><span class="p">[:</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+        <span class="c1">#initialize the itermaps array</span>
+        <span class="n">itermaps</span><span class="o">=</span><span class="p">[]</span>
+        <span class="c1">#the itermaps array is a list containing the itermap bounds for each particle (actual start and end idx for each particle in the data array)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">ntracks</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+            <span class="n">itermaps</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">itermap</span><span class="p">[</span><span class="n">itermap</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="n">i</span><span class="p">,</span><span class="mi">1</span><span class="p">:])</span>
+        <span class="c1">#initialize the itermaps array</span>
+        <span class="n">itermaps_tracks</span><span class="o">=</span><span class="p">[]</span>
+        <span class="c1">#the itermaps_tracks array is a list containing the itermap for each particle (all the idx for each particle in the data array)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">itermaps</span><span class="p">)):</span>
+            <span class="n">itermap_</span><span class="o">=</span><span class="p">[]</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">itermaps</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">bound</span> <span class="ow">in</span> <span class="n">itermaps</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+                    <span class="n">itermap_</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">bound</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">bound</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">bound</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+                <span class="n">itermaps_tracks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span><span class="n">itermap_</span><span class="p">))</span>
+        <span class="c1">#retrieve the data array</span>
+        <span class="n">data</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">f</span><span class="p">[</span><span class="s2">&quot;data&quot;</span><span class="p">])</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s2">&quot;QUANTS&quot;</span><span class="p">])</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+        <span class="c1">#try to build the class dictionaries</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">quant</span> <span class="ow">in</span> <span class="n">req_quants</span><span class="p">:</span>
+                <span class="n">idx</span><span class="o">=</span><span class="n">quants</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">quant</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">=</span><span class="p">[]</span>
+                <span class="c1">#loop through the particles and retireve the data usinf the arrays in itermaps_tracks </span>
+                <span class="k">for</span> <span class="n">track_idx</span> <span class="ow">in</span> <span class="n">itermaps_tracks</span><span class="p">:</span>
+                    <span class="c1">#append the data for particle x to the list in the dictionary</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">_data</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">track_idx</span><span class="p">,</span><span class="n">idx</span><span class="p">])</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">_label</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">=</span><span class="n">labels</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot; [&quot;</span><span class="o">+</span><span class="n">units</span><span class="p">[</span><span class="n">quant</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot;]&quot;</span>
+        <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">ke</span><span class="p">:</span>
+            <span class="n">err_str</span><span class="o">=</span><span class="s2">&quot;Available Objects: &quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">quants</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">err_str</span><span class="p">)</span></div>
+
+        
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">label</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_label</span>
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">data</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_data</span></div>
+    
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Miguel Pardal.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

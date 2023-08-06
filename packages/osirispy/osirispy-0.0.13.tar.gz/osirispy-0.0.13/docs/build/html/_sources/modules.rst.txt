@@ -1,0 +1,7 @@
+osirispy
+========
+
+.. toctree::
+   :maxdepth: 4
+
+   osirispy

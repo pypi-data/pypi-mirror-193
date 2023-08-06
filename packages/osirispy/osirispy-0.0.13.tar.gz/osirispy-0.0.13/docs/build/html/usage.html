@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examples/Usage &mdash; osirispy 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="osirispy module" href="osirispy.html" />
+    <link rel="prev" title="Welcome to osirispy’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> osirispy
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Examples/Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#grid-files">Grid files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#particle-aka-raw-files">Particle (aka RAW) files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#track-files">Track  files</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="osirispy.html">osirispy module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">osirispy</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Examples/Usage</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="examples-usage">
+<h1>Examples/Usage<a class="headerlink" href="#examples-usage" title="Permalink to this heading"></a></h1>
+<p>import the package in python</p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">osirispy</span> <span class="k">as</span> <span class="nn">ospy</span>
+</pre></div>
+</div>
+<p>You can use the function <a class="reference internal" href="osirispy.html#osirispy.read" title="osirispy.read"><code class="xref py py-meth docutils literal notranslate"><span class="pre">osirispy.read()</span></code></a> to read osiris files. It will give a different output based on the type of file that is being opened.</p>
+<section id="grid-files">
+<h2>Grid files<a class="headerlink" href="#grid-files" title="Permalink to this heading"></a></h2>
+<p>Grid files are the output of vdf objects and can have between 1 and 3 dimensions. They can represent charge density, current, E.M. fields, phasespaces, etc…</p>
+<p><a class="reference internal" href="osirispy.html#osirispy.read" title="osirispy.read"><code class="xref py py-meth docutils literal notranslate"><span class="pre">osirispy.read()</span></code></a> will output a <a class="reference internal" href="osirispy.html#osirispy.grid" title="osirispy.grid"><code class="xref py py-class docutils literal notranslate"><span class="pre">osirispy.grid</span></code></a> object when reading a grid-type file.
+The data is a numpy array accessible at <code class="docutils literal notranslate"><span class="pre">grid.data</span></code></p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># read grid data</span>
+<span class="n">griddata</span><span class="o">=</span><span class="n">ospy</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;/path/to/grid.h5&quot;</span><span class="p">)</span>
+<span class="c1">#access grid data</span>
+<span class="n">data</span><span class="o">=</span><span class="n">griddata</span><span class="o">.</span><span class="n">data</span>
+</pre></div>
+</div>
+<p>The object also contains a list of <a class="reference internal" href="osirispy.html#osirispy.axis" title="osirispy.axis"><code class="xref py py-class docutils literal notranslate"><span class="pre">osirispy.axis</span></code></a> containing the physical dimentions of the grid file at <cite>grid.axis</cite>.</p>
+</section>
+<section id="particle-aka-raw-files">
+<h2>Particle (aka RAW) files<a class="headerlink" href="#particle-aka-raw-files" title="Permalink to this heading"></a></h2>
+<p>Particle files contain the  output of the RAW diagnostic for a given species at a given time-step.
+RAW files contain information on the quantities <code class="docutils literal notranslate"><span class="pre">x1</span></code>, <code class="docutils literal notranslate"><span class="pre">x2</span></code>, <code class="docutils literal notranslate"><span class="pre">x3</span></code>, <code class="docutils literal notranslate"><span class="pre">p1</span></code>, <code class="docutils literal notranslate"><span class="pre">p2</span></code>, <code class="docutils literal notranslate"><span class="pre">p3</span></code>, <code class="docutils literal notranslate"><span class="pre">ene</span></code>.
+<a class="reference internal" href="osirispy.html#osirispy.read" title="osirispy.read"><code class="xref py py-meth docutils literal notranslate"><span class="pre">osirispy.read()</span></code></a> will output a <a class="reference internal" href="osirispy.html#osirispy.raw" title="osirispy.raw"><code class="xref py py-class docutils literal notranslate"><span class="pre">osirispy.raw</span></code></a> object with the required quantities specified with a list of strings on the <code class="docutils literal notranslate"><span class="pre">req_quantities</span></code> parameter.</p>
+<p>The data is a python dictionary of numpy arrays accessible at <code class="docutils literal notranslate"><span class="pre">rawdata.data</span></code>. An example is given below:</p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># read raw data</span>
+<span class="n">rawdata</span><span class="o">=</span><span class="n">ospy</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;/path/to/raw.h5&quot;</span><span class="p">,(</span><span class="s2">&quot;x1&quot;</span><span class="p">,</span><span class="s2">&quot;x2&quot;</span><span class="p">))</span>
+<span class="c1">#access x1 array</span>
+<span class="n">x1</span><span class="o">=</span><span class="n">rawdata</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;x1&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>The object also contains a dictionary with the label of each quantity accessible at <code class="docutils literal notranslate"><span class="pre">rawdata.label</span></code>.</p>
+</section>
+<section id="track-files">
+<h2>Track  files<a class="headerlink" href="#track-files" title="Permalink to this heading"></a></h2>
+<p>Track files contain the output of the tracks diagnostic for a given species .
+Track files contain information on the quantities <code class="docutils literal notranslate"><span class="pre">t</span></code>, <code class="docutils literal notranslate"><span class="pre">x1</span></code>, <code class="docutils literal notranslate"><span class="pre">x2</span></code>, <code class="docutils literal notranslate"><span class="pre">x3</span></code>, <code class="docutils literal notranslate"><span class="pre">p1</span></code>, <code class="docutils literal notranslate"><span class="pre">p2</span></code>, <code class="docutils literal notranslate"><span class="pre">p3</span></code>, <code class="docutils literal notranslate"><span class="pre">ene</span></code>
+<a class="reference internal" href="osirispy.html#osirispy.read" title="osirispy.read"><code class="xref py py-meth docutils literal notranslate"><span class="pre">osirispy.read()</span></code></a> will output a <a class="reference internal" href="osirispy.html#osirispy.track" title="osirispy.track"><code class="xref py py-class docutils literal notranslate"><span class="pre">osirispy.track</span></code></a> object</p>
+<p>The data is a python dictionary of a list of numpy arrays accessible at grid data. An example is given below:</p>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># read tracks data</span>
+<span class="n">trackdata</span><span class="o">=</span><span class="n">ospy</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;/path/to/track.h5&quot;</span><span class="p">,(</span><span class="s2">&quot;x1&quot;</span><span class="p">,</span><span class="s2">&quot;x2&quot;</span><span class="p">))</span>
+<span class="c1">#access x1 array of particle i</span>
+<span class="n">x1</span><span class="o">=</span><span class="n">trackdata</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;x1&quot;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>The object also contains a dictionary with the label of each quantity accessible at <code class="docutils literal notranslate"><span class="pre">trackdata.label</span></code>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to osirispy’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="osirispy.html" class="btn btn-neutral float-right" title="osirispy module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Miguel Pardal.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
