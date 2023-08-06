@@ -1,0 +1,9 @@
+---
+mounts:
+  allenby: "/"
+  aro: "/"
+  chime: "/data/chime/baseband/processed"
+  canfar: "/arc/projects/chime_frb/data/canfar/processed"
+  gbo: "/"
+  kko: "/"
+  hco: "/"
