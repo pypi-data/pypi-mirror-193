@@ -1,0 +1,2 @@
+[lektor.plugins]
+rst = lektor_rst:RstPlugin
