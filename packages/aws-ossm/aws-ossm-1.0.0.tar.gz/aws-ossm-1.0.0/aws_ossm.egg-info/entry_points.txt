@@ -1,0 +1,2 @@
+[console_scripts]
+aws-ossm = lib.cli:main
