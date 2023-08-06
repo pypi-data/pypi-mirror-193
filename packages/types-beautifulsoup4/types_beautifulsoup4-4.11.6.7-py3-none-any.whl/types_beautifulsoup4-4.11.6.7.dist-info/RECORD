@@ -1,0 +1,14 @@
+bs4-stubs/METADATA.toml,sha256=9bX2vHQsJkaTFGZAEgxXGqbXhgb511Dt2Stz01ockpw,123
+bs4-stubs/__init__.pyi,sha256=uCLXvemuEPigc5anczFzMuEbGI-H-fqyowJQtMNml5Y,3297
+bs4-stubs/dammit.pyi,sha256=H0BrGxv3kmIgrgbCtiGeRgTm5v0BJLHQ7NQUKDkuF3Q,2916
+bs4-stubs/diagnose.pyi,sha256=AHRXQlJJ3dtbKU3fPtFf9eoRPKjQ1JLwkVwFfirxrl4,876
+bs4-stubs/element.pyi,sha256=r-FfT9m1cQpxoqxJs4ODeKVCvfTpijRUCBzr_r1wpQA,14324
+bs4-stubs/formatter.pyi,sha256=v9z7lcQj7AN0FDmYvz1KpaNMHb7GaO5-YTxnSBqbnZQ,1516
+bs4-stubs/builder/__init__.pyi,sha256=mUeI2WVVUU8IKOblvqMXoJkzuHwTrkv9weokH2lT-mc,2348
+bs4-stubs/builder/_html5lib.pyi,sha256=IByzzGfwlphmPt-vmYQMhI4jbnm3YQ8pgHKKAQqFwcA,2540
+bs4-stubs/builder/_htmlparser.pyi,sha256=r65UvQ5Vzig446GKWXrJMigNfm7ANdmns70hQXypbfA,1462
+bs4-stubs/builder/_lxml.pyi,sha256=xV8OiysWKmSbD1918md-fOhvuhw2sXTIwgnxue8gstw,1755
+types_beautifulsoup4-4.11.6.7.dist-info/METADATA,sha256=eAQ57swJDRz9PdeKORSbu7PLmc_5ubJ2pCIE-x1hDJ0,1374
+types_beautifulsoup4-4.11.6.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+types_beautifulsoup4-4.11.6.7.dist-info/top_level.txt,sha256=PW_yMQgFNHFf4CFEkrVXznpIOi65lbJgXk0b5vHeUwk,10
+types_beautifulsoup4-4.11.6.7.dist-info/RECORD,,
