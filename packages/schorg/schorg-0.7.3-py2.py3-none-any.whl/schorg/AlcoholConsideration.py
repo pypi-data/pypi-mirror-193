@@ -1,0 +1,87 @@
+"""
+Item contains alcohol or promotes alcohol consumption.
+
+https://schema.org/AlcoholConsideration
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class AlcoholConsiderationInheritedProperties(TypedDict):
+    """Item contains alcohol or promotes alcohol consumption.
+
+    References:
+        https://schema.org/AlcoholConsideration
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class AlcoholConsiderationProperties(TypedDict):
+    """Item contains alcohol or promotes alcohol consumption.
+
+    References:
+        https://schema.org/AlcoholConsideration
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class AlcoholConsiderationAllProperties(
+    AlcoholConsiderationInheritedProperties, AlcoholConsiderationProperties, TypedDict
+):
+    pass
+
+
+class AlcoholConsiderationBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="AlcoholConsideration", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        AlcoholConsiderationProperties,
+        AlcoholConsiderationInheritedProperties,
+        AlcoholConsiderationAllProperties,
+    ] = AlcoholConsiderationAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "AlcoholConsideration"
+    return model
+
+
+AlcoholConsideration = create_schema_org_model()
+
+
+def create_alcoholconsideration_model(
+    model: Union[
+        AlcoholConsiderationProperties,
+        AlcoholConsiderationInheritedProperties,
+        AlcoholConsiderationAllProperties,
+    ]
+):
+    _type = deepcopy(AlcoholConsiderationAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: AlcoholConsiderationAllProperties):
+    pydantic_type = create_alcoholconsideration_model(model=model)
+    return pydantic_type(model).schema_json()

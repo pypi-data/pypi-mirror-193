@@ -1,0 +1,79 @@
+"""
+Represents the suggested retail price ("SRP") of an offered product.
+
+https://schema.org/SRP
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class SRPInheritedProperties(TypedDict):
+    """Represents the suggested retail price ("SRP") of an offered product.
+
+    References:
+        https://schema.org/SRP
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class SRPProperties(TypedDict):
+    """Represents the suggested retail price ("SRP") of an offered product.
+
+    References:
+        https://schema.org/SRP
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class SRPAllProperties(SRPInheritedProperties, SRPProperties, TypedDict):
+    pass
+
+
+class SRPBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="SRP", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        SRPProperties, SRPInheritedProperties, SRPAllProperties
+    ] = SRPAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "SRP"
+    return model
+
+
+SRP = create_schema_org_model()
+
+
+def create_srp_model(
+    model: Union[SRPProperties, SRPInheritedProperties, SRPAllProperties]
+):
+    _type = deepcopy(SRPAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: SRPAllProperties):
+    pydantic_type = create_srp_model(model=model)
+    return pydantic_type(model).schema_json()

@@ -1,0 +1,83 @@
+"""
+Suspended.
+
+https://schema.org/Suspended
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class SuspendedInheritedProperties(TypedDict):
+    """Suspended.
+
+    References:
+        https://schema.org/Suspended
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class SuspendedProperties(TypedDict):
+    """Suspended.
+
+    References:
+        https://schema.org/Suspended
+    Note:
+        Model Depth 6
+    Attributes:
+    """
+
+
+class SuspendedAllProperties(
+    SuspendedInheritedProperties, SuspendedProperties, TypedDict
+):
+    pass
+
+
+class SuspendedBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="Suspended", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        SuspendedProperties, SuspendedInheritedProperties, SuspendedAllProperties
+    ] = SuspendedAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "Suspended"
+    return model
+
+
+Suspended = create_schema_org_model()
+
+
+def create_suspended_model(
+    model: Union[
+        SuspendedProperties, SuspendedInheritedProperties, SuspendedAllProperties
+    ]
+):
+    _type = deepcopy(SuspendedAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: SuspendedAllProperties):
+    pydantic_type = create_suspended_model(model=model)
+    return pydantic_type(model).schema_json()

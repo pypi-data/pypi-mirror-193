@@ -1,0 +1,79 @@
+"""
+The associated telephone number is toll free.
+
+https://schema.org/TollFree
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class TollFreeInheritedProperties(TypedDict):
+    """The associated telephone number is toll free.
+
+    References:
+        https://schema.org/TollFree
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class TollFreeProperties(TypedDict):
+    """The associated telephone number is toll free.
+
+    References:
+        https://schema.org/TollFree
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class TollFreeAllProperties(TollFreeInheritedProperties, TollFreeProperties, TypedDict):
+    pass
+
+
+class TollFreeBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="TollFree", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        TollFreeProperties, TollFreeInheritedProperties, TollFreeAllProperties
+    ] = TollFreeAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "TollFree"
+    return model
+
+
+TollFree = create_schema_org_model()
+
+
+def create_tollfree_model(
+    model: Union[TollFreeProperties, TollFreeInheritedProperties, TollFreeAllProperties]
+):
+    _type = deepcopy(TollFreeAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: TollFreeAllProperties):
+    pydantic_type = create_tollfree_model(model=model)
+    return pydantic_type(model).schema_json()

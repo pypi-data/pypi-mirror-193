@@ -1,0 +1,87 @@
+"""
+The invitee will attend.
+
+https://schema.org/RsvpResponseYes
+"""
+
+from datetime import *
+from copy import deepcopy
+from typing import *
+from time import *
+
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class RsvpResponseYesInheritedProperties(TypedDict):
+    """The invitee will attend.
+
+    References:
+        https://schema.org/RsvpResponseYes
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class RsvpResponseYesProperties(TypedDict):
+    """The invitee will attend.
+
+    References:
+        https://schema.org/RsvpResponseYes
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+
+class RsvpResponseYesAllProperties(
+    RsvpResponseYesInheritedProperties, RsvpResponseYesProperties, TypedDict
+):
+    pass
+
+
+class RsvpResponseYesBaseModel(SchemaOrgBase):
+    id_: Optional[Any] = Field(default="RsvpResponseYes", alias="@id")
+    context_: Optional[Any] = Field(default=None, alias="@context")
+    graph_: Optional[Any] = Field(default=None, alias="@graph")
+
+    class Config:
+        ...
+
+
+def create_schema_org_model(
+    type_: Union[
+        RsvpResponseYesProperties,
+        RsvpResponseYesInheritedProperties,
+        RsvpResponseYesAllProperties,
+    ] = RsvpResponseYesAllProperties
+) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "RsvpResponseYes"
+    return model
+
+
+RsvpResponseYes = create_schema_org_model()
+
+
+def create_rsvpresponseyes_model(
+    model: Union[
+        RsvpResponseYesProperties,
+        RsvpResponseYesInheritedProperties,
+        RsvpResponseYesAllProperties,
+    ]
+):
+    _type = deepcopy(RsvpResponseYesAllProperties)
+    for k in model.__annotations__.keys():
+        if k not in _type.__annotations__:
+            del _type.__annotations__[k]
+    return create_schema_org_model(type_=_type)
+
+
+def schema_json(model: RsvpResponseYesAllProperties):
+    pydantic_type = create_rsvpresponseyes_model(model=model)
+    return pydantic_type(model).schema_json()
