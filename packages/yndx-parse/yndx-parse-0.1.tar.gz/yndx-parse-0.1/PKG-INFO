@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yndx-parse
+Version: 0.1
+Summary: some descr
+Home-page: https://github.com/FonDerMark/yndx-parse
+Author: Xm0rph
+Author-email: publicnox@gmail.com
+License: MIT
+Requires: requests
+Requires: beautifulsoup4
+Requires: geopy
+Requires: fake_useragent
+License-File: LICENSE
