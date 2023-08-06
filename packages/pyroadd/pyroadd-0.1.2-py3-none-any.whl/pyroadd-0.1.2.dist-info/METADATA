@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyroadd
+Version: 0.1.2
+Summary: module to add members to telegam group
+License-File: LICENSE
+Requires-Dist: pyrogram
+Requires-Dist: tgcrypto
+Requires-Dist: readchar
+
+README and Examples at : [Github](https://github.com/nimmadev/pyroadd)
