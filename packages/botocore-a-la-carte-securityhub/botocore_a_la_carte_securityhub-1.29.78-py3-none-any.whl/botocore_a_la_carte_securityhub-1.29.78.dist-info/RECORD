@@ -1,0 +1,9 @@
+botocore/data/securityhub/2018-10-26/endpoint-rule-set-1.json,sha256=s7ZbwZ0Y14WNRcjZWzAFoIyNCuMs3RjzAYvrXJHKh6Q,17644
+botocore/data/securityhub/2018-10-26/examples-1.json,sha256=K3b6mgYkitvcecSlJT-iV_EQATmvOySs66iKJI5qx0g,44
+botocore/data/securityhub/2018-10-26/paginators-1.json,sha256=g8Ldsa2qjk-7iBcbgQH98p2fh7niGumLH5xiGMnBPcM,2099
+botocore/data/securityhub/2018-10-26/service-2.json,sha256=NeAui0XYUheln6hqZUl9OkpiZM1IqFusXGRsiYsmJxc,841796
+botocore_a_la_carte_securityhub-1.29.78.dist-info/LICENSE.txt,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+botocore_a_la_carte_securityhub-1.29.78.dist-info/METADATA,sha256=m9lyf9l_mhAJutOAwgAyT1TtvIDH-5CPcE-u6Lx23_s,966
+botocore_a_la_carte_securityhub-1.29.78.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+botocore_a_la_carte_securityhub-1.29.78.dist-info/top_level.txt,sha256=IdlNr9dnwi3lQt66dKnShE5HBUhIqBFqJmVhm11aijk,9
+botocore_a_la_carte_securityhub-1.29.78.dist-info/RECORD,,
