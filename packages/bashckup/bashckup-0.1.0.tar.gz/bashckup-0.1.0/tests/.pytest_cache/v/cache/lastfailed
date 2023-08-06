@@ -1,0 +1,8 @@
+{
+  "test_scenarios.py::test_cli_process": true,
+  "scenarios/backup/test_tar.py::test_differential_tar": true,
+  "scenarios/backup/test_tar.py": true,
+  "scenarios/backup/test_mariadb.py::test_mariadb": true,
+  "scenarios/backup/test_tar.py::test_tar": true,
+  "scenarios/backup/test_clean.py::test_tar_clean": true
+}
