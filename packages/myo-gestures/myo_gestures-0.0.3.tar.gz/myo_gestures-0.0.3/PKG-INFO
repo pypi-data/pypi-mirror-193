@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: myo_gestures
+Version: 0.0.3
+Summary: Myo Armband Gesture Classification
+Home-page: UNKNOWN
+Author: Allan Garcia
+Author-email: allang@u.northwestern.edu
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+Package for real time gesture classification using the Myo Armband
+
