@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: epicascade
+Version: 0.0.2
+Summary: CASCADE: a scCAS cell type annotation method dedicated to differentiating and imbalanced types
+Home-page: https://github.com/BioX-NKU/CASCADE
+Author: Yuhang Jia, Siyu Li
+License: MIT License
+Keywords: pip,CASCADE,single-sell
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.6.0
+License-File: LICENSE
+Requires-Dist: numpy (<1.22,>=1.21.6)
+Requires-Dist: pandas (>=1.4.2)
+Requires-Dist: scipy (>=1.8.1)
+Requires-Dist: scikit-learn (>=1.1.1)
+Requires-Dist: numba (>=0.55.1)
+Requires-Dist: scanpy (>=1.9.1)
+Requires-Dist: matplotlib (==3.5.2)
+Requires-Dist: anndata (>=0.8.0)
+Requires-Dist: episcanpy (>=0.3.2)
+Requires-Dist: torch (>=1.11.0)
+
+CASCADE provides an effective and efficient way to automatically annotate celltypes in scCAS datasets. All CASCADE wheels distributed on PyPI are MIT licensed.
+
