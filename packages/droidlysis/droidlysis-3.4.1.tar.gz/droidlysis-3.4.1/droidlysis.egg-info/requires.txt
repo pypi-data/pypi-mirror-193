@@ -1,0 +1,4 @@
+configparser>=4.0.2
+python-magic==0.4.12
+SQLAlchemy>=1.1.1
+rarfile>=3.0
