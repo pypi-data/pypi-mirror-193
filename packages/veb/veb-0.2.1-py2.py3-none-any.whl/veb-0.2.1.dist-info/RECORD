@@ -1,0 +1,8 @@
+veb/__init__.py,sha256=GfB-0e4ogdNWGtsYkXZa1oZ_WmqQ0Oe0l1hQscoaguw,44
+veb/_core.py,sha256=raaT3Pvi33VwgX4QjKzFRRnpT_3YetzKE6Gsy5cwm3w,8858
+veb/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veb/tests/test_core.py,sha256=l8OMFj9fgvqS6Y7s4GRQFw3g_MgGewjtZk4niqY6Ams,11768
+veb-0.2.1.dist-info/METADATA,sha256=ZicPXvkf_Ccd_N8F5jOv7KM5p_NBKQWYNGR_Nn5wGf4,1646
+veb-0.2.1.dist-info/WHEEL,sha256=nYNlZuHZ28ui1K118WE5qpb9yEZSMQ3u8pC2H4PftME,105
+veb-0.2.1.dist-info/licenses/COPYING,sha256=9OF-y5wma1t37Mp8xToGFFThrnJv_d-IFk9ZpaOeCT4,1057
+veb-0.2.1.dist-info/RECORD,,
