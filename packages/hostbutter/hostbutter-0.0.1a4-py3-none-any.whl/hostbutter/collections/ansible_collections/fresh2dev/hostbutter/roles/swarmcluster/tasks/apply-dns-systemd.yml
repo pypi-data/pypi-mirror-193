@@ -1,0 +1,139 @@
+---
+- name: check for local DNS server
+  wait_for:
+    port: 53
+    timeout: 3
+  ignore_errors: true
+  register: result
+
+- name: if exists, direct systemd to local dns servers
+  set_fact:
+    systemd_dns_servers: ["127.0.0.1"]
+  when: not result.failed and not systemd_bypass_dnsmasq
+
+- name: if exists, direct systemd to local dns servers
+  set_fact:
+    systemd_dns_servers: "{{ systemd_dns_servers + [ansible_docker0.ipv4.address] }}"
+  when: not result.failed and not systemd_bypass_dnsmasq and ansible_docker0 is defined
+
+- name: if not exists, direct systemd to upstream dns servers
+  set_fact:
+    systemd_dns_servers: "{{ dnsmasq_dns_servers }}"
+  when: result.failed or systemd_bypass_dnsmasq
+
+- set_fact:
+    systemd_bypass_dnsmasq: false
+  when: systemd_bypass_dnsmasq
+
+- debug:
+    var: systemd_dns_servers
+
+- name: set dns server
+  lineinfile:
+    path: /etc/systemd/resolved.conf
+    regexp: "^[# ]*DNS="
+    line: 'DNS={{ systemd_dns_servers | join(" ") }}'
+  notify: restart dns
+
+# - name: set fallback dns server
+#   lineinfile:
+#     path: /etc/systemd/resolved.conf
+#     regexp: "^[# ]*FallbackDNS="
+#     line: 'FallbackDNS={{ systemd_dns_fallback_servers | join(" ") }}'
+#   notify: restart dns
+
+# - name: set search domains
+#   lineinfile:
+#     path: /etc/systemd/resolved.conf
+#     regexp: "^[# ]*Domains="
+#     line: 'Domains={{ systemd_dns_search_domains | join(" ") }}'
+#   notify: restart dns
+
+- name: "disable dns stub to free port 53"
+  lineinfile:
+    path: /etc/systemd/resolved.conf
+    regexp: "^[# ]*DNSStubListener="
+    line: "DNSStubListener=no"
+  notify: restart dns
+
+- name: check for dhcpcd.conf
+  stat:
+    path: /etc/dhcpcd.conf
+  register: result
+
+- name: disable dhcp dns
+  lineinfile:
+    path: /etc/dhcpcd.conf
+    regexp: '^[# ]*nohook resolv\.conf'
+    line: 'nohook resolv.conf'
+  when: result.stat.exists
+  notify:
+    - restart dhcpcd
+    - restart dns
+
+- name: remove resolvconf
+  apt:
+    name:
+      - resolvconf
+      - openresolv
+    state: absent
+  notify: restart dns
+
+- name: check for dhclient
+  stat:
+    path: /etc/dhcp/dhclient-enter-hooks.d
+  register: result
+
+- name: disable dhclient dns
+  copy:
+    content: |
+      #!/bin/sh
+      make_resolv_conf(){
+        :
+      }
+    dest: /etc/dhcp/dhclient-enter-hooks.d/no-resolvconf
+    attributes: "+x"
+  when: result.stat.exists
+  # register: result2
+  changed_when: false  #"'x' not in result2.diff.before.attributes"
+  ignore_errors: true
+  notify: "restart dns"
+
+- name: check for NetworkManager
+  stat:
+    path: /etc/NetworkManager/NetworkManager.conf
+  register: nm
+
+- name: disable NM dhcp dns
+  lineinfile:
+    path: /etc/NetworkManager/NetworkManager.conf
+    insertafter: '\[main\]'
+    line: 'dns=none'
+  when: nm.stat.exists
+  notify:
+    - restart NetworkManager
+    - restart dns
+
+# - name: update /etc/hosts by hostname
+#   lineinfile:
+#     path: /etc/hosts
+#     regexp: "^.+\\s+{{ item.key }}$"
+#     line: "{{ item.value }} {{ item.key }}"
+#   loop: "{{ etc_hosts_entries | dict2items }}"
+#   notify: restart dns
+
+- name: restart dns on change
+  meta: flush_handlers
+
+- name: ensure systemd-resolved is started
+  service:
+    name: systemd-resolved
+    enabled: true
+    state: started
+
+- name: link /etc/resolv.conf to systemd resolv.conf
+  file:
+    src: /run/systemd/resolve/resolv.conf
+    dest: /etc/resolv.conf
+    state: link
+    force: true

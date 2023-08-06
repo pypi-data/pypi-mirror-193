@@ -1,0 +1,3 @@
+[console_scripts]
+butter = hostbutter.__main__:main
+hostbutter = hostbutter.__main__:main

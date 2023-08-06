@@ -1,0 +1,46 @@
+---
+- include_tasks:
+    file: apply-dns-systemd.yml
+    apply:
+      tags: ['dns']
+
+- name: check for local DNS server
+  wait_for:
+    port: 5300
+    timeout: 3
+  ignore_errors: true
+  register: result
+
+- name: if exists, direct dnsmasq to it
+  set_fact:
+    dnsmasq_dns_servers: ["127.0.0.1#5300"]
+  when: not result.failed
+
+- debug:
+    var: dnsmasq_dns_servers
+
+- name: setup dnsmasq
+  include_role:
+    name: oefenweb.dnsmasq
+    apply:
+      tags: ['dns']
+  vars:
+    dnsmasq_service_state: stopped
+    dnsmasq_service_enabled: true
+    dnsmasq_service_resolved_disabled: false
+    dnsmasq_dnsmasq_conf: "{{ dnsmasq_conf + dnsmasq_extra_conf }}"
+
+- name: create dnsmasq config dir
+  file:
+    path: /etc/systemd/system/dnsmasq.service.d
+    state: directory
+
+- name: restart dns on change
+  meta: flush_handlers
+
+- name: ensure dnsmasq is started
+  service:
+    name: dnsmasq
+    state: started
+
+- include_tasks: apply-dns-systemd.yml

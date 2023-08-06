@@ -1,0 +1,125 @@
+---
+
+- name: disable sleep
+  systemd:
+    name: "{{ item }}"
+    masked: true
+  loop:
+    - sleep.target
+    - suspend.target
+    - hibernate.target
+    - hybrid-sleep.target
+
+- name: enable systemd-wait-online
+  service:
+    name: systemd-networkd-wait-online
+    enabled: true
+
+- name: install packages
+  apt:
+    name: '{{ apt_packages }}'
+    update_cache: true
+
+- name: apply ntp
+  include_tasks:
+    file: setup-ntp.yml
+    apply:
+      tags: [ntp]
+  when: >
+    timesync_ntp_hosts is defined
+    and timesync_ntp_hosts | length > 0
+  tags:
+    - ntp
+
+- name: apply firewall
+  include_tasks:
+    file: apply-firewall.yml
+    apply:
+      tags: [firewall]
+  when: firewall_additional_rules is defined
+  tags:
+    - firewall
+
+- name: install docker
+  include_tasks:
+    file: install-docker.yml
+  when: >
+    docker_swarm_interface is defined
+    and docker_swarm_interface | default('', true) | length > 0
+
+- name: apply swarm
+  include_tasks:
+    file: apply-swarm-mode.yml
+    apply:
+      tags: [swarm]
+  when: >
+    docker_swarm_interface is defined
+    and docker_swarm_interface | default('', true) | length > 0
+  tags:
+    - swarm
+
+- include_tasks:
+    file: apply-swarm-networks.yml
+    apply:
+      tags: [swarm]
+  when: >
+    ansible_hostname == groups['docker_swarm_manager'][0]
+    and docker_swarm_networks is defined
+    and docker_swarm_networks | length > 0
+  tags:
+    - swarm
+
+# refresh so that docker interface is available in DNS setup
+- name: refresh system facts
+  setup:
+
+# DNS setup must occur after Docker setup,
+# because DNS setup relies on the Docker interface IP.
+- name: apply dns
+  include_tasks:
+    file: apply-dnsmasq.yml
+    apply:
+      tags: ['dns']
+  tags: ['dns']
+
+- name: apply labels
+  include_tasks:
+    file: apply-swarm-labels.yml
+    apply:
+      tags: [swarm, swarm-labels]
+  when: >
+    docker_swarm_interface is defined
+    and docker_swarm_interface | default('', true) | length > 0
+  tags:
+    - swarm
+    - swarm-labels
+
+- name: create contexts
+  include_tasks:
+    file: apply-swarm-contexts.yml
+    apply:
+      tags: [swarm, swarm-contexts]
+  when: create_local_contexts
+  tags:
+    - swarm
+    - swarm-contexts
+
+- name: apply nfs
+  include_tasks:
+    file: apply-nfs.yml
+    apply:
+      tags: [nfs]
+  tags:
+    - nfs
+
+- name: apply ca-cert
+  include_tasks:
+    file: apply-cacert.yml
+  when: >
+    root_ca_cert is defined
+    and root_ca_cert | length > 0
+
+- name: apply fail2ban
+  include_tasks:
+    file: apply-fail2ban.yml
+  when: fail2ban_install

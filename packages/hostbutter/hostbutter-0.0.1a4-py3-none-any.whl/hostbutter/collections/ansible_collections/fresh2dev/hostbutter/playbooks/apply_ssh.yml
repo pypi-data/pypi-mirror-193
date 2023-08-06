@@ -1,0 +1,180 @@
+---
+
+# https://www.digitalocean.com/community/tutorials/how-to-automate-server-setup-with-ansible-on-ubuntu-18-04
+# https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-docker-on-ubuntu-18-04
+
+- name: apply ssh
+  hosts: all
+  gather_facts: true
+  become: true
+  vars_prompt:
+    - name: ssh_key_file
+      prompt: "ssh key file name"
+      default: "id_ed25519.pub"
+      private: false
+      confirm: true
+    - name: new_password_salt
+      prompt: 'password salt (leave blank to skip)'
+      private: true
+      confirm: true
+    - name: new_root_password
+      prompt: 'root-password to set (leave blank to skip)'
+      private: true
+      confirm: true
+    - name: new_password
+      prompt: 'user-password to set (leave blank to skip)'
+      private: true
+      confirm: true
+    - name: user_uid
+      prompt: 'create/rename user with this uid'
+      default: 1000
+      private: false
+      confirm: true
+    - name: default_user_name
+      prompt: 'user name if none exists'
+      default: user
+      private: false
+      confirm: true
+    - name: password_auth
+      prompt: "permit password auth? (y/N)"
+      default: false
+      private: false
+      confirm: false
+    - name: rename_host
+      prompt: "rename host? (y/N)"
+      default: false
+      private: false
+      confirm: false
+
+  tasks:
+    - name: check if ssh key exists
+      stat:
+        path: "{{ lookup('env','HOME') + '/.ssh/' + ssh_key_file }}"
+      delegate_to: 127.0.0.1
+      register: pub_key
+
+    - name: fail if ssh key does not exist
+      fail:
+        msg: local ssh key "{{ ssh_key_file }}" does not exist on localhost.
+      when: not pub_key.stat.exists
+
+    - name: ensure sudo installed
+      apt:
+        name: sudo
+        state: present
+        update_cache: true
+
+    ###
+    - name: check if user with uid of '{{ user_uid }}' exists.
+      getent:
+        database: passwd
+        key: "{{ user_uid }}"
+        fail_key: false
+
+    - name: if exists, set `user_name` fact from result
+      set_fact:
+        user_name: "{{ getent_passwd.keys() | list | first }}"
+      when: getent_passwd.values() | select() | list | length > 0
+
+    - name: if empty, set default user name
+      set_fact:
+        user_name: '{{ default_user_name }}'
+      when: user_name is not defined or user_name|length == 0
+
+    - name: ensure user group exists
+      group:
+        name: "{{ user_name }}"
+        gid: "{{ user_uid }}"
+        state: present
+
+    - name: ensure system groups exist
+      group:
+        name: "{{ item }}"
+        state: present
+      loop: ["wheel", "docker"]
+
+    - name: Allow 'wheel' group to have passwordless sudo
+      lineinfile:
+        path: /etc/sudoers
+        state: present
+        regexp: '^%wheel'
+        line: '%wheel ALL=(ALL) NOPASSWD: ALL'
+        validate: '/usr/sbin/visudo -cf %s'
+
+    - name: create user with sudo privileges
+      user:
+        name: '{{ user_name }}'
+        group: '{{ user_name }}'
+        groups: wheel,docker
+        append: true
+        create_home: true
+        shell: '/bin/bash'
+        uid: "{{ user_uid }}"
+        state: present
+
+    - name: "change user password"
+      user:
+        name: '{{ user_name }}'
+        password: "{{ new_password | password_hash('sha512', new_password_salt) }}"
+      when: new_password_salt | length > 0 and new_password | length > 0
+
+    - name: Change root password
+      user:
+        name: root
+        password: "{{ new_root_password | password_hash('sha512', new_password_salt) }}"
+      when: new_password_salt | length > 0 and new_root_password | length > 0
+
+    - name: "add local ssh key to authorized keys of remote users"
+      ansible.posix.authorized_key:
+        user: "{{ item }}"
+        key: "{{ lookup('file', lookup('env','HOME') + '/.ssh/' + ssh_key_file) }}"
+        state: present
+      loop: ["{{ user_name }}", "root"]
+
+    - name: conform sshd config
+      lineinfile:
+        dest: "/etc/ssh/sshd_config"
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+        state: present
+        validate: 'sshd -T -f %s'
+        mode: 0644
+      with_items:
+        - regexp: "^PasswordAuthentication"
+          line: "PasswordAuthentication {{ 'yes' if password_auth is truthy(convert_bool=True) else 'no'}}"
+        - regexp: "^PermitRootLogin"
+          line: "PermitRootLogin no"
+        - regexp: "^Port"
+          line: "Port {{ ansible_port }}"
+        - regexp: "^UseDNS"
+          line: "UseDNS no"
+        - regexp: "^PermitEmptyPasswords"
+          line: "PermitEmptyPasswords no"
+        - regexp: "^ChallengeResponseAuthentication"
+          line: "ChallengeResponseAuthentication no"
+        - regexp: "^GSSAPIAuthentication"
+          line: "GSSAPIAuthentication no"
+        - regexp: "^X11Forwarding"
+          line: "X11Forwarding no"
+      notify: restart ssh
+
+    - block:
+      - name: rename host
+        hostname:
+          name: "{{ fq_hostname }}"
+          use: systemd
+      - name: update /etc/hosts by hostname
+        lineinfile:
+          path: /etc/hosts
+          regexp: "^.+\\s+{{ fq_hostname }}$"
+          line: "{{ ip_addr }} {{ fq_hostname }}"
+      vars:
+        ip_addr: "{{ ansible_default_ipv4.address }}"
+        fq_hostname: "{{ inventory_hostname + '.' + domain }}"
+      when: rename_host is truthy(convert_bool=True)
+
+  handlers:
+    - name: restart ssh
+      service:
+        name: ssh
+        state: restarted
