@@ -1,0 +1,5 @@
+setuptools
+aps_common_libraries>=1.0.0
+pyfftw
+tifffile
+pandas
