@@ -1,0 +1,8 @@
+eve_pytorch/__init__.py,sha256=0DGr1-Phn92gBC5ewC_IcJZQASCfZrbMPFkSqVi3PxA,39
+eve_pytorch/data.py,sha256=D6dkmty1g3jJiIVhHxNlFjB6-R4wl6HRzQrU7vPBNEo,1868
+eve_pytorch/eve_pytorch.py,sha256=03zTpkuZpFTH9ADcI-RUr4-B6vpRke5kutQqzOz5yaU,6810
+eve_pytorch/train.py,sha256=RGC50syquIVNk0fgPsgQ_smvTB64PmXX8KY10E8E3pc,3726
+eve_pytorch-0.0.3.dist-info/METADATA,sha256=pZmrUFDEUPwwoRMAW3pNbpK7V69DPNg1EHVYz-aoH9Q,671
+eve_pytorch-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+eve_pytorch-0.0.3.dist-info/top_level.txt,sha256=fOantJPuwsn7MmAxVARFIVvHo7Xsq2glHXszMsB-SRw,12
+eve_pytorch-0.0.3.dist-info/RECORD,,
