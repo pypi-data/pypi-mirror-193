@@ -1,0 +1,6 @@
+main.py
+pyproject.toml
+valhalla_for_go.egg-info/PKG-INFO
+valhalla_for_go.egg-info/SOURCES.txt
+valhalla_for_go.egg-info/dependency_links.txt
+valhalla_for_go.egg-info/top_level.txt
