@@ -1,0 +1,10 @@
+webint_mentions/__init__.py,sha256=ySQCXSWOFofXtBz8qk-JGKxn6dI9BaPzCdiGRiXjrP8,9529
+webint_mentions/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webint_mentions/templates/index.html,sha256=PM57IWNT7D1gilpVRar5KUlQpsW5ESSpJ8KsOppGYnQ,152
+webint_mentions/templates/received/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webint_mentions/templates/received/index.html,sha256=wxlotmPYYNwj9axtzZKXAoTcEhoQrMOiQrzI-x-QiNI,219
+webint_mentions/templates/sent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webint_mentions-0.0.9.dist-info/METADATA,sha256=WkD1QneQu4rvBqBWHe6Kb74bcgO3Gx0lH2p5LEZQw6A,422
+webint_mentions-0.0.9.dist-info/entry_points.txt,sha256=Hih0RgW6IC6W-z6C4HHcIYAXOvFeso78JLI72-rwnAU,40
+webint_mentions-0.0.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+webint_mentions-0.0.9.dist-info/RECORD,,
