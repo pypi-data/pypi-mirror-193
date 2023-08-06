@@ -1,0 +1,13 @@
+numpy
+numcodecs
+zarr
+ome-zarr
+dask[array,distributed]
+tqdm
+toolz
+
+[dev]
+check-manifest
+
+[test]
+coverage
