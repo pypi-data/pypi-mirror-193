@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+hil_test_framework.egg-info/PKG-INFO
+hil_test_framework.egg-info/SOURCES.txt
+hil_test_framework.egg-info/dependency_links.txt
+hil_test_framework.egg-info/top_level.txt
