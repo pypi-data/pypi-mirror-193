@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: stale-data-detection
+Version: 0.1
+Summary: Python package to extract table names from github url and check whether the tables are stale
+Author: HaiLe
+Author-email: hai.le@csvhealth.com
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
