@@ -1,0 +1,2 @@
+Version: 1.3.2
+Arguments: ['C:\\Python38\\Scripts\\delvewheel', 'repair', '--add-path', 'source\\x64\\Release', 'scripts\\wheel\\meshlib\\dist\\meshlib-0.1.5.52-cp38-none-win_amd64.whl']
