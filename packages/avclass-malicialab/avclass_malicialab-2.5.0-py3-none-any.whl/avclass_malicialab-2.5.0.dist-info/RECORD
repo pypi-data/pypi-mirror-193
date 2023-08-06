@@ -1,0 +1,12 @@
+avclass/__init__.py,sha256=t0WT-Cc5EaGhnIsFSUWG2hEUe7bkujvBuQgBe-4KUq0,401
+avclass/common.py,sha256=vPi_0kH8hLmRB1CvVeifytFIWc16oudroEbHYSQdJCQ,22675
+avclass/evaluate.py,sha256=TZ121nXz9W6f5b2wy-kFhBmU7VtDjgLSQlGGveB3GqE,4317
+avclass/labeler.py,sha256=LAlkeVSl5GyBXwqYk2ZyHP9sMYWU8jZpMZHc0ODE4hA,17128
+avclass/normalize.py,sha256=DwyaB9YQGIcAJH89J6otTgBn7KcKZTZhm-UoN2QDMOs,1743
+avclass/update.py,sha256=PtTaanmjrdcEBICESvEaPAehibqhEV3CpJ76dGGMBkc,17632
+avclass_malicialab-2.5.0.dist-info/LICENSE,sha256=lLN1WeBhDzB9OCDcMwgx0fsLajlfEMvjgi8MREUi2_M,1100
+avclass_malicialab-2.5.0.dist-info/METADATA,sha256=CuO4R3Ifd_e5XulVwdSvycoUqRXe0CutwxyBj0cOShI,16838
+avclass_malicialab-2.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+avclass_malicialab-2.5.0.dist-info/entry_points.txt,sha256=JZywh-YP5hzoH-02EinIhMTBFKBMTVz2u09OLEydpkM,129
+avclass_malicialab-2.5.0.dist-info/top_level.txt,sha256=KzlcgFwvgXDoh_VSD5oysMYhky4eHk3zfhQKrRDqqsc,8
+avclass_malicialab-2.5.0.dist-info/RECORD,,
