@@ -1,0 +1,8 @@
+pandas~=1.2.5
+scikit-learn~=1.2.1
+
+[examples]
+ipython
+jupyter
+os
+matplotlib
