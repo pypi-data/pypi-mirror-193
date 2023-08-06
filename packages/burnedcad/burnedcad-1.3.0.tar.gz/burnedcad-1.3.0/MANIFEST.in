@@ -1,0 +1,3 @@
+include burnedcad/images/*.png
+include burnedcad/images/*.jpg
+include burnedcad/annotations/*.json

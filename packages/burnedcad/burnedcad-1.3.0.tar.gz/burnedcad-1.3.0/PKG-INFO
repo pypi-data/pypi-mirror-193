@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: burnedcad
+Version: 1.3.0
+Summary: Burned Connector Anomaly Detection
+Home-page: https://github.com/epsilon-deltta/burnedCAD
+Author: epsilon
+Author-email: ypahn@chungbuk.ac.kr
+License: MIT
+Requires-Python: >=3
+
+
+
+
+## dataset
+
+Connector Anomaly detection
+
+v1. Burned connectors through the process at the factory.
+v2. Burned connector samples manually with a lighter.
+
+## USAGE
+
