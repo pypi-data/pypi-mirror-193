@@ -1,0 +1,5 @@
+requests==2.28.2
+charset-normalizer
+urllib3
+idna
+certifi
