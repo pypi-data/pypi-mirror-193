@@ -1,0 +1,2 @@
+ImageManager
+__init__
