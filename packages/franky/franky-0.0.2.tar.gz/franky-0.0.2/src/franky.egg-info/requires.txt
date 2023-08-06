@@ -1,0 +1,8 @@
+numpy==1.24.2
+torch==1.13.1
+packaging==23.0
+addict==2.4.0
+yapf==0.32.0
+PyYAML==6.0
+termcolor==2.2.0
+rich==13.3.1
