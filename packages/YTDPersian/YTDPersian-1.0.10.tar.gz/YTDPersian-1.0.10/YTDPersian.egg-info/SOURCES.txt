@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+YTDPersian/__init__.py
+YTDPersian/download.py
+YTDPersian.egg-info/PKG-INFO
+YTDPersian.egg-info/SOURCES.txt
+YTDPersian.egg-info/dependency_links.txt
+YTDPersian.egg-info/top_level.txt
