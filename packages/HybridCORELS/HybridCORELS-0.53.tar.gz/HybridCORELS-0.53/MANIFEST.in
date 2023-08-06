@@ -1,0 +1,8 @@
+include LICENSE
+include HybridCORELS/VERSION
+include HybridCORELS/README.txt
+include HybridCORELS/_prefix_corels.cpp
+include HybridCORELS/*.py
+include HybridCORELS/src/utils*
+include HybridCORELS/src/corels/src/*.h
+include HybridCORELS/src/corels/src/*.cpp
