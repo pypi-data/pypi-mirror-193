@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: googletv
+Version: 0.0.1
+Summary: 
+License: MIT
+Author: Sören Oldag
+Author-email: soeren_oldag@freenet.de
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: adb-shell[async] (>=0.4.3,<0.5.0)
+Description-Content-Type: text/markdown
+
+# python-googletv
