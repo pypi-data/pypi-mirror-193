@@ -1,0 +1,16 @@
+mpolar/__init__.py,sha256=LR6MCWa_AoeTcZtkTvdRLUP9Zwsr9F9lLyvkvESLp6c,606
+mpolar/list_format.py,sha256=oyekoyu0dX-zfZajS30VdK1xWEck7mjNh18DNgNIS00,2313
+mpolar/polar.py,sha256=o938nehzKsfKX1Oa5LFnTQ1V4yuqc0IdhQbtibWi4QM,2480
+mpolar/propulsion.py,sha256=yBccnd9jnpLbUMKxexn3ms-n2Gr3AFWDf-JJBXlISf8,1073
+mpolar/schema.py,sha256=982VAUz7lXA-uL3Ncv-EahPNwVeGpKqEUKiUN3tGF4c,451
+mpolar/table_format.py,sha256=hruPUO_tX5mV7Fq2b8WRTOgwbQwcnM-1HxhjRh5d6x0,5689
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/common.py,sha256=_bTJHAibkSBQp6CJjM6dsD3a2zBndjJ-KF6hiGthktU,315
+test/test_parse.py,sha256=F3rtjlVcuPcOuCM9F8FTjpZ1qZj_r_B-RfwUJRv0wvU,3685
+tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/csv2nc.py,sha256=8BcY6kkCH_rDQHhzLPpEHPaB-TU_-III5AKxXZje_sY,4836
+tools/nc2csv.py,sha256=c851rqtBwklb_U_d2HKaGhm01U8QvOoYZJUtb-oz3IA,2618
+mpolar-1.6.dist-info/METADATA,sha256=HDhsKVTYjaDGyragA5z8tpzYJ9NJRBY407-Ps6fns7A,461
+mpolar-1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mpolar-1.6.dist-info/top_level.txt,sha256=C_pSVygEosMWJTI-hDm8jH5lurQLNXwWpW5uIJI_ICY,18
+mpolar-1.6.dist-info/RECORD,,
