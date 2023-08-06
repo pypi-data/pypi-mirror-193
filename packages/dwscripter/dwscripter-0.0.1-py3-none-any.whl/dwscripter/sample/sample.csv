@@ -1,0 +1,40 @@
+Source,Logic,Canonical
+field1,,canonical1
+field2,,canonical2
+field3,"if field3=null;send null 
+Else D",canonical3
+field4,,canonical4
+,,Object:cano_ob1
+field5,"if field3=value1;send A 
+If field7=value1;send B
+Else C",<<canonical5
+field6,,canonical6
+object:source_ob1,,object:cano_ob2
+<<field7,,<<canonical7
+<<field8,Use 123,<<canonical8
+field9,,canonical9
+field10,"if field7=not_null;send X1
+If field9=null;send Y1
+Else D",canonical10
+Array:source_n1,,Array:cano_n1
+++field10,,<<canonical11
+<<field12,,<<canonical12
+<<field13,"if field10=val1;send A1 
+If field15=val1;send B1
+Else C1",<<canonical13
+<<field14,,<<canonical14
+<<Object:source_x1,,<<object:cano_x1
+<<<<field15,,<<<<canonical15
+<<<<field16,"if field13=val2;send A11 
+If field15=val2;send B12
+Else C13",<<<<canonical16
+Array:source_n1,,Array:cano_n2
+<<field17,,<<canonical17
+<<field18,use default_value,<<canonical18
+<<Object:source_x2,,<<object:cano_x2
+<<<<payload>field9,,<<<<canonical18a
+<<<<root>field18,,<<<<canonical18b
+<<<<field19,"if field18=val4;send ANew
+If field9=val4;send Bnew
+Else CNew",<<<<canonical19
+field20,,canonical20

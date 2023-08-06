@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dwscripter
+Version: 0.0.1
+Summary: DW Script Generator
+Author: Soumyajit Sinha
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: tabulate
+Requires-Dist: numpy
+Requires-Dist: click
+Requires-Dist: twine
+
+# DW-Scripter
+DW-Scripter (lib name : dwscripter) is a tool/library made to generate Dataweave Script based on a input CSV file.
+
+# Installation
+
+## pip install
+"python -m pip install dwscripter"
+
+# Usage
+
+## guide
+`Logs the Instruction/Manual`
+
+## mapper
+`Generates the Dataweave mapping. Uses a CSV file as input`
+
+## trial
+`Displays a sample CSV file & generates mapping based on it`
