@@ -1,0 +1,14 @@
+.project
+.pydevproject
+.settings
+*.pyc
+*.mo
+.DS_Store
+build
+dist
+*.egg-info
+.vscode
+.tox
+.pycache
+run_tests
+.venv
