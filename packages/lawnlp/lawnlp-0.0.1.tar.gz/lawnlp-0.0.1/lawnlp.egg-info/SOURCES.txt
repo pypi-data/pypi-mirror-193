@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lawnlp/__init__.py
+lawnlp/hello.py
+lawnlp.egg-info/PKG-INFO
+lawnlp.egg-info/SOURCES.txt
+lawnlp.egg-info/dependency_links.txt
+lawnlp.egg-info/top_level.txt
