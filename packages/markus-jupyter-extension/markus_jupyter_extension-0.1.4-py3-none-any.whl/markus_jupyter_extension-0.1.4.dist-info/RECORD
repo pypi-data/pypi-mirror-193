@@ -1,0 +1,11 @@
+markus-jupyter-extension/__init__.py,sha256=7buB9PUzv4d_9OBDP1PXpF0Gsu8tlJ67Y7jrRqdDrFU,394
+markus-jupyter-extension/static/extension.js,sha256=7iTQ818bOl87i3VteKg-zXc5r4zR_i1uoha0vgrFpr0,9162
+markus-jupyter-extension/static/assets/markus.ico,sha256=fBxOALauaZdH8o7Em4vHAdrA97dHiGRGAzkOffrLF3U,110985
+markus_jupyter_extension-0.1.4.data/data/etc/jupyter/nbconfig/notebook.d/markus_jupyter_extension.json,sha256=kml_PMbKp0Taesbdjmg-jCBhjV1ko4hiEn1AE0guCjw,78
+markus_jupyter_extension-0.1.4.data/data/share/jupyter/nbextensions/markus-jupyter-extension/extension.js,sha256=7iTQ818bOl87i3VteKg-zXc5r4zR_i1uoha0vgrFpr0,9162
+markus_jupyter_extension-0.1.4.data/data/share/jupyter/nbextensions/markus-jupyter-extension/assets/markus.ico,sha256=fBxOALauaZdH8o7Em4vHAdrA97dHiGRGAzkOffrLF3U,110985
+markus_jupyter_extension-0.1.4.dist-info/LICENSE,sha256=Dzfytl5Wf-EsYMexzLKqu36o1FISaZc2YvgngKjKW7Y,1063
+markus_jupyter_extension-0.1.4.dist-info/METADATA,sha256=NZF04e5w1PkTjlLeXqSNuIr-waPFWXkx8rc70mMT3k8,3029
+markus_jupyter_extension-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+markus_jupyter_extension-0.1.4.dist-info/top_level.txt,sha256=-Wjlx1Ch2pztJtIEjUMSPYNnQvHehXYVQgh3m4N0LO4,25
+markus_jupyter_extension-0.1.4.dist-info/RECORD,,
