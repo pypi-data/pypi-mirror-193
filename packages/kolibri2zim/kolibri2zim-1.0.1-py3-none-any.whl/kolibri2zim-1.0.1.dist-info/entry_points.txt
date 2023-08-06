@@ -1,0 +1,3 @@
+[console_scripts]
+kolibri2zim = kolibri2zim.__main__:main
+
