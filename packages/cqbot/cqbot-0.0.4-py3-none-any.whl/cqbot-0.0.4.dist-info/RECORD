@@ -1,0 +1,12 @@
+cqbot/__init__.py,sha256=hZoog1g8N3CylzcUhAx-pB-tYXWzuVfOV_7sA_onZE4,119
+cqbot/action.py,sha256=fRGAUDLkABzJWmaPWdQx6TEX65c-1AKLRqoNIjkDdeQ,37544
+cqbot/bot.py,sha256=T71yedXW9wP5ns6Ln4CLCLMDfbDERuT4g5HeoTFovys,9200
+cqbot/cmd.py,sha256=6T2D0HnuS3UfKpKfUuLgWATYtp0oTzU-ewIxmQwDKSc,2460
+cqbot/cq.py,sha256=cPS_wwEfibdEpRR3zQF_5XCBiy9LdxK3BzsfpVFHNxw,11209
+cqbot/enum.py,sha256=NGOerb8fUCuEkG1Vt3yAjqoBIjHUN_7TLad7l1sczWs,4323
+cqbot/event.py,sha256=b0XuV26AX5lqG7Xn23_gHpWBuUkzKCEL7InLYBHS8qs,19764
+cqbot-0.0.4.dist-info/LICENSE,sha256=28UT8N3tMjRqOKpKVBH-J6PkdWCQ7EtTeQTUVRMFDws,1063
+cqbot-0.0.4.dist-info/METADATA,sha256=QB_2WZtxkeMSbpkHS5YG3YCS2P4xpuA6vxb55C63aJA,8028
+cqbot-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cqbot-0.0.4.dist-info/top_level.txt,sha256=O7T0iU44W3Z2iGhw8UirAIF2gPHGujLnQuf7JDlSpAs,6
+cqbot-0.0.4.dist-info/RECORD,,
