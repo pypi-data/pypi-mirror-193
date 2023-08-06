@@ -1,0 +1,3 @@
+requests
+appdirs>=1.4
+importlib_resources
