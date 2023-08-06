@@ -1,0 +1,8 @@
+OpenAIAuth==0.3.2
+requests
+
+[unofficial]
+requests
+undetected_chromedriver
+selenium
+tls_client
