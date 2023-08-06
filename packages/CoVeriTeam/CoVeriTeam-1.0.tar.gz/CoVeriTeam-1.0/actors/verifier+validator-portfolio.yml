@@ -1,0 +1,58 @@
+# This file is part of CoVeriTeam, a tool for on-demand composition of cooperative verification systems:
+# https://gitlab.com/sosy-lab/software/coveriteam
+#
+# SPDX-FileCopyrightText: 2020 Dirk Beyer <https://www.sosy-lab.org>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+imports:
+  - !include verifier_resource.yml
+actor_name: verifier+validator-portfolio
+toolinfo_module: "https://raw.githubusercontent.com/sosy-lab/benchexec/main/benchexec/tools/coveriteam-verifier-validator.py"
+options: []
+archives:
+  - version: default
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=${verifier_config_to_use}", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units"]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: 2ls
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=2ls", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: cbmc
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=cbmc", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: cpachecker
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=cpachecker", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: esbmc-kind
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=esbmc-kind", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: goblint
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=goblint", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: lart
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=lart", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: symbiotic
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=symbiotic", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: uautomizer
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=uautomizer", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: ukojak
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=ukojak", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+  - version: utaipan
+    options: [ "verifier+validator-portfolio.cvt", "--input", "verifier_name=utaipan", "--input", "verifier_version=default", "--cache-dir=../../cache", "--no-cache-update", "--input", "validator_proof_version=validator-2-units", "--input", "validator_alarm_version=validator-4-units" ]
+    spdx_license_identifier: "Apache-2.0"
+    location: "https://gitlab.com/sosy-lab/benchmarking/coveriteam-archives/test/-/raw/main/validating-portfolio.zip"
+format_version: '1.2'

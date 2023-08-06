@@ -1,0 +1,13 @@
+# This file is redistributed as part of repository for evaluation a set of compositions in CoVeriTeam:
+# https://gitlab.com/sosy-lab/research/data/coveriteam-verifier-compositions-evaluation
+#
+# SPDX-FileCopyrightText: 2021 Dirk Beyer <https://www.sosy-lab.org>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+imports: 
+  - !include cst-transform.yml
+  - !include resource-limitations-feature-extractor.yml
+actor_name: cst-feature-extractor
+toolinfo_module: "coveriteam.toolconfigs.feature-encoder-cst-transform.py"
+options: ["--embed", "--embed_file", "feature_vector.json"]

@@ -1,0 +1,19 @@
+# This file is part of CoVeriTeam, a tool for on-demand composition of cooperative verification systems:
+# https://gitlab.com/sosy-lab/software/coveriteam
+#
+# SPDX-FileCopyrightText: 2022 Raphaël Monat
+#
+# SPDX-License-Identifier: Apache-2.0
+
+# Actor definition for the tool Mopsa <https://gitlab.com/mopsa/mopsa-analyzer>
+
+imports:
+  - !include verifier_resource.yml
+actor_name: mopsa
+toolinfo_module: "https://gitlab.com/sosy-lab/software/benchexec/-/raw/main/benchexec/tools/mopsa.py"
+options: []
+archives:
+  - version: svcomp23-alpha
+    location: "https://gitlab.com/sosy-lab/sv-comp/archives-2023/-/raw/main/2023/mopsa.zip"
+    options: []
+format_version: '1.2'

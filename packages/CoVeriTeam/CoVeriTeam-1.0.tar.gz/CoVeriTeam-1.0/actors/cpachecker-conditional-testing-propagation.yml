@@ -1,0 +1,13 @@
+# This file is part of CoVeriTeam, a tool for on-demand composition of cooperative verification systems:
+# https://gitlab.com/sosy-lab/software/coveriteam
+#
+# SPDX-FileCopyrightText: 2020-2022 Dirk Beyer <https://www.sosy-lab.org>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+imports:
+  - !include cpachecker-BASE.yml
+  - !include verifier_resource.yml
+actor_name: "cpachecker-conditional-testing"
+options: ["-benchmark", "-heap", "10000M", "-conditional-testing-propagation"]
+format_version: '1.2'

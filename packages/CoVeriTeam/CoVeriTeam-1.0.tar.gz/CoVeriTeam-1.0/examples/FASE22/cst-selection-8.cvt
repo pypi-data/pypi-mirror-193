@@ -1,0 +1,63 @@
+// This file is redistributed as part of repository for evaluation a set of compositions in CoVeriTeam:
+// https://gitlab.com/sosy-lab/research/data/coveriteam-verifier-compositions-evaluation
+//
+// SPDX-FileCopyrightText: 2021 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// A CoVeriTeam program to execute a verifier based on tool selection.
+
+// Prepare example inputs
+program = ArtifactFactory.create(Program, program_path);
+specification = ArtifactFactory.create(BehaviorSpecification, specification_path);
+actordef_path = ArtifactFactory.create(ActorDefinitionDirectory, actordef_dir);
+inputs = {'program':program, 'spec':specification, 'directory': actordef_path};
+verifier_inputs = {'program':program, 'spec':specification};
+
+// First step: encode the program into a feature vector.
+encoder = ActorFactory.create(FeatureVectorEncoder, "actor-definitions/cst-feature-extractor.yml");
+
+// Second step: use multiple classifiers.
+classifier_cpa_seq = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-cpa-seq-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_cpa_seq'}));
+classifier_esbmc_kind = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-esbmc-kind-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_esbmc_kind'}));
+classifier_symbiotic = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-symbiotic-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_symbiotic'}));
+classifier_uautomizer = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-uautomizer-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_uautomizer'}));
+classifier_cbmc = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-cbmc-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_cbmc'}));
+classifier_divine = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-divine-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_divine'}));
+classifier_goblint = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-goblint-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_goblint'}));
+classifier_utaipan = SEQUENCE(ActorFactory.create(Classifier, "actor-definitions/classifier-utaipan-for-cst-features.yml"), Rename({('classification', ClassificationConfidence): 'classification_utaipan'}));
+
+classifiers_1 = PARALLEL(classifier_cpa_seq, classifier_esbmc_kind);
+classifiers_2 = PARALLEL(classifiers_1, classifier_symbiotic);
+classifiers_3 = PARALLEL(classifiers_2, classifier_uautomizer);
+classifiers_4 = PARALLEL(classifiers_3, classifier_cbmc);
+classifiers_5 = PARALLEL(classifiers_4, classifier_divine);
+classifiers_6 = PARALLEL(classifiers_5, classifier_goblint);
+classifiers_7 = PARALLEL(classifiers_6, classifier_utaipan);
+
+classifiers = classifiers_7;
+
+// Third step: select the classification with highest confidence from the produced classifications.
+comparator = Comparator(ClassificationConfidence, {'classification_cpa_seq', 'classification_esbmc_kind', 'classification_symbiotic', 'classification_uautomizer', 'classification_cbmc', 'classification_divine', 'classification_goblint', 'classification_utaipan'}, 'classification');
+
+// Put the classifiers and comparator in a sequence to create a classification selector.
+classification_selector = SEQUENCE(classifiers, comparator);
+
+// Fourth step: convert the selected classification to the corresponding actor definition.
+converter = ClassificationToActorDefinition();
+
+// Put these in sequence.
+verifier_selector = SEQUENCE(SEQUENCE(encoder, classification_selector), converter);
+
+selected_verifier_name = execute(verifier_selector, inputs);
+print("The selected verifier is:");
+print(selected_verifier_name.actordef);
+
+// Verification stage: use the verifier backend.
+verifier_def = selected_verifier_name.actordef;
+selected_verifier = ActorFactory.create(ProgramVerifier, verifier_def);
+
+// Execute the verifier on the inputs
+result = execute(selected_verifier, verifier_inputs);
+print("The output produced by the execution of the selected verifier:");
+print(result);

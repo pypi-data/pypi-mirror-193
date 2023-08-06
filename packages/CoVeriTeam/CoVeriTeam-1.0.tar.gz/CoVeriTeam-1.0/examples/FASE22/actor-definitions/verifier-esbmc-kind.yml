@@ -1,0 +1,14 @@
+# This file is redistributed as part of repository for evaluation a set of compositions in CoVeriTeam:
+# https://gitlab.com/sosy-lab/research/data/coveriteam-verifier-compositions-evaluation
+#
+# SPDX-FileCopyrightText: 2021 Dirk Beyer <https://www.sosy-lab.org>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+actor_name: esbmc-kind
+toolinfo_module: "esbmc.py"
+options: ["-s", "kinduction"]
+archives:
+  - version: default
+    location: "https://gitlab.com/sosy-lab/sv-comp/archives-2021/-/raw/master/2021/esbmc-kind.zip"
+format_version: '1.2'

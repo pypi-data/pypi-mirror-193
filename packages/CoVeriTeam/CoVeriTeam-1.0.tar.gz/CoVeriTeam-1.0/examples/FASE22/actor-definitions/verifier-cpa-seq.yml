@@ -1,0 +1,15 @@
+# This file is redistributed as part of repository for evaluation a set of compositions in CoVeriTeam:
+# https://gitlab.com/sosy-lab/research/data/coveriteam-verifier-compositions-evaluation
+#
+# SPDX-FileCopyrightText: 2021 Dirk Beyer <https://www.sosy-lab.org>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+actor_name: cpa-seq
+toolinfo_module: "cpachecker.py"
+options: ['-svcomp21', '-heap', '10000M', '-benchmark', '-timelimit', '900 s']
+archives:
+  - version: default
+    location: "https://gitlab.com/sosy-lab/sv-comp/archives-2021/-/raw/master/2021/cpa-seq.zip"
+    spdx_license_identifier: "Apache-2.0"
+format_version: '1.2'

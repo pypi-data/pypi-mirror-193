@@ -1,0 +1,64 @@
+// This file is redistributed as part of repository for evaluation a set of compositions in CoVeriTeam:
+// https://gitlab.com/sosy-lab/research/data/coveriteam-verifier-compositions-evaluation
+//
+// SPDX-FileCopyrightText: 2021 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// A CoVeriTeam program to execute a verifier based on sequence of verifiers.
+
+// Create first verifier from the actor definition yml file.
+verifier1 = ActorFactory.create(ProgramVerifier, "actor-definitions/cpa-seq-sequence-8.yml");
+// Construct ITE
+verifier2 = ActorFactory.create(ProgramVerifier, "actor-definitions/esbmc-kind-sequence-8.yml");
+condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+ite_verifier2 = ITE(condition,verifier2, Copy({'witness':Witness, 'verdict':Verdict}));
+seq_verifier2 = SEQUENCE(verifier1, ite_verifier2);
+
+// Construct ITE
+verifier3 = ActorFactory.create(ProgramVerifier, "actor-definitions/symbiotic-sequence-8.yml");
+condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+ite_verifier3 = ITE(condition, verifier3, Copy({'witness':Witness, 'verdict':Verdict}));
+seq_verifier3 = SEQUENCE(seq_verifier2, ite_verifier3);
+
+// Construct ITE
+verifier4 = ActorFactory.create(ProgramVerifier, "actor-definitions/uautomizer-sequence-8.yml");
+condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+ite_verifier4 = ITE(condition, verifier4, Copy({'witness':Witness, 'verdict':Verdict}));
+seq_verifier4 = SEQUENCE(seq_verifier3, ite_verifier4);
+
+// Construct ITE
+verifier5 = ActorFactory.create(ProgramVerifier, "actor-definitions/cbmc-sequence-8.yml");
+condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+ite_verifier5 = ITE(condition, verifier5, Copy({'witness':Witness, 'verdict':Verdict}));
+seq_verifier5 = SEQUENCE(seq_verifier4, ite_verifier5);
+
+// Construct ITE
+verifier6 = ActorFactory.create(ProgramVerifier, "actor-definitions/divine-sequence-8.yml");
+condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+ite_verifier6 = ITE(condition, verifier6, Copy({'witness':Witness, 'verdict':Verdict}));
+seq_verifier6 = SEQUENCE(seq_verifier5, ite_verifier6);
+
+// Construct ITE
+verifier7 = ActorFactory.create(ProgramVerifier, "actor-definitions/goblint-sequence-8.yml");
+condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+ite_verifier7 = ITE(condition, verifier7, Copy({'witness':Witness, 'verdict':Verdict}));
+seq_verifier7 = SEQUENCE(seq_verifier6, ite_verifier7);
+
+// Construct ITE
+verifier8 = ActorFactory.create(ProgramVerifier, "actor-definitions/utaipan-sequence-8.yml");
+condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+ite_verifier8 = ITE(condition, verifier8, Copy({'witness':Witness, 'verdict':Verdict}));
+seq_verifier8 = SEQUENCE(seq_verifier7, ite_verifier8);
+
+seq_verifier = seq_verifier8;
+
+// Prepare example inputs
+program = ArtifactFactory.create(CProgram, program_path);
+specification = ArtifactFactory.create(BehaviorSpecification, specification_path);
+inputs = {'program':program, 'spec':specification};
+
+// Execute the new component on the inputs
+res = execute(seq_verifier, inputs);
+print("The following artifacts were produced by the execution:");
+print(res);

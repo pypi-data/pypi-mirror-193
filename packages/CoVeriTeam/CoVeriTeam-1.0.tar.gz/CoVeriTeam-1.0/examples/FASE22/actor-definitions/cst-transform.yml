@@ -1,0 +1,11 @@
+# This file is redistributed as part of repository for evaluation a set of compositions in CoVeriTeam:
+# https://gitlab.com/sosy-lab/research/data/coveriteam-verifier-compositions-evaluation
+#
+# SPDX-FileCopyrightText: 2021 Dirk Beyer <https://www.sosy-lab.org>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+archives:
+  - version: default
+    location: "https://syncandshare.lrz.de/dl/fiPJhz6P526GDcYNyF4MpyD5/cst_transform.zip"
+format_version: '1.2'

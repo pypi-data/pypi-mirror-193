@@ -1,0 +1,46 @@
+// This file is redistributed as part of repository for evaluation a set of compositions in CoVeriTeam:
+// https://gitlab.com/sosy-lab/research/data/coveriteam-verifier-compositions-evaluation
+//
+// SPDX-FileCopyrightText: 2021 Dirk Beyer <https://www.sosy-lab.org>
+//
+// SPDX-License-Identifier: Apache-2.0
+
+// A CoVeriTeam program to execute a verifier based on sequence of verifiers.
+
+fun get_ite(actor) {
+    condition = NOT ELEMENTOF(verdict, {TRUE, FALSE});
+    ite = ITE(condition, actor, Copy({'witness':Witness, 'verdict':Verdict}));
+    return ite;
+}
+
+// Create first verifier from the actor definition yml file.
+verifier1 = ActorFactory.create(ProgramVerifier, "actor-definitions/cpa-seq-sequence-8.yml");
+verifier2 = ActorFactory.create(ProgramVerifier, "actor-definitions/esbmc-kind-sequence-8.yml");
+verifier3 = ActorFactory.create(ProgramVerifier, "actor-definitions/symbiotic-sequence-8.yml");
+verifier4 = ActorFactory.create(ProgramVerifier, "actor-definitions/uautomizer-sequence-8.yml");
+verifier5 = ActorFactory.create(ProgramVerifier, "actor-definitions/cbmc-sequence-8.yml");
+verifier6 = ActorFactory.create(ProgramVerifier, "actor-definitions/divine-sequence-8.yml");
+verifier7 = ActorFactory.create(ProgramVerifier, "actor-definitions/goblint-sequence-8.yml");
+verifier8 = ActorFactory.create(ProgramVerifier, "actor-definitions/utaipan-sequence-8.yml");
+
+// smaller sequence from sequence-8
+sequence = SEQUENCE(
+    verifier1,
+    get_ite(verifier2),
+    get_ite(verifier3),
+    get_ite(verifier4),
+    get_ite(verifier5),
+    get_ite(verifier6),
+    get_ite(verifier7),
+    get_ite(verifier8)
+);
+
+// Prepare example inputs
+program = ArtifactFactory.create(CProgram, program_path);
+specification = ArtifactFactory.create(BehaviorSpecification, specification_path);
+inputs = {'program':program, 'spec':specification};
+
+// Execute the new component on the inputs
+res = execute(sequence, inputs);
+print("The following artifacts were produced by the execution:");
+print(res);
