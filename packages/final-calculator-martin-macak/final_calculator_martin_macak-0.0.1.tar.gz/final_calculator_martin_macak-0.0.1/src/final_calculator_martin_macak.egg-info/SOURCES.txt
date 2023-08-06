@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/calculator/__init__.py
+src/calculator/calculator.py
+src/calculator/test_calculator.py
+src/final_calculator_martin_macak.egg-info/PKG-INFO
+src/final_calculator_martin_macak.egg-info/SOURCES.txt
+src/final_calculator_martin_macak.egg-info/dependency_links.txt
+src/final_calculator_martin_macak.egg-info/top_level.txt
