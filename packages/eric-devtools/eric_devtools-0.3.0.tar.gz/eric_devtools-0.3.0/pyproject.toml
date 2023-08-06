@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "eric-devtools"
+version = "0.3.0"
+description = ""
+authors = ["Eric Batista <klose.eric31@gmail.com>"]
+readme = "README.md"
+packages = [{include = "devtools"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.4"
+pytest = "^7.2.1"
+sqlalchemy = "^2.0.4"
+pytest-asyncio = "^0.20.3"
+aiosqlite = "^0.18.0"
+asyncpg = "^0.27.0"
+cffi = "^1.15.1"
+pycryptodome = "^3.17"
+starlette = "^0.25.0"
+fastapi = "^0.92.0"
+requests = "^2.28.2"
+faker = "^17.0.0"
+httpx = "^0.23.3"
+orjson = "^3.8.6"
+aioredis = "^2.0.1"
+fakeredis = "^2.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+isort = "^5.11.4"
+autoflake = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
