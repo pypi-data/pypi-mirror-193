@@ -1,0 +1,7 @@
+httpx
+requests
+numpy
+pandas
+pymysql
+psycopg2
+redis
