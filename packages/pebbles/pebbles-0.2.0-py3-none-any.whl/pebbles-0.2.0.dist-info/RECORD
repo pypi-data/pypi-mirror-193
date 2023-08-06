@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pebbles.py,sha256=MTLky9niiCdt5AgUGqRXBT-7iHqAPd4VZ-7cx1zdzsY,8621
+tests/data/generate_test_sam.sh,sha256=OPZSqPrTnpNiz0M5q7XBBPamiKt0BAl96dnUFDraKkY,168
+tests/data/map.bam,sha256=_bfZdu0wSjOOf9UEXb89Meki6sSK51hwXnr9m9ZEHGc,799
+tests/data/map.sam,sha256=wjKeBrMla5SrFP3Zacs3_cgsjY3FMXYyexV-P26f_5s,2309
+tests/data/query.fa,sha256=Ec3JlIoOa7Hn0DLnP8fQzQNQq83V6BfJE7VvYS9y3n4,1094
+tests/data/ref.fa,sha256=8Y8dTqbQtLUDkxkgkuJOWZft82THBPQBz_mKof3hHW4,1464
+pebbles/__init__.py,sha256=8ABuTEY2vMPvYp2mQK3XN5EVQkHisIyjlwsphgTooyg,17
+pebbles/countess.py,sha256=b4TF6AUUGTkDy1l9P7t0vvqVM0W8rXO8emr91yVksho,2611
+pebbles/pebbles.py,sha256=zgd6w-578z7pMqECcNPLzQ2dV2wayZGY7HBPLhFT2rE,12077
+pebbles-0.2.0.dist-info/METADATA,sha256=VB0qWmPqlq76j_HJhJJ2mjOQGlcf43jzrs5U3-4iGqc,3781
+pebbles-0.2.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+pebbles-0.2.0.dist-info/entry_points.txt,sha256=M9w9581umhtcP2awU8WepFcNFb84cxEJGb1kg1h9oJA,157
+pebbles-0.2.0.dist-info/RECORD,,

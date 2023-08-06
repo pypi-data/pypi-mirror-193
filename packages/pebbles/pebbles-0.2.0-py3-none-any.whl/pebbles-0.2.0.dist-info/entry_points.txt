@@ -1,0 +1,6 @@
+[console_scripts]
+pebbles = pebbles.pebbles:main
+
+[countess_plugins]
+count_BAM = pebbles.countess:CountBAMPlugin
+count_SAM = pebbles.countess:CountSAMPlugin
