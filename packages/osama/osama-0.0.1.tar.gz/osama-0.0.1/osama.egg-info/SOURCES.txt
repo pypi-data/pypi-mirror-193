@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+osama.egg-info/PKG-INFO
+osama.egg-info/SOURCES.txt
+osama.egg-info/dependency_links.txt
+osama.egg-info/top_level.txt
