@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: qstr
+Version: 0.0.0
+Summary: qstr
+Home-page: http://github.com/zhiqingxiao/qstr/
+Author: Zhiqing Xiao
+Author-email: xzq.xiaozhiqing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+
+qstr: convert Python objects to a KDB+q string
+=======================
+
+Usage Example:
+
+```
+import datetime as dt
+from qstr import qstr
+qstr("Hello", 3., [3., dt.date(2000, 1, 1)], [], {"A": 3, "B": 4})
+```
+
+
