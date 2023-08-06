@@ -1,0 +1,8 @@
+setup.py
+huailib/__init__.py
+huailib/algorithms.py
+huailib/collections.py
+huailib.egg-info/PKG-INFO
+huailib.egg-info/SOURCES.txt
+huailib.egg-info/dependency_links.txt
+huailib.egg-info/top_level.txt
