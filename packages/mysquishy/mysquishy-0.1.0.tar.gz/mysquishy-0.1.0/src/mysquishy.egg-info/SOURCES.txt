@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/mysquishy/__init__.py
+src/mysquishy/_squish.py
+src/mysquishy.egg-info/PKG-INFO
+src/mysquishy.egg-info/SOURCES.txt
+src/mysquishy.egg-info/dependency_links.txt
+src/mysquishy.egg-info/entry_points.txt
+src/mysquishy.egg-info/requires.txt
+src/mysquishy.egg-info/top_level.txt
+tests/test_simple.py
