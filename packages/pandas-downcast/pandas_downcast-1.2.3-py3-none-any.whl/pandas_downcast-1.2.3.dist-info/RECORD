@@ -1,0 +1,7 @@
+pdcast/__init__.py,sha256=PziUW8HaGEexbdAVPSBUhbCChZ1dn08noPIXwD9j1Jo,946
+pdcast/core.py,sha256=FhLIR3WTjKPPCphsli7GroX6bxO-8218yOnIlHQ9MuA,13817
+pdcast/types.py,sha256=X03jET4StWTI7hae87XH1OhaqRlmlfUrCDQyo-tqtEw,574
+pandas_downcast-1.2.3.dist-info/LICENSE,sha256=6ggov9kEsHoPZEEYapbIxczb6Db2WI9Z_vO8hDowgQk,1070
+pandas_downcast-1.2.3.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+pandas_downcast-1.2.3.dist-info/METADATA,sha256=c8StfUpr8wMUNsgQzvhBhC-OGUN7dFFn20ulwwHCspA,7758
+pandas_downcast-1.2.3.dist-info/RECORD,,
