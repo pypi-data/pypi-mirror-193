@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo12-addons-oca-cooperative
+Version: 12.0.20230223.0
+Summary: Meta package for oca-cooperative Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Dist: odoo12-addon-cooperator
+Requires-Dist: odoo12-addon-cooperator-portal
+Requires-Dist: odoo12-addon-cooperator-website
+Requires-Dist: odoo12-addon-cooperator-website-referral-source
+Requires-Dist: odoo12-addon-l10n-be-cooperator-national-number
+Requires-Dist: odoo12-addon-l10n-be-cooperator-website-national-number
+
+UNKNOWN
+
