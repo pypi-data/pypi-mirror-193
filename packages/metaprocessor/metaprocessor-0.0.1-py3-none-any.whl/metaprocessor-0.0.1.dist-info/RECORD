@@ -1,0 +1,11 @@
+metaprocessor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaprocessor/__main__.py,sha256=8NuEe9j10aQuFkzgig0uo2wLJ0FjmiGn2Se5adF8pMw,94
+metaprocessor/config.py,sha256=LOzeOW3Tyk61ZavKjLt8FEymUTePve2vVNA41gAyFmI,663
+metaprocessor/main.py,sha256=NJEpq-4uMik1vqthFdwd1EYdqIgZjBf6g6DT9t1X31E,3188
+metaprocessor/command/config.py,sha256=6BpRSqDVJ64KXjRZlizIkzfh5VysHm_jzRHhl_cJAmY,962
+metaprocessor-0.0.1.dist-info/LICENSE.md,sha256=406AbeS0kgiFC1_kJ2WDjlznmSO7vrT3J1P0DbknTZs,1155
+metaprocessor-0.0.1.dist-info/METADATA,sha256=OLYN1OkTej3L84LXq7iX6xHMaoL8A8omKguQqC8y6dY,2262
+metaprocessor-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+metaprocessor-0.0.1.dist-info/entry_points.txt,sha256=eARtuXZXMyavP79FFubE8VPyx0u4rX0y2PHogLmpFkc,87
+metaprocessor-0.0.1.dist-info/top_level.txt,sha256=a6d8LEKxK6-m-nfO-OWiaDRqwCgHtGU6MIWqOoEBN-A,14
+metaprocessor-0.0.1.dist-info/RECORD,,
