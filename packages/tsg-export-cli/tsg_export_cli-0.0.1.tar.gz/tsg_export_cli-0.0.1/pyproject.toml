@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tsg-export-cli"
+license = {file = "LICENSE"}
+version = "0.0.1"
+authors = [
+  { name="Arya Gerami Zadegan" },
+]
+description = "Export TSG datasets to CSV scalar dumps and PNG imagery"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas",
+  "numpy",
+  "pillow",
+  "tqdm",
+]
+
+[project.scripts]
+tsg-cli = "tsg_export_cli:execute_tsg_interface"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tsg_export_cli"]
