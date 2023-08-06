@@ -1,0 +1,11 @@
+noxopt/__init__.py,sha256=9uuSfcHHL6PhIgZEnUbaecjVDFA4NcZCt7NN7s2q8d8,541
+noxopt/_config.py,sha256=SvoFemOMbz9CvSUODLhNF9sAE2LDVlfMmvkJIAF21cA,71
+noxopt/_option.py,sha256=3R835wLZKWIvawgRvSFUXgd74RpgNAjlS4Jrx4cbGVc,4968
+noxopt/_tagging.py,sha256=D7hdgYnCMghq4a2FhqPN0Ga9RJCQWLfnUqtsTgUWBK0,2863
+noxopt/noxopt.py,sha256=a_ZkpYKaQuIzeRvDrO53T07OJjP7QF33bnvtgg3zF1M,5295
+noxopt/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+noxopt-0.0.8.dist-info/LICENSE,sha256=j03P8oS7YsJWZsPcNgPBubGW2YeXQuP0kJAYQzYUoCA,1500
+noxopt-0.0.8.dist-info/METADATA,sha256=CbcqBxxKRQN2ctMJhufdiv9yKEWy3W0VFiLa4uoM8GU,7174
+noxopt-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+noxopt-0.0.8.dist-info/top_level.txt,sha256=urcYH4GkmJpqxRgSee_4mfgz-N3TZ89TEqgVnxCcYcQ,7
+noxopt-0.0.8.dist-info/RECORD,,
