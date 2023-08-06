@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+pwdpy/__init__.py
+pwdpy/pwdpy.py
+pwdpy.egg-info/PKG-INFO
+pwdpy.egg-info/SOURCES.txt
+pwdpy.egg-info/dependency_links.txt
+pwdpy.egg-info/top_level.txt
