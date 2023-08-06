@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: CodonU
+Version: 0.0.1
+Summary: This package is designed for helping in genomic analysis
+Home-page: https://github.com/SouradiptoC/codon_usage
+Author: Souradipto Choudhuri
+Author-email: sourochaudhuri@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SouradiptoC/codon_usage/issues
+Project-URL: Documentation, https://github.com/SouradiptoC/codon_usage/wiki
+Project-URL: Source Code, https://github.com/SouradiptoC/codon_usage
+Keywords: bioinformatics,bioinformatics-analysis,bioinformatics-tool,codon-usage,codon,codon-bias,genomic-analysis,genome,souradipto choudhuri
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# README
+
+[![PyPI - License](https://img.shields.io/pypi/l/CodonU)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/536583655.svg)](https://zenodo.org/badge/latestdoi/536583655)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/CodonU)](https://pypi.org/project/CodonU)
+[![PyPI](https://img.shields.io/pypi/v/CodonU)](https://pypi.org/project/CodonU)
+![GitHub repo size](https://img.shields.io/github/repo-size/SouradiptoC/codon_usage)
+[![PyPI - Format](https://img.shields.io/pypi/format/CodonU)](https://pypi.org/project/CodonU)
+
+The package can easily can help in various ways from fetching genebank files from NCBI with the help of accession id to
+calculating cai, cbi, rscu, enc values and also can generate good quality graphics such as enc plot, or correspondence
+analysis plot
+<br>
+Updates will be done on a regular basis.
+
+A complete doumentation is available [here](https://github.com/SouradiptoC/codon_usage/wiki).
+
+Please cite the work as
+
+    @software{souradipto_choudhuri_2023_7657797,
+      author       = {Souradipto Choudhuri},
+      title        = {CodonU},
+      month        = feb,
+      year         = 2023,
+      publisher    = {Zenodo},
+      version      = {v1.0.0},
+      doi          = {10.5281/zenodo.7657797},
+      url          = {https://doi.org/10.5281/zenodo.7657797}
+    }
+
