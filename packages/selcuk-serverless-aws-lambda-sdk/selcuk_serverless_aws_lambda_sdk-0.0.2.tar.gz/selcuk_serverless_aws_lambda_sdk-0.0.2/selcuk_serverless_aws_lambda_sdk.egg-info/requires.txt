@@ -1,0 +1,9 @@
+selcuk_serverless_sdk
+selcuk_serverless_sdk_schema
+strenum>=0.4.9
+typing-extensions>=4.4
+
+[tests]
+black>=22.12
+pytest>=7.2
+ruff>=0.0.199
