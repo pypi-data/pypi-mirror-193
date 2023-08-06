@@ -1,0 +1,14 @@
+nengo_edge/__init__.py,sha256=l7j4CDTIN3cDrOPDLJzkf2C9DcP1aulUnrfYAaiBOl4,713
+nengo_edge/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nengo_edge/saved_model_runner.py,sha256=HkjQt05E4p708TPV_wz3M4VCppnr12WLo9oQ_U-Npno,2608
+nengo_edge/tflite_runner.py,sha256=Rbft0fyNlpD_4qYfzmf_GgppqkGnl-dBk9GPgOx3Z_c,8903
+nengo_edge/version.py,sha256=gh9Eqa3P51g4mwATWWeub-5m1ScHiRZy4wL0VLLFpDc,840
+nengo_edge/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nengo_edge/tests/test_saved_model_runner.py,sha256=njbmdYCpgNokXBecaH6T3XgXcooPVD5vBAn4j4PFMbU,2966
+nengo_edge/tests/test_tflite_runner.py,sha256=moeGjRS0PHTHRQKW2n2feZ6nFls4ZVe5km9Rr3VjJ0M,3488
+nengo_edge/tests/test_version.py,sha256=am8PlSnR5V7KVdOr1_zRIDG3nhhXPyqJ3NqyDqi1w2g,296
+nengo_edge-23.2.23.dist-info/LICENSE.rst,sha256=ZazwSZed38PBK7cUqsKZ_ouub3MopImePu2jQEwuoQM,1236
+nengo_edge-23.2.23.dist-info/METADATA,sha256=A9YVNe6glt4YRAV0RrJx06n30lcmlrL6sj_gVFtBlLs,3734
+nengo_edge-23.2.23.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nengo_edge-23.2.23.dist-info/top_level.txt,sha256=7Q-wNVceaJuZ2qADX4yT3A5l1ffeIQbt8EDeZUflUNs,11
+nengo_edge-23.2.23.dist-info/RECORD,,
