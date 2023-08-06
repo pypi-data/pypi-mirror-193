@@ -1,0 +1,12 @@
+pydantic_kedro/__init__.py,sha256=F5M7nLUD1AAgwTQo7MT3_0VRNtMeHnq1GpKNLaPgIaI,392
+pydantic_kedro/models.py,sha256=cKME2wTqAyWGdI3rowDdU9P4hD1-gY_QllQeZNCYLwo,992
+pydantic_kedro/version.py,sha256=TDo4xexNGRmRc1tb3s3MOYnLClm9MhN-DEOjttbhgLY,394
+pydantic_kedro/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_kedro/datasets/folder.py,sha256=_Tgks5wlGIL8L4932HKfeCM0S_IV67_GmgDUgaUS8DY,11317
+pydantic_kedro/datasets/json.py,sha256=Xa_R0u1tSVkE4Q-CU90Hf4m_wVFDYudxnTjl3hh8JRI,3367
+pydantic_kedro/datasets/zip.py,sha256=Y2FWGOqICBtMFCf1OChktFWjfFcf5np4KubF0vzciY4,2552
+pydantic_kedro-0.1.0.dist-info/LICENSE,sha256=QRS32dyFqLn-Qdw6pR79Pvpz07CYVKP3Vhfo5CHVOQs,1075
+pydantic_kedro-0.1.0.dist-info/METADATA,sha256=9cONs1KdpvKL43DRYLVyhpbxVi3bqK39-j-muo-4eeA,2704
+pydantic_kedro-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydantic_kedro-0.1.0.dist-info/top_level.txt,sha256=WaXOZs4SicYPEwzV0Z28DOr1FczH-M0GN7JhxcWnXQo,15
+pydantic_kedro-0.1.0.dist-info/RECORD,,
