@@ -1,0 +1,5 @@
+[console_scripts]
+get_devices_url = get_devices_url:main
+install_tahoma = install_tahoma.py:main
+tahoma = tahoma:main
+
