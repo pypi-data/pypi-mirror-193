@@ -1,0 +1,10 @@
+README.md
+keepass_env.py
+setup.cfg
+setup.py
+keepass_env.egg-info/PKG-INFO
+keepass_env.egg-info/SOURCES.txt
+keepass_env.egg-info/dependency_links.txt
+keepass_env.egg-info/entry_points.txt
+keepass_env.egg-info/requires.txt
+keepass_env.egg-info/top_level.txt
