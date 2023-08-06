@@ -1,0 +1,5 @@
+[plover.command]
+per_application_state = plover_per_application_state.command:command
+
+[plover.extension]
+per_application_state = plover_per_application_state:PerApplicationStateExtension
