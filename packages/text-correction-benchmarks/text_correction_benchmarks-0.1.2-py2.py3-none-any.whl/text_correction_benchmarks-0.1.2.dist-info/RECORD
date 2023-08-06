@@ -1,0 +1,15 @@
+text_correction_benchmarks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_correction_benchmarks/baselines/__init__.py,sha256=n-G56wfG5P8vt7e14XqDPwmkZ00JVQdgbaRHx4sg3oo,4683
+text_correction_benchmarks/baselines/sec.py,sha256=tSMv1E9TdhuZmKHwRsuTJtw2_bFhW3iV8VvnjFd-BRo,282
+text_correction_benchmarks/baselines/seds.py,sha256=iJoinWGOFob4iw02t6_N5Cz0IYH5scnRFekBJbBe9v0,735
+text_correction_benchmarks/baselines/sedw.py,sha256=yRptfy7uL4Kqbw06J6uOOt9vCPj_xOancdFZ0nG8n0M,939
+text_correction_benchmarks/baselines/wsc.py,sha256=GS1AZVOSe9LASji0fIJuT8mBKXlZ8WoZraBWT6gkejI,800
+text_correction_benchmarks/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text_correction_benchmarks/cli/download.py,sha256=FvqSsEN1VdPp23R9uaniQc2jIwNSDVf_2zCCd5FMrxg,1678
+text_correction_benchmarks/cli/evaluate.py,sha256=lOCEfJFtyQUHFoYjK_4ldyCNiHMtcd7TGJRjbAORL3I,15187
+text_correction_benchmarks-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+text_correction_benchmarks-0.1.2.dist-info/METADATA,sha256=caVBexmUViqjYWNEo1Hf6150-olabOEDexLTTAaOXWo,20315
+text_correction_benchmarks-0.1.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+text_correction_benchmarks-0.1.2.dist-info/entry_points.txt,sha256=8XlGMQPslYCgbpi8oqDWLDEHmBCcTdVN1DO0rQkRIr4,195
+text_correction_benchmarks-0.1.2.dist-info/top_level.txt,sha256=ShNBaFrYwDLBDA2bzRnYiawcrd1mMUg9jK9IyARVEQ4,27
+text_correction_benchmarks-0.1.2.dist-info/RECORD,,
