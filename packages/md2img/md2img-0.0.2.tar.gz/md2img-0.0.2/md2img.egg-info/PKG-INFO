@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: md2img
+Version: 0.0.2
+Summary: Markdown text to image
+Home-page: https://fishc.com.cn
+Author: FishC
+Author-email: 205204@qq.com
+License: GNU GPLv3 License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+# 将Markdown格式的文档生成图片
+
+### 已经实现的功能：
+
+* 支持加粗、斜体、加粗斜体
+* 一、二、三级标题
+* 无序列表
+

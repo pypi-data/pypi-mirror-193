@@ -1,0 +1,3 @@
+recursive-include md2img/fonts *.ttf
+recursive-include md2img *.png
+recursive-include md2img *.txt
