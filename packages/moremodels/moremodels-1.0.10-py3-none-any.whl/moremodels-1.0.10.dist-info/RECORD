@@ -1,0 +1,11 @@
+moremodels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moremodels/functions/__init__.py,sha256=b5ss1_2mGHXvoWL05LXqxcVngY6D_HI5g-BQKgZox00,26
+moremodels/functions/encode.py,sha256=499O4nAw9DiDxso2Sv3-gh9Izr7JBke1tMwJ__9q0mY,1427
+moremodels/models/UniqueWeightedModel.py,sha256=f5KczBqnt1eNdZMz8r6rL4YCKYXasFgk7mX9wcwyWwU,6596
+moremodels/models/WeightedModel.py,sha256=kRKOPUM029qFn8wFo-k0grPZQVM8Pi0loAULcrc9NMM,5417
+moremodels/models/__init__.py,sha256=SA44vdGlGj8grlVmdaZyWboP_cOumnKC6fC-itataFE,96
+moremodels-1.0.10.dist-info/LICENSE,sha256=q9O-sAdgJ_fyq1-5H7ol7Uiay0StN_2kdathN_pBQr4,35
+moremodels-1.0.10.dist-info/METADATA,sha256=4kgrCmfw9FRBeTJ9x_RilC7B9PEy_J_ZES4zeijgEWI,2965
+moremodels-1.0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+moremodels-1.0.10.dist-info/top_level.txt,sha256=TcuSg5dcLN9I7FzLYIyRNb_JEMrQhqZ5d-jXh2OSCXo,11
+moremodels-1.0.10.dist-info/RECORD,,
