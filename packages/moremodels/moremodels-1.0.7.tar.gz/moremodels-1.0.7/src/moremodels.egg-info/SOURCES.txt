@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/moremodels/__init__.py
+src/moremodels.egg-info/PKG-INFO
+src/moremodels.egg-info/SOURCES.txt
+src/moremodels.egg-info/dependency_links.txt
+src/moremodels.egg-info/top_level.txt
+src/moremodels/UniqueWeightedModel/__init__.py
+src/moremodels/UniqueWeightedModel/core.py
+src/moremodels/WeightedModel/__init__.py
+src/moremodels/WeightedModel/core.py
