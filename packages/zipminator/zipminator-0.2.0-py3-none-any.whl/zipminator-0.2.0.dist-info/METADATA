@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zipminator
+Version: 0.2.0
+Summary: zipminator is a lightweight python package with two main functionalities; Zipndel or Unzipndel, for zipping or unzipping a password-protected pandas DataFrame file, and then deleting the original file.
+License: MIT
+Author: QDaria
+Author-email: mo@qdaria.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: pandas (>=1.5.2,<2.0.0)
+Requires-Dist: pytest (==6.2.5)
