@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: xm2xl
+Version: 0.2.1
+Summary: Flatten Xmind file into xlsx sheet
+Project-URL: Homepage, https://github.com/sebastien17/xm2xl
+Project-URL: Bug Tracker, https://github.com/sebastien17/xm2xl/issues
+Author-email: Sébastien LAUTIER <sebastien.lautier@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9.16
+Requires-Dist: et-xmlfile>=1.1.0
+Requires-Dist: fire>=0.5.0
+Requires-Dist: numpy>=1.24.2
+Requires-Dist: openpyxl>=3.1.1
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: pefile>=2023.2.7
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: pytz>=2022.7.1
+Requires-Dist: pywin32-ctypes>=0.2.0
+Requires-Dist: six>=1.16.0
+Requires-Dist: termcolor>=2.2.0
+Requires-Dist: wincertstore>=0.2
+Requires-Dist: xmind>=1.2.0
+Description-Content-Type: text/markdown
+
+# xm2xl
+Flatten Xmind file into xlsx sheet
