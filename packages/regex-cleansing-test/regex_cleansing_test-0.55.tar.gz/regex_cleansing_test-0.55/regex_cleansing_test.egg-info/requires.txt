@@ -1,0 +1,3 @@
+pandas
+setuptools
+snowflake-connector-python
