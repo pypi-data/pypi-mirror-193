@@ -1,0 +1,3 @@
+[console_scripts]
+ov = oakvar.__main__:main
+
