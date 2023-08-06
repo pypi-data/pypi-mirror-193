@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+p13r0n_rmillionaires/__init__.py
+p13r0n_rmillionaires/lifelines.py
+p13r0n_rmillionaires.egg-info/PKG-INFO
+p13r0n_rmillionaires.egg-info/SOURCES.txt
+p13r0n_rmillionaires.egg-info/dependency_links.txt
+p13r0n_rmillionaires.egg-info/top_level.txt
