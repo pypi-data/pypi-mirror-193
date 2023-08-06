@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+quadtreed3/__init__.py
+quadtreed3/quadtreed3.py
+quadtreed3.egg-info/PKG-INFO
+quadtreed3.egg-info/SOURCES.txt
+quadtreed3.egg-info/dependency_links.txt
+quadtreed3.egg-info/not-zip-safe
+quadtreed3.egg-info/requires.txt
+quadtreed3.egg-info/top_level.txt
+tests/__init__.py
+tests/test_add.py
+tests/test_add_all.py
+tests/test_cover.py
