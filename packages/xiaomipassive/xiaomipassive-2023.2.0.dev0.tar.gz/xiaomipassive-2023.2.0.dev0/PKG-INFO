@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xiaomipassive
+Version: 2023.2.0.dev0
+Summary: MiFlora and LYWSD02 passive scanner
+Author-email: Alain <afer921@mailfence.com>
+License: Apache-2.0
+Keywords: home,automation
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.9.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
