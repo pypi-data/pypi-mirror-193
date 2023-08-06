@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tum-esm-em27-metadata
+Version: 0.1.0
+Summary: single source of truth for ESM's EM27 measurement logistics
+Home-page: https://github.com/tum-esm/em27-metadata
+Author: Moritz Makowski
+Author-email: moritz.makowski@tum.de
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.4,<2.0.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: types-requests (>=2.28.11.8,<3.0.0.0)
+Project-URL: Repository, https://github.com/tum-esm/em27-metadata
