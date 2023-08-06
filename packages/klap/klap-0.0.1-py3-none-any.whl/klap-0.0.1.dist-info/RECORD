@@ -1,0 +1,11 @@
+klap/__init__.py,sha256=lijdOT3hlDvrX5N1F2WmbHzgJtVga19zJ07b-dHi4jg,95
+klap/helper.py,sha256=I2z7meIIw_aPRivTMNg_dSsl4rtFP-3tTX9PHMrvpFI,1161
+klap/kernels.py,sha256=8gMDPWtoYyRWGt_kkZQdouQ142gc8v6pB2DLRxrZm7o,4049
+klap/datasets/__init__.py,sha256=AYqkjtC5UF_1AiJ8M51gUHxdcm03X9D46APZxrhodVg,97
+klap/datasets/helper.py,sha256=KKzoE3O-g2Mf0F7uQHDtreJwlGBz7stkeqkW0AUkkRo,268
+klap/datasets/synthetic.py,sha256=Tza7OClBLk1Ho20HGGNH7F_GFZKZlAhCe3OHC5Nrp2w,1420
+klap-0.0.1.dist-info/LICENSE.txt,sha256=v7N8aCNMFEhFncuH5CMOu3qVaZgBNqkDTSsTOQJJgBc,1054
+klap-0.0.1.dist-info/METADATA,sha256=TX5McMp6k6Md7TfNPDpQLlt043z5x8DFmxEyMlc9jOE,561
+klap-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+klap-0.0.1.dist-info/top_level.txt,sha256=rlFGMhvKJhofTUGocR7Or2vMuy8BWrbLNr_wjxgEi_g,5
+klap-0.0.1.dist-info/RECORD,,
