@@ -1,0 +1,11 @@
+click
+tabulate
+dateparser
+
+[dev]
+flake8
+bandit
+pytest
+pytest-cov
+pytest-watch
+pytest-mock
