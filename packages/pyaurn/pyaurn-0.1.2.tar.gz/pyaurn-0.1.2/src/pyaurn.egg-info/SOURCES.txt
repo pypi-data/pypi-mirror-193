@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/pyaurn.py
+src/pyaurn.egg-info/PKG-INFO
+src/pyaurn.egg-info/SOURCES.txt
+src/pyaurn.egg-info/dependency_links.txt
+src/pyaurn.egg-info/requires.txt
+src/pyaurn.egg-info/top_level.txt
