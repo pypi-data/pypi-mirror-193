@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: jwtdecoder
+Version: 0.0.4
+Summary: A basic jwt decoder
+Home-page: 
+Author: Ajeya Krishna
+Author-email: ajeya@justcall.io
+License: MIT
+Keywords: tokens
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This code file is a jwt token verifier. This works on RSA256 algorithm. 
+
+Change Log
+==========
+
+0.0.4 (22/02/2023)
+-------------------
+- Updated Release
