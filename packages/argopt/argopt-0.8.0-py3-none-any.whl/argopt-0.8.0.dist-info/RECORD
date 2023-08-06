@@ -1,0 +1,10 @@
+argopt/__init__.py,sha256=wmR1IWI9nECz2Y3vdARqll9s5tC8MQKEFH47c7LMsao,296
+argopt/_argopt.py,sha256=iQmn7jKs3uN0ABMmbXRivu3D8hNDxRh8KLDRadztrwM,7238
+argopt/_dist_ver.py,sha256=27YY3zFpeaDh6JoC40AqkjBrn68SqFlsWZzjZtw5jwU,22
+argopt/_docopt.py,sha256=T8A-NlIISU7403piSFJPWAOuoPoZ7jjrdXS8nTMQbU0,18323
+argopt/_utils.py,sha256=zBIZEznZnAR1xUvA95LIxPIIJSUTtiQgQX1b0d4_72g,1314
+argopt-0.8.0.dist-info/LICENCE,sha256=KVaYPA4ehnZdnmrNzPETHgNLDBwd88XrAOLhJLfOLa8,397
+argopt-0.8.0.dist-info/METADATA,sha256=wMV3crN69G1R1cicDV-JN_mgXJJRR4nvYfO4M9xRK8Q,12485
+argopt-0.8.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+argopt-0.8.0.dist-info/top_level.txt,sha256=UOmex5pEAo0s73GSZc8NAY9SE2NLzHQOobk9XAAHXC4,7
+argopt-0.8.0.dist-info/RECORD,,
