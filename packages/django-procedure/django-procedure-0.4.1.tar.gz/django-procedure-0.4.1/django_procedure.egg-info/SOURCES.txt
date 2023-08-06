@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+django_procedure.egg-info/PKG-INFO
+django_procedure.egg-info/SOURCES.txt
+django_procedure.egg-info/dependency_links.txt
+django_procedure.egg-info/requires.txt
+django_procedure.egg-info/top_level.txt
+procedure/__init__.py
+procedure/decorators.py
+procedure/models.py
