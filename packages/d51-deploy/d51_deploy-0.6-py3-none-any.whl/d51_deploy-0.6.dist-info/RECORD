@@ -1,0 +1,8 @@
+d51_deploy/__init__.py,sha256=C7JZV6pyqH0SxNralLrYUsIQ4juYzK07ENZq9ZqBfrk,26
+d51_deploy/command_line.py,sha256=4EJ6yJA5Iu1I-m1gnoOYF4_Q50NSN-axcEw7uWSD8VA,237
+d51_deploy/deploy.py,sha256=E3VHUVNKTLYvNZovh7uNj8g1-floQ9WT_5JILzNs9ws,5760
+d51_deploy-0.6.dist-info/METADATA,sha256=UI-CE1Dwo1xCra41fBKoIk185SqUYskMla6u99iW98M,693
+d51_deploy-0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+d51_deploy-0.6.dist-info/entry_points.txt,sha256=4O06jd9Vkqw_3IXlyJoaSSeWNIRfewzk2nWdiBMW-vo,60
+d51_deploy-0.6.dist-info/top_level.txt,sha256=ceh6GIIMjwjA8CyNbR66aucx6EbYVMk3B5NpWJdHP7Q,11
+d51_deploy-0.6.dist-info/RECORD,,
