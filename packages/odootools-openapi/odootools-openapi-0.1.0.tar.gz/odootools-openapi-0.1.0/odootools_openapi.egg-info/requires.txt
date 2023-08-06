@@ -1,0 +1,16 @@
+openapi3
+requests
+click
+jinja2
+
+[docs]
+sphinx
+furo
+sphinx-argparse
+sphinx-click
+sphinxcontrib.asciinema
+
+[test]
+mock
+pytest
+pytest-cov
