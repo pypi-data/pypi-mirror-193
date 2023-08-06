@@ -1,0 +1,15 @@
+README.md
+setup.py
+outlierchat.egg-info/PKG-INFO
+outlierchat.egg-info/SOURCES.txt
+outlierchat.egg-info/dependency_links.txt
+outlierchat.egg-info/top_level.txt
+src/__init__.py
+src/_client.py
+src/client.py
+src/func.py
+src/manager.py
+src/protocol.py
+src/regdecorator.py
+src/server.py
+src/utils.py
