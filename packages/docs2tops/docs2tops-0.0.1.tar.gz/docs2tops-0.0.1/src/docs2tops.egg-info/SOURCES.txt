@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/docs2tops.py
+src/docs2tops.egg-info/PKG-INFO
+src/docs2tops.egg-info/SOURCES.txt
+src/docs2tops.egg-info/dependency_links.txt
+src/docs2tops.egg-info/requires.txt
+src/docs2tops.egg-info/top_level.txt
