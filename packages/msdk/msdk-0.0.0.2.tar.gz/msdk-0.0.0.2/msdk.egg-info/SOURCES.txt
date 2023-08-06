@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+msdk/__init__.py
+msdk/api.py
+msdk.egg-info/PKG-INFO
+msdk.egg-info/SOURCES.txt
+msdk.egg-info/dependency_links.txt
+msdk.egg-info/requires.txt
+msdk.egg-info/top_level.txt
+msdk/base/__init__.py
+msdk/base/api_schema.py
+msdk/lib/__init__.py
+msdk/lib/settings.py
+msdk/utils/__init__.py
+msdk/utils/file_utils.py
