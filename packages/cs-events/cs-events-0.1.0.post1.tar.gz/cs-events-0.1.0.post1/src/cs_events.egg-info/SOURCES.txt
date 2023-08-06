@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/cs_events/__init__.py
+src/cs_events/_event.py
+src/cs_events/_event_accessor.py
+src/cs_events.egg-info/PKG-INFO
+src/cs_events.egg-info/SOURCES.txt
+src/cs_events.egg-info/dependency_links.txt
+src/cs_events.egg-info/requires.txt
+src/cs_events.egg-info/top_level.txt
+tests/test_cs_events.py
