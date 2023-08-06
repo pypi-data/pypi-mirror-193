@@ -1,0 +1,10 @@
+gym
+shutup
+traitlets_pcse
+sqlalchemy
+PyYAML
+pandas
+requests
+xlrd
+scienceplots
+PCSE
