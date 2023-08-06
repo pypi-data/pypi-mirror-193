@@ -1,0 +1,532 @@
+{
+  "language": "ro",
+  "intents": {
+    "HassTurnOff": {
+      "data": [
+        {
+          "sentences": [
+            "<opreste> [toate] <ventilatorul> [<din>] <area>",
+            "<opreste> [<din>] <area> [toate] <ventilatorul>"
+          ],
+          "slots": {
+            "domain": "fan"
+          },
+          "response": "fans_area"
+        },
+        {
+          "sentences": [
+            "<opreste> [toate] <ventilatorul>"
+          ],
+          "slots": {
+            "domain": "fan"
+          },
+          "requires_context": {
+            "area": null
+          },
+          "response": "fans_area"
+        },
+        {
+          "sentences": [
+            "<opreste> <name>"
+          ],
+          "excludes_context": {
+            "domain": [
+              "light",
+              "cover"
+            ]
+          }
+        },
+        {
+          "sentences": [
+            "<opreste> <name>"
+          ],
+          "slots": {
+            "domain": "light"
+          },
+          "requires_context": {
+            "domain": "light"
+          },
+          "response": "light"
+        },
+        {
+          "sentences": [
+            "<opreste> [toate] <lumina> [<din>] <area>",
+            "<opreste> [<din>] <area> [toate] <lumina>"
+          ],
+          "slots": {
+            "domain": "light"
+          },
+          "response": "lights_area"
+        },
+        {
+          "sentences": [
+            "<opreste> [toate] <lumina>"
+          ],
+          "slots": {
+            "domain": "light"
+          },
+          "requires_context": {
+            "area": null
+          },
+          "response": "lights_area"
+        },
+        {
+          "sentences": [
+            "<inchide> <name> [[<din>] <area>]"
+          ],
+          "requires_context": {
+            "domain": "cover"
+          },
+          "response": "cover"
+        },
+        {
+          "sentences": [
+            "<inchide> [toate] {cover_classes:device_class} [<din>] <area>"
+          ],
+          "slots": {
+            "domain": "cover"
+          },
+          "response": "covers_area"
+        }
+      ]
+    },
+    "HassGetState": {
+      "data": [
+        {
+          "sentences": [
+            "<cat> <este> <name> [<din> <area>]",
+            "(ce stare are|(î|i)n ce stare <este>) <name> [<din> <area>]"
+          ],
+          "response": "one"
+        },
+        {
+          "sentences": [
+            "<name> [<din> <area>] <este> {on_off_states:state}",
+            "<este> {on_off_states:state} <name> [<din> <area>]"
+          ],
+          "response": "one_yesno",
+          "excludes_context": {
+            "domain": [
+              "cover"
+            ]
+          }
+        },
+        {
+          "sentences": [
+            "(<este> | exist(ă|a)) [<vreun>] {on_off_domains:domain} {on_off_states:state} [<in> <area>]"
+          ],
+          "response": "any"
+        },
+        {
+          "sentences": [
+            "sunt (to(ț|t)i | toate) {on_off_domains:domain} {on_off_states:state} [<in> <area>]",
+            "sunt {on_off_states:state} (to(ț|t)i | toate) {on_off_domains:domain} [<in> <area>]",
+            "(to(ț|t)i | toate) {on_off_domains:domain} sunt {on_off_states:state} [<in> <area>]"
+          ],
+          "response": "all"
+        },
+        {
+          "sentences": [
+            "(care | ce) {on_off_domains:domain} <este> {on_off_states:state} [<in> <area>]"
+          ],
+          "response": "which"
+        },
+        {
+          "sentences": [
+            "<cate> {on_off_domains:domain} <este> {on_off_states:state} [<in> <area>]"
+          ],
+          "response": "how_many"
+        },
+        {
+          "sentences": [
+            "<name> [<din> <area>] <este> {cover_states:state}",
+            "<este> {cover_states:state} <name> [<din> <area>]"
+          ],
+          "response": "one_yesno",
+          "requires_context": {
+            "domain": "cover"
+          }
+        },
+        {
+          "sentences": [
+            "(<este> | exist(ă|a)) [<vreun>] {cover_classes:device_class} {cover_states:state} [<in> <area>]"
+          ],
+          "response": "any",
+          "requires_context": {
+            "domain": "cover"
+          }
+        },
+        {
+          "sentences": [
+            "sunt (to(ț|t)i | toate) {cover_classes:device_class} {cover_states:state} [<in> <area>]",
+            "(to(ț|t)i | toate) {cover_classes:device_class} sunt {cover_states:state} [<in> <area>]"
+          ],
+          "response": "all",
+          "requires_context": {
+            "domain": "cover"
+          }
+        },
+        {
+          "sentences": [
+            "care {cover_classes:device_class} <este> {cover_states:state} [<in> <area>]"
+          ],
+          "response": "which",
+          "requires_context": {
+            "domain": "cover"
+          }
+        },
+        {
+          "sentences": [
+            "<cate> {cover_classes:device_class} <este> {cover_states:state} [<in> <area>]"
+          ],
+          "response": "how_many",
+          "requires_context": {
+            "domain": "cover"
+          }
+        }
+      ]
+    },
+    "HassTurnOn": {
+      "data": [
+        {
+          "sentences": [
+            "<porneste> <name>"
+          ],
+          "slots": {
+            "domain": "light"
+          },
+          "requires_context": {
+            "domain": "light"
+          },
+          "response": "light"
+        },
+        {
+          "sentences": [
+            "<porneste> [toate] <lumina> [<din>] <area>",
+            "<porneste> [<din>] <area> [toate] <lumina>"
+          ],
+          "slots": {
+            "domain": "light"
+          },
+          "response": "lights_area"
+        },
+        {
+          "sentences": [
+            "<porneste> [toate] <lumina>"
+          ],
+          "slots": {
+            "domain": "light"
+          },
+          "requires_context": {
+            "area": null
+          },
+          "response": "lights_area"
+        },
+        {
+          "sentences": [
+            "<deschide> <name> [[<din>] <area>]"
+          ],
+          "requires_context": {
+            "domain": "cover"
+          },
+          "response": "cover"
+        },
+        {
+          "sentences": [
+            "<deschide> [toate] {cover_classes:device_class} [<din>] <area>"
+          ],
+          "slots": {
+            "domain": "cover"
+          },
+          "response": "covers_area"
+        },
+        {
+          "sentences": [
+            "<porneste> [toate] <ventilatorul> [<din>] <area>",
+            "<porneste> [<din>] <area> [toate] <ventilatorul>"
+          ],
+          "slots": {
+            "domain": "fan"
+          },
+          "response": "fans_area"
+        },
+        {
+          "sentences": [
+            "<porneste> [toate] <ventilatorul>"
+          ],
+          "slots": {
+            "domain": "fan"
+          },
+          "requires_context": {
+            "area": null
+          },
+          "response": "fans_area"
+        },
+        {
+          "sentences": [
+            "<porneste> <name>"
+          ],
+          "excludes_context": {
+            "domain": [
+              "light",
+              "cover"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "responses": {
+    "errors": {
+      "no_intent": "Îmi pare rău, nu am înțeles cererea. Poți, te rog, să repeți?",
+      "no_area": "Îmi pare rău, nu este nici o zonă numită {{ area }}",
+      "no_domain": "Îmi pare rău, în {{ area }} nu este {{ domain }}",
+      "no_device_class": "Îmi pare rău, zona {{ area }} nu conține {{ device_class }}",
+      "no_entity": "Îmi pare rău, nu am găsit niciun dispozitiv sau entitate cu numele {{ entity }}",
+      "handle_error": "Îmi pare rău, a intervenit o eroare în timpul procesării cererii"
+    },
+    "intents": {
+      "HassGetState": {
+        "one": "{{ slots.name | capitalize }} este {{ state.state_with_unit }}",
+        "one_yesno": "{% if query.matched: %}\nDa\n{% else: %}\nNu, {{ slots.name }} este {{ state.state_with_unit }}\n{% endif %}\n",
+        "any": "{% if query.matched %}\n  {% set match = query.matched | map(attribute=\"name\") | sort | list %}\n  {% if match | length > 4 %}\n    Da, {{ match[:3] | join(\", \") }} și încă {{ (match | length - 3) }}\n  {%- else -%}\n    Da,\n    {% for name in match -%}\n      {% if not loop.first and not loop.last %}, {% elif loop.last and not loop.first %} și {% endif -%}\n      {{ name }}\n    {%- endfor -%}\n  {% endif %}\n{% else %}\n  Nu\n{% endif %}\n",
+        "all": "{% if not query.unmatched: %}\n  Da\n{% else %}\n  {% set no_match = query.unmatched | map(attribute=\"name\") | sort | list %}\n  {% if no_match | length > 4 %}\n    Nu, {{ no_match[:3] | join(\", \") }} și încă {{ (no_match | length - 3) }} nu sunt {{ slots.state }}\n  {%- else -%}\n    Nu,\n    {% for name in no_match -%}\n      {% if not loop.first and not loop.last %}, {% elif loop.last and not loop.first %} și {% endif -%}\n      {{ name }}\n    {%- endfor %} nu {{ 'este' if (query.unmatched|length) == 1 else 'sunt' }} {{ slots.state }}\n  {% endif %}\n{% endif %}\n",
+        "which": "{% if not query.matched %}\n  Nu există niciun astfel de element\n{% else: %}\n  {% set match = query.matched | map(attribute=\"name\") | sort | list %}\n  {% if match | length > 4 %}\n    {{ match[:3] | join(\", \") }} și încă {{ (match | length - 3) }}\n  {% else %}\n    {%- for name in match -%}\n      {% if not loop.first and not loop.last %}, {% elif loop.last and not loop.first %} și {% endif -%}\n      {{ name }}\n    {%- endfor -%}\n  {% endif %}\n{% endif %}\n",
+        "how_many": "{{ query.matched | length }}\n"
+      },
+      "HassTurnOff": {
+        "default": "Am oprit {{ slots.name }}",
+        "light": "Am stins {{ slots.name }}",
+        "lights_area": "Am stins luminile de la {{ slots.area }}",
+        "fans_area": "Am oprit ventilatoarele de la {{ slots.area }}",
+        "cover": "Am închis {{ slots.name }}",
+        "covers_area": "Am închis {{ slots.device_class }} de la {{ slots.area }}"
+      },
+      "HassTurnOn": {
+        "default": "Am pornit {{ slots.name }}",
+        "light": "Am aprins {{ slots.name }}",
+        "lights_area": "Am aprins luminile de la {{ slots.area }}",
+        "fans_area": "Am pornit ventilatoarele de la {{ slots.area }}",
+        "cover": "Am deschis {{ slots.name }}",
+        "covers_area": "Am deschis {{ slots.device_class }} de la {{ slots.area }}"
+      }
+    }
+  },
+  "lists": {
+    "color": {
+      "values": [
+        {
+          "in": "alb",
+          "out": "white"
+        },
+        {
+          "in": "negru",
+          "out": "black"
+        },
+        {
+          "in": "ro(ș|s)u",
+          "out": "red"
+        },
+        {
+          "in": "(portocaliu | oranj)",
+          "out": "orange"
+        },
+        {
+          "in": "galben",
+          "out": "yellow"
+        },
+        {
+          "in": "verde",
+          "out": "green"
+        },
+        {
+          "in": "(albastru | bleu)",
+          "out": "blue"
+        },
+        {
+          "in": "(lila | violet | purpuriu | mov)",
+          "out": "purple"
+        },
+        {
+          "in": "maro",
+          "out": "brown"
+        }
+      ]
+    },
+    "brightness": {
+      "range": {
+        "type": "percentage",
+        "from": 0,
+        "to": 100
+      }
+    },
+    "brightness_min_max": {
+      "values": [
+        {
+          "in": "<maximum>",
+          "out": 100
+        },
+        {
+          "in": "<jumatate>",
+          "out": 50
+        },
+        {
+          "in": "<minimum>",
+          "out": 1
+        }
+      ]
+    },
+    "temperature": {
+      "range": {
+        "type": "temperature",
+        "from": -100,
+        "to": 100
+      }
+    },
+    "temperature_unit": {
+      "values": [
+        "celsius",
+        {
+          "in": "c",
+          "out": "celsius"
+        },
+        "fahrenheit",
+        {
+          "in": "f",
+          "out": "fahrenheit"
+        }
+      ]
+    },
+    "on_off_states": {
+      "values": [
+        {
+          "in": "<pornit>",
+          "out": "on"
+        },
+        {
+          "in": "<oprit>",
+          "out": "off"
+        }
+      ]
+    },
+    "on_off_domains": {
+      "values": [
+        {
+          "in": "<lumina>",
+          "out": "light"
+        },
+        {
+          "in": "<ventilatorul>",
+          "out": "fan"
+        },
+        {
+          "in": "<intrerupatorul>",
+          "out": "switch"
+        }
+      ]
+    },
+    "cover_states": {
+      "values": [
+        {
+          "in": "<deschis>",
+          "out": "open"
+        },
+        {
+          "in": "<inchis>",
+          "out": "closed"
+        },
+        {
+          "in": "(î|i)n curs de <deschide>re",
+          "out": "opening"
+        },
+        {
+          "in": "(î|i)n curs de <inchide>re",
+          "out": "closing"
+        }
+      ]
+    },
+    "cover_classes": {
+      "values": [
+        {
+          "in": "copertin(ă|a|e)",
+          "out": "awning"
+        },
+        {
+          "in": "jaluze(a[ua]|le[le])",
+          "out": "blind"
+        },
+        {
+          "in": "perde(a[ua]|le[le])",
+          "out": "curtain"
+        },
+        {
+          "in": "<usa>",
+          "out": "door"
+        },
+        {
+          "in": "<usa> (de la garaj | garajului)",
+          "out": "garage"
+        },
+        {
+          "in": "<poarta>",
+          "out": "gate"
+        },
+        {
+          "in": "(jaluzea[ua] | jaluzele[le] | draperi(e|a) | draperii[le])",
+          "out": "shade"
+        },
+        {
+          "in": "(rulou[l] | rulouri[le] | oblon[ul] | obloane[le])",
+          "out": "shutter"
+        },
+        {
+          "in": "<fereastra>",
+          "out": "window"
+        }
+      ]
+    }
+  },
+  "expansion_rules": {
+    "area": "[(zona | regiunea )] {area}",
+    "brightness": "{brightness} [(la sut(ă|a) | % | [de] procente)]",
+    "brightness_percent": "{brightness} (la sut(ă|a) | % | [de] procente)",
+    "temperature": "{temperature} [[de] grad[e]] [{temperature_unit}]",
+    "name": "({name}[(ul|a)])",
+    "maximum": "(maxim[(ă|a|um)] [posibil[(ă|a)]])",
+    "jumatate": "(jum(ă|a)tate | jumate)",
+    "minimum": "(minim[(ă|a|um)] [posibil[(ă|a)]])",
+    "este": "(e | este | sunt)",
+    "cate": "(c(â|a|î|i)te | c(â|a|î|i)(ț|t)i)",
+    "cat": "(c(â|a|î|i)t[e] | cum)",
+    "in": "((î|i)n)",
+    "din": "(din | (î|i)n | pentru | [de] la | [de] pe | de)",
+    "vreun": "(vre(o|un))",
+    "porneste": "(start | porne(ș|s)te | deschide | aprinde | activeaz(ă|a))",
+    "pornit": "(pornit[(ă|a|e)] | deschis[(ă|a|e)]) | aprins[(ă|a|e)] | activat[(ă|a|e)]",
+    "opreste": "(stop | opre(ș|s)te | (î|i)nchide | stinge | dezactiveaz(ă|a))",
+    "oprit": "(oprit[(ă|a|e)] | (î|i)nchis[(ă|a|e)] | stins[(ă|a|e)] | dezactivat[(ă|a|e)])",
+    "seteaza": "(seteaz(ă|a) | pune | a[d]justeaz(ă|a) | schimb(ă|a) | modific(ă|a))",
+    "lumina": "(lumini[le] | lumin(ă|a) | bec[ul] | becuri[le])",
+    "luminozitatea": "(luminozitate[a])",
+    "culoarea": "(culoare[a])",
+    "temperatura": "(temperatur(ă|a))",
+    "deschide": "(deschide | ridic(ă|a))",
+    "deschis": "(deschis[(ă|a|e)] | ridicat[(ă|a|e)])",
+    "inchide": "((î|i)nchide | coboar(ă|a))",
+    "inchis": "((î|i)nchis[(ă|a|e)] | coboar(â|a)t[(ă|a|e)])",
+    "fereastra": "(fereastr(ă|a) | ferestre[le] | geam[ul] | geamuri[le])",
+    "usa": "(u(ș|s)(ă|a) | u(ș|s)i[le])",
+    "jaluzelele": "(jaluzea[ua] | jaluzele[le] | draperi(e|a) | draperii[le] | perdea[ua] | perdele[le] | rulou[l] | rulouri[le] | oblon[ul] | obloane[le])",
+    "poarta": "(poart(ă|a) | por(ț|t)i[le] | gard[ul])",
+    "ventilatorul": "(ventilator[ul] | ventilatoare[le] | aerisire[a] | aerisiri[le])",
+    "intrerupatorul": "((î|i)ntrerup(ă|a)tor[ul] | (î|i)ntrerup(ă|a)toare[le] | comutator[ul] | comutatoare[le])"
+  },
+  "skip_words": [
+    "mulțumesc",
+    "multumesc",
+    "te rog",
+    "te rog frumos",
+    "merci",
+    "mersi"
+  ]
+}
