@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lektor-rst
+Version: 0.3.0
+Summary: Adds reStructuredText support to Lektor.
+Home-page: http://github.com/fschulze/lektor-rst
+Author: Florian Schulze
+Author-email: florian.schulze@gmx.net
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: dev
+
+UNKNOWN
+

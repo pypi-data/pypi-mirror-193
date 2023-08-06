@@ -1,0 +1,9 @@
+Lektor
+Pygments
+docutils
+
+[dev]
+pyquery
+pytest
+pytest-cov
+pytest-flake8
