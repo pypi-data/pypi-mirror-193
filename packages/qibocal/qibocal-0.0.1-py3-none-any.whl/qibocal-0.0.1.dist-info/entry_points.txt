@@ -1,0 +1,6 @@
+[console_scripts]
+qq=qibocal:command
+qq-compare=qibocal:compare
+qq-live=qibocal:live_plot
+qq-upload=qibocal:upload
+
