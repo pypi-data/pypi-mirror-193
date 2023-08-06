@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qtoggleserver-mppsolar
+Version: 1.5.1
+Summary: MPP Solar inverters support for qToggleServer
+Author: Calin Crisan
+Author-email: ccrisan@gmail.com
+License: Apache 2.0
+License-File: LICENSE.txt
