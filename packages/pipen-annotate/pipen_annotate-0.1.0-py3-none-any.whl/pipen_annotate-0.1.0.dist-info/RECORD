@@ -1,0 +1,6 @@
+pipen_annotate/__init__.py,sha256=wJ_lsOrcab-gpg_ZK5uOnhqriYtu27NW-B9hnlD4gMI,108
+pipen_annotate/annotate.py,sha256=Gza5qJlMKPttZ9QmNBFOn_kkFM1PR3liQ5To0UV8iQc,2432
+pipen_annotate/sections.py,sha256=StACn6kt_DyTfKdGBU5CtVz5ashwGHPI-eSrcdKYruc,7309
+pipen_annotate-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pipen_annotate-0.1.0.dist-info/METADATA,sha256=yQ8XnMsN94MnxFE4GE1pQ6cq8slwlkF1PbK7lWPZRBM,2192
+pipen_annotate-0.1.0.dist-info/RECORD,,
