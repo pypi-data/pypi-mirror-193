@@ -1,0 +1,1 @@
+from jko_api_utils.replicate.whisper import batch_transcribe
