@@ -1,0 +1,8 @@
+License.txt
+README.md
+pyproject.toml
+src/ManagerTk.py
+src/ManagerTk.egg-info/PKG-INFO
+src/ManagerTk.egg-info/SOURCES.txt
+src/ManagerTk.egg-info/dependency_links.txt
+src/ManagerTk.egg-info/top_level.txt
