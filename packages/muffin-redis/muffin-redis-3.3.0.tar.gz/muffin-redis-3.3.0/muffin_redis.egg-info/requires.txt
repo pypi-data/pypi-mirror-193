@@ -1,0 +1,13 @@
+muffin
+redis>=4.5.1
+
+[build]
+bump2version
+wheel
+
+[tests]
+pytest
+pytest-aio
+pytest-mypy
+pytest-redislite
+types-redis
