@@ -1,0 +1,9 @@
+slumber-stubs/METADATA.toml,sha256=Ts7Ej7cg207qjn-rygjIodp4tiKoDVQ1-BH-GrBJfQg,48
+slumber-stubs/__init__.pyi,sha256=vkCzGX01jpZnA2ga6MQZRRrxQ7o8rQVakK1ix22McB4,1499
+slumber-stubs/exceptions.pyi,sha256=n3a2n9Go3Q9DIREGxl-Sg7GEt7ffxrGFxfMiOlbBGYQ,503
+slumber-stubs/serialize.pyi,sha256=0oDwXTQbQnnd0N9xjzyIIvMxbfDKUA8__36v6EcjqTk,985
+slumber-stubs/utils.pyi,sha256=C67a0trgnHy8syJjtVKTWvgvAuStp4VLXYzMAMHTtKc,376
+types_slumber-0.7.3.3.dist-info/METADATA,sha256=CdSwoVpwIoxDHbFDnmwieKTCSN4Uer4-74mJRIydO3s,1324
+types_slumber-0.7.3.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+types_slumber-0.7.3.3.dist-info/top_level.txt,sha256=PKOq-4myo3_PlT9GE6GdFjbfapBsKs5QrUiaiv0jg1U,14
+types_slumber-0.7.3.3.dist-info/RECORD,,
