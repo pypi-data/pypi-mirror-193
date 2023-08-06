@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zenframe
+Version: 1.2.0
+Summary: Sandbox for computationally-graphical scripts
+Home-page: https://github.com/mirmik/zenframe
+Author: mirmik
+Author-email: netricks@protonmail.com
+License: MIT
+Keywords: sandbox
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# ZenFrame
+Abstract part of the graphical interface of the ZenCad project. 
+
+ZenFrame is a sandbox that controls the execution of python scripts with graphical output. ZenFrame implements the process control, inter process communication, settings storing etc. 
+
+
