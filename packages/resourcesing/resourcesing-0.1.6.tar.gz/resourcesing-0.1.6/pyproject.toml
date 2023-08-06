@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "resourcesing"
+version = "0.1.6"
+description = ""
+authors = ["jawide <596929059@qq.com>"]
+readme = "README.md"
+packages = [{include = "resourcesing"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+daemonprocessing = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
