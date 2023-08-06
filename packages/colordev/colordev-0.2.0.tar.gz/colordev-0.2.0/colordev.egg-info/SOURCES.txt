@@ -1,0 +1,8 @@
+setup.py
+colordev.egg-info/PKG-INFO
+colordev.egg-info/SOURCES.txt
+colordev.egg-info/dependency_links.txt
+colordev.egg-info/top_level.txt
+terminal_text/__init__.py
+terminal_text/report.py
+terminal_text/terminal.py
