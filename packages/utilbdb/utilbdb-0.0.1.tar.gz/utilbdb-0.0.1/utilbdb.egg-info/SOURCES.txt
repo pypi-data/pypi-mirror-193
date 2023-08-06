@@ -1,0 +1,9 @@
+README.md
+license.txt
+setup.py
+utilbdb/__init__.py
+utilbdb/utils_bdb.py
+utilbdb.egg-info/PKG-INFO
+utilbdb.egg-info/SOURCES.txt
+utilbdb.egg-info/dependency_links.txt
+utilbdb.egg-info/top_level.txt
