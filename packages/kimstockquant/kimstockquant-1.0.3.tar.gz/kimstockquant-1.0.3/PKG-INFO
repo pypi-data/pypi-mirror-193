@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kimstockquant
+Version: 1.0.3
+Summary: Professional quant framework
+Home-page: https://github.com/Gary-Hertel/StockQuant
+Author: mrkim
+Author-email: kim0201@gmail.com
+License: MIT
+Keywords: kimstockquant,quant,framework
+Platform: any
