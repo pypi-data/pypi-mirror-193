@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+informatyka/__init__.py
+informatyka/algorytm.py
+informatyka/lists.py
+informatyka/math.py
+informatyka/notice.py
+informatyka.egg-info/PKG-INFO
+informatyka.egg-info/SOURCES.txt
+informatyka.egg-info/dependency_links.txt
+informatyka.egg-info/top_level.txt
