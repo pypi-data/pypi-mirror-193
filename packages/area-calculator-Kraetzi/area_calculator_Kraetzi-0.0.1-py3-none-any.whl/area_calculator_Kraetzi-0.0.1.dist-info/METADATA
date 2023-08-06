@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: area-calculator-Kraetzi
+Version: 0.0.1
+Summary: Calculate areas of geometrical figures
+Author: Kajo Nikolaev Studenov
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#The only module you'll ever need 
+(as long as you want to calculate the area of a square)
