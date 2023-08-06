@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dspawpy
+Version: 0.5.1
+Summary: Tools for dspaw
+Home-page: http://www.hzwtech.com/
+Author: Hzwtech
+License: MIT
+Requires-Python: >=3
+Requires-Dist: pymatgen (>=2021.2.8.1)
+Requires-Dist: statsmodels (>=0.12.0)
+
