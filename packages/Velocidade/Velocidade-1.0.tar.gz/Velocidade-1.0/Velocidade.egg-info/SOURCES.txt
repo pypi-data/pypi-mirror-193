@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+Velocidade/__init__.py
+Velocidade/velocidade.py
+Velocidade/velocidade_maxima.py
+Velocidade.egg-info/PKG-INFO
+Velocidade.egg-info/SOURCES.txt
+Velocidade.egg-info/dependency_links.txt
+Velocidade.egg-info/top_level.txt
