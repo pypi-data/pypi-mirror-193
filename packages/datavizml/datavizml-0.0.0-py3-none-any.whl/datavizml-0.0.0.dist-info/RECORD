@@ -1,0 +1,9 @@
+datavizml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datavizml/datavizml.py,sha256=0c8V43gKLYyQFCd-AR956o0TgJh2Q7p9DiO1f6hBBDg,19809
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_datavizml.py,sha256=ZKZvsPkiNOkPHIZnFpaXpo86KmLXSUChZ00ufu4QWqE,8544
+datavizml-0.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+datavizml-0.0.0.dist-info/METADATA,sha256=crV5mIE_Q0lHWuagOmtsTIHC2CSJC2_tkK2W49SdbN8,1721
+datavizml-0.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+datavizml-0.0.0.dist-info/top_level.txt,sha256=U8HLXZ1HM055TYcyXTQ0lBxxuu_wYcFCKkyB0Uozl7Y,16
+datavizml-0.0.0.dist-info/RECORD,,
