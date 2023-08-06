@@ -1,0 +1,3 @@
+omieapi
+omieapi/core
+omieapi/scripts
