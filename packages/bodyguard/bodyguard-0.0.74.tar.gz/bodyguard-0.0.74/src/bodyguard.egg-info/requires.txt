@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+numbers
+re
+functools
+itertools
+collections
+typing
+datetime
+pickle
+json
+sklearn
+
+[plot]
+plotnine
