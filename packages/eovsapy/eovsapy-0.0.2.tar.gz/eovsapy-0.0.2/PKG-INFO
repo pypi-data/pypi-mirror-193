@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: eovsapy
+Version: 0.0.2
+Summary: "Python code and files for Expanded Owens Valley Solar Array"
+Home-page: https://github.com/suncasa/eovsapy
+Author: The EOVSA team
+Author-email: sijie.yu@njit.edu
+License: BSD 2-Clause
+Description: =======
+        EOVSAPY
+        =======
+        |Latest Version|
+        
+        .. |Latest Version| image:: https://img.shields.io/pypi/v/eovsapy.svg
+           :target: https://pypi.python.org/pypi/eovsapy/
+        
+        Python code and files for Expanded Owens Valley Solar Array. Our homepage `EOVSAPY`_ has more information about the project.
+        
+        .. _EOVSAPY: https://github.com/suncasa/eovsapy
+        
+        
+        Installation
+        ============
+        The recommended way to install EOVSAPY is with `pip`_.
+        Once pip is installed, run the following command:
+        
+        .. code:: bash
+        
+            $ pip install eovsapy
+        
+        .. _pip: https://packaging.python.org/tutorials/installing-packages/
+        
+        
+        
+        
+        
+Keywords: solar physics,solar,science,sun,wcs,coordinates
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Provides: eovsapy
+Requires-Python: !=3.7.*,<3.9,>=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: all
