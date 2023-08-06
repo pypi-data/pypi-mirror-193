@@ -1,0 +1,13 @@
+edge_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edge_ai/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edge_ai/common/api.py,sha256=0ZVrQkTvlzciR53vKAB1Pfvy_Uo4BmseNtj56FWIr9U,2916
+edge_ai/common/opts.py,sha256=AGtSS1iT7K9nYZDGq90J-eC95aPrXRg_MiqQ1NYnGoo,645
+edge_ai/common/utils.py,sha256=F4JDSudL8Q4hYtY71wKHEiKHfJCl_RpuEV8iO5Tly1U,1633
+edge_ai/main.py,sha256=aBb4OGhpabq5EI2gQYeYyhv3xlD-p15GcI1TvRpeL8k,298
+edge_ai/portals.py,sha256=-T5ZWqrio_XHlG0B2c1EGRhbYNb-4Fvsx5AAX_RbNj8,4330
+edge_ai/transformations.py,sha256=12gM-o-1gxyZCpAwa3w2TsqmgNs-h5LkO25d1pqRLRo,3718
+edge_ai-0.1.0.dist-info/LICENSE.txt,sha256=tduVx23j4GIQzWII-ipVwI2zvvwWmINaDZfxWI0PCQU,11347
+edge_ai-0.1.0.dist-info/entry_points.txt,sha256=jjCpUJzR6GNdMgdDg8RRQjOc-gr2CA7eAFiWGH0CrUc,39
+edge_ai-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+edge_ai-0.1.0.dist-info/METADATA,sha256=mV5AdledfHQBdHO4I_bG5Rjnud_UjDPX-IluudWzgPA,700
+edge_ai-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: edge-ai
+Version: 0.1.0
+Summary: 
+Author: Jorge Silva
+Author-email: jorge@edgeimpulse.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# edge-ai
+
+`edge-ai` is a python package and CLI to transform data into hardware-agnostic, embedded AI models, using the Edge Impulse API.
+
+Full documentation for this package is available at https://docs.edgeimpulse.com/notebooks/edge-ai
