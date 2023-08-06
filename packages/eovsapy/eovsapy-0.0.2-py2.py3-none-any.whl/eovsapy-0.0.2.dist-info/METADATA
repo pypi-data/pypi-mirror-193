@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: eovsapy
+Version: 0.0.2
+Summary: "Python code and files for Expanded Owens Valley Solar Array"
+Home-page: https://github.com/suncasa/eovsapy
+Author: The EOVSA team
+Author-email: sijie.yu@njit.edu
+License: BSD 2-Clause
+Keywords: solar physics,solar,science,sun,wcs,coordinates
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Provides: eovsapy
+Requires-Python: !=3.7.*,<3.9,>=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: mysql-connector-python
+Provides-Extra: all
+Provides-Extra: dev
+Requires-Dist: astroquery ; extra == 'dev'
+Requires-Dist: jplephem ; extra == 'dev'
+Requires-Dist: packaging ; extra == 'dev'
+Requires-Dist: reproject ; extra == 'dev'
+Requires-Dist: ruamel.yaml ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-automodapi ; extra == 'dev'
+Requires-Dist: sphinx-changelog (>=1.1.0rc1) ; extra == 'dev'
+Requires-Dist: sphinx-gallery (>=0.9.0) ; extra == 'dev'
+Requires-Dist: sunpy-sphinx-theme ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: astroquery ; extra == 'docs'
+Requires-Dist: jplephem ; extra == 'docs'
+Requires-Dist: packaging ; extra == 'docs'
+Requires-Dist: reproject ; extra == 'docs'
+Requires-Dist: ruamel.yaml ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-automodapi ; extra == 'docs'
+Requires-Dist: sphinx-changelog (>=1.1.0rc1) ; extra == 'docs'
+Requires-Dist: sphinx-gallery (>=0.9.0) ; extra == 'docs'
+Requires-Dist: sunpy-sphinx-theme ; extra == 'docs'
+
+=======
+EOVSAPY
+=======
+|Latest Version|
+
+.. |Latest Version| image:: https://img.shields.io/pypi/v/eovsapy.svg
+   :target: https://pypi.python.org/pypi/eovsapy/
+
+Python code and files for Expanded Owens Valley Solar Array. Our homepage `EOVSAPY`_ has more information about the project.
+
+.. _EOVSAPY: https://github.com/suncasa/eovsapy
+
+
+Installation
+============
+The recommended way to install EOVSAPY is with `pip`_.
+Once pip is installed, run the following command:
+
+.. code:: bash
+
+    $ pip install eovsapy
+
+.. _pip: https://packaging.python.org/tutorials/installing-packages/
+
+
+
+
+
+
