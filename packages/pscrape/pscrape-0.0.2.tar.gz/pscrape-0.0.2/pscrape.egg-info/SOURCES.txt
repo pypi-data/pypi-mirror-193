@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pscrape/__init__.py
+pscrape/scraper.py
+pscrape.egg-info/PKG-INFO
+pscrape.egg-info/SOURCES.txt
+pscrape.egg-info/dependency_links.txt
+pscrape.egg-info/entry_points.txt
+pscrape.egg-info/requires.txt
+pscrape.egg-info/top_level.txt
