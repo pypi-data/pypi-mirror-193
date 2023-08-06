@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: robotsparser
+Version: 0.0.12
+Summary: Parse robots.txt files and find indexed urls
+Home-page: https://github.com/Dvelezs94/robotsparser
+Author: Diego Velez
+Author-email: diegovelezs94@gmail.com
+Keywords: robots.txt,sitemap,crawler,data mining
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# robotsparser
+Python library that parses robots.txt files
+
+## Functionalities
+
+- Automatically discover all sitemap files
+- Unzip gziped files
+- Fetch all URLs from sitemaps
+
+## Install
+```
+pip install robotsparser
+```
+
+## Usage
+
+```python
+from robotsparser.parser import Robotparser
+
+robots_url = "https://www.example.com/robots.txt"
+rb = Robotparser(url=robots_url, verbose=True)
+# To initiate the crawl of sitemaps and indexed urls. sitemap_crawl_limit argument is optional
+rb.read(fetch_sitemap_urls=True, sitemap_url_crawl_limit=5)
+
+# Show information
+rb.get_sitemap_indexes() # returns sitemap indexes
+rb.get_sitemaps() # returns sitemaps
+rb.get_urls() # returns a list of all urls
+```
+
+## Crawl in the background using thread
+
+Crawl in the background and output new entries to file
+
+This is useful for sites where sitemaps are heavily nested and take a long
+time to crawl
+
+```python
+from robotsparser.parser import Robotparser
+import threading
+
+if __name__ == '__main__':
+    robots_url = "https://www.example.com/robots.txt"
+    rb = Robotparser(url=robots_url, verbose=False)
+
+    sitemap_crawl_proc = threading.Thread(target = rb.read, kwargs = {'fetch_sitemap_urls': False}, daemon=True)
+    sitemap_crawl_proc.start()
+
+    while sitemap_crawl_proc.is_alive():
+        time.sleep(1)
+        print(f"entries_count: {len(rb.get_sitemap_entries())}, indexes: {len(rb.get_sitemap_indexes())}")
+        # any logic here to get object data
+```
