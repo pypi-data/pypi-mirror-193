@@ -1,0 +1,63 @@
+# Configuration file for sun.
+
+# sun.toml file is part of sun.
+
+# https://gitlab.com/dslackw/sun
+
+# sun is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+# Any change here you should restart the daemon:
+# $ sun restart
+
+[time]
+  # The interval between checks for updates, default is 12 hours.
+  INTERVAL = 720
+  # Standby time icon notifier, default is 5 minutes.
+  STANDBY = 5
+
+[tools]
+  # Tool for managing the active processes
+  # -l, List the process name as well as the process ID.
+  PROCESS = "pgrep -l"
+
+[prefix]
+  # The prefix you want to check for in the Log files.
+  # When the line starts with any of the days, sun grabs the dates
+  # and compares the two dates from Logs files.
+  # Probably nothing needs changing here, unless you want specialized settings.
+  # This is generic for all log files from all repositories.
+  COMPARE = "^\\w[Mon|Tue|Wed|Thu|Fri|Sat|Sun]"
+
+# Default repository.
+[[repository]]
+  NAME = "Slackware"  # Accepted names: Slackware, slackware, Slack, slack.
+  HTTP_MIRROR = "https://mirrors.slackware.com/slackware/slackware64-15.0/"  # Add your region http mirror.
+  LOG_PATH = "/var/lib/slackpkg/"  # Path of the log file.
+  LOG_FILE = "ChangeLog.txt"  # The name of the log file.
+  PATTERN = "Upgraded[.]|Rebuilt[.]|Added[.]|Removed[.]"  # The regex pattern to grab the packages.
+
+# Copy and paste this template for every new repository.
+[[repository]]
+  NAME = ""  # Whatever name you want.
+  HTTP_MIRROR = ""  # Http mirror here.
+  LOG_PATH = ""  # Path of the log file.
+  LOG_FILE = ""  # The name of the log file.
+  PATTERN = ""  # The regex pattern to grab the packages.
+
+# This is an example to support slackbuilds repository if you use slpkg package manager
+# if you do not use slpkg just change the LOG_PATH.
+# [[repository]]
+#   NAME = "SBo"
+#   HTTP_MIRROR = "https://slackbuilds.org/slackbuilds/15.0/"
+#   LOG_PATH = "/var/lib/slpkg/repository/"
+#   LOG_FILE = "ChangeLog.txt"
+#   PATTERN = "Updated|Added|Removed"
