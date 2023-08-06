@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+mir_bootleg_score/__init__.py
+mir_bootleg_score.egg-info/PKG-INFO
+mir_bootleg_score.egg-info/SOURCES.txt
+mir_bootleg_score.egg-info/dependency_links.txt
+mir_bootleg_score.egg-info/top_level.txt
