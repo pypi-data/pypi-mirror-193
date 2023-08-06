@@ -1,0 +1,147 @@
+# The Calculator Package
+
+## Table of contents
+
+* Summary
+* Requirements
+* Installation
+* Usage
+* License
+
+## Summary
+
+This package contains a class Calculator which allows to perform basic mathematical operations
+while saving the obtained result in memory for further calculations.
+
+It includes methods for the following operations:
+
+* Addition / Subtraction
+* Multiplication / Division
+* Take (n) root of a number
+* Reset memory
+
+## Requirements
+
+* Python 3.6 or newer
+
+## Installation
+
+To install the package:
+
+```bash
+pip install gkamin-calculator
+```
+
+## Usage
+
+This section will detail all the methods that can be called for the created object Calculator.
+
+### Creating the calculator object
+
+When the calculator object is created, the initial value it stores is equal to zero:
+
+```bash
+>>>> calc = Calculator() 
+>>>> print(calc.result)
+0
+```
+
+Initial value can be changed by using optional input parameter:
+
+```bash
+>>>> calc = Calculator(10.05)
+>>>> print(calc.result)
+10.05
+```
+
+### Addition method
+
+**.add(addend)** - this method adds input value to last stored result.
+Initially to 0:
+
+```bash
+>>>>calc = Calculator()
+>>>>calc.add(2)
+>>>>print(calc.result)
+2
+```
+
+```bash
+>>>>print(calc.result)
+2
+>>>>calc.add(3)
+>>>>print(calc.result)
+5
+```
+
+### Subtraction method
+
+**.subtract(subtrahend)** - this method subtracts input value from last stored result:
+
+```bash
+>>>>print(calc.result)
+5
+>>>>calc.subtract(1)
+>>>>print(calc.result)
+4
+```
+
+### Multiplication method
+
+**.multiply(multiplier)** - this method multiplies input value by last stored result:
+
+```bash
+>>>>print(calc.result)
+4
+>>>>calc.multiply(4)
+>>>>print(calc.result)
+16
+```
+
+### Division method
+
+**.divide(divisor)** - this method divides last stored result by input value:
+
+```bash
+>>>>print(calc.result)
+16
+>>>>calc.divide(2)
+>>>>print(calc.result)
+8
+```
+
+### Root method
+
+**.root(degree_of_root)** - this method extracts n-th root from last stored result, where n is degree of root.
+
+```bash
+>>>>print(calc.result)
+8
+>>>>calc.root(3)
+>>>>print(calc.result)
+2
+```
+
+**.root(degree_of_root, radicand)** - if this is the first operation performed (initially radicand is equal to 0),
+optional input value to be used to set required radicand value:
+
+```bash
+>>>>calc = Calculator()
+>>>>calc.root(4,64)
+>>>>print(calc.result)
+4
+```
+
+## Reset method
+
+**.reset(self)** - this method resets the last stored result to zero:
+
+```bash
+>>>>calc.reset()
+>>>>print(calc.result)
+0
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE.txt for details.
