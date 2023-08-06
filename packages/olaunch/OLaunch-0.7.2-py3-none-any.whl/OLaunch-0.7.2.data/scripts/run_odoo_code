@@ -1,0 +1,28 @@
+#!python
+import os
+import argparse
+import importlib.util
+from olaunch import get_odoo_env
+
+argParser = argparse.ArgumentParser()
+argParser.add_argument("files", nargs="+", help="Python file(s) to execute")
+argParser.add_argument("-c", "--odoo-config-file", help="Odoo config file", required=True)
+argParser.add_argument("-d", "--db-name", help="Odoo database name", required=True)
+argParser.add_argument("-o", "--odoo-dir", help="Odoo directory")
+args = argParser.parse_args()
+
+
+with get_odoo_env(
+    odoo_config_file=args.odoo_config_file,
+    db_name=args.db_name,
+    odoo_dir=args.odoo_dir,
+) as env:
+    for file in args.files:
+        filename = os.path.join(os.getcwd(), file)
+        spec = importlib.util.spec_from_file_location(
+            os.path.splitext(os.path.basename(filename))[0],
+            filename,
+        )
+        module = importlib.util.module_from_spec(spec)
+        module.env = env
+        spec.loader.exec_module(module)
