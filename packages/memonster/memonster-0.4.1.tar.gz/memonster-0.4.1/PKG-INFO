@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: memonster
+Version: 0.4.1
+Summary: Python memory thing
+Home-page: https://github.com/SirOlaf/memonster
+License: MIT
+Author: SirOlaf
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/SirOlaf/memonster
+Description-Content-Type: text/markdown
+
+
