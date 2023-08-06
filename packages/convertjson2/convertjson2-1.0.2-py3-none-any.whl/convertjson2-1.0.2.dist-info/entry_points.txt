@@ -1,0 +1,2 @@
+[console_scripts]
+convert2 = convertjson2.convertjson2:plot_hierarchy
