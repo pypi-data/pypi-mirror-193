@@ -1,0 +1,13 @@
+remote_cmder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remote_cmder/__main__.py,sha256=5jJg_JaIEERcyB_qxTSjD7cMlR4iBwlkLHBaWJbBd6U,65
+remote_cmder/cli.py,sha256=8-s_oygTea8SmnJdGXLbvUEbe5hSo9Q4q4bckqFQjJ0,957
+remote_cmder/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remote_cmder/modules/cmder.py,sha256=GlsuI62J_402JrL8br3jk-VI_ATZrqEjJwywkNp6fhc,415
+remote_cmder/modules/server.py,sha256=yC0FsTXvy_iVfysCGV79TNMvYaLj4MKqBmjZV0VjO9k,2999
+remote_cmder/settings/__init__.py,sha256=xPvjlisdj3vstNVW6pw8KL0jY_6ZkFfxJaXamQ0lGOI,73
+remote_cmder/settings/logger.py,sha256=IgYWFWHceeQ1mTu5dRpQIV9Mb7uWEWtC-hwyCaICr4Q,715
+remote_cmder-0.0.4.dist-info/METADATA,sha256=fYO0bDYhbw6sHz8p-jU7E9I-SQgzd97vo7WMo9ZZxuk,1278
+remote_cmder-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+remote_cmder-0.0.4.dist-info/entry_points.txt,sha256=a6Z0uHjVHEvu0UrEAsuPaFQ07eXoKzvNqyAg3eO72wU,55
+remote_cmder-0.0.4.dist-info/top_level.txt,sha256=jVQmlKTTd26hNwwxNf6ZmUTaCnjSeFNefIE-WctpAYE,13
+remote_cmder-0.0.4.dist-info/RECORD,,
