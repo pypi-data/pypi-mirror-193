@@ -1,0 +1,10 @@
+colorama
+gnureadline
+click
+pyfiglet
+cookiecutter
+pyyaml
+tomlkit
+deepmerge
+gitpython
+pydriller
