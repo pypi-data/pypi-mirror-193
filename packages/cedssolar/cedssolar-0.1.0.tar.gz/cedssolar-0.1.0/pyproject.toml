@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "cedssolar"
+version = "0.1.0"
+description = "A python package to differentially privately infer solar metadata information"
+authors = ["Nikhil Ravi <nr337@cornell.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+SQLAlchemy = "^2.0.4"
+matplotlib = "^3.7.0"
+plotly = "^5.13.0"
+pytz = "^2022.7.1"
+pvlib = "^0.9.4"
+tqdm = "^4.64.1"
+multiprocess = "^0.70.14"
+python-dotenv = "^0.21.1"
+nbformat = "^4.2.0"
+pydantic = "^1.10.5"
+pandas-dataclasses = "^0.11.0"
+nrel-pysam = "3.0.0"
+scikit-learn = "^1.2.1"
+psycopg2 = "^2.9.5"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.21.2"
+black = "^23.1.0"
+flake8 = "^6.0.0"
+
+
+[tool.poetry.group.dashboard.dependencies]
+streamlit = "^1.18.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
