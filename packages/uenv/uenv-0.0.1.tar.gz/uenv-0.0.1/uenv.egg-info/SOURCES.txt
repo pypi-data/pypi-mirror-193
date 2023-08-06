@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+uenv.py
+uenv.egg-info/PKG-INFO
+uenv.egg-info/SOURCES.txt
+uenv.egg-info/dependency_links.txt
+uenv.egg-info/top_level.txt
