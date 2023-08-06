@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+spiritlong.egg-info/PKG-INFO
+spiritlong.egg-info/SOURCES.txt
+spiritlong.egg-info/dependency_links.txt
+spiritlong.egg-info/requires.txt
+spiritlong.egg-info/top_level.txt
