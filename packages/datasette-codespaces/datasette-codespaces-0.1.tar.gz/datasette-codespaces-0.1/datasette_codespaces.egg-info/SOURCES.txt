@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+datasette_codespaces/__init__.py
+datasette_codespaces.egg-info/PKG-INFO
+datasette_codespaces.egg-info/SOURCES.txt
+datasette_codespaces.egg-info/dependency_links.txt
+datasette_codespaces.egg-info/entry_points.txt
+datasette_codespaces.egg-info/requires.txt
+datasette_codespaces.egg-info/top_level.txt
+tests/test_codespaces.py

@@ -1,0 +1,6 @@
+datasette
+datasette-x-forwarded-host
+
+[test]
+pytest
+pytest-asyncio
