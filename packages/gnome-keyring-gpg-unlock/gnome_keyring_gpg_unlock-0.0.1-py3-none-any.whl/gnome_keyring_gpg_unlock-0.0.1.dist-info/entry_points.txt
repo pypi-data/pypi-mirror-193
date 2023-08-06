@@ -1,0 +1,2 @@
+[console_scripts]
+gnome-keyring-gpg-unlock = gnome_keyring_gpg_unlock.bin.console:main
