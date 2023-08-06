@@ -1,0 +1,5 @@
+setup.py
+fma_django.egg-info/PKG-INFO
+fma_django.egg-info/SOURCES.txt
+fma_django.egg-info/dependency_links.txt
+fma_django.egg-info/top_level.txt
