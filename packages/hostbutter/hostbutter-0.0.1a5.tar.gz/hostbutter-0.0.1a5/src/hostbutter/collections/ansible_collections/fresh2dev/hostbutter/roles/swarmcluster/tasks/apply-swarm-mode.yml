@@ -1,0 +1,103 @@
+---
+
+- name: register swarm state; wait for pending
+  command: >
+    docker info
+    --format {% raw %}"{{ .Swarm.LocalNodeState }}"{% endraw %}
+  register: swarm_state
+  until: swarm_state.stdout != 'pending'
+  delay: 5
+  retries: 3
+  changed_when: false
+
+- name: fail if in error state
+  fail:
+  when: swarm_state.stdout == 'error'
+
+- name: register swarm managers
+  command: >
+    docker info
+    --format {% raw %}"{{ .Swarm.ControlAvailable }}"{% endraw %}
+  register: is_manager
+  changed_when: false
+
+- name: declare first swarm manager address
+  set_fact:
+    swarm_mgr_addr: "{{ hostvars[inventory_hostname]['ansible_' + docker_swarm_interface]['ipv4']['address'] }}:{{ docker_swarm_port }}"
+  when: >
+    ansible_hostname == groups['docker_swarm_manager'][0]
+
+- name: distribute first swarm manager address
+  set_fact:
+    swarm_mgr_addr: "{{ hostvars[groups['docker_swarm_manager'][0]]['swarm_mgr_addr'] }}"
+  when: >
+    ansible_hostname != groups['docker_swarm_manager'][0]
+
+- name: init first manager
+  command: >
+    docker swarm init
+    --listen-addr {{ docker_swarm_ip }}:{{ docker_swarm_port }}
+    --advertise-addr {{ docker_swarm_ip }}:{{ docker_swarm_port }}
+  when: >
+    swarm_state.stdout != 'active'
+    and ansible_hostname == groups['docker_swarm_manager'][0]
+
+- name: get manager join-token
+  command: >
+    docker swarm join-token -q manager
+  register: docker_manager_token
+  delegate_to: "{{ groups['docker_swarm_manager'][0] }}"
+  delegate_facts: true
+  when: &when_new_manager >
+    swarm_state.stdout != 'active'
+    and 'docker_swarm_manager' in group_names
+    and ansible_hostname != groups['docker_swarm_manager'][0]
+  changed_when: false
+
+- name: get worker join-token
+  command: >
+    docker swarm join-token -q worker
+  register: docker_worker_token
+  delegate_to: "{{ groups['docker_swarm_manager'][0] }}"
+  delegate_facts: true
+  when: &when_new_worker >
+    swarm_state.stdout != 'active'
+    and 'docker_swarm_manager' not in group_names
+  changed_when: false
+
+- name: join new manager nodes
+  command: >
+    docker swarm join
+      --listen-addr {{ docker_swarm_ip }}:{{ docker_swarm_port }}
+      --advertise-addr {{ docker_swarm_ip }}:{{ docker_swarm_port }}
+      --token "{{ docker_manager_token.stdout }}"
+      {{ swarm_mgr_addr }}
+  when: *when_new_manager
+
+- name: promote existing workers
+  command: >
+    docker node promote {{ ansible_fqdn|lower }}
+  delegate_to: "{{ groups['docker_swarm_manager'][0] }}"
+  delegate_facts: true
+  when: >
+    swarm_state.stdout == 'active'
+    and is_manager.stdout == 'false'
+    and 'docker_swarm_manager' in group_names
+
+- name: demote existing managers
+  throttle: 1
+  command: >
+    docker node demote {{ ansible_fqdn|lower }}
+  delegate_to: "{{ groups['docker_swarm_manager'][0] }}"
+  delegate_facts: true
+  when: >
+    swarm_state.stdout == 'active'
+    and is_manager.stdout == 'true'
+    and 'docker_swarm_manager' not in group_names
+
+- name: join new worker nodes
+  command: >
+    docker swarm join
+    --token "{{ docker_worker_token.stdout }}"
+    {{ swarm_mgr_addr }}
+  when: *when_new_worker

@@ -1,0 +1,74 @@
+---
+- name: Populate service facts
+  service_facts: {}
+
+- name: ensure service manager is systemd
+  fail:
+    msg: "uh oh: ansible_service_mgr != 'systemd'"
+  when: "ansible_service_mgr != 'systemd'"
+
+- name: install iptables
+  apt:
+    name: iptables
+    state: present
+
+- name: set global firewall rules
+  set_fact:
+    firewall_additional_rules: "{{ firewall_additional_rules + firewall_rules }}"
+
+- name: set manager firewall rules
+  set_fact:
+    firewall_additional_rules: "{{ firewall_additional_rules + firewall_rules_manager }}"
+  when: "'docker_swarm_manager' in group_names"
+
+- name: set proxy firewall rules
+  set_fact:
+    firewall_additional_rules: "{{ firewall_additional_rules + firewall_rules_proxy }}"
+  when: "swarm_labels is defined and 'proxy' in swarm_labels"
+
+- name: set nfs firewall rules
+  set_fact:
+    firewall_additional_rules: "{{ firewall_additional_rules + firewall_rules_nfs }}"
+  when: >
+    nfs_exports is defined
+    and nfs_exports | length > 0
+
+- name: set dns firewall rules
+  set_fact:
+    firewall_additional_rules: "{{ firewall_additional_rules + firewall_rules_dns }}"
+  when: "swarm_labels is defined and 'dns' in swarm_labels"
+
+- name: copy firewall script
+  template:
+    src: firewall.bash.j2
+    dest: /etc/firewall.bash
+    owner: root
+    group: root
+    mode: 0744
+  notify: reset iptables
+
+- name: copy systemd unit file for firewall service
+  template:
+    src: firewall.unit.j2
+    dest: /etc/systemd/system/firewall.service
+    owner: root
+    group: root
+    mode: 0644
+
+- name: reset iptables when rules change
+  meta: flush_handlers
+
+- name: enable and start firewall
+  service:
+    name: firewall
+    state: "{{ firewall_state }}"
+    enabled: "{{ firewall_enabled_at_boot }}"
+
+- name: disable ufw
+  service:
+    name: ufw
+    state: stopped
+    enabled: false
+  when: >
+    firewall_disable_ufw
+    and ansible_facts.services["ufw.service"] is defined

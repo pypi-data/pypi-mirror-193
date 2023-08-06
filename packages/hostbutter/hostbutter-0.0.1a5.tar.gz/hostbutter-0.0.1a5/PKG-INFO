@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: hostbutter
+Version: 0.0.1a5
+Summary: WIP
+Home-page: https://codeberg.org/Fresh2dev/hostbutter
+Author: Donald Mellenbruch
+Author-email: hello@Fresh2.dev
+Project-URL: Repository, https://codeberg.org/Fresh2dev/hostbutter
+Project-URL: Documentation, https://www.Fresh2.dev/code/r/hostbutter/i
+Project-URL: License, https://www.Fresh2.dev/code/r/hostbutter/i/license
+Project-URL: Issues, https://codeberg.org/Fresh2dev/hostbutter/issues
+Project-URL: Funding, https://www.Fresh2.dev/funding
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: docs
+Provides-Extra: dev
+Provides-Extra: tests
+License-File: LICENSE
+
+
+> # TODO: permit functionality when context=default; e.g., when run from manager leader.
+
+```
+PYTHONPATH=src python -m hostbutter swarm setup -i /path/to/inventory.yml
+```
+
+# hostbutter
+
+![](https://img.fresh2.dev/fresh2dev.svg)
+
+|               |                           |
+| ------------- | ------------------------- |
+| Code Repo     | https://codeberg.org/Fresh2dev/hostbutter              |
+| Mirror Repo   | https://www.Fresh2.dev/code/r/hostbutter           |
+| Funding       | https://www.Fresh2.dev/funding           |
+hostbutter is <_>. I created hostbutter to <_>. This is valuable because <_>.
+
+hostbutter is similar to/inspired by <_>, <_>, <_>. The distinguishing feature of hostbutter its ability to <_>.
+
+To learn more, [read the docs]() and find examples in the page of [**recipes**](https://www.Fresh2.dev/code/r/hostbutter/i/recipes).
+
+If this project delivers value to you, I ask that you [provide feedback](https://codeberg.org/Fresh2dev/hostbutter/issues), code contributions, and/or [funding](https://www.Fresh2.dev/funding).
+
+See my other projects @ https://www.Fresh2.dev/projects.
+
+---

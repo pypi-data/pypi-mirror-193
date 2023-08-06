@@ -1,0 +1,50 @@
+---
+- name: set fully-qualified hostname
+  set_fact:
+    context_name: "{{ inventory_hostname + '.' + domain }}"
+
+- name: check docker contexts
+  command: env -u DOCKER_CONTEXT docker context ls -q
+  delegate_to: 127.0.0.1
+  delegate_facts: true
+  become: false
+  register: result
+  changed_when: false
+
+- name: create docker contexts
+  command: env -u DOCKER_CONTEXT docker context create {{ context_name }} --docker host='ssh://{{ ansible_user | default(ansible_user_id) }}@{{ ansible_host }}:{{ ansible_port }}'
+  delegate_to: 127.0.0.1
+  delegate_facts: true
+  become: false
+  when: "context_name not in result.stdout_lines"
+
+- name: update docker contexts
+  command: env -u DOCKER_CONTEXT docker context update {{ context_name }} --docker host='ssh://{{ ansible_user | default(ansible_user_id) }}@{{ ansible_host }}:{{ ansible_port }}'
+  delegate_to: 127.0.0.1
+  delegate_facts: true
+  become: false
+  changed_when: false
+  when: "context_name in result.stdout_lines"
+
+- name: create domain docker context
+  command: env -u DOCKER_CONTEXT docker context create {{ domain }} --docker host='ssh://{{ ansible_user | default(ansible_user_id) }}@{{ ansible_host }}:{{ ansible_port }}'
+  delegate_to: 127.0.0.1
+  delegate_facts: true
+  become: false
+  when: >
+    ansible_hostname == groups['docker_swarm_manager'][0]
+    and domain is defined
+    and domain | length > 0
+    and domain not in result.stdout_lines
+
+- name: update domain docker context
+  command: env -u DOCKER_CONTEXT docker context update {{ domain }} --docker host='ssh://{{ ansible_user | default(ansible_user_id) }}@{{ ansible_host }}:{{ ansible_port }}'
+  delegate_to: 127.0.0.1
+  delegate_facts: true
+  become: false
+  changed_when: false
+  when: >
+    ansible_hostname == groups['docker_swarm_manager'][0]
+    and domain is defined
+    and domain | length > 0
+    and domain in result.stdout_lines

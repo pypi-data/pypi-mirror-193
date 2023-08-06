@@ -1,0 +1,26 @@
+---
+- name: get labels
+  command: >
+    docker inspect
+    --format {% raw %}'{{ range $key, $value := .Spec.Labels }}{{ printf "%s\n" $key }}{{ end }}'{% endraw %}
+    {{ ansible_hostname|lower + '.' + domain }}
+  register: result
+  delegate_to: "{{ groups['docker_swarm_manager'][0] }}"
+  delegate_facts: true
+  changed_when: false
+
+- name: remove labels
+  command: >
+    docker node update --label-rm {{ item }} {{ ansible_hostname|lower + '.' + domain }}
+  when: swarm_labels is defined and item not in swarm_labels
+  delegate_to: "{{ groups['docker_swarm_manager'][0] }}"
+  delegate_facts: true
+  loop: "{{ result.stdout_lines }}"
+
+- name: add labels
+  command: >
+    docker node update --label-add {{ item }}=true {{ ansible_hostname|lower + '.' + domain }}
+  when: item not in result.stdout_lines
+  delegate_to: "{{ groups['docker_swarm_manager'][0] }}"
+  delegate_facts: true
+  loop: "{{ swarm_labels | default([]) }}"

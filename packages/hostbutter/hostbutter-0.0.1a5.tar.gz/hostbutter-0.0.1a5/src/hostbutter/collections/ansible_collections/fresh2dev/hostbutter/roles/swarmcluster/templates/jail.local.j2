@@ -1,0 +1,8 @@
+[sshd]
+enabled = true
+port    = {{ ansible_port }}
+filter  = sshd
+maxretry = {{ fail2ban_maxretry | default('3', true) }}
+findtime = {{ fail2ban_findtime | default('60', true) }}
+bantime = {{ fail2ban_bantime | default('180', true) }}
+ignoreip = 127.0.0.1

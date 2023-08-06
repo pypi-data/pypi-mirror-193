@@ -1,0 +1,15 @@
+---
+- name: upgrade swarm
+  hosts: docker_swarm
+  become: true
+  vars_prompt:
+    - name: upgrade_method
+      prompt: 'upgrade method ("safe" or "full")'
+      default: "safe"
+      private: false
+      confirm: false
+  tasks:
+    - name: upgrade dist
+      apt:
+        update_cache: true
+        upgrade: '{{ upgrade_method }}'

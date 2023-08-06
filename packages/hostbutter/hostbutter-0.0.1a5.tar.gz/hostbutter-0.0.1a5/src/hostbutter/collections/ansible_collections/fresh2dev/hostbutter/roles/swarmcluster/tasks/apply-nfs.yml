@@ -1,0 +1,14 @@
+- name: apply nfs configs
+  include_role:
+    name: geerlingguy.nfs
+  when: >
+    nfs_exports is defined
+    and nfs_exports | length > 0
+
+- name: remove nfs config if no exports
+  file:
+    path: /etc/exports
+    state: absent
+  when: >
+    nfs_exports is not defined
+    or nfs_exports | length == 0
