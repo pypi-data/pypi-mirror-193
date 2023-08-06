@@ -1,0 +1,5 @@
+stimugenerator/tinkerStimGui.py
+data/
+dist/
+.DS_Store
+*.png
