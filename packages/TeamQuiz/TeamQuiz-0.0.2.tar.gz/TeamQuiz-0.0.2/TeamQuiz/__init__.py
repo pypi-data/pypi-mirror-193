@@ -1,0 +1,1 @@
+from .teamquiz import Quiz
