@@ -1,0 +1,5 @@
+docker_pyo3-0.1.0.dist-info/METADATA,sha256=7J6TbKgIlD3UBBtsEu0vXFXezWCaHfTq4NINPGcNHUc,544
+docker_pyo3-0.1.0.dist-info/WHEEL,sha256=onBHOvLyI5HKV1w7j2optrNqWbpJU4HynwsdWes0rfg,130
+docker_pyo3/__init__.py,sha256=wQH6SjVYI-kk-D3n2a5z3RgzCsgAM9CCEGn49gl31KQ,127
+docker_pyo3/docker_pyo3.cpython-38-powerpc64le-linux-gnu.so,sha256=Gy0rdSg5WQHgbt6Zq01uYvKPysx61RlM41nErTucBnk,11610544
+docker_pyo3-0.1.0.dist-info/RECORD,,
