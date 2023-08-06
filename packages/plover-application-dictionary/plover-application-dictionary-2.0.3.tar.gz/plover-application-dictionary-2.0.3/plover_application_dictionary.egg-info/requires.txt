@@ -1,0 +1,2 @@
+plover>=4.0.0dev12
+plover-application-controls>=1.2.0

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+plover_application_dictionary/__init__.py
+plover_application_dictionary/multiple.py
+plover_application_dictionary/single.py
+plover_application_dictionary.egg-info/PKG-INFO
+plover_application_dictionary.egg-info/SOURCES.txt
+plover_application_dictionary.egg-info/dependency_links.txt
+plover_application_dictionary.egg-info/entry_points.txt
+plover_application_dictionary.egg-info/requires.txt
+plover_application_dictionary.egg-info/top_level.txt
+plover_application_dictionary.egg-info/zip-safe
