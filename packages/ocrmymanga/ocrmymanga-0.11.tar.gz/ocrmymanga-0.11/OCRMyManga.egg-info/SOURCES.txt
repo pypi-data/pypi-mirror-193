@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+OCRMyManga/__init__.py
+OCRMyManga.egg-info/PKG-INFO
+OCRMyManga.egg-info/SOURCES.txt
+OCRMyManga.egg-info/dependency_links.txt
+OCRMyManga.egg-info/entry_points.txt
+OCRMyManga.egg-info/requires.txt
+OCRMyManga.egg-info/top_level.txt
+ocrmymanga/__init__.py
+ocrmymanga.egg-info/PKG-INFO
+ocrmymanga.egg-info/SOURCES.txt
+ocrmymanga.egg-info/dependency_links.txt
+ocrmymanga.egg-info/entry_points.txt
+ocrmymanga.egg-info/requires.txt
+ocrmymanga.egg-info/top_level.txt
