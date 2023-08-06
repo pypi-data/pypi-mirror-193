@@ -1,0 +1,11 @@
+scikit-learn>=1.1.0
+sentence-transformers
+umap-learn
+pandas
+numpy
+scipy
+simplejson
+statsmodels
+spacy
+matplotlib
+seaborn
