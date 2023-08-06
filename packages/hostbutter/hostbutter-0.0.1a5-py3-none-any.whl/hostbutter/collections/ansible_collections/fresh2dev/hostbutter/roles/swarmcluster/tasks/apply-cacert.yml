@@ -1,0 +1,40 @@
+---
+- name: Check that the root certificate exists
+  local_action: "stat path={{ root_ca_cert }}"
+  register: result
+
+- fail:
+    msg: "file not found: '{{ root_ca_cert }}'"
+  when: not result.stat.exists
+
+- name: "ensure dir exists: ca-certificates"
+  file:
+    path: /usr/local/share/ca-certificates
+    state: directory
+
+- name: copy certificate to ca-certificates
+  copy:
+    src: "{{ root_ca_cert }}"
+    dest: "/usr/local/share/ca-certificates/{{ root_ca_cert | basename }}.crt"
+    force: yes
+  register: result
+
+- name: update CA trust
+  command: update-ca-certificates
+  when: result.changed
+
+- name: set image registry fact
+  set_fact:
+    image_registry_host: "{{ image_registry_subdomain }}.{{ domain }}"
+
+- name: ensure destination dir exists
+  file:
+    path: "/etc/docker/certs.d/{{ image_registry_host }}"
+    state: directory
+
+- name: copy certificate to certs.d of image registry
+  copy:
+    src: "{{ root_ca_cert }}"
+    dest: "/etc/docker/certs.d/{{ image_registry_host }}/{{ root_ca_cert | basename }}.crt"
+    force: yes
+  register: result

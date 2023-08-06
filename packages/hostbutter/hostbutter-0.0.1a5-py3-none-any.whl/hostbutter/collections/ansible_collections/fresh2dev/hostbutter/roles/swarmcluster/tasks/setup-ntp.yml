@@ -1,0 +1,16 @@
+---
+- name: remove ntp
+  apt:
+    name: ntp
+    state: absent
+
+- name: setup timesyncd
+  include_role:
+    name: stuvusit.systemd-timesyncd
+  ignore_errors: true
+
+- name: verify ntp active
+  shell: 'timedatectl status | grep -q "NTP service: active"'
+  register: result
+  failed_when: result.rc != 0
+  changed_when: false

@@ -1,0 +1,12 @@
+---
+- name: check for networks
+  command: docker network ls --filter driver=overlay --format '{{ '{{' }} .Name {{ '}}' }}'
+  register: result
+  changed_when: false
+
+- name: create overlay networks
+  command: docker network create -d overlay "{{ item }}"
+  when: >
+    "stdout_lines" in result
+    and item not in result.stdout_lines
+  loop: "{{ docker_swarm_networks }}"
