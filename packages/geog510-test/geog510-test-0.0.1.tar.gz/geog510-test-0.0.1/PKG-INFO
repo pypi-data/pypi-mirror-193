@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: geog510-test
+Version: 0.0.1
+Summary: test for course Geog510
+Home-page: https://github.com/Feng96/geog510-test
+Author: Yinan Feng
+Author-email: 1041267458@qq.com
+License: MIT license
+Keywords: geog_test
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geog510-test
+
+
+[![image](https://img.shields.io/pypi/v/geog510-test.svg)](https://pypi.python.org/pypi/geog510-test)
+[![image](https://img.shields.io/conda/vn/conda-forge/geog510-test.svg)](https://anaconda.org/conda-forge/geog510-test)
+
+
+**test for course Geog510**
+
+
+-   Free software: MIT license
+-   Documentation: https://Feng96.github.io/geog510-test
+    
+
+## Features
+
+-   TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.

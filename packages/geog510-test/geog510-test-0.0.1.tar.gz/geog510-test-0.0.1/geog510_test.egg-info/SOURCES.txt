@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geog510_test.egg-info/PKG-INFO
+geog510_test.egg-info/SOURCES.txt
+geog510_test.egg-info/dependency_links.txt
+geog510_test.egg-info/not-zip-safe
+geog510_test.egg-info/top_level.txt
+geog_test/__init__.py
+geog_test/geog_test.py
+tests/test_geog_test.py
