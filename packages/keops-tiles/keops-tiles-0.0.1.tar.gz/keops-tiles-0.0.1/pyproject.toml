@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=59.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keops-tiles"
+version = "0.0.1"
+authors = [
+  { name="Fran Martín", email="fmartinrivas2@gmail.com" },
+]
+description = "CLI tool for custom edition and management of Mapbox Vector Tiles in MBTiles format"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["mbtiles", "python", "vector-tiles"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Click",
+    "mapbox-vector-tile==1.2.1",
+    "protobuf==3.19.4",
+]
+
+[project.scripts]
+keops = "keops.main:main_group"
+
+[project.urls]
+"Homepage" = "https://github.com/fmariv/keops-tiles"
+"Bug Tracker" = "https://github.com/fmariv/keops-tiles/issues"
