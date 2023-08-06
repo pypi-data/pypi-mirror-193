@@ -1,0 +1,15 @@
+numpy
+
+[bcolz-backend]
+bcolz
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-console-scripts
+
+[zarr-backend]
+zarr
